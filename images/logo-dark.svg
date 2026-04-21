@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 56" width="216" height="56" role="img" aria-label="MediaLocalize">
+  <title>MediaLocalize</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3AB5FF"/>
+      <stop offset="100%" stop-color="#0052CC"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="32%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.20)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Icon badge -->
+  <rect width="56" height="56" rx="12.5" fill="url(#bg)"/>
+  <rect width="56" height="56" rx="12.5" fill="url(#gl)"/>
+  <polyline
+    points="11,45 11,11 28,28 45,11 45,45"
+    fill="none"
+    stroke="rgba(255,255,255,0.95)"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Wordmark — white on dark -->
+  <text
+    x="70" y="23"
+    font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+    font-size="18"
+    font-weight="200"
+    fill="#f5f5f7"
+    letter-spacing="-0.5">Media</text>
+  <text
+    x="70" y="47"
+    font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#f5f5f7"
+    letter-spacing="-0.5">Localize</text>
+</svg>

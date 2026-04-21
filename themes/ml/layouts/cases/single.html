@@ -1,0 +1,66 @@
+{{ define "main" }}
+<!-- Case Hero -->
+<section class="section-dark case-hero-header">
+  <div class="container reveal">
+    <p class="section-label">Case Study</p>
+    {{ with .Params.industry }}<span class="case-tag" style="margin-bottom:16px;display:inline-block;">{{ . }}</span>{{ end }}
+    <h1 class="page-hero-title">{{ .Params.domain | default .Title }}</h1>
+    <p class="page-hero-subtitle">{{ .Params.tagline }}</p>
+  </div>
+</section>
+
+<!-- Case Content -->
+<section class="section-light section-pad">
+  <div class="container" style="max-width:800px;">
+
+    <!-- Challenge -->
+    <div class="case-section reveal">
+      <p class="case-section-label">Challenge</p>
+      <h2 class="case-section-title">The Problem</h2>
+      <p class="case-section-body">{{ .Params.challenge }}</p>
+    </div>
+
+    <!-- Solution -->
+    <div class="case-section reveal">
+      <p class="case-section-label">Solution</p>
+      <h2 class="case-section-title">What We Did</h2>
+      <p class="case-section-body">{{ .Params.solution }}</p>
+    </div>
+
+    <!-- Results -->
+    <div class="case-section reveal">
+      <p class="case-section-label">Results</p>
+      <h2 class="case-section-title">The Outcome</h2>
+      <p class="case-section-body">{{ .Params.results_desc }}</p>
+      {{ with .Params.results_metrics }}
+      <div class="case-results-grid mt-32">
+        {{ range . }}
+        <div class="case-result-box reveal">
+          <span class="case-result-value">{{ .value }}</span>
+          <span class="case-result-label">{{ .label }}</span>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Extra content from markdown body -->
+    {{ with .Content }}
+    <div class="case-section reveal body-copy">{{ . }}</div>
+    {{ end }}
+
+  </div>
+</section>
+
+<!-- Next steps CTA -->
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">Ready for results like these?</h2>
+    <p class="subheadline">Let's build your global web presence together.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Start Your Project</a>
+      <a href="/cases/" class="btn btn-secondary-dark">More Case Studies</a>
+    </div>
+  </div>
+</section>
+{{ end }}

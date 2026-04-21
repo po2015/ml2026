@@ -1,0 +1,49 @@
+{{ define "main" }}
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">Services</p>
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div style="max-width:720px;margin:0 auto;" class="reveal">
+      {{ with .Params.intro }}
+      <p class="body-copy color-muted mb-32">{{ . }}</p>
+      {{ end }}
+      <div class="body-copy">{{ .Content }}</div>
+    </div>
+  </div>
+</section>
+
+{{ with .Params.features }}
+<section class="section-white section-pad">
+  <div class="container">
+    <div class="section-intro reveal">
+      <h2 class="section-headline">What's included</h2>
+    </div>
+    <div class="grid-3">
+      {{ range . }}
+      <div class="card reveal">
+        <h3 class="service-card-title mb-8">{{ .title }}</h3>
+        <p class="service-card-body">{{ .desc }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">Interested in this service?</h2>
+    <p class="subheadline">Get a custom quote tailored to your needs.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Get a Quote</a>
+      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">{{ .Section | upper }}</p>
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="grid-2">
+      {{ range .Pages }}
+      <article class="card reveal">
+        <h2 class="service-card-title mb-12">{{ .Title }}</h2>
+        <p class="service-card-body">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-secondary-light btn-sm">Learn more</a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

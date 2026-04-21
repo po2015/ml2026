@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    {{ with .Params.section_label }}<p class="section-label">{{ . }}</p>{{ end }}
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div style="max-width:720px; margin:0 auto;" class="reveal">
+      <div class="body-copy">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

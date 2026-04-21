@@ -1,0 +1,52 @@
+{{ define "main" }}
+<!-- Hero -->
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">Case Studies</p>
+    <h1 class="page-hero-title">Real Results for Real Businesses</h1>
+    <p class="page-hero-subtitle">See how MediaLocalize has helped B2B companies go global with confidence.</p>
+  </div>
+</section>
+
+<!-- Cases Grid -->
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="grid-2">
+      {{ range .Pages }}
+      <article class="case-card reveal">
+        <div class="case-card-header">
+          {{ with .Params.industry }}<span class="case-tag">{{ . }}</span>{{ end }}
+          <h2 class="case-card-domain">{{ .Params.domain | default .Title }}</h2>
+          <p class="case-card-desc">{{ .Summary }}</p>
+        </div>
+        <div class="case-card-body">
+          {{ with .Params.results_short }}
+          <div class="case-result">
+            {{ range . }}
+            <div class="case-result-item">{{ . }}</div>
+            {{ end }}
+          </div>
+          {{ end }}
+          <a href="{{ .Permalink }}" class="case-card-link">
+            Read case study
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">Your success story starts here.</h2>
+    <p class="subheadline">Join 500+ businesses that have gone global with MediaLocalize.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Start Your Project</a>
+      <a href="/services/" class="btn btn-secondary-dark">Explore Services</a>
+    </div>
+  </div>
+</section>
+{{ end }}

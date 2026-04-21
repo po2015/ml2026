@@ -1,0 +1,843 @@
+# ─────────────────────────────────────────────────────────────
+#  MediaLocalize — Company Profile, Pricing & Site Architecture
+#  Brand color: #0071e3  |  Website: medialocalize.com
+# ─────────────────────────────────────────────────────────────
+
+company:
+  name: MediaLocalize
+  domain: medialocalize.com
+  tagline_en: "AI-Powered Websites & Localization"
+  tagline_zh: "AI 驱动的建站与本地化服务"
+  brand_color: "#0071e3"
+
+  description_en: >
+    MediaLocalize is an AI-driven digital services company specializing in
+    two core competencies: end-to-end website creation powered by artificial
+    intelligence, and professional multilingual localization of documents,
+    multimedia, video, and e-learning content. We combine cutting-edge AI
+    technology with human expertise to deliver fast, accurate, and globally
+    ready digital experiences.
+
+  description_zh: >
+    MediaLocalize 是一家 AI 驱动的数字服务公司，专注于两大核心业务：全流程
+    AI 建站服务（含域名、设计、SEO、托管、CDN 及在线客服），以及专业多语言
+    本地化服务（涵盖桌面出版排版、多媒体配音、视频动画本地化及电子课程
+    本地化）。我们将人工智能与人工专业能力结合，为客户交付快速、准确、
+    面向全球市场的数字化内容。
+
+  services:
+    - id: website_building
+      name_en: AI-Powered Website Building
+      name_zh: AI 驱动建站
+      description_en: >
+        Full-service website creation: domain registration, custom design,
+        on-page SEO, managed hosting, CDN acceleration, SSL, business email,
+        live chat, and AI customer service — all in one package.
+      description_zh: >
+        一条龙建站服务：域名申请、网站设计、SEO 优化、内容托管、CDN 加速、
+        SSL 证书、企业邮箱、在线客服及 AI 客服等增值服务，一站式交付。
+      deliverables_en:
+        - Custom-designed website (responsive, mobile-first)
+        - Registered domain (1 year included)
+        - Business email accounts
+        - On-page SEO configuration
+        - SSL certificate
+        - CDN-accelerated global hosting
+        - Analytics dashboard
+      deliverables_zh:
+        - 定制响应式网站（移动优先）
+        - 域名注册（含 1 年费用）
+        - 企业邮箱
+        - 页面 SEO 配置
+        - SSL 证书
+        - CDN 全球加速托管
+        - 数据分析看板
+
+    - id: localization
+      name_en: Localization Services
+      name_zh: 本地化服务
+      sub_services:
+        - id: dtp
+          name_en: Desktop Publishing (DTP)
+          name_zh: 桌面出版排版
+          description_en: >
+            Multilingual typesetting for Word, PowerPoint, FrameMaker, and
+            InDesign source files. Deliverables include localized PDFs and
+            native source files.
+          description_zh: >
+            支持 Word、PPT、FrameMaker、InDesign 等排版软件的多语言排版，
+            交付本地化排版后的 PDF 及源码文件。
+
+        - id: dubbing
+          name_en: Multimedia Dubbing
+          name_zh: 多媒体配音
+          description_en: >
+            English and Chinese voice-over production. Available in AI and
+            human talent options, segmented by gender, age, and style
+            (narration or commercial). Sample auditions provided before
+            production. Deliverables are broadcast-ready audio files.
+          description_zh: >
+            提供英文与中文配音，分 AI 和人工两种方案，按性别、年龄、风格
+            （旁白/广告）细分，制作前提供试听样本，交付可直接播出的录音文件。
+
+        - id: video
+          name_en: Video & Animation Localization
+          name_zh: 视频与动画本地化
+          description_en: >
+            End-to-end localization of video and animation content: subtitle
+            translation, on-screen text replacement, and voice-over dubbing.
+            Deliverables are fully localized video or animation files.
+          description_zh: >
+            视频与动画全流程本地化：字幕翻译、字幕烧录、屏幕文字替换及配音，
+            交付字幕与音频均已本地化的视频或动画文件。
+
+        - id: elearning
+          name_en: E-Learning Localization
+          name_zh: 电子课程本地化
+          description_en: >
+            Localization of e-learning courses supporting common authoring
+            formats (SCORM, xAPI, HTML5). Includes text, audio, and
+            interactive element localization, plus local deployment support.
+          description_zh: >
+            支持 SCORM、xAPI、HTML5 等主流课程协议的电子课程本地化，包含
+            文字、音频及交互元素本地化，并提供本地化部署服务。
+
+# ─────────────────────────────────────────────────────────────
+#  PRICING
+# ─────────────────────────────────────────────────────────────
+
+pricing:
+
+  # ── Website Building Packages (Annual Subscription) ────────
+  website_building:
+    billing_cycle: annual
+    currency: USD
+    note_zh: >
+      所有套餐均按年付费，含一年续费价格。域名续费费用按市价另计。
+    packages:
+      - id: starter
+        name_en: Starter
+        name_zh: 入门版
+        price_usd: 199
+        price_display: "$199 / year"
+        tagline_en: "Everything you need to go live"
+        tagline_zh: "快速上线的基础配置"
+        includes:
+          - domain: 1 custom domain (1-year registration included)
+          - email: 1 business email (5 GB mailbox)
+          - pages: 1-page website (hero + services + contact)
+          - hosting: Managed hosting with SSL certificate
+          - storage: 5 GB storage
+          - cdn: Basic CDN (regional)
+          - seo: Basic on-page SEO setup
+          - support: Email support (response within 48 h)
+        not_included:
+          - Multi-page navigation
+          - Analytics dashboard
+          - Live chat / AI customer service
+          - CDN global acceleration
+
+      - id: growth
+        name_en: Growth
+        name_zh: 成长版
+        price_usd: 499
+        price_display: "$499 / year"
+        tagline_en: "Scale your online presence"
+        tagline_zh: "扩展品牌线上影响力"
+        includes:
+          - domain: 1 custom domain (1-year registration included)
+          - email: 5 business email accounts (10 GB each)
+          - pages: Up to 10 pages
+          - hosting: Managed hosting with SSL certificate
+          - storage: 20 GB storage
+          - cdn: Global CDN acceleration
+          - seo: Advanced SEO (sitemap, meta tags, structured data, Google Search Console integration)
+          - analytics: Analytics dashboard (traffic, bounce rate, top pages)
+          - forms: Contact & lead capture forms
+          - support: Priority email support (response within 24 h)
+        not_included:
+          - Live chat widget
+          - AI customer service bot
+          - Dedicated account manager
+
+      - id: business
+        name_en: Business
+        name_zh: 商业版
+        price_usd: 999
+        price_display: "$999 / year"
+        tagline_en: "Full-featured with AI customer service"
+        tagline_zh: "全功能配置，含 AI 在线客服"
+        includes:
+          - domain: 2 custom domains (1-year registration included each)
+          - email: 20 business email accounts (25 GB each)
+          - pages: Unlimited pages
+          - hosting: Premium managed hosting with SSL certificate
+          - storage: 100 GB storage
+          - cdn: Global CDN with priority routing
+          - seo: Full SEO suite (all Growth features + competitor analysis, monthly SEO report)
+          - analytics: Advanced analytics dashboard + Google Analytics 4 integration
+          - forms: Multi-step forms & CRM lead sync
+          - live_chat: Live chat widget integration
+          - ai_service: AI customer service chatbot (trained on your content)
+          - support: 24/7 priority support + dedicated account manager
+          - report: Monthly website performance report
+        add_ons_available: true
+
+    add_ons:
+      - name_en: Additional Domain
+        name_zh: 附加域名
+        price_usd: 25
+        unit: per domain / year
+
+      - name_en: Additional Business Email
+        name_zh: 附加企业邮箱
+        price_usd: 50
+        unit: per account / year
+
+      - name_en: Multilingual Site (add 1 language)
+        name_zh: 多语言扩展（每增加一种语言）
+        price_usd: 199
+        unit: one-time setup + $99/year hosting
+
+      - name_en: AI Chatbot Training Update
+        name_zh: AI 客服知识库更新
+        price_usd: 99
+        unit: per update session
+
+  # ── Localization Pricing ────────────────────────────────────
+  localization:
+    currency: USD
+    note_zh: >
+      本地化报价基于源文件复杂度，以下为参考区间价格。
+      正式报价请提交文件样本，我们将在 24 小时内回复详细报价。
+
+    dtp:
+      name_en: Desktop Publishing (DTP)
+      name_zh: 桌面出版排版
+      pricing_model: per_source_page
+      pricing_model_zh: 按源文件页数计费
+      tiers:
+        - type_en: Word / PowerPoint (simple layout)
+          type_zh: Word / PPT（简单排版）
+          price_range_usd: "2-3"
+          unit: per page
+          notes_en: "Single-column text, minimal tables, standard fonts"
+
+        - type_en: Word / PowerPoint (complex layout)
+          type_zh: Word / PPT（复杂排版）
+          price_range_usd: "3-5"
+          unit: per page
+          notes_en: "Multi-column, heavy tables, charts, callouts"
+
+        - type_en: FrameMaker / InDesign (standard)
+          type_zh: FrameMaker / InDesign（标准）
+          price_range_usd: "2 – 3"
+          unit: per page
+          notes_en: "Technical manuals, corporate brochures"
+
+        - type_en: FrameMaker / InDesign (complex)
+          type_zh: FrameMaker / InDesign（复杂）
+          price_range_usd: "3 – 5"
+          unit: per page
+          notes_en: "Dense technical content, custom styles, multiple master pages"
+
+      express_surcharge: "40% surcharge for 24-hour turnaround"
+      minimum_order_usd: 40
+
+    dubbing:
+      name_en: Multimedia Dubbing
+      name_zh: 多媒体配音
+      pricing_model: per_finished_minute
+      pricing_model_zh: 按成品时长（分钟）计费
+
+      ai_dubbing:
+        name_en: AI Voice-Over
+        name_zh: AI 配音
+        languages: [English, Chinese (Mandarin)]
+        voices:
+          - gender: Male
+            ages: [Youth (18–30), Middle-aged (30–50), Senior (50+)]
+            styles: [Narration, Commercial]
+          - gender: Female
+            ages: [Youth (18–30), Middle-aged (30–50), Senior (50+)]
+            styles: [Narration, Commercial]
+        price_range_usd: "30 – 60"
+        unit: per finished minute
+        includes:
+          - Script synchronization
+          - Audio normalization & mastering
+          - 2 rounds of revision
+        audition: "Free sample clip before production"
+
+      human_dubbing:
+        name_en: Professional Voice Actor
+        name_zh: 真人专业配音
+        languages: [English, Chinese (Mandarin)]
+        voices:
+          - gender: Male
+            styles: [Narration, Commercial, Documentary]
+          - gender: Female
+            styles: [Narration, Commercial, Documentary]
+        price_range_usd: "100 – 180"
+        unit: per finished minute
+        includes:
+          - Professional studio recording
+          - Script synchronization
+          - Audio mastering
+          - 3 rounds of revision
+        audition: "Free audition from selected voice talents"
+
+      minimum_order_minutes: 3
+
+    video:
+      name_en: Video & Animation Localization
+      name_zh: 视频与动画本地化
+      pricing_model: per_finished_minute
+      pricing_model_zh: 按成品时长（分钟）计费
+      tiers:
+        - service_en: Subtitles only (translation + burn-in)
+          service_zh: 仅字幕（翻译 + 字幕烧录）
+          price_range_usd: "8 – 15"
+          unit: per minute
+
+        - service_en: On-screen text replacement
+          service_zh: 屏幕文字替换
+          price_range_usd: "15 – 30"
+          unit: per minute
+
+        - service_en: AI voice-over + subtitles
+          service_zh: AI 配音 + 字幕
+          price_range_usd: "50 – 90"
+          unit: per minute
+
+        - service_en: Human voice-over + subtitles
+          service_zh: 真人配音 + 字幕
+          price_range_usd: "130 – 220"
+          unit: per minute
+
+        - service_en: Full localization (text + AI audio + video re-export)
+          service_zh: 全流程本地化（文字 + AI 音频 + 视频重导出）
+          price_range_usd: "70 – 120"
+          unit: per minute
+
+      minimum_order_minutes: 5
+      deliverable: "Localized video/animation file (same format as source)"
+
+    elearning:
+      name_en: E-Learning Localization
+      name_zh: 电子课程本地化
+      pricing_model: mixed
+      pricing_model_zh: 混合计费（按字数或按模块）
+      supported_formats:
+        - SCORM 1.2
+        - SCORM 2004
+        - xAPI (Tin Can)
+        - HTML5 (Articulate Storyline, Rise, Adobe Captivate)
+        - cmi5
+      tiers:
+        - service_en: Text-only modules (translation + republish)
+          service_zh: 纯文字模块（翻译 + 重新发布）
+          price_range_usd: "0.12 – 0.18"
+          unit: per source word
+          notes_en: "Simple slides, no interactivity"
+
+        - service_en: Interactive modules (quizzes, branching scenarios)
+          service_zh: 交互模块（测验、分支场景）
+          price_range_usd: "250 – 600"
+          unit: per module
+          notes_en: "Includes interaction re-wiring and testing"
+
+        - service_en: Audio + video within modules
+          service_zh: 含音视频模块
+          price_range_usd: "contact for quote"
+          unit: per course
+          notes_en: "Priced as DTP + dubbing/video combination; submit sample for quote"
+
+        - service_en: LMS deployment (localized course upload & testing)
+          service_zh: LMS 本地化部署（上传 + 测试）
+          price_range_usd: "199 – 499"
+          unit: per deployment
+          notes_en: "Includes QA testing on target LMS platform"
+
+      minimum_order_usd: 200
+      sample_quote_turnaround_h: 24
+
+# ─────────────────────────────────────────────────────────────
+#  CLIENT CASES
+# ─────────────────────────────────────────────────────────────
+
+cases:
+
+  - id: cyrentis
+    slug: cyrentis
+    url: https://cyrentis.com
+    client_en: Cyrentis
+    client_zh: Cyrentis
+    industry_en: Security — Radar Products
+    industry_zh: 安防行业 — 雷达产品
+    services: [website_building]
+    date: 2024-09
+    featured: true
+    tags: [B2B, Security, Hardware, English]
+
+    title_en: "B2B Radar Product Website for Global Security Buyers"
+    title_zh: "面向全球安防采购商的雷达产品 B2B 网站"
+
+    challenge_en: >
+      Cyrentis, a radar security product manufacturer, lacked a professional
+      English-language web presence to reach international B2B buyers in the
+      security and surveillance industry. Their existing channels were limited
+      to domestic trade platforms with no global discoverability.
+    challenge_zh: >
+      Cyrentis 是一家雷达安防产品制造商，缺乏专业的英文网站，难以触达
+      国际安防行业的 B2B 采购商，原有渠道局限于国内平台，全球曝光度极低。
+
+    solution_en: >
+      MediaLocalize designed and built a multi-page B2B product showcase website
+      featuring technical product listings with specification tables, an RFQ
+      (Request for Quote) inquiry system, and CDN-accelerated global hosting.
+      On-page SEO was configured for security-industry search terms in English.
+    solution_zh: >
+      MediaLocalize 为其设计并搭建了多页产品展示网站，包含带参数表格的技术
+      产品列表、RFQ 询价系统，并部署全球 CDN 加速。页面 SEO 针对安防行业
+      英文关键词进行了深度配置。
+
+    results_en:
+      - Professional English B2B presence live within 2 weeks
+      - Indexed by Google within 72 hours of launch
+      - Inbound RFQ inquiries from overseas buyers within first month
+    results_zh:
+      - 2 周内上线专业英文 B2B 网站
+      - 上线 72 小时内被 Google 收录
+      - 首月内收到境外采购商主动询价
+
+  - id: irhubs
+    slug: irhubs
+    url: https://irhubs.com
+    client_en: IRHubs
+    client_zh: IRHubs
+    industry_en: Infrared Technology — Camera Cores
+    industry_zh: 红外技术 — 红外机芯
+    services: [website_building]
+    date: 2024-11
+    featured: true
+    tags: [B2B, Infrared, OEM, Hardware, English]
+
+    title_en: "OEM-Focused B2B Website for Infrared Camera Core Supplier"
+    title_zh: "面向 OEM 客户的红外机芯 B2B 供应商网站"
+
+    challenge_en: >
+      IRHubs, a manufacturer of infrared camera cores for OEM and ODM clients,
+      needed a credible English-language website to compete for international
+      thermal imaging contracts. Technical specifications, certifications, and
+      an efficient inquiry flow were critical requirements.
+    challenge_zh: >
+      IRHubs 是一家为 OEM/ODM 客户供货的红外机芯制造商，需要一个具有专业
+      可信度的英文网站，以便竞争国际热成像采购订单。技术规格、认证资质展示
+      与高效询价流程是核心诉求。
+
+    solution_en: >
+      MediaLocalize built a technical B2B catalog website with structured product
+      pages for each core module, downloadable spec sheets, certification badge
+      display, and a multi-step OEM inquiry form. The site was optimized for
+      thermal imaging and infrared camera search intent in English markets.
+    solution_zh: >
+      MediaLocalize 构建了技术型 B2B 产品目录网站，为每款机芯模块设置结构化
+      产品页，提供规格书下载、认证徽标展示及多步骤 OEM 询价表单。网站针对
+      英文市场热成像及红外摄像头相关搜索意图进行了 SEO 优化。
+
+    results_en:
+      - Complete OEM-ready product catalog live within 3 weeks
+      - Spec sheet downloads averaging 40+ per month post-launch
+      - First OEM inquiry received within 2 weeks of going live
+    results_zh:
+      - 3 周内上线完整 OEM 产品目录站
+      - 上线后规格书月均下载量超 40 次
+      - 上线 2 周内收到首个 OEM 正式询价
+
+# ─────────────────────────────────────────────────────────────
+#  SITE ARCHITECTURE
+# ─────────────────────────────────────────────────────────────
+
+site:
+  languages: [en, zh]
+  default_language: en
+  url_structure: "/{lang}/{page}/"   # e.g. /en/services/ and /zh/services/
+  hugo_theme_note: "Apple-inspired design system (DESIGN.md); bilingual Hugo"
+
+  navigation:
+    primary:
+      - label_en: Home
+        label_zh: 首页
+        path: /
+      - label_en: Services
+        label_zh: 服务
+        path: /services/
+        has_dropdown: true
+      - label_en: Prices
+        label_zh: 价格
+        path: /prices/
+      - label_en: Cases
+        label_zh: 案例
+        path: /cases/
+      - label_en: About
+        label_zh: 关于我们
+        path: /about/
+    utility:
+      - label_en: Contact
+        label_zh: 联系我们
+        path: /contact/
+      - label_en: Blog / News
+        label_zh: 动态
+        path: /news/
+
+  pages:
+    - id: home
+      path: /
+      template: home
+      title_en: "MediaLocalize — AI Websites & Localization"
+      title_zh: "MediaLocalize — AI 建站与本地化"
+      sections:
+        - id: hero
+          type: full_viewport_hero
+          bg: dark (#000000)
+          headline_en: "Go Global. Sound Local."
+          headline_zh: "走向全球，声如本土。"
+          subheadline_en: "AI-powered websites and professional localization — from a single partner."
+          subheadline_zh: "AI 驱动建站与专业本地化，一站式服务。"
+          ctas:
+            - label_en: Explore Services
+              label_zh: 了解服务
+              style: outline_pill
+            - label_en: Get a Quote
+              label_zh: 获取报价
+              style: filled_blue
+
+        - id: services_overview
+          type: alternating_feature_blocks
+          bg: light (#f5f5f7)
+          headline_en: "Two Services, One Partner"
+          headline_zh: "两大业务，一个伙伴"
+          items:
+            - icon: globe
+              title_en: AI Website Building
+              title_zh: AI 建站
+              body_en: "Domain to launch in days. SEO-ready, CDN-accelerated, AI chat included."
+              body_zh: "从域名到上线，数日即达。内置 SEO、CDN 加速及 AI 客服。"
+              link_en: Learn more
+              link_zh: 了解更多
+              link_path: /services/website-building/
+            - icon: translate
+              title_en: Localization Services
+              title_zh: 本地化服务
+              body_en: "Documents, dubbing, video, and e-learning — localized for your global audience."
+              body_zh: "文档、配音、视频与电子课程，面向全球受众精准本地化。"
+              link_en: Learn more
+              link_zh: 了解更多
+              link_path: /services/localization/
+
+        - id: stats
+          type: stat_row
+          bg: dark (#000000)
+          stats:
+            - number: "500+"
+              label_en: Websites Launched
+              label_zh: 网站上线
+            - number: "50+"
+              label_en: Languages Supported
+              label_zh: 支持语言
+            - number: "10,000+"
+              label_en: Pages Localized
+              label_zh: 页面已本地化
+            - number: "99%"
+              label_en: Client Satisfaction
+              label_zh: 客户满意度
+
+        - id: featured_cases
+          type: case_card_grid
+          bg: light (#f5f5f7)
+          headline_en: "Featured Work"
+          headline_zh: "精选案例"
+          count: 3
+          link_en: View all cases
+          link_zh: 查看全部案例
+          link_path: /cases/
+
+        - id: cta_banner
+          type: full_width_cta
+          bg: dark (#000000)
+          headline_en: "Ready to reach the world?"
+          headline_zh: "准备好迈向全球了吗？"
+          ctas:
+            - label_en: Start a Project
+              label_zh: 开始项目
+              style: filled_blue
+            - label_en: Contact Us
+              label_zh: 联系我们
+              style: outline_pill
+
+    - id: services
+      path: /services/
+      template: services_hub
+      title_en: "Services — MediaLocalize"
+      title_zh: "服务 — MediaLocalize"
+      sections:
+        - id: hero
+          type: page_hero
+          bg: light (#f5f5f7)
+          headline_en: "What We Do"
+          headline_zh: "我们的服务"
+
+        - id: website_building
+          type: feature_detail
+          bg: dark (#000000)
+          headline_en: "AI-Powered Website Building"
+          headline_zh: "AI 驱动建站"
+          subsections:
+            - Domain Registration
+            - Custom Design
+            - SEO Optimization
+            - Hosting & CDN
+            - Business Email
+            - AI Customer Service
+
+        - id: localization_overview
+          type: four_column_grid
+          bg: light (#f5f5f7)
+          headline_en: "Localization Services"
+          headline_zh: "本地化服务"
+          cards:
+            - title_en: DTP & Layout
+              title_zh: 排版设计
+              path: /services/localization/dtp/
+            - title_en: Multimedia Dubbing
+              title_zh: 多媒体配音
+              path: /services/localization/dubbing/
+            - title_en: Video Localization
+              title_zh: 视频本地化
+              path: /services/localization/video/
+            - title_en: E-Learning
+              title_zh: 电子课程
+              path: /services/localization/elearning/
+
+      sub_pages:
+        - id: website_building
+          path: /services/website-building/
+          title_en: "AI Website Building — MediaLocalize"
+          title_zh: "AI 建站 — MediaLocalize"
+
+        - id: localization
+          path: /services/localization/
+          title_en: "Localization Services — MediaLocalize"
+          title_zh: "本地化服务 — MediaLocalize"
+          child_pages:
+            - id: dtp
+              path: /services/localization/dtp/
+              title_en: "Desktop Publishing (DTP)"
+              title_zh: "桌面出版排版"
+            - id: dubbing
+              path: /services/localization/dubbing/
+              title_en: "Multimedia Dubbing"
+              title_zh: "多媒体配音"
+            - id: video
+              path: /services/localization/video/
+              title_en: "Video & Animation Localization"
+              title_zh: "视频与动画本地化"
+            - id: elearning
+              path: /services/localization/elearning/
+              title_en: "E-Learning Localization"
+              title_zh: "电子课程本地化"
+
+    - id: prices
+      path: /prices/
+      template: pricing
+      title_en: "Pricing — MediaLocalize"
+      title_zh: "价格 — MediaLocalize"
+      sections:
+        - id: hero
+          type: page_hero
+          bg: light (#f5f5f7)
+          headline_en: "Simple, Transparent Pricing"
+          headline_zh: "清晰透明的价格"
+
+        - id: website_packages
+          type: pricing_table
+          bg: dark (#000000)
+          headline_en: "Website Building Plans"
+          headline_zh: "建站套餐"
+          plans: [starter, growth, business]   # ref: pricing.website_building.packages
+
+        - id: localization_pricing
+          type: pricing_detail_cards
+          bg: light (#f5f5f7)
+          headline_en: "Localization Rates"
+          headline_zh: "本地化收费参考"
+          services: [dtp, dubbing, video, elearning]
+
+        - id: custom_quote
+          type: cta_with_form
+          bg: dark (#000000)
+          headline_en: "Need a custom quote?"
+          headline_zh: "需要定制报价？"
+          body_en: "Upload your files and receive a detailed quote within 24 hours."
+          body_zh: "上传文件，24 小时内收到详细报价。"
+
+    - id: cases
+      path: /cases/
+      template: case_list
+      title_en: "Client Cases — MediaLocalize"
+      title_zh: "客户案例 — MediaLocalize"
+      sections:
+        - id: hero
+          type: page_hero
+          bg: dark (#000000)
+          headline_en: "Real Projects, Real Results"
+          headline_zh: "真实项目，真实成果"
+
+        - id: filter_bar
+          type: filter_tabs
+          bg: light (#f5f5f7)
+          filters:
+            - All / 全部
+            - Website Building / 建站
+            - DTP
+            - Dubbing / 配音
+            - Video / 视频
+            - E-Learning / 电子课程
+
+        - id: case_grid
+          type: masonry_card_grid
+          bg: light (#f5f5f7)
+
+      case_detail:
+        path: /cases/{slug}/
+        template: case_single
+        sections: [hero_image, challenge, solution, result, metrics, testimonial, related_cases]
+
+    - id: about
+      path: /about/
+      template: about
+      title_en: "About MediaLocalize"
+      title_zh: "关于 MediaLocalize"
+      sections:
+        - id: hero
+          type: full_viewport_hero
+          bg: dark (#000000)
+          headline_en: "We Help the World Communicate"
+          headline_zh: "我们让世界更好地沟通"
+
+        - id: mission
+          type: text_block_wide
+          bg: light (#f5f5f7)
+          headline_en: "Our Mission"
+          headline_zh: "我们的使命"
+
+        - id: team
+          type: team_grid
+          bg: light (#f5f5f7)
+          headline_en: "The Team"
+          headline_zh: "团队介绍"
+
+        - id: values
+          type: three_column_icons
+          bg: dark (#000000)
+          headline_en: "Our Values"
+          headline_zh: "我们的价值观"
+          items:
+            - icon: speed
+              title_en: Speed
+              title_zh: 高效
+            - icon: precision
+              title_en: Precision
+              title_zh: 精准
+            - icon: global
+              title_en: Global Mindset
+              title_zh: 全球视野
+
+        - id: partners
+          type: logo_strip
+          bg: light (#f5f5f7)
+          headline_en: "Trusted By"
+          headline_zh: "合作伙伴"
+
+    - id: news
+      path: /news/
+      template: blog_list
+      title_en: "News & Updates — MediaLocalize"
+      title_zh: "动态 — MediaLocalize"
+      note: "Regular content updates; Hugo content type: news"
+      taxonomy:
+        categories: [Company News, Industry Insights, Product Updates, Case Studies]
+        tags: flexible
+      sections:
+        - id: hero
+          type: page_hero
+          bg: light (#f5f5f7)
+          headline_en: "Latest News"
+          headline_zh: "最新动态"
+        - id: article_grid
+          type: blog_card_grid
+          posts_per_page: 12
+          sidebar: false
+
+      article_detail:
+        path: /news/{slug}/
+        template: news_single
+        sections: [article_header, article_body, related_posts, cta_banner]
+
+    - id: contact
+      path: /contact/
+      template: contact
+      title_en: "Contact Us — MediaLocalize"
+      title_zh: "联系我们 — MediaLocalize"
+      sections:
+        - id: hero
+          type: page_hero
+          bg: dark (#000000)
+          headline_en: "Let's Work Together"
+          headline_zh: "期待与您合作"
+
+        - id: contact_form
+          type: split_form
+          bg: light (#f5f5f7)
+          left: contact_info (email, WeChat QR, business hours)
+          right: inquiry_form (name, email, service_type, message, file_upload)
+
+  # ── Hugo content structure ──────────────────────────────────
+  hugo_content_types:
+    - name: news
+      path: content/news/
+      archetype: news
+      fields: [title, date, author, category, tags, summary, thumbnail, body]
+
+    - name: cases
+      path: content/cases/
+      archetype: case
+      fields: [title, date, client, industry, services, challenge, solution, results, images, testimonial]
+
+    - name: services
+      path: content/services/
+      archetype: service
+      fields: [title, icon, short_description, long_description, deliverables, pricing_ref]
+
+  # ── SEO & Performance Notes ─────────────────────────────────
+  seo:
+    sitemap: true
+    robots_txt: true
+    canonical_urls: true
+    structured_data:
+      - Organization
+      - LocalBusiness
+      - Service
+      - Article (news pages)
+    og_meta: true
+    twitter_cards: true
+    hreflang: true   # bilingual en/zh alternate tags
+
+  performance:
+    lazy_load_images: true
+    scroll_reveal_animation: true   # fade-in on scroll (CSS IntersectionObserver)
+    preload_fonts: true
+    minify_css_js: true
+    image_formats: [webp, avif]
+    cdn: global

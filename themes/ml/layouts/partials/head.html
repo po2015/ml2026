@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{- $title := .Title }}
+{{- $desc := .Params.description | default .Site.Params.description | default "AI-powered website building and professional multilingual localization services." }}
+{{- $ogImage := .Params.image | default "/images/og-image.png" }}
+{{- $canonical := .Permalink }}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:image" content="{{ $ogImage | absURL }}">
+<meta property="og:site_name" content="MediaLocalize">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ $canonical }}">
+
+<!-- hreflang -->
+<link rel="alternate" hreflang="en" href="{{ $canonical }}">
+<link rel="alternate" hreflang="zh" href="{{ .Site.BaseURL }}zh/">
+<link rel="alternate" hreflang="x-default" href="{{ $canonical }}">
+
+<!-- CSS via Hugo Pipes -->
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<!-- Structured Data: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MediaLocalize",
+  "url": "https://medialocalize.com",
+  "logo": "https://medialocalize.com/images/logo.svg",
+  "description": "AI-powered website building and professional multilingual localization services.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hello@medialocalize.com",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Chinese"]
+  },
+  "sameAs": []
+}
+</script>
+
+{{- if eq .Section "services" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediaLocalize"
+  },
+  "description": "{{ $desc }}"
+}
+</script>
+{{- end }}
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/images/logo-icon.svg">

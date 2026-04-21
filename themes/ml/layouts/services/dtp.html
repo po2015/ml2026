@@ -1,0 +1,197 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="service-img-hero" style="--hero-img:url('/images/services/dtp.jpg');">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">Localization</p>
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+    <div class="hero-actions" style="margin-top:32px;">
+      <a href="/contact/" class="btn btn-primary">Get a Quote</a>
+      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- Software Grid -->
+<section class="section-white section-pad">
+  <div class="container">
+    <div class="section-intro reveal">
+      <p class="section-label">Supported Software</p>
+      <h2 class="section-headline">Every DTP tool. Every format.</h2>
+      <p class="body-copy color-muted">Our DTP specialists are certified in all major desktop publishing and office applications.</p>
+    </div>
+    <div class="software-grid">
+
+      <div class="software-item reveal reveal-delay-1">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="software-item-name">Adobe InDesign</div>
+        <div class="software-item-ext">.indd · .idml</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-2">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <div class="software-item-name">Adobe FrameMaker</div>
+        <div class="software-item-ext">.fm · .book · .mif</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-3">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        </div>
+        <div class="software-item-name">Microsoft Word</div>
+        <div class="software-item-ext">.docx · .doc · .rtf</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-4">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="software-item-name">PowerPoint</div>
+        <div class="software-item-ext">.pptx · .ppt</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-1">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+        </div>
+        <div class="software-item-name">Microsoft Excel</div>
+        <div class="software-item-ext">.xlsx · .xls · .csv</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-2">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="software-item-name">QuarkXPress</div>
+        <div class="software-item-ext">.qxp · .qxd</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-3">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+        </div>
+        <div class="software-item-name">Adobe Illustrator</div>
+        <div class="software-item-ext">.ai · .eps · .svg</div>
+      </div>
+
+      <div class="software-item reveal reveal-delay-4">
+        <div class="software-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <div class="software-item-name">PDF Reconstruction</div>
+        <div class="software-item-ext">.pdf — any version</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Workflow -->
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="section-intro reveal">
+      <p class="section-label">Workflow</p>
+      <h2 class="section-headline">Our DTP process</h2>
+      <p class="body-copy color-muted">A repeatable five-step process that delivers consistent, print-ready files every time.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <div class="step-title">Source File Analysis</div>
+          <div class="step-desc">We analyse your files for font availability, text expansion/contraction ratios, embedded graphics, and any language-specific issues such as RTL text direction or CJK character spacing before work begins.</div>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <div class="step-title">Translation &amp; Terminology</div>
+          <div class="step-desc">Content is extracted and translated by subject-matter linguists. We apply your existing glossaries and translation memories to ensure consistency with previous publications.</div>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <div class="step-title">DTP Production</div>
+          <div class="step-desc">Translated text is flowed back into the native file. Our DTP operators resolve text overflow, adjust font sizes, reflow callouts and captions, and adapt graphics containing embedded text.</div>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <div class="step-title">DTP Quality Review</div>
+          <div class="step-desc">A separate DTP QA specialist checks every page for overflow, orphaned lines, incorrect hyphenation, font substitution errors, colour profile consistency, and visual alignment with the source layout.</div>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <div class="step-title">Delivery &amp; Preflight</div>
+          <div class="step-desc">Files are packaged with all linked assets and fonts. Print-ready PDFs pass a standard preflight check. We deliver native source files alongside PDFs so you can make future edits independently.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- File Formats & Pricing -->
+<section class="section-white section-pad">
+  <div class="container">
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="reveal">
+        <p class="section-label">Supported Formats</p>
+        <h2 class="section-headline mb-24">Output formats we deliver</h2>
+        <div class="format-tags">
+          <span class="format-tag">.indd</span><span class="format-tag">.idml</span>
+          <span class="format-tag">.fm</span><span class="format-tag">.mif</span>
+          <span class="format-tag">.docx</span><span class="format-tag">.xlsx</span>
+          <span class="format-tag">.pptx</span><span class="format-tag">.qxp</span>
+          <span class="format-tag">.ai</span><span class="format-tag">.eps</span>
+          <span class="format-tag">.svg</span><span class="format-tag">.pdf</span>
+          <span class="format-tag">.pdf/x-1a</span><span class="format-tag">.pdf/x-4</span>
+          <span class="format-tag">.html</span><span class="format-tag">.xml</span>
+          <span class="format-tag">.xliff</span><span class="format-tag">.sdlxliff</span>
+        </div>
+      </div>
+
+      <div style="margin-top:60px;" class="reveal">
+        <p class="section-label">Pricing</p>
+        <h2 class="section-headline mb-24">Simple, transparent rates</h2>
+        <div class="pricing-strip" style="justify-content:flex-start;">
+          <div class="pricing-strip-item" style="text-align:left;min-width:0;flex:1;">
+            <div class="pricing-strip-amount">$2<span style="font-size:16px;font-weight:400;">/page</span></div>
+            <div class="pricing-strip-label">Standard Office Documents<br><span style="font-size:11px;">Word, PowerPoint, Excel</span></div>
+          </div>
+          <div class="pricing-strip-item" style="text-align:left;min-width:0;flex:1;">
+            <div class="pricing-strip-amount">$4<span style="font-size:16px;font-weight:400;">/page</span></div>
+            <div class="pricing-strip-label">Complex Layouts<br><span style="font-size:11px;">InDesign, FrameMaker, QuarkXPress</span></div>
+          </div>
+          <div class="pricing-strip-item" style="text-align:left;min-width:0;flex:1;">
+            <div class="pricing-strip-amount">Custom</div>
+            <div class="pricing-strip-label">PDF Reconstruction<br><span style="font-size:11px;">Quote based on complexity</span></div>
+          </div>
+        </div>
+        <p style="font-size:13px;color:var(--color-gray-mid);margin-top:16px;">Prices are for DTP production only and do not include translation. Volume discounts available for 50+ pages.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">Ready to localize your documents?</h2>
+    <p class="subheadline">Send us your files and we'll provide a page count and fixed quote within 24 hours.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Upload Files &amp; Get a Quote</a>
+      <a href="/services/localization/" class="btn btn-secondary-dark">All Localization Services</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

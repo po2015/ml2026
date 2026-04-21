@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">News</p>
+    <h1 class="page-hero-title">Latest News</h1>
+    <p class="page-hero-subtitle">Updates, insights, and announcements from MediaLocalize.</p>
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    {{ if .Pages }}
+    <div class="grid-2">
+      {{ range .Pages }}
+      <article class="card reveal">
+        {{ with .Params.date }}<p class="caption color-muted mb-8">{{ . | time.Format "January 2, 2006" }}</p>{{ end }}
+        <h2 class="service-card-title mb-12">{{ .Title }}</h2>
+        <p class="service-card-body">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-secondary-light btn-sm">Read more</a>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="text-center reveal" style="padding:80px 0;">
+      <p class="section-headline color-muted mb-16">Coming Soon</p>
+      <p class="body-copy color-muted">News and insights will be published here soon. Stay tuned!</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
