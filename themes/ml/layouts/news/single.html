@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ $cat := .Params.category | default "other" }}
+
+<!-- Article Hero -->
+<section class="article-hero">
+  <div class="container reveal" style="max-width:760px;">
+    <div style="display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:20px;">
+      <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
+      {{ with .Params.date }}<span class="news-date" style="color:rgba(255,255,255,0.5);">{{ . | time.Format "January 2, 2006" }}</span>{{ end }}
+    </div>
+    <h1 style="font-size:clamp(24px,4vw,40px);font-weight:700;color:#fff;line-height:1.25;letter-spacing:-0.5px;margin-bottom:20px;">{{ .Title }}</h1>
+    {{ with .Params.summary }}
+    <p style="font-size:18px;color:rgba(255,255,255,0.6);line-height:1.6;max-width:640px;margin:0 auto;">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Article Body -->
+<div class="article-body reveal">
+  {{ .Content }}
+</div>
+
+<!-- CTA -->
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">Have a project in mind?</h2>
+    <p class="subheadline">We respond to every inquiry within one business day.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Get in Touch</a>
+      <a href="/news/" class="btn btn-secondary-dark">More Articles</a>
+    </div>
+  </div>
+</section>
+{{ end }}

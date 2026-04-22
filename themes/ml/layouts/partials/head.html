@@ -4,11 +4,16 @@
 
 {{- $title := .Title }}
 {{- $desc := .Params.description | default .Site.Params.description | default "AI-powered website building and professional multilingual localization services." }}
-{{- $ogImage := .Params.image | default "/images/og-image.png" }}
+{{- $ogImage := .Params.cover | default .Params.image | default "/images/og-image.png" }}
 {{- $canonical := .Permalink }}
+{{- $locale := cond (eq .Site.Language.Lang "zh") "zh_CN" "en_US" }}
 
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
+<meta name="author" content="MediaLocalize">
+{{- if .Params.keywords }}
+<meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
+{{- end }}
 
 <!-- Open Graph -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
@@ -17,7 +22,7 @@
 <meta property="og:url" content="{{ $canonical }}">
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:site_name" content="MediaLocalize">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{{ $locale }}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
@@ -28,10 +33,12 @@
 <!-- Canonical -->
 <link rel="canonical" href="{{ $canonical }}">
 
-<!-- hreflang -->
+<!-- hreflang: only on pages where a zh equivalent exists (homepage only for now) -->
+{{- if .IsHome }}
 <link rel="alternate" hreflang="en" href="{{ $canonical }}">
 <link rel="alternate" hreflang="zh" href="{{ .Site.BaseURL }}zh/">
 <link rel="alternate" hreflang="x-default" href="{{ $canonical }}">
+{{- end }}
 
 <!-- CSS via Hugo Pipes -->
 {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
@@ -44,19 +51,28 @@
   "@type": "Organization",
   "name": "MediaLocalize",
   "url": "https://medialocalize.com",
-  "logo": "https://medialocalize.com/images/logo.svg",
-  "description": "AI-powered website building and professional multilingual localization services.",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://medialocalize.com/images/og-image.png",
+    "width": 1200,
+    "height": 630
+  },
+  "description": "AI-powered website building and professional multilingual localization services for B2B manufacturers and exporters.",
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "hello@medialocalize.com",
+    "email": "ken.lee@medialocalize.com",
     "contactType": "customer service",
     "availableLanguage": ["English", "Chinese"]
   },
+  "foundingDate": "2010",
+  "areaServed": "Worldwide",
   "sameAs": []
 }
 </script>
 
 {{- if eq .Section "services" }}
+{{- if .IsPage }}
+<!-- Structured Data: Service Page -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,9 +80,92 @@
   "name": "{{ .Title }}",
   "provider": {
     "@type": "Organization",
-    "name": "MediaLocalize"
+    "name": "MediaLocalize",
+    "url": "https://medialocalize.com"
   },
-  "description": "{{ $desc }}"
+  "description": "{{ $desc }}",
+  "url": "{{ $canonical }}"
+}
+</script>
+{{- end }}
+{{- end }}
+
+{{- if eq .Section "news" }}
+{{- if .IsPage }}
+<!-- Structured Data: Blog Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": "{{ $canonical }}",
+  "datePublished": "{{ .Params.date | time.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod | time.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "MediaLocalize",
+    "url": "https://medialocalize.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MediaLocalize",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://medialocalize.com/images/og-image.png"
+    }
+  },
+  "image": "{{ $ogImage | absURL }}",
+  "inLanguage": "en-US",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ $canonical }}"
+  }
+}
+</script>
+{{- end }}
+{{- end }}
+
+{{- if eq .Section "cases" }}
+{{- if .IsPage }}
+<!-- Structured Data: Case Study -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": "{{ $canonical }}",
+  "author": {
+    "@type": "Organization",
+    "name": "MediaLocalize",
+    "url": "https://medialocalize.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MediaLocalize",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://medialocalize.com/images/og-image.png"
+    }
+  },
+  "image": "{{ $ogImage | absURL }}",
+  "inLanguage": "en-US"
+}
+</script>
+{{- end }}
+{{- end }}
+
+{{- if .IsHome }}
+<!-- Structured Data: WebSite (enables Sitelinks Searchbox) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MediaLocalize",
+  "url": "https://medialocalize.com",
+  "description": "{{ $desc }}",
+  "inLanguage": "en-US"
 }
 </script>
 {{- end }}

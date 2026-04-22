@@ -1,31 +1,66 @@
 {{ define "main" }}
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
-    <p class="section-label">News</p>
-    <h1 class="page-hero-title">Latest News</h1>
-    <p class="page-hero-subtitle">Updates, insights, and announcements from MediaLocalize.</p>
+    <p class="section-label">Insights &amp; News</p>
+    <h1 class="page-hero-title">Perspectives on Localization &amp; Global Web</h1>
+    <p class="page-hero-subtitle">Tech deep-dives, industry commentary, and company updates — from the people who do the work.</p>
   </div>
 </section>
 
 <section class="section-light section-pad">
   <div class="container">
     {{ if .Pages }}
-    <div class="grid-2">
-      {{ range .Pages }}
-      <article class="card reveal">
-        {{ with .Params.date }}<p class="caption color-muted mb-8">{{ . | time.Format "January 2, 2006" }}</p>{{ end }}
-        <h2 class="service-card-title mb-12">{{ .Title }}</h2>
-        <p class="service-card-body">{{ .Summary }}</p>
-        <a href="{{ .Permalink }}" class="btn btn-secondary-light btn-sm">Read more</a>
+
+    <div class="case-filter-bar">
+      <button class="case-filter-btn active" data-filter="all">All</button>
+      <button class="case-filter-btn" data-filter="tech">Tech Insights</button>
+      <button class="case-filter-btn" data-filter="industry">Industry</button>
+      <button class="case-filter-btn" data-filter="company">Company</button>
+    </div>
+
+    <div class="news-grid" id="news-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ $cat := .Params.category | default "other" }}
+      <article class="news-card reveal" data-category="{{ $cat }}">
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
+            {{ with .Params.date }}<span class="news-date">{{ . | time.Format "Jan 2, 2006" }}</span>{{ end }}
+          </div>
+          <h2 class="news-card-title">{{ .Title }}</h2>
+          <p class="news-card-summary">{{ .Params.summary | default .Summary }}</p>
+          <a href="{{ .RelPermalink }}" class="news-card-link">
+            Read article
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
       </article>
       {{ end }}
     </div>
+
     {{ else }}
     <div class="text-center reveal" style="padding:80px 0;">
       <p class="section-headline color-muted mb-16">Coming Soon</p>
-      <p class="body-copy color-muted">News and insights will be published here soon. Stay tuned!</p>
+      <p class="body-copy color-muted">Articles and insights will be published here soon.</p>
     </div>
     {{ end }}
   </div>
 </section>
+
+<script>
+(function(){
+  var btns  = document.querySelectorAll('.case-filter-btn');
+  var cards = document.querySelectorAll('#news-grid .news-card');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.dataset.filter;
+      cards.forEach(function(card){
+        card.classList.toggle('hidden', f !== 'all' && card.dataset.category !== f);
+      });
+    });
+  });
+})();
+</script>
 {{ end }}

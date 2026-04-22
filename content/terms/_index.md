@@ -11,11 +11,8 @@ These Terms of Service ("Terms") constitute a legally binding agreement between 
 
 | | |
 |---|---|
-| **Legal entity** | 传媒本地化科技有限公司 (MediaLocalize Technology Co., Ltd.) |
-| **Registered address** | \[Full registered address\] |
-| **Unified Social Credit Code** | \[91XXXXXXXXXXXXXXXXXX\] |
-| **ICP filing** | 京ICP备XXXXXXXX号 |
-| **Value-Added Telecom License** | 京B2-XXXXXXXX |
+| **Legal entity** | MediaLocalize Technology Co., Ltd. |
+| **Registered address** | Wuhan, Hubei, P.R.China |
 | **Business hours** | Monday – Friday, 09:00 – 18:00 CST (UTC+8) |
 | **Contact** | ken.lee@medialocalize.com |
 
@@ -185,7 +182,4 @@ If any provision of these Terms is held invalid or unenforceable, the remaining 
 
 ## 17. Contact
 
-**General enquiries:** hello@medialocalize.com  
-**Legal / compliance:** legal@medialocalize.com  
-**WeChat:** \[Official account / customer service ID\]  
-**Mailing address:** 传媒本地化科技有限公司, \[Full address\], China
+**General enquiries:** info@medialocalize.com  

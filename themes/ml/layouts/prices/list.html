@@ -97,62 +97,81 @@
     <div class="section-intro section-intro-dark reveal">
       <p class="section-label">Localization</p>
       <h2 class="section-headline color-white">Localization Pricing</h2>
-      <p class="body-copy" style="color:rgba(255,255,255,0.6);">Pricing varies by language pair, volume, and complexity. Contact us for a custom quote.</p>
+      <p class="body-copy" style="color:rgba(255,255,255,0.6);">Pricing varies by language pair, volume, and complexity. All rates shown are per-unit starting prices.</p>
     </div>
 
-    <div class="loc-table-wrapper reveal">
-      <table class="loc-table">
-        <thead>
-          <tr>
-            <th>Service</th>
-            <th>Unit</th>
-            <th>Price Range</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Desktop Publishing (DTP)</strong></td>
-            <td>Per page</td>
-            <td class="price-cell">$2 – $5</td>
-            <td>Word, PPT, FrameMaker, InDesign</td>
-          </tr>
-          <tr>
-            <td><strong>AI Dubbing</strong></td>
-            <td>Per finished minute</td>
-            <td class="price-cell">$1 – $2</td>
-            <td>AI voice synthesis, fastest turnaround</td>
-          </tr>
-          <tr>
-            <td><strong>Human Dubbing</strong></td>
-            <td>Per finished minute</td>
-            <td class="price-cell">$20 – $50</td>
-            <td>Professional voice actors, studio quality</td>
-          </tr>
-          <tr>
-            <td><strong>Video Localization</strong></td>
-            <td>Per minute</td>
-            <td class="price-cell">$8 – $220</td>
-            <td>Subtitling, dubbing, on-screen text; varies by type</td>
-          </tr>
-          <tr>
-            <td><strong>E-Learning (Per Word)</strong></td>
-            <td>Per word</td>
-            <td class="price-cell">$0.12 – $0.18</td>
-            <td>Translation &amp; adaptation of course content</td>
-          </tr>
-          <tr>
-            <td><strong>E-Learning (Per Module)</strong></td>
-            <td>Per module</td>
-            <td class="price-cell">$250 – $600</td>
-            <td>Full module localization including media</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="loc-price-grid">
+
+      <!-- DTP -->
+      <div class="loc-price-card reveal reveal-delay-1">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <p class="loc-price-name">Desktop Publishing (DTP)</p>
+        <p class="loc-price-amount">$2 – $5</p>
+        <p class="loc-price-unit">per page</p>
+        <p class="loc-price-desc">Word, PowerPoint, FrameMaker, InDesign. Includes typesetting, font matching, and layout adjustment for target language.</p>
+      </div>
+
+      <!-- AI Dubbing -->
+      <div class="loc-price-card reveal reveal-delay-2">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+        </div>
+        <p class="loc-price-name">AI Dubbing</p>
+        <p class="loc-price-amount">$1 – $2</p>
+        <p class="loc-price-unit">per finished minute</p>
+        <p class="loc-price-desc">AI voice synthesis across 50+ languages. Fastest turnaround — 24 to 72 hours. Ideal for training videos and product demos.</p>
+      </div>
+
+      <!-- Human Dubbing -->
+      <div class="loc-price-card reveal reveal-delay-3">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        </div>
+        <p class="loc-price-name">Human Dubbing</p>
+        <p class="loc-price-amount">$20 – $50</p>
+        <p class="loc-price-unit">per finished minute</p>
+        <p class="loc-price-desc">Professional native-speaking voice actors, studio-quality recording. 3 to 7 business day delivery. Best for premium brand content.</p>
+      </div>
+
+      <!-- Video Localization -->
+      <div class="loc-price-card reveal reveal-delay-1">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <p class="loc-price-name">Video Localization</p>
+        <p class="loc-price-amount">$8 – $220</p>
+        <p class="loc-price-unit">per minute</p>
+        <p class="loc-price-desc">Subtitling, dubbing, and on-screen text replacement. Wide range reflects service tier — subtitles only through full lip-sync dubbing.</p>
+      </div>
+
+      <!-- E-Learning per word -->
+      <div class="loc-price-card reveal reveal-delay-2">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <p class="loc-price-name">E-Learning — Per Word</p>
+        <p class="loc-price-amount">$0.12 – $0.18</p>
+        <p class="loc-price-unit">per source word</p>
+        <p class="loc-price-desc">Translation and cultural adaptation of course text content. Rate varies by language pair complexity and subject matter.</p>
+      </div>
+
+      <!-- E-Learning per module -->
+      <div class="loc-price-card reveal reveal-delay-3">
+        <div class="loc-price-icon">
+          <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <p class="loc-price-name">E-Learning — Per Module</p>
+        <p class="loc-price-amount">$250 – $600</p>
+        <p class="loc-price-unit">per module</p>
+        <p class="loc-price-desc">Full module localization including slide layout, narration script, audio re-recording, and media asset adaptation.</p>
+      </div>
+
     </div>
 
-    <p class="text-center caption reveal" style="max-width:600px;margin:28px auto 0;padding:16px 20px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:10px;color:rgba(255,255,255,0.55);line-height:1.6;">
-      <strong style="color:rgba(255,255,255,0.8);">Minimum order:</strong> All localization services carry a minimum charge of <strong style="color:rgba(255,255,255,0.8);">USD 50</strong> per task, regardless of volume.
+    <p class="text-center caption reveal" style="max-width:600px;margin:32px auto 0;padding:16px 20px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:rgba(255,255,255,0.5);line-height:1.7;">
+      <strong style="color:rgba(255,255,255,0.8);">Minimum order:</strong> All localization services carry a minimum charge of <strong style="color:rgba(255,255,255,0.8);">USD 50</strong> per task, regardless of volume. Volume discounts available from 30 minutes or 10,000 words.
     </p>
   </div>
 </section>

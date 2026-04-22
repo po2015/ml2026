@@ -3,11 +3,25 @@
 <section class="section-dark case-hero-header">
   <div class="container reveal">
     <p class="section-label">Case Study</p>
-    {{ with .Params.industry }}<span class="case-tag" style="margin-bottom:16px;display:inline-block;">{{ . }}</span>{{ end }}
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px;justify-content:center;">
+      {{ with .Params.industry }}<span class="case-tag">{{ . }}</span>{{ end }}
+      {{ with .Params.service_label }}<span class="case-tag" style="background:rgba(52,199,89,0.18);color:#5af59a;">{{ . }}</span>{{ end }}
+    </div>
     <h1 class="page-hero-title">{{ .Params.domain | default .Title }}</h1>
     <p class="page-hero-subtitle">{{ .Params.tagline }}</p>
+    {{ with .Params.website_url }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="case-visit-link" style="display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:13px;font-weight:600;color:rgba(255,255,255,0.7);border:1px solid rgba(255,255,255,0.2);border-radius:980px;padding:7px 18px;text-decoration:none;transition:background 0.2s,color 0.2s;">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      Visit Website
+    </a>
+    {{ end }}
   </div>
 </section>
+{{ with .Params.cover }}
+<div style="width:100%;max-height:420px;overflow:hidden;line-height:0;">
+  <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:420px;object-fit:cover;display:block;">
+</div>
+{{ end }}
 
 <!-- Case Content -->
 <section class="section-light section-pad">

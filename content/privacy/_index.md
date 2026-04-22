@@ -7,16 +7,12 @@ subtitle: "Effective date: 1 May 2025 · Last updated: 20 April 2026"
 
 ## 1. Who We Are
 
-**MediaLocalize** (传媒本地化科技有限公司, "we", "us", or "our") is a technology company registered in the People's Republic of China. We operate the website medialocalize.com and provide AI-powered website building and professional localization services.
+**MediaLocalize** ("we", "us", or "our") is a technology company registered in the People's Republic of China. We operate the website medialocalize.com and provide AI-powered website building and professional localization services.
 
 | | |
 |---|---|
-| **Legal entity** | 传媒本地化科技有限公司 |
-| **Registered address** | \[Full registered address\] |
-| **Unified Social Credit Code** | \[91XXXXXXXXXXXXXXXXXX\] |
-| **ICP filing** | 京ICP备XXXXXXXX号 |
-| **Public security filing** | 京公网安备XXXXXXXXXXXXXXXX号 |
-| **Contact** | privacy@medialocalize.com |
+| **Legal entity** | MediaLocalize |
+| **Contact** | ken.lee@medialocalize.com |
 
 ---
 
@@ -161,8 +157,6 @@ This Policy is governed by the laws of the **People's Republic of China**. Any d
 
 ## 14. Contact
 
-**Privacy inquiries:** privacy@medialocalize.com  
-**Data Protection Officer:** \[Name\], dpo@medialocalize.com  
-**Mailing address:** 传媒本地化科技有限公司, \[Full address\], China
+**Privacy inquiries:** ken.lee@medialocalize.com  
 
 If you believe we have not adequately addressed your concern, you have the right to lodge a complaint with the **Cyberspace Administration of China (CAC)** or the competent supervisory authority in your jurisdiction.
