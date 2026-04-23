@@ -28,9 +28,25 @@ canonifyURLs = false
   logoIconPath = "/images/logo-icon.svg"
   logoDarkPath = "/images/logo-dark.svg"
 
+paginate = 6
+
 [markup.goldmark.renderer]
   unsafe = true
 
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
+
+[related]
+  threshold = 60
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name    = "tags"
+    weight  = 100
+  [[related.indices]]
+    name    = "category"
+    weight  = 70
+  [[related.indices]]
+    name    = "date"
+    weight  = 10

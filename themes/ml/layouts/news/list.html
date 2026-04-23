@@ -2,8 +2,8 @@
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
     <p class="section-label">Insights &amp; News</p>
-    <h1 class="page-hero-title">Perspectives on Localization &amp; Global Web</h1>
-    <p class="page-hero-subtitle">Tech deep-dives, industry commentary, and company updates — from the people who do the work.</p>
+    <h1 class="page-hero-title">Localization Industry Insights &amp; Global Web Trends</h1>
+    <p class="page-hero-subtitle">AI dubbing, multilingual DTP, e-learning localization, and export website best practices — written by the specialists who do the work.</p>
   </div>
 </section>
 
@@ -18,10 +18,17 @@
       <button class="case-filter-btn" data-filter="company">Company</button>
     </div>
 
+    {{- $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+
     <div class="news-grid" id="news-grid">
-      {{ range .Pages.ByDate.Reverse }}
+      {{ range $paginator.Pages }}
       {{ $cat := .Params.category | default "other" }}
       <article class="news-card reveal" data-category="{{ $cat }}">
+        {{ with .Params.cover }}
+        <div class="news-card-cover">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
+        {{ end }}
         <div class="news-card-body">
           <div class="news-card-meta">
             <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
@@ -37,6 +44,51 @@
       </article>
       {{ end }}
     </div>
+
+    {{/* Pagination */}}
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination" aria-label="News pagination">
+
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="pagination-item" aria-label="Previous page">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Prev
+      </a>
+      {{ else }}
+      <span class="pagination-item disabled">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Prev
+      </span>
+      {{ end }}
+
+      {{ range $paginator.Pagers }}
+        {{ if and (ge .PageNumber (sub $paginator.PageNumber 2)) (le .PageNumber (add $paginator.PageNumber 2)) }}
+          <a href="{{ .URL }}" class="pagination-item{{ if eq .PageNumber $paginator.PageNumber }} active{{ end }}" aria-label="Page {{ .PageNumber }}">{{ .PageNumber }}</a>
+        {{ else if or (eq .PageNumber 1) (eq .PageNumber $paginator.TotalPages) }}
+          {{ if and (gt .PageNumber (add $paginator.PageNumber 2)) (not (eq .PageNumber $paginator.TotalPages)) }}
+            {{/* skip, handled by ellipsis */}}
+          {{ else if and (lt .PageNumber (sub $paginator.PageNumber 2)) (not (eq .PageNumber 1)) }}
+            {{/* skip */}}
+          {{ else }}
+            <a href="{{ .URL }}" class="pagination-item{{ if eq .PageNumber $paginator.PageNumber }} active{{ end }}">{{ .PageNumber }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="pagination-item" aria-label="Next page">
+        Next
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+      {{ else }}
+      <span class="pagination-item disabled">
+        Next
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </span>
+      {{ end }}
+
+    </nav>
+    {{ end }}
 
     {{ else }}
     <div class="text-center reveal" style="padding:80px 0;">

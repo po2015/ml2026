@@ -4,21 +4,92 @@
 <!-- Article Hero -->
 <section class="article-hero">
   <div class="container reveal" style="max-width:760px;">
-    <div style="display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:20px;">
+    <div style="display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:16px;flex-wrap:wrap;">
       <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
       {{ with .Params.date }}<span class="news-date" style="color:rgba(255,255,255,0.5);">{{ . | time.Format "January 2, 2006" }}</span>{{ end }}
+      {{ if .ReadingTime }}<span class="article-reading-time">{{ .ReadingTime }} min read</span>{{ end }}
     </div>
+
     <h1 style="font-size:clamp(24px,4vw,40px);font-weight:700;color:#fff;line-height:1.25;letter-spacing:-0.5px;margin-bottom:20px;">{{ .Title }}</h1>
+
     {{ with .Params.summary }}
-    <p style="font-size:18px;color:rgba(255,255,255,0.6);line-height:1.6;max-width:640px;margin:0 auto;">{{ . }}</p>
+    <p style="font-size:18px;color:rgba(255,255,255,0.6);line-height:1.6;max-width:640px;margin:0 auto 0;">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="article-tag-list">
+      {{ range . }}<span class="article-tag">{{ . }}</span>{{ end }}
+    </div>
     {{ end }}
   </div>
 </section>
+
+<!-- Cover image (if set in frontmatter) -->
+{{ with .Params.cover }}
+<div style="max-width:720px;margin:0 auto;padding:40px 22px 0;">
+  <figure style="margin:0;">
+    <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;border-radius:14px;display:block;" loading="eager">
+  </figure>
+</div>
+{{ end }}
 
 <!-- Article Body -->
 <div class="article-body reveal">
   {{ .Content }}
 </div>
+
+<!-- Author line -->
+{{ with .Params.author }}
+<div style="max-width:720px;margin:0 auto;padding:0 22px 40px;border-top:1px solid var(--color-gray-border);padding-top:24px;">
+  <p style="font-size:13px;color:var(--color-gray-mid);">Written by <strong style="color:var(--color-near-black);">{{ . }}</strong></p>
+</div>
+{{ end }}
+
+<!-- Prev / Next navigation -->
+{{ if or .PrevInSection .NextInSection }}
+<nav class="article-nav" aria-label="Article navigation">
+  {{ with .PrevInSection }}
+  <a href="{{ .RelPermalink }}" class="article-nav-item">
+    <div class="article-nav-label">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;margin-right:4px;"><polyline points="15 18 9 12 15 6"/></svg>
+      Previous
+    </div>
+    <div class="article-nav-title">{{ .Title }}</div>
+  </a>
+  {{ else }}<div></div>{{ end }}
+
+  {{ with .NextInSection }}
+  <a href="{{ .RelPermalink }}" class="article-nav-item article-nav-next">
+    <div class="article-nav-label">
+      Next
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;margin-left:4px;"><polyline points="9 18 15 12 9 6"/></svg>
+    </div>
+    <div class="article-nav-title">{{ .Title }}</div>
+  </a>
+  {{ else }}<div></div>{{ end }}
+</nav>
+{{ end }}
+
+<!-- Related articles -->
+{{- $related := first 3 (where (.Site.RegularPages.Related .) "Section" "news") }}
+{{ if $related }}
+<section class="related-articles">
+  <div class="related-articles-inner">
+    <p class="related-articles-title">Related Articles</p>
+    <div class="related-grid">
+      {{ range $related }}
+      {{ $rcat := .Params.category | default "other" }}
+      <a href="{{ .RelPermalink }}" class="related-card">
+        <div class="related-card-meta">
+          <span class="news-category news-category-{{ $rcat }}" style="font-size:10px;padding:2px 8px;">{{ .Params.category_label | default "News" }}</span>
+        </div>
+        <div class="related-card-title">{{ .Title }}</div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">
