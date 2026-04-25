@@ -3,7 +3,7 @@ title: "Multilingual DTP Explained: Typography Rules, Tools, and Workflow for Ch
 date: 2026-04-23
 category: "tech"
 category_label: "Tech Insights"
-tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English", "Document Localization"]
+tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English"]
 summary: "Getting multilingual DTP right is about more than swapping out text. This guide covers CJK typography rules, font selection, tool comparison, and the five-step workflow we follow on every technical document project."
 cover: "/images/services/dtp.jpg"
 author: "Jerry Hu"

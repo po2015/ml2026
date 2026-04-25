@@ -1,4 +1,4 @@
 ---
 title: "About MediaLocalize"
-description: "Learn about MediaLocalize — the AI-powered website building and localization company helping businesses go global."
+description: "MediaLocalize has delivered professional localization and export website services since 2009. 500+ projects across 50+ languages for manufacturers, pharma, and training companies worldwide."
 ---

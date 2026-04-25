@@ -3,24 +3,8 @@ languageCode = "en-us"
 title = "MediaLocalize — AI Websites & Localization"
 theme = "ml"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 canonifyURLs = false
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    title = "MediaLocalize — AI Websites & Localization"
-    [languages.en.params]
-      description = "AI-powered website building and professional multilingual localization services."
-
-  [languages.zh]
-    languageName = "中文"
-    weight = 2
-    contentDir = "content/zh"
-    [languages.zh.params]
-      description = "AI 驱动的建站与专业多语言本地化服务。"
 
 [params]
   brandColor = "#0071e3"
@@ -28,7 +12,12 @@ canonifyURLs = false
   logoIconPath = "/images/logo-icon.svg"
   logoDarkPath = "/images/logo-dark.svg"
 
-paginate = 6
+[pagination]
+  pagerSize = 6
+
+[taxonomies]
+  tag = "tags"
+  category = "category"
 
 [markup.goldmark.renderer]
   unsafe = true

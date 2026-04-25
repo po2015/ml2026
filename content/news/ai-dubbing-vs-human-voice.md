@@ -3,6 +3,9 @@ title: "AI Dubbing vs. Human Voice Actors: When Each Makes Sense"
 date: 2026-04-18
 category: "tech"
 category_label: "Tech Insights"
+tags: ["AI-dubbing", "voice-acting", "dubbing", "localization", "audio-production"]
+cover: "/images/news/ai-dubbing.jpg"
+author: "MediaLocalize Team"
 summary: "Both AI and human dubbing have their place. The right choice depends on content type, budget, and turnaround — not a blanket preference for either."
 ---
 

@@ -1,4 +1,4 @@
 ---
 title: "MediaLocalize — AI Websites & Localization"
-description: "AI-powered website building and professional multilingual localization services. Go global. Sound local."
+description: "MediaLocalize builds export-ready English websites and delivers professional multilingual localization for Chinese manufacturers and B2B exporters. 50+ languages, 15+ years."
 ---

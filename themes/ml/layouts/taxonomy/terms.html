@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $taxonomy := .Data.Plural }}
+
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">Browse by</p>
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    <p class="page-hero-subtitle">{{ len .Data.Terms }} {{ $taxonomy }} across {{ len .Site.RegularPages }} articles.</p>
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="terms-grid reveal">
+      {{ range .Data.Terms.ByCount }}
+      {{ $termURL := .Page.RelPermalink }}
+      {{ $count := .Count }}
+      <a href="{{ $termURL }}" class="term-card">
+        <span class="term-card-name">{{ .Page.Title }}</span>
+        <span class="term-card-count">{{ $count }}</span>
+      </a>
+      {{ end }}
+    </div>
+
+    <div style="margin-top:48px;text-align:center;" class="reveal">
+      <a href="/news/" class="btn btn-secondary-light">Browse All Articles</a>
+    </div>
+  </div>
+</section>
+{{ end }}

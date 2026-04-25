@@ -411,11 +411,11 @@ cases:
       - 上线 72 小时内被 Google 收录
       - 首月内收到境外采购商主动询价
 
-  - id: irhubs
-    slug: irhubs
-    url: https://irhubs.com
-    client_en: IRHubs
-    client_zh: IRHubs
+  - id: irmodules
+    slug: irmodules
+    url: https://irmodules.com
+    client_en: IRModules
+    client_zh: IRModules
     industry_en: Infrared Technology — Camera Cores
     industry_zh: 红外技术 — 红外机芯
     services: [website_building]

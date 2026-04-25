@@ -3,6 +3,9 @@ title: "The Silent Cost of No English Website: What Chinese Exporters Are Losing
 date: 2026-04-05
 category: "industry"
 category_label: "Industry"
+tags: ["export", "B2B", "website", "Chinese-manufacturers", "international-marketing"]
+cover: "/images/news/chinese-export.jpg"
+author: "MediaLocalize Team"
 summary: "For Chinese manufacturers targeting international B2B buyers, the absence of an English website is not a neutral position — it is an active competitive disadvantage measured in lost inquiries."
 ---
 

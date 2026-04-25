@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $termName := .Title }}
+{{ $taxonomy := .Data.Singular }}
+
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">
+      {{ if eq $taxonomy "tag" }}Tag{{ else }}Category{{ end }}
+    </p>
+    <h1 class="page-hero-title">{{ $termName }}</h1>
+    <p class="page-hero-subtitle">{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }} tagged with this {{ if eq $taxonomy "tag" }}tag{{ else }}category{{ end }}.</p>
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="taxonomy-back-nav reveal">
+      {{ if eq $taxonomy "tag" }}
+      <a href="/tags/" class="taxonomy-back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        All Tags
+      </a>
+      {{ else }}
+      <a href="/category/" class="taxonomy-back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        All Categories
+      </a>
+      {{ end }}
+    </div>
+
+    {{ if .Pages }}
+    <div class="news-grid" id="news-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ $cat := .Params.category | default "other" }}
+      <article class="news-card reveal">
+        {{ with .Params.cover }}
+        <div class="news-card-cover">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+        </div>
+        {{ end }}
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
+            {{ with .Params.date }}<span class="news-date">{{ . | time.Format "Jan 2, 2006" }}</span>{{ end }}
+          </div>
+          <h2 class="news-card-title">{{ .Title }}</h2>
+          <p class="news-card-summary">{{ .Params.summary | default .Summary }}</p>
+          <a href="{{ .RelPermalink }}" class="news-card-link">
+            Read article
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="text-center reveal" style="padding:80px 0;">
+      <p class="body-copy color-muted">No articles found.</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
