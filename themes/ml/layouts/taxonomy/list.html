@@ -1,14 +1,16 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
 {{ $termName := .Title }}
 {{ $taxonomy := .Data.Singular }}
+{{ if eq $taxonomy "category" }}{{ $termName = index $copy.common.category_labels (lower .Title) | default .Title }}{{ end }}
 
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
     <p class="section-label">
-      {{ if eq $taxonomy "tag" }}Tag{{ else }}Category{{ end }}
+      {{ if eq $taxonomy "tag" }}{{ $copy.taxonomy.tag }}{{ else }}{{ $copy.taxonomy.category }}{{ end }}
     </p>
     <h1 class="page-hero-title">{{ $termName }}</h1>
-    <p class="page-hero-subtitle">{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }} tagged with this {{ if eq $taxonomy "tag" }}tag{{ else }}category{{ end }}.</p>
+    <p class="page-hero-subtitle">{{ len .Pages }} {{ $copy.taxonomy.articles_with }} {{ if eq $taxonomy "tag" }}{{ $copy.taxonomy.tag }}{{ else }}{{ $copy.taxonomy.category }}{{ end }}.</p>
   </div>
 </section>
 
@@ -16,14 +18,14 @@
   <div class="container">
     <div class="taxonomy-back-nav reveal">
       {{ if eq $taxonomy "tag" }}
-      <a href="/tags/" class="taxonomy-back-link">
+      <a href="{{ "/tags/" | relLangURL }}" class="taxonomy-back-link">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        All Tags
+        {{ $copy.taxonomy.all_tags }}
       </a>
       {{ else }}
-      <a href="/category/" class="taxonomy-back-link">
+      <a href="{{ "/category/" | relLangURL }}" class="taxonomy-back-link">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        All Categories
+        {{ $copy.taxonomy.all_categories }}
       </a>
       {{ end }}
     </div>
@@ -31,6 +33,7 @@
     {{ if .Pages }}
     <div class="news-grid" id="news-grid">
       {{ range .Pages.ByDate.Reverse }}
+      {{- $page := partial "i18n/page.html" . -}}
       {{ $cat := .Params.category | default "other" }}
       <article class="news-card reveal">
         {{ with .Params.cover }}
@@ -40,13 +43,13 @@
         {{ end }}
         <div class="news-card-body">
           <div class="news-card-meta">
-            <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
-            {{ with .Params.date }}<span class="news-date">{{ . | time.Format "Jan 2, 2006" }}</span>{{ end }}
+            <span class="news-category news-category-{{ $cat }}">{{ index $copy.common.category_labels $cat | default $copy.common.category_labels.other }}</span>
+            {{ with .Params.date }}<span class="news-date">{{ . | time.Format $copy.common.date_card }}</span>{{ end }}
           </div>
-          <h2 class="news-card-title">{{ .Title }}</h2>
-          <p class="news-card-summary">{{ .Params.summary | default .Summary }}</p>
+          <h2 class="news-card-title">{{ $page.title | default .Title }}</h2>
+          <p class="news-card-summary">{{ $page.summary | default .Params.summary | default .Summary }}</p>
           <a href="{{ .RelPermalink }}" class="news-card-link">
-            Read article
+            {{ $copy.common.read_article }}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
@@ -55,7 +58,7 @@
     </div>
     {{ else }}
     <div class="text-center reveal" style="padding:80px 0;">
-      <p class="body-copy color-muted">No articles found.</p>
+      <p class="body-copy color-muted">{{ $copy.common.no_articles }}</p>
     </div>
     {{ end }}
   </div>

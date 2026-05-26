@@ -1,10 +1,13 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $cases := $copy.cases -}}
+
 <!-- Hero -->
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
-    <p class="section-label">Case Studies</p>
-    <h1 class="page-hero-title">Website Building &amp; Localization Case Studies</h1>
-    <p class="page-hero-subtitle">How MediaLocalize has helped Chinese manufacturers and B2B exporters build English websites, localize product catalogs, and enter new international markets.</p>
+    <p class="section-label">{{ $cases.hero.label }}</p>
+    <h1 class="page-hero-title">{{ $cases.hero.title }}</h1>
+    <p class="page-hero-subtitle">{{ $cases.hero.subtitle }}</p>
   </div>
 </section>
 
@@ -14,36 +17,37 @@
 
     <!-- Filter tabs -->
     <div class="case-filter-bar">
-      <button class="case-filter-btn active" data-filter="all">All Projects</button>
-      <button class="case-filter-btn" data-filter="website-building">Website Building</button>
-      <button class="case-filter-btn" data-filter="localization">Localization</button>
+      {{ range $idx, $filter := $cases.filters }}
+      <button class="case-filter-btn{{ if eq $idx 0 }} active{{ end }}" data-filter="{{ index $filter 0 }}">{{ index $filter 1 }}</button>
+      {{ end }}
     </div>
 
     <div class="grid-2" id="cases-grid">
       {{ range .Pages }}
+      {{- $page := partial "i18n/page.html" . -}}
       <article class="case-card reveal" data-service="{{ .Params.service | default "website-building" }}">
         {{ with .Params.cover }}
         <div class="case-cover">
-          <img src="{{ . }}" alt="{{ $.Title }} preview" loading="lazy">
+          <img src="{{ . }}" alt="{{ $page.title | default $.Title }} preview" loading="lazy">
         </div>
         {{ end }}
         <div class="case-card-header">
           <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
-            {{ with .Params.industry }}<span class="case-tag">{{ . }}</span>{{ end }}
-            {{ with .Params.service_label }}<span class="case-tag" style="background:rgba(52,199,89,0.12);color:#1a8a3c;">{{ . }}</span>{{ end }}
+            {{ with ($page.industry | default .Params.industry) }}<span class="case-tag">{{ . }}</span>{{ end }}
+            {{ with ($page.service_label | default .Params.service_label) }}<span class="case-tag" style="background:rgba(52,199,89,0.12);color:#1a8a3c;">{{ . }}</span>{{ end }}
           </div>
           {{ if .Params.website_url }}
           <a href="{{ .Params.website_url }}" target="_blank" rel="noopener noreferrer" class="case-card-domain" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
-            {{ .Params.domain | default .Title }}
+            {{ $page.domain | default .Params.domain | default .Title }}
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4;flex-shrink:0;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
           {{ else }}
-          <h2 class="case-card-domain">{{ .Params.domain | default .Title }}</h2>
+          <h2 class="case-card-domain">{{ $page.domain | default .Params.domain | default .Title }}</h2>
           {{ end }}
-          <p class="case-card-desc">{{ .Params.description | default .Summary }}</p>
+          <p class="case-card-desc">{{ $page.description | default .Params.description | default .Summary }}</p>
         </div>
         <div class="case-card-body">
-          {{ with .Params.results_short }}
+          {{ with ($page.results_short | default .Params.results_short) }}
           <div class="case-result">
             {{ range . }}
             <div class="case-result-item">{{ . }}</div>
@@ -51,7 +55,7 @@
           </div>
           {{ end }}
           <a href="{{ .RelPermalink }}" class="case-card-link">
-            Read case study
+            {{ $copy.common.read_case }}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
@@ -64,11 +68,11 @@
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">
   <div class="container reveal">
-    <h2 class="section-headline color-white mb-16">Ready to build your global presence?</h2>
-    <p class="subheadline">Tell us about your export website or multilingual localization project — we respond within one business day.</p>
+    <h2 class="section-headline color-white mb-16">{{ $cases.cta.title }}</h2>
+    <p class="subheadline">{{ $cases.cta.body }}</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Start Your Project</a>
-      <a href="/services/" class="btn btn-secondary-dark">Explore Services</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.start_project }}</a>
+      <a href="{{ "/services/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.explore_services }}</a>
     </div>
   </div>
 </section>

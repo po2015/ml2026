@@ -4,8 +4,10 @@
 <meta name="theme-color" content="#000000">
 
 {{- $siteName := "MediaLocalize" }}
-{{- $title := cond .IsHome .Title (printf "%s | %s" .Title $siteName) }}
-{{- $desc := .Params.description | default .Params.summary | default .Site.Params.description | default "AI-powered website building and professional multilingual localization services." }}
+{{- $copy := partial "i18n/site.html" . }}
+{{- $pageTitle := partial "i18n/title.html" . }}
+{{- $title := cond .IsHome $pageTitle (printf "%s | %s" $pageTitle $siteName) }}
+{{- $desc := partial "i18n/description.html" . | default $copy.common.site_description }}
 {{- $ogImage := .Params.cover | default .Params.image | default "/images/og-image.png" }}
 {{- $canonical := .Permalink }}
 
@@ -24,7 +26,7 @@
 <meta property="og:url" content="{{ $canonical }}">
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:site_name" content="{{ $siteName }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{{ $copy.meta.locale }}">
 {{- if and (eq .Section "news") .IsPage }}
 <meta property="article:published_time" content="{{ .Params.date | time.Format "2006-01-02T00:00:00Z" }}">
 <meta property="article:modified_time" content="{{ .Lastmod | time.Format "2006-01-02T00:00:00Z" }}">
@@ -39,6 +41,15 @@
 
 <!-- Canonical -->
 <link rel="canonical" href="{{ $canonical }}">
+{{- range .AllTranslations }}
+{{- $trCopy := index .Site.Data.site_i18n .Site.Language.Lang }}
+<link rel="alternate" hreflang="{{ $trCopy.meta.schemaLanguage | default .Site.Language.Lang }}" href="{{ .Permalink }}">
+{{- end }}
+{{- range .AllTranslations }}
+{{- if eq .Site.Language.Lang "en" }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
 
 <!-- CSS via Hugo Pipes -->
 {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
@@ -63,7 +74,7 @@
     "@type": "ContactPoint",
     "email": "ken.lee@medialocalize.com",
     "contactType": "customer service",
-    "availableLanguage": ["English", "Chinese"]
+    "availableLanguage": {{ $copy.meta.availableLanguage | jsonify | safeJS }}
   },
   "foundingDate": "2009",
   "areaServed": "Worldwide"
@@ -78,8 +89,8 @@
   "@type": "WebSite",
   "name": "MediaLocalize",
   "url": "https://www.medialocalize.com",
-  "description": {{ $desc | jsonify }},
-  "inLanguage": "en-US"
+  "description": {{ $desc | jsonify | safeJS }},
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
 }
 </script>
 {{- end }}
@@ -90,16 +101,16 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": {{ .Title | jsonify }},
+  "name": {{ $pageTitle | jsonify | safeJS }},
   "provider": {
     "@type": "Organization",
     "name": "MediaLocalize",
     "url": "https://www.medialocalize.com"
   },
-  "description": {{ $desc | jsonify }},
+  "description": {{ $desc | jsonify | safeJS }},
   "url": "{{ $canonical }}",
   "areaServed": "Worldwide",
-  "inLanguage": "en-US"
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
 }
 </script>
 <script type="application/ld+json">
@@ -107,9 +118,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.medialocalize.com"},
-    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.medialocalize.com/services/"},
-    {"@type":"ListItem","position":3,"name":{{ .Title | jsonify }},"item":"{{ $canonical }}"}
+    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
+    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 1).label | jsonify | safeJS }},"item":"{{ "/services/" | absLangURL }}"},
+    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
   ]
 }
 </script>
@@ -121,14 +132,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
+  "headline": {{ $pageTitle | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
   "url": "{{ $canonical }}",
   "datePublished": "{{ .Params.date | time.Format "2006-01-02" }}",
   "dateModified": "{{ .Lastmod | time.Format "2006-01-02" }}",
   "author": {
     "@type": {{ if .Params.author }}"Person"{{ else }}"Organization"{{ end }},
-    "name": {{ (.Params.author | default "MediaLocalize") | jsonify }}
+    "name": {{ (.Params.author | default "MediaLocalize") | jsonify | safeJS }}
   },
   "publisher": {
     "@type": "Organization",
@@ -139,7 +150,7 @@
     }
   },
   "image": "{{ $ogImage | absURL }}",
-  "inLanguage": "en-US",
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ $canonical }}"
@@ -151,9 +162,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.medialocalize.com"},
-    {"@type":"ListItem","position":2,"name":"Insights","item":"https://www.medialocalize.com/news/"},
-    {"@type":"ListItem","position":3,"name":{{ .Title | jsonify }},"item":"{{ $canonical }}"}
+    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
+    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 4).label | jsonify | safeJS }},"item":"{{ "/news/" | absLangURL }}"},
+    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
   ]
 }
 </script>
@@ -165,8 +176,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
+  "headline": {{ $pageTitle | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
   "url": "{{ $canonical }}",
   "author": {
     "@type": "Organization",
@@ -182,7 +193,7 @@
     }
   },
   "image": "{{ $ogImage | absURL }}",
-  "inLanguage": "en-US"
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
 }
 </script>
 <script type="application/ld+json">
@@ -190,9 +201,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.medialocalize.com"},
-    {"@type":"ListItem","position":2,"name":"Case Studies","item":"https://www.medialocalize.com/cases/"},
-    {"@type":"ListItem","position":3,"name":{{ .Title | jsonify }},"item":"{{ $canonical }}"}
+    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
+    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 3).label | jsonify | safeJS }},"item":"{{ "/cases/" | absLangURL }}"},
+    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
   ]
 }
 </script>

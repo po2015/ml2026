@@ -1,0 +1,6 @@
+{{- $page := partial "i18n/page.html" . -}}
+{{- $title := .Title -}}
+{{- with $page.title -}}
+  {{- $title = . -}}
+{{- end -}}
+{{- return $title -}}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+{{- $copy := partial "i18n/site.html" . -}}
+<html lang="{{ $copy.meta.htmlLang }}" dir="{{ $copy.meta.dir }}">
 <head>
   {{- partial "head.html" . }}
 </head>

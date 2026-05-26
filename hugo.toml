@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "MediaLocalize — AI Websites & Localization"
 theme = "ml"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 canonifyURLs = false
 
@@ -11,6 +12,73 @@ canonifyURLs = false
   logoPath = "/images/logo.svg"
   logoIconPath = "/images/logo-icon.svg"
   logoDarkPath = "/images/logo-dark.svg"
+  description = "AI-powered website building and professional multilingual localization services for B2B manufacturers and exporters."
+
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    languageDirection = "ltr"
+    contentDir = "content"
+    weight = 1
+    title = "MediaLocalize — AI Websites & Localization"
+    [languages.en.params]
+      flag = "🇺🇸"
+      shortName = "EN"
+      locale = "en_US"
+      schemaLanguage = "en-US"
+
+  [languages.zh]
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    languageDirection = "ltr"
+    contentDir = "content"
+    weight = 2
+    title = "MediaLocalize — AI 建站与本地化"
+    [languages.zh.params]
+      flag = "🇨🇳"
+      shortName = "中"
+      locale = "zh_CN"
+      schemaLanguage = "zh-CN"
+
+  [languages.es]
+    languageCode = "es"
+    languageName = "Español"
+    languageDirection = "ltr"
+    contentDir = "content"
+    weight = 3
+    title = "MediaLocalize — Sitios web con IA y localización"
+    [languages.es.params]
+      flag = "🇪🇸"
+      shortName = "ES"
+      locale = "es_ES"
+      schemaLanguage = "es"
+
+  [languages.ru]
+    languageCode = "ru"
+    languageName = "Русский"
+    languageDirection = "ltr"
+    contentDir = "content"
+    weight = 4
+    title = "MediaLocalize — AI-сайты и локализация"
+    [languages.ru.params]
+      flag = "🇷🇺"
+      shortName = "RU"
+      locale = "ru_RU"
+      schemaLanguage = "ru"
+
+  [languages.ar]
+    languageCode = "ar"
+    languageName = "العربية"
+    languageDirection = "rtl"
+    contentDir = "content"
+    weight = 5
+    title = "MediaLocalize — مواقع بالذكاء الاصطناعي وتوطين المحتوى"
+    [languages.ar.params]
+      flag = "🇸🇦"
+      shortName = "AR"
+      locale = "ar_AR"
+      schemaLanguage = "ar"
 
 [pagination]
   pagerSize = 6

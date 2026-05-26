@@ -1,7 +1,8 @@
-<nav class="site-nav" role="navigation" aria-label="Main navigation">
+{{- $copy := partial "i18n/site.html" . -}}
+<nav class="site-nav" role="navigation" aria-label="{{ $copy.nav.aria }}">
   <div class="nav-inner">
     <!-- Logo -->
-    <a href="/" class="nav-logo" aria-label="MediaLocalize Home">
+    <a href="{{ "/" | relLangURL }}" class="nav-logo" aria-label="{{ $copy.nav.logoLabel }}">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 56" width="154" height="40" role="img" aria-label="MediaLocalize">
         <title>MediaLocalize</title>
         <defs>
@@ -24,21 +25,43 @@
 
     <!-- Desktop Nav Links -->
     <ul class="nav-links" role="list">
-      <li><a href="/">Home</a></li>
-      <li><a href="/services/">Services</a></li>
-      <li><a href="/prices/">Prices</a></li>
-      <li><a href="/cases/">Cases</a></li>
-      <li><a href="/news/">Insights</a></li>
-      <li><a href="/about/">About</a></li>
+      {{ range $copy.nav.items }}
+      <li><a href="{{ .url | relLangURL }}">{{ .label }}</a></li>
+      {{ end }}
     </ul>
 
     <!-- Actions -->
     <div class="nav-actions">
-      <a href="/contact/" class="nav-cta">Contact</a>
+      <div class="nav-lang" aria-label="{{ $copy.nav.languageLabel }}">
+        <button class="nav-lang-trigger" type="button" aria-expanded="false">
+          <span class="nav-lang-flag" aria-hidden="true">{{ $copy.meta.flag }}</span>
+          <span>{{ $copy.meta.shortName }}</span>
+        </button>
+        <div class="nav-lang-menu">
+          {{ range .Site.Languages }}
+          {{- $target := .Lang -}}
+          {{- $langCopy := index $.Site.Data.site_i18n $target -}}
+          {{- $href := "" -}}
+          {{- range $.AllTranslations -}}
+            {{- if eq .Site.Language.Lang $target -}}{{- $href = .RelPermalink -}}{{- end -}}
+          {{- end -}}
+          {{- if not $href -}}
+            {{- range $.Sites -}}
+              {{- if eq .Language.Lang $target -}}{{- $href = .Home.RelPermalink -}}{{- end -}}
+            {{- end -}}
+          {{- end -}}
+          <a href="{{ $href }}" class="{{ if eq $.Site.Language.Lang $target }}active{{ end }}" lang="{{ $langCopy.meta.htmlLang }}" dir="{{ $langCopy.meta.dir }}">
+            <span aria-hidden="true">{{ $langCopy.meta.flag }}</span>
+            <span>{{ $langCopy.meta.languageName }}</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+      <a href="{{ "/contact/" | relLangURL }}" class="nav-cta">{{ $copy.nav.cta }}</a>
     </div>
 
     <!-- Hamburger -->
-    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile-menu">
+    <button class="nav-hamburger" aria-label="{{ $copy.nav.menuLabel }}" aria-expanded="false" aria-controls="nav-mobile-menu">
       <span></span>
       <span></span>
       <span></span>
@@ -47,12 +70,25 @@
 </nav>
 
 <!-- Mobile Menu -->
-<div class="nav-mobile" id="nav-mobile-menu" role="navigation" aria-label="Mobile navigation">
-  <a href="/">Home</a>
-  <a href="/services/">Services</a>
-  <a href="/prices/">Prices</a>
-  <a href="/cases/">Cases</a>
-  <a href="/news/">Insights</a>
-  <a href="/about/">About</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-mobile" id="nav-mobile-menu" role="navigation" aria-label="{{ $copy.nav.mobileAria }}">
+  {{ range $copy.nav.items }}
+  <a href="{{ .url | relLangURL }}">{{ .label }}</a>
+  {{ end }}
+  <a href="{{ "/contact/" | relLangURL }}">{{ $copy.nav.cta }}</a>
+  <div class="nav-mobile-langs" aria-label="{{ $copy.nav.languageLabel }}">
+    {{ range .Site.Languages }}
+    {{- $target := .Lang -}}
+    {{- $langCopy := index $.Site.Data.site_i18n $target -}}
+    {{- $href := "" -}}
+    {{- range $.AllTranslations -}}
+      {{- if eq .Site.Language.Lang $target -}}{{- $href = .RelPermalink -}}{{- end -}}
+    {{- end -}}
+    {{- if not $href -}}
+      {{- range $.Sites -}}
+        {{- if eq .Language.Lang $target -}}{{- $href = .Home.RelPermalink -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <a href="{{ $href }}" class="nav-mobile-lang{{ if eq $.Site.Language.Lang $target }} active{{ end }}" lang="{{ $langCopy.meta.htmlLang }}" dir="{{ $langCopy.meta.dir }}"><span aria-hidden="true">{{ $langCopy.meta.flag }}</span>{{ $langCopy.meta.languageName }}</a>
+    {{ end }}
+  </div>
 </div>

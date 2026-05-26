@@ -1,0 +1,4803 @@
+{
+  "en": {
+    "meta": {
+      "htmlLang": "en",
+      "locale": "en_US",
+      "schemaLanguage": "en-US",
+      "flag": "🇺🇸",
+      "languageName": "English",
+      "shortName": "EN",
+      "dir": "ltr",
+      "availableLanguage": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    "nav": {
+      "aria": "Main navigation",
+      "mobileAria": "Mobile navigation",
+      "menuLabel": "Open menu",
+      "languageLabel": "Language",
+      "logoLabel": "MediaLocalize Home",
+      "cta": "Contact",
+      "items": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services",
+          "url": "/services/"
+        },
+        {
+          "label": "Prices",
+          "url": "/prices/"
+        },
+        {
+          "label": "Cases",
+          "url": "/cases/"
+        },
+        {
+          "label": "Insights",
+          "url": "/news/"
+        },
+        {
+          "label": "About",
+          "url": "/about/"
+        }
+      ]
+    },
+    "common": {
+      "site_description": "AI-powered website building and professional multilingual localization services for B2B manufacturers and exporters.",
+      "contact": "Contact",
+      "get_quote": "Get a Quote",
+      "free_quote": "Get a Free Quote",
+      "view_pricing": "View Pricing",
+      "learn_more": "Learn more",
+      "read_article": "Read article",
+      "read_case": "Read case study",
+      "all_articles": "All articles",
+      "get_in_touch": "Get in Touch",
+      "start_project": "Start Your Project",
+      "explore_services": "Explore Services",
+      "more_articles": "More Articles",
+      "more_cases": "More Case Studies",
+      "visit_website": "Visit Website",
+      "written_by": "Written by",
+      "previous": "Previous",
+      "next": "Next",
+      "recent_articles": "Recent Articles",
+      "categories": "Categories",
+      "tags": "Tags",
+      "project_prompt": "Have a Project?",
+      "response_one_day": "We respond within one business day.",
+      "related_articles": "Related Articles",
+      "date_card": "Jan 2, 2006",
+      "date_long": "January 2, 2006",
+      "min_read": "min read",
+      "category_labels": {
+        "tech": "Tech Insights",
+        "industry": "Industry",
+        "marketing": "Marketing",
+        "localization": "Localization",
+        "company": "Company",
+        "other": "News"
+      },
+      "pagination_prev": "Prev",
+      "pagination_next": "Next",
+      "coming_soon": "Coming Soon",
+      "no_articles": "No articles found."
+    },
+    "footer": {
+      "desc": "Multilingual localization and AI-powered website building for Chinese manufacturers, B2B exporters, and global enterprises. English, Chinese, and 50+ languages — one specialist partner since 2009.",
+      "meta": "15+ years · 500+ projects · 50+ language pairs",
+      "services_title": "Services",
+      "industries_title": "Industries Served",
+      "languages_title": "Language Pairs",
+      "services": [
+        [
+          "AI Website Building for Exporters",
+          "/services/website-building/"
+        ],
+        [
+          "Multilingual Localization",
+          "/services/localization/"
+        ],
+        [
+          "DTP — InDesign & FrameMaker",
+          "/services/localization/dtp/"
+        ],
+        [
+          "AI & Human Voice Dubbing",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "Video & Subtitle Localization",
+          "/services/localization/video/"
+        ],
+        [
+          "E-Learning (SCORM) Localization",
+          "/services/localization/elearning/"
+        ]
+      ],
+      "industries": [
+        "Manufacturing & Industrial",
+        "Medical Device & Pharma",
+        "E-Learning & Corporate Training",
+        "Marketing & Advertising",
+        "Legal & Compliance"
+      ],
+      "languages": [
+        "Chinese ↔ English",
+        "Japanese & Korean",
+        "German, French, Spanish",
+        "Arabic & RTL Scripts",
+        "50+ Language Pairs Total"
+      ],
+      "copyright": "MediaLocalize — Multilingual Localization & Global Website Experts. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Multilingual Localization & AI Website Building for B2B Exporters",
+        "title": "Go Global.<br>Sound Local.",
+        "subtitle": "From building your export website to adapting every word, voice, and layout for international markets — one specialist partner covering 50+ languages, end to end.",
+        "primary": "Get a Free Quote",
+        "secondary": "See Our Work"
+      },
+      "stats": [
+        [
+          "15+",
+          "Years in Business"
+        ],
+        [
+          "50+",
+          "Languages Supported"
+        ],
+        [
+          "500+",
+          "Projects Delivered"
+        ],
+        [
+          "10yr+",
+          "Longest Client Relationship"
+        ]
+      ],
+      "intro": {
+        "label": "What We Do",
+        "title": "Two core services.<br>One trusted partner.",
+        "body": "Whether you need an export-ready website or multilingual content that reads, sounds, and feels native in English, Chinese, or 50+ other languages — we cover the full stack."
+      },
+      "services": [
+        {
+          "title": "AI-Powered Website Building",
+          "body": "Launch a fast, professional website that ranks globally and converts international buyers. Apple-inspired design, global CDN, advanced SEO, and AI customer service — fully managed.",
+          "features": [
+            "Domain registration & hosting",
+            "Responsive, conversion-optimized design",
+            "Global CDN & performance optimization",
+            "Technical & on-page SEO",
+            "AI chatbot integration",
+            "Ongoing support & updates"
+          ],
+          "url": "/services/website-building/"
+        },
+        {
+          "title": "Professional Localization",
+          "body": "Multilingual content adaptation across 50+ languages by subject-matter specialists. DTP, AI and human dubbing, video localization, and e-learning — with translation memory that compounds over time.",
+          "features": [
+            "Desktop Publishing (DTP) — InDesign, FrameMaker",
+            "AI dubbing from $1/min · 50+ languages",
+            "Human voice actors — certified native speakers",
+            "Video & animation localization",
+            "E-learning courseware localization",
+            "Dedicated termbase & translation memory"
+          ],
+          "url": "/services/localization/"
+        }
+      ],
+      "cases": {
+        "label": "Case Studies",
+        "title": "Real results for real businesses.",
+        "body": "From Chinese manufacturers launching their first English website to decade-long multilingual localization partnerships.",
+        "all": "View all case studies"
+      },
+      "news": {
+        "label": "Insights",
+        "title": "From the team",
+        "body": "Localization industry analysis, AI dubbing trends, DTP best practices, and notes from our team."
+      },
+      "cta": {
+        "label": "Get Started",
+        "title": "Ready to reach global markets?",
+        "body": "Tell us about your export website or localization project — we respond within one business day."
+      }
+    },
+    "services_hub": {
+      "hero": {
+        "label": "Our Services",
+        "title": "AI Website Building & Professional Multilingual Localization",
+        "subtitle": "Export-ready websites and multilingual content adaptation across 50+ languages — for Chinese manufacturers, B2B exporters, and global enterprises."
+      },
+      "services": [
+        {
+          "title": "AI-Powered Website Building",
+          "body": "Launch a fast, professional website that ranks globally and converts international buyers. Apple-inspired design, global CDN, advanced SEO, and AI customer service — fully managed.",
+          "features": [
+            "Domain registration & hosting",
+            "Responsive, conversion-optimized design",
+            "Global CDN & performance optimization",
+            "Technical & on-page SEO",
+            "AI chatbot integration",
+            "Ongoing support & updates"
+          ],
+          "url": "/services/website-building/",
+          "label": "Service 01",
+          "primary": "Learn more",
+          "secondary": "View Pricing",
+          "image": "/images/services/website-building.jpg",
+          "secondary_url": "/prices/"
+        },
+        {
+          "title": "Professional Localization",
+          "body": "Multilingual content adaptation across 50+ languages by subject-matter specialists. DTP, AI and human dubbing, video localization, and e-learning — with translation memory that compounds over time.",
+          "features": [
+            "Desktop Publishing (DTP) — InDesign, FrameMaker",
+            "AI dubbing from $1/min · 50+ languages",
+            "Human voice actors — certified native speakers",
+            "Video & animation localization",
+            "E-learning courseware localization",
+            "Dedicated termbase & translation memory"
+          ],
+          "url": "/services/localization/",
+          "label": "Service 02",
+          "primary": "Learn more",
+          "secondary": "Get a Quote",
+          "image": "/images/services/localization.jpg",
+          "secondary_url": "/contact/"
+        }
+      ],
+      "stats": [
+        [
+          "500+",
+          "Websites Launched"
+        ],
+        [
+          "50+",
+          "Languages Supported"
+        ],
+        [
+          "10K+",
+          "Pages Localized"
+        ],
+        [
+          "99%",
+          "Client Satisfaction"
+        ]
+      ],
+      "why": {
+        "label": "Why MediaLocalize",
+        "title": "One partner. Total coverage.",
+        "body": "Stop juggling translation agencies, web developers, and DTP vendors separately. We handle your entire multilingual content and website stack — Chinese to English and beyond.",
+        "cards": [
+          {
+            "title": "AI-Accelerated",
+            "body": "The latest AI models accelerate delivery and ensure consistency — without sacrificing quality or nuance."
+          },
+          {
+            "title": "Human Expertise",
+            "body": "Every project reviewed by native-speaking subject-matter experts for accuracy, tone, and cultural fit."
+          },
+          {
+            "title": "Fast Turnaround",
+            "body": "Websites live in 2–3 weeks. AI dubbing in 24–72 hours. We move at the pace your business demands."
+          }
+        ]
+      },
+      "cta": {
+        "label": "Get Started",
+        "title": "Ready to reach global markets?",
+        "body": "Tell us about your export website or localization project — we respond within one business day."
+      }
+    },
+    "prices": {
+      "hero": {
+        "label": "Pricing",
+        "title": "Transparent Pricing for Website Building & Localization Services",
+        "subtitle": "Fixed annual plans for AI website building. Per-unit rates for DTP, dubbing, video, and e-learning localization. No hidden fees."
+      },
+      "web_intro": {
+        "label": "Website Building",
+        "title": "AI-Powered Website Plans",
+        "body": "All plans include domain setup, responsive design, and ongoing support. Billed annually."
+      },
+      "plans": [
+        {
+          "name": "Starter",
+          "setup": "$199",
+          "period": "setup fee",
+          "renew": "+ $199 / year",
+          "year1": "Year 1 total: $398",
+          "features": [
+            "1 custom domain",
+            "1 email account",
+            "1-page website",
+            "Basic CDN",
+            "Basic SEO setup",
+            "SSL certificate",
+            "Email support"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Growth",
+          "setup": "$499",
+          "period": "setup fee",
+          "renew": "+ $299 / year",
+          "year1": "Year 1 total: $798",
+          "badge": "Most Popular",
+          "features": [
+            "1 custom domain",
+            "5 email accounts",
+            "Up to 10 pages",
+            "Global CDN",
+            "Advanced SEO & analytics",
+            "SSL certificate",
+            "Priority support",
+            "Monthly performance report",
+            "1 news article published / month",
+            "Up to 5 product updates / month"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "setup": "$999",
+          "period": "setup fee",
+          "renew": "+ $399 / year",
+          "year1": "Year 1 total: $1,398",
+          "features": [
+            "2 custom domains",
+            "20 email accounts",
+            "Unlimited pages",
+            "Global CDN + edge caching",
+            "Advanced SEO & analytics",
+            "AI chatbot integration",
+            "24/7 priority support",
+            "Quarterly strategy review",
+            "1 news article published / week",
+            "Up to 10 product updates / month"
+          ],
+          "featured": false
+        }
+      ],
+      "plan_cta": "Free Consultation",
+      "web_note": "Setup fee covers design, build, and launch. Annual fee covers hosting, maintenance, and support. Need something custom? Contact us for an enterprise quote.",
+      "loc_intro": {
+        "label": "Localization",
+        "title": "Localization Pricing",
+        "body": "Pricing varies by language pair, volume, and complexity. All rates shown are per-unit starting prices."
+      },
+      "loc_items": [
+        [
+          "Desktop Publishing (DTP)",
+          "$2 – $5",
+          "per page",
+          "Word, PowerPoint, FrameMaker, InDesign. Includes typesetting, font matching, and layout adjustment for target language."
+        ],
+        [
+          "AI Dubbing",
+          "$1 – $2",
+          "per finished minute",
+          "AI voice synthesis across 50+ languages. Fastest turnaround — 24 to 72 hours. Ideal for training videos and product demos."
+        ],
+        [
+          "Human Dubbing",
+          "$20 – $50",
+          "per finished minute",
+          "Professional native-speaking voice actors, studio-quality recording. 3 to 7 business day delivery. Best for premium brand content."
+        ],
+        [
+          "Video Localization",
+          "$8 – $220",
+          "per minute",
+          "Subtitling, dubbing, and on-screen text replacement. Wide range reflects service tier — subtitles only through full lip-sync dubbing."
+        ],
+        [
+          "E-Learning — Per Word",
+          "$0.12 – $0.18",
+          "per source word",
+          "Translation and cultural adaptation of course text content. Rate varies by language pair complexity and subject matter."
+        ],
+        [
+          "E-Learning — Per Module",
+          "$250 – $600",
+          "per module",
+          "Full module localization including slide layout, narration script, audio re-recording, and media asset adaptation."
+        ]
+      ],
+      "minimum": "Minimum order: All localization services carry a minimum charge of USD 50 per task, regardless of volume. Volume discounts available from 30 minutes or 10,000 words.",
+      "cta": {
+        "title": "Need a custom localization or website quote?",
+        "body": "Tell us your language pairs, content type, volume, and timeline — we'll respond within one business day.",
+        "button": "Request a Quote"
+      }
+    },
+    "contact": {
+      "hero": {
+        "label": "Contact",
+        "title": "Let's Work Together",
+        "subtitle": "Tell us about your project. We'll respond within one business day."
+      },
+      "info_title": "Get in touch",
+      "email_label": "Email",
+      "languages_label": "Languages",
+      "languages": "English & 中文 supported",
+      "response_label": "Response Time",
+      "response": "Within 1 business day",
+      "include_title": "What to include in your message:",
+      "include": [
+        "Your website URL (if existing)",
+        "Target languages / markets",
+        "Content type and volume",
+        "Desired timeline"
+      ],
+      "form_title": "Send us a message",
+      "success_title": "Message sent!",
+      "success_body": "We'll get back to you within one business day. Check your inbox for a confirmation.",
+      "labels": {
+        "name": "Full Name *",
+        "email": "Email Address *",
+        "company": "Company / Website",
+        "service": "Service of Interest *",
+        "message": "Message *"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "you@company.com",
+        "company": "Your company or domain name",
+        "service": "Select a service...",
+        "message": "Tell us about your project — language pairs, volume, timeline..."
+      },
+      "options": [
+        "Website — Starter ($199/year)",
+        "Website — Growth ($499/year)",
+        "Website — Business ($999/year)",
+        "Desktop Publishing (DTP)",
+        "AI Dubbing",
+        "Human Dubbing",
+        "Video Localization",
+        "E-Learning Localization",
+        "Other / Multiple Services"
+      ],
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "errors": {
+        "name": "Please enter your full name.",
+        "email": "Please enter a valid email address.",
+        "service": "Please select a service.",
+        "message": "Please tell us a bit about your project.",
+        "short": "Your message is too short — please add more detail.",
+        "missing": "Please fill in all required fields.",
+        "invalid": "That email address doesn't look right. Please check it.",
+        "generic": "Something went wrong — please try again or email us at ken.lee@medialocalize.com"
+      }
+    },
+    "about": {
+      "hero": {
+        "label": "About Us",
+        "title": "15 Years of Making<br>Content Cross Borders",
+        "subtitle": "A four-person core team of developers, DTP engineers, and localization specialists — doing this since before AI was a buzzword."
+      },
+      "story": {
+        "label": "Our Story",
+        "title": "Built on craft, accelerated by AI.",
+        "paras": [
+          "MediaLocalize was founded over 15 years ago by a developer and a typesetting engineer who believed that great content deserved to reach every audience — in their own language, on their own terms.",
+          "Today our core team pairs that deep craft with frontier AI, compressing timelines that once took months into days without losing human judgement.",
+          "From a first-time exporter to a multinational rolling out a 20-language curriculum, we bring the same ownership to every project."
+        ]
+      },
+      "team_intro": {
+        "label": "The Team",
+        "title": "Four specialists.<br>One shared standard.",
+        "body": "No junior temps, no account managers in the middle. The people listed here are the people who work on your project."
+      },
+      "values_intro": {
+        "label": "Our Values",
+        "title": "What drives us"
+      },
+      "cta": {
+        "title": "Work with the team directly",
+        "body": "No sales reps. You'll talk to the people who actually do the work.",
+        "button": "Get in Touch"
+      },
+      "team": [
+        {
+          "name": "Ken Lee",
+          "role": "Founder & Lead Developer",
+          "exp": "15+ yrs experience",
+          "bio": "Ken leads web development from architecture to deployment, combining modern static-site workflows, CDN delivery, and AI-assisted production.",
+          "badges": [
+            "Next.js",
+            "TypeScript",
+            "Claude Code",
+            "GitHub Actions",
+            "Cloudflare",
+            "Hugo"
+          ]
+        },
+        {
+          "name": "Jerry Hu",
+          "role": "Senior DTP Engineer",
+          "exp": "15+ yrs experience",
+          "bio": "Jerry handles complex multilingual DTP across Arabic RTL, CJK scripts, Devanagari and Thai, with strict preflight before delivery.",
+          "badges": [
+            "Adobe InDesign",
+            "FrameMaker",
+            "QuarkXPress",
+            "Illustrator",
+            "PDF/X Preflight",
+            "CJK Typography"
+          ]
+        },
+        {
+          "name": "Jesse Chen",
+          "role": "Localization Engineer",
+          "exp": "12+ yrs experience",
+          "bio": "Jesse manages translation memories, glossaries, XLIFF workflows, CJK QA and linguist vetting across client accounts.",
+          "badges": [
+            "memoQ",
+            "SDL Trados",
+            "XLIFF / SDLXLIFF",
+            "Translation Memory",
+            "CJK QA",
+            "AI Post-editing"
+          ]
+        },
+        {
+          "name": "Benny Chow",
+          "role": "Project Manager",
+          "exp": "12+ yrs experience",
+          "bio": "Benny scopes projects, schedules resources, manages QA and keeps delivery communication clear from quote to final files.",
+          "badges": [
+            "Project Scoping",
+            "SCORM / xAPI QA",
+            "Lighthouse CI",
+            "DTP Preflight",
+            "Risk Management",
+            "Client Communication"
+          ]
+        }
+      ],
+      "values": [
+        {
+          "icon": "⚡",
+          "title": "Speed Without Compromise",
+          "body": "AI compresses timelines. Human judgement ensures quality."
+        },
+        {
+          "icon": "🌏",
+          "title": "Genuine Globalization",
+          "body": "We localize meaning, not just words."
+        },
+        {
+          "icon": "🔒",
+          "title": "Long-Term Partnership",
+          "body": "Transparent pricing, direct communication, and relationships that last."
+        }
+      ],
+      "stats": [
+        [
+          "15+",
+          "Years in Business"
+        ],
+        [
+          "4",
+          "Core Specialists"
+        ],
+        [
+          "500+",
+          "Projects Delivered"
+        ],
+        [
+          "10yr+",
+          "Longest Client Relationship"
+        ]
+      ]
+    },
+    "cases": {
+      "hero": {
+        "label": "Case Studies",
+        "title": "Website Building & Localization Case Studies",
+        "subtitle": "How MediaLocalize has helped Chinese manufacturers and B2B exporters build English websites, localize product catalogs, and enter new international markets."
+      },
+      "filters": [
+        [
+          "all",
+          "All Projects"
+        ],
+        [
+          "website-building",
+          "Website Building"
+        ],
+        [
+          "localization",
+          "Localization"
+        ]
+      ],
+      "cta": {
+        "title": "Ready to build your global presence?",
+        "body": "Tell us about your export website or multilingual localization project — we respond within one business day."
+      },
+      "single": {
+        "label": "Case Study",
+        "challenge_label": "Challenge",
+        "challenge_title": "The Problem",
+        "solution_label": "Solution",
+        "solution_title": "What We Did",
+        "results_label": "Results",
+        "results_title": "The Outcome",
+        "cta_title": "Ready for results like these?",
+        "cta_body": "Let's build your global web presence together."
+      }
+    },
+    "news": {
+      "hero": {
+        "label": "Insights & News",
+        "title": "Localization Industry Insights & Global Web Trends",
+        "subtitle": "AI dubbing, multilingual DTP, e-learning localization, and export website best practices — written by the specialists who do the work."
+      },
+      "filters": [
+        [
+          "all",
+          "All"
+        ],
+        [
+          "tech",
+          "Tech Insights"
+        ],
+        [
+          "industry",
+          "Industry"
+        ],
+        [
+          "company",
+          "Company"
+        ]
+      ],
+      "empty_body": "Articles and insights will be published here soon.",
+      "cta_title": "Have a project in mind?",
+      "cta_body": "We respond to every inquiry within one business day."
+    },
+    "taxonomy": {
+      "browse_by": "Browse by",
+      "tag": "Tag",
+      "category": "Category",
+      "all_tags": "All Tags",
+      "all_categories": "All Categories",
+      "articles_with": "articles tagged with this",
+      "browse_all": "Browse All Articles"
+    },
+    "service_detail": {
+      "section_label": "Service",
+      "included": "What's included",
+      "cta_title": "Interested in this service?",
+      "cta_body": "Get a custom quote tailored to your needs."
+    },
+    "pages": {
+      "home": {
+        "title": "MediaLocalize — AI Websites & Localization",
+        "description": "MediaLocalize builds export-ready English websites and delivers professional multilingual localization for Chinese manufacturers and B2B exporters. 50+ languages, 15+ years."
+      },
+      "about": {
+        "title": "About MediaLocalize",
+        "description": "MediaLocalize has delivered professional localization and export website services since 2009."
+      },
+      "services": {
+        "title": "Services — MediaLocalize",
+        "description": "AI-powered website building and professional localization services across 50+ languages."
+      },
+      "prices": {
+        "title": "Pricing — MediaLocalize",
+        "description": "Transparent pricing for AI website building and professional localization services."
+      },
+      "contact": {
+        "title": "Contact MediaLocalize",
+        "description": "Get in touch with MediaLocalize for AI website building and localization services."
+      },
+      "cases": {
+        "title": "Case Studies — MediaLocalize",
+        "description": "Real results from B2B website building and localization projects."
+      },
+      "news": {
+        "title": "Localization Industry Insights — MediaLocalize",
+        "description": "Expert articles on localization, AI dubbing, multilingual DTP, e-learning and export websites."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "How MediaLocalize collects, uses, and protects personal information."
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "description": "The agreement governing use of MediaLocalize services."
+      },
+      "services/website-building": {
+        "cover": "/images/services/website-building.jpg"
+      },
+      "services/localization": {
+        "cover": "/images/services/localization.jpg"
+      },
+      "services/localization/dtp": {
+        "cover": "/images/services/dtp.jpg"
+      },
+      "services/localization/dubbing": {
+        "cover": "/images/services/dubbing.jpg"
+      },
+      "services/localization/video": {
+        "cover": "/images/services/video-localization.jpg"
+      },
+      "services/localization/elearning": {
+        "cover": "/images/services/elearning.jpg"
+      }
+    }
+  },
+  "zh": {
+    "meta": {
+      "htmlLang": "zh-CN",
+      "locale": "zh_CN",
+      "schemaLanguage": "zh-CN",
+      "flag": "🇨🇳",
+      "languageName": "简体中文",
+      "shortName": "中",
+      "dir": "ltr",
+      "availableLanguage": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    "nav": {
+      "aria": "主导航",
+      "mobileAria": "移动端导航",
+      "menuLabel": "打开菜单",
+      "languageLabel": "语言",
+      "logoLabel": "MediaLocalize",
+      "cta": "联系",
+      "items": [
+        {
+          "label": "首页",
+          "url": "/"
+        },
+        {
+          "label": "服务",
+          "url": "/services/"
+        },
+        {
+          "label": "价格",
+          "url": "/prices/"
+        },
+        {
+          "label": "案例",
+          "url": "/cases/"
+        },
+        {
+          "label": "洞察",
+          "url": "/news/"
+        },
+        {
+          "label": "关于",
+          "url": "/about/"
+        }
+      ]
+    },
+    "common": {
+      "site_description": "MediaLocalize 为出海制造企业提供 AI 建站、英文官网、本地化、配音、DTP 与多语言内容交付服务",
+      "contact": "联系",
+      "get_quote": "获取报价",
+      "free_quote": "获取免费报价",
+      "view_pricing": "查看价格",
+      "learn_more": "了解更多",
+      "read_article": "阅读全文",
+      "read_case": "查看案例",
+      "all_articles": "全部文章",
+      "get_in_touch": "联系我们",
+      "start_project": "启动项目",
+      "explore_services": "浏览服务",
+      "more_articles": "更多文章",
+      "more_cases": "更多案例",
+      "visit_website": "访问网站",
+      "written_by": "作者",
+      "previous": "上一篇",
+      "next": "下一篇",
+      "recent_articles": "最新文章",
+      "categories": "分类",
+      "tags": "标签",
+      "project_prompt": "有项目要沟通",
+      "response_one_day": "我们通常会在 1 个工作日内回复",
+      "related_articles": "相关文章",
+      "date_card": "2006-01-02",
+      "date_long": "2006-01-02",
+      "min_read": "分钟阅读",
+      "category_labels": {
+        "tech": "技术洞察",
+        "industry": "行业观察",
+        "marketing": "营销增长",
+        "localization": "本地化",
+        "company": "公司动态",
+        "other": "文章"
+      },
+      "pagination_prev": "上一页",
+      "pagination_next": "下一页",
+      "coming_soon": "即将发布",
+      "no_articles": "暂无文章"
+    },
+    "footer": {
+      "desc": "面向中国制造企业、B2B 出口商和全球团队，提供多语言本地化与 AI 建站服务，覆盖英文、中文及 50+ 语言",
+      "meta": "15+ 年经验 · 500+ 项目 · 50+ 语言组合",
+      "services_title": "服务",
+      "industries_title": "服务行业",
+      "languages_title": "语言组合",
+      "services": [
+        [
+          "外贸 AI 官网建设",
+          "/services/website-building/"
+        ],
+        [
+          "多语言本地化",
+          "/services/localization/"
+        ],
+        [
+          "DTP 排版 — InDesign / FrameMaker",
+          "/services/localization/dtp/"
+        ],
+        [
+          "AI 与真人配音",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "视频与字幕本地化",
+          "/services/localization/video/"
+        ],
+        [
+          "课件 / SCORM 本地化",
+          "/services/localization/elearning/"
+        ]
+      ],
+      "industries": [
+        "制造业与工业设备",
+        "医疗器械与医药",
+        "企业培训与在线学习",
+        "营销与广告",
+        "法律与合规资料"
+      ],
+      "languages": [
+        "中 ↔ 英",
+        "日语与韩语",
+        "德语、法语、西班牙语",
+        "阿拉伯语与 RTL 排版",
+        "总计 50+ 语言组合"
+      ],
+      "copyright": "MediaLocalize — 多语言本地化与全球网站服务，保留所有权利",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "面向 B2B 出口企业的多语言本地化与 AI 建站",
+        "title": "走向全球<br>表达像本地品牌",
+        "subtitle": "从英文外贸官网到文案、配音、版式和课程内容本地化，MediaLocalize 用 50+ 语言帮制造企业把专业能力讲给海外买家听",
+        "primary": "获取免费报价",
+        "secondary": "查看案例"
+      },
+      "stats": [
+        [
+          "15+",
+          "年行业经验"
+        ],
+        [
+          "50+",
+          "支持语言"
+        ],
+        [
+          "500+",
+          "交付项目"
+        ],
+        [
+          "10年+",
+          "最长客户合作"
+        ]
+      ],
+      "intro": {
+        "label": "我们的服务",
+        "title": "两项核心能力<br>一个稳定交付伙伴",
+        "body": "你需要的不是逐字翻译，而是海外买家愿意读、愿意信、愿意询盘的完整内容体系，覆盖网站、文案、DTP、配音、视频和课件"
+      },
+      "services": [
+        {
+          "title": "AI 驱动的外贸网站建设",
+          "body": "为制造企业搭建加载快、结构清晰、便于 Google 收录的英文或多语言官网，域名、设计、CDN、SEO、AI 客服和维护一次交付",
+          "features": [
+            "域名注册与托管",
+            "适合询盘转化的响应式设计",
+            "全球 CDN 与性能优化",
+            "技术 SEO 与页面 SEO",
+            "AI 客服 / 线索收集",
+            "持续维护与内容更新"
+          ],
+          "url": "/services/website-building/"
+        },
+        {
+          "title": "专业多语言本地化",
+          "body": "面向技术文档、营销资料、视频、配音和在线课程的本地化服务，让内容符合目标市场的阅读和判断习惯",
+          "features": [
+            "DTP 排版 InDesign / FrameMaker",
+            "AI 配音 $1/分钟起 · 50+ 语言",
+            "认证母语真人配音",
+            "视频与动画本地化",
+            "企业课件 / SCORM 本地化",
+            "专属术语库与翻译记忆库"
+          ],
+          "url": "/services/localization/"
+        }
+      ],
+      "cases": {
+        "label": "案例",
+        "title": "真实项目 真实结果",
+        "body": "从中国制造企业第一版英文官网，到十年以上的多语言资料合作，我们关注的是询盘、可信度和长期效率",
+        "all": "查看全部案例"
+      },
+      "news": {
+        "label": "洞察",
+        "title": "来自项目一线的经验",
+        "body": "关于 AI 配音、DTP、企业培训本地化、外贸网站和国际 SEO 的实战文章"
+      },
+      "cta": {
+        "label": "开始沟通",
+        "title": "准备进入海外市场了吗",
+        "body": "告诉我们你的外贸网站或本地化需求，我们会在 1 个工作日内回复"
+      }
+    },
+    "services_hub": {
+      "hero": {
+        "label": "服务",
+        "title": "AI 外贸建站与专业多语言本地化",
+        "subtitle": "面向中国制造企业、B2B 出口商和全球团队，提供英文/多语言官网与 50+ 语言内容本地化"
+      },
+      "services": [
+        {
+          "title": "AI 驱动的外贸网站建设",
+          "body": "为制造企业搭建加载快、结构清晰、便于 Google 收录的英文或多语言官网，域名、设计、CDN、SEO、AI 客服和维护一次交付",
+          "features": [
+            "域名注册与托管",
+            "适合询盘转化的响应式设计",
+            "全球 CDN 与性能优化",
+            "技术 SEO 与页面 SEO",
+            "AI 客服 / 线索收集",
+            "持续维护与内容更新"
+          ],
+          "url": "/services/website-building/",
+          "label": "服务 01",
+          "primary": "了解更多",
+          "secondary": "查看价格",
+          "image": "/images/services/website-building.jpg",
+          "secondary_url": "/prices/"
+        },
+        {
+          "title": "专业多语言本地化",
+          "body": "面向技术文档、营销资料、视频、配音和在线课程的本地化服务，让内容符合目标市场的阅读和判断习惯",
+          "features": [
+            "DTP 排版 InDesign / FrameMaker",
+            "AI 配音 $1/分钟起 · 50+ 语言",
+            "认证母语真人配音",
+            "视频与动画本地化",
+            "企业课件 / SCORM 本地化",
+            "专属术语库与翻译记忆库"
+          ],
+          "url": "/services/localization/",
+          "label": "服务 02",
+          "primary": "了解更多",
+          "secondary": "获取报价",
+          "image": "/images/services/localization.jpg",
+          "secondary_url": "/contact/"
+        }
+      ],
+      "stats": [
+        [
+          "500+",
+          "上线网站"
+        ],
+        [
+          "50+",
+          "支持语言"
+        ],
+        [
+          "10K+",
+          "页面本地化"
+        ],
+        [
+          "99%",
+          "客户满意度"
+        ]
+      ],
+      "why": {
+        "label": "为什么选择 MediaLocalize",
+        "title": "一个伙伴覆盖整套出海内容",
+        "body": "不用分别协调翻译公司、建站团队和排版供应商，我们把网站、文案、DTP、配音、视频和课件放在同一条交付线上",
+        "cards": [
+          {
+            "title": "AI 提速",
+            "body": "用最新 AI 工具压缩交付周期，同时保留人工审校、术语判断和行业语感"
+          },
+          {
+            "title": "人工把关",
+            "body": "母语审校与领域专家共同检查准确性、语气和市场适配度"
+          },
+          {
+            "title": "交付快",
+            "body": "网站通常 2–3 周上线，AI 配音 24–72 小时交付，节奏跟得上业务窗口"
+          }
+        ]
+      },
+      "cta": {
+        "label": "开始沟通",
+        "title": "准备进入海外市场了吗",
+        "body": "告诉我们你的外贸网站或本地化需求，我们会在 1 个工作日内回复"
+      }
+    },
+    "prices": {
+      "hero": {
+        "label": "价格",
+        "title": "外贸建站与本地化服务价格",
+        "subtitle": "AI 建站采用固定年费，本地化按页、分钟、词数或模块计价，报价清晰，没有隐藏费用"
+      },
+      "web_intro": {
+        "label": "网站建设",
+        "title": "AI 外贸官网套餐",
+        "body": "所有套餐都包含域名配置、响应式设计、基础维护与持续支持，按年计费"
+      },
+      "plans": [
+        {
+          "name": "Starter 入门",
+          "setup": "$199",
+          "period": "建站费",
+          "renew": "+ $199 / 年",
+          "year1": "首年合计 $398",
+          "features": [
+            "1 个独立域名",
+            "1 个邮箱账号",
+            "单页官网",
+            "基础 CDN",
+            "基础 SEO 设置",
+            "SSL 证书",
+            "邮件支持"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Growth 增长",
+          "setup": "$499",
+          "period": "建站费",
+          "renew": "+ $299 / 年",
+          "year1": "首年合计 $798",
+          "badge": "最受欢迎",
+          "features": [
+            "1 个独立域名",
+            "5 个邮箱账号",
+            "最多 10 个页面",
+            "全球 CDN",
+            "高级 SEO 与数据分析",
+            "SSL 证书",
+            "优先支持",
+            "月度性能报告",
+            "每月发布 1 篇新闻/文章",
+            "每月最多 5 次产品更新"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business 商务",
+          "setup": "$999",
+          "period": "建站费",
+          "renew": "+ $399 / 年",
+          "year1": "首年合计 $1,398",
+          "features": [
+            "2 个独立域名",
+            "20 个邮箱账号",
+            "不限页面数量",
+            "全球 CDN + 边缘缓存",
+            "高级 SEO 与数据分析",
+            "AI 客服集成",
+            "7×24 优先支持",
+            "季度策略复盘",
+            "每周发布 1 篇新闻/文章",
+            "每月最多 10 次产品更新"
+          ],
+          "featured": false
+        }
+      ],
+      "plan_cta": "免费咨询",
+      "web_note": "建站费覆盖设计、开发与上线，年费覆盖托管、维护和支持，企业级定制可单独报价",
+      "loc_intro": {
+        "label": "本地化",
+        "title": "本地化服务价格",
+        "body": "价格会受语言组合、内容量、专业难度和交付格式影响，以下为起步单价"
+      },
+      "loc_items": [
+        [
+          "DTP 桌面排版",
+          "$2 – $5",
+          "每页",
+          "支持 Word、PowerPoint、FrameMaker、InDesign，包含字体替换、版式调整和目标语言排版检查"
+        ],
+        [
+          "AI 配音",
+          "$1 – $2",
+          "每成品分钟",
+          "50+ 语言 AI 语音合成，通常 24–72 小时交付，适合培训视频和产品演示"
+        ],
+        [
+          "真人配音",
+          "$20 – $50",
+          "每成品分钟",
+          "母语配音演员与录音级后期，通常 3–7 个工作日，适合品牌视频和高曝光内容"
+        ],
+        [
+          "视频本地化",
+          "$8 – $220",
+          "每分钟",
+          "字幕、配音、屏幕文字替换和唇形同步等不同服务层级"
+        ],
+        [
+          "课件本地化 — 按词",
+          "$0.12 – $0.18",
+          "每源语言词",
+          "课程文案翻译与文化适配，按语言组合和专业难度调整"
+        ],
+        [
+          "课件本地化 — 按模块",
+          "$250 – $600",
+          "每模块",
+          "包含页面调整、脚本改写、配音录制和媒体素材适配"
+        ]
+      ],
+      "minimum": "最低起订 所有本地化任务最低收费 USD 50，30 分钟以上或 10,000 词以上可申请批量折扣",
+      "cta": {
+        "title": "需要网站或本地化定制报价",
+        "body": "告诉我们语言组合、内容类型、数量和时间要求，我们会在 1 个工作日内回复",
+        "button": "获取报价"
+      }
+    },
+    "contact": {
+      "hero": {
+        "label": "联系",
+        "title": "聊聊你的项目",
+        "subtitle": "告诉我们网站或本地化需求，我们会在 1 个工作日内回复"
+      },
+      "info_title": "联系方式",
+      "email_label": "邮箱",
+      "languages_label": "沟通语言",
+      "languages": "支持中文与英文沟通",
+      "response_label": "回复时间",
+      "response": "1 个工作日内",
+      "include_title": "建议在留言中说明",
+      "include": [
+        "现有网站地址（如有）",
+        "目标语言 / 目标市场",
+        "内容类型与大致数量",
+        "期望交付时间"
+      ],
+      "form_title": "发送项目需求",
+      "success_title": "留言已发送",
+      "success_body": "我们会在 1 个工作日内回复，请留意邮箱确认邮件",
+      "labels": {
+        "name": "姓名 *",
+        "email": "邮箱 *",
+        "company": "公司 / 网站",
+        "service": "感兴趣的服务 *",
+        "message": "项目说明 *"
+      },
+      "placeholders": {
+        "name": "你的姓名",
+        "email": "you@company.com",
+        "company": "公司名称或域名",
+        "service": "请选择服务",
+        "message": "请说明语言组合、内容量、时间要求等"
+      },
+      "options": [
+        "网站 — Starter 入门 ($199/年)",
+        "网站 — Growth 增长 ($499/年)",
+        "网站 — Business 商务 ($999/年)",
+        "DTP 桌面排版",
+        "AI 配音",
+        "真人配音",
+        "视频本地化",
+        "课件本地化",
+        "其他 / 多项服务"
+      ],
+      "submit": "发送需求",
+      "sending": "发送中…",
+      "errors": {
+        "name": "请输入姓名",
+        "email": "请输入有效邮箱",
+        "service": "请选择服务",
+        "message": "请简单说明项目需求",
+        "short": "留言内容太短，请补充更多信息",
+        "missing": "请填写所有必填项",
+        "invalid": "邮箱格式看起来不正确，请检查",
+        "generic": "提交失败，请稍后重试，或直接邮件联系 ken.lee@medialocalize.com"
+      }
+    },
+    "about": {
+      "hero": {
+        "label": "关于我们",
+        "title": "15 年，把内容带到<br>不同市场之间",
+        "subtitle": "一个由开发、DTP 工程师和本地化专家组成的小团队，从 AI 成为热词之前，我们就在做多语言交付"
+      },
+      "story": {
+        "label": "我们的故事",
+        "title": "手艺打底 AI 提速",
+        "paras": [
+          "MediaLocalize 由开发者和排版工程师创立，我们一直相信，好的产品和内容不应该被语言、格式或地域理解差异挡住",
+          "今天，我们把多年 DTP、本地化和网站经验，与 Claude Code、自动化流程和 AI 配音等工具结合，让过去需要数周甚至数月的工作更快完成",
+          "无论是第一次做英文官网的制造企业，还是要上线 20 种语言培训课程的跨国团队，我们都用同样的认真度交付"
+        ]
+      },
+      "team_intro": {
+        "label": "团队",
+        "title": "四位核心成员<br>同一套交付标准",
+        "body": "没有层层转交，也没有只负责沟通不负责交付的中间层，你看到的人，就是实际做项目的人"
+      },
+      "values_intro": {
+        "label": "价值观",
+        "title": "我们坚持什么"
+      },
+      "cta": {
+        "title": "直接与交付团队沟通",
+        "body": "没有销售话术，项目会由真正做事的人来判断和推进",
+        "button": "联系我们"
+      },
+      "team": [
+        {
+          "name": "Ken Lee",
+          "role": "Founder & Lead Developer",
+          "exp": "15+ yrs experience",
+          "bio": "Ken 负责网站架构、开发与部署，把静态站点、CDN、自动化流程和 AI 辅助生产结合起来",
+          "badges": [
+            "Next.js",
+            "TypeScript",
+            "Claude Code",
+            "GitHub Actions",
+            "Cloudflare",
+            "Hugo"
+          ]
+        },
+        {
+          "name": "Jerry Hu",
+          "role": "Senior DTP Engineer",
+          "exp": "15+ yrs experience",
+          "bio": "Jerry 负责复杂多语言排版，包括阿拉伯语 RTL、CJK、天城文和泰文，并在交付前执行严格预检",
+          "badges": [
+            "Adobe InDesign",
+            "FrameMaker",
+            "QuarkXPress",
+            "Illustrator",
+            "PDF/X Preflight",
+            "CJK Typography"
+          ]
+        },
+        {
+          "name": "Jesse Chen",
+          "role": "Localization Engineer",
+          "exp": "12+ yrs experience",
+          "bio": "Jesse 管理翻译记忆库、术语表、XLIFF 流程、CJK 质检和译员筛选",
+          "badges": [
+            "memoQ",
+            "SDL Trados",
+            "XLIFF / SDLXLIFF",
+            "Translation Memory",
+            "CJK QA",
+            "AI Post-editing"
+          ]
+        },
+        {
+          "name": "Benny Chow",
+          "role": "Project Manager",
+          "exp": "12+ yrs experience",
+          "bio": "Benny 负责需求拆解、排期、资源协调和最终 QA，让项目从报价到交付都清楚可控",
+          "badges": [
+            "Project Scoping",
+            "SCORM / xAPI QA",
+            "Lighthouse CI",
+            "DTP Preflight",
+            "Risk Management",
+            "Client Communication"
+          ]
+        }
+      ],
+      "values": [
+        {
+          "icon": "⚡",
+          "title": "快，但不粗糙",
+          "body": "AI 缩短周期，人工判断保证质量"
+        },
+        {
+          "icon": "🌏",
+          "title": "真正的本地化",
+          "body": "我们改写意义、语气和呈现方式，而不是只换语言"
+        },
+        {
+          "icon": "🔒",
+          "title": "长期合作",
+          "body": "价格透明，沟通直接，术语和经验会持续积累"
+        }
+      ],
+      "stats": [
+        [
+          "15+",
+          "年行业经验"
+        ],
+        [
+          "4",
+          "核心成员"
+        ],
+        [
+          "500+",
+          "交付项目"
+        ],
+        [
+          "10年+",
+          "最长客户合作"
+        ]
+      ]
+    },
+    "cases": {
+      "hero": {
+        "label": "案例",
+        "title": "外贸网站与本地化项目案例",
+        "subtitle": "看看 MediaLocalize 如何帮助制造企业建立英文官网、重写产品资料，并打开新的国际询盘渠道"
+      },
+      "filters": [
+        [
+          "all",
+          "全部项目"
+        ],
+        [
+          "website-building",
+          "网站建设"
+        ],
+        [
+          "localization",
+          "本地化"
+        ]
+      ],
+      "cta": {
+        "title": "也想建立全球可信度",
+        "body": "告诉我们你的网站或多语言内容需求，我们会在 1 个工作日内回复"
+      },
+      "single": {
+        "label": "案例",
+        "challenge_label": "挑战",
+        "challenge_title": "问题背景",
+        "solution_label": "方案",
+        "solution_title": "我们做了什么",
+        "results_label": "结果",
+        "results_title": "项目成效",
+        "cta_title": "希望获得类似结果",
+        "cta_body": "我们可以一起搭建你的全球内容与网站基础"
+      }
+    },
+    "news": {
+      "hero": {
+        "label": "洞察与文章",
+        "title": "本地化行业洞察与全球网站趋势",
+        "subtitle": "关于 AI 配音、多语言 DTP、课件本地化和外贸网站的实战经验，由真正做项目的人来写"
+      },
+      "filters": [
+        [
+          "all",
+          "全部"
+        ],
+        [
+          "tech",
+          "技术洞察"
+        ],
+        [
+          "industry",
+          "行业观察"
+        ],
+        [
+          "company",
+          "公司动态"
+        ]
+      ],
+      "empty_body": "文章将陆续发布",
+      "cta_title": "有项目想法",
+      "cta_body": "我们会认真回复每一条咨询，通常 1 个工作日内完成"
+    },
+    "taxonomy": {
+      "browse_by": "浏览",
+      "tag": "标签",
+      "category": "分类",
+      "all_tags": "全部标签",
+      "all_categories": "全部分类",
+      "articles_with": "篇相关文章",
+      "browse_all": "浏览全部文章"
+    },
+    "service_detail": {
+      "section_label": "服务",
+      "included": "包含内容",
+      "cta_title": "想了解这项服务",
+      "cta_body": "告诉我们内容类型、语言和交付时间，我们会给出适合你的报价"
+    },
+    "pages": {
+      "home": {
+        "title": "MediaLocalize — AI 外贸建站与多语言本地化",
+        "description": "为中国制造企业提供英文官网、AI 建站、DTP、配音、视频、课件与 50+ 语言本地化服务"
+      },
+      "about": {
+        "title": "关于 MediaLocalize",
+        "description": "MediaLocalize 自 2009 年起为制造业、医药、培训和 B2B 出口企业提供网站与本地化服务"
+      },
+      "services": {
+        "title": "服务 — MediaLocalize",
+        "description": "AI 外贸建站、英文官网、多语言本地化、DTP、配音、视频与课件交付"
+      },
+      "prices": {
+        "title": "价格 — MediaLocalize",
+        "description": "AI 建站与本地化服务价格，包含网站套餐、DTP、配音、视频和课件本地化"
+      },
+      "contact": {
+        "title": "联系 MediaLocalize",
+        "description": "咨询 AI 建站、英文官网和多语言本地化项目"
+      },
+      "cases": {
+        "title": "案例 — MediaLocalize",
+        "description": "真实外贸网站与本地化项目案例"
+      },
+      "news": {
+        "title": "本地化行业洞察 — MediaLocalize",
+        "description": "关于 AI 配音、DTP、课件本地化、外贸网站和国际 SEO 的实战文章"
+      },
+      "privacy": {
+        "body": "## 隐私政策摘要\n我们只收集处理咨询和交付项目所必需的信息，例如姓名、邮箱、公司信息、项目资料和网站访问日志。数据用于回复咨询、提供服务、项目沟通、开票和安全维护。\n\n如需访问、更正或删除个人信息，请通过 ken.lee@medialocalize.com 联系我们。若中文说明与英文原文存在理解差异，以英文版本为准。",
+        "title": "隐私政策",
+        "description": "MediaLocalize 如何收集、使用和保护个人信息"
+      },
+      "terms": {
+        "body": "## 服务条款摘要\n使用 MediaLocalize 网站或委托服务，即表示你同意按项目确认书、报价或 SOW 中约定的范围、时间和付款方式执行。客户需保证提交材料合法并拥有必要权利。\n\n最终交付物在款项结清后转移给客户；我们的工具、流程、术语资产和方法仍属于 MediaLocalize。若中文说明与英文原文存在理解差异，以英文版本为准。",
+        "title": "服务条款",
+        "description": "使用 MediaLocalize 网站和服务所适用的条款"
+      },
+      "services/website-building": {
+        "title": "AI 外贸网站建设",
+        "description": "建设适合海外买家浏览、询盘和 Google 收录的专业外贸官网",
+        "subtitle": "从域名到上线，全流程托管",
+        "cover": "/images/services/website-building.jpg",
+        "body": "## 为海外买家重新组织网站\n我们不是简单把中文官网翻成英文，而是按国际采购工程师和 B2B 买家的习惯重写结构：产品、规格、应用、证书、下载资料和询盘路径都清楚呈现。\n\n网站会部署在全球 CDN 上，并配置基础 SEO、结构化数据和持续维护。适合第一次做英文官网的制造企业，也适合希望升级旧站的出口团队。",
+        "features": [
+          {
+            "title": "买家导向文案",
+            "desc": "从采购、工程和合规视角重写页面内容"
+          },
+          {
+            "title": "全球访问速度",
+            "desc": "CDN、图片优化和静态部署，减少海外加载延迟"
+          },
+          {
+            "title": "询盘路径",
+            "desc": "表单、邮箱、产品资料下载和 AI 客服协同收集线索"
+          }
+        ]
+      },
+      "services/localization": {
+        "title": "多语言本地化服务",
+        "description": "面向文档、视频、配音、DTP 和课件的 50+ 语言本地化",
+        "subtitle": "让内容像为目标市场原生编写",
+        "cover": "/images/services/localization.jpg",
+        "body": "## 不止是翻译\n真正的本地化会处理术语、语气、图文版式、单位、阅读方向、字幕时长和目标市场的判断习惯。我们把语言、排版和媒体制作放在同一流程里，减少返工。\n\n适用于产品目录、技术手册、培训视频、企业课件、营销资料和网站内容。",
+        "features": [
+          {
+            "title": "术语一致",
+            "desc": "建立术语表和翻译记忆库，长期项目越做越稳定"
+          },
+          {
+            "title": "格式完整",
+            "desc": "翻译、排版、字幕、配音和最终文件一起交付"
+          },
+          {
+            "title": "市场适配",
+            "desc": "按目标读者习惯调整表达，不做生硬直译"
+          }
+        ]
+      },
+      "services/localization/dtp": {
+        "title": "DTP 桌面排版",
+        "description": "Word、PPT、InDesign、FrameMaker 等多语言文档排版",
+        "subtitle": "翻译之后，让版式也真正可用",
+        "cover": "/images/services/dtp.jpg",
+        "body": "## 多语言文档需要重新排版\n不同语言会导致文字长度、断行、字体和表格高度发生变化。阿拉伯语还需要 RTL 方向处理，中文则要注意标点、换行和字体显示。\n\n我们处理 Word、PPT、InDesign、FrameMaker 和 PDF 重建，交付可印刷或可发布的最终文件。",
+        "features": [
+          {
+            "title": "文字溢出检查",
+            "desc": "逐页检查文本框、表格、页码和交叉引用"
+          },
+          {
+            "title": "字体与脚本支持",
+            "desc": "处理 CJK、RTL、泰文、天城文等复杂脚本"
+          },
+          {
+            "title": "印前交付",
+            "desc": "导出 PDF/X 或客户指定格式"
+          }
+        ]
+      },
+      "services/localization/dubbing": {
+        "title": "AI 与真人配音",
+        "description": "AI 配音和专业真人配音，适用于培训、产品演示和品牌视频",
+        "subtitle": "让视频用目标语言自然开口",
+        "cover": "/images/services/dubbing.jpg",
+        "body": "## 根据内容选择声音方案\nAI 配音适合大量培训、产品演示和更新频繁的内容，交付快、成本可控；真人配音适合品牌视频、高情绪表达和需要表演感的内容。\n\n我们会先处理脚本节奏、术语和时长，再录制、混音并对齐画面。",
+        "features": [
+          {
+            "title": "AI 快速交付",
+            "desc": "多数项目 24–72 小时完成初版"
+          },
+          {
+            "title": "真人母语演员",
+            "desc": "适合品牌、营销和高曝光视频"
+          },
+          {
+            "title": "脚本适配",
+            "desc": "调整句长和节奏，避免听起来像书面翻译"
+          }
+        ]
+      },
+      "services/localization/video": {
+        "title": "视频与动画本地化",
+        "description": "字幕、配音、屏幕文字、动画图层和最终视频合成",
+        "subtitle": "让视频在目标市场看起来完整、自然",
+        "cover": "/images/services/video-localization.jpg",
+        "body": "## 视频本地化是时间、画面和语言的协同\n我们处理字幕时间轴、配音、屏幕文字替换、AE 图层、本地化导出和质量检查。目标不是只给视频加字幕，而是让观看体验完整。",
+        "features": [
+          {
+            "title": "字幕与封闭字幕",
+            "desc": "SRT、VTT 等格式，控制行长和阅读速度"
+          },
+          {
+            "title": "屏幕文字替换",
+            "desc": "重建标题、标注、下三分之一和图形文字"
+          },
+          {
+            "title": "多版本交付",
+            "desc": "按平台、语言和分辨率输出最终文件"
+          }
+        ]
+      },
+      "services/localization/elearning": {
+        "title": "课件与 SCORM 本地化",
+        "description": "Articulate、Captivate、Lectora 等课程包文字、音频、视频和交互本地化",
+        "subtitle": "让海外学员学得懂，也愿意继续学",
+        "cover": "/images/services/elearning.jpg",
+        "body": "## 培训课程不能只翻脚本\n课件本地化涉及页面文字、旁白、动画时长、测验反馈、SCORM 追踪和 LMS 测试。我们会把学习体验作为整体处理，而不是分散翻译。",
+        "features": [
+          {
+            "title": "课程包处理",
+            "desc": "支持 Storyline、Rise、Captivate、Lectora 等常见工具"
+          },
+          {
+            "title": "音频与视频同步",
+            "desc": "重录或 AI 配音后重新对齐动画和字幕"
+          },
+          {
+            "title": "LMS 测试",
+            "desc": "检查本地化包在客户平台中的显示与追踪"
+          }
+        ]
+      },
+      "cases/irmodules": {
+        "title": "IRModules — 红外机芯 OEM/ODM 英文官网",
+        "domain": "irmodules.com",
+        "industry": "红外机芯 / OEM·ODM",
+        "service_label": "网站建设",
+        "tagline": "一个技术型产品目录网站，帮助红外机芯制造商承接全球 OEM 询盘",
+        "description": "为红外机芯制造商搭建可信英文官网，首月获得 40+ 规格书下载，并在 2 周内收到 OEM 询盘",
+        "challenge": "客户具备红外机芯制造能力，但海外买家在线上无法看到可信的英文资料、规格参数和 OEM 联系路径",
+        "solution": "我们搭建了技术产品目录网站，完善规格表、PDF 下载、OEM 询盘表单和面向热成像采购关键词的内容结构，并通过全球 CDN 部署",
+        "results_desc": "网站上线后三周内开始稳定产生规格书下载，两周内收到第一条正式 OEM 询盘，首月下载量达到 40+",
+        "results_short": [
+          "3 周上线完整产品目录",
+          "首月 40+ 规格书下载",
+          "2 周内收到第一条 OEM 询盘"
+        ],
+        "body": "该项目说明 技术型 B2B 网站的核心不是炫目设计，而是让工程买家快速判断参数、下载资料并发起询盘"
+      },
+      "cases/cyrentis": {
+        "title": "Cyrentis — 安防雷达产品 B2B 官网",
+        "domain": "cyrentis.com",
+        "industry": "安防 / 雷达产品",
+        "service_label": "网站建设",
+        "tagline": "一个专业 B2B 官网，让国际安防买家能够快速评估产品能力",
+        "description": "为雷达制造商搭建多页面产品展示网站，上线数周内获得海外 RFQ 询价",
+        "challenge": "没有英文官网导致国际系统集成商、分销商和采购团队无法在线评估产品",
+        "solution": "我们搭建产品展示、技术规格、RFQ 表单和安防行业关键词内容，并部署到全球 CDN",
+        "results_desc": "网站两周内上线，72 小时内被 Google 收录，首月获得海外 RFQ",
+        "results_short": [
+          "2 周完成上线",
+          "72 小时内被 Google 收录",
+          "首月收到海外 RFQ"
+        ],
+        "body": "对于安防类 B2B 产品，官网相当于 24 小时在线销售代表，必须能承载参数、场景和采购沟通"
+      },
+      "cases/laser-marking-localization": {
+        "title": "武汉激光设备制造商 — 出口资料本地化",
+        "domain": "武汉光谷激光设备制造商",
+        "industry": "激光设备 / 制造业",
+        "service_label": "本地化 · DTP",
+        "tagline": "从机翻规格表到国际化销售资料，帮助客户获得第一笔直接海外订单",
+        "description": "重写光纤激光打标机英文资料，补齐关键规格并重建行业应用单页",
+        "challenge": "原有英文资料存在机翻痕迹、规格缺失和行业应用过于泛化的问题，影响欧洲和北美买家判断",
+        "solution": "我们对 20W、30W、50W 机型做英文内容审计，重写产品描述、补齐 M²、光斑、重复精度等参数，并按行业制作应用资料",
+        "results_desc": "资料更新后六周内，客户收到欧洲买家直接询盘，并转化为 2 台 30W MOPA 订单",
+        "results_short": [
+          "规格表重建到国际采购标准",
+          "6 周内收到欧洲买家询盘",
+          "首单成交 2 台 30W MOPA"
+        ],
+        "body": "工业设备资料的可信度直接影响询盘质量，规格表写得清楚，销售漏斗就顺畅很多"
+      },
+      "cases/courseware-localization": {
+        "title": "保密客户 — 企业培训课件本地化",
+        "domain": "保密 · 全球培训服务商",
+        "industry": "企业培训 / HR Tech",
+        "service_label": "本地化 · 课件 + 配音",
+        "tagline": "40+ 课程模块完整本地化，版式、旁白和字幕一起交付",
+        "description": "为全球培训服务商完成企业课程库简体中文本地化，覆盖 PPT 版式、普通话配音和字幕",
+        "challenge": "英文课程直接转换为中文后，出现文本溢出、动画节奏错位、字幕不同步和 AI 声音生硬的问题",
+        "solution": "我们同步处理中文版式、专业普通话配音和字幕重计时，并在最终质量检查中统一验证观看体验",
+        "results_desc": "课程按期上线，学员满意度达到或超过英文原版，客户随后扩展为持续合作",
+        "results_short": [
+          "40+ 模块完成版式、配音和字幕本地化",
+          "学员满意度达到或超过英文原版",
+          "延展为新模块持续合作"
+        ],
+        "body": "课件本地化必须把版式、声音和时间轴作为一个整体处理，否则学员会立刻感到不自然"
+      },
+      "cases/translation-dtp-partnership": {
+        "title": "保密客户 — 10 年翻译与 DTP 合作",
+        "domain": "保密 · 欧洲工业客户",
+        "industry": "工业设备",
+        "service_label": "本地化 · 翻译与 DTP",
+        "tagline": "十年以上持续翻译和排版合作，稳定术语带来长期效率",
+        "description": "与欧洲工业设备客户建立十年本地化合作，覆盖英中翻译、InDesign 排版、手册和营销资料",
+        "challenge": "客户长期资料需要英中术语一致，之前供应商导致手册、界面和市场材料术语不统一",
+        "solution": "我们建立专属术语库和翻译记忆库，由固定译员与项目经理维护，并在内部完成中文 DTP",
+        "results_desc": "合作超过十年，累计翻译 250,000+ 词，文档错误相关支持升级大幅下降",
+        "results_short": [
+          "10+ 年持续合作",
+          "累计 250,000+ 词",
+          "4,000+ 专属术语条目"
+        ],
+        "body": "长期本地化合作的价值在于知识积累，术语库、项目经验和版式模板会让每一次更新更快、更稳"
+      },
+      "news/ai-dubbing-vs-human-voice": {
+        "title": "AI 配音还是真人配音 什么时候该选哪一种",
+        "summary": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好",
+        "description": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好"
+      },
+      "news/translation-memory-dtp-efficiency": {
+        "title": "翻译记忆库如何缩短 DTP 周期",
+        "summary": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大",
+        "description": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大"
+      },
+      "news/why-chinese-exporters-need-english-website": {
+        "title": "没有英文官网，中国出口企业每天在失去什么",
+        "summary": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势",
+        "description": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"
+      },
+      "news/international-seo-guide-chinese-manufacturers": {
+        "title": "中国制造企业国际 SEO 实用指南",
+        "summary": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构",
+        "description": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构"
+      },
+      "news/localization-vs-translation-differences": {
+        "title": "本地化与翻译 决定内容是否有效的差别",
+        "summary": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任",
+        "description": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任"
+      },
+      "news/website-localization-guide-b2b-exporters": {
+        "title": "什么是网站本地化，为什么 B2B 出口商不能忽视",
+        "summary": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的",
+        "description": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
+      },
+      "news/oem-product-catalog-website-guide": {
+        "title": "如何建设能带来 OEM 询盘的产品目录网站",
+        "summary": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚",
+        "description": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚"
+      },
+      "news/neural-tts-ai-voice-localization": {
+        "title": "神经 TTS 与 AI 语音本地化的兴起",
+        "summary": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度",
+        "description": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
+      },
+      "news/human-vs-machine-translation-technical-content": {
+        "title": "技术内容该用人工翻译还是机器翻译",
+        "summary": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断",
+        "description": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断"
+      },
+      "news/export-website-speed-cdn-performance": {
+        "title": "为什么外贸网站在海外打开很慢，以及如何解决",
+        "summary": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案",
+        "description": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
+      },
+      "news/elearning-localization-global-audiences": {
+        "title": "面向全球学员的在线课程本地化",
+        "summary": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试",
+        "description": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
+      },
+      "news/video-localization-corporate-training-guide": {
+        "title": "企业培训视频本地化 字幕配音与屏幕文字",
+        "summary": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工",
+        "description": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工"
+      },
+      "news/multilingual-dtp-typography-guide": {
+        "title": "多语言 DTP 与排版指南",
+        "summary": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则",
+        "description": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则"
+      },
+      "news/cost-of-poor-localization-b2b-export": {
+        "title": "B2B 出口营销中低质量本地化的真实成本",
+        "summary": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升",
+        "description": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
+      }
+    }
+  },
+  "es": {
+    "meta": {
+      "htmlLang": "es",
+      "locale": "es_ES",
+      "schemaLanguage": "es",
+      "flag": "🇪🇸",
+      "languageName": "Español",
+      "shortName": "ES",
+      "dir": "ltr",
+      "availableLanguage": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    "nav": {
+      "aria": "Navegación principal",
+      "mobileAria": "Navegación móvil",
+      "menuLabel": "Abrir menú",
+      "languageLabel": "Idioma",
+      "logoLabel": "MediaLocalize",
+      "cta": "Contacto",
+      "items": [
+        {
+          "label": "Inicio",
+          "url": "/"
+        },
+        {
+          "label": "Servicios",
+          "url": "/services/"
+        },
+        {
+          "label": "Precios",
+          "url": "/prices/"
+        },
+        {
+          "label": "Casos",
+          "url": "/cases/"
+        },
+        {
+          "label": "Ideas",
+          "url": "/news/"
+        },
+        {
+          "label": "Equipo",
+          "url": "/about/"
+        }
+      ]
+    },
+    "common": {
+      "site_description": "MediaLocalize crea sitios web con IA y localiza contenido multilingüe para fabricantes B2B y exportadores.",
+      "contact": "Contacto",
+      "get_quote": "Solicitar presupuesto",
+      "free_quote": "Pedir presupuesto",
+      "view_pricing": "Ver precios",
+      "learn_more": "Ver detalles",
+      "read_article": "Leer artículo",
+      "read_case": "Ver caso",
+      "all_articles": "Todos los artículos",
+      "get_in_touch": "Contactar",
+      "start_project": "Iniciar proyecto",
+      "explore_services": "Explorar servicios",
+      "more_articles": "Más artículos",
+      "more_cases": "Más casos",
+      "visit_website": "Visitar sitio",
+      "written_by": "Escrito por",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "recent_articles": "Artículos recientes",
+      "categories": "Categorías",
+      "tags": "Etiquetas",
+      "project_prompt": "¿Tienes un proyecto?",
+      "response_one_day": "Respondemos en un día hábil.",
+      "related_articles": "Artículos relacionados",
+      "date_card": "2006-01-02",
+      "date_long": "2006-01-02",
+      "min_read": "min de lectura",
+      "category_labels": {
+        "tech": "Tecnología",
+        "industry": "Industria",
+        "marketing": "Marketing",
+        "localization": "Localización",
+        "company": "Empresa",
+        "other": "Noticias"
+      },
+      "pagination_prev": "Anterior",
+      "pagination_next": "Siguiente",
+      "coming_soon": "Próximamente",
+      "no_articles": "No hay artículos disponibles."
+    },
+    "footer": {
+      "desc": "Localización multilingüe y sitios web con IA para fabricantes chinos, exportadores B2B y equipos globales. Un socio especializado desde 2009.",
+      "meta": "15+ años · 500+ proyectos · 50+ pares de idiomas",
+      "services_title": "Servicios",
+      "industries_title": "Sectores",
+      "languages_title": "Idiomas",
+      "services": [
+        [
+          "Sitios web con IA para exportadores",
+          "/services/website-building/"
+        ],
+        [
+          "Localización multilingüe",
+          "/services/localization/"
+        ],
+        [
+          "DTP — InDesign y FrameMaker",
+          "/services/localization/dtp/"
+        ],
+        [
+          "Doblaje con IA y voz humana",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "Video y subtítulos",
+          "/services/localization/video/"
+        ],
+        [
+          "Localización e-learning SCORM",
+          "/services/localization/elearning/"
+        ]
+      ],
+      "industries": [
+        "Manufactura e industria",
+        "Dispositivos médicos y farma",
+        "E-learning corporativo",
+        "Marketing y publicidad",
+        "Legal y cumplimiento"
+      ],
+      "languages": [
+        "Chino ↔ inglés",
+        "Japonés y coreano",
+        "Alemán, francés, español",
+        "Árabe y escrituras RTL",
+        "50+ pares de idiomas"
+      ],
+      "copyright": "MediaLocalize — Localización multilingüe y sitios globales. Todos los derechos reservados.",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Localización multilingüe y sitios web con IA para exportadores B2B",
+        "title": "Vende fuera.<br>Habla como local.",
+        "subtitle": "Creamos tu sitio web internacional y adaptamos textos, voz y diseño para que compradores de otros mercados te lean con confianza.",
+        "primary": "Pedir presupuesto",
+        "secondary": "Ver casos"
+      },
+      "stats": [
+        [
+          "15+",
+          "años de experiencia"
+        ],
+        [
+          "50+",
+          "idiomas"
+        ],
+        [
+          "500+",
+          "proyectos entregados"
+        ],
+        [
+          "10+ años",
+          "relación más larga"
+        ]
+      ],
+      "intro": {
+        "label": "Qué hacemos",
+        "title": "Dos servicios clave.<br>Un solo equipo responsable.",
+        "body": "Sitios web para exportación y localización de contenido que suena natural en el mercado objetivo. Cubrimos estrategia, producción y entrega técnica."
+      },
+      "services": [
+        {
+          "title": "Sitios web con IA para exportación",
+          "body": "Lanza un sitio rápido, profesional y orientado a consultas internacionales, con diseño limpio, CDN global, SEO y atención al cliente con IA.",
+          "features": [
+            "Dominio y hosting",
+            "Diseño responsive orientado a conversión",
+            "CDN global y rendimiento",
+            "SEO técnico y on-page",
+            "Chatbot con IA",
+            "Soporte y actualizaciones"
+          ],
+          "url": "/services/website-building/"
+        },
+        {
+          "title": "Localización profesional",
+          "body": "Adaptamos contenido en 50+ idiomas: documentos, DTP, doblaje, video y e-learning. El objetivo no es traducir literal, sino vender y formar mejor en cada mercado.",
+          "features": [
+            "DTP en InDesign y FrameMaker",
+            "Doblaje IA desde $1/min",
+            "Voces humanas nativas",
+            "Localización de video y animación",
+            "E-learning y SCORM",
+            "Termbase y memoria de traducción"
+          ],
+          "url": "/services/localization/"
+        }
+      ],
+      "cases": {
+        "label": "Casos",
+        "title": "Resultados reales para empresas reales.",
+        "body": "Desde fabricantes chinos que lanzan su primer sitio en inglés hasta programas de localización de largo plazo.",
+        "all": "Ver todos los casos"
+      },
+      "news": {
+        "label": "Ideas",
+        "title": "Notas del equipo",
+        "body": "Análisis práctico sobre localización, doblaje con IA, DTP y sitios web para exportación."
+      },
+      "cta": {
+        "label": "Empezar",
+        "title": "¿Listo para vender en nuevos mercados?",
+        "body": "Cuéntanos tu proyecto web o de localización. Respondemos en un día hábil."
+      }
+    },
+    "services_hub": {
+      "hero": {
+        "label": "Servicios",
+        "title": "Sitios web con IA y localización multilingüe profesional",
+        "subtitle": "Sitios listos para exportación y contenido adaptado a 50+ idiomas para fabricantes, exportadores B2B y equipos globales."
+      },
+      "services": [
+        {
+          "title": "Sitios web con IA para exportación",
+          "body": "Lanza un sitio rápido, profesional y orientado a consultas internacionales, con diseño limpio, CDN global, SEO y atención al cliente con IA.",
+          "features": [
+            "Dominio y hosting",
+            "Diseño responsive orientado a conversión",
+            "CDN global y rendimiento",
+            "SEO técnico y on-page",
+            "Chatbot con IA",
+            "Soporte y actualizaciones"
+          ],
+          "url": "/services/website-building/",
+          "label": "Servicio 01",
+          "primary": "Ver detalles",
+          "secondary": "Ver precios",
+          "image": "/images/services/website-building.jpg",
+          "secondary_url": "/prices/"
+        },
+        {
+          "title": "Localización profesional",
+          "body": "Adaptamos contenido en 50+ idiomas: documentos, DTP, doblaje, video y e-learning. El objetivo no es traducir literal, sino vender y formar mejor en cada mercado.",
+          "features": [
+            "DTP en InDesign y FrameMaker",
+            "Doblaje IA desde $1/min",
+            "Voces humanas nativas",
+            "Localización de video y animación",
+            "E-learning y SCORM",
+            "Termbase y memoria de traducción"
+          ],
+          "url": "/services/localization/",
+          "label": "Servicio 02",
+          "primary": "Ver detalles",
+          "secondary": "Solicitar presupuesto",
+          "image": "/images/services/localization.jpg",
+          "secondary_url": "/contact/"
+        }
+      ],
+      "stats": [
+        [
+          "500+",
+          "sitios lanzados"
+        ],
+        [
+          "50+",
+          "idiomas"
+        ],
+        [
+          "10K+",
+          "páginas localizadas"
+        ],
+        [
+          "99%",
+          "satisfacción"
+        ]
+      ],
+      "why": {
+        "label": "Por qué MediaLocalize",
+        "title": "Un socio para toda la operación.",
+        "body": "Evitamos que tengas que coordinar agencia de traducción, desarrolladores y DTP por separado. Gestionamos todo el flujo multilingüe.",
+        "cards": [
+          {
+            "title": "Acelerado con IA",
+            "body": "Usamos IA para ganar velocidad y consistencia sin perder criterio humano."
+          },
+          {
+            "title": "Expertos humanos",
+            "body": "Revisión por hablantes nativos y especialistas de materia para ajustar precisión, tono y mercado."
+          },
+          {
+            "title": "Entrega rápida",
+            "body": "Sitios en 2–3 semanas y doblaje IA en 24–72 horas."
+          }
+        ]
+      },
+      "cta": {
+        "label": "Empezar",
+        "title": "¿Listo para vender en nuevos mercados?",
+        "body": "Cuéntanos tu sitio o proyecto de localización. Respondemos en un día hábil."
+      }
+    },
+    "prices": {
+      "hero": {
+        "label": "Precios",
+        "title": "Precios claros para sitios web y localización",
+        "subtitle": "Planes anuales para sitios con IA y tarifas por unidad para DTP, doblaje, video y e-learning."
+      },
+      "web_intro": {
+        "label": "Sitios web",
+        "title": "Planes de sitio web con IA",
+        "body": "Todos incluyen configuración de dominio, diseño responsive y soporte continuo. Facturación anual."
+      },
+      "plans": [
+        {
+          "name": "Starter",
+          "setup": "$199",
+          "period": "configuración",
+          "renew": "+ $199 / year",
+          "year1": "Total año 1: $398",
+          "features": [
+            "1 dominio propio",
+            "1 cuenta de email",
+            "Sitio de 1 página",
+            "CDN básico",
+            "SEO básico",
+            "Certificado SSL",
+            "Soporte por email"
+          ],
+          "featured": false,
+          "badge": ""
+        },
+        {
+          "name": "Growth",
+          "setup": "$499",
+          "period": "configuración",
+          "renew": "+ $299 / year",
+          "year1": "Total año 1: $798",
+          "badge": "Más elegido",
+          "features": [
+            "1 dominio propio",
+            "5 cuentas de email",
+            "Hasta 10 páginas",
+            "CDN global",
+            "SEO avanzado y analítica",
+            "Certificado SSL",
+            "Soporte prioritario",
+            "Reporte mensual de rendimiento",
+            "1 artículo al mes",
+            "Hasta 5 actualizaciones de producto al mes"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "setup": "$999",
+          "period": "configuración",
+          "renew": "+ $399 / year",
+          "year1": "Total año 1: $1,398",
+          "features": [
+            "2 dominios propios",
+            "20 cuentas de email",
+            "Páginas ilimitadas",
+            "CDN global + edge caching",
+            "SEO avanzado y analítica",
+            "Chatbot con IA",
+            "Soporte prioritario 24/7",
+            "Revisión estratégica trimestral",
+            "1 artículo por semana",
+            "Hasta 10 actualizaciones de producto al mes"
+          ],
+          "featured": false,
+          "badge": ""
+        }
+      ],
+      "plan_cta": "Consulta gratuita",
+      "web_note": "La configuración cubre diseño, desarrollo y lanzamiento. La cuota anual cubre hosting, mantenimiento y soporte.",
+      "loc_intro": {
+        "label": "Localización",
+        "title": "Tarifas de localización",
+        "body": "El precio depende del par de idiomas, volumen y complejidad. Valores iniciales por unidad."
+      },
+      "loc_items": [
+        [
+          "DTP y maquetación",
+          "$2 – $5",
+          "por página",
+          "Word, PowerPoint, FrameMaker e InDesign con ajuste de fuentes y diseño."
+        ],
+        [
+          "Doblaje con IA",
+          "$1 – $2",
+          "por minuto final",
+          "Voz sintética natural en 50+ idiomas, entrega rápida en 24–72 horas."
+        ],
+        [
+          "Doblaje humano",
+          "$20 – $50",
+          "por minuto final",
+          "Locutores nativos y calidad de estudio para contenido premium."
+        ],
+        [
+          "Localización de video",
+          "$8 – $220",
+          "por minuto",
+          "Subtítulos, doblaje y reemplazo de textos en pantalla."
+        ],
+        [
+          "E-learning — por palabra",
+          "$0.12 – $0.18",
+          "por palabra fuente",
+          "Adaptación lingüística y cultural del contenido del curso."
+        ],
+        [
+          "E-learning — por módulo",
+          "$250 – $600",
+          "por módulo",
+          "Localización completa de layout, narración y recursos multimedia."
+        ]
+      ],
+      "minimum": "Pedido mínimo: USD 50 por tarea de localización. Hay descuentos por volumen desde 30 minutos o 10.000 palabras.",
+      "cta": {
+        "title": "¿Necesitas un presupuesto a medida?",
+        "body": "Indícanos idiomas, tipo de contenido, volumen y plazo. Respondemos en un día hábil.",
+        "button": "Solicitar presupuesto"
+      }
+    },
+    "contact": {
+      "hero": {
+        "label": "Contacto",
+        "title": "Hablemos de tu proyecto",
+        "subtitle": "Cuéntanos qué necesitas. Respondemos en un día hábil."
+      },
+      "info_title": "Contacto directo",
+      "email_label": "Email",
+      "languages_label": "Idiomas",
+      "languages": "Atendemos en inglés y chino",
+      "response_label": "Tiempo de respuesta",
+      "response": "En 1 día hábil",
+      "include_title": "Incluye en tu mensaje:",
+      "include": [
+        "URL de tu sitio si existe",
+        "Idiomas y mercados objetivo",
+        "Tipo y volumen de contenido",
+        "Plazo deseado"
+      ],
+      "form_title": "Envíanos un mensaje",
+      "success_title": "Mensaje enviado",
+      "success_body": "Te responderemos en un día hábil. Revisa tu correo de confirmación.",
+      "labels": {
+        "name": "Nombre completo *",
+        "email": "Email *",
+        "company": "Empresa / sitio web",
+        "service": "Servicio de interés *",
+        "message": "Mensaje *"
+      },
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "tu@empresa.com",
+        "company": "Empresa o dominio",
+        "service": "Selecciona un servicio...",
+        "message": "Cuéntanos idiomas, volumen y plazo..."
+      },
+      "options": [
+        "Sitio — Starter ($199/año)",
+        "Sitio — Growth ($499/año)",
+        "Sitio — Business ($999/año)",
+        "DTP",
+        "Doblaje con IA",
+        "Doblaje humano",
+        "Localización de video",
+        "E-learning",
+        "Otro / varios servicios"
+      ],
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "errors": {
+        "name": "Indica tu nombre.",
+        "email": "Indica un email válido.",
+        "service": "Selecciona un servicio.",
+        "message": "Cuéntanos un poco sobre el proyecto.",
+        "short": "El mensaje es muy corto. Añade más detalles.",
+        "missing": "Completa los campos obligatorios.",
+        "invalid": "El email no parece correcto.",
+        "generic": "Algo salió mal. Intenta de nuevo o escríbenos a ken.lee@medialocalize.com"
+      }
+    },
+    "about": {
+      "hero": {
+        "label": "Equipo",
+        "title": "15 años ayudando a que el contenido cruce fronteras",
+        "subtitle": "Un equipo pequeño de desarrollo, DTP y localización que trabaja en esto desde antes del auge de la IA."
+      },
+      "story": {
+        "label": "Historia",
+        "title": "Oficio primero, IA para acelerar.",
+        "paras": [
+          "MediaLocalize nació de la combinación entre desarrollo web y maquetación multilingüe. Siempre hemos trabajado con una idea sencilla: el contenido bueno merece llegar bien a cada mercado.",
+          "Hoy usamos IA para acortar tiempos, pero mantenemos revisión humana donde importan el tono, la terminología y la confianza.",
+          "Trabajamos tanto con exportadores que lanzan su primer sitio internacional como con equipos globales que publican contenido en muchos idiomas."
+        ]
+      },
+      "team_intro": {
+        "label": "Equipo",
+        "title": "Cuatro especialistas.<br>Un mismo estándar.",
+        "body": "Sin capas innecesarias. Hablas con quienes realmente hacen el trabajo."
+      },
+      "values_intro": {
+        "label": "Valores",
+        "title": "Cómo trabajamos"
+      },
+      "cta": {
+        "title": "Habla directamente con el equipo",
+        "body": "Sin vendedores de por medio. Evaluamos tu proyecto desde la ejecución real.",
+        "button": "Contactar"
+      },
+      "team": [
+        {
+          "name": "Ken Lee",
+          "role": "Founder & Lead Developer",
+          "exp": "15+ yrs experience",
+          "bio": "Ken dirige arquitectura, desarrollo y despliegue web con flujos estáticos modernos, CDN y producción asistida por IA.",
+          "badges": [
+            "Next.js",
+            "TypeScript",
+            "Claude Code",
+            "GitHub Actions",
+            "Cloudflare",
+            "Hugo"
+          ]
+        },
+        {
+          "name": "Jerry Hu",
+          "role": "Senior DTP Engineer",
+          "exp": "15+ yrs experience",
+          "bio": "Jerry gestiona DTP multilingüe complejo, incluidos RTL árabe, CJK, devanagari y tailandés.",
+          "badges": [
+            "Adobe InDesign",
+            "FrameMaker",
+            "QuarkXPress",
+            "Illustrator",
+            "PDF/X Preflight",
+            "CJK Typography"
+          ]
+        },
+        {
+          "name": "Jesse Chen",
+          "role": "Localization Engineer",
+          "exp": "12+ yrs experience",
+          "bio": "Jesse administra memorias de traducción, glosarios, XLIFF, QA CJK y selección de lingüistas.",
+          "badges": [
+            "memoQ",
+            "SDL Trados",
+            "XLIFF / SDLXLIFF",
+            "Translation Memory",
+            "CJK QA",
+            "AI Post-editing"
+          ]
+        },
+        {
+          "name": "Benny Chow",
+          "role": "Project Manager",
+          "exp": "12+ yrs experience",
+          "bio": "Benny define alcance, calendario, recursos y QA final para mantener la entrega clara.",
+          "badges": [
+            "Project Scoping",
+            "SCORM / xAPI QA",
+            "Lighthouse CI",
+            "DTP Preflight",
+            "Risk Management",
+            "Client Communication"
+          ]
+        }
+      ],
+      "values": [
+        {
+          "icon": "⚡",
+          "title": "Velocidad con criterio",
+          "body": "La IA acorta tiempos; el juicio humano protege la calidad."
+        },
+        {
+          "icon": "🌏",
+          "title": "Globalización real",
+          "body": "Localizamos intención, tono y formato, no solo palabras."
+        },
+        {
+          "icon": "🔒",
+          "title": "Relación a largo plazo",
+          "body": "Precios claros, comunicación directa y conocimiento acumulado."
+        }
+      ],
+      "stats": [
+        [
+          "15+",
+          "años de experiencia"
+        ],
+        [
+          "4",
+          "especialistas"
+        ],
+        [
+          "500+",
+          "proyectos entregados"
+        ],
+        [
+          "10+ años",
+          "relación más larga"
+        ]
+      ]
+    },
+    "cases": {
+      "hero": {
+        "label": "Casos",
+        "title": "Casos de sitios web y localización",
+        "subtitle": "Cómo ayudamos a fabricantes y exportadores B2B a lanzar sitios internacionales y adaptar materiales de venta."
+      },
+      "filters": [
+        [
+          "all",
+          "Todos"
+        ],
+        [
+          "website-building",
+          "Sitios web"
+        ],
+        [
+          "localization",
+          "Localización"
+        ]
+      ],
+      "cta": {
+        "title": "¿Quieres construir presencia internacional?",
+        "body": "Cuéntanos tu sitio o proyecto multilingüe. Respondemos en un día hábil."
+      },
+      "single": {
+        "label": "Caso",
+        "challenge_label": "Reto",
+        "challenge_title": "El problema",
+        "solution_label": "Solución",
+        "solution_title": "Qué hicimos",
+        "results_label": "Resultados",
+        "results_title": "El impacto",
+        "cta_title": "¿Buscas resultados similares?",
+        "cta_body": "Podemos construir juntos tu presencia global."
+      }
+    },
+    "news": {
+      "hero": {
+        "label": "Ideas y noticias",
+        "title": "Localización y tendencias web globales",
+        "subtitle": "Doblaje con IA, DTP multilingüe, e-learning y sitios para exportación, contado desde la práctica."
+      },
+      "filters": [
+        [
+          "all",
+          "Todo"
+        ],
+        [
+          "tech",
+          "Tecnología"
+        ],
+        [
+          "industry",
+          "Industria"
+        ],
+        [
+          "company",
+          "Empresa"
+        ]
+      ],
+      "empty_body": "Publicaremos nuevos artículos pronto.",
+      "cta_title": "¿Tienes un proyecto en mente?",
+      "cta_body": "Respondemos cada consulta en un día hábil."
+    },
+    "taxonomy": {
+      "browse_by": "Explorar por",
+      "tag": "Etiqueta",
+      "category": "Categoría",
+      "all_tags": "Todas las etiquetas",
+      "all_categories": "Todas las categorías",
+      "articles_with": "artículos en",
+      "browse_all": "Ver todos los artículos"
+    },
+    "service_detail": {
+      "section_label": "Servicio",
+      "included": "Qué incluye",
+      "cta_title": "¿Te interesa este servicio?",
+      "cta_body": "Solicita un presupuesto adaptado a tu volumen, idiomas y plazo."
+    },
+    "pages": {
+      "home": {
+        "title": "MediaLocalize — Sitios web con IA y localización",
+        "description": "Sitios web internacionales y localización multilingüe para fabricantes y exportadores B2B."
+      },
+      "about": {
+        "title": "Equipo MediaLocalize",
+        "description": "Equipo especializado en sitios web globales, DTP y localización desde 2009."
+      },
+      "services": {
+        "title": "Servicios — MediaLocalize",
+        "description": "Sitios web con IA y localización profesional en 50+ idiomas."
+      },
+      "prices": {
+        "title": "Precios — MediaLocalize",
+        "description": "Precios para sitios web, DTP, doblaje, video y e-learning."
+      },
+      "contact": {
+        "title": "Contacto — MediaLocalize",
+        "description": "Solicita presupuesto para sitio web o localización."
+      },
+      "cases": {
+        "title": "Casos — MediaLocalize",
+        "description": "Casos reales de sitios web B2B y localización."
+      },
+      "news": {
+        "title": "Ideas de localización — MediaLocalize",
+        "description": "Artículos sobre localización, DTP, doblaje con IA y sitios de exportación."
+      },
+      "privacy": {
+        "body": "## Resumen de privacidad\nRecopilamos solo la información necesaria para responder consultas y entregar proyectos: nombre, email, empresa, archivos de trabajo y registros técnicos del sitio. Puedes solicitar acceso, corrección o eliminación escribiendo a ken.lee@medialocalize.com. En caso de diferencia, prevalece la versión inglesa.",
+        "title": "Política de privacidad",
+        "description": "Cómo MediaLocalize usa y protege tus datos."
+      },
+      "terms": {
+        "body": "## Resumen de términos\nEl uso del sitio o de nuestros servicios se rige por la propuesta, presupuesto o SOW acordado. El cliente debe tener derechos sobre los materiales enviados. Los entregables se transfieren tras el pago completo; nuestras herramientas y métodos permanecen como propiedad de MediaLocalize. Prevalece la versión inglesa.",
+        "title": "Términos de servicio",
+        "description": "Condiciones de uso de MediaLocalize."
+      },
+      "services/website-building": {
+        "title": "Sitios web con IA para exportación",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/website-building.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "services/localization": {
+        "title": "Localización multilingüe",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/localization.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "services/localization/dtp": {
+        "title": "DTP y maquetación multilingüe",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/dtp.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "services/localization/dubbing": {
+        "title": "Doblaje con IA y voces humanas",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/dubbing.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "services/localization/video": {
+        "title": "Localización de video y animación",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/video-localization.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "services/localization/elearning": {
+        "title": "Localización e-learning y SCORM",
+        "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
+        "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
+        "cover": "/images/services/elearning.jpg",
+        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "features": [
+          {
+            "title": "Tono local",
+            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+          },
+          {
+            "title": "Entrega técnica",
+            "desc": "Archivos, web, video o paquetes listos para uso real."
+          },
+          {
+            "title": "QA humano",
+            "desc": "Revisión de precisión, formato y experiencia final."
+          }
+        ]
+      },
+      "cases/irmodules": {
+        "title": "IRModules — sitio OEM/ODM para núcleos de cámara infrarroja",
+        "domain": "irmodules.com",
+        "industry": "Cámaras infrarrojas / OEM·ODM",
+        "service_label": "Sitio web",
+        "tagline": "Un catálogo técnico que ayudó al fabricante a competir por contratos OEM globales.",
+        "description": "Sitio en inglés con catálogo técnico, descargas de fichas y formularios OEM; generó 40+ descargas mensuales y la primera consulta en dos semanas.",
+        "challenge": "El fabricante tenía capacidad técnica, pero los compradores internacionales no encontraban especificaciones ni un canal de contacto fiable.",
+        "solution": "Diseñamos un catálogo técnico con fichas descargables, formulario OEM, contenido orientado a búsqueda y despliegue global por CDN.",
+        "results_desc": "El sitio empezó a generar descargas de fichas desde el lanzamiento y recibió su primera consulta OEM en dos semanas.",
+        "results_short": [
+          "Sitio completo en 3 semanas",
+          "40+ descargas de fichas al mes",
+          "Primera consulta OEM en 2 semanas"
+        ],
+        "body": "En B2B técnico, el sitio funciona cuando permite comparar especificaciones y contactar sin fricción."
+      },
+      "cases/cyrentis": {
+        "title": "Cyrentis — sitio B2B para productos de radar de seguridad",
+        "domain": "cyrentis.com",
+        "industry": "Seguridad / Radar",
+        "service_label": "Sitio web",
+        "tagline": "Un sitio B2B profesional para que compradores internacionales evaluaran la línea de producto.",
+        "description": "Creamos un sitio multipágina para un fabricante de radar, con especificaciones y RFQ, que generó consultas extranjeras en semanas.",
+        "challenge": "Sin sitio en inglés, integradores y distribuidores internacionales no podían validar productos ni capacidades.",
+        "solution": "Construimos páginas de producto, especificaciones, formulario RFQ y contenido SEO para compras de seguridad.",
+        "results_desc": "El sitio se lanzó en dos semanas, Google lo indexó en 72 horas y llegaron RFQ internacionales el primer mes.",
+        "results_short": [
+          "Lanzamiento en 2 semanas",
+          "Indexado por Google en 72 horas",
+          "RFQ internacional en el primer mes"
+        ],
+        "body": "Para productos de seguridad, la credibilidad digital es parte del proceso de compra."
+      },
+      "cases/laser-marking-localization": {
+        "title": "Fabricante de equipos láser en Wuhan — localización de materiales de exportación",
+        "domain": "Fabricante láser · Wuhan Optics Valley",
+        "industry": "Equipos láser / Manufactura",
+        "service_label": "Localización · DTP",
+        "tagline": "De fichas traducidas por máquina a materiales comerciales listos para compradores internacionales.",
+        "description": "Reescribimos fichas y folletos de máquinas de marcado láser, recuperando parámetros técnicos clave y materiales por aplicación.",
+        "challenge": "Los materiales en inglés sonaban traducidos, omitían parámetros críticos y no hablaban a sectores concretos.",
+        "solution": "Auditamos tres modelos, reescribimos descripciones, restauramos especificaciones y creamos hojas por industria.",
+        "results_desc": "Seis semanas después, llegó una consulta europea que se convirtió en pedido de dos unidades 30W MOPA.",
+        "results_short": [
+          "Fichas reconstruidas a estándar internacional",
+          "Consulta europea en 6 semanas",
+          "Primer pedido: 2 unidades 30W MOPA"
+        ],
+        "body": "En maquinaria industrial, la ficha técnica es parte central de la venta."
+      },
+      "cases/courseware-localization": {
+        "title": "Cliente confidencial — localización de formación empresarial",
+        "domain": "Confidencial · Proveedor global de formación",
+        "industry": "Formación corporativa / HR Tech",
+        "service_label": "Localización · Courseware + Doblaje",
+        "tagline": "40+ módulos localizados con layout, narración y subtítulos coordinados.",
+        "description": "Localización al chino simplificado de una biblioteca de formación corporativa, con adaptación de diapositivas, voz y subtítulos.",
+        "challenge": "La conversión directa rompía layouts, tiempos de animación, subtítulos y naturalidad de la narración.",
+        "solution": "Trabajamos en tres frentes: layout, voz profesional en mandarín y subtítulos retimados.",
+        "results_desc": "Los módulos se lanzaron a tiempo y la satisfacción de alumnos igualó o superó la versión inglesa.",
+        "results_short": [
+          "40+ módulos localizados",
+          "Satisfacción igual o superior al original",
+          "Cooperación extendida"
+        ],
+        "body": "En e-learning, texto, voz y tiempo deben revisarse como una sola experiencia."
+      },
+      "cases/translation-dtp-partnership": {
+        "title": "Cliente confidencial — 10 años de traducción y DTP",
+        "domain": "Confidencial · Cliente industrial europeo",
+        "industry": "Equipos industriales",
+        "service_label": "Localización · Traducción y DTP",
+        "tagline": "Una década de terminología consistente y maquetación multilingüe.",
+        "description": "Colaboración de largo plazo para traducción EN-ZH, terminología, catálogos, manuales y DTP en InDesign.",
+        "challenge": "El cliente necesitaba coherencia terminológica durante años y en distintos tipos de documentos.",
+        "solution": "Creamos una termbase dedicada, memoria de traducción y equipo fijo con DTP interno.",
+        "results_desc": "La colaboración supera 10 años, con 250.000+ palabras y 4.000+ términos dedicados.",
+        "results_short": [
+          "10+ años de cooperación",
+          "250.000+ palabras",
+          "4.000+ términos dedicados"
+        ],
+        "body": "La localización recurrente gana valor cuando la memoria, la terminología y el equipo se mantienen."
+      },
+      "news/ai-dubbing-vs-human-voice": {
+        "title": "Doblaje con IA o voces humanas: cuándo conviene cada opción",
+        "summary": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos.",
+        "description": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."
+      },
+      "news/translation-memory-dtp-efficiency": {
+        "title": "Cómo la memoria de traducción reduce los tiempos de DTP",
+        "summary": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados.",
+        "description": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados."
+      },
+      "news/why-chinese-exporters-need-english-website": {
+        "title": "El coste silencioso de no tener un sitio web en inglés",
+        "summary": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana.",
+        "description": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."
+      },
+      "news/international-seo-guide-chinese-manufacturers": {
+        "title": "SEO internacional para fabricantes chinos: guía práctica",
+        "summary": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China.",
+        "description": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
+      },
+      "news/localization-vs-translation-differences": {
+        "title": "Localización y traducción: la diferencia que cambia el resultado",
+        "summary": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo.",
+        "description": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
+      },
+      "news/website-localization-guide-b2b-exporters": {
+        "title": "Qué es la localización web y por qué importa en B2B exportador",
+        "summary": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto.",
+        "description": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
+      },
+      "news/oem-product-catalog-website-guide": {
+        "title": "Cómo crear un catálogo web que genere consultas OEM",
+        "summary": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta.",
+        "description": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
+      },
+      "news/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS y el auge de la voz con IA en localización",
+        "summary": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones.",
+        "description": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
+      },
+      "news/human-vs-machine-translation-technical-content": {
+        "title": "Traducción humana o automática para contenido técnico",
+        "summary": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano.",
+        "description": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
+      },
+      "news/export-website-speed-cdn-performance": {
+        "title": "Por qué tu sitio de exportación carga lento fuera de China",
+        "summary": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema.",
+        "description": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
+      },
+      "news/elearning-localization-global-audiences": {
+        "title": "Localización de e-learning para audiencias globales",
+        "summary": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS.",
+        "description": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
+      },
+      "news/video-localization-corporate-training-guide": {
+        "title": "Localización de video corporativo: subtítulos, doblaje y texto en pantalla",
+        "summary": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación.",
+        "description": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
+      },
+      "news/multilingual-dtp-typography-guide": {
+        "title": "Guía de DTP y tipografía multilingüe",
+        "summary": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas.",
+        "description": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas."
+      },
+      "news/cost-of-poor-localization-b2b-export": {
+        "title": "El coste real de una mala localización en marketing B2B",
+        "summary": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento.",
+        "description": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
+      }
+    }
+  },
+  "ru": {
+    "meta": {
+      "htmlLang": "ru",
+      "locale": "ru_RU",
+      "schemaLanguage": "ru",
+      "flag": "🇷🇺",
+      "languageName": "Русский",
+      "shortName": "RU",
+      "dir": "ltr",
+      "availableLanguage": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    "nav": {
+      "aria": "Основная навигация",
+      "mobileAria": "Мобильная навигация",
+      "menuLabel": "Открыть меню",
+      "languageLabel": "Язык",
+      "logoLabel": "MediaLocalize",
+      "cta": "Контакты",
+      "items": [
+        {
+          "label": "Главная",
+          "url": "/"
+        },
+        {
+          "label": "Услуги",
+          "url": "/services/"
+        },
+        {
+          "label": "Цены",
+          "url": "/prices/"
+        },
+        {
+          "label": "Кейсы",
+          "url": "/cases/"
+        },
+        {
+          "label": "Статьи",
+          "url": "/news/"
+        },
+        {
+          "label": "О нас",
+          "url": "/about/"
+        }
+      ]
+    },
+    "common": {
+      "site_description": "MediaLocalize создает AI-сайты и выполняет профессиональную локализацию для B2B-производителей и экспортеров.",
+      "contact": "Контакты",
+      "get_quote": "Запросить расчет",
+      "free_quote": "Получить расчет",
+      "view_pricing": "Цены",
+      "learn_more": "Подробнее",
+      "read_article": "Читать статью",
+      "read_case": "Смотреть кейс",
+      "all_articles": "Все статьи",
+      "get_in_touch": "Связаться",
+      "start_project": "Начать проект",
+      "explore_services": "Все услуги",
+      "more_articles": "Другие статьи",
+      "more_cases": "Другие кейсы",
+      "visit_website": "Открыть сайт",
+      "written_by": "Автор",
+      "previous": "Назад",
+      "next": "Далее",
+      "recent_articles": "Свежие статьи",
+      "categories": "Категории",
+      "tags": "Теги",
+      "project_prompt": "Есть проект?",
+      "response_one_day": "Мы отвечаем в течение одного рабочего дня.",
+      "related_articles": "Похожие статьи",
+      "date_card": "2006-01-02",
+      "date_long": "2006-01-02",
+      "min_read": "мин чтения",
+      "category_labels": {
+        "tech": "Технологии",
+        "industry": "Индустрия",
+        "marketing": "Маркетинг",
+        "localization": "Локализация",
+        "company": "Компания",
+        "other": "Статьи"
+      },
+      "pagination_prev": "Назад",
+      "pagination_next": "Далее",
+      "coming_soon": "Скоро",
+      "no_articles": "Статей пока нет."
+    },
+    "footer": {
+      "desc": "Многоязычная локализация и AI-сайты для китайских производителей, B2B-экспортеров и международных команд. Специализация с 2009 года.",
+      "meta": "15+ лет · 500+ проектов · 50+ языковых пар",
+      "services_title": "Услуги",
+      "industries_title": "Отрасли",
+      "languages_title": "Языковые пары",
+      "services": [
+        [
+          "AI-сайты для экспортеров",
+          "/services/website-building/"
+        ],
+        [
+          "Многоязычная локализация",
+          "/services/localization/"
+        ],
+        [
+          "DTP — InDesign и FrameMaker",
+          "/services/localization/dtp/"
+        ],
+        [
+          "AI и студийный дубляж",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "Видео и субтитры",
+          "/services/localization/video/"
+        ],
+        [
+          "Локализация e-learning SCORM",
+          "/services/localization/elearning/"
+        ]
+      ],
+      "industries": [
+        "Производство и промышленность",
+        "Медтехника и фарма",
+        "Корпоративное обучение",
+        "Маркетинг и реклама",
+        "Юридические и compliance-материалы"
+      ],
+      "languages": [
+        "Китайский ↔ английский",
+        "Японский и корейский",
+        "Немецкий, французский, испанский",
+        "Арабский и RTL",
+        "50+ языковых пар"
+      ],
+      "copyright": "MediaLocalize — многоязычная локализация и глобальные сайты. Все права защищены.",
+      "privacy": "Конфиденциальность",
+      "terms": "Условия"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Многоязычная локализация и AI-сайты для B2B-экспорта",
+        "title": "Выходите на мир.<br>Звучите локально.",
+        "subtitle": "Мы создаем экспортные сайты и адаптируем тексты, голос, видео и верстку так, чтобы зарубежные покупатели воспринимали бренд как профессиональный и понятный.",
+        "primary": "Получить расчет",
+        "secondary": "Смотреть кейсы"
+      },
+      "stats": [
+        [
+          "15+",
+          "лет опыта"
+        ],
+        [
+          "50+",
+          "языков"
+        ],
+        [
+          "500+",
+          "проектов"
+        ],
+        [
+          "10+ лет",
+          "самое долгое сотрудничество"
+        ]
+      ],
+      "intro": {
+        "label": "Что мы делаем",
+        "title": "Два ключевых направления.<br>Один ответственный партнер.",
+        "body": "Экспортные сайты и локализация контента, который читается естественно для нужного рынка. Мы закрываем стратегию, производство и техническую доставку."
+      },
+      "services": [
+        {
+          "title": "AI-сайты для экспорта",
+          "body": "Быстрый, профессиональный сайт для международных B2B-покупателей: дизайн, CDN, SEO, структура каталога и AI-чат для сбора заявок.",
+          "features": [
+            "Домен и хостинг",
+            "Адаптивный дизайн для конверсии",
+            "Глобальный CDN",
+            "Техническое и on-page SEO",
+            "AI-чатбот",
+            "Поддержка и обновления"
+          ],
+          "url": "/services/website-building/"
+        },
+        {
+          "title": "Профессиональная локализация",
+          "body": "Документы, DTP, дубляж, видео и e-learning на 50+ языках. Мы адаптируем смысл, тон и формат, а не переносим текст дословно.",
+          "features": [
+            "DTP: InDesign, FrameMaker",
+            "AI-дубляж от $1/мин",
+            "Нативные дикторы",
+            "Видео и анимация",
+            "E-learning и SCORM",
+            "Терминология и translation memory"
+          ],
+          "url": "/services/localization/"
+        }
+      ],
+      "cases": {
+        "label": "Кейсы",
+        "title": "Реальные результаты для реального бизнеса.",
+        "body": "От первого англоязычного сайта производителя до многолетних программ локализации.",
+        "all": "Все кейсы"
+      },
+      "news": {
+        "label": "Статьи",
+        "title": "Практика команды",
+        "body": "Материалы о локализации, AI-дубляже, DTP, e-learning и экспортных сайтах."
+      },
+      "cta": {
+        "label": "Старт",
+        "title": "Готовы выйти на зарубежные рынки?",
+        "body": "Расскажите о сайте или локализации. Мы ответим в течение одного рабочего дня."
+      }
+    },
+    "services_hub": {
+      "hero": {
+        "label": "Услуги",
+        "title": "AI-сайты и профессиональная многоязычная локализация",
+        "subtitle": "Экспортные сайты и адаптация контента на 50+ языках для производителей, B2B-экспортеров и международных команд."
+      },
+      "services": [
+        {
+          "title": "AI-сайты для экспорта",
+          "body": "Быстрый, профессиональный сайт для международных B2B-покупателей: дизайн, CDN, SEO, структура каталога и AI-чат для сбора заявок.",
+          "features": [
+            "Домен и хостинг",
+            "Адаптивный дизайн для конверсии",
+            "Глобальный CDN",
+            "Техническое и on-page SEO",
+            "AI-чатбот",
+            "Поддержка и обновления"
+          ],
+          "url": "/services/website-building/",
+          "label": "Услуга 01",
+          "primary": "Подробнее",
+          "secondary": "Цены",
+          "image": "/images/services/website-building.jpg",
+          "secondary_url": "/prices/"
+        },
+        {
+          "title": "Профессиональная локализация",
+          "body": "Документы, DTP, дубляж, видео и e-learning на 50+ языках. Мы адаптируем смысл, тон и формат, а не переносим текст дословно.",
+          "features": [
+            "DTP: InDesign, FrameMaker",
+            "AI-дубляж от $1/мин",
+            "Нативные дикторы",
+            "Видео и анимация",
+            "E-learning и SCORM",
+            "Терминология и translation memory"
+          ],
+          "url": "/services/localization/",
+          "label": "Услуга 02",
+          "primary": "Подробнее",
+          "secondary": "Запросить расчет",
+          "image": "/images/services/localization.jpg",
+          "secondary_url": "/contact/"
+        }
+      ],
+      "stats": [
+        [
+          "500+",
+          "запущенных сайтов"
+        ],
+        [
+          "50+",
+          "языков"
+        ],
+        [
+          "10K+",
+          "локализованных страниц"
+        ],
+        [
+          "99%",
+          "удовлетворенность"
+        ]
+      ],
+      "why": {
+        "label": "Почему MediaLocalize",
+        "title": "Один партнер для всего цикла.",
+        "body": "Не нужно отдельно координировать переводчиков, разработчиков и DTP. Мы ведем весь многоязычный контентный стек.",
+        "cards": [
+          {
+            "title": "AI ускоряет",
+            "body": "Современные AI-инструменты ускоряют производство и сохраняют единообразие."
+          },
+          {
+            "title": "Экспертиза людей",
+            "body": "Носители языка и профильные специалисты проверяют точность, тон и культурную уместность."
+          },
+          {
+            "title": "Быстрые сроки",
+            "body": "Сайт за 2–3 недели, AI-дубляж за 24–72 часа."
+          }
+        ]
+      },
+      "cta": {
+        "label": "Старт",
+        "title": "Готовы выйти на зарубежные рынки?",
+        "body": "Расскажите о сайте или локализации. Мы ответим в течение одного рабочего дня."
+      }
+    },
+    "prices": {
+      "hero": {
+        "label": "Цены",
+        "title": "Прозрачные цены на сайты и локализацию",
+        "subtitle": "Годовые планы для AI-сайтов и ставки за единицу для DTP, дубляжа, видео и e-learning."
+      },
+      "web_intro": {
+        "label": "Сайты",
+        "title": "Планы AI-сайтов",
+        "body": "Все планы включают домен, адаптивный дизайн и поддержку. Оплата ежегодно."
+      },
+      "plans": [
+        {
+          "name": "Starter",
+          "setup": "$199",
+          "period": "настройка",
+          "renew": "+ $199 / year",
+          "year1": "Итого за 1 год: $398",
+          "features": [
+            "1 собственный домен",
+            "1 email-аккаунт",
+            "Сайт на 1 страницу",
+            "Базовый CDN",
+            "Базовое SEO",
+            "SSL-сертификат",
+            "Поддержка по email"
+          ],
+          "featured": false,
+          "badge": ""
+        },
+        {
+          "name": "Growth",
+          "setup": "$499",
+          "period": "настройка",
+          "renew": "+ $299 / year",
+          "year1": "Итого за 1 год: $798",
+          "badge": "Популярно",
+          "features": [
+            "1 собственный домен",
+            "5 email-аккаунтов",
+            "До 10 страниц",
+            "Глобальный CDN",
+            "Расширенное SEO и аналитика",
+            "SSL-сертификат",
+            "Приоритетная поддержка",
+            "Ежемесячный отчет",
+            "1 статья в месяц",
+            "До 5 обновлений продукта в месяц"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "setup": "$999",
+          "period": "настройка",
+          "renew": "+ $399 / year",
+          "year1": "Итого за 1 год: $1,398",
+          "features": [
+            "2 собственных домена",
+            "20 email-аккаунтов",
+            "Неограниченное число страниц",
+            "Глобальный CDN + edge caching",
+            "Расширенное SEO и аналитика",
+            "AI-чатбот",
+            "Приоритетная поддержка 24/7",
+            "Квартальный стратегический обзор",
+            "1 статья в неделю",
+            "До 10 обновлений продукта в месяц"
+          ],
+          "featured": false,
+          "badge": ""
+        }
+      ],
+      "plan_cta": "Бесплатная консультация",
+      "web_note": "Разовый платеж покрывает дизайн, разработку и запуск. Годовая оплата покрывает хостинг, поддержку и обслуживание.",
+      "loc_intro": {
+        "label": "Локализация",
+        "title": "Ставки локализации",
+        "body": "Стоимость зависит от языковой пары, объема и сложности. Указаны стартовые цены."
+      },
+      "loc_items": [
+        [
+          "DTP-верстка",
+          "$2 – $5",
+          "за страницу",
+          "Word, PowerPoint, FrameMaker, InDesign: шрифты, верстка и адаптация под язык."
+        ],
+        [
+          "AI-дубляж",
+          "$1 – $2",
+          "за готовую минуту",
+          "Нейросинтез голоса на 50+ языках, обычно 24–72 часа."
+        ],
+        [
+          "Студийный дубляж",
+          "$20 – $50",
+          "за готовую минуту",
+          "Носители языка и студийная запись для премиального контента."
+        ],
+        [
+          "Локализация видео",
+          "$8 – $220",
+          "за минуту",
+          "Субтитры, дубляж, замена экранного текста и синхронизация."
+        ],
+        [
+          "E-learning — слова",
+          "$0.12 – $0.18",
+          "за исходное слово",
+          "Перевод и культурная адаптация учебного контента."
+        ],
+        [
+          "E-learning — модуль",
+          "$250 – $600",
+          "за модуль",
+          "Полная адаптация слайдов, озвучки и медиа."
+        ]
+      ],
+      "minimum": "Минимальный заказ: USD 50 за задачу локализации. Скидки доступны от 30 минут или 10 000 слов.",
+      "cta": {
+        "title": "Нужен индивидуальный расчет?",
+        "body": "Напишите языки, тип контента, объем и сроки. Ответим в течение рабочего дня.",
+        "button": "Запросить расчет"
+      }
+    },
+    "contact": {
+      "hero": {
+        "label": "Контакты",
+        "title": "Обсудим ваш проект",
+        "subtitle": "Опишите задачу. Мы ответим в течение одного рабочего дня."
+      },
+      "info_title": "Связаться",
+      "email_label": "Email",
+      "languages_label": "Языки",
+      "languages": "Общаемся на английском и китайском",
+      "response_label": "Ответ",
+      "response": "В течение 1 рабочего дня",
+      "include_title": "Что указать в сообщении:",
+      "include": [
+        "Ссылка на сайт, если есть",
+        "Целевые языки и рынки",
+        "Тип и объем контента",
+        "Желаемые сроки"
+      ],
+      "form_title": "Отправить сообщение",
+      "success_title": "Сообщение отправлено",
+      "success_body": "Мы ответим в течение рабочего дня. Проверьте письмо-подтверждение.",
+      "labels": {
+        "name": "Имя *",
+        "email": "Email *",
+        "company": "Компания / сайт",
+        "service": "Интересующая услуга *",
+        "message": "Сообщение *"
+      },
+      "placeholders": {
+        "name": "Ваше имя",
+        "email": "you@company.com",
+        "company": "Компания или домен",
+        "service": "Выберите услугу...",
+        "message": "Опишите языки, объем и сроки..."
+      },
+      "options": [
+        "Сайт — Starter ($199/год)",
+        "Сайт — Growth ($499/год)",
+        "Сайт — Business ($999/год)",
+        "DTP-верстка",
+        "AI-дубляж",
+        "Дубляж диктором",
+        "Локализация видео",
+        "E-learning",
+        "Другое / несколько услуг"
+      ],
+      "submit": "Отправить",
+      "sending": "Отправка…",
+      "errors": {
+        "name": "Введите имя.",
+        "email": "Введите корректный email.",
+        "service": "Выберите услугу.",
+        "message": "Опишите проект.",
+        "short": "Сообщение слишком короткое. Добавьте детали.",
+        "missing": "Заполните обязательные поля.",
+        "invalid": "Email выглядит некорректно.",
+        "generic": "Что-то пошло не так. Попробуйте еще раз или напишите на ken.lee@medialocalize.com"
+      }
+    },
+    "about": {
+      "hero": {
+        "label": "О нас",
+        "title": "15 лет помогаем контенту работать за границей",
+        "subtitle": "Небольшая команда разработчиков, DTP-инженеров и специалистов по локализации, которая занималась этим задолго до хайпа вокруг AI."
+      },
+      "story": {
+        "label": "История",
+        "title": "Ремесло как база, AI как ускоритель.",
+        "paras": [
+          "MediaLocalize выросла из веб-разработки и многоязычной верстки. Мы верим, что сильный продукт должен быть понятен рынку на его языке и в его формате.",
+          "Сегодня мы используем AI, чтобы ускорять производство, но оставляем людям решения по терминам, тону и качеству.",
+          "Мы одинаково внимательно работаем с первым экспортным сайтом производителя и с программой обучения на 20 языках."
+        ]
+      },
+      "team_intro": {
+        "label": "Команда",
+        "title": "Четыре специалиста.<br>Один стандарт качества.",
+        "body": "Без лишних посредников. С проектом работают люди, которых вы видите здесь."
+      },
+      "values_intro": {
+        "label": "Принципы",
+        "title": "Что для нас важно"
+      },
+      "cta": {
+        "title": "Общайтесь напрямую с командой",
+        "body": "Без лишних продаж. Проект оценивают те, кто будет его делать.",
+        "button": "Связаться"
+      },
+      "team": [
+        {
+          "name": "Ken Lee",
+          "role": "Founder & Lead Developer",
+          "exp": "15+ yrs experience",
+          "bio": "Ken ведет веб-архитектуру, разработку и деплой, сочетая static-site workflow, CDN и AI-производство.",
+          "badges": [
+            "Next.js",
+            "TypeScript",
+            "Claude Code",
+            "GitHub Actions",
+            "Cloudflare",
+            "Hugo"
+          ]
+        },
+        {
+          "name": "Jerry Hu",
+          "role": "Senior DTP Engineer",
+          "exp": "15+ yrs experience",
+          "bio": "Jerry отвечает за сложную многоязычную DTP-верстку: арабский RTL, CJK, деванагари и тайский.",
+          "badges": [
+            "Adobe InDesign",
+            "FrameMaker",
+            "QuarkXPress",
+            "Illustrator",
+            "PDF/X Preflight",
+            "CJK Typography"
+          ]
+        },
+        {
+          "name": "Jesse Chen",
+          "role": "Localization Engineer",
+          "exp": "12+ yrs experience",
+          "bio": "Jesse управляет translation memory, глоссариями, XLIFF, CJK QA и подбором лингвистов.",
+          "badges": [
+            "memoQ",
+            "SDL Trados",
+            "XLIFF / SDLXLIFF",
+            "Translation Memory",
+            "CJK QA",
+            "AI Post-editing"
+          ]
+        },
+        {
+          "name": "Benny Chow",
+          "role": "Project Manager",
+          "exp": "12+ yrs experience",
+          "bio": "Benny ведет оценку, расписание, ресурсы и финальный QA, чтобы проект двигался прозрачно.",
+          "badges": [
+            "Project Scoping",
+            "SCORM / xAPI QA",
+            "Lighthouse CI",
+            "DTP Preflight",
+            "Risk Management",
+            "Client Communication"
+          ]
+        }
+      ],
+      "values": [
+        {
+          "icon": "⚡",
+          "title": "Скорость без потери качества",
+          "body": "AI ускоряет сроки, человеческая экспертиза сохраняет качество."
+        },
+        {
+          "icon": "🌏",
+          "title": "Настоящая локализация",
+          "body": "Мы адаптируем смысл, тон и формат, а не только слова."
+        },
+        {
+          "icon": "🔒",
+          "title": "Долгосрочное партнерство",
+          "body": "Прозрачные цены, прямое общение и накопление терминологии."
+        }
+      ],
+      "stats": [
+        [
+          "15+",
+          "лет опыта"
+        ],
+        [
+          "4",
+          "специалиста"
+        ],
+        [
+          "500+",
+          "проектов"
+        ],
+        [
+          "10+ лет",
+          "самое долгое сотрудничество"
+        ]
+      ]
+    },
+    "cases": {
+      "hero": {
+        "label": "Кейсы",
+        "title": "Кейсы сайтов и локализации",
+        "subtitle": "Как мы помогали производителям и B2B-экспортерам запускать международные сайты и адаптировать материалы продаж."
+      },
+      "filters": [
+        [
+          "all",
+          "Все"
+        ],
+        [
+          "website-building",
+          "Сайты"
+        ],
+        [
+          "localization",
+          "Локализация"
+        ]
+      ],
+      "cta": {
+        "title": "Хотите усилить международное присутствие?",
+        "body": "Расскажите о сайте или многоязычном проекте. Ответим в течение рабочего дня."
+      },
+      "single": {
+        "label": "Кейс",
+        "challenge_label": "Задача",
+        "challenge_title": "Проблема",
+        "solution_label": "Решение",
+        "solution_title": "Что мы сделали",
+        "results_label": "Результаты",
+        "results_title": "Итог",
+        "cta_title": "Нужны похожие результаты?",
+        "cta_body": "Давайте построим вашу международную веб-платформу."
+      }
+    },
+    "news": {
+      "hero": {
+        "label": "Статьи",
+        "title": "Локализация и международные веб-тренды",
+        "subtitle": "AI-дубляж, многоязычный DTP, e-learning и экспортные сайты с точки зрения практиков."
+      },
+      "filters": [
+        [
+          "all",
+          "Все"
+        ],
+        [
+          "tech",
+          "Технологии"
+        ],
+        [
+          "industry",
+          "Индустрия"
+        ],
+        [
+          "company",
+          "Компания"
+        ]
+      ],
+      "empty_body": "Скоро здесь появятся новые материалы.",
+      "cta_title": "Есть проект?",
+      "cta_body": "Мы отвечаем на каждый запрос в течение рабочего дня."
+    },
+    "taxonomy": {
+      "browse_by": "Просмотр по",
+      "tag": "Тег",
+      "category": "Категория",
+      "all_tags": "Все теги",
+      "all_categories": "Все категории",
+      "articles_with": "статей по",
+      "browse_all": "Все статьи"
+    },
+    "service_detail": {
+      "section_label": "Услуга",
+      "included": "Что входит",
+      "cta_title": "Интересует эта услуга?",
+      "cta_body": "Запросите расчет под ваши языки, объем и сроки."
+    },
+    "pages": {
+      "home": {
+        "title": "MediaLocalize — AI-сайты и локализация",
+        "description": "Международные сайты и многоязычная локализация для B2B-производителей и экспортеров."
+      },
+      "about": {
+        "title": "О MediaLocalize",
+        "description": "Команда веб-разработки, DTP и локализации с 2009 года."
+      },
+      "services": {
+        "title": "Услуги — MediaLocalize",
+        "description": "AI-сайты и профессиональная локализация на 50+ языках."
+      },
+      "prices": {
+        "title": "Цены — MediaLocalize",
+        "description": "Цены на сайты, DTP, дубляж, видео и e-learning."
+      },
+      "contact": {
+        "title": "Контакты — MediaLocalize",
+        "description": "Запросите расчет сайта или локализации."
+      },
+      "cases": {
+        "title": "Кейсы — MediaLocalize",
+        "description": "Реальные кейсы B2B-сайтов и локализации."
+      },
+      "news": {
+        "title": "Статьи о локализации — MediaLocalize",
+        "description": "Материалы о локализации, AI-дубляже, DTP и экспортных сайтах."
+      },
+      "privacy": {
+        "body": "## Кратко о конфиденциальности\nМы собираем только данные, необходимые для ответа на запрос и выполнения проекта: имя, email, компанию, проектные файлы и технические журналы сайта. Для доступа, исправления или удаления данных пишите на ken.lee@medialocalize.com. При расхождениях действует английская версия.",
+        "title": "Политика конфиденциальности",
+        "description": "Как MediaLocalize использует и защищает данные."
+      },
+      "terms": {
+        "body": "## Кратко об условиях\nИспользование сайта и услуг регулируется согласованным предложением, сметой или SOW. Клиент отвечает за права на переданные материалы. Результаты передаются после полной оплаты; наши инструменты и методы остаются собственностью MediaLocalize. При расхождениях действует английская версия.",
+        "title": "Условия обслуживания",
+        "description": "Условия использования услуг MediaLocalize."
+      },
+      "services/website-building": {
+        "title": "AI-сайты для экспорта",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/website-building.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "services/localization": {
+        "title": "Многоязычная локализация",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/localization.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "services/localization/dtp": {
+        "title": "Многоязычная DTP-верстка",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/dtp.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "services/localization/dubbing": {
+        "title": "AI и студийный дубляж",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/dubbing.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "services/localization/video": {
+        "title": "Локализация видео и анимации",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/video-localization.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "services/localization/elearning": {
+        "title": "Локализация e-learning и SCORM",
+        "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
+        "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
+        "cover": "/images/services/elearning.jpg",
+        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "features": [
+          {
+            "title": "Локальный тон",
+            "desc": "Естественная деловая подача для B2B-аудитории."
+          },
+          {
+            "title": "Готовые материалы",
+            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+          },
+          {
+            "title": "Проверка людьми",
+            "desc": "Контроль точности, формата и итогового опыта."
+          }
+        ]
+      },
+      "cases/irmodules": {
+        "title": "IRModules — OEM/ODM-сайт для инфракрасных модулей",
+        "domain": "irmodules.com",
+        "industry": "Инфракрасные камеры / OEM·ODM",
+        "service_label": "Сайт",
+        "tagline": "Технический каталог для привлечения глобальных OEM-запросов.",
+        "description": "Англоязычный сайт с каталогом, спецификациями и OEM-формой дал 40+ скачиваний в месяц и первый запрос за две недели.",
+        "challenge": "Покупатели не видели онлайн спецификаций и понятного канала связи.",
+        "solution": "Мы построили каталог, PDF-спецификации, OEM-форму, SEO-контент и CDN-деплой.",
+        "results_desc": "Первые скачивания начались сразу после запуска, первый OEM-запрос пришел через две недели.",
+        "results_short": [
+          "Запуск за 3 недели",
+          "40+ скачиваний спецификаций в месяц",
+          "Первый OEM-запрос за 2 недели"
+        ],
+        "body": "Технический B2B-сайт должен помогать инженеру быстро проверить параметры и отправить запрос."
+      },
+      "cases/cyrentis": {
+        "title": "Cyrentis — B2B-сайт для радарных систем безопасности",
+        "domain": "cyrentis.com",
+        "industry": "Безопасность / Радар",
+        "service_label": "Сайт",
+        "tagline": "Профессиональный сайт для оценки продукта международными покупателями.",
+        "description": "Многостраничный сайт с продуктами, спецификациями и RFQ принес зарубежные запросы за несколько недель.",
+        "challenge": "Без английского сайта интеграторы и дистрибьюторы не могли проверить возможности компании.",
+        "solution": "Мы создали продуктовые страницы, RFQ-форму, SEO-структуру и CDN-деплой.",
+        "results_desc": "Сайт запущен за две недели, индексирован Google за 72 часа и дал RFQ в первый месяц.",
+        "results_short": [
+          "Запуск за 2 недели",
+          "Индексация Google за 72 часа",
+          "RFQ в первый месяц"
+        ],
+        "body": "Для B2B-безопасности цифровая доверенность становится частью закупки."
+      },
+      "cases/laser-marking-localization": {
+        "title": "Производитель лазерного оборудования в Ухане — локализация экспортных материалов",
+        "domain": "Производитель лазеров · Wuhan Optics Valley",
+        "industry": "Лазерное оборудование / Производство",
+        "service_label": "Локализация · DTP",
+        "tagline": "От машинного английского к материалам уровня международных закупок.",
+        "description": "Мы переписали материалы по лазерным маркираторам, восстановили ключевые параметры и сделали отраслевые листы.",
+        "challenge": "Английские материалы звучали машинно, не содержали важных характеристик и были слишком общими.",
+        "solution": "Мы провели аудит трех моделей, переписали описания, восстановили спецификации и подготовили отраслевые материалы.",
+        "results_desc": "Через шесть недель пришел европейский запрос, который перешел в заказ двух 30W MOPA.",
+        "results_short": [
+          "Спецификации приведены к международному стандарту",
+          "Европейский запрос за 6 недель",
+          "Первый заказ: 2×30W MOPA"
+        ],
+        "body": "В промышленном оборудовании спецификация фактически ведет первую продажу."
+      },
+      "cases/courseware-localization": {
+        "title": "Конфиденциальный клиент — локализация корпоративного обучения",
+        "domain": "Конфиденциально · Глобальный провайдер обучения",
+        "industry": "Корпоративное обучение / HR Tech",
+        "service_label": "Локализация · Courseware + дубляж",
+        "tagline": "40+ модулей с адаптацией верстки, озвучки и субтитров.",
+        "description": "Локализация библиотеки корпоративного обучения на упрощенный китайский с адаптацией слайдов, голоса и субтитров.",
+        "challenge": "Прямая конверсия ломала верстку, тайминг анимаций, субтитры и естественность озвучки.",
+        "solution": "Мы синхронно обработали layout, профессиональную озвучку на мандаринском и ретайминг субтитров.",
+        "results_desc": "Курсы вышли вовремя, удовлетворенность учащихся достигла или превысила английскую версию.",
+        "results_short": [
+          "40+ модулей локализовано",
+          "Удовлетворенность не ниже оригинала",
+          "Сотрудничество продолжилось"
+        ],
+        "body": "В e-learning текст, голос и тайминг работают как единая система."
+      },
+      "cases/translation-dtp-partnership": {
+        "title": "Конфиденциальный клиент — 10 лет перевода и DTP",
+        "domain": "Конфиденциально · Европейский промышленный клиент",
+        "industry": "Промышленное оборудование",
+        "service_label": "Локализация · Перевод и DTP",
+        "tagline": "Десятилетие стабильной терминологии и многоязычной верстки.",
+        "description": "Долгосрочная работа по EN-ZH переводу, терминологии, каталогам, инструкциям и InDesign DTP.",
+        "challenge": "Клиенту нужна была терминологическая стабильность на протяжении лет и разных типов документов.",
+        "solution": "Мы создали dedicated termbase, translation memory, постоянную команду и внутренний DTP.",
+        "results_desc": "Партнерство длится 10+ лет: 250 000+ слов и 4 000+ терминов.",
+        "results_short": [
+          "10+ лет сотрудничества",
+          "250 000+ слов",
+          "4 000+ терминов"
+        ],
+        "body": "Повторяющаяся локализация становится эффективнее, когда сохраняются память, терминология и команда."
+      },
+      "news/ai-dubbing-vs-human-voice": {
+        "title": "AI-дубляж или дикторы: когда выбирать каждый вариант",
+        "summary": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет.",
+        "description": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет."
+      },
+      "news/translation-memory-dtp-efficiency": {
+        "title": "Как translation memory сокращает сроки DTP",
+        "summary": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов.",
+        "description": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов."
+      },
+      "news/why-chinese-exporters-need-english-website": {
+        "title": "Скрытая цена отсутствия англоязычного сайта",
+        "summary": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов.",
+        "description": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов."
+      },
+      "news/international-seo-guide-chinese-manufacturers": {
+        "title": "Международное SEO для китайских производителей",
+        "summary": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае.",
+        "description": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
+      },
+      "news/localization-vs-translation-differences": {
+        "title": "Локализация и перевод: разница, от которой зависит результат",
+        "summary": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке.",
+        "description": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке."
+      },
+      "news/website-localization-guide-b2b-exporters": {
+        "title": "Что такое локализация сайта и почему она важна для B2B-экспорта",
+        "summary": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу.",
+        "description": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу."
+      },
+      "news/oem-product-catalog-website-guide": {
+        "title": "Как создать каталог, который приносит OEM-запросы",
+        "summary": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма.",
+        "description": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма."
+      },
+      "news/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS и рост AI-голоса в локализации",
+        "summary": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций.",
+        "description": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций."
+      },
+      "news/human-vs-machine-translation-technical-content": {
+        "title": "Человеческий или машинный перевод технического контента",
+        "summary": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы.",
+        "description": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы."
+      },
+      "news/export-website-speed-cdn-performance": {
+        "title": "Почему экспортный сайт медленно открывается за рубежом",
+        "summary": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему.",
+        "description": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему."
+      },
+      "news/elearning-localization-global-audiences": {
+        "title": "Локализация e-learning для международной аудитории",
+        "summary": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS.",
+        "description": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
+      },
+      "news/video-localization-corporate-training-guide": {
+        "title": "Локализация обучающего видео: субтитры, дубляж и экранный текст",
+        "summary": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок.",
+        "description": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок."
+      },
+      "news/multilingual-dtp-typography-guide": {
+        "title": "Многоязычная DTP-верстка и типографика",
+        "summary": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK.",
+        "description": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK."
+      },
+      "news/cost-of-poor-localization-b2b-export": {
+        "title": "Реальная стоимость плохой локализации в B2B-маркетинге",
+        "summary": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски.",
+        "description": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски."
+      }
+    }
+  },
+  "ar": {
+    "meta": {
+      "htmlLang": "ar",
+      "locale": "ar_AR",
+      "schemaLanguage": "ar",
+      "flag": "🇸🇦",
+      "languageName": "العربية",
+      "shortName": "AR",
+      "dir": "rtl",
+      "availableLanguage": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Russian",
+        "Arabic"
+      ]
+    },
+    "nav": {
+      "aria": "التنقل الرئيسي",
+      "mobileAria": "تنقل الهاتف",
+      "menuLabel": "فتح القائمة",
+      "languageLabel": "اللغة",
+      "logoLabel": "MediaLocalize",
+      "cta": "تواصل",
+      "items": [
+        {
+          "label": "الرئيسية",
+          "url": "/"
+        },
+        {
+          "label": "الخدمات",
+          "url": "/services/"
+        },
+        {
+          "label": "الأسعار",
+          "url": "/prices/"
+        },
+        {
+          "label": "الأعمال",
+          "url": "/cases/"
+        },
+        {
+          "label": "رؤى",
+          "url": "/news/"
+        },
+        {
+          "label": "من نحن",
+          "url": "/about/"
+        }
+      ]
+    },
+    "common": {
+      "site_description": "تبني MediaLocalize مواقع مدعومة بالذكاء الاصطناعي وتقدم توطينا احترافيا متعدد اللغات لشركات التصنيع والتصدير B2B.",
+      "contact": "تواصل",
+      "get_quote": "اطلب عرض سعر",
+      "free_quote": "اطلب عرضا مجانيا",
+      "view_pricing": "الأسعار",
+      "learn_more": "المزيد",
+      "read_article": "اقرأ المقال",
+      "read_case": "اقرأ الحالة",
+      "all_articles": "كل المقالات",
+      "get_in_touch": "تواصل معنا",
+      "start_project": "ابدأ مشروعك",
+      "explore_services": "استكشف الخدمات",
+      "more_articles": "مقالات أخرى",
+      "more_cases": "حالات أخرى",
+      "visit_website": "زيارة الموقع",
+      "written_by": "بقلم",
+      "previous": "السابق",
+      "next": "التالي",
+      "recent_articles": "أحدث المقالات",
+      "categories": "التصنيفات",
+      "tags": "الوسوم",
+      "project_prompt": "هل لديك مشروع؟",
+      "response_one_day": "نرد خلال يوم عمل واحد.",
+      "related_articles": "مقالات ذات صلة",
+      "date_card": "2006-01-02",
+      "date_long": "2006-01-02",
+      "min_read": "دقائق قراءة",
+      "category_labels": {
+        "tech": "تقنية",
+        "industry": "السوق",
+        "marketing": "التسويق",
+        "localization": "التوطين",
+        "company": "الشركة",
+        "other": "مقالات"
+      },
+      "pagination_prev": "السابق",
+      "pagination_next": "التالي",
+      "coming_soon": "قريبا",
+      "no_articles": "لا توجد مقالات بعد."
+    },
+    "footer": {
+      "desc": "توطين متعدد اللغات وبناء مواقع مدعوم بالذكاء الاصطناعي للمصنعين والمصدرين وشركات B2B منذ عام 2009.",
+      "meta": "أكثر من 15 عاما · 500+ مشروع · 50+ زوجا لغويا",
+      "services_title": "الخدمات",
+      "industries_title": "القطاعات",
+      "languages_title": "الأزواج اللغوية",
+      "services": [
+        [
+          "مواقع AI للمصدرين",
+          "/services/website-building/"
+        ],
+        [
+          "توطين متعدد اللغات",
+          "/services/localization/"
+        ],
+        [
+          "إخراج مكتبي InDesign وFrameMaker",
+          "/services/localization/dtp/"
+        ],
+        [
+          "دبلجة بالذكاء الاصطناعي وبأصوات بشرية",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "توطين الفيديو والترجمة",
+          "/services/localization/video/"
+        ],
+        [
+          "توطين التعليم الإلكتروني SCORM",
+          "/services/localization/elearning/"
+        ]
+      ],
+      "industries": [
+        "التصنيع والصناعة",
+        "الأجهزة الطبية والدواء",
+        "التعليم الإلكتروني والتدريب",
+        "التسويق والإعلان",
+        "المواد القانونية والامتثال"
+      ],
+      "languages": [
+        "الصينية ↔ الإنجليزية",
+        "اليابانية والكورية",
+        "الألمانية والفرنسية والإسبانية",
+        "العربية واتجاه RTL",
+        "50+ زوجا لغويا"
+      ],
+      "copyright": "MediaLocalize — توطين متعدد اللغات ومواقع عالمية. جميع الحقوق محفوظة.",
+      "privacy": "الخصوصية",
+      "terms": "الشروط"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "توطين متعدد اللغات وبناء مواقع AI لشركات التصدير B2B",
+        "title": "انطلق عالميا.<br>وتحدث محليا.",
+        "subtitle": "نبني موقعك الدولي ونكيف النصوص والصوت والتصميم لتبدو مفهومة وموثوقة للمشترين في كل سوق.",
+        "primary": "اطلب عرضا مجانيا",
+        "secondary": "شاهد الأعمال"
+      },
+      "stats": [
+        [
+          "15+",
+          "سنة خبرة"
+        ],
+        [
+          "50+",
+          "لغة مدعومة"
+        ],
+        [
+          "500+",
+          "مشروع منجز"
+        ],
+        [
+          "10+",
+          "أعوام أطول شراكة"
+        ]
+      ],
+      "intro": {
+        "label": "ما نقدمه",
+        "title": "خدمتان أساسيتان.<br>فريق واحد مسؤول.",
+        "body": "مواقع تصدير جاهزة للسوق العالمي وتوطين محتوى يقرأه العميل كأنه كتب له، لا كنص مترجم حرفيا."
+      },
+      "services": [
+        {
+          "title": "بناء مواقع تصدير بالذكاء الاصطناعي",
+          "body": "موقع سريع واحترافي يجذب مشتري B2B عالميا، مع تصميم واضح، CDN عالمي، SEO، وخدمة عملاء بالذكاء الاصطناعي.",
+          "features": [
+            "النطاق والاستضافة",
+            "تصميم متجاوب للتحويل",
+            "CDN عالمي وتحسين الأداء",
+            "SEO تقني وعلى الصفحة",
+            "روبوت محادثة AI",
+            "دعم وتحديثات مستمرة"
+          ],
+          "url": "/services/website-building/"
+        },
+        {
+          "title": "توطين احترافي",
+          "body": "نكيّف المستندات والصوت والفيديو والدورات الإلكترونية بأكثر من 50 لغة مع مراعاة الأسلوب، الثقافة، واتجاه القراءة.",
+          "features": [
+            "إخراج مكتبي InDesign وFrameMaker",
+            "دبلجة AI من $1/دقيقة",
+            "مؤدو أصوات أصليون",
+            "توطين الفيديو والرسوم",
+            "تعليم إلكتروني وSCORM",
+            "قاعدة مصطلحات وذاكرة ترجمة"
+          ],
+          "url": "/services/localization/"
+        }
+      ],
+      "cases": {
+        "label": "حالات",
+        "title": "نتائج حقيقية لأعمال حقيقية.",
+        "body": "من أول موقع إنجليزي لمصنع صيني إلى شراكات توطين مستمرة لسنوات.",
+        "all": "كل الحالات"
+      },
+      "news": {
+        "label": "رؤى",
+        "title": "من خبرة الفريق",
+        "body": "مقالات عملية حول التوطين، دبلجة AI، الإخراج المكتبي، والتسويق الدولي."
+      },
+      "cta": {
+        "label": "ابدأ",
+        "title": "هل أنت جاهز للوصول إلى أسواق جديدة؟",
+        "body": "أخبرنا عن موقعك أو مشروع التوطين وسنرد خلال يوم عمل واحد."
+      }
+    },
+    "services_hub": {
+      "hero": {
+        "label": "الخدمات",
+        "title": "بناء مواقع AI وتوطين احترافي متعدد اللغات",
+        "subtitle": "مواقع جاهزة للتصدير ومحتوى مكيف لأكثر من 50 لغة لشركات التصنيع والتصدير وفرق B2B."
+      },
+      "services": [
+        {
+          "title": "بناء مواقع تصدير بالذكاء الاصطناعي",
+          "body": "موقع سريع واحترافي يجذب مشتري B2B عالميا، مع تصميم واضح، CDN عالمي، SEO، وخدمة عملاء بالذكاء الاصطناعي.",
+          "features": [
+            "النطاق والاستضافة",
+            "تصميم متجاوب للتحويل",
+            "CDN عالمي وتحسين الأداء",
+            "SEO تقني وعلى الصفحة",
+            "روبوت محادثة AI",
+            "دعم وتحديثات مستمرة"
+          ],
+          "url": "/services/website-building/",
+          "label": "الخدمة 01",
+          "primary": "المزيد",
+          "secondary": "الأسعار",
+          "image": "/images/services/website-building.jpg",
+          "secondary_url": "/prices/"
+        },
+        {
+          "title": "توطين احترافي",
+          "body": "نكيّف المستندات والصوت والفيديو والدورات الإلكترونية بأكثر من 50 لغة مع مراعاة الأسلوب، الثقافة، واتجاه القراءة.",
+          "features": [
+            "إخراج مكتبي InDesign وFrameMaker",
+            "دبلجة AI من $1/دقيقة",
+            "مؤدو أصوات أصليون",
+            "توطين الفيديو والرسوم",
+            "تعليم إلكتروني وSCORM",
+            "قاعدة مصطلحات وذاكرة ترجمة"
+          ],
+          "url": "/services/localization/",
+          "label": "الخدمة 02",
+          "primary": "المزيد",
+          "secondary": "اطلب عرض سعر",
+          "image": "/images/services/localization.jpg",
+          "secondary_url": "/contact/"
+        }
+      ],
+      "stats": [
+        [
+          "500+",
+          "موقعا أطلقناها"
+        ],
+        [
+          "50+",
+          "لغة"
+        ],
+        [
+          "10K+",
+          "صفحة موطنة"
+        ],
+        [
+          "99%",
+          "رضا العملاء"
+        ]
+      ],
+      "why": {
+        "label": "لماذا MediaLocalize",
+        "title": "شريك واحد لكل سلسلة المحتوى.",
+        "body": "بدلا من إدارة مترجمين ومطورين وفريق DTP كل على حدة، نتولى الموقع والمحتوى والوسائط ضمن مسار واحد.",
+        "cards": [
+          {
+            "title": "تسريع بالذكاء الاصطناعي",
+            "body": "نستخدم AI لتقليل الوقت وزيادة الاتساق مع مراجعة بشرية دقيقة."
+          },
+          {
+            "title": "خبرة بشرية",
+            "body": "يراجع العمل مختصون ومتحدثون أصليون لضبط الدقة والنبرة والملاءمة."
+          },
+          {
+            "title": "سرعة إنجاز",
+            "body": "مواقع خلال 2–3 أسابيع ودبلجة AI خلال 24–72 ساعة."
+          }
+        ]
+      },
+      "cta": {
+        "label": "ابدأ",
+        "title": "هل أنت جاهز للوصول إلى أسواق جديدة؟",
+        "body": "أخبرنا عن موقعك أو مشروع التوطين وسنرد خلال يوم عمل واحد."
+      }
+    },
+    "prices": {
+      "hero": {
+        "label": "الأسعار",
+        "title": "أسعار واضحة لبناء المواقع والتوطين",
+        "subtitle": "خطط سنوية للمواقع المدعومة بالذكاء الاصطناعي وأسعار بالوحدة للإخراج المكتبي والدبلجة والفيديو والتعليم الإلكتروني."
+      },
+      "web_intro": {
+        "label": "بناء المواقع",
+        "title": "خطط مواقع AI",
+        "body": "تشمل كل الخطط إعداد النطاق، التصميم المتجاوب، والدعم المستمر. الفوترة سنوية."
+      },
+      "plans": [
+        {
+          "name": "Starter",
+          "setup": "$199",
+          "period": "رسوم إعداد",
+          "renew": "+ $199 / year",
+          "year1": "إجمالي السنة الأولى: $398",
+          "features": [
+            "نطاق مخصص واحد",
+            "حساب بريد واحد",
+            "موقع من صفحة واحدة",
+            "CDN أساسي",
+            "إعداد SEO أساسي",
+            "شهادة SSL",
+            "دعم عبر البريد"
+          ],
+          "featured": false,
+          "badge": ""
+        },
+        {
+          "name": "Growth",
+          "setup": "$499",
+          "period": "رسوم إعداد",
+          "renew": "+ $299 / year",
+          "year1": "إجمالي السنة الأولى: $798",
+          "badge": "الأكثر طلبا",
+          "features": [
+            "نطاق مخصص واحد",
+            "5 حسابات بريد",
+            "حتى 10 صفحات",
+            "CDN عالمي",
+            "SEO وتحليلات متقدمة",
+            "شهادة SSL",
+            "دعم أولوية",
+            "تقرير أداء شهري",
+            "مقال واحد شهريا",
+            "حتى 5 تحديثات منتج شهريا"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "setup": "$999",
+          "period": "رسوم إعداد",
+          "renew": "+ $399 / year",
+          "year1": "إجمالي السنة الأولى: $1,398",
+          "features": [
+            "نطاقان مخصصان",
+            "20 حساب بريد",
+            "صفحات غير محدودة",
+            "CDN عالمي + تخزين حافة",
+            "SEO وتحليلات متقدمة",
+            "روبوت محادثة AI",
+            "دعم أولوية 24/7",
+            "مراجعة استراتيجية ربع سنوية",
+            "مقال واحد أسبوعيا",
+            "حتى 10 تحديثات منتج شهريا"
+          ],
+          "featured": false,
+          "badge": ""
+        }
+      ],
+      "plan_cta": "استشارة مجانية",
+      "web_note": "رسوم الإعداد تغطي التصميم والبناء والإطلاق. الرسوم السنوية تغطي الاستضافة والصيانة والدعم.",
+      "loc_intro": {
+        "label": "التوطين",
+        "title": "أسعار التوطين",
+        "body": "تختلف الأسعار حسب الزوج اللغوي والحجم والتعقيد. الأسعار التالية تبدأ من هذه القيم."
+      },
+      "loc_items": [
+        [
+          "الإخراج المكتبي DTP",
+          "$2 – $5",
+          "لكل صفحة",
+          "Word وPowerPoint وFrameMaker وInDesign مع ضبط الخطوط والتخطيط."
+        ],
+        [
+          "دبلجة AI",
+          "$1 – $2",
+          "لكل دقيقة نهائية",
+          "أصوات طبيعية بأكثر من 50 لغة وتسليم خلال 24–72 ساعة."
+        ],
+        [
+          "دبلجة بشرية",
+          "$20 – $50",
+          "لكل دقيقة نهائية",
+          "مؤدو أصوات أصليون وتسجيل بجودة استوديو."
+        ],
+        [
+          "توطين الفيديو",
+          "$8 – $220",
+          "لكل دقيقة",
+          "ترجمة، دبلجة، واستبدال النصوص الظاهرة على الشاشة."
+        ],
+        [
+          "تعليم إلكتروني — بالكلمة",
+          "$0.12 – $0.18",
+          "لكل كلمة مصدر",
+          "تكييف لغوي وثقافي لنصوص الدورة."
+        ],
+        [
+          "تعليم إلكتروني — بالوحدة",
+          "$250 – $600",
+          "لكل وحدة",
+          "توطين كامل للشرائح، السرد الصوتي، والوسائط."
+        ]
+      ],
+      "minimum": "الحد الأدنى: USD 50 لكل مهمة توطين. تتوفر خصومات للحجم ابتداء من 30 دقيقة أو 10,000 كلمة.",
+      "cta": {
+        "title": "هل تحتاج عرض سعر مخصصا؟",
+        "body": "أرسل لنا اللغات ونوع المحتوى والحجم والموعد المطلوب وسنرد خلال يوم عمل واحد.",
+        "button": "اطلب عرض سعر"
+      }
+    },
+    "contact": {
+      "hero": {
+        "label": "تواصل",
+        "title": "لنتحدث عن مشروعك",
+        "subtitle": "أخبرنا بما تحتاجه وسنرد خلال يوم عمل واحد."
+      },
+      "info_title": "بيانات التواصل",
+      "email_label": "البريد الإلكتروني",
+      "languages_label": "اللغات",
+      "languages": "ندعم التواصل بالإنجليزية والصينية",
+      "response_label": "وقت الرد",
+      "response": "خلال يوم عمل واحد",
+      "include_title": "يفضل أن يتضمن طلبك:",
+      "include": [
+        "رابط موقعك إن وجد",
+        "اللغات والأسواق المستهدفة",
+        "نوع المحتوى وحجمه",
+        "الموعد المطلوب"
+      ],
+      "form_title": "أرسل لنا رسالة",
+      "success_title": "تم إرسال الرسالة",
+      "success_body": "سنعود إليك خلال يوم عمل واحد. يرجى مراجعة بريدك للتأكيد.",
+      "labels": {
+        "name": "الاسم الكامل *",
+        "email": "البريد الإلكتروني *",
+        "company": "الشركة / الموقع",
+        "service": "الخدمة المطلوبة *",
+        "message": "الرسالة *"
+      },
+      "placeholders": {
+        "name": "اسمك",
+        "email": "you@company.com",
+        "company": "اسم الشركة أو النطاق",
+        "service": "اختر خدمة...",
+        "message": "اكتب اللغات والحجم والموعد..."
+      },
+      "options": [
+        "موقع — Starter ($199/سنة)",
+        "موقع — Growth ($499/سنة)",
+        "موقع — Business ($999/سنة)",
+        "إخراج مكتبي DTP",
+        "دبلجة AI",
+        "دبلجة بشرية",
+        "توطين الفيديو",
+        "تعليم إلكتروني",
+        "أخرى / عدة خدمات"
+      ],
+      "submit": "إرسال",
+      "sending": "جار الإرسال…",
+      "errors": {
+        "name": "يرجى إدخال الاسم.",
+        "email": "يرجى إدخال بريد صحيح.",
+        "service": "يرجى اختيار الخدمة.",
+        "message": "يرجى وصف المشروع.",
+        "short": "الرسالة قصيرة جدا. أضف بعض التفاصيل.",
+        "missing": "يرجى ملء الحقول المطلوبة.",
+        "invalid": "البريد الإلكتروني غير صحيح.",
+        "generic": "حدث خطأ. حاول مرة أخرى أو راسلنا على ken.lee@medialocalize.com"
+      }
+    },
+    "about": {
+      "hero": {
+        "label": "من نحن",
+        "title": "15 عاما في جعل المحتوى يعبر الحدود",
+        "subtitle": "فريق صغير من التطوير والإخراج المكتبي والتوطين، يعمل في هذا المجال منذ ما قبل انتشار الذكاء الاصطناعي."
+      },
+      "story": {
+        "label": "قصتنا",
+        "title": "حرفة قوية، وتسريع بالذكاء الاصطناعي.",
+        "paras": [
+          "بدأت MediaLocalize من تقاطع تطوير المواقع والإخراج المكتبي متعدد اللغات. نؤمن أن المحتوى الجيد يجب أن يصل إلى كل سوق بلغته وطريقته.",
+          "نستخدم اليوم أدوات AI لتقليل الزمن، لكن القرار النهائي في المصطلح والنبرة والجودة يبقى بشريا.",
+          "نعمل مع مصدر يطلق أول موقع دولي، ومع فرق عالمية تنشر برامج تدريب بعشرات اللغات، بنفس العناية."
+        ]
+      },
+      "team_intro": {
+        "label": "الفريق",
+        "title": "أربعة مختصين.<br>معيار واحد للجودة.",
+        "body": "لا طبقات زائدة. ستتحدث مع الأشخاص الذين ينفذون العمل فعليا."
+      },
+      "values_intro": {
+        "label": "قيمنا",
+        "title": "كيف نعمل"
+      },
+      "cta": {
+        "title": "تواصل مباشرة مع الفريق",
+        "body": "لا وسطاء مبيعات. نقيم المشروع من منظور التنفيذ الحقيقي.",
+        "button": "تواصل معنا"
+      },
+      "team": [
+        {
+          "name": "Ken Lee",
+          "role": "Founder & Lead Developer",
+          "exp": "15+ yrs experience",
+          "bio": "يقود Ken بنية المواقع والتطوير والنشر باستخدام مواقع ثابتة حديثة وCDN وإنتاج مدعوم بالذكاء الاصطناعي.",
+          "badges": [
+            "Next.js",
+            "TypeScript",
+            "Claude Code",
+            "GitHub Actions",
+            "Cloudflare",
+            "Hugo"
+          ]
+        },
+        {
+          "name": "Jerry Hu",
+          "role": "Senior DTP Engineer",
+          "exp": "15+ yrs experience",
+          "bio": "يدير Jerry الإخراج المكتبي متعدد اللغات بما في ذلك العربية RTL وCJK والديفاناغاري والتايلندية.",
+          "badges": [
+            "Adobe InDesign",
+            "FrameMaker",
+            "QuarkXPress",
+            "Illustrator",
+            "PDF/X Preflight",
+            "CJK Typography"
+          ]
+        },
+        {
+          "name": "Jesse Chen",
+          "role": "Localization Engineer",
+          "exp": "12+ yrs experience",
+          "bio": "تدير Jesse ذاكرات الترجمة وقواعد المصطلحات وملفات XLIFF ومراجعة CJK واختيار اللغويين.",
+          "badges": [
+            "memoQ",
+            "SDL Trados",
+            "XLIFF / SDLXLIFF",
+            "Translation Memory",
+            "CJK QA",
+            "AI Post-editing"
+          ]
+        },
+        {
+          "name": "Benny Chow",
+          "role": "Project Manager",
+          "exp": "12+ yrs experience",
+          "bio": "يدير Benny النطاق والجدولة والموارد ومراجعة الجودة النهائية لضمان وضوح التسليم.",
+          "badges": [
+            "Project Scoping",
+            "SCORM / xAPI QA",
+            "Lighthouse CI",
+            "DTP Preflight",
+            "Risk Management",
+            "Client Communication"
+          ]
+        }
+      ],
+      "values": [
+        {
+          "icon": "⚡",
+          "title": "سرعة بلا تنازل",
+          "body": "AI يختصر الوقت، والخبرة البشرية تحفظ الجودة."
+        },
+        {
+          "icon": "🌏",
+          "title": "توطين حقيقي",
+          "body": "نكيّف المعنى والنبرة والشكل، لا الكلمات فقط."
+        },
+        {
+          "icon": "🔒",
+          "title": "شراكة طويلة",
+          "body": "أسعار واضحة وتواصل مباشر ومعرفة تتراكم مع الوقت."
+        }
+      ],
+      "stats": [
+        [
+          "15+",
+          "سنة خبرة"
+        ],
+        [
+          "4",
+          "مختصين"
+        ],
+        [
+          "500+",
+          "مشروع منجز"
+        ],
+        [
+          "10+",
+          "أعوام أطول شراكة"
+        ]
+      ]
+    },
+    "cases": {
+      "hero": {
+        "label": "حالات",
+        "title": "حالات بناء المواقع والتوطين",
+        "subtitle": "كيف ساعدنا شركات B2B على إطلاق مواقع دولية وتكييف مواد البيع لأسواق جديدة."
+      },
+      "filters": [
+        [
+          "all",
+          "الكل"
+        ],
+        [
+          "website-building",
+          "بناء المواقع"
+        ],
+        [
+          "localization",
+          "التوطين"
+        ]
+      ],
+      "cta": {
+        "title": "هل تريد حضورا عالميا أوضح؟",
+        "body": "أخبرنا عن موقعك أو مشروعك متعدد اللغات وسنرد خلال يوم عمل واحد."
+      },
+      "single": {
+        "label": "حالة",
+        "challenge_label": "التحدي",
+        "challenge_title": "المشكلة",
+        "solution_label": "الحل",
+        "solution_title": "ما قمنا به",
+        "results_label": "النتائج",
+        "results_title": "الأثر",
+        "cta_title": "هل تريد نتائج مشابهة؟",
+        "cta_body": "لننشئ معا حضورك العالمي على الويب."
+      }
+    },
+    "news": {
+      "hero": {
+        "label": "رؤى وأخبار",
+        "title": "رؤى التوطين واتجاهات الويب العالمية",
+        "subtitle": "دبلجة AI، الإخراج المكتبي متعدد اللغات، التعليم الإلكتروني ومواقع التصدير من خبرة عملية."
+      },
+      "filters": [
+        [
+          "all",
+          "الكل"
+        ],
+        [
+          "tech",
+          "تقنية"
+        ],
+        [
+          "industry",
+          "السوق"
+        ],
+        [
+          "company",
+          "الشركة"
+        ]
+      ],
+      "empty_body": "ستنشر المقالات قريبا.",
+      "cta_title": "هل لديك مشروع؟",
+      "cta_body": "نرد على كل استفسار خلال يوم عمل واحد."
+    },
+    "taxonomy": {
+      "browse_by": "تصفح حسب",
+      "tag": "وسم",
+      "category": "تصنيف",
+      "all_tags": "كل الوسوم",
+      "all_categories": "كل التصنيفات",
+      "articles_with": "مقالات ضمن",
+      "browse_all": "كل المقالات"
+    },
+    "service_detail": {
+      "section_label": "خدمة",
+      "included": "ما الذي يشمله العمل",
+      "cta_title": "هل تهمك هذه الخدمة؟",
+      "cta_body": "اطلب عرض سعر يناسب اللغات والحجم والموعد."
+    },
+    "pages": {
+      "home": {
+        "title": "MediaLocalize — مواقع AI وتوطين متعدد اللغات",
+        "description": "مواقع دولية وتوطين متعدد اللغات لشركات التصنيع والتصدير B2B."
+      },
+      "about": {
+        "title": "من نحن — MediaLocalize",
+        "description": "فريق متخصص في المواقع العالمية والتوطين والإخراج المكتبي منذ 2009."
+      },
+      "services": {
+        "title": "الخدمات — MediaLocalize",
+        "description": "مواقع AI وتوطين احترافي بأكثر من 50 لغة."
+      },
+      "prices": {
+        "title": "الأسعار — MediaLocalize",
+        "description": "أسعار المواقع والإخراج المكتبي والدبلجة والفيديو والتعليم الإلكتروني."
+      },
+      "contact": {
+        "title": "تواصل — MediaLocalize",
+        "description": "اطلب عرض سعر لموقع أو مشروع توطين."
+      },
+      "cases": {
+        "title": "حالات — MediaLocalize",
+        "description": "أعمال حقيقية في بناء مواقع B2B والتوطين."
+      },
+      "news": {
+        "title": "رؤى التوطين — MediaLocalize",
+        "description": "مقالات حول التوطين ودبلجة AI والإخراج المكتبي ومواقع التصدير."
+      },
+      "privacy": {
+        "body": "## ملخص الخصوصية\nنجمع فقط البيانات اللازمة للرد على الطلبات وتنفيذ المشاريع، مثل الاسم والبريد والشركة وملفات العمل وسجلات الموقع التقنية. لطلب الوصول أو التصحيح أو الحذف راسل ken.lee@medialocalize.com. عند الاختلاف تسود النسخة الإنجليزية.",
+        "title": "سياسة الخصوصية",
+        "description": "كيف تستخدم MediaLocalize البيانات وتحميها."
+      },
+      "terms": {
+        "body": "## ملخص الشروط\nيخضع استخدام الموقع والخدمات للعرض أو بيان العمل المتفق عليه. يضمن العميل امتلاك الحقوق اللازمة للمواد المرسلة. تنتقل مخرجات العمل بعد السداد الكامل، بينما تبقى أدواتنا وطرقنا ملكا لـ MediaLocalize. عند الاختلاف تسود النسخة الإنجليزية.",
+        "title": "شروط الخدمة",
+        "description": "شروط استخدام خدمات MediaLocalize."
+      },
+      "services/website-building": {
+        "title": "بناء مواقع تصدير بالذكاء الاصطناعي",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/website-building.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "services/localization": {
+        "title": "توطين متعدد اللغات",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/localization.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "services/localization/dtp": {
+        "title": "إخراج مكتبي متعدد اللغات",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/dtp.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "services/localization/dubbing": {
+        "title": "دبلجة AI وأصوات بشرية",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/dubbing.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "services/localization/video": {
+        "title": "توطين الفيديو والرسوم",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/video-localization.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "services/localization/elearning": {
+        "title": "توطين التعليم الإلكتروني وSCORM",
+        "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
+        "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
+        "cover": "/images/services/elearning.jpg",
+        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "features": [
+          {
+            "title": "نبرة محلية",
+            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+          },
+          {
+            "title": "تسليم جاهز",
+            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+          },
+          {
+            "title": "مراجعة بشرية",
+            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+          }
+        ]
+      },
+      "cases/irmodules": {
+        "title": "IRModules — موقع OEM/ODM لوحدات كاميرا الأشعة تحت الحمراء",
+        "domain": "irmodules.com",
+        "industry": "كاميرات الأشعة تحت الحمراء / OEM·ODM",
+        "service_label": "بناء موقع",
+        "tagline": "كتالوج تقني ساعد المصنع على استقبال طلبات OEM عالمية.",
+        "description": "موقع إنجليزي بكتالوج تقني وملفات مواصفات ونموذج OEM؛ حقق 40+ تحميل شهريا وأول طلب خلال أسبوعين.",
+        "challenge": "لم يكن لدى المشترين الدوليين مواصفات واضحة أو قناة تواصل موثوقة على الإنترنت.",
+        "solution": "بنينا كتالوجا تقنيا وملفات PDF ونموذج OEM ومحتوى SEO ونشرا عبر CDN عالمي.",
+        "results_desc": "بدأت تحميلات المواصفات فور الإطلاق وجاء أول طلب OEM خلال أسبوعين.",
+        "results_short": [
+          "إطلاق خلال 3 أسابيع",
+          "40+ تحميل مواصفات شهريا",
+          "أول طلب OEM خلال أسبوعين"
+        ],
+        "body": "في B2B التقني، ينجح الموقع عندما يساعد المهندس على مقارنة المواصفات والتواصل بسرعة."
+      },
+      "cases/cyrentis": {
+        "title": "Cyrentis — موقع B2B لمنتجات رادار الأمن",
+        "domain": "cyrentis.com",
+        "industry": "الأمن / الرادار",
+        "service_label": "بناء موقع",
+        "tagline": "موقع احترافي يساعد المشترين الدوليين على تقييم المنتجات.",
+        "description": "موقع متعدد الصفحات لرادارات أمنية مع مواصفات ونموذج RFQ، جلب طلبات خارجية خلال أسابيع.",
+        "challenge": "من دون موقع إنجليزي لم يستطع الموزعون والمكاملون تقييم الشركة ومنتجاتها.",
+        "solution": "أنشأنا صفحات منتجات ومواصفات ونموذج RFQ ومحتوى SEO ونشرا عالميا.",
+        "results_desc": "أطلق الموقع خلال أسبوعين، وفهرسه Google خلال 72 ساعة، ووصلت طلبات RFQ في الشهر الأول.",
+        "results_short": [
+          "إطلاق خلال أسبوعين",
+          "فهرسة Google خلال 72 ساعة",
+          "RFQ في الشهر الأول"
+        ],
+        "body": "في منتجات الأمن، الثقة الرقمية جزء من عملية الشراء."
+      },
+      "cases/laser-marking-localization": {
+        "title": "مصنع معدات ليزر في ووهان — توطين مواد التصدير",
+        "domain": "مصنع ليزر · وادي البصريات ووهان",
+        "industry": "معدات ليزر / تصنيع",
+        "service_label": "توطين · DTP",
+        "tagline": "من مواد إنجليزية آلية إلى ملفات بيع مناسبة للمشترين الدوليين.",
+        "description": "أعدنا كتابة مواد آلات وسم الليزر واستعدنا المواصفات المهمة وأنشأنا أوراق تطبيقات حسب القطاع.",
+        "challenge": "كانت المواد الإنجليزية آلية، ناقصة المواصفات، وعامة أكثر من اللازم.",
+        "solution": "راجعنا ثلاثة نماذج، أعدنا كتابة الوصف، استعدنا المواصفات، وصممنا مواد لكل قطاع.",
+        "results_desc": "بعد ستة أسابيع وصل طلب أوروبي تحول إلى شراء وحدتين 30W MOPA.",
+        "results_short": [
+          "مواصفات بمعيار دولي",
+          "طلب أوروبي خلال 6 أسابيع",
+          "أول طلب: وحدتان 30W MOPA"
+        ],
+        "body": "في المعدات الصناعية، ورقة المواصفات هي بداية عملية البيع."
+      },
+      "cases/courseware-localization": {
+        "title": "عميل سري — توطين تدريب مؤسسي",
+        "domain": "سري · مزود تدريب عالمي",
+        "industry": "تدريب مؤسسي / HR Tech",
+        "service_label": "توطين · دورات + دبلجة",
+        "tagline": "40+ وحدة مع تكييف التصميم والسرد والترجمة.",
+        "description": "توطين مكتبة تدريب للشركات إلى الصينية المبسطة مع تكييف الشرائح والصوت والترجمة.",
+        "challenge": "التحويل المباشر كسر التصميم وتوقيت الحركة والترجمة وطبيعية الصوت.",
+        "solution": "عالجنا التصميم والتسجيل الاحترافي بالماندرين وإعادة توقيت الترجمة ضمن مسار واحد.",
+        "results_desc": "أطلقت الدورات في الموعد، وحافظ رضا المتعلمين على مستوى النسخة الإنجليزية أو تجاوزه.",
+        "results_short": [
+          "40+ وحدة موطنة",
+          "رضا المتعلمين لا يقل عن الأصل",
+          "تعاون مستمر"
+        ],
+        "body": "في التعليم الإلكتروني، النص والصوت والتوقيت تجربة واحدة."
+      },
+      "cases/translation-dtp-partnership": {
+        "title": "عميل سري — 10 سنوات ترجمة وإخراج مكتبي",
+        "domain": "سري · عميل صناعي أوروبي",
+        "industry": "معدات صناعية",
+        "service_label": "توطين · ترجمة وDTP",
+        "tagline": "عقد من المصطلحات المتسقة والإخراج متعدد اللغات.",
+        "description": "شراكة طويلة لترجمة EN-ZH والمصطلحات والكتالوجات والأدلة وإخراج InDesign.",
+        "challenge": "احتاج العميل اتساقا مصطلحيا عبر سنوات وأنواع مختلفة من الوثائق.",
+        "solution": "أنشأنا قاعدة مصطلحات وذاكرة ترجمة وفريقا ثابتا وإخراجا داخليا.",
+        "results_desc": "تجاوزت الشراكة 10 سنوات مع 250,000+ كلمة و4,000+ مصطلح.",
+        "results_short": [
+          "10+ سنوات تعاون",
+          "250,000+ كلمة",
+          "4,000+ مصطلح"
+        ],
+        "body": "تزداد قيمة التوطين المتكرر عندما تبقى الذاكرة والمصطلحات والفريق ثابتة."
+      },
+      "news/ai-dubbing-vs-human-voice": {
+        "title": "دبلجة AI أم أصوات بشرية: متى تختار كل خيار",
+        "summary": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام.",
+        "description": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام."
+      },
+      "news/translation-memory-dtp-efficiency": {
+        "title": "كيف تختصر ذاكرة الترجمة زمن الإخراج المكتبي",
+        "summary": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة.",
+        "description": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."
+      },
+      "news/why-chinese-exporters-need-english-website": {
+        "title": "التكلفة الخفية لغياب موقع إنجليزي",
+        "summary": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة.",
+        "description": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة."
+      },
+      "news/international-seo-guide-chinese-manufacturers": {
+        "title": "SEO دولي للمصنعين الصينيين: دليل عملي",
+        "summary": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين.",
+        "description": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
+      },
+      "news/localization-vs-translation-differences": {
+        "title": "التوطين والترجمة: الفرق الذي يغير النتيجة",
+        "summary": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف.",
+        "description": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف."
+      },
+      "news/website-localization-guide-b2b-exporters": {
+        "title": "ما هو توطين المواقع ولماذا يهم مصدري B2B",
+        "summary": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط.",
+        "description": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."
+      },
+      "news/oem-product-catalog-website-guide": {
+        "title": "كيف تبني كتالوج منتجات يجلب طلبات OEM",
+        "summary": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب.",
+        "description": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."
+      },
+      "news/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS وصعود الصوت بالذكاء الاصطناعي في التوطين",
+        "summary": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض.",
+        "description": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض."
+      },
+      "news/human-vs-machine-translation-technical-content": {
+        "title": "ترجمة بشرية أم آلية للمحتوى التقني",
+        "summary": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية.",
+        "description": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية."
+      },
+      "news/export-website-speed-cdn-performance": {
+        "title": "لماذا يفتح موقع التصدير ببطء للمشترين الدوليين",
+        "summary": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا.",
+        "description": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
+      },
+      "news/elearning-localization-global-audiences": {
+        "title": "توطين التعليم الإلكتروني لجمهور عالمي",
+        "summary": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS.",
+        "description": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
+      },
+      "news/video-localization-corporate-training-guide": {
+        "title": "توطين فيديو التدريب: ترجمة ودبلجة ونصوص على الشاشة",
+        "summary": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة.",
+        "description": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة."
+      },
+      "news/multilingual-dtp-typography-guide": {
+        "title": "دليل الإخراج المكتبي والطباعة متعددة اللغات",
+        "summary": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة.",
+        "description": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة."
+      },
+      "news/cost-of-poor-localization-b2b-export": {
+        "title": "التكلفة الحقيقية للتوطين الضعيف في تسويق B2B",
+        "summary": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر.",
+        "description": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
+      }
+    }
+  }
+}

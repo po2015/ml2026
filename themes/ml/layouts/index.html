@@ -1,14 +1,16 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $home := $copy.home -}}
 
 <!-- ===== HERO ===== -->
 <section class="section-dark hero">
   <div class="hero-inner">
-    <p class="hero-eyebrow reveal">Multilingual Localization &amp; AI Website Building for B2B Exporters</p>
-    <h1 class="hero-headline color-white reveal reveal-delay-1">Go Global.<br>Sound Local.</h1>
-    <p class="hero-subheadline reveal reveal-delay-2">From building your export website to adapting every word, voice, and layout for international markets — one specialist partner covering 50+ languages, end to end.</p>
+    <p class="hero-eyebrow reveal">{{ $home.hero.eyebrow }}</p>
+    <h1 class="hero-headline color-white reveal reveal-delay-1">{{ $home.hero.title | safeHTML }}</h1>
+    <p class="hero-subheadline reveal reveal-delay-2">{{ $home.hero.subtitle }}</p>
     <div class="hero-actions reveal reveal-delay-3">
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-      <a href="/cases/" class="btn btn-secondary-dark">See Our Work</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $home.hero.primary }}</a>
+      <a href="{{ "/cases/" | relLangURL }}" class="btn btn-secondary-dark">{{ $home.hero.secondary }}</a>
     </div>
   </div>
 </section>
@@ -17,22 +19,12 @@
 <section class="section-dark section-pad-sm">
   <div class="container">
     <div class="stats-grid">
-      <div class="reveal reveal-delay-1">
-        <span class="stat-number">15+</span>
-        <span class="stat-label">Years in Business</span>
+      {{ range $idx, $stat := $home.stats }}
+      <div class="reveal reveal-delay-{{ add $idx 1 }}">
+        <span class="stat-number">{{ index $stat 0 }}</span>
+        <span class="stat-label">{{ index $stat 1 }}</span>
       </div>
-      <div class="reveal reveal-delay-2">
-        <span class="stat-number">50+</span>
-        <span class="stat-label">Languages Supported</span>
-      </div>
-      <div class="reveal reveal-delay-3">
-        <span class="stat-number">500+</span>
-        <span class="stat-label">Projects Delivered</span>
-      </div>
-      <div class="reveal reveal-delay-4">
-        <span class="stat-number">10yr+</span>
-        <span class="stat-label">Longest Client Relationship</span>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -41,55 +33,35 @@
 <section class="section-white section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">What We Do</p>
-      <h2 class="section-headline">Two core services.<br>One trusted partner.</h2>
-      <p class="body-copy color-muted">Whether you need an export-ready website or multilingual content that reads, sounds, and feels native in English, Chinese, or 50+ other languages — we cover the full stack.</p>
+      <p class="section-label">{{ $home.intro.label }}</p>
+      <h2 class="section-headline">{{ $home.intro.title | safeHTML }}</h2>
+      <p class="body-copy color-muted">{{ $home.intro.body }}</p>
     </div>
 
     <div class="home-services-grid">
-      <!-- AI Website Building -->
-      <div class="home-service-card reveal reveal-delay-1">
+      {{ range $idx, $service := $home.services }}
+      <div class="home-service-card reveal reveal-delay-{{ add $idx 1 }}">
         <div class="home-service-card-top">
           <div class="service-icon">
+            {{ if eq $idx 0 }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
             </svg>
-          </div>
-          <h3 class="service-card-title">AI-Powered Website Building</h3>
-          <p class="service-card-body">Launch a fast, professional website that ranks globally and converts international buyers. Apple-inspired design, global CDN, advanced SEO, and AI customer service — fully managed.</p>
-        </div>
-        <ul class="service-list">
-          <li>Domain registration &amp; hosting</li>
-          <li>Responsive, conversion-optimized design</li>
-          <li>Global CDN &amp; performance optimization</li>
-          <li>Technical &amp; on-page SEO</li>
-          <li>AI chatbot integration</li>
-          <li>Ongoing support &amp; updates</li>
-        </ul>
-        <a href="/services/website-building/" class="btn btn-secondary-light btn-sm">Learn more</a>
-      </div>
-
-      <!-- Localization -->
-      <div class="home-service-card reveal reveal-delay-2">
-        <div class="home-service-card-top">
-          <div class="service-icon">
+            {{ else }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
             </svg>
+            {{ end }}
           </div>
-          <h3 class="service-card-title">Professional Localization</h3>
-          <p class="service-card-body">Multilingual content adaptation across 50+ languages by subject-matter specialists. DTP, AI and human dubbing, video localization, and e-learning — with translation memory that compounds over time.</p>
+          <h3 class="service-card-title">{{ $service.title }}</h3>
+          <p class="service-card-body">{{ $service.body }}</p>
         </div>
         <ul class="service-list">
-          <li>Desktop Publishing (DTP) — InDesign, FrameMaker</li>
-          <li>AI dubbing from $1/min · 50+ languages</li>
-          <li>Human voice actors — certified native speakers</li>
-          <li>Video &amp; animation localization</li>
-          <li>E-learning courseware localization</li>
-          <li>Dedicated termbase &amp; translation memory</li>
+          {{ range $service.features }}<li>{{ . }}</li>{{ end }}
         </ul>
-        <a href="/services/localization/" class="btn btn-secondary-light btn-sm">Learn more</a>
+        <a href="{{ $service.url | relLangURL }}" class="btn btn-secondary-light btn-sm">{{ $copy.common.learn_more }}</a>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -98,66 +70,51 @@
 <section class="section-dark section-pad">
   <div class="container">
     <div class="section-intro section-intro-dark reveal">
-      <p class="section-label">Case Studies</p>
-      <h2 class="section-headline color-white">Real results for real businesses.</h2>
-      <p class="body-copy" style="color:rgba(255,255,255,0.6);">From Chinese manufacturers launching their first English website to decade-long multilingual localization partnerships.</p>
+      <p class="section-label">{{ $home.cases.label }}</p>
+      <h2 class="section-headline color-white">{{ $home.cases.title }}</h2>
+      <p class="body-copy" style="color:rgba(255,255,255,0.6);">{{ $home.cases.body }}</p>
     </div>
 
     <div class="grid-2" style="gap:20px;">
-
-      <!-- irmodules -->
-      <article class="case-card reveal reveal-delay-1">
+      {{ range $idx, $slug := slice "cases/irmodules" "cases/laser-marking-localization" }}
+      {{ with $.Site.GetPage $slug }}
+      {{- $page := partial "i18n/page.html" . -}}
+      <article class="case-card reveal reveal-delay-{{ add $idx 1 }}">
+        {{ with .Params.cover }}
         <div class="case-cover" style="height:160px;">
-          <img src="/images/cases/irmodules.png" alt="irmodules.com" loading="lazy">
+          <img src="{{ . }}" alt="{{ $page.title | default $.Title }}" loading="lazy">
         </div>
+        {{ end }}
         <div class="case-card-header">
           <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
-            <span class="case-tag">Infrared Camera / OEM·ODM</span>
-            <span class="case-tag" style="background:rgba(52,199,89,0.12);color:#1a8a3c;">Website Building</span>
+            <span class="case-tag">{{ $page.industry | default .Params.industry }}</span>
+            <span class="case-tag" style="background:rgba(52,199,89,0.12);color:#1a8a3c;">{{ $page.service_label | default .Params.service_label }}</span>
           </div>
-          <a href="https://www.irmodules.com" target="_blank" rel="noopener noreferrer" class="case-card-domain" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
-            irmodules.com
+          {{ if .Params.website_url }}
+          <a href="{{ .Params.website_url }}" target="_blank" rel="noopener noreferrer" class="case-card-domain" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
+            {{ $page.domain | default .Params.domain | default .Title }}
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
-          <p class="case-card-desc">Technical product catalog for an IR camera core manufacturer competing for global OEM contracts.</p>
+          {{ else }}
+          <h3 class="case-card-domain">{{ $page.domain | default .Params.domain | default .Title }}</h3>
+          {{ end }}
+          <p class="case-card-desc">{{ $page.description | default .Params.description | default .Summary }}</p>
         </div>
         <div class="case-card-body">
+          {{ with ($page.results_short | default .Params.results_short) }}
           <div class="case-result">
-            <div class="case-result-item">Live in 3 weeks with full product catalog</div>
-            <div class="case-result-item">40+ spec sheet downloads per month</div>
-            <div class="case-result-item">First OEM inquiry in 2 weeks</div>
+            {{ range . }}<div class="case-result-item">{{ . }}</div>{{ end }}
           </div>
-          <a href="/cases/irmodules/" class="case-card-link">Read case study <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
+          {{ end }}
+          <a href="{{ .RelPermalink }}" class="case-card-link">{{ $copy.common.read_case }} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
         </div>
       </article>
-
-      <!-- Laser marking -->
-      <article class="case-card reveal reveal-delay-2">
-        <div class="case-cover" style="height:160px;">
-          <img src="/images/cases/laser-marking.jpg" alt="Laser marking localization" loading="lazy">
-        </div>
-        <div class="case-card-header">
-          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
-            <span class="case-tag">Laser Equipment / Manufacturing</span>
-            <span class="case-tag" style="background:rgba(52,199,89,0.12);color:#1a8a3c;">Localization · DTP</span>
-          </div>
-          <h3 class="case-card-domain">Laser Manufacturer · Wuhan Optics Valley</h3>
-          <p class="case-card-desc">English sales materials overhaul for a fiber laser marking machine manufacturer — spec sheets, CE documentation, and industry-segmented brochures.</p>
-        </div>
-        <div class="case-card-body">
-          <div class="case-result">
-            <div class="case-result-item">Spec sheets rebuilt to international standard</div>
-            <div class="case-result-item">First European buyer inquiry in 6 weeks</div>
-            <div class="case-result-item">First overseas order: 2 × 30W MOPA units</div>
-          </div>
-          <a href="/cases/laser-marking-localization/" class="case-card-link">Read case study <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
-        </div>
-      </article>
-
+      {{ end }}
+      {{ end }}
     </div>
 
     <div class="text-center mt-48 reveal">
-      <a href="/cases/" class="btn btn-secondary-dark">View all case studies</a>
+      <a href="{{ "/cases/" | relLangURL }}" class="btn btn-secondary-dark">{{ $home.cases.all }}</a>
     </div>
   </div>
 </section>
@@ -168,24 +125,25 @@
 <section class="section-light section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">Insights</p>
-      <h2 class="section-headline">From the team</h2>
-      <p class="body-copy color-muted">Localization industry analysis, AI dubbing trends, DTP best practices, and notes from our team.</p>
+      <p class="section-label">{{ $home.news.label }}</p>
+      <h2 class="section-headline">{{ $home.news.title }}</h2>
+      <p class="body-copy color-muted">{{ $home.news.body }}</p>
     </div>
 
     <div class="home-news-grid">
       {{ range $news }}
+      {{- $page := partial "i18n/page.html" . -}}
       {{ $cat := .Params.category | default "other" }}
       <article class="news-card reveal">
         <div class="news-card-body">
           <div class="news-card-meta">
-            <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
-            {{ with .Params.date }}<span class="news-date">{{ . | time.Format "Jan 2, 2006" }}</span>{{ end }}
+            <span class="news-category news-category-{{ $cat }}">{{ index $copy.common.category_labels $cat | default $copy.common.category_labels.other }}</span>
+            {{ with .Params.date }}<span class="news-date">{{ . | time.Format $copy.common.date_card }}</span>{{ end }}
           </div>
-          <h3 class="news-card-title">{{ .Title }}</h3>
-          <p class="news-card-summary">{{ .Params.summary | default .Summary | truncate 120 }}</p>
+          <h3 class="news-card-title">{{ $page.title | default .Title }}</h3>
+          <p class="news-card-summary">{{ $page.summary | default .Params.summary | default .Summary | truncate 120 }}</p>
           <a href="{{ .RelPermalink }}" class="news-card-link">
-            Read article
+            {{ $copy.common.read_article }}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
@@ -194,7 +152,7 @@
     </div>
 
     <div class="text-center mt-48 reveal">
-      <a href="/news/" class="btn btn-secondary-light">All articles</a>
+      <a href="{{ "/news/" | relLangURL }}" class="btn btn-secondary-light">{{ $copy.common.all_articles }}</a>
     </div>
   </div>
 </section>
@@ -203,12 +161,12 @@
 <!-- ===== CTA BANNER ===== -->
 <section class="section-dark section-pad cta-banner">
   <div class="container reveal">
-    <p class="section-label">Get Started</p>
-    <h2 class="section-headline color-white mb-16">Ready to reach global markets?</h2>
-    <p class="subheadline">Tell us about your export website or localization project — we respond within one business day.</p>
+    <p class="section-label">{{ $home.cta.label }}</p>
+    <h2 class="section-headline color-white mb-16">{{ $home.cta.title }}</h2>
+    <p class="subheadline">{{ $home.cta.body }}</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.free_quote }}</a>
+      <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
 </section>

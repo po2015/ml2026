@@ -1,0 +1,6 @@
+{{- $lang := .Site.Language.Lang -}}
+{{- $copy := index .Site.Data.site_i18n $lang -}}
+{{- if not $copy -}}
+  {{- $copy = index .Site.Data.site_i18n "en" -}}
+{{- end -}}
+{{- return $copy -}}

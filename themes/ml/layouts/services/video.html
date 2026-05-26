@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{ if ne .Site.Language.Lang "en" }}
+  {{ partial "localized/service-detail.html" . }}
+{{ else }}
 
 <!-- Hero -->
 <section class="service-img-hero" style="--hero-img:url('/images/services/video-localization.jpg');">
@@ -194,4 +197,5 @@
   </div>
 </section>
 
+{{ end }}
 {{ end }}

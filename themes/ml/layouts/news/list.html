@@ -1,9 +1,12 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $news := $copy.news -}}
+
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
-    <p class="section-label">Insights &amp; News</p>
-    <h1 class="page-hero-title">Localization Industry Insights &amp; Global Web Trends</h1>
-    <p class="page-hero-subtitle">AI dubbing, multilingual DTP, e-learning localization, and export website best practices — written by the specialists who do the work.</p>
+    <p class="section-label">{{ $news.hero.label }}</p>
+    <h1 class="page-hero-title">{{ $news.hero.title }}</h1>
+    <p class="page-hero-subtitle">{{ $news.hero.subtitle }}</p>
   </div>
 </section>
 
@@ -12,32 +15,32 @@
     {{ if .Pages }}
 
     <div class="case-filter-bar">
-      <button class="case-filter-btn active" data-filter="all">All</button>
-      <button class="case-filter-btn" data-filter="tech">Tech Insights</button>
-      <button class="case-filter-btn" data-filter="industry">Industry</button>
-      <button class="case-filter-btn" data-filter="company">Company</button>
+      {{ range $idx, $filter := $news.filters }}
+      <button class="case-filter-btn{{ if eq $idx 0 }} active{{ end }}" data-filter="{{ index $filter 0 }}">{{ index $filter 1 }}</button>
+      {{ end }}
     </div>
 
     {{- $paginator := .Paginate (.Pages.ByDate.Reverse) }}
 
     <div class="news-grid" id="news-grid">
       {{ range $paginator.Pages }}
+      {{- $page := partial "i18n/page.html" . -}}
       {{ $cat := .Params.category | default "other" }}
       <article class="news-card reveal" data-category="{{ $cat }}">
         {{ with .Params.cover }}
         <div class="news-card-cover">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          <img src="{{ . }}" alt="{{ $page.title | default $.Title }}" loading="lazy">
         </div>
         {{ end }}
         <div class="news-card-body">
           <div class="news-card-meta">
-            <span class="news-category news-category-{{ $cat }}">{{ .Params.category_label | default "News" }}</span>
-            {{ with .Params.date }}<span class="news-date">{{ . | time.Format "Jan 2, 2006" }}</span>{{ end }}
+            <span class="news-category news-category-{{ $cat }}">{{ index $copy.common.category_labels $cat | default $copy.common.category_labels.other }}</span>
+            {{ with .Params.date }}<span class="news-date">{{ . | time.Format $copy.common.date_card }}</span>{{ end }}
           </div>
-          <h2 class="news-card-title">{{ .Title }}</h2>
-          <p class="news-card-summary">{{ .Params.summary | default .Summary }}</p>
+          <h2 class="news-card-title">{{ $page.title | default .Title }}</h2>
+          <p class="news-card-summary">{{ $page.summary | default .Params.summary | default .Summary }}</p>
           <a href="{{ .RelPermalink }}" class="news-card-link">
-            Read article
+            {{ $copy.common.read_article }}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
@@ -45,55 +48,44 @@
       {{ end }}
     </div>
 
-    {{/* Pagination */}}
     {{ if gt $paginator.TotalPages 1 }}
-    <nav class="pagination" aria-label="News pagination">
-
+    <nav class="pagination" aria-label="{{ $news.hero.label }}">
       {{ if $paginator.HasPrev }}
-      <a href="{{ $paginator.Prev.URL }}" class="pagination-item" aria-label="Previous page">
+      <a href="{{ $paginator.Prev.URL }}" class="pagination-item" aria-label="{{ $copy.common.pagination_prev }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        Prev
+        {{ $copy.common.pagination_prev }}
       </a>
       {{ else }}
       <span class="pagination-item disabled">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        Prev
+        {{ $copy.common.pagination_prev }}
       </span>
       {{ end }}
 
       {{ range $paginator.Pagers }}
         {{ if and (ge .PageNumber (sub $paginator.PageNumber 2)) (le .PageNumber (add $paginator.PageNumber 2)) }}
           <a href="{{ .URL }}" class="pagination-item{{ if eq .PageNumber $paginator.PageNumber }} active{{ end }}" aria-label="Page {{ .PageNumber }}">{{ .PageNumber }}</a>
-        {{ else if or (eq .PageNumber 1) (eq .PageNumber $paginator.TotalPages) }}
-          {{ if and (gt .PageNumber (add $paginator.PageNumber 2)) (not (eq .PageNumber $paginator.TotalPages)) }}
-            {{/* skip, handled by ellipsis */}}
-          {{ else if and (lt .PageNumber (sub $paginator.PageNumber 2)) (not (eq .PageNumber 1)) }}
-            {{/* skip */}}
-          {{ else }}
-            <a href="{{ .URL }}" class="pagination-item{{ if eq .PageNumber $paginator.PageNumber }} active{{ end }}">{{ .PageNumber }}</a>
-          {{ end }}
         {{ end }}
       {{ end }}
 
       {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}" class="pagination-item" aria-label="Next page">
-        Next
+      <a href="{{ $paginator.Next.URL }}" class="pagination-item" aria-label="{{ $copy.common.pagination_next }}">
+        {{ $copy.common.pagination_next }}
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </a>
       {{ else }}
       <span class="pagination-item disabled">
-        Next
+        {{ $copy.common.pagination_next }}
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </span>
       {{ end }}
-
     </nav>
     {{ end }}
 
     {{ else }}
     <div class="text-center reveal" style="padding:80px 0;">
-      <p class="section-headline color-muted mb-16">Coming Soon</p>
-      <p class="body-copy color-muted">Articles and insights will be published here soon.</p>
+      <p class="section-headline color-muted mb-16">{{ $copy.common.coming_soon }}</p>
+      <p class="body-copy color-muted">{{ $news.empty_body }}</p>
     </div>
     {{ end }}
   </div>

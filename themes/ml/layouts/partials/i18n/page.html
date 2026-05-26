@@ -1,0 +1,15 @@
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $key := "" -}}
+{{- with .File -}}
+  {{- $key = replaceRE "(\\.[a-z]{2})?\\.md$" "" .Path -}}
+  {{- $key = replaceRE "/_index$" "" $key -}}
+  {{- $key = replaceRE "^_index$" "" $key -}}
+{{- end -}}
+{{- if eq $key "" -}}
+  {{- $key = "home" -}}
+{{- end -}}
+{{- $pageCopy := index $copy.pages $key -}}
+{{- if not $pageCopy -}}
+  {{- $pageCopy = dict -}}
+{{- end -}}
+{{- return $pageCopy -}}

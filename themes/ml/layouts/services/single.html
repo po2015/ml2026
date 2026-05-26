@@ -1,9 +1,11 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $page := partial "i18n/page.html" . -}}
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
-    <p class="section-label">Services</p>
-    <h1 class="page-hero-title">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+    <p class="section-label">{{ $copy.service_detail.section_label }}</p>
+    <h1 class="page-hero-title">{{ $page.title | default .Title }}</h1>
+    {{ with ($page.subtitle | default .Params.subtitle) }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
   </div>
 </section>
 
@@ -13,7 +15,7 @@
       {{ with .Params.intro }}
       <p class="body-copy color-muted mb-32">{{ . }}</p>
       {{ end }}
-      <div class="body-copy">{{ .Content }}</div>
+      <div class="body-copy">{{ if $page.body }}{{ $page.body | markdownify }}{{ else }}{{ .Content }}{{ end }}</div>
     </div>
   </div>
 </section>
@@ -22,7 +24,7 @@
 <section class="section-white section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <h2 class="section-headline">What's included</h2>
+      <h2 class="section-headline">{{ $copy.service_detail.included }}</h2>
     </div>
     <div class="grid-3">
       {{ range . }}
@@ -38,11 +40,11 @@
 
 <section class="section-dark section-pad-sm cta-banner">
   <div class="container reveal">
-    <h2 class="section-headline color-white mb-16">Interested in this service?</h2>
-    <p class="subheadline">Get a custom quote tailored to your needs.</p>
+    <h2 class="section-headline color-white mb-16">{{ $copy.service_detail.cta_title }}</h2>
+    <p class="subheadline">{{ $copy.service_detail.cta_body }}</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Quote</a>
-      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.get_quote }}</a>
+      <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
 </section>

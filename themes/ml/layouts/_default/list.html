@@ -1,9 +1,11 @@
 {{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $page := partial "i18n/page.html" . -}}
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
     <p class="section-label">{{ .Section | upper }}</p>
-    <h1 class="page-hero-title">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+    <h1 class="page-hero-title">{{ $page.title | default .Title }}</h1>
+    {{ with ($page.subtitle | default .Params.subtitle) }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
   </div>
 </section>
 
@@ -11,10 +13,11 @@
   <div class="container">
     <div class="grid-2">
       {{ range .Pages }}
+      {{- $childPage := partial "i18n/page.html" . -}}
       <article class="card reveal">
-        <h2 class="service-card-title mb-12">{{ .Title }}</h2>
-        <p class="service-card-body">{{ .Summary }}</p>
-        <a href="{{ .RelPermalink }}" class="btn btn-secondary-light btn-sm">Learn more</a>
+        <h2 class="service-card-title mb-12">{{ $childPage.title | default .Title }}</h2>
+        <p class="service-card-body">{{ $childPage.summary | default .Summary }}</p>
+        <a href="{{ .RelPermalink }}" class="btn btn-secondary-light btn-sm">{{ $copy.common.learn_more }}</a>
       </article>
       {{ end }}
     </div>

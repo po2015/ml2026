@@ -1,0 +1,10 @@
+{{- $page := partial "i18n/page.html" . -}}
+{{- $desc := .Params.description | default .Params.summary | default .Site.Params.description -}}
+{{- with $page.description -}}
+  {{- $desc = . -}}
+{{- else -}}
+  {{- with $page.summary -}}
+    {{- $desc = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $desc -}}

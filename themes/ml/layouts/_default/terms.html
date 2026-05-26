@@ -1,13 +1,14 @@
 {{ define "main" }}
+{{- $page := partial "i18n/page.html" . -}}
 <section class="section-dark page-hero">
   <div class="page-hero-inner reveal">
-    <h1 class="page-hero-title">{{ .Title }}</h1>
+    <h1 class="page-hero-title">{{ $page.title | default .Title }}</h1>
   </div>
 </section>
 <section class="section-light section-pad">
   <div class="container">
     <div style="max-width:720px;margin:0 auto;" class="reveal body-copy">
-      {{ .Content }}
+      {{ if $page.body }}{{ $page.body | markdownify }}{{ else }}{{ .Content }}{{ end }}
     </div>
   </div>
 </section>
