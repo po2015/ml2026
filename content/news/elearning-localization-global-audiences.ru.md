@@ -3,7 +3,7 @@ title: "Локализация e-learning для международной ау
 date: 2017-11-07
 category: "industry"
 category_label: "Индустрия"
-tags: ["e-learning", "localization", "SCORM", "instructional-design", "global-training"]
+tags: ["онлайн-обучение", "локализация", "SCORM", "педагогический дизайн", "глобальное обучение"]
 cover: "/images/services/elearning.jpg"
 summary: "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
 author: "MediaLocalize Team"

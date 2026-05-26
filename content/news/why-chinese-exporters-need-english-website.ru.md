@@ -3,7 +3,7 @@ title: "Скрытая цена отсутствия англоязычного 
 date: 2026-04-05
 category: "industry"
 category_label: "Индустрия"
-tags: ["export", "B2B", "website", "Chinese-manufacturers", "international-marketing"]
+tags: ["экспорт", "B2B", "сайт", "китайские производители", "международный маркетинг"]
 cover: "/images/news/chinese-export.jpg"
 author: "MediaLocalize Team"
 summary: "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов."

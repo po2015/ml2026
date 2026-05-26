@@ -3,7 +3,7 @@ title: "Cómo crear un catálogo web que genere consultas OEM"
 date: 2021-04-13
 category: "industry"
 category_label: "Industria"
-tags: ["website-building", "OEM", "product-catalog", "B2B-website", "export"]
+tags: ["creación web", "OEM", "catálogo de productos", "web B2B", "exportación"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
 author: "MediaLocalize Team"

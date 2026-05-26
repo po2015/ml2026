@@ -4,7 +4,7 @@ date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
 category: "marketing"
 category_label: "营销增长"
-tags: ["外贸SEO", "关键词研究", "英文网站", "Google优化"]
+tags: ["外贸 SEO", "关键词研究", "英文网站", "Google 优化"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"
 summary: "制造业外贸SEO不是把中文产品名翻成英文，而是还原海外采购真正会搜索的词和问题"

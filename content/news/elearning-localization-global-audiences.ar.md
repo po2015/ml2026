@@ -3,7 +3,7 @@ title: "توطين التعليم الإلكتروني لجمهور عالمي"
 date: 2017-11-07
 category: "industry"
 category_label: "السوق"
-tags: ["e-learning", "localization", "SCORM", "instructional-design", "global-training"]
+tags: ["التعلم الإلكتروني", "التوطين", "SCORM", "التصميم التعليمي", "التدريب العالمي"]
 cover: "/images/services/elearning.jpg"
 summary: "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
 author: "MediaLocalize Team"

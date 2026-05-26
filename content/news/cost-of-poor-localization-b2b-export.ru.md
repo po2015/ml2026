@@ -3,7 +3,7 @@ title: "Реальная стоимость плохой локализации 
 date: 2019-07-09
 category: "industry"
 category_label: "Индустрия"
-tags: ["localization", "B2B", "export-marketing", "translation-quality", "ROI"]
+tags: ["локализация", "B2B", "экспортный маркетинг", "качество перевода", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски."
 author: "MediaLocalize Team"

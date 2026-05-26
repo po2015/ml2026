@@ -3,7 +3,7 @@ title: "Neural TTS وصعود الصوت بالذكاء الاصطناعي في 
 date: 2020-10-22
 category: "tech"
 category_label: "تقنية"
-tags: ["AI-dubbing", "TTS", "neural-voice", "voice-synthesis", "localization-technology"]
+tags: ["الدبلجة بالذكاء الاصطناعي", "TTS", "الصوت العصبي", "تركيب الصوت", "تقنية التوطين"]
 cover: "/images/services/dubbing.jpg"
 summary: "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض."
 author: "MediaLocalize Team"

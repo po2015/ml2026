@@ -3,7 +3,7 @@ title: "لماذا يفتح موقع التصدير ببطء للمشترين ا
 date: 2018-02-14
 category: "tech"
 category_label: "تقنية"
-tags: ["CDN", "website-performance", "global-hosting", "page-speed", "SEO"]
+tags: ["CDN", "أداء الموقع", "الاستضافة العالمية", "سرعة الصفحة", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
 author: "MediaLocalize Team"

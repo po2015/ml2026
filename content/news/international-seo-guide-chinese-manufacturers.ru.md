@@ -3,7 +3,7 @@ title: "Международное SEO для китайских произво�
 date: 2022-01-18
 category: "tech"
 category_label: "Технологии"
-tags: ["SEO", "international-SEO", "hreflang", "Google", "Chinese-manufacturers"]
+tags: ["SEO", "международное SEO", "hreflang", "Google", "китайские производители"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
 author: "MediaLocalize Team"

@@ -3,7 +3,7 @@ title: "Localización y traducción: la diferencia que cambia el resultado"
 date: 2023-08-15
 category: "industry"
 category_label: "Industria"
-tags: ["localization", "translation", "language-services", "cultural-adaptation", "global-marketing"]
+tags: ["localización", "traducción", "servicios lingüísticos", "adaptación cultural", "marketing global"]
 cover: "/images/news/localization-global.jpg"
 summary: "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
 author: "MediaLocalize Team"

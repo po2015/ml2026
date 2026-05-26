@@ -3,7 +3,7 @@ title: "كيف تختصر ذاكرة الترجمة زمن الإخراج الم
 date: 2026-03-20
 category: "tech"
 category_label: "تقنية"
-tags: ["translation-memory", "DTP", "workflow", "localization-tools", "efficiency"]
+tags: ["ذاكرة الترجمة", "DTP", "سير العمل", "أدوات التوطين", "الكفاءة"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"
 summary: "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."

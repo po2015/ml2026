@@ -3,7 +3,7 @@ title: "为什么外贸网站在海外打开很慢，以及如何解决"
 date: 2018-02-14
 category: "tech"
 category_label: "技术洞察"
-tags: ["CDN", "website-performance", "global-hosting", "page-speed", "SEO"]
+tags: ["CDN", "网站性能", "全球托管", "页面速度", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
 author: "MediaLocalize Team"

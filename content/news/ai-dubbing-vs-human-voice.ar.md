@@ -3,7 +3,7 @@ title: "دبلجة AI أم أصوات بشرية: متى تختار كل خيا�
 date: 2026-04-18
 category: "tech"
 category_label: "تقنية"
-tags: ["AI-dubbing", "voice-acting", "dubbing", "localization", "audio-production"]
+tags: ["الدبلجة بالذكاء الاصطناعي", "الأداء الصوتي", "الدبلجة", "التوطين", "إنتاج الصوت"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
 summary: "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام."

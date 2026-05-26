@@ -3,7 +3,7 @@ title: "Почему экспортный сайт медленно открыв
 date: 2018-02-14
 category: "tech"
 category_label: "Технологии"
-tags: ["CDN", "website-performance", "global-hosting", "page-speed", "SEO"]
+tags: ["CDN", "производительность сайта", "глобальный хостинг", "скорость страницы", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему."
 author: "MediaLocalize Team"

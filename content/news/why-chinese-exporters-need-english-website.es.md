@@ -3,7 +3,7 @@ title: "El coste silencioso de no tener un sitio web en inglés"
 date: 2026-04-05
 category: "industry"
 category_label: "Industria"
-tags: ["export", "B2B", "website", "Chinese-manufacturers", "international-marketing"]
+tags: ["exportación", "B2B", "sitio web", "fabricantes chinos", "marketing internacional"]
 cover: "/images/news/chinese-export.jpg"
 author: "MediaLocalize Team"
 summary: "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."

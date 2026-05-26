@@ -3,7 +3,7 @@ title: "面向全球学员的在线课程本地化"
 date: 2017-11-07
 category: "industry"
 category_label: "行业观察"
-tags: ["e-learning", "localization", "SCORM", "instructional-design", "global-training"]
+tags: ["在线学习", "本地化", "SCORM", "教学设计", "全球培训"]
 cover: "/images/services/elearning.jpg"
 summary: "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
 author: "MediaLocalize Team"

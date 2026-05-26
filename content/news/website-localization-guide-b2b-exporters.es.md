@@ -3,7 +3,7 @@ title: "Qué es la localización web y por qué importa en B2B exportador"
 date: 2014-03-11
 category: "industry"
 category_label: "Industria"
-tags: ["website-localization", "B2B", "export", "international-marketing"]
+tags: ["localización web", "B2B", "exportación", "marketing internacional"]
 cover: "/images/news/website-export.jpg"
 summary: "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
 author: "MediaLocalize Team"

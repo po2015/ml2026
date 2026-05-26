@@ -3,7 +3,7 @@ title: "Локализация и перевод: разница, от кото�
 date: 2023-08-15
 category: "industry"
 category_label: "Индустрия"
-tags: ["localization", "translation", "language-services", "cultural-adaptation", "global-marketing"]
+tags: ["локализация", "перевод", "языковые услуги", "культурная адаптация", "глобальный маркетинг"]
 cover: "/images/news/localization-global.jpg"
 summary: "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке."
 author: "MediaLocalize Team"

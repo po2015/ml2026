@@ -3,7 +3,7 @@ title: "دليل الإخراج المكتبي والطباعة متعددة ا�
 date: 2026-04-23
 category: "tech"
 category_label: "تقنية"
-tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English"]
+tags: ["DTP", "InDesign", "الطباعة", "CJK", "الصينية والإنجليزية"]
 summary: "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة."
 cover: "/images/services/dtp.jpg"
 author: "Jerry Hu"

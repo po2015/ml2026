@@ -3,7 +3,7 @@ title: "Por qué tu sitio de exportación carga lento fuera de China"
 date: 2018-02-14
 category: "tech"
 category_label: "Tecnología"
-tags: ["CDN", "website-performance", "global-hosting", "page-speed", "SEO"]
+tags: ["CDN", "rendimiento web", "hosting global", "velocidad de página", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
 author: "MediaLocalize Team"

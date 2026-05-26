@@ -3,7 +3,7 @@ title: "Neural TTS y el auge de la voz con IA en localización"
 date: 2020-10-22
 category: "tech"
 category_label: "Tecnología"
-tags: ["AI-dubbing", "TTS", "neural-voice", "voice-synthesis", "localization-technology"]
+tags: ["doblaje con IA", "TTS", "voz neuronal", "síntesis de voz", "tecnología de localización"]
 cover: "/images/services/dubbing.jpg"
 summary: "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
 author: "MediaLocalize Team"

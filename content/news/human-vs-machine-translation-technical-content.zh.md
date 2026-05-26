@@ -3,7 +3,7 @@ title: "技术内容该用人工翻译还是机器翻译"
 date: 2015-09-03
 category: "tech"
 category_label: "技术洞察"
-tags: ["machine-translation", "human-translation", "MT", "post-editing", "technical-translation"]
+tags: ["机器翻译", "人工翻译", "译后编辑", "技术翻译"]
 cover: "/images/news/mt-translation.jpg"
 summary: "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断"
 author: "MediaLocalize Team"

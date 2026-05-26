@@ -3,7 +3,7 @@ title: "神经 TTS 与 AI 语音本地化的兴起"
 date: 2020-10-22
 category: "tech"
 category_label: "技术洞察"
-tags: ["AI-dubbing", "TTS", "neural-voice", "voice-synthesis", "localization-technology"]
+tags: ["AI 配音", "TTS", "神经语音", "语音合成", "本地化技术"]
 cover: "/images/services/dubbing.jpg"
 summary: "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
 author: "MediaLocalize Team"

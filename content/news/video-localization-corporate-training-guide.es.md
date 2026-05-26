@@ -3,7 +3,7 @@ title: "Localización de video corporativo: subtítulos, doblaje y texto en pant
 date: 2016-05-17
 category: "tech"
 category_label: "Tecnología"
-tags: ["video-localization", "subtitling", "corporate-training", "dubbing", "on-screen-text"]
+tags: ["localización de video", "subtitulado", "formación corporativa", "doblaje", "texto en pantalla"]
 cover: "/images/services/video.jpg"
 summary: "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
 author: "MediaLocalize Team"

@@ -4,7 +4,7 @@ date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
 category: "localization"
 category_label: "本地化"
-tags: ["技术手册翻译", "DTP排版", "多语言说明书", "文件准备"]
+tags: ["技术手册翻译", "DTP 排版", "多语言说明书", "文件准备"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"
 summary: "说明书、安装手册和培训资料要想多语言交付顺利，关键不是翻译开始后加班，而是源文件准备得足够干净"

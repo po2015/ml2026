@@ -3,7 +3,7 @@ title: "多语言 DTP 与排版指南"
 date: 2026-04-23
 category: "tech"
 category_label: "技术洞察"
-tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English"]
+tags: ["DTP", "InDesign", "排版", "CJK", "中英"]
 summary: "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则"
 cover: "/images/services/dtp.jpg"
 author: "Jerry Hu"

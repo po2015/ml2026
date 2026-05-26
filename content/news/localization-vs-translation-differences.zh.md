@@ -3,7 +3,7 @@ title: "本地化与翻译 决定内容是否有效的差别"
 date: 2023-08-15
 category: "industry"
 category_label: "行业观察"
-tags: ["localization", "translation", "language-services", "cultural-adaptation", "global-marketing"]
+tags: ["本地化", "翻译", "语言服务", "文化适配", "全球营销"]
 cover: "/images/news/localization-global.jpg"
 summary: "翻译转换文字，本地化让内容在目标市场自然可信。对 B2B 营销来说，这个差别直接影响信任"
 author: "MediaLocalize Team"

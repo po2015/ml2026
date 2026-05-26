@@ -4,7 +4,7 @@ date: 2026-09-15T09:00:00+08:00
 publishDate: 2026-09-15T09:00:00+08:00
 category: "tech"
 category_label: "技术趋势"
-tags: ["AI配音", "培训视频本地化", "企业学习", "多语言视频"]
+tags: ["AI 配音", "培训视频本地化", "企业学习", "多语言视频"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
 summary: "AI配音适合高频更新的企业培训内容，但要想交付自然，脚本、本地化和音频QA不能省"

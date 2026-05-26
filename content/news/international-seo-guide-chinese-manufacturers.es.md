@@ -3,7 +3,7 @@ title: "SEO internacional para fabricantes chinos: guía práctica"
 date: 2022-01-18
 category: "tech"
 category_label: "Tecnología"
-tags: ["SEO", "international-SEO", "hreflang", "Google", "Chinese-manufacturers"]
+tags: ["SEO", "SEO internacional", "hreflang", "Google", "fabricantes chinos"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
 author: "MediaLocalize Team"

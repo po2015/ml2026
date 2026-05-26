@@ -3,7 +3,7 @@ title: "Многоязычная DTP-верстка и типографика"
 date: 2026-04-23
 category: "tech"
 category_label: "Технологии"
-tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English"]
+tags: ["DTP", "InDesign", "типографика", "CJK", "китайско-английский"]
 summary: "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK."
 cover: "/images/services/dtp.jpg"
 author: "Jerry Hu"

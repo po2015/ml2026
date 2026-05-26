@@ -3,7 +3,7 @@ title: "Localización de e-learning para audiencias globales"
 date: 2017-11-07
 category: "industry"
 category_label: "Industria"
-tags: ["e-learning", "localization", "SCORM", "instructional-design", "global-training"]
+tags: ["formación online", "localización", "SCORM", "diseño instruccional", "formación global"]
 cover: "/images/services/elearning.jpg"
 summary: "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
 author: "MediaLocalize Team"

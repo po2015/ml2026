@@ -3,7 +3,7 @@ title: "SEO دولي للمصنعين الصينيين: دليل عملي"
 date: 2022-01-18
 category: "tech"
 category_label: "تقنية"
-tags: ["SEO", "international-SEO", "hreflang", "Google", "Chinese-manufacturers"]
+tags: ["SEO", "SEO دولي", "hreflang", "Google", "مصنعون صينيون"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
 author: "MediaLocalize Team"

@@ -3,7 +3,7 @@ title: "Guía de DTP y tipografía multilingüe"
 date: 2026-04-23
 category: "tech"
 category_label: "Tecnología"
-tags: ["DTP", "InDesign", "Typography", "CJK", "Chinese-English"]
+tags: ["DTP", "InDesign", "tipografía", "CJK", "chino-inglés"]
 summary: "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas."
 cover: "/images/services/dtp.jpg"
 author: "Jerry Hu"

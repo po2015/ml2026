@@ -4,7 +4,7 @@ date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
 category: "marketing"
 category_label: "Маркетинг"
-tags: ["B2B SEO", "ключевые слова", "экспорт", "производство"]
+tags: ["SEO для B2B", "ключевые слова", "экспорт", "производство"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"
 summary: "SEO для экспортного сайта начинается не с перевода каталога, а с понимания того, как зарубежный покупатель формулирует запрос."

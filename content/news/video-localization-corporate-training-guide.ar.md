@@ -3,7 +3,7 @@ title: "توطين فيديو التدريب: ترجمة ودبلجة ونصوص
 date: 2016-05-17
 category: "tech"
 category_label: "تقنية"
-tags: ["video-localization", "subtitling", "corporate-training", "dubbing", "on-screen-text"]
+tags: ["توطين الفيديو", "الترجمة النصية", "تدريب الشركات", "الدبلجة", "النص على الشاشة"]
 cover: "/images/services/video.jpg"
 summary: "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة."
 author: "MediaLocalize Team"

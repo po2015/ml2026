@@ -3,7 +3,7 @@ title: "Traducción humana o automática para contenido técnico"
 date: 2015-09-03
 category: "tech"
 category_label: "Tecnología"
-tags: ["machine-translation", "human-translation", "MT", "post-editing", "technical-translation"]
+tags: ["traducción automática", "traducción humana", "MT", "posedición", "traducción técnica"]
 cover: "/images/news/mt-translation.jpg"
 summary: "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
 author: "MediaLocalize Team"

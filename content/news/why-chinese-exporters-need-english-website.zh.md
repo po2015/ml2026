@@ -3,7 +3,7 @@ title: "没有英文官网，中国出口企业每天在失去什么"
 date: 2026-04-05
 category: "industry"
 category_label: "行业观察"
-tags: ["export", "B2B", "website", "Chinese-manufacturers", "international-marketing"]
+tags: ["出口", "B2B", "网站", "中国制造企业", "国际营销"]
 cover: "/images/news/chinese-export.jpg"
 author: "MediaLocalize Team"
 summary: "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"

@@ -3,7 +3,7 @@ title: "Локализация обучающего видео: субтитры
 date: 2016-05-17
 category: "tech"
 category_label: "Технологии"
-tags: ["video-localization", "subtitling", "corporate-training", "dubbing", "on-screen-text"]
+tags: ["локализация видео", "субтитры", "корпоративное обучение", "дубляж", "экранный текст"]
 cover: "/images/services/video.jpg"
 summary: "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок."
 author: "MediaLocalize Team"

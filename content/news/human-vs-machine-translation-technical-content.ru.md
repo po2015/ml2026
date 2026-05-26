@@ -3,7 +3,7 @@ title: "Человеческий или машинный перевод техн
 date: 2015-09-03
 category: "tech"
 category_label: "Технологии"
-tags: ["machine-translation", "human-translation", "MT", "post-editing", "technical-translation"]
+tags: ["машинный перевод", "человеческий перевод", "постредактирование", "технический перевод"]
 cover: "/images/news/mt-translation.jpg"
 summary: "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы."
 author: "MediaLocalize Team"

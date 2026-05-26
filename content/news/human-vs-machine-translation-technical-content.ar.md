@@ -3,7 +3,7 @@ title: "ترجمة بشرية أم آلية للمحتوى التقني"
 date: 2015-09-03
 category: "tech"
 category_label: "تقنية"
-tags: ["machine-translation", "human-translation", "MT", "post-editing", "technical-translation"]
+tags: ["الترجمة الآلية", "الترجمة البشرية", "التحرير اللاحق", "الترجمة الفنية"]
 cover: "/images/news/mt-translation.jpg"
 summary: "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية."
 author: "MediaLocalize Team"

@@ -3,7 +3,7 @@ title: "Что такое локализация сайта и почему он
 date: 2014-03-11
 category: "industry"
 category_label: "Индустрия"
-tags: ["website-localization", "B2B", "export", "international-marketing"]
+tags: ["локализация сайта", "B2B", "экспорт", "международный маркетинг"]
 cover: "/images/news/website-export.jpg"
 summary: "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу."
 author: "MediaLocalize Team"

@@ -3,7 +3,7 @@ title: "Neural TTS и рост AI-голоса в локализации"
 date: 2020-10-22
 category: "tech"
 category_label: "Технологии"
-tags: ["AI-dubbing", "TTS", "neural-voice", "voice-synthesis", "localization-technology"]
+tags: ["AI-дубляж", "TTS", "нейронный голос", "синтез речи", "технологии локализации"]
 cover: "/images/services/dubbing.jpg"
 summary: "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций."
 author: "MediaLocalize Team"

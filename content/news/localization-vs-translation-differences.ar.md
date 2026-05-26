@@ -3,7 +3,7 @@ title: "التوطين والترجمة: الفرق الذي يغير النتي
 date: 2023-08-15
 category: "industry"
 category_label: "السوق"
-tags: ["localization", "translation", "language-services", "cultural-adaptation", "global-marketing"]
+tags: ["التوطين", "الترجمة", "خدمات اللغة", "التكييف الثقافي", "التسويق العالمي"]
 cover: "/images/news/localization-global.jpg"
 summary: "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف."
 author: "MediaLocalize Team"

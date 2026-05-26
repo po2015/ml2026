@@ -3,7 +3,7 @@ title: "AI-дубляж или дикторы: когда выбирать ка�
 date: 2026-04-18
 category: "tech"
 category_label: "Технологии"
-tags: ["AI-dubbing", "voice-acting", "dubbing", "localization", "audio-production"]
+tags: ["AI-дубляж", "дикторская озвучка", "дубляж", "локализация", "аудиопроизводство"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
 summary: "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет."

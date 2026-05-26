@@ -3,7 +3,7 @@ title: "什么是网站本地化，为什么 B2B 出口商不能忽视"
 date: 2014-03-11
 category: "industry"
 category_label: "行业观察"
-tags: ["website-localization", "B2B", "export", "international-marketing"]
+tags: ["网站本地化", "B2B", "出口", "国际营销"]
 cover: "/images/news/website-export.jpg"
 summary: "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
 author: "MediaLocalize Team"

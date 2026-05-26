@@ -3,7 +3,7 @@ title: "B2B 出口营销中低质量本地化的真实成本"
 date: 2019-07-09
 category: "industry"
 category_label: "行业观察"
-tags: ["localization", "B2B", "export-marketing", "translation-quality", "ROI"]
+tags: ["本地化", "B2B", "出口营销", "翻译质量", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
 author: "MediaLocalize Team"

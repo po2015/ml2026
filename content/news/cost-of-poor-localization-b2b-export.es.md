@@ -3,7 +3,7 @@ title: "El coste real de una mala localización en marketing B2B"
 date: 2019-07-09
 category: "industry"
 category_label: "Industria"
-tags: ["localization", "B2B", "export-marketing", "translation-quality", "ROI"]
+tags: ["localización", "B2B", "marketing de exportación", "calidad de traducción", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
 author: "MediaLocalize Team"

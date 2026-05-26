@@ -3,7 +3,7 @@ title: "Как память переводов сокращает сроки DTP
 date: 2026-03-20
 category: "tech"
 category_label: "Технологии"
-tags: ["translation-memory", "DTP", "workflow", "localization-tools", "efficiency"]
+tags: ["память переводов", "DTP", "рабочий процесс", "инструменты локализации", "эффективность"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"
 summary: "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов."

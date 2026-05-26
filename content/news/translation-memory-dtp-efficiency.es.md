@@ -3,7 +3,7 @@ title: "Cómo la memoria de traducción reduce los tiempos de DTP"
 date: 2026-03-20
 category: "tech"
 category_label: "Tecnología"
-tags: ["translation-memory", "DTP", "workflow", "localization-tools", "efficiency"]
+tags: ["memoria de traducción", "DTP", "flujo de trabajo", "herramientas de localización", "eficiencia"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"
 summary: "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados."

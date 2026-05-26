@@ -3,7 +3,7 @@ title: "Doblaje con IA o voces humanas: cuándo conviene cada opción"
 date: 2026-04-18
 category: "tech"
 category_label: "Tecnología"
-tags: ["AI-dubbing", "voice-acting", "dubbing", "localization", "audio-production"]
+tags: ["doblaje con IA", "locución humana", "doblaje", "localización", "producción de audio"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
 summary: "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."

@@ -4,7 +4,7 @@ date: 2026-09-15T09:00:00+08:00
 publishDate: 2026-09-15T09:00:00+08:00
 category: "tech"
 category_label: "Tecnología"
-tags: ["doblaje con IA", "videos de formación", "localización audiovisual", "e-learning"]
+tags: ["doblaje con IA", "videos de formación", "localización audiovisual", "formación online"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
 summary: "El doblaje con IA escala bien en formación corporativa, siempre que el guion, la pronunciación y el QA de audio estén bien controlados."

@@ -3,7 +3,7 @@ title: "企业培训视频本地化 字幕配音与屏幕文字"
 date: 2016-05-17
 category: "tech"
 category_label: "技术洞察"
-tags: ["video-localization", "subtitling", "corporate-training", "dubbing", "on-screen-text"]
+tags: ["视频本地化", "字幕", "企业培训", "配音", "屏幕文字"]
 cover: "/images/services/video.jpg"
 summary: "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工"
 author: "MediaLocalize Team"

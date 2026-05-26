@@ -3,7 +3,7 @@ title: "التكلفة الحقيقية للتوطين الضعيف في تسو�
 date: 2019-07-09
 category: "industry"
 category_label: "السوق"
-tags: ["localization", "B2B", "export-marketing", "translation-quality", "ROI"]
+tags: ["التوطين", "B2B", "تسويق التصدير", "جودة الترجمة", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
 author: "MediaLocalize Team"
