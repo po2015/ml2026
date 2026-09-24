@@ -34,6 +34,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | latin-america-spanish-variants | photo 12330524 (墨西哥瓜纳华托彩色街景) | (Pexels) |
 | b2b-homepage-first-impression | photo 196644 (网页线框草图) | (Pexels) |
 | spanish-seo-latin-america-spain | photo 15616255 (巴塞罗那圣家堂) | (Pexels) |
+| image-icon-color-localization | photo 6474454 (扇形色卡) | (Pexels) |
+| ssml-ai-voice-direction | photo 4765390 (音频波形编辑界面) | (Pexels) |
+| sdh-accessibility-subtitles | photo 36485822 (佩戴助听器的长者) | (Pexels) |
+| arabic-dtp-indesign-rtl | photo 36792023 (阿拉伯书法练习纸) | (Pexels) |
+| elearning-voiceover-narration-styles | photo 7450049 (录音棚电容麦克风) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
