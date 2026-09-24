@@ -39,6 +39,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | sdh-accessibility-subtitles | photo 36485822 (佩戴助听器的长者) | (Pexels) |
 | arabic-dtp-indesign-rtl | photo 36792023 (阿拉伯书法练习纸) | (Pexels) |
 | elearning-voiceover-narration-styles | photo 7450049 (录音棚电容麦克风) | (Pexels) |
+| southeast-asia-language-strategy | photo 18662417 (新加坡滨海湾夜景) | (Pexels) |
+| b2b-website-trust-signals | photo 8112186 (商务握手特写) | (Pexels) |
+| arabic-seo-gulf-markets | photo 1470502 (迪拜码头黄昏棕榈树) | (Pexels) |
+| date-currency-format-localization | photo 34240091 (日历钞票与收银终端) | (Pexels) |
+| voice-cloning-ethics-consent | photo 7158591 (悬臂支架上的RØDE麦克风) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
