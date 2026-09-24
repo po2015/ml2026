@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - master
+  schedule:
+    # Rebuild every 4 hours so future-dated news articles go live near their scheduled time
+    - cron: '7 */4 * * *'
   workflow_dispatch:
 
 permissions:
