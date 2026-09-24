@@ -19,6 +19,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | export-website-domain-name-guide | photo 592753 (复古世界地图) | (Pexels) |
 | hreflang-mistakes-multilingual-b2b | photo 270404 (屏幕上的 HTML 代码) | (Pexels) |
 | website-localization-workflow | photo 3184292 (团队围桌讨论图表) | (Pexels) |
+| choosing-ai-voice-brand | photo 744318 (混音台旋钮) | (Pexels) |
+| subtitle-formatting-rules | photo 257904 (剪辑软件时间线) | (Pexels) |
+| text-expansion-translation-layout | photo 1337380 (彩色字母) | (Pexels) |
+| articulate-storyline-translation-workflow | photo 4145153 (在线课程学习场景) | (Pexels) |
+| middle-east-arabic-b2b-marketing | photo 3787839 (迪拜夜景天际线) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
