@@ -44,6 +44,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | arabic-seo-gulf-markets | photo 1470502 (迪拜码头黄昏棕榈树) | (Pexels) |
 | date-currency-format-localization | photo 34240091 (日历钞票与收银终端) | (Pexels) |
 | voice-cloning-ethics-consent | photo 7158591 (悬臂支架上的RØDE麦克风) | (Pexels) |
+| youtube-multi-language-audio | photo 5077064 (笔记本屏幕上的YouTube界面) | (Pexels) |
+| infographic-chart-localization | photo 669610 (打印图表纸与笔记本) | (Pexels) |
+| elearning-localization-cost-budget | photo 5900228 (计算器钞票与收据) | (Pexels) |
+| japanese-b2b-website-trust | photo 3408347 (东京银座夜景霓虹) | (Pexels) |
+| rfq-form-design-export-websites | photo 7709283 (笔记本上填写联系表单) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
