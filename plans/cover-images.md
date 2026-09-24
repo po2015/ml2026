@@ -14,6 +14,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | what-is-mtpe-post-editing | photo 3631711 (打字机 "rewrite... edit...") | (Pexels) |
 | international-website-legal-pages | photo 5668858 | (Pexels) |
 | indesign-vs-framemaker-multilingual | photo 326501 (双屏设计工作站) | (Pexels) |
+| scorm-xapi-localization | photo 3153199 (两人对笔记本电脑学习) | (Pexels) |
+| german-market-b2b-buyer-expectations | photo 269790 (德国地图特写 Deutschland) | (Pexels) |
+| export-website-domain-name-guide | photo 592753 (复古世界地图) | (Pexels) |
+| hreflang-mistakes-multilingual-b2b | photo 270404 (屏幕上的 HTML 代码) | (Pexels) |
+| website-localization-workflow | photo 3184292 (团队围桌讨论图表) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
