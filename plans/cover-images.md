@@ -29,6 +29,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | pseudolocalization-testing-guide | photo 943096 (深色代码屏幕) | (Pexels) |
 | ai-voice-pronunciation-lexicon | photo 373945 (颈挂耳机) | (Pexels) |
 | on-screen-text-video-localization | photo 274937 (彩色场记板) | (Pexels) |
+| cjk-latin-font-pairing | photo 9016474 (毛笔书写"健康") | (Pexels) |
+| quiz-assessment-localization-pitfalls | photo 4144923 (俯拍在线学习桌面) | (Pexels) |
+| latin-america-spanish-variants | photo 12330524 (墨西哥瓜纳华托彩色街景) | (Pexels) |
+| b2b-homepage-first-impression | photo 196644 (网页线框草图) | (Pexels) |
+| spanish-seo-latin-america-spain | photo 15616255 (巴塞罗那圣家堂) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
