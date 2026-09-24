@@ -24,6 +24,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | text-expansion-translation-layout | photo 1337380 (彩色字母) | (Pexels) |
 | articulate-storyline-translation-workflow | photo 4145153 (在线课程学习场景) | (Pexels) |
 | middle-east-arabic-b2b-marketing | photo 3787839 (迪拜夜景天际线) | (Pexels) |
+| english-copywriting-manufacturer-websites | photo 1766604 (笔记本与 MacBook 书写场景) | (Pexels) |
+| multilingual-keyword-research-guide | photo 95916 (数据分析报表与键盘) | (Pexels) |
+| pseudolocalization-testing-guide | photo 943096 (深色代码屏幕) | (Pexels) |
+| ai-voice-pronunciation-lexicon | photo 373945 (颈挂耳机) | (Pexels) |
+| on-screen-text-video-localization | photo 274937 (彩色场记板) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
