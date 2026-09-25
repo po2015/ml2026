@@ -84,6 +84,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | geo-generative-engine-optimization-b2b | photo 8386437 (机器手指触碰数字网络) | (Pexels) |
 | in-context-translation-review | photo 36733314 (商务人士审阅文件) | (Pexels) |
 | remote-voiceover-recording-guide | photo 6860630 (录音棚麦克风与防喷罩) | (Pexels) |
+| batch-video-localization-course-libraries | photo 5912280 (在线课程列表与笔记本) | (Pexels) |
+| dtp-qa-prepress-checklist | photo 1440504 (印刷机机械特写) | (Pexels) |
+| ilt-to-multilingual-elearning | photo 8761328 (商务培训会议室) | (Pexels) |
+| korean-market-digital-expectations | photo 18839145 (首尔夜景天际线) | (Pexels) |
+| mobile-first-b2b-emerging-markets | photo 4559669 (商务人士使用智能手机) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
