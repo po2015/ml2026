@@ -74,6 +74,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | french-localization-variants | photo 31183882 (埃菲尔铁塔与巴黎建筑) | (Pexels) |
 | ai-chatbot-overseas-inquiries | photo 16094049 (手机上运行ChatGPT应用) | (Pexels) |
 | ai-search-supplier-recommendations | photo 8566470 (数字网络中的机器人) | (Pexels) |
+| multilingual-content-sync-maintenance | photo 8938637 (两位商务人士使用笔记本办公) | (Pexels) |
+| multilingual-ivr-voice-messages | photo 8204327 (呼叫中心客服团队) | (Pexels) |
+| cultural-adaptation-video-content | photo 6895796 (话剧排练中的演员) | (Pexels) |
+| font-licensing-multilingual-publishing | photo 4140916 (活字印刷铅字特写) | (Pexels) |
+| compliance-training-translation-accuracy | photo 8815849 (签署商务文件) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
