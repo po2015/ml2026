@@ -79,6 +79,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | cultural-adaptation-video-content | photo 6895796 (话剧排练中的演员) | (Pexels) |
 | font-licensing-multilingual-publishing | photo 4140916 (活字印刷铅字特写) | (Pexels) |
 | compliance-training-translation-accuracy | photo 8815849 (签署商务文件) | (Pexels) |
+| brazil-vs-portugal-portuguese-b2b | photo 20668258 (里约热内卢日落天际线) | (Pexels) |
+| core-web-vitals-b2b-exporters | photo 5474294 (笔记本上快速打字) | (Pexels) |
+| geo-generative-engine-optimization-b2b | photo 8386437 (机器手指触碰数字网络) | (Pexels) |
+| in-context-translation-review | photo 36733314 (商务人士审阅文件) | (Pexels) |
+| remote-voiceover-recording-guide | photo 6860630 (录音棚麦克风与防喷罩) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
