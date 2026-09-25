@@ -69,6 +69,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | linguistic-qa-website-checklist | photo 7967587 (红笔校对文稿) | (Pexels) |
 | lip-sync-vs-voiceover-formats | photo 11063289 (视频剪辑工作台与麦克风) | (Pexels) |
 | video-translation-workflow-steps | photo 39694504 (调色监视器特写) | (Pexels) |
+| technical-document-dtp-rules | photo 8327811 (技术图纸特写) | (Pexels) |
+| multilingual-lms-deployment | photo 7245808 (视频会议办公) | (Pexels) |
+| french-localization-variants | photo 31183882 (埃菲尔铁塔与巴黎建筑) | (Pexels) |
+| ai-chatbot-overseas-inquiries | photo 16094049 (手机上运行ChatGPT应用) | (Pexels) |
+| ai-search-supplier-recommendations | photo 8566470 (数字网络中的机器人) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
