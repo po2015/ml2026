@@ -1,0 +1,68 @@
+---
+title: "Structured Data for Manufacturer Websites: A Starter Kit"
+date: 2027-04-05T18:16:00+08:00
+publishDate: 2027-04-05T18:16:00+08:00
+category: "tech"
+category_label: "Tech Insights"
+tags: ["SEO", "schema markup", "structured data", "technical SEO"]
+keywords: ["schema markup", "structured data manufacturers", "product schema b2b"]
+cover: "/images/news/schema-markup-manufacturer-websites.jpg"
+author: "MediaLocalize Team"
+summary: "Google shows your competitor's product with an image, a rating, and a spec snippet — and yours as a bare blue link. The difference is rarely content; it's structured data: machine-readable labels that tell search engines and AI systems exactly what your pages describe. The manufacturer's starter kit: which schema types matter, where to put them, and how to verify they work."
+---
+
+Two valve manufacturers publish nearly identical product pages — same specs, similar depth. In Google, one appears as a rich result: product image, key specs, breadcrumbs, an FAQ block expanding below the link. The other is a plain blue title and a truncated description. Same content quality; different machine-readability. The first site labels its content with structured data (schema markup); the second leaves Google to guess. Structured data is the layer that turns your pages from prose into *facts a machine can use* — for rich results today, and increasingly for the AI answers that assemble supplier shortlists tomorrow. The good news: for a manufacturer, the useful subset is small and stable. This is the whole starter kit.
+
+## What structured data actually is
+
+Schema markup is a vocabulary (schema.org) for labeling what page content *means*: this string is a product name, this number is a specification value, this page is an FAQ. The standard implementation is **JSON-LD** — a script block in the page head, invisible to visitors, that states the facts explicitly:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PVG-32 Proportional Valve",
+  "brand": {"@type": "Brand", "name": "YourCo"},
+  "description": "Load-sensing proportional directional valve, flow to 130 l/min, pressure to 350 bar",
+  "manufacturer": {"@type": "Organization", "name": "YourCo Hydraulics"}
+}
+```
+
+No design changes, no visible content changes — you're annotating what already exists. Google (and Bing, Yandex, and AI crawlers) reads these labels directly instead of inferring them from prose.
+
+## The five types that matter for manufacturers
+
+Skip the 800-type schema.org zoo. Five cover a B2B manufacturing site:
+
+| Type | Where | What it earns |
+|---|---|---|
+| **Organization** | Site-wide (homepage) | Knowledge-panel facts: official name, logo, founding date, contact points, social profiles — the machine-readable identity AI systems resolve you by |
+| **Product** | Every product page | Eligibility for product rich results; explicit name/spec/brand facts for search and AI extraction |
+| **BreadcrumbList** | Every page | Breadcrumb trails in search results instead of raw URLs — clearer hierarchy, better CTR |
+| **FAQPage** | FAQ sections/pages | Expandable Q&A directly in the search result; question-form facts that feed [AI answer engines](/news/ai-search-supplier-recommendations/) |
+| **Article** | News/blog posts | Headline, date, author, image labels — better news-surface presentation and fresher-looking results |
+
+Two deliberate omissions: **Review/AggregateRating** (powerful, but only with genuine on-site reviews — marking up testimonials you control violates Google's guidelines and risks a manual action) and **LocalBusiness** (relevant only if buyers visit your premises; exporters with distributor networks usually skip it in favor of Organization with contact points).
+
+## The B2B Product-schema reality
+
+Consumer Product schema revolves around offers and prices. Industrial B2B rarely lists prices — and that's fine. What Google and AI systems extract from a manufacturer's Product markup:
+
+- **Identity**: name, model/MPN, brand, manufacturer — the disambiguation layer that connects your page to queries like "PVG-32 specifications."
+- **Technical substance**: description plus `additionalProperty` entries for real specs (pressure rating, flow range, materials, certifications). This is where [spec-rich product pages](/news/industrial-long-tail-keywords/) become machine-readable spec sheets.
+- **Documentation links**: datasheets, manuals, certificates as `url`/`subjectOf` references — your [translated documentation](/news/technical-document-dtp-rules/) becomes discoverable as an asset, not just a page.
+
+Rule of thumb: mark up what the page visibly says. Structured data must match visible content — hidden or contradictory markup is spam in Google's reading, and the [trust logic](/news/b2b-website-trust-signals/) that governs buyers governs algorithms too.
+
+## Implementation: the boring, correct way
+
+1. **JSON-LD in the page head**, generated by your CMS/templates — not hand-pasted per page. A Hugo/static-site template or CMS plugin can emit Organization + BreadcrumbList site-wide and Product markup from the same fields that render the visible page, so markup can never drift from content. This is also why [structured, template-driven product pages](/news/product-catalog-website-inquiry-structure/) pay double.
+2. **One source of truth per fact.** Product name, model number, and specs should exist once in your content model and render into both the page and the JSON-LD. Hand-maintained markup rots.
+3. **Per-language markup.** Your [German and Japanese pages](/news/hreflang-mistakes-multilingual-b2b/) carry their own JSON-LD in their own language, linked by the same hreflang cluster — AI engines assembling German answers read German markup.
+4. **Validate, then monitor.** Test templates with Google's Rich Results Test and the Schema.org validator before rollout; after rollout, watch Search Console's enhancement reports for errors and warnings — folded into the [monthly Search Console routine](/news/google-search-console-exporters/).
+
+## What to expect (and what not to)
+
+Honest expectations: structured data doesn't directly boost rankings — it's not a ranking factor. What it does: richer presentation in results (measurably higher CTR on the same positions), cleaner facts for AI systems to extract and cite (the [GEO playbook](/news/geo-generative-engine-optimization-b2b/) increasingly runs on structured sources), and eligibility for search features that bare pages can't reach. Typical effort for a manufacturer site: a few days of template work, then zero maintenance if the templates are right. As SEO investments go, few are this cheap and this durable.
+
+Structured data is the machine-readable twin of the content you already have — the difference between search engines *reading* your pages and *understanding* them. Our [website building team](/services/website-building/) ships manufacturer sites with the five-type schema kit built into the templates: Organization, Product, Breadcrumbs, FAQ, and Article, per language, from a single content model. [Ask us to check your current markup](/contact/) — we'll show you what Google can and can't extract from your pages today.

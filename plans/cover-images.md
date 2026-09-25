@@ -89,6 +89,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | ilt-to-multilingual-elearning | photo 8761328 (商务培训会议室) | (Pexels) |
 | korean-market-digital-expectations | photo 18839145 (首尔夜景天际线) | (Pexels) |
 | mobile-first-b2b-emerging-markets | photo 4559669 (商务人士使用智能手机) | (Pexels) |
+| schema-markup-manufacturer-websites | photo 1972464 (屏幕上的彩色代码特写) | (Pexels) |
+| terminology-management-termbase | photo 3747512 (图书馆木质书架与书籍) | (Pexels) |
+| hybrid-ai-human-voiceover-workflow | photo 306088 (录音棚调音台旋钮特写) | (Pexels) |
+| subtitle-file-formats-srt-vtt | photo 357514 (堆叠的文件夹与文档) | (Pexels) |
+| automated-multilingual-publishing-xml | photo 9550363 (工业印刷机处理纸张) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
