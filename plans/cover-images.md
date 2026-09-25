@@ -59,6 +59,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | trade-show-landing-pages-manufacturers | photo 35138560 (现代化展会大厅展位) | (Pexels) |
 | industrial-long-tail-keywords | photo 7568421 (堆叠的金属齿轮) | (Pexels) |
 | translation-proxy-vs-cms-multilingual | photo 4508751 (数据中心服务器机柜通道) | (Pexels) |
+| dubbing-audio-qa-checklist | photo 36357088 (录音棚监听耳机与麦克风) | (Pexels) |
+| ai-subtitling-accuracy-benchmarks | photo 1181662 (笔记本上的音频波形编辑软件) | (Pexels) |
+| multilingual-packaging-design-rules | photo 4440800 (贴有海关申报标签的纸箱) | (Pexels) |
+| scenario-training-cultural-localization | photo 8761327 (多元化商务培训研讨会) | (Pexels) |
+| european-language-priorities-b2b | photo 8828587 (欧洲地图上的蓝色图钉) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
