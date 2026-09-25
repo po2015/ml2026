@@ -62,8 +62,14 @@
       </span>
       {{ end }}
 
+      {{- $start := sub $paginator.PageNumber 2 -}}
+      {{- if lt $start 1 }}{{ $start = 1 }}{{ end -}}
+      {{- $end := add $start 4 -}}
+      {{- if gt $end $paginator.TotalPages }}{{ $end = $paginator.TotalPages }}{{ end -}}
+      {{- $start = sub $end 4 -}}
+      {{- if lt $start 1 }}{{ $start = 1 }}{{ end -}}
       {{ range $paginator.Pagers }}
-        {{ if and (ge .PageNumber (sub $paginator.PageNumber 2)) (le .PageNumber (add $paginator.PageNumber 2)) }}
+        {{ if and (ge .PageNumber $start) (le .PageNumber $end) }}
           <a href="{{ .URL }}" class="pagination-item{{ if eq .PageNumber $paginator.PageNumber }} active{{ end }}" aria-label="Page {{ .PageNumber }}">{{ .PageNumber }}</a>
         {{ end }}
       {{ end }}
