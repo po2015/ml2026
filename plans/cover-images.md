@@ -64,6 +64,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | multilingual-packaging-design-rules | photo 4440800 (贴有海关申报标签的纸箱) | (Pexels) |
 | scenario-training-cultural-localization | photo 8761327 (多元化商务培训研讨会) | (Pexels) |
 | european-language-priorities-b2b | photo 8828587 (欧洲地图上的蓝色图钉) | (Pexels) |
+| export-website-contact-channels | photo 8867405 (佩戴耳麦的多元化客服团队) | (Pexels) |
+| google-search-console-exporters | photo 8636589 (显示器上的数据分析仪表盘) | (Pexels) |
+| linguistic-qa-website-checklist | photo 7967587 (红笔校对文稿) | (Pexels) |
+| lip-sync-vs-voiceover-formats | photo 11063289 (视频剪辑工作台与麦克风) | (Pexels) |
+| video-translation-workflow-steps | photo 39694504 (调色监视器特写) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
