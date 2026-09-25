@@ -54,6 +54,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | dubbing-script-adaptation-timing | photo 7983364 (笔记本屏幕上的电影剧本) | (Pexels) |
 | product-demo-video-localization | photo 10809856 (索尼FX6电影机特写) | (Pexels) |
 | pdf-translation-workflow-editable | photo 8962523 (DOCUMENTS文件夹与文件) | (Pexels) |
+| elearning-ui-text-expansion | photo 36747234 (设计师在电脑上制作UI界面) | (Pexels) |
+| russian-speaking-markets-content | photo 8412311 (莫斯科城市天际线) | (Pexels) |
+| trade-show-landing-pages-manufacturers | photo 35138560 (现代化展会大厅展位) | (Pexels) |
+| industrial-long-tail-keywords | photo 7568421 (堆叠的金属齿轮) | (Pexels) |
+| translation-proxy-vs-cms-multilingual | photo 4508751 (数据中心服务器机柜通道) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
