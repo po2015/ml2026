@@ -49,6 +49,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | elearning-localization-cost-budget | photo 5900228 (计算器钞票与收据) | (Pexels) |
 | japanese-b2b-website-trust | photo 3408347 (东京银座夜景霓虹) | (Pexels) |
 | rfq-form-design-export-websites | photo 7709283 (笔记本上填写联系表单) | (Pexels) |
+| russian-seo-yandex-exporters | photo 27136158 (莫斯科斯大林式建筑) | (Pexels) |
+| rtl-website-design-arabic | photo 29486694 (纸上阿拉伯书法特写) | (Pexels) |
+| dubbing-script-adaptation-timing | photo 7983364 (笔记本屏幕上的电影剧本) | (Pexels) |
+| product-demo-video-localization | photo 10809856 (索尼FX6电影机特写) | (Pexels) |
+| pdf-translation-workflow-editable | photo 8962523 (DOCUMENTS文件夹与文件) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
