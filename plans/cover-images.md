@@ -109,6 +109,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | alibaba-to-owned-website-migration | photo 5025503 (仓库中堆叠的纸箱) | (Pexels) |
 | google-business-profile-exporters | photo 5137965 (地图上的彩色定位图钉) | (Pexels) |
 | free-translation-plugin-risks | photo 4124718 (黄色背景上的拼图块) | (Pexels) |
+| dubbing-rework-cost-guide | photo 31282837 (黑暗中亮起的红色 ON AIR 录音指示灯) | (Pexels) |
+| industrial-product-photography-guide | photo 1391786 (摄影棚柔光箱产品拍摄现场) | (Pexels) |
+| seo-roi-b2b-export | photo 590011 (手指指向桌面业务增长图表) | (Pexels) |
+| b2b-service-pages-seo | photo 196645 (手绘网页线框图特写) | (Pexels) |
+| new-export-website-seo-90-days | photo 6804093 (黑板墙上的英文看板任务便签) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
