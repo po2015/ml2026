@@ -60,6 +60,18 @@ Hugo 默认**不渲染未来日期的文章**，而 GitHub Pages 只在 push 时
 
 （C+/B+/A+ = 对应集群的计划外补充选题，未占用 106 篇正排表。）
 
+## 5.6 扩展批次（2026-09-26 补排，106 篇正排表完成后续排）
+
+106 篇正排表于批次 22（#102–106）完成。以下按原节奏（周一/周二/周三）续排扩展选题，集群字母含义不变，优先补足近期批次较少的 D/E/G/H 集群。
+
+| 发布时间 (UTC+8) | 集群 | 标题 | Slug | 主关键词 | Pexels 搜索词 |
+|---|---|---|---|---|---|
+| 06-01 周二 10:42 | B | Redesigning Your Export Website Without Losing Rankings | `website-redesign-seo-migration` | website redesign seo | website wireframe sketch |
+| 06-02 周三 15:18 | D | How to Evaluate AI Dubbing Quality Before You Buy | `ai-dubbing-quality-evaluation` | ai dubbing quality | headphones audio studio |
+| 06-07 周一 09:36 | E | One Webinar, Five Markets: Localizing Recordings and Replays | `webinar-localization-replay-strategy` | webinar localization | laptop video conference |
+| 06-08 周二 20:07 | G | Microlearning Goes Multilingual: Localizing Short-Form Training | `elearning-microlearning-localization` | microlearning localization | smartphone learning app |
+| 06-09 周三 14:51 | H | Selling to the Nordics: What B2B Buyers Expect From Your Website | `nordic-b2b-buyer-expectations` | nordic b2b market | scandinavian harbor city |
+
 ## 6. 发布时间表
 
 ### 2026 年 9 月（3 篇）

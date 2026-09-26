@@ -114,6 +114,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | seo-roi-b2b-export | photo 590011 (手指指向桌面业务增长图表) | (Pexels) |
 | b2b-service-pages-seo | photo 196645 (手绘网页线框图特写) | (Pexels) |
 | new-export-website-seo-90-days | photo 6804093 (黑板墙上的英文看板任务便签) | (Pexels) |
+| website-redesign-seo-migration | photo 4974907 (多屏工作站前的开发者背影) | (Pexels) |
+| ai-dubbing-quality-evaluation | photo 735911 (蓝红灯光下手调音频混音台) | (Pexels) |
+| webinar-localization-replay-strategy | photo 3885744 (戴耳机看笔记本电脑的女士) | (Pexels) |
+| elearning-microlearning-localization | photo 887751 (手持智能手机、背景是笔记本) | (Pexels) |
+| nordic-b2b-buyer-expectations | photo 26711808 (游船穿行挪威峡湾) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
