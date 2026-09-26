@@ -99,6 +99,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | content-hub-seo-architecture | photo 1181343 (白板上的结构流程图) | (Pexels) |
 | translation-style-guide-brand-voice | photo 7598007 (品牌策略文件与色卡平铺) | (Pexels) |
 | audio-loudness-standards-international | photo 7087611 (调音台 VU 表特写) | (Pexels) |
+| marketing-video-localization-ads | photo 3062541 (摄制组操作 RED 摄影机) | (Pexels) |
+| powerpoint-localization-30-languages | photo 9034728 (商务人士演示信息图表) | (Pexels) |
+| emerging-market-language-roi | photo 34009126 (越南岘港韩市场内景) | (Pexels) |
+| website-maintenance-plan-exporters | photo 38264265 (工作台前的维修技师) | (Pexels) |
+| b2b-backlink-building-exporters | photo 35740122 (金色链条连接特写) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
