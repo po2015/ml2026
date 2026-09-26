@@ -16,7 +16,7 @@ Un comprador descarga una ficha técnica del sitio web de un exportador, la inco
 ## El inventario de mantenimiento: cinco capas
 
 **1. Exactitud del contenido** — la capa que los compradores realmente ven:
-- Datos de producto: modelos actuales, especificaciones, precios/MOQs, disponibilidad; productos descontinuados eliminados o redirigidos (nunca un 404 silencioso — según la [disciplina de redirecciones](/es/news/website-redesign-seo-preservation/))
+- Datos de producto: modelos actuales, especificaciones, precios/MOQs, disponibilidad; productos descontinuados eliminados o redirigidos (nunca un 404 silencioso — según la disciplina de redirecciones)
 - Certificaciones y documentos de cumplimiento: versiones vigentes, fechas válidas
 - Datos de la empresa: direcciones, teléfonos, referencias de personal, listas de distribuidores
 - Afirmaciones con fecha: "20 años de experiencia" (que se autoincremente o elimínela), productos "nuevos" de 2024

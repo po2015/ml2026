@@ -104,6 +104,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | emerging-market-language-roi | photo 34009126 (越南岘港韩市场内景) | (Pexels) |
 | website-maintenance-plan-exporters | photo 38264265 (工作台前的维修技师) | (Pexels) |
 | b2b-backlink-building-exporters | photo 35740122 (金色链条连接特写) | (Pexels) |
+| multilingual-content-version-control | photo 577585 (眼镜反射多块屏幕) | (Pexels) |
+| casting-voice-actors-multilingual | photo 4988132 (录音棚电容麦克风与防喷罩) | (Pexels) |
+| alibaba-to-owned-website-migration | photo 5025503 (仓库中堆叠的纸箱) | (Pexels) |
+| google-business-profile-exporters | photo 5137965 (地图上的彩色定位图钉) | (Pexels) |
+| free-translation-plugin-risks | photo 4124718 (黄色背景上的拼图块) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 

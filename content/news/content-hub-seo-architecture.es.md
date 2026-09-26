@@ -17,7 +17,7 @@ El marketing de contenidos de un fabricante se ve ocupado: tres años de publica
 
 - **Dilución de la autoridad.** 80 publicaciones sobre temas relacionados ganan cada una un goteo de enlaces y señales; ninguna acumula lo suficiente para posicionar por los términos principales valiosos. El PageRank entra por lo que sea que haya sido enlazado y muere ahí.
 - **Canibalización de palabras clave.** Cinco publicaciones rozan "selección de válvulas" tangencialmente; Google no puede elegir una y no posiciona ninguna — el mismo fallo que las [páginas multilingües duplicadas](/es/news/hreflang-mistakes-multilingual-b2b/) pero dentro de un solo idioma.
-- **Deterioro por sepultamiento.** La publicación n.º 3 de hace tres años podría ser su mejor contenido, pero está enterrada a 8 páginas de paginación de profundidad — las páginas huérfanas son un [defecto de SEO técnico](/es/news/technical-seo-checklist-exporters/) clásico, invisibles para rastreadores y usuarios por igual.
+- **Deterioro por sepultamiento.** La publicación n.º 3 de hace tres años podría ser su mejor contenido, pero está enterrada a 8 páginas de paginación de profundidad — las páginas huérfanas son un [defecto de SEO técnico](/es/news/international-seo-guide-chinese-manufacturers/) clásico, invisibles para rastreadores y usuarios por igual.
 - **Sin mapa temático.** Google evalúa cada vez más la *autoridad temática* — ¿cubre este sitio su dominio de forma integral? Un flujo plano de publicaciones no demuestra cobertura; un centro estructurado sí. El mismo mapa alimenta los [motores de respuestas de IA](/es/news/geo-generative-engine-optimization-b2b/), que favorecen las fuentes claramente estructuradas.
 
 ## El modelo de centro, en concreto
@@ -43,9 +43,9 @@ El consejo genérico dice "elija temas con volumen de búsqueda". Los exportador
 
 1. **Inventario y agrupación.** Liste todas las publicaciones, agrúpelas por tema. La mayoría de los blogs encuentran 3–6 centros naturales y una larga cola de huérfanas.
 2. **Elija candidatos a pilar.** Para cada clúster, o bien una publicación fuerte existente se expande hasta convertirse en el pilar, o se escribe un pilar nuevo que resume y enlaza el clúster.
-3. **Consolide los caníbales.** Fusione las publicaciones delgadas que se solapan (redirecciones 301 de las perdedoras), preservando enlaces y posicionamientos — siga la [disciplina de redirecciones](/es/news/website-redesign-seo-preservation/) cuando cambien las URLs.
+3. **Consolide los caníbales.** Fusione las publicaciones delgadas que se solapan (redirecciones 301 de las perdedoras), preservando enlaces y posicionamientos — siga la disciplina de redirecciones cuando cambien las URLs.
 4. **Recablee los enlaces internos.** Cada artículo de apoyo enlaza a su pilar con anclas descriptivas; el pilar enlaza a todos los de apoyo; construya las páginas índice del centro.
-5. **Siga publicando — dentro de los centros.** El contenido nuevo se inserta en un centro como artículo de apoyo y enlaza hacia arriba desde el primer día. El [calendario de contenido](/es/news/b2b-content-marketing-calendar-exporters/) se convierte en un ejercicio de llenar centros en lugar de una ruleta de temas.
+5. **Siga publicando — dentro de los centros.** El contenido nuevo se inserta en un centro como artículo de apoyo y enlaza hacia arriba desde el primer día. El calendario de contenido se convierte en un ejercicio de llenar centros en lugar de una ruleta de temas.
 6. **Mida a nivel de centro.** Siga los posicionamientos del término principal del pilar y el tráfico colectivo de cola larga del clúster en [Search Console](/es/news/google-search-console-exporters/) — espere que la cola larga se mueva primero, los términos principales en 3–6 meses.
 
 ## Cuándo un blog simple es suficiente

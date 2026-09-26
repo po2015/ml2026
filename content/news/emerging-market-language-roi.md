@@ -29,7 +29,7 @@ Emerging-language localization is **cheaper to build and cheaper to maintain** t
 - The site architecture is already paid for — adding language #4 or #5 to an existing [multilingual site](/news/how-many-languages-export-website/) is incremental: translation + review + deployment, not a rebuild.
 - The maintenance burden (the real long-term cost, per the [sync discipline](/news/multilingual-content-sync-maintenance/)) scales with update frequency, not language prestige; a Vietnamese version of a stable catalog costs little to keep current.
 
-The honest costs sit elsewhere: **finding quality reviewers** (you likely have no Vietnamese-speaking staff — your distributor becomes essential, as in the [in-context review model](/news/in-context-translation-review/)), **script and font handling** (Vietnamese Latin script with dense diacritics, Thai's no-space script with its own line-breaking rules — test rendering everywhere, per [multilingual DTP practice](/news/dtp-text-expansion-multilingual-layout/)), and **channel coverage** (these markets run on Zalo/LINE/WhatsApp respectively — your [contact architecture](/news/export-website-contact-channels/) should meet them there).
+The honest costs sit elsewhere: **finding quality reviewers** (you likely have no Vietnamese-speaking staff — your distributor becomes essential, as in the [in-context review model](/news/in-context-translation-review/)), **script and font handling** (Vietnamese Latin script with dense diacritics, Thai's no-space script with its own line-breaking rules — test rendering everywhere, per [multilingual DTP practice](/news/text-expansion-translation-layout/)), and **channel coverage** (these markets run on Zalo/LINE/WhatsApp respectively — your [contact architecture](/news/export-website-contact-channels/) should meet them there).
 
 ## The evaluation framework: when to place the bet
 
@@ -48,7 +48,7 @@ The decision rule: an emerging language beats a prestige language when existing 
 
 1. **Stage 1 — landing presence** (~10 pages): homepage, top 3–5 products, company/profile, contact — enough to rank and convert, small enough to be excellent. Native review by the distributor's team.
 2. **Stage 2 — measure for 2 quarters**: local-language organic traffic, inquiry volume and quality from the market, distributor feedback on usability of materials.
-3. **Stage 3 — expand or hold**: full catalog + [content marketing](/news/b2b-content-marketing-calendar-exporters/) if the funnel proves out; keep the landing tier maintained if it's a slow burn; the architecture supports either.
+3. **Stage 3 — expand or hold**: full catalog + content marketing if the funnel proves out; keep the landing tier maintained if it's a slow burn; the architecture supports either.
 
 One more consideration: **these languages compound regionally.** A Vietnamese site supports the Vietnamese-speaking diaspora business networks; Bahasa Indonesia gives you a head start on Malay (Malaysia) with modest adaptation; Thai unlocks a market notoriously loyal to suppliers who bothered. First-mover advantage in a language is durable — rankings, distributor mindshare, and the reputation of "the supplier who speaks our language" persist for years.
 

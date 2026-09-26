@@ -15,7 +15,7 @@ Two industrial suppliers publish similar sites: comparable products, similar con
 
 ## Why links still decide B2B rankings
 
-Content and [technical SEO](/news/technical-seo-checklist-exporters/) get you eligible; links establish *authority* — Google's answer to "of the 200 adequate pages for this query, which ten deserve page one?" Three properties make B2B links special:
+Content and [technical SEO](/news/international-seo-guide-chinese-manufacturers/) get you eligible; links establish *authority* — Google's answer to "of the 200 adequate pages for this query, which ten deserve page one?" Three properties make B2B links special:
 
 - **Relevance outweighs volume.** Ten links from industry directories, associations, and trade press in your niche beat a hundred random blog comments. Google's topical understanding means a valve-industry link counts most for valve queries.
 - **B2B link sources are enumerable.** Every industry has a finite map: directories, associations, fairs, standards bodies, trade publications, distributors, customers. You can literally list your link universe on one page — consumer marketers can't.
@@ -45,7 +45,7 @@ Realistic yield: 20–50 relevant links over a quarter of systematic work. This 
 The links that move rankings most are editorial — someone chose to cite you:
 
 1. **Trade press**: industry magazines and their websites need content constantly. Pitch application stories, technical explainers from your engineers, market commentary — with your name and link attached. One placement in a real trade publication outweighs twenty directory links.
-2. **Citable assets**: original data and reference material earn links passively for years: an industry survey ("2027 State of Industrial Sourcing"), a genuinely useful [engineering calculator or reference table](/news/b2b-content-marketing-calendar-exporters/), a definitive guide that becomes the link target for its topic. This is content marketing done for links as much as for readers.
+2. **Citable assets**: original data and reference material earn links passively for years: an industry survey ("2027 State of Industrial Sourcing"), a genuinely useful engineering calculator or reference table, a definitive guide that becomes the link target for its topic. This is content marketing done for links as much as for readers.
 3. **Expert participation**: quotes in industry articles, podcast guesting, conference talks (event pages link to speakers), standards-committee participation — authority visible online converts to links.
 4. **Distributor/partner co-marketing**: joint case studies published on *their* domains, linking back — content you'd create anyway, hosted where it earns you a link.
 
@@ -55,6 +55,6 @@ Bluntly, because the offers arrive by email weekly: **don't buy links** from lin
 
 ## The operating rhythm
 
-Link building works as a quarterly habit, not a campaign: maintain the listings (quarterly check that profiles are complete and links live), pitch one trade-press piece per quarter, publish one citable asset per half, ask every new partner for a link as part of onboarding. Track referring domains in [Search Console](/news/google-search-console-exporters/) or an SEO tool; expect authority to compound over 6–12 months, with rankings following the link curve on a delay. It pairs naturally with everything else: the [content calendar](/news/b2b-content-marketing-calendar-exporters/) produces the citable assets, the PR produces the editorial links, the directories provide the floor.
+Link building works as a quarterly habit, not a campaign: maintain the listings (quarterly check that profiles are complete and links live), pitch one trade-press piece per quarter, publish one citable asset per half, ask every new partner for a link as part of onboarding. Track referring domains in [Search Console](/news/google-search-console-exporters/) or an SEO tool; expect authority to compound over 6–12 months, with rankings following the link curve on a delay. It pairs naturally with everything else: the content calendar produces the citable assets, the PR produces the editorial links, the directories provide the floor.
 
 Backlinks are the compounding asset most exporters leave unbuilt — boring to earn, brutal to compete against once a rival has them. Our [website building team](/services/website-building/) runs link-building programs for exporter sites: directory and association coverage, trade-press PR, and the citable content that earns editorial links. [Send us your domain](/contact/) and we'll show you your link gap against the competitors who outrank you.

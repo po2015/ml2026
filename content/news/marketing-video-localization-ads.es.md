@@ -19,15 +19,15 @@ La diferencia frente a la [localización de demos de producto](/es/news/product-
 
 - **El activo es la emoción, no la información.** Un tutorial tiene éxito cuando el espectador aprende; un anuncio tiene éxito cuando el espectador *siente* y recuerda. La información sobrevive a los subtítulos; el sentimiento, a menudo, no.
 - **Cada elemento es intencional.** En una película de marca, el casting, las locaciones, el género musical, el ritmo, la etalonaje y el humor son decisiones de persuasión — cada una culturalmente legible para la audiencia local, cada una potencialmente extraña o plana en el extranjero.
-- **El eslogan es el producto.** Treinta segundos existen para entregar una sola línea; si la línea no aterriza, nada más importa. Los eslóganes son territorio de la [transcreación](/es/news/transcreation-vs-translation-marketing/) — recreados para un impacto equivalente, nunca traducidos literalmente.
+- **El eslogan es el producto.** Treinta segundos existen para entregar una sola línea; si la línea no aterriza, nada más importa. Los eslóganes son territorio de la [transcreación](/es/news/localization-vs-translation-differences/) — recreados para un impacto equivalente, nunca traducidos literalmente.
 - **El contexto de distribución es distinto.** Los anuncios se reproducen como interrupciones (pre-roll saltable, pantallas de feria, feeds sociales) donde los primeros 3 segundos lo deciden todo; un ritmo que funciona en un anuncio de cine muere en un feed.
 
 ## El espectro de localización: cuatro niveles de intervención
 
 | Nivel | Qué se hace | Cuándo es apropiado |
 |---|---|---|
-| **1. Subtítulos** | Traducir el texto en pantalla, añadir [subtítulos de calidad](/es/news/subtitle-translation-best-practices/) | Comunicación interna, mercados de baja prioridad, pruebas de demanda antes de invertir |
-| **2. Sustitución de voz** | Nueva [voz en off o doblaje](/es/news/voiceover-vs-dubbing-vs-subtitles/) con talento de voz del mercado, guion adaptado, resincronizado a la imagen | Películas de marca donde la narración carga la emoción; el estándar para mercados serios |
+| **1. Subtítulos** | Traducir el texto en pantalla, añadir [subtítulos de calidad](/es/news/subtitle-formatting-rules/) | Comunicación interna, mercados de baja prioridad, pruebas de demanda antes de invertir |
+| **2. Sustitución de voz** | Nueva [voz en off o doblaje](/es/news/subtitles-vs-dubbing-by-market/) con talento de voz del mercado, guion adaptado, resincronizado a la imagen | Películas de marca donde la narración carga la emoción; el estándar para mercados serios |
 | **3. Regrabación parcial / re-edición** | Cambiar escenas específicas de una cultura, recortar el ritmo, reemplazar los rótulos gráficos en pantalla, regrabar o recomponer la música | Anuncios con humor, casting centrado en personas o referencias locales; campañas insignia |
 | **4. Original local** | Nuevo concepto creado en el mercado bajo la plataforma global de marca | Mercados de primer nivel con presupuesto; lo que las marcas globales hacen para sus mercados A |
 
@@ -35,7 +35,7 @@ La regla pragmática: **el nivel según el valor del mercado × la densidad de p
 
 ## Los elementos que deben recrearse, no traducirse
 
-**El guion se adapta y luego se readapta a la imagen.** Los guiones de marketing están comprimidos — cada palabra se gana su lugar. El guion localizado debe caber en el mismo tiempo (la voz en off no puede pasarse 15 segundos de la imagen), preservar los golpes emocionales en los mismos instantes y hacer aterrizar el eslogan. Escriba para el oído en el idioma de destino con redactores nativos, y luego recorte hasta sincronizar — la [disciplina de preparación de guiones](/es/news/voiceover-script-preparation/), con licencia de redactor para reescribir.
+**El guion se adapta y luego se readapta a la imagen.** Los guiones de marketing están comprimidos — cada palabra se gana su lugar. El guion localizado debe caber en el mismo tiempo (la voz en off no puede pasarse 15 segundos de la imagen), preservar los golpes emocionales en los mismos instantes y hacer aterrizar el eslogan. Escriba para el oído en el idioma de destino con redactores nativos, y luego recorte hasta sincronizar — la [disciplina de preparación de guiones](/es/news/dubbing-script-adaptation-timing/), con licencia de redactor para reescribir.
 
 **El casting de voz es casting de marca.** El fundador de barítono cálido en inglés podría corresponder a una edad, género o timbre distintos para una autoridad equivalente en el mercado. Elija la voz por el *papel que desempeña*, no por similitud vocal; y según el [análisis de IA frente a voz humana](/es/news/ai-dubbing-vs-human-voice/), las piezas de marca críticas para la persuasión siguen siendo territorio de la voz humana.
 

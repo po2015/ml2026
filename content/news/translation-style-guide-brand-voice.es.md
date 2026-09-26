@@ -33,7 +33,7 @@ La prueba de la guía: un traductor que nunca ha trabajado para usted debería p
 
 1. **Convierte la calidad de suerte en proceso.** Sin una guía, la consistencia de la voz depende de tener el mismo traductor para siempre — frágil. Con una, cualquier lingüista calificado aterriza cerca del objetivo en la primera pasada, que es exactamente lo que exige [escalar la traducción entre proveedores](/es/news/localization-vendor-brief-template/).
 2. **Los ciclos de revisión se acortan.** Los revisores dejan de reescribir el tono (la retroalimentación más subjetiva y lenta) y en su lugar verifican contra reglas escritas. Las disputas se convierten en "la guía dice trato directo; este párrafo es pasivo" — resolubles en minutos.
-3. **Protege la marca donde más importa.** El texto de persuasión — página de inicio, páginas de producto, [videos de marca](/es/news/brand-video-multilingual-adaptation/) — vive o muere por la voz. Una traducción técnicamente perfecta en el registro equivocado es una máquina de dilución de marca operando en 5 idiomas.
+3. **Protege la marca donde más importa.** El texto de persuasión — página de inicio, páginas de producto, [videos de marca](/es/news/cultural-adaptation-video-content/) — vive o muere por la voz. Una traducción técnicamente perfecta en el registro equivocado es una máquina de dilución de marca operando en 5 idiomas.
 4. **Los idiomas nuevos empiezan fieles a la marca desde el primer día.** Lanzar el mercado n.º 6 ya no significa redescubrir su voz; el marco de la guía (segura, directa, técnica pero legible) más las decisiones por idioma se añaden como una sección nueva.
 
 ## Cómo construirla: el camino pragmático
@@ -44,7 +44,7 @@ La prueba de la guía: un traductor que nunca ha trabajado para usted debería p
 
 **3. Escriba pares de sí/no, no ensayos.** "Diga: 'Instale la válvula en menos de diez minutos.' No diga: 'La instalación de la válvula puede llevarse a cabo dentro de un plazo de aproximadamente diez minutos.'" Diez pares concretos enseñan más que tres páginas de adjetivos.
 
-**4. Cubra la mecánica explícitamente.** Números, fechas, unidades y mayúsculas causan las inconsistencias más visibles y son las más fáciles de corregir por regla. Incluya cómo manejar las restricciones de [expansión de texto](/es/news/dtp-text-expansion-multilingual-layout/) en la interfaz y el texto de marketing ("Botones de CTA: máx. 20 caracteres en DE").
+**4. Cubra la mecánica explícitamente.** Números, fechas, unidades y mayúsculas causan las inconsistencias más visibles y son las más fáciles de corregir por regla. Incluya cómo manejar las restricciones de [expansión de texto](/es/news/text-expansion-translation-layout/) en la interfaz y el texto de marketing ("Botones de CTA: máx. 20 caracteres en DE").
 
 **5. Gobierne la guía junto con la base de términos.** Un propietario, control de versiones, distribuida con cada brief de proyecto, actualizada a partir de la retroalimentación de las revisiones. La guía de estilo y la base de términos son hermanas — voz y vocabulario — y deberían vivir, versionarse y distribuirse juntas.
 

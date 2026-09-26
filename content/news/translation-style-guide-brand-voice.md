@@ -33,7 +33,7 @@ The guide's test: a translator who has never worked for you should produce on-br
 
 1. **It converts quality from luck into process.** Without a guide, voice consistency depends on getting the same translator forever — fragile. With one, any qualified linguist lands near the target on the first pass, which is exactly what [scaling translation across vendors](/news/localization-vendor-brief-template/) requires.
 2. **Review cycles shorten.** Reviewers stop rewriting tone (the most subjective, time-consuming feedback) and check against written rules instead. Disputes become "the guide says direct address; this paragraph is passive" — resolvable in minutes.
-3. **It protects the brand where it matters most.** Persuasion copy — homepage, product pages, [brand films](/news/brand-video-multilingual-adaptation/) — lives or dies on voice. A technically perfect translation in the wrong register is a brand dilution machine running in 5 languages.
+3. **It protects the brand where it matters most.** Persuasion copy — homepage, product pages, [brand films](/news/cultural-adaptation-video-content/) — lives or dies on voice. A technically perfect translation in the wrong register is a brand dilution machine running in 5 languages.
 4. **New languages start on-brand from day one.** Launching market #6 no longer means rediscovering your voice; the guide's framework (confident, direct, technical-but-readable) plus per-language decisions gets added as a new section.
 
 ## Building it: the pragmatic path
@@ -44,7 +44,7 @@ The guide's test: a translator who has never worked for you should produce on-br
 
 **3. Write do/don't pairs, not essays.** "Say: 'Install the valve in under ten minutes.' Don't say: 'The installation of the valve can be accomplished within a timeframe of approximately ten minutes.'" Ten concrete pairs teach more than three pages of adjectives.
 
-**4. Cover the mechanics explicitly.** Numbers, dates, units, and capitalization cause the most visible inconsistencies and are the easiest to fix by rule. Include how to handle [text expansion](/news/dtp-text-expansion-multilingual-layout/) constraints in UI and marketing copy ("CTA buttons: max 20 characters in DE").
+**4. Cover the mechanics explicitly.** Numbers, dates, units, and capitalization cause the most visible inconsistencies and are the easiest to fix by rule. Include how to handle [text expansion](/news/text-expansion-translation-layout/) constraints in UI and marketing copy ("CTA buttons: max 20 characters in DE").
 
 **5. Govern it with the termbase.** One owner, version-controlled, distributed with every project brief, updated from review feedback. The style guide and termbase are siblings — voice and vocabulary — and should live, version, and ship together.
 

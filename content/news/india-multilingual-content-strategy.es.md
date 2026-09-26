@@ -41,11 +41,11 @@ El patrón: **cuanto más cerca está el contenido de la cúspide de la transacc
 
 **Etapa 3 — Idiomas regionales según la huella.** Añada idiomas donde su canal realmente opera: tamil para el cinturón manufacturero del sur, bengalí para el este, maratí para las regiones industriales de Maharashtra, guyaratí para sus redes comerciales. Deje que la geografía de los distribuidores dicte el orden — sus socios de canal le dirán exactamente qué idioma desbloquea qué territorio, y sus ingenieros de ventas son sus mejores [revisores en contexto](/es/news/in-context-translation-review/).
 
-**Etapa 4 — La capa de video y voz.** El consumo de contenido en India se inclina fuertemente hacia el video y la voz (YouTube y WhatsApp son los verdaderos canales de distribución). [Subtítulos en idiomas regionales](/es/news/subtitle-translation-best-practices/) en cada video de producto, voz en off en hindi en los emblemáticos, formatos compartibles por WhatsApp — ahí es donde el contenido localizado realmente circula.
+**Etapa 4 — La capa de video y voz.** El consumo de contenido en India se inclina fuertemente hacia el video y la voz (YouTube y WhatsApp son los verdaderos canales de distribución). [Subtítulos en idiomas regionales](/es/news/subtitle-formatting-rules/) en cada video de producto, voz en off en hindi en los emblemáticos, formatos compartibles por WhatsApp — ahí es donde el contenido localizado realmente circula.
 
 ## Las precauciones prácticas
 
-- **Las escrituras índicas necesitan tipografía real.** Las escrituras devanagari, tamil y bengalí necesitan pilas de fuentes adecuadas y un [manejo de DTP](/es/news/dtp-text-expansion-multilingual-layout/) correcto — los PDFs que muestran cuadros en lugar de conjunciones son peores que el inglés.
+- **Las escrituras índicas necesitan tipografía real.** Las escrituras devanagari, tamil y bengalí necesitan pilas de fuentes adecuadas y un [manejo de DTP](/es/news/text-expansion-translation-layout/) correcto — los PDFs que muestran cuadros en lugar de conjunciones son peores que el inglés.
 - **No traduzca automáticamente la capa de persuasión.** Los compradores indios que leen idiomas regionales detectan la traducción automática al instante; use redactores nativos para las páginas orientadas al cliente, exactamente el estándar que aplicaría en [Corea](/es/news/korean-market-digital-expectations/) o [Japón](/es/news/japanese-b2b-website-trust/).
 - **Una India, muchas sensibilidades de precio.** El contenido que reconoce la estructura del mercado — concesionarios, ciudades de nivel 2 y 3, cultura de negociación — supera al texto global traducido.
 

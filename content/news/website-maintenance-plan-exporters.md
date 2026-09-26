@@ -16,7 +16,7 @@ A buyer downloads a datasheet from an exporter's website, specs it into a projec
 ## The maintenance inventory: five layers
 
 **1. Content accuracy** — the layer buyers actually see:
-- Product data: current models, specs, prices/MOQs, availability; discontinued products removed or redirected (never 404'd silently — per [redirect discipline](/news/website-redesign-seo-preservation/))
+- Product data: current models, specs, prices/MOQs, availability; discontinued products removed or redirected (never 404'd silently — redirect permanently and keep the redirect)
 - Certifications and compliance documents: current versions, valid dates
 - Company facts: addresses, phone numbers, staff references, distributor lists
 - Dated claims: "20 years of experience" (auto-increment or remove), "new" products from 2024

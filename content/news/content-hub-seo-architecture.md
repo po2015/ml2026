@@ -17,7 +17,7 @@ A manufacturer's content marketing looks busy: three years of blog posts — 80 
 
 - **Authority dilution.** 80 posts on related topics each earn a trickle of links and signals; none accumulates enough to rank for the valuable head terms. PageRank flows in through whatever got linked and dies there.
 - **Keyword cannibalization.** Five posts each touch "valve selection" tangentially; Google can't pick one and ranks none — the same failure as [duplicate multilingual pages](/news/hreflang-mistakes-multilingual-b2b/) but within one language.
-- **Decay by burial.** Post #3 from three years ago might be your best content, but it sits 8 pagination pages deep — orphaned pages are a classic [technical SEO defect](/news/technical-seo-checklist-exporters/), invisible to crawlers and users alike.
+- **Decay by burial.** Post #3 from three years ago might be your best content, but it sits 8 pagination pages deep — orphaned pages are a classic [technical SEO defect](/news/international-seo-guide-chinese-manufacturers/), invisible to crawlers and users alike.
 - **No topical map.** Google increasingly evaluates *topical authority* — does this site comprehensively cover its domain? A flat stream of posts doesn't demonstrate coverage; a structured hub does. The same map feeds [AI answer engines](/news/geo-generative-engine-optimization-b2b/), which favor clearly-structured sources.
 
 ## The hub model, concretely
@@ -43,9 +43,9 @@ Generic advice says "pick topics with search volume." B2B exporters should map h
 
 1. **Inventory and cluster.** List all posts, group by topic. Most blogs find 3–6 natural hubs and a long tail of orphans.
 2. **Pick pillar candidates.** For each cluster, either an existing strong post gets expanded into the pillar, or a new pillar is written summarizing and linking the cluster.
-3. **Consolidate cannibals.** Merge thin overlapping posts (301-redirect the losers), preserving any links and rankings — follow [redirect discipline](/news/website-redesign-seo-preservation/) when URLs change.
+3. **Consolidate cannibals.** Merge thin overlapping posts (301-redirect the losers), preserving any links and rankings — redirect permanently whenever URLs change.
 4. **Rewire internal links.** Every supporting article links to its pillar with descriptive anchors; the pillar links to all supporters; build the hub index pages.
-5. **Keep publishing — into hubs.** New content slots into a hub as a supporting article and links up from day one. The [content calendar](/news/b2b-content-marketing-calendar-exporters/) becomes a hub-filling exercise instead of a topic roulette.
+5. **Keep publishing — into hubs.** New content slots into a hub as a supporting article and links up from day one. The content calendar becomes a hub-filling exercise instead of a topic roulette.
 6. **Measure at hub level.** Track rankings for the pillar's head term and the cluster's collective long-tail traffic in [Search Console](/news/google-search-console-exporters/) — expect the long tail to move first, head terms over 3–6 months.
 
 ## When a simple blog is fine

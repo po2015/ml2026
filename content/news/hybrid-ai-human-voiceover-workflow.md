@@ -29,7 +29,7 @@ The logic: human voices are bought where *persuasion* lives, AI where *informati
 
 Within a single Tier 2 video, segments differ in stakes. A typical split:
 
-- **On-camera speaker lip-sync passages** → human voice matching the speaker's energy, or AI with careful timing work. (For true close-up lip-sync, compare [voiceover vs. dubbing vs. subtitles](/news/voiceover-vs-dubbing-vs-subtitles/) economics first — sometimes the answer is not to dub the on-camera parts at all.)
+- **On-camera speaker lip-sync passages** → human voice matching the speaker's energy, or AI with careful timing work. (For true close-up lip-sync, compare [voiceover vs. dubbing vs. subtitles](/news/subtitles-vs-dubbing-by-market/) economics first — sometimes the answer is not to dub the on-camera parts at all.)
 - **Screen-capture narration / B-roll description** → AI voice. Flat, informational, specs-heavy content is AI's home turf; nobody needs a trained actor to say "the torque range is 40 to 180 Newton-metres."
 - **The emotional beats** — customer quotes, the problem-story opening, the closing call-to-action → human. These are the 20 seconds viewers remember.
 - **Legal/safety lines** (warnings, compliance statements) → whichever voice, but human *reviewed* word-for-word. A misrendered safety instruction is a liability, not a style issue — the same logic as [compliance training translation](/news/compliance-training-translation-accuracy/).
@@ -38,7 +38,7 @@ Mixed in one timeline, the listener's ear follows the *consistency of quality*, 
 
 ## The production pipeline that makes hybrid work
 
-1. **Script locked before any voice is generated.** AI voices make iteration cheap — which tempts teams into translating sloppy scripts. The [voiceover script preparation](/news/voiceover-script-preparation/) discipline (timed, segmented, pronunciation-noted) applies *more* in hybrid, because two production tracks consume the same script.
+1. **Script locked before any voice is generated.** AI voices make iteration cheap — which tempts teams into translating sloppy scripts. The [voiceover script preparation](/news/dubbing-script-adaptation-timing/) discipline (timed, segmented, pronunciation-noted) applies *more* in hybrid, because two production tracks consume the same script.
 2. **Pronunciation lexicon per language.** Your product names, model numbers, and brand terms — the same assets as your [termbase](/news/terminology-management-termbase/) — fed to the AI engine as phonetic overrides and given to human talent as a pronunciation guide. This one step removes the most embarrassing AI failures.
 3. **AI first pass, human review.** Generate all AI segments, then have a native speaker review *audio*, not script — mispronunciations and wrong emphasis are audible, not visible. Flagged segments get regenerated with adjusted markup or escalated to a human retake.
 4. **Human sessions batched.** All human segments across all videos recorded in one session per language — batching is where studio economics work. This is also where [remote recording](/news/remote-voiceover-recording-guide/) cuts cost: broadcast-quality home studios beat studio-day rates for short segments.

@@ -15,10 +15,10 @@ A sales director emails at 9 AM: the German distributor meeting moved up — the
 
 ## The five ways deck localization breaks
 
-1. **Text expansion (and contraction).** German and Russian expand 20–35% over English; Chinese contracts but needs larger point sizes for legibility. Every fixed-size text box, table cell, and shape is a layout landmine — the [text expansion problem](/news/dtp-text-expansion-multilingual-layout/) in its purest form.
+1. **Text expansion (and contraction).** German and Russian expand 20–35% over English; Chinese contracts but needs larger point sizes for legibility. Every fixed-size text box, table cell, and shape is a layout landmine — the [text expansion problem](/news/text-expansion-translation-layout/) in its purest form.
 2. **Fonts that don't carry the script.** Your brand font likely lacks CJK, Cyrillic, or Arabic glyphs; PowerPoint silently substitutes, and the "same" deck renders in a different typeface per language — or worse, mixed fonts within a sentence. Font strategy is per-script, agreed in advance, exactly as in [multilingual font planning](/news/font-licensing-multilingual-publishing/).
 3. **Text trapped in images.** Screenshots, diagrams exported as PNG, charts pasted as pictures — invisible to translation tools and to translators who don't open every image. Decks routinely ship "translated" with 10–20% of the text still English.
-4. **Direction and alignment for RTL.** Arabic/Hebrew decks need mirrored layouts: right-aligned text, flipped bullets and arrows, charts reading right-to-left. A translation dropped into the LTR layout reads like a broken mirror — the [Arabic DTP rules](/news/arabic-dtp-layout-rules/) apply to slides exactly as to brochures.
+4. **Direction and alignment for RTL.** Arabic/Hebrew decks need mirrored layouts: right-aligned text, flipped bullets and arrows, charts reading right-to-left. A translation dropped into the LTR layout reads like a broken mirror — the [Arabic DTP rules](/news/arabic-dtp-indesign-rtl/) apply to slides exactly as to brochures.
 5. **Charts, tables, and SmartArt.** Editable charts contain translatable category labels and series names inside the chart object (a separate text layer translators miss); SmartArt text lives in yet another container. Each needs explicit extraction or manual handling.
 
 ## The workflow that scales

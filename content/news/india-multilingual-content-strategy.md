@@ -41,11 +41,11 @@ The pattern: **the closer content gets to the transaction's top (contracts, C-su
 
 **Stage 3 — Regional languages by footprint.** Add languages where your channel actually operates: Tamil for the South's manufacturing belt, Bengali for the East, Marathi for Maharashtra's industrial regions, Gujarati for its trading networks. Let distributor geography drive the order — your channel partners will tell you exactly which language unblocks which territory, and their sales engineers are your best [in-context reviewers](/news/in-context-translation-review/).
 
-**Stage 4 — The video and voice layer.** India's content consumption skews heavily to video and voice (YouTube and WhatsApp are the real distribution channels). [Regional-language subtitles](/news/subtitle-translation-best-practices/) on every product video, Hindi voiceover on flagship ones, WhatsApp-shareable formats — this is where localized content actually travels.
+**Stage 4 — The video and voice layer.** India's content consumption skews heavily to video and voice (YouTube and WhatsApp are the real distribution channels). [Regional-language subtitles](/news/subtitle-formatting-rules/) on every product video, Hindi voiceover on flagship ones, WhatsApp-shareable formats — this is where localized content actually travels.
 
 ## The practical cautions
 
-- **Indic scripts need real typography.** Devanagari, Tamil, and Bengali scripts need proper font stacks and [DTP handling](/news/dtp-text-expansion-multilingual-layout/) — PDFs that render boxes instead of conjuncts are worse than English.
+- **Indic scripts need real typography.** Devanagari, Tamil, and Bengali scripts need proper font stacks and [DTP handling](/news/text-expansion-translation-layout/) — PDFs that render boxes instead of conjuncts are worse than English.
 - **Don't machine-translate the persuasion layer.** Indian buyers who read regional languages notice MT instantly; use native writers for customer-facing pages, exactly the standard you'd apply in [Korea](/news/korean-market-digital-expectations/) or [Japan](/news/japanese-b2b-website-trust/).
 - **One India, many price sensitivities.** Content that acknowledges the market's structure — dealers, tier-2/tier-3 cities, negotiation culture — outperforms translated global copy.
 

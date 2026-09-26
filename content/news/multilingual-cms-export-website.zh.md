@@ -38,7 +38,7 @@ summary: "CMS 的决策发生在网站项目的第一天，却会在往后多年
 
 **选 WordPress，当**你的团队本来就在用它、内容每周都在变、而且必须由市场人员（而非开发者）来发布。接受它要求的纪律：一个靠谱的多语言插件、一层缓存／CDN、由服务商搞定安全更新的托管，以及一条反对插件泛滥的铁律。管理良好的 WordPress 没问题；失败模式是*无人打理*的 WordPress。
 
-**选静态生成器，当**内容变更是批量的（新品发布、季度更新）、网站以阅读为主（目录＋内容，无用户账户）、且速度和维护成本很重要——这几乎精确描述了大多数出口商网站。市场人员需要编辑就搭配一个 git 系 CMS 界面，[RFQ 询价](/zh/news/rfq-form-design-export-websites/)配一个表单服务。[托管决策](/zh/news/website-hosting-export-business/)变得微不足道（默认就是全球 CDN），[维护负担](/zh/news/website-maintenance-plan-exporters/)缩减为内容更新和依赖卫生。
+**选静态生成器，当**内容变更是批量的（新品发布、季度更新）、网站以阅读为主（目录＋内容，无用户账户）、且速度和维护成本很重要——这几乎精确描述了大多数出口商网站。市场人员需要编辑就搭配一个 git 系 CMS 界面，[RFQ 询价](/zh/news/rfq-form-design-export-websites/)配一个表单服务。[托管决策](/zh/news/export-website-speed-cdn-performance/)变得微不足道（默认就是全球 CDN），[维护负担](/zh/news/website-maintenance-plan-exporters/)缩减为内容更新和依赖卫生。
 
 **选 Headless，当**网站只是消费同一批内容的多个渠道之一（还有 App、门户、经销商外网），并且你有持续的开发能力。对单一的营销网站来说，它只是平白增加了活动部件。
 
