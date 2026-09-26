@@ -1,17 +1,18 @@
 {{ define "main" }}
-{{ if ne .Site.Language.Lang "en" }}
-  {{ partial "localized/service-detail.html" . }}
-{{ else }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $page := partial "i18n/page.html" . -}}
+{{- $d := $page.detail -}}
+{{- $f := $d.form -}}
 
 <!-- ===== HERO ===== -->
-<section class="service-img-hero" style="--hero-img:url('/images/services/website-building.jpg');">
+<section class="service-img-hero" style="--hero-img:url('{{ $page.cover | default "/images/services/website-building.jpg" }}');">
   <div class="page-hero-inner reveal">
-    <p class="section-label">Website Building</p>
-    <h1 class="page-hero-title">Your business,<br>visible to the world.</h1>
-    <p class="page-hero-subtitle">We build professional English websites for B2B manufacturers and exporters — from domain to live site, fully managed. Free consultation, custom quote based on your actual needs.</p>
+    <p class="section-label">{{ $d.section_label }}</p>
+    <h1 class="page-hero-title">{{ $d.hero_title | safeHTML }}</h1>
+    <p class="page-hero-subtitle">{{ $d.hero_subtitle }}</p>
     <div class="hero-actions" style="margin-top:36px;">
-      <a href="#consultation-form" class="btn btn-primary">Free Consultation</a>
-      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+      <a href="#consultation-form" class="btn btn-primary">{{ $d.hero_cta }}</a>
+      <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
 </section>
@@ -20,53 +21,32 @@
 <section class="section-white section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">What's Included</p>
-      <h2 class="section-headline">Everything your global site needs</h2>
-      <p class="body-copy color-muted">One engagement — from domain registration to live deployment, fully managed. You focus on your business; we handle the rest.</p>
+      <p class="section-label">{{ $d.included_label }}</p>
+      <h2 class="section-headline">{{ $d.included_title }}</h2>
+      <p class="body-copy color-muted">{{ $d.included_body }}</p>
     </div>
     <div class="grid-3">
-      <div class="card reveal reveal-delay-1">
+      {{ range $idx, $item := $d.included }}
+      <div class="card reveal reveal-delay-{{ add (mod $idx 3) 1 }}">
         <div class="service-icon">
+          {{ if eq $item.icon "monitor" }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        </div>
-        <h3 class="service-card-title">Domain &amp; Hosting</h3>
-        <p class="service-card-body">Domain registration, SSL certificate, and enterprise-grade global hosting — 99.9% uptime, zero ops overhead on your side.</p>
-      </div>
-      <div class="card reveal reveal-delay-2">
-        <div class="service-icon">
+          {{ else if eq $item.icon "pen" }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-        </div>
-        <h3 class="service-card-title">Professional Design</h3>
-        <p class="service-card-body">Clean, modern design that builds credibility with international buyers. Pixel-perfect on desktop, tablet, and mobile. Reviewed with you before launch.</p>
-      </div>
-      <div class="card reveal reveal-delay-3">
-        <div class="service-icon">
+          {{ else if eq $item.icon "globe" }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        </div>
-        <h3 class="service-card-title">Global CDN Delivery</h3>
-        <p class="service-card-body">Your site loads in under one second from North America, Europe, Southeast Asia, or the Middle East — served from the edge node closest to each visitor.</p>
-      </div>
-      <div class="card reveal reveal-delay-1">
-        <div class="service-icon">
+          {{ else if eq $item.icon "search" }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </div>
-        <h3 class="service-card-title">SEO &amp; Discoverability</h3>
-        <p class="service-card-body">Keyword research, on-page optimization, and structured data so your products surface when overseas buyers search on Google. Monthly ranking reports included.</p>
-      </div>
-      <div class="card reveal reveal-delay-2">
-        <div class="service-icon">
+          {{ else if eq $item.icon "chat" }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        </div>
-        <h3 class="service-card-title">AI Customer Service</h3>
-        <p class="service-card-body">24/7 AI chatbot trained on your products and FAQs. Captures leads, answers inquiries in multiple languages, and hands off to your team when needed.</p>
-      </div>
-      <div class="card reveal reveal-delay-3">
-        <div class="service-icon">
+          {{ else }}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          {{ end }}
         </div>
-        <h3 class="service-card-title">Ongoing Maintenance</h3>
-        <p class="service-card-body">Regular product updates, news publishing, security patches, and monthly performance reports. Your site stays current without any work on your side.</p>
+        <h3 class="service-card-title">{{ $item.title }}</h3>
+        <p class="service-card-body">{{ $item.desc }}</p>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -75,46 +55,20 @@
 <section class="section-light section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">How It Works</p>
-      <h2 class="section-headline">From consultation to live site</h2>
-      <p class="body-copy color-muted">A clear, structured process — no open-ended retainer, no surprises.</p>
+      <p class="section-label">{{ $d.process_label }}</p>
+      <h2 class="section-headline">{{ $d.process_title }}</h2>
+      <p class="body-copy color-muted">{{ $d.process_body }}</p>
     </div>
     <div class="process-steps">
+      {{ range $idx, $step := $d.steps }}
       <div class="process-step reveal">
-        <div class="step-num">1</div>
+        <div class="step-num">{{ add $idx 1 }}</div>
         <div class="step-body">
-          <div class="step-title">Submit a Free Consultation <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">Free · No obligation</span></div>
-          <div class="step-desc">Fill out the brief form below — your region, industry, target market, and what you sell. This takes about 3 minutes and is completely free. We use this to understand your business before reaching out.</div>
+          <div class="step-title">{{ $step.title }} <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">{{ $step.meta }}</span></div>
+          <div class="step-desc">{{ $step.desc }}</div>
         </div>
       </div>
-      <div class="process-step reveal">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <div class="step-title">We Analyze &amp; Respond <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">Within 1 business day</span></div>
-          <div class="step-desc">Our team reviews your brief and prepares a tailored proposal — recommended plan, estimated timeline, and a fixed-price quote based on your actual scope. No boilerplate packages.</div>
-        </div>
-      </div>
-      <div class="process-step reveal">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <div class="step-title">Confirm Plan &amp; Quote <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">Day 2–3</span></div>
-          <div class="step-desc">We walk through the proposal together, answer questions, and lock in the scope. You pay only after agreeing on everything — fixed price, fixed timeline, no surprises.</div>
-        </div>
-      </div>
-      <div class="process-step reveal">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <div class="step-title">Design, Build &amp; Launch <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">2–3 weeks</span></div>
-          <div class="step-desc">We design the pages, write the English copy, and build the site. You review a staging URL before anything goes live. Launch includes sitemap submission to Google and analytics setup.</div>
-        </div>
-      </div>
-      <div class="process-step reveal">
-        <div class="step-num">5</div>
-        <div class="step-body">
-          <div class="step-title">Ongoing Support &amp; Content <span style="font-size:12px;font-weight:500;color:var(--color-gray-mid);margin-left:8px;">Monthly</span></div>
-          <div class="step-desc">Regular product updates, news publishing, and SEO reporting. Your site grows and stays current without you managing it. Upgrade or downgrade your plan at any time.</div>
-        </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -123,23 +77,27 @@
 <section class="section-dark section-pad">
   <div class="container">
     <div class="section-intro section-intro-dark reveal">
-      <p class="section-label">Ideal For</p>
-      <h2 class="section-headline color-white">Who we build for</h2>
+      <p class="section-label">{{ $d.ideal_label }}</p>
+      <h2 class="section-headline color-white">{{ $d.ideal_title }}</h2>
     </div>
     <div class="grid-3">
-      <div class="card-dark reveal reveal-delay-1">
-        <h3 style="font-size:18px;font-weight:600;color:#fff;margin-bottom:10px;">B2B Manufacturers &amp; Exporters</h3>
-        <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.7;">OEM/ODM factories and trading companies who need a credible English web presence to win international RFQs — not just an Alibaba store page.</p>
+      {{ range $idx, $item := $d.ideal }}
+      <div class="card-dark reveal reveal-delay-{{ add (mod $idx 3) 1 }}">
+        <h3 style="font-size:18px;font-weight:600;color:#fff;margin-bottom:10px;">{{ $item.title }}</h3>
+        <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.7;">{{ $item.desc }}</p>
       </div>
-      <div class="card-dark reveal reveal-delay-2">
-        <h3 style="font-size:18px;font-weight:600;color:#fff;margin-bottom:10px;">Professional Services Firms</h3>
-        <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.7;">Law firms, consultancies, and agencies expanding into new markets. We build multilingual sites with the right tone and legal disclaimers for overseas clients.</p>
-      </div>
-      <div class="card-dark reveal reveal-delay-3">
-        <h3 style="font-size:18px;font-weight:600;color:#fff;margin-bottom:10px;">Companies With No English Site</h3>
-        <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.7;">If your company only has a Chinese website — or no website at all — we handle everything from scratch. Domain, copy, design, and launch in 2–3 weeks.</p>
-      </div>
+      {{ end }}
     </div>
+  </div>
+</section>
+
+<!-- ===== LOCALIZATION CROSS-LINK ===== -->
+<section class="section-white section-pad-sm">
+  <div class="container text-center reveal">
+    <p class="section-label">{{ $d.loc_label }}</p>
+    <h2 class="section-headline mb-16">{{ $d.loc_title }}</h2>
+    <p class="body-copy color-muted mb-32" style="max-width:560px;margin-left:auto;margin-right:auto;">{{ $d.loc_body }}</p>
+    <a href="{{ "/services/localization/" | relLangURL }}" class="btn btn-secondary-light">{{ $d.loc_cta }}</a>
   </div>
 </section>
 
@@ -147,9 +105,9 @@
 <section id="consultation-form" class="section-light section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">Free Consultation</p>
-      <h2 class="section-headline">Tell us about your business</h2>
-      <p class="body-copy color-muted">This takes about 3 minutes. We'll use your answers to prepare a tailored proposal — completely free, no obligation. We respond within one business day.</p>
+      <p class="section-label">{{ $d.form_label }}</p>
+      <h2 class="section-headline">{{ $d.form_title }}</h2>
+      <p class="body-copy color-muted">{{ $d.form_body }}</p>
     </div>
 
     <div style="max-width:680px;margin:0 auto;">
@@ -159,8 +117,8 @@
         <div style="width:52px;height:52px;background:#34c759;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
         </div>
-        <p style="font-size:19px;font-weight:600;color:#1a8a3c;margin-bottom:10px;">Brief received — thank you!</p>
-        <p style="font-size:15px;color:#3a7a50;line-height:1.6;">We'll review your submission and get back to you within one business day with a tailored proposal.</p>
+        <p style="font-size:19px;font-weight:600;color:#1a8a3c;margin-bottom:10px;">{{ $f.success_title }}</p>
+        <p style="font-size:15px;color:#3a7a50;line-height:1.6;">{{ $f.success_body }}</p>
       </div>
 
       <form id="wb-form" class="contact-form" style="background:#fff;border:1px solid var(--color-border);border-radius:16px;padding:36px;" novalidate>
@@ -170,122 +128,82 @@
         </div>
 
         <!-- Contact info -->
-        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin-bottom:20px;">Contact Information</p>
+        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin-bottom:20px;">{{ $f.sec_contact }}</p>
         <div class="grid-2" style="gap:16px;">
           <div class="form-group">
-            <label for="wb-name">Full Name *</label>
-            <input type="text" id="wb-name" name="name" placeholder="Your name" required autocomplete="name">
+            <label for="wb-name">{{ $f.label_name }}</label>
+            <input type="text" id="wb-name" name="name" placeholder="{{ $f.ph_name }}" required autocomplete="name">
           </div>
           <div class="form-group">
-            <label for="wb-email">Email Address *</label>
-            <input type="email" id="wb-email" name="email" placeholder="you@company.com" required autocomplete="email">
+            <label for="wb-email">{{ $f.label_email }}</label>
+            <input type="email" id="wb-email" name="email" placeholder="{{ $f.ph_email }}" required autocomplete="email">
           </div>
         </div>
         <div class="form-group">
-          <label for="wb-company">Company Name</label>
-          <input type="text" id="wb-company" name="company" placeholder="Your company name">
+          <label for="wb-company">{{ $f.label_company }}</label>
+          <input type="text" id="wb-company" name="company" placeholder="{{ $f.ph_company }}">
         </div>
 
         <!-- Business info -->
-        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin:28px 0 20px;">Business Information</p>
+        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin:28px 0 20px;">{{ $f.sec_business }}</p>
         <div class="grid-2" style="gap:16px;">
           <div class="form-group">
-            <label for="wb-region">Your Region *</label>
+            <label for="wb-region">{{ $f.label_region }}</label>
             <select id="wb-region" name="region" required>
-              <option value="" disabled selected>Select region...</option>
-              <option value="cn-mainland">China — Mainland</option>
-              <option value="cn-hktw">China — HK / Taiwan</option>
-              <option value="sea">Southeast Asia</option>
-              <option value="south-asia">South Asia</option>
-              <option value="middle-east">Middle East</option>
-              <option value="europe">Europe</option>
-              <option value="north-america">North America</option>
-              <option value="other">Other</option>
+              {{ range $idx, $opt := $f.opt_region }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
           <div class="form-group">
-            <label for="wb-industry">Industry *</label>
+            <label for="wb-industry">{{ $f.label_industry }}</label>
             <select id="wb-industry" name="industry" required>
-              <option value="" disabled selected>Select industry...</option>
-              <option value="manufacturing">Manufacturing / OEM / ODM</option>
-              <option value="trading">Trading / Import &amp; Export</option>
-              <option value="professional-services">Professional Services</option>
-              <option value="tech">Technology / SaaS</option>
-              <option value="education">Education / Training</option>
-              <option value="healthcare">Healthcare / Medical</option>
-              <option value="consumer-goods">Consumer Goods / Retail</option>
-              <option value="other">Other</option>
+              {{ range $idx, $opt := $f.opt_industry }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
         </div>
         <div class="grid-2" style="gap:16px;">
           <div class="form-group">
-            <label for="wb-biz-type">Business Type *</label>
+            <label for="wb-biz-type">{{ $f.label_biz_type }}</label>
             <select id="wb-biz-type" name="biz_type" required>
-              <option value="" disabled selected>Select type...</option>
-              <option value="b2b">B2B — Sell to other businesses</option>
-              <option value="b2c">B2C — Sell to consumers</option>
-              <option value="b2b-b2c">B2B + B2C both</option>
+              {{ range $idx, $opt := $f.opt_biz_type }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
           <div class="form-group">
-            <label for="wb-offer-type">You Primarily Offer *</label>
+            <label for="wb-offer-type">{{ $f.label_offer_type }}</label>
             <select id="wb-offer-type" name="offer_type" required>
-              <option value="" disabled selected>Select...</option>
-              <option value="products">Physical products / goods</option>
-              <option value="services">Services</option>
-              <option value="both">Products + Services</option>
+              {{ range $idx, $opt := $f.opt_offer_type }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
         </div>
         <div class="grid-2" style="gap:16px;">
           <div class="form-group">
-            <label for="wb-product-count">Number of Products / SKUs</label>
+            <label for="wb-product-count">{{ $f.label_product_count }}</label>
             <select id="wb-product-count" name="product_count">
-              <option value="" disabled selected>Approx. count...</option>
-              <option value="1-5">1 – 5</option>
-              <option value="6-20">6 – 20</option>
-              <option value="21-50">21 – 50</option>
-              <option value="50+">More than 50</option>
-              <option value="unknown">Not sure yet</option>
+              {{ range $idx, $opt := $f.opt_product_count }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
           <div class="form-group">
-            <label for="wb-target-customer">Target Customers</label>
+            <label for="wb-target-customer">{{ $f.label_target_customer }}</label>
             <select id="wb-target-customer" name="target_customer">
-              <option value="" disabled selected>Who buys from you?</option>
-              <option value="manufacturers">Manufacturers / OEM buyers</option>
-              <option value="distributors">Wholesalers &amp; Distributors</option>
-              <option value="retailers">Retailers</option>
-              <option value="end-consumers">End consumers</option>
-              <option value="enterprises">Enterprises &amp; Institutions</option>
-              <option value="mix">Mix of the above</option>
+              {{ range $idx, $opt := $f.opt_target_customer }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="wb-target-market">Target Market *</label>
+          <label for="wb-target-market">{{ $f.label_target_market }}</label>
           <select id="wb-target-market" name="target_market" required>
-            <option value="" disabled selected>Where are your target buyers?</option>
-            <option value="north-america">North America</option>
-            <option value="europe">Europe</option>
-            <option value="sea">Southeast Asia</option>
-            <option value="middle-east">Middle East &amp; Africa</option>
-            <option value="latin-america">Latin America</option>
-            <option value="global">Global — multiple regions</option>
-            <option value="unknown">Not sure yet</option>
+            {{ range $idx, $opt := $f.opt_target_market }}<option value="{{ index $opt 0 }}"{{ if eq $idx 0 }} disabled selected{{ end }}>{{ index $opt 1 }}</option>{{ end }}
           </select>
         </div>
 
         <!-- Current site + notes -->
-        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin:28px 0 20px;">Additional Details</p>
+        <p style="font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#6e6e73;margin:28px 0 20px;">{{ $f.sec_details }}</p>
         <div class="form-group">
-          <label for="wb-current-site">Current Website (if any)</label>
-          <input type="text" id="wb-current-site" name="current_site" placeholder="https://example.com — or leave blank if none">
+          <label for="wb-current-site">{{ $f.label_current_site }}</label>
+          <input type="text" id="wb-current-site" name="current_site" placeholder="{{ $f.ph_current_site }}">
         </div>
         <div class="form-group">
-          <label for="wb-notes">Anything Else We Should Know</label>
-          <textarea id="wb-notes" name="message" placeholder="Timeline requirements, competitor references, special features, budget range..." style="min-height:96px;"></textarea>
+          <label for="wb-notes">{{ $f.label_notes }}</label>
+          <textarea id="wb-notes" name="message" placeholder="{{ $f.ph_notes }}" style="min-height:96px;"></textarea>
         </div>
 
         <!-- Error banner -->
@@ -294,12 +212,12 @@
         </div>
 
         <button type="submit" id="wb-submit" class="btn btn-primary" style="width:100%;position:relative;min-height:52px;font-size:16px;">
-          <span id="wb-submit-label">Submit Free Consultation</span>
+          <span id="wb-submit-label">{{ $f.submit }}</span>
           <span id="wb-submit-spinner" style="display:none;position:absolute;right:16px;top:50%;transform:translateY(-50%);">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" style="animation:wbspin 0.8s linear infinite;"><path d="M12 2a10 10 0 0 1 10 10"/></svg>
           </span>
         </button>
-        <p style="font-size:12px;color:#6e6e73;text-align:center;margin-top:14px;">Free · No obligation · We respond within 1 business day</p>
+        <p style="font-size:12px;color:#6e6e73;text-align:center;margin-top:14px;">{{ $f.footnote }}</p>
       </form>
     </div>
   </div>
@@ -319,6 +237,21 @@
   var btnLabel  = document.getElementById('wb-submit-label');
   var spinner   = document.getElementById('wb-submit-spinner');
 
+  var I18N = {
+    submit:        {{ $f.submit | jsonify }},
+    sending:       {{ $f.sending | jsonify }},
+    errName:       {{ $f.err_name | jsonify }},
+    errEmail:      {{ $f.err_email | jsonify }},
+    errRegion:     {{ $f.err_region | jsonify }},
+    errIndustry:   {{ $f.err_industry | jsonify }},
+    errBizType:    {{ $f.err_biz_type | jsonify }},
+    errOfferType:  {{ $f.err_offer_type | jsonify }},
+    errTargetMkt:  {{ $f.err_target_market | jsonify }},
+    errMissing:    {{ $f.err_missing | jsonify }},
+    errInvalid:    {{ $f.err_invalid_email | jsonify }},
+    errGeneric:    {{ $f.err_generic | jsonify }}
+  };
+
   if (!form) return;
 
   function showError(msg) {
@@ -331,7 +264,7 @@
 
   function setLoading(on) {
     submitBtn.disabled = on;
-    btnLabel.textContent = on ? 'Sending…' : 'Submit Free Consultation';
+    btnLabel.textContent = on ? I18N.sending : I18N.submit;
     spinner.style.display = on ? 'inline-block' : 'none';
   }
 
@@ -359,13 +292,13 @@
     var offerType   = val('wb-offer-type');
     var targetMkt   = val('wb-target-market');
 
-    if (!name)    { showError('Please enter your full name.'); return; }
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showError('Please enter a valid email address.'); return; }
-    if (!region)  { showError('Please select your region.'); return; }
-    if (!industry){ showError('Please select your industry.'); return; }
-    if (!bizType) { showError('Please select your business type.'); return; }
-    if (!offerType){ showError('Please tell us what you primarily offer.'); return; }
-    if (!targetMkt){ showError('Please select your target market.'); return; }
+    if (!name)    { showError(I18N.errName); return; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showError(I18N.errEmail); return; }
+    if (!region)  { showError(I18N.errRegion); return; }
+    if (!industry){ showError(I18N.errIndustry); return; }
+    if (!bizType) { showError(I18N.errBizType); return; }
+    if (!offerType){ showError(I18N.errOfferType); return; }
+    if (!targetMkt){ showError(I18N.errTargetMkt); return; }
 
     var payload = {
       name:           name,
@@ -405,16 +338,15 @@
     .catch(function (err) {
       setLoading(false);
       if (err && err.message === 'missing_fields') {
-        showError('Please fill in all required fields.');
+        showError(I18N.errMissing);
       } else if (err && err.message === 'invalid_email') {
-        showError('That email address doesn\'t look right. Please check it.');
+        showError(I18N.errInvalid);
       } else {
-        showError('Something went wrong — please try again or email us at ken.lee@medialocalize.com');
+        showError(I18N.errGeneric);
       }
     });
   });
 })();
 </script>
 
-{{ end }}
 {{ end }}

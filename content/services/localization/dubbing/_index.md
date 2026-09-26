@@ -1,7 +1,7 @@
 ---
 layout: "dubbing"
 title: "Multimedia Dubbing"
-description: "AI dubbing from $30/min and professional human dubbing from $100/min. Fast turnaround, natural-sounding results."
+description: "AI dubbing from $1/min and professional human dubbing from $20/min. Fast turnaround, natural-sounding results."
 subtitle: "Make your audio and video content speak every language naturally."
 section_label: "Localization"
 features:

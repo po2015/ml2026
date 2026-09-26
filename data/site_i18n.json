@@ -124,18 +124,48 @@
         ]
       ],
       "industries": [
-        "Manufacturing & Industrial",
-        "Medical Device & Pharma",
-        "E-Learning & Corporate Training",
-        "Marketing & Advertising",
-        "Legal & Compliance"
+        [
+          "Manufacturing & Industrial",
+          "/services/website-building/"
+        ],
+        [
+          "Medical Device & Pharma",
+          "/services/localization/"
+        ],
+        [
+          "E-Learning & Corporate Training",
+          "/services/localization/elearning/"
+        ],
+        [
+          "Marketing & Advertising",
+          "/services/localization/video/"
+        ],
+        [
+          "Legal & Compliance",
+          "/services/localization/dtp/"
+        ]
       ],
       "languages": [
-        "Chinese ↔ English",
-        "Japanese & Korean",
-        "German, French, Spanish",
-        "Arabic & RTL Scripts",
-        "50+ Language Pairs Total"
+        [
+          "Chinese ↔ English",
+          "/services/localization/"
+        ],
+        [
+          "Japanese & Korean",
+          "/services/localization/"
+        ],
+        [
+          "German, French, Spanish",
+          "/services/localization/"
+        ],
+        [
+          "Arabic & RTL Scripts",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "50+ Language Pairs Total",
+          "/services/localization/dubbing/"
+        ]
       ],
       "copyright": "MediaLocalize — Multilingual Localization & Global Website Experts. All rights reserved.",
       "privacy": "Privacy Policy",
@@ -367,7 +397,7 @@
             "Global CDN + edge caching",
             "Advanced SEO & analytics",
             "AI chatbot integration",
-            "24/7 priority support",
+            "Priority support — direct line to the project team",
             "Quarterly strategy review",
             "1 news article published / week",
             "Up to 10 product updates / month"
@@ -375,6 +405,26 @@
           "featured": false
         }
       ],
+      "addons": {
+        "title": "Add-ons",
+        "items": [
+          [
+            "Multilingual site — add 1 language",
+            "$199 one-time + $99/yr",
+            "Professional translation and localized deployment of your entire site in one additional language, incl. hreflang setup."
+          ],
+          [
+            "Additional domain",
+            "$25 / domain / yr",
+            "Extra custom domain pointed to your site, incl. SSL."
+          ],
+          [
+            "Additional business email",
+            "$50 / account / yr",
+            "Extra mailbox on your domain."
+          ]
+        ]
+      },
       "plan_cta": "Free Consultation",
       "web_note": "Setup fee covers design, build, and launch. Annual fee covers hosting, maintenance, and support. Need something custom? Contact us for an enterprise quote.",
       "loc_intro": {
@@ -436,7 +486,7 @@
       "info_title": "Get in touch",
       "email_label": "Email",
       "languages_label": "Languages",
-      "languages": "English & 中文 supported",
+      "languages": "English · 中文 · Español · Русский · العربية",
       "response_label": "Response Time",
       "response": "Within 1 business day",
       "include_title": "What to include in your message:",
@@ -464,9 +514,9 @@
         "message": "Tell us about your project — language pairs, volume, timeline..."
       },
       "options": [
-        "Website — Starter ($199/year)",
-        "Website — Growth ($499/year)",
-        "Website — Business ($999/year)",
+        "Website — Starter ($199 setup + $199/yr)",
+        "Website — Growth ($499 setup + $299/yr)",
+        "Website — Business ($999 setup + $399/yr)",
         "Desktop Publishing (DTP)",
         "AI Dubbing",
         "Human Dubbing",
@@ -727,16 +777,683 @@
         "description": "The agreement governing use of MediaLocalize services."
       },
       "services/website-building": {
-        "cover": "/images/services/website-building.jpg"
+        "cover": "/images/services/website-building.jpg",
+        "detail": {
+          "section_label": "Website Building",
+          "hero_title": "Your business,<br>visible to the world.",
+          "hero_subtitle": "We build professional English websites for B2B manufacturers and exporters — from domain to live site, fully managed. Free consultation, custom quote based on your actual needs.",
+          "hero_cta": "Free Consultation",
+          "included_label": "What's Included",
+          "included_title": "Everything your global site needs",
+          "included_body": "One engagement — from domain registration to live deployment, fully managed. You focus on your business; we handle the rest.",
+          "included": [
+            {
+              "icon": "monitor",
+              "title": "Domain & Hosting",
+              "desc": "Domain registration, SSL certificate, and enterprise-grade global hosting — 99.9% uptime, zero ops overhead on your side."
+            },
+            {
+              "icon": "pen",
+              "title": "Professional Design",
+              "desc": "Clean, modern design that builds credibility with international buyers. Pixel-perfect on desktop, tablet, and mobile. Reviewed with you before launch."
+            },
+            {
+              "icon": "globe",
+              "title": "Global CDN Delivery",
+              "desc": "Your site loads in under one second from North America, Europe, Southeast Asia, or the Middle East — served from the edge node closest to each visitor."
+            },
+            {
+              "icon": "search",
+              "title": "SEO & Discoverability",
+              "desc": "Keyword research, on-page optimization, and structured data so your products surface when overseas buyers search on Google. Monthly ranking reports included."
+            },
+            {
+              "icon": "chat",
+              "title": "AI Customer Service",
+              "desc": "24/7 AI chatbot trained on your products and FAQs. Captures leads, answers inquiries in multiple languages, and hands off to your team when needed."
+            },
+            {
+              "icon": "chart",
+              "title": "Ongoing Maintenance",
+              "desc": "Regular product updates, news publishing, security patches, and monthly performance reports. Your site stays current without any work on your side."
+            }
+          ],
+          "process_label": "How It Works",
+          "process_title": "From consultation to live site",
+          "process_body": "A clear, structured process — no open-ended retainer, no surprises.",
+          "steps": [
+            {
+              "title": "Submit a Free Consultation",
+              "meta": "Free · No obligation",
+              "desc": "Fill out the brief form below — your region, industry, target market, and what you sell. This takes about 3 minutes and is completely free. We use this to understand your business before reaching out."
+            },
+            {
+              "title": "We Analyze & Respond",
+              "meta": "Within 1 business day",
+              "desc": "Our team reviews your brief and prepares a tailored proposal — recommended plan, estimated timeline, and a fixed-price quote based on your actual scope. No boilerplate packages."
+            },
+            {
+              "title": "Confirm Plan & Quote",
+              "meta": "Day 2–3",
+              "desc": "We walk through the proposal together, answer questions, and lock in the scope. You pay only after agreeing on everything — fixed price, fixed timeline, no surprises."
+            },
+            {
+              "title": "Design, Build & Launch",
+              "meta": "2–3 weeks",
+              "desc": "We design the pages, write the English copy, and build the site. You review a staging URL before anything goes live. Launch includes sitemap submission to Google and analytics setup."
+            },
+            {
+              "title": "Ongoing Support & Content",
+              "meta": "Monthly",
+              "desc": "Regular product updates, news publishing, and SEO reporting. Your site grows and stays current without you managing it. Upgrade or downgrade your plan at any time."
+            }
+          ],
+          "ideal_label": "Ideal For",
+          "ideal_title": "Who we build for",
+          "ideal": [
+            {
+              "title": "B2B Manufacturers & Exporters",
+              "desc": "OEM/ODM factories and trading companies who need a credible English web presence to win international RFQs — not just an Alibaba store page."
+            },
+            {
+              "title": "Professional Services Firms",
+              "desc": "Law firms, consultancies, and agencies expanding into new markets. We build multilingual sites with the right tone and legal disclaimers for overseas clients."
+            },
+            {
+              "title": "Companies With No English Site",
+              "desc": "If your company only has a Chinese website — or no website at all — we handle everything from scratch. Domain, copy, design, and launch in 2–3 weeks."
+            }
+          ],
+          "form_label": "Free Consultation",
+          "form_title": "Tell us about your business",
+          "form_body": "This takes about 3 minutes. We'll use your answers to prepare a tailored proposal — completely free, no obligation. We respond within one business day.",
+          "form": {
+            "success_title": "Brief received — thank you!",
+            "success_body": "We'll review your submission and get back to you within one business day with a tailored proposal.",
+            "sec_contact": "Contact Information",
+            "sec_business": "Business Information",
+            "sec_details": "Additional Details",
+            "label_name": "Full Name *",
+            "label_email": "Email Address *",
+            "label_company": "Company Name",
+            "label_region": "Your Region *",
+            "label_industry": "Industry *",
+            "label_biz_type": "Business Type *",
+            "label_offer_type": "You Primarily Offer *",
+            "label_product_count": "Number of Products / SKUs",
+            "label_target_customer": "Target Customers",
+            "label_target_market": "Target Market *",
+            "label_current_site": "Current Website (if any)",
+            "label_notes": "Anything Else We Should Know",
+            "ph_name": "Your name",
+            "ph_email": "you@company.com",
+            "ph_company": "Your company name",
+            "ph_current_site": "https://example.com — or leave blank if none",
+            "ph_notes": "Timeline requirements, competitor references, special features, budget range...",
+            "opt_region": [
+              [
+                "",
+                "Select region..."
+              ],
+              [
+                "cn-mainland",
+                "China — Mainland"
+              ],
+              [
+                "cn-hktw",
+                "China — HK / Taiwan"
+              ],
+              [
+                "sea",
+                "Southeast Asia"
+              ],
+              [
+                "south-asia",
+                "South Asia"
+              ],
+              [
+                "middle-east",
+                "Middle East"
+              ],
+              [
+                "europe",
+                "Europe"
+              ],
+              [
+                "north-america",
+                "North America"
+              ],
+              [
+                "other",
+                "Other"
+              ]
+            ],
+            "opt_industry": [
+              [
+                "",
+                "Select industry..."
+              ],
+              [
+                "manufacturing",
+                "Manufacturing / OEM / ODM"
+              ],
+              [
+                "trading",
+                "Trading / Import & Export"
+              ],
+              [
+                "professional-services",
+                "Professional Services"
+              ],
+              [
+                "tech",
+                "Technology / SaaS"
+              ],
+              [
+                "education",
+                "Education / Training"
+              ],
+              [
+                "healthcare",
+                "Healthcare / Medical"
+              ],
+              [
+                "consumer-goods",
+                "Consumer Goods / Retail"
+              ],
+              [
+                "other",
+                "Other"
+              ]
+            ],
+            "opt_biz_type": [
+              [
+                "",
+                "Select type..."
+              ],
+              [
+                "b2b",
+                "B2B — Sell to other businesses"
+              ],
+              [
+                "b2c",
+                "B2C — Sell to consumers"
+              ],
+              [
+                "b2b-b2c",
+                "B2B + B2C both"
+              ]
+            ],
+            "opt_offer_type": [
+              [
+                "",
+                "Select..."
+              ],
+              [
+                "products",
+                "Physical products / goods"
+              ],
+              [
+                "services",
+                "Services"
+              ],
+              [
+                "both",
+                "Products + Services"
+              ]
+            ],
+            "opt_product_count": [
+              [
+                "",
+                "Approx. count..."
+              ],
+              [
+                "1-5",
+                "1 – 5"
+              ],
+              [
+                "6-20",
+                "6 – 20"
+              ],
+              [
+                "21-50",
+                "21 – 50"
+              ],
+              [
+                "50+",
+                "More than 50"
+              ],
+              [
+                "unknown",
+                "Not sure yet"
+              ]
+            ],
+            "opt_target_customer": [
+              [
+                "",
+                "Who buys from you?"
+              ],
+              [
+                "manufacturers",
+                "Manufacturers / OEM buyers"
+              ],
+              [
+                "distributors",
+                "Wholesalers & Distributors"
+              ],
+              [
+                "retailers",
+                "Retailers"
+              ],
+              [
+                "end-consumers",
+                "End consumers"
+              ],
+              [
+                "enterprises",
+                "Enterprises & Institutions"
+              ],
+              [
+                "mix",
+                "Mix of the above"
+              ]
+            ],
+            "opt_target_market": [
+              [
+                "",
+                "Where are your target buyers?"
+              ],
+              [
+                "north-america",
+                "North America"
+              ],
+              [
+                "europe",
+                "Europe"
+              ],
+              [
+                "sea",
+                "Southeast Asia"
+              ],
+              [
+                "middle-east",
+                "Middle East & Africa"
+              ],
+              [
+                "latin-america",
+                "Latin America"
+              ],
+              [
+                "global",
+                "Global — multiple regions"
+              ],
+              [
+                "unknown",
+                "Not sure yet"
+              ]
+            ],
+            "submit": "Submit Free Consultation",
+            "sending": "Sending…",
+            "footnote": "Free · No obligation · We respond within 1 business day",
+            "err_name": "Please enter your full name.",
+            "err_email": "Please enter a valid email address.",
+            "err_region": "Please select your region.",
+            "err_industry": "Please select your industry.",
+            "err_biz_type": "Please select your business type.",
+            "err_offer_type": "Please tell us what you primarily offer.",
+            "err_target_market": "Please select your target market.",
+            "err_missing": "Please fill in all required fields.",
+            "err_invalid_email": "That email address doesn't look right. Please check it.",
+            "err_generic": "Something went wrong — please try again or email us at ken.lee@medialocalize.com"
+          },
+          "loc_label": "Going Multilingual?",
+          "loc_title": "Need more than English?",
+          "loc_body": "Our localization team translates your site, documents, videos, and e-learning into 50+ languages — same partner, same project team.",
+          "loc_cta": "Explore Localization Services"
+        }
       },
       "services/localization": {
-        "cover": "/images/services/localization.jpg"
+        "cover": "/images/services/localization.jpg",
+        "detail": {
+          "section_label": "Services",
+          "offer_label": "What We Offer",
+          "offer_title": "Four localization specialisms",
+          "offer_body": "From technical documents to multimedia content — every format, every language.",
+          "subs": [
+            {
+              "title": "Desktop Publishing (DTP)",
+              "desc": "Pixel-perfect multilingual documents in InDesign, FrameMaker, Word, PowerPoint, and more. Starting at $2/page.",
+              "url": "/services/localization/dtp/",
+              "img": "/images/services/dtp.jpg",
+              "icon": "doc"
+            },
+            {
+              "title": "Multimedia Dubbing",
+              "desc": "AI dubbing from $1/min and human voice acting from $20/min. Natural-sounding results in 50+ languages.",
+              "url": "/services/localization/dubbing/",
+              "img": "/images/services/dubbing.jpg",
+              "icon": "mic"
+            },
+            {
+              "title": "Video & Animation Localization",
+              "desc": "Subtitling, on-screen text, motion graphics, and full video adaptation. From $8/minute.",
+              "url": "/services/localization/video/",
+              "img": "/images/services/video-localization.jpg",
+              "icon": "video"
+            },
+            {
+              "title": "E-Learning Localization",
+              "desc": "SCORM, xAPI, Articulate, Captivate — full course localization including narration, UI, and assessments. From $0.12/word.",
+              "url": "/services/localization/elearning/",
+              "img": "/images/services/elearning.jpg",
+              "icon": "book"
+            }
+          ],
+          "learn_more": "Learn more",
+          "lang_label": "Language Coverage",
+          "lang_title": "50+ languages supported",
+          "lang_body": "Native-speaking linguists across every major world language and regional variant.",
+          "langs": [
+            "English",
+            "Simplified Chinese",
+            "Traditional Chinese",
+            "Spanish",
+            "French",
+            "German",
+            "Japanese",
+            "Korean",
+            "Arabic",
+            "Portuguese",
+            "Russian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Turkish",
+            "Vietnamese",
+            "Thai",
+            "Indonesian",
+            "Malay",
+            "Hindi",
+            "Bengali",
+            "Swedish",
+            "Norwegian",
+            "Danish",
+            "Finnish",
+            "Czech",
+            "Romanian",
+            "Hungarian",
+            "Greek",
+            "Hebrew",
+            "Ukrainian",
+            "Persian (Farsi)",
+            "Urdu",
+            "Tagalog",
+            "Swahili"
+          ],
+          "langs_more": "+ More",
+          "qa_label": "Quality Assurance",
+          "qa_title": "How we ensure accuracy",
+          "qa_steps": [
+            {
+              "title": "Expert Translation",
+              "desc": "Native-speaking translators with subject-matter expertise in your industry. All translators pass proficiency testing before assignment."
+            },
+            {
+              "title": "AI-Assisted Post-Editing",
+              "desc": "AI tools accelerate repetitive content while a senior linguist ensures consistency, tone, and cultural appropriateness throughout."
+            },
+            {
+              "title": "Independent Review",
+              "desc": "A second native speaker reviews the final output against the source for accuracy, fluency, and adherence to your style guide."
+            },
+            {
+              "title": "Format & DTP QA",
+              "desc": "All files are checked for text overflow, layout integrity, font rendering, and file format compliance before delivery."
+            }
+          ],
+          "web_label": "Also from MediaLocalize",
+          "web_title": "Need a website first?",
+          "web_body": "We build fast, SEO-ready English websites for B2B manufacturers and exporters — then localize them into every language on this page.",
+          "web_cta": "Explore Website Building",
+          "cta_label": "Get Started",
+          "cta_title": "Let's localize your content.",
+          "cta_body": "Send us your files and we'll provide a quote within 24 hours."
+        }
       },
       "services/localization/dtp": {
         "cover": "/images/services/dtp.jpg"
       },
       "services/localization/dubbing": {
-        "cover": "/images/services/dubbing.jpg"
+        "cover": "/images/services/dubbing.jpg",
+        "detail": {
+          "section_label": "Localization",
+          "request_sample": "Request a Sample",
+          "toggle_ai": "AI Dubbing",
+          "toggle_ai_sub": "From $1/min · 24–72 hr delivery",
+          "toggle_human": "Human Dubbing",
+          "toggle_human_sub": "From $20/min · 3–7 day delivery",
+          "ai_label": "AI Voice Library",
+          "ai_title": "Natural AI voices, every style",
+          "ai_body": "Preview our AI voice profiles below. Click any sample to request a full demo in your target language.",
+          "male_voices": "Male Voices",
+          "female_voices": "Female Voices",
+          "voices": [
+            {
+              "name": "Alex",
+              "gender": "male",
+              "style": "Young Male · 22–28 · Natural & Conversational",
+              "samples": [
+                "Product Demo",
+                "Training Video"
+              ]
+            },
+            {
+              "name": "Marcus",
+              "gender": "male",
+              "style": "Mid-aged Male · 38–48 · Professional & Authoritative",
+              "samples": [
+                "Explainer Video",
+                "Corporate Narration"
+              ]
+            },
+            {
+              "name": "William",
+              "gender": "male",
+              "style": "Senior Male · 55–65 · Warm & Trustworthy",
+              "samples": [
+                "Brand Story",
+                "Financial / Legal"
+              ]
+            },
+            {
+              "name": "Sophie",
+              "gender": "female",
+              "style": "Young Female · 22–28 · Energetic & Friendly",
+              "samples": [
+                "Tutorial",
+                "Marketing Ad"
+              ]
+            },
+            {
+              "name": "Claire",
+              "gender": "female",
+              "style": "Mid-aged Female · 35–45 · Professional & Calm",
+              "samples": [
+                "Corporate",
+                "E-Learning"
+              ]
+            },
+            {
+              "name": "Emma",
+              "gender": "female",
+              "style": "Senior Female · 55–65 · Nurturing & Trustworthy",
+              "samples": [
+                "Healthcare",
+                "Finance"
+              ]
+            }
+          ],
+          "ai_note": "All AI voices available in 50+ languages. Custom voice cloning available on request.",
+          "ai_cta": "Request AI Voice Sample",
+          "human_label": "Human Voice Actors",
+          "human_title": "Certified native voice actors",
+          "human_body": "For premium brand content and projects where authentic human performance matters. All actors are auditioned, professionally trained native speakers.",
+          "actors": [
+            {
+              "name": "Daniel",
+              "style": "Young Male · 25–32 · Dynamic & Engaging",
+              "langs": [
+                "EN (US)",
+                "EN (AU)"
+              ],
+              "bio": "A versatile actor with 8 years of commercial and animation dubbing experience. Known for his natural delivery and ability to adapt across comedic, dramatic, and high-energy styles — a frequent choice for global tech and lifestyle campaigns.",
+              "tags": [
+                "Commercial",
+                "Brand Film",
+                "Animation",
+                "Product Launch"
+              ],
+              "samples": [
+                "Brand Film",
+                "Product Launch"
+              ],
+              "color": "#1a3a5c"
+            },
+            {
+              "name": "Richard",
+              "style": "Mid-aged Male · 40–50 · Deep & Commanding",
+              "langs": [
+                "EN (UK)",
+                "EN (US)"
+              ],
+              "bio": "A seasoned broadcaster and documentary narrator with 15+ years in the industry. His commanding baritone is a trusted choice for prestige brand films, financial communications, and serious subject matter requiring gravitas.",
+              "tags": [
+                "Documentary",
+                "Corporate",
+                "Financial",
+                "Industrial"
+              ],
+              "samples": [
+                "Documentary",
+                "Industrial Training"
+              ],
+              "color": "#2c1a1a"
+            },
+            {
+              "name": "Olivia",
+              "style": "Young Female · 24–30 · Bright & Persuasive",
+              "langs": [
+                "EN (US)",
+                "EN (CA)"
+              ],
+              "bio": "With a background in theatre and commercial voice-over, Olivia brings warmth and infectious energy to every line. Frequently cast in tech, lifestyle, and app promo work, she excels at making complex ideas feel approachable and exciting.",
+              "tags": [
+                "Commercial",
+                "App Promo",
+                "Tech",
+                "E-Learning"
+              ],
+              "samples": [
+                "Commercial",
+                "App Promo"
+              ],
+              "color": "#1a2e1a"
+            },
+            {
+              "name": "Margaret",
+              "style": "Mid-aged Female · 38–48 · Confident & Clear",
+              "langs": [
+                "EN (UK)",
+                "FR"
+              ],
+              "bio": "A bilingual actor (EN/FR) specializing in corporate communications and healthcare content. Margaret's exceptional clarity and authoritative yet approachable tone make her a first-call choice for compliance, safety, and enterprise training programs.",
+              "tags": [
+                "Healthcare",
+                "Corporate",
+                "Training",
+                "Compliance"
+              ],
+              "samples": [
+                "Training & Safety",
+                "Corporate Video"
+              ],
+              "color": "#2c1a3a"
+            }
+          ],
+          "human_note": "Native speakers across 40+ language markets. Directed sessions via Source-Connect available.",
+          "human_cta": "Request Casting",
+          "lang_label": "Language Coverage",
+          "lang_title": "50+ languages",
+          "langs": [
+            "English (US)",
+            "English (UK)",
+            "Mandarin Chinese",
+            "Cantonese",
+            "Spanish (LATAM)",
+            "Spanish (ES)",
+            "French",
+            "German",
+            "Japanese",
+            "Korean",
+            "Arabic (MSA)",
+            "Portuguese (BR)",
+            "Russian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Turkish",
+            "Vietnamese",
+            "Thai",
+            "Indonesian",
+            "Hindi",
+            "Swedish",
+            "Norwegian",
+            "Danish",
+            "Finnish",
+            "Greek",
+            "Hebrew",
+            "Czech",
+            "Romanian",
+            "Hungarian"
+          ],
+          "langs_more": "+ 20 more",
+          "pricing_label": "Pricing",
+          "pricing_title": "Transparent dubbing rates",
+          "pricing": [
+            {
+              "amount": "$1–$2",
+              "unit": "/min",
+              "name": "AI Dubbing",
+              "sub": "24–72 hr turnaround"
+            },
+            {
+              "amount": "$5–$10",
+              "unit": "/min",
+              "name": "AI + Human Review",
+              "sub": "Quality-checked by native speaker"
+            },
+            {
+              "amount": "$20–$50",
+              "unit": "/min",
+              "name": "Human Voice Actor",
+              "sub": "3–7 day delivery"
+            },
+            {
+              "amount": "Custom",
+              "unit": "",
+              "name": "Lip-Sync Dubbing",
+              "sub": "Quote based on video length"
+            }
+          ],
+          "pricing_note": "Prices are per finished minute of audio. Minimum order USD 50. Volume discounts from 30 minutes.",
+          "cta_title": "Ready to localize your audio?",
+          "cta_body": "Share your video files and we'll provide a quote and sample within 24 hours.",
+          "cta_all": "All Localization Services",
+          "web_label": "Also from MediaLocalize",
+          "web_title": "Need a multilingual website too?",
+          "web_body": "We build fast, SEO-ready English websites for B2B exporters — with dubbing, subtitles, and localized content from the same team.",
+          "web_cta": "Explore Website Building"
+        }
       },
       "services/localization/video": {
         "cover": "/images/services/video-localization.jpg"
@@ -871,18 +1588,48 @@
         ]
       ],
       "industries": [
-        "制造业与工业设备",
-        "医疗器械与医药",
-        "企业培训与在线学习",
-        "营销与广告",
-        "法律与合规资料"
+        [
+          "制造业与工业设备",
+          "/services/website-building/"
+        ],
+        [
+          "医疗器械与医药",
+          "/services/localization/"
+        ],
+        [
+          "企业培训与在线学习",
+          "/services/localization/elearning/"
+        ],
+        [
+          "营销与广告",
+          "/services/localization/video/"
+        ],
+        [
+          "法律与合规资料",
+          "/services/localization/dtp/"
+        ]
       ],
       "languages": [
-        "中 ↔ 英",
-        "日语与韩语",
-        "德语、法语、西班牙语",
-        "阿拉伯语与 RTL 排版",
-        "总计 50+ 语言组合"
+        [
+          "中 ↔ 英",
+          "/services/localization/"
+        ],
+        [
+          "日语与韩语",
+          "/services/localization/"
+        ],
+        [
+          "德语、法语、西班牙语",
+          "/services/localization/"
+        ],
+        [
+          "阿拉伯语与 RTL 排版",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "总计 50+ 语言组合",
+          "/services/localization/dubbing/"
+        ]
       ],
       "copyright": "MediaLocalize — 多语言本地化与全球网站服务，保留所有权利",
       "privacy": "隐私政策",
@@ -1114,7 +1861,7 @@
             "全球 CDN + 边缘缓存",
             "高级 SEO 与数据分析",
             "AI 客服集成",
-            "7×24 优先支持",
+            "优先支持 —— 直接对接项目团队",
             "季度策略复盘",
             "每周发布 1 篇新闻/文章",
             "每月最多 10 次产品更新"
@@ -1122,6 +1869,26 @@
           "featured": false
         }
       ],
+      "addons": {
+        "title": "增值选项",
+        "items": [
+          [
+            "多语言扩展 —— 每增加一种语言",
+            "$199 一次性 + $99/年",
+            "将整站专业翻译并以本地化方式部署为一种新语言，含 hreflang 配置。"
+          ],
+          [
+            "附加域名",
+            "$25 / 个 / 年",
+            "额外独立域名指向你的网站，含 SSL 证书。"
+          ],
+          [
+            "附加企业邮箱",
+            "$50 / 账号 / 年",
+            "在你的域名下增加邮箱账号。"
+          ]
+        ]
+      },
       "plan_cta": "免费咨询",
       "web_note": "建站费覆盖设计、开发与上线，年费覆盖托管、维护和支持，企业级定制可单独报价",
       "loc_intro": {
@@ -1183,7 +1950,7 @@
       "info_title": "联系方式",
       "email_label": "邮箱",
       "languages_label": "沟通语言",
-      "languages": "支持中文与英文沟通",
+      "languages": "English · 中文 · Español · Русский · العربية",
       "response_label": "回复时间",
       "response": "1 个工作日内",
       "include_title": "建议在留言中说明",
@@ -1211,9 +1978,9 @@
         "message": "请说明语言组合、内容量、时间要求等"
       },
       "options": [
-        "网站 — Starter 入门 ($199/年)",
-        "网站 — Growth 增长 ($499/年)",
-        "网站 — Business 商务 ($999/年)",
+        "网站 — Starter 入门（$199 搭建费 + $199/年）",
+        "网站 — Growth 增长（$499 搭建费 + $299/年）",
+        "网站 — Business 商务（$999 搭建费 + $399/年）",
         "DTP 桌面排版",
         "AI 配音",
         "真人配音",
@@ -1494,7 +2261,340 @@
             "title": "询盘路径",
             "desc": "表单、邮箱、产品资料下载和 AI 客服协同收集线索"
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "网站建设",
+          "hero_title": "您的业务，<br>让世界看见。",
+          "hero_subtitle": "我们为 B2B 制造企业与出口商打造专业的英文网站——从域名到上线，全程托管。免费咨询，根据您的实际需求定制报价。",
+          "hero_cta": "免费咨询",
+          "included_label": "服务内容",
+          "included_title": "您的全球化网站所需的一切",
+          "included_body": "一次合作——从域名注册到上线部署，全程托管。您专注业务，其余的交给我们。",
+          "included": [
+            {
+              "icon": "monitor",
+              "title": "域名与托管",
+              "desc": "域名注册、SSL 证书与企业级全球托管——99.9% 在线率，您这边零运维负担。"
+            },
+            {
+              "icon": "pen",
+              "title": "专业设计",
+              "desc": "简洁现代的设计，助您在国际买家面前建立信任。在桌面、平板与手机端均像素级完美呈现。上线前与您共同评审确认。"
+            },
+            {
+              "icon": "globe",
+              "title": "全球 CDN 加速",
+              "desc": "无论访客来自北美、欧洲、东南亚还是中东，您的网站都能在一秒内加载完成——由离每位访客最近的边缘节点提供服务。"
+            },
+            {
+              "icon": "search",
+              "title": "SEO 与曝光",
+              "desc": "关键词调研、站内优化与结构化数据，让海外买家在 Google 搜索时能找到您的产品。每月附送排名报告。"
+            },
+            {
+              "icon": "chat",
+              "title": "AI 客服",
+              "desc": "基于您的产品与常见问题训练的 7×24 小时 AI 聊天机器人。自动捕获销售线索、多语言解答咨询，并在需要时转接您的团队。"
+            },
+            {
+              "icon": "chart",
+              "title": "持续维护",
+              "desc": "定期更新产品、发布新闻、安全补丁与月度性能报告。您的网站始终保持最新，无需您操心任何工作。"
+            }
+          ],
+          "process_label": "服务流程",
+          "process_title": "从咨询到网站上线",
+          "process_body": "清晰、结构化的流程——没有开放式长期合约，没有意外。",
+          "steps": [
+            {
+              "title": "提交免费咨询",
+              "meta": "免费 · 无任何义务",
+              "desc": "填写下方简短表单——您所在的地区、行业、目标市场以及您销售的产品。大约只需 3 分钟，完全免费。我们会借此在联系您之前先了解您的业务。"
+            },
+            {
+              "title": "我们分析并回复",
+              "meta": "1 个工作日内",
+              "desc": "我们的团队会审阅您的需求简报，并准备量身定制的方案——推荐套餐、预估工期，以及基于您实际需求的固定报价。绝不套用模板化套餐。"
+            },
+            {
+              "title": "确认方案与报价",
+              "meta": "第 2–3 天",
+              "desc": "我们与您一起逐项过方案、解答疑问，并锁定项目范围。一切商定后您才需要付款——固定价格、固定工期、绝无意外。"
+            },
+            {
+              "title": "设计、开发与上线",
+              "meta": "2–3 周",
+              "desc": "我们设计页面、撰写英文文案并搭建网站。上线前您可通过测试网址预览审核。上线服务包含向 Google 提交站点地图及配置数据分析。"
+            },
+            {
+              "title": "持续支持与内容更新",
+              "meta": "每月",
+              "desc": "定期更新产品、发布新闻与 SEO 报告。您的网站持续成长、保持新鲜，无需您亲自打理。套餐可随时升级或降级。"
+            }
+          ],
+          "ideal_label": "适用对象",
+          "ideal_title": "我们为谁而建",
+          "ideal": [
+            {
+              "title": "B2B 制造企业与出口商",
+              "desc": "需要可信的英文网站形象来赢取国际询盘的 OEM/ODM 工厂与贸易公司——而不只是一个阿里巴巴店铺页面。"
+            },
+            {
+              "title": "专业服务机构",
+              "desc": "正在拓展新市场的律所、咨询公司与代理机构。我们打造多语言网站，为海外客户把握恰当的语气与法律免责声明。"
+            },
+            {
+              "title": "尚无英文网站的企业",
+              "desc": "如果您的公司只有中文网站——或根本没有网站——我们从头为您包办一切。域名、文案、设计与上线，2–3 周完成。"
+            }
+          ],
+          "form_label": "免费咨询",
+          "form_title": "向我们介绍您的业务",
+          "form_body": "大约需要 3 分钟。我们将根据您的回答准备量身定制的方案——完全免费，无任何义务。我们会在一个工作日内回复。",
+          "form": {
+            "success_title": "已收到您的需求简报——谢谢！",
+            "success_body": "我们会审阅您提交的信息，并在一个工作日内回复您一份量身定制的方案。",
+            "sec_contact": "联系信息",
+            "sec_business": "业务信息",
+            "sec_details": "补充说明",
+            "label_name": "姓名 *",
+            "label_email": "电子邮箱 *",
+            "label_company": "公司名称",
+            "label_region": "您所在的地区 *",
+            "label_industry": "所属行业 *",
+            "label_biz_type": "业务类型 *",
+            "label_offer_type": "您主要提供 *",
+            "label_product_count": "产品 / SKU 数量",
+            "label_target_customer": "目标客户",
+            "label_target_market": "目标市场 *",
+            "label_current_site": "现有网站（如有）",
+            "label_notes": "其他希望我们了解的信息",
+            "ph_name": "您的姓名",
+            "ph_email": "you@company.com",
+            "ph_company": "您的公司名称",
+            "ph_current_site": "https://example.com — 如无则留空",
+            "ph_notes": "工期要求、竞品参考、特殊功能、预算范围……",
+            "opt_region": [
+              [
+                "",
+                "请选择地区……"
+              ],
+              [
+                "cn-mainland",
+                "中国 — 大陆"
+              ],
+              [
+                "cn-hktw",
+                "中国 — 香港 / 台湾"
+              ],
+              [
+                "sea",
+                "东南亚"
+              ],
+              [
+                "south-asia",
+                "南亚"
+              ],
+              [
+                "middle-east",
+                "中东"
+              ],
+              [
+                "europe",
+                "欧洲"
+              ],
+              [
+                "north-america",
+                "北美"
+              ],
+              [
+                "other",
+                "其他"
+              ]
+            ],
+            "opt_industry": [
+              [
+                "",
+                "请选择行业……"
+              ],
+              [
+                "manufacturing",
+                "制造业 / OEM / ODM"
+              ],
+              [
+                "trading",
+                "贸易 / 进出口"
+              ],
+              [
+                "professional-services",
+                "专业服务"
+              ],
+              [
+                "tech",
+                "科技 / SaaS"
+              ],
+              [
+                "education",
+                "教育 / 培训"
+              ],
+              [
+                "healthcare",
+                "医疗健康"
+              ],
+              [
+                "consumer-goods",
+                "消费品 / 零售"
+              ],
+              [
+                "other",
+                "其他"
+              ]
+            ],
+            "opt_biz_type": [
+              [
+                "",
+                "请选择类型……"
+              ],
+              [
+                "b2b",
+                "B2B — 面向企业客户销售"
+              ],
+              [
+                "b2c",
+                "B2C — 面向消费者销售"
+              ],
+              [
+                "b2b-b2c",
+                "B2B 与 B2C 兼有"
+              ]
+            ],
+            "opt_offer_type": [
+              [
+                "",
+                "请选择……"
+              ],
+              [
+                "products",
+                "实体产品 / 商品"
+              ],
+              [
+                "services",
+                "服务"
+              ],
+              [
+                "both",
+                "产品 + 服务"
+              ]
+            ],
+            "opt_product_count": [
+              [
+                "",
+                "大约数量……"
+              ],
+              [
+                "1-5",
+                "1 – 5"
+              ],
+              [
+                "6-20",
+                "6 – 20"
+              ],
+              [
+                "21-50",
+                "21 – 50"
+              ],
+              [
+                "50+",
+                "50 以上"
+              ],
+              [
+                "unknown",
+                "还不确定"
+              ]
+            ],
+            "opt_target_customer": [
+              [
+                "",
+                "谁会向您采购？"
+              ],
+              [
+                "manufacturers",
+                "制造商 / OEM 买家"
+              ],
+              [
+                "distributors",
+                "批发商与分销商"
+              ],
+              [
+                "retailers",
+                "零售商"
+              ],
+              [
+                "end-consumers",
+                "终端消费者"
+              ],
+              [
+                "enterprises",
+                "企业与机构"
+              ],
+              [
+                "mix",
+                "以上多种兼有"
+              ]
+            ],
+            "opt_target_market": [
+              [
+                "",
+                "您的目标买家在哪里？"
+              ],
+              [
+                "north-america",
+                "北美"
+              ],
+              [
+                "europe",
+                "欧洲"
+              ],
+              [
+                "sea",
+                "东南亚"
+              ],
+              [
+                "middle-east",
+                "中东与非洲"
+              ],
+              [
+                "latin-america",
+                "拉丁美洲"
+              ],
+              [
+                "global",
+                "全球 — 多个地区"
+              ],
+              [
+                "unknown",
+                "还不确定"
+              ]
+            ],
+            "submit": "提交免费咨询",
+            "sending": "发送中…",
+            "footnote": "免费 · 无任何义务 · 我们将在 1 个工作日内回复",
+            "err_name": "请输入您的姓名。",
+            "err_email": "请输入有效的电子邮箱地址。",
+            "err_region": "请选择您所在的地区。",
+            "err_industry": "请选择您所属的行业。",
+            "err_biz_type": "请选择您的业务类型。",
+            "err_offer_type": "请告诉我们您主要提供什么。",
+            "err_target_market": "请选择您的目标市场。",
+            "err_missing": "请填写所有必填项。",
+            "err_invalid_email": "该邮箱地址似乎有误，请检查。",
+            "err_generic": "出了点问题——请重试，或发送邮件至 ken.lee@medialocalize.com"
+          },
+          "loc_label": "准备走向多语言？",
+          "loc_title": "只有英语还不够？",
+          "loc_body": "我们的本地化团队可将您的网站、文档、视频与电子课程翻译为 50+ 种语言——同一合作伙伴、同一项目团队。",
+          "loc_cta": "了解本地化服务"
+        }
       },
       "services/localization": {
         "title": "多语言本地化服务",
@@ -1515,7 +2615,112 @@
             "title": "市场适配",
             "desc": "按目标读者习惯调整表达，不做生硬直译"
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "服务",
+          "offer_label": "我们的服务",
+          "offer_title": "四大本地化专长",
+          "offer_body": "从技术文档到多媒体内容——涵盖每种格式、每种语言。",
+          "subs": [
+            {
+              "title": "桌面出版排版（DTP）",
+              "desc": "使用 InDesign、FrameMaker、Word、PowerPoint 等工具，交付像素级完美的多语言文档。$2/页起。",
+              "url": "/services/localization/dtp/",
+              "img": "/images/services/dtp.jpg",
+              "icon": "doc"
+            },
+            {
+              "title": "多媒体配音",
+              "desc": "AI 配音 $1/分钟起，真人配音 $20/分钟起。支持 50+ 种语言，效果自然逼真。",
+              "url": "/services/localization/dubbing/",
+              "img": "/images/services/dubbing.jpg",
+              "icon": "mic"
+            },
+            {
+              "title": "视频与动画本地化",
+              "desc": "字幕、屏幕文字、动态图形及完整的视频改编。$8/分钟起。",
+              "url": "/services/localization/video/",
+              "img": "/images/services/video-localization.jpg",
+              "icon": "video"
+            },
+            {
+              "title": "电子课程本地化",
+              "desc": "SCORM、xAPI、Articulate、Captivate——涵盖旁白、界面与测验的完整课程本地化。$0.12/词起。",
+              "url": "/services/localization/elearning/",
+              "img": "/images/services/elearning.jpg",
+              "icon": "book"
+            }
+          ],
+          "learn_more": "了解更多",
+          "lang_label": "语言覆盖",
+          "lang_title": "支持 50+ 种语言",
+          "lang_body": "母语译员覆盖全球各主要语言及其地区变体。",
+          "langs": [
+            "英语",
+            "简体中文",
+            "繁体中文",
+            "西班牙语",
+            "法语",
+            "德语",
+            "日语",
+            "韩语",
+            "阿拉伯语",
+            "葡萄牙语",
+            "俄语",
+            "意大利语",
+            "荷兰语",
+            "波兰语",
+            "土耳其语",
+            "越南语",
+            "泰语",
+            "印尼语",
+            "马来语",
+            "印地语",
+            "孟加拉语",
+            "瑞典语",
+            "挪威语",
+            "丹麦语",
+            "芬兰语",
+            "捷克语",
+            "罗马尼亚语",
+            "匈牙利语",
+            "希腊语",
+            "希伯来语",
+            "乌克兰语",
+            "波斯语",
+            "乌尔都语",
+            "他加禄语",
+            "斯瓦希里语"
+          ],
+          "langs_more": "+ 更多",
+          "qa_label": "质量保证",
+          "qa_title": "我们如何确保准确性",
+          "qa_steps": [
+            {
+              "title": "专家翻译",
+              "desc": "由具备您所在行业专业知识的母语译员执笔。所有译员在承接项目前均须通过语言能力测试。"
+            },
+            {
+              "title": "AI 辅助译后编辑",
+              "desc": "AI 工具加速处理重复性内容，资深语言专家全程把关一致性、语气与文化适切性。"
+            },
+            {
+              "title": "独立审校",
+              "desc": "由第二位母语人士对照原文审校终稿，确保准确、流畅，并符合您的风格指南。"
+            },
+            {
+              "title": "格式与排版质检",
+              "desc": "所有文件在交付前均经过文字溢出、版式完整性、字体渲染及文件格式合规性检查。"
+            }
+          ],
+          "web_label": "MediaLocalize 另有服务",
+          "web_title": "需要先建一个网站吗？",
+          "web_body": "我们为 B2B 制造企业与出口商打造快速、利于 SEO 的英文网站——然后将其本地化为本页所列的每一种语言。",
+          "web_cta": "了解网站建设服务",
+          "cta_label": "开始使用",
+          "cta_title": "让我们本地化您的内容。",
+          "cta_body": "把文件发给我们，我们将在 24 小时内提供报价。"
+        }
       },
       "services/localization/dtp": {
         "title": "DTP 桌面排版",
@@ -1557,7 +2762,236 @@
             "title": "脚本适配",
             "desc": "调整句长和节奏，避免听起来像书面翻译"
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "语言本地化",
+          "request_sample": "索取试听样音",
+          "toggle_ai": "AI 配音",
+          "toggle_ai_sub": "$1/分钟起 · 24–72 小时交付",
+          "toggle_human": "真人配音",
+          "toggle_human_sub": "$20/分钟起 · 3–7 天交付",
+          "ai_label": "AI 语音库",
+          "ai_title": "自然的 AI 语音，各种风格应有尽有",
+          "ai_body": "在下方试听我们的 AI 语音档案。点击任意样音，即可索取您目标语言的完整演示。",
+          "male_voices": "男声",
+          "female_voices": "女声",
+          "voices": [
+            {
+              "name": "Alex",
+              "gender": "male",
+              "style": "年轻男声 · 22–28 岁 · 自然对话风",
+              "samples": [
+                "产品演示",
+                "培训视频"
+              ]
+            },
+            {
+              "name": "Marcus",
+              "gender": "male",
+              "style": "中年男声 · 38–48 岁 · 专业权威",
+              "samples": [
+                "讲解视频",
+                "企业解说"
+              ]
+            },
+            {
+              "name": "William",
+              "gender": "male",
+              "style": "资深男声 · 55–65 岁 · 温暖可信",
+              "samples": [
+                "品牌故事",
+                "金融 / 法律"
+              ]
+            },
+            {
+              "name": "Sophie",
+              "gender": "female",
+              "style": "年轻女声 · 22–28 岁 · 活力亲和",
+              "samples": [
+                "教程",
+                "营销广告"
+              ]
+            },
+            {
+              "name": "Claire",
+              "gender": "female",
+              "style": "中年女声 · 35–45 岁 · 专业沉稳",
+              "samples": [
+                "企业宣传",
+                "在线课程"
+              ]
+            },
+            {
+              "name": "Emma",
+              "gender": "female",
+              "style": "资深女声 · 55–65 岁 · 亲切可信",
+              "samples": [
+                "医疗健康",
+                "金融"
+              ]
+            }
+          ],
+          "ai_note": "所有 AI 语音均支持 50+ 种语言。可按需定制声音克隆。",
+          "ai_cta": "索取 AI 语音样音",
+          "human_label": "真人配音演员",
+          "human_title": "经认证的母语配音演员",
+          "human_body": "适用于对真实人声演绎有要求的高端品牌内容与项目。所有演员均通过试音甄选，是受过专业训练的母语人士。",
+          "actors": [
+            {
+              "name": "Daniel",
+              "style": "年轻男声 · 25–32 岁 · 动感富有感染力",
+              "langs": [
+                "EN (US)",
+                "EN (AU)"
+              ],
+              "bio": "Daniel 是一位多才多艺的演员，拥有 8 年商业广告与动画配音经验。他以自然的演绎方式著称，能够在喜剧、正剧与高能量风格之间自如切换，是全球科技与生活方式品牌推广的常驻之选。",
+              "tags": [
+                "商业广告",
+                "品牌宣传片",
+                "动画",
+                "产品发布"
+              ],
+              "samples": [
+                "品牌宣传片",
+                "产品发布"
+              ],
+              "color": "#1a3a5c"
+            },
+            {
+              "name": "Richard",
+              "style": "中年男声 · 40–50 岁 · 低沉有力",
+              "langs": [
+                "EN (UK)",
+                "EN (US)"
+              ],
+              "bio": "Richard 是资深播音员与纪录片解说员，深耕行业 15 年以上。他极具掌控感的男中音，是高端品牌影片、财经传播以及需要庄重质感的严肃题材内容的信赖之选。",
+              "tags": [
+                "纪录片",
+                "企业宣传",
+                "金融",
+                "工业"
+              ],
+              "samples": [
+                "纪录片",
+                "工业培训"
+              ],
+              "color": "#2c1a1a"
+            },
+            {
+              "name": "Olivia",
+              "style": "年轻女声 · 24–30 岁 · 明亮有说服力",
+              "langs": [
+                "EN (US)",
+                "EN (CA)"
+              ],
+              "bio": "Olivia 拥有戏剧与商业配音背景，能为每一句台词注入温暖与感染力十足的能量。她经常获选参与科技、生活方式及 App 推广类项目，擅长让复杂的概念变得亲切易懂、令人期待。",
+              "tags": [
+                "商业广告",
+                "App 推广",
+                "科技",
+                "在线课程"
+              ],
+              "samples": [
+                "商业广告",
+                "App 推广"
+              ],
+              "color": "#1a2e1a"
+            },
+            {
+              "name": "Margaret",
+              "style": "中年女声 · 38–48 岁 · 自信清晰",
+              "langs": [
+                "EN (UK)",
+                "FR"
+              ],
+              "bio": "Margaret 是双语演员（英语/法语），专注于企业传播与医疗健康内容。Margaret 吐字极其清晰，语调权威而不失亲和，是合规、安全及企业培训项目的首选配音。",
+              "tags": [
+                "医疗健康",
+                "企业宣传",
+                "培训",
+                "合规"
+              ],
+              "samples": [
+                "培训与安全",
+                "企业视频"
+              ],
+              "color": "#2c1a3a"
+            }
+          ],
+          "human_note": "覆盖 40+ 个语言市场的母语人士。支持通过 Source-Connect 进行远程导演监棚。",
+          "human_cta": "申请配音选角",
+          "lang_label": "语言覆盖",
+          "lang_title": "50+ 种语言",
+          "langs": [
+            "英语（美式）",
+            "英语（英式）",
+            "中文（普通话）",
+            "粤语",
+            "西班牙语（拉美）",
+            "西班牙语（西班牙）",
+            "法语",
+            "德语",
+            "日语",
+            "韩语",
+            "阿拉伯语（标准语）",
+            "葡萄牙语（巴西）",
+            "俄语",
+            "意大利语",
+            "荷兰语",
+            "波兰语",
+            "土耳其语",
+            "越南语",
+            "泰语",
+            "印尼语",
+            "印地语",
+            "瑞典语",
+            "挪威语",
+            "丹麦语",
+            "芬兰语",
+            "希腊语",
+            "希伯来语",
+            "捷克语",
+            "罗马尼亚语",
+            "匈牙利语"
+          ],
+          "langs_more": "+ 另外 20 种",
+          "pricing_label": "价格",
+          "pricing_title": "透明的配音报价",
+          "pricing": [
+            {
+              "amount": "$1–$2",
+              "unit": "/分钟",
+              "name": "AI 配音",
+              "sub": "24–72 小时交付"
+            },
+            {
+              "amount": "$5–$10",
+              "unit": "/分钟",
+              "name": "AI + 人工审校",
+              "sub": "由母语人士质检把关"
+            },
+            {
+              "amount": "$20–$50",
+              "unit": "/分钟",
+              "name": "真人配音演员",
+              "sub": "3–7 天交付"
+            },
+            {
+              "amount": "定制报价",
+              "unit": "",
+              "name": "口型同步配音",
+              "sub": "根据视频时长报价"
+            }
+          ],
+          "pricing_note": "价格按音频成品每分钟计。最低订单金额为 50 美元。30 分钟起可享批量折扣。",
+          "cta_title": "准备好本地化您的音频了吗？",
+          "cta_body": "把您的视频文件发给我们，我们将在 24 小时内提供报价与样音。",
+          "cta_all": "查看全部本地化服务",
+          "web_label": "MediaLocalize 另有服务",
+          "web_title": "还需要一个多语言网站吗？",
+          "web_body": "我们为 B2B 出口商打造快速、利于 SEO 的英文网站——配音、字幕与本地化内容均由同一团队完成。",
+          "web_cta": "了解网站建设服务"
+        }
       },
       "services/localization/video": {
         "title": "视频与动画本地化",
@@ -1883,18 +3317,48 @@
         ]
       ],
       "industries": [
-        "Manufactura e industria",
-        "Dispositivos médicos y farma",
-        "E-learning corporativo",
-        "Marketing y publicidad",
-        "Legal y cumplimiento"
+        [
+          "Manufactura e industria",
+          "/services/website-building/"
+        ],
+        [
+          "Dispositivos médicos y farma",
+          "/services/localization/"
+        ],
+        [
+          "E-learning corporativo",
+          "/services/localization/elearning/"
+        ],
+        [
+          "Marketing y publicidad",
+          "/services/localization/video/"
+        ],
+        [
+          "Legal y cumplimiento",
+          "/services/localization/dtp/"
+        ]
       ],
       "languages": [
-        "Chino ↔ inglés",
-        "Japonés y coreano",
-        "Alemán, francés, español",
-        "Árabe y escrituras RTL",
-        "50+ pares de idiomas"
+        [
+          "Chino ↔ inglés",
+          "/services/localization/"
+        ],
+        [
+          "Japonés y coreano",
+          "/services/localization/"
+        ],
+        [
+          "Alemán, francés, español",
+          "/services/localization/"
+        ],
+        [
+          "Árabe y escrituras RTL",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "50+ pares de idiomas",
+          "/services/localization/dubbing/"
+        ]
       ],
       "copyright": "MediaLocalize — Localización multilingüe y sitios globales. Todos los derechos reservados.",
       "privacy": "Privacidad",
@@ -2127,7 +3591,7 @@
             "CDN global + edge caching",
             "SEO avanzado y analítica",
             "Chatbot con IA",
-            "Soporte prioritario 24/7",
+            "Soporte prioritario — línea directa con el equipo del proyecto",
             "Revisión estratégica trimestral",
             "1 artículo por semana",
             "Hasta 10 actualizaciones de producto al mes"
@@ -2136,6 +3600,26 @@
           "badge": ""
         }
       ],
+      "addons": {
+        "title": "Complementos",
+        "items": [
+          [
+            "Sitio multilingüe — añade 1 idioma",
+            "$199 único + $99/año",
+            "Traducción profesional y despliegue localizado de todo tu sitio en un idioma adicional, incl. hreflang."
+          ],
+          [
+            "Dominio adicional",
+            "$25 / dominio / año",
+            "Dominio extra apuntando a tu sitio, incl. SSL."
+          ],
+          [
+            "Email empresarial adicional",
+            "$50 / cuenta / año",
+            "Buzón extra en tu dominio."
+          ]
+        ]
+      },
       "plan_cta": "Consulta gratuita",
       "web_note": "La configuración cubre diseño, desarrollo y lanzamiento. La cuota anual cubre hosting, mantenimiento y soporte.",
       "loc_intro": {
@@ -2197,7 +3681,7 @@
       "info_title": "Contacto directo",
       "email_label": "Email",
       "languages_label": "Idiomas",
-      "languages": "Atendemos en inglés y chino",
+      "languages": "English · 中文 · Español · Русский · العربية",
       "response_label": "Tiempo de respuesta",
       "response": "En 1 día hábil",
       "include_title": "Incluye en tu mensaje:",
@@ -2225,9 +3709,9 @@
         "message": "Cuéntanos idiomas, volumen y plazo..."
       },
       "options": [
-        "Sitio — Starter ($199/año)",
-        "Sitio — Growth ($499/año)",
-        "Sitio — Business ($999/año)",
+        "Sitio — Starter (setup $199 + $199/año)",
+        "Sitio — Growth (setup $499 + $299/año)",
+        "Sitio — Business (setup $999 + $399/año)",
         "DTP",
         "Doblaje con IA",
         "Doblaje humano",
@@ -2508,7 +3992,340 @@
             "title": "QA humano",
             "desc": "Revisión de precisión, formato y experiencia final."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Creación de sitios web",
+          "hero_title": "Su empresa,<br>visible para el mundo.",
+          "hero_subtitle": "Creamos sitios web profesionales en inglés para fabricantes y exportadores B2B: desde el dominio hasta el sitio en línea, todo gestionado. Consulta gratuita y cotización personalizada según sus necesidades reales.",
+          "hero_cta": "Consulta gratuita",
+          "included_label": "Qué incluye",
+          "included_title": "Todo lo que su sitio global necesita",
+          "included_body": "Un solo proyecto: desde el registro del dominio hasta la puesta en línea, totalmente gestionado. Usted se concentra en su negocio; nosotros nos encargamos del resto.",
+          "included": [
+            {
+              "icon": "monitor",
+              "title": "Dominio y alojamiento",
+              "desc": "Registro de dominio, certificado SSL y alojamiento global de nivel empresarial: 99,9 % de disponibilidad, sin carga operativa de su parte."
+            },
+            {
+              "icon": "pen",
+              "title": "Diseño profesional",
+              "desc": "Diseño limpio y moderno que genera credibilidad ante compradores internacionales. Impecable al píxel en escritorio, tableta y móvil. Revisado con usted antes del lanzamiento."
+            },
+            {
+              "icon": "globe",
+              "title": "Entrega global por CDN",
+              "desc": "Su sitio carga en menos de un segundo desde Norteamérica, Europa, el Sudeste Asiático o Medio Oriente, servido desde el nodo perimetral más cercano a cada visitante."
+            },
+            {
+              "icon": "search",
+              "title": "SEO y visibilidad",
+              "desc": "Investigación de palabras clave, optimización on-page y datos estructurados para que sus productos aparezcan cuando los compradores extranjeros buscan en Google. Informes mensuales de posicionamiento incluidos."
+            },
+            {
+              "icon": "chat",
+              "title": "Atención al cliente con IA",
+              "desc": "Chatbot de IA 24/7 entrenado con sus productos y preguntas frecuentes. Capta clientes potenciales, responde consultas en varios idiomas y transfiere la conversación a su equipo cuando es necesario."
+            },
+            {
+              "icon": "chart",
+              "title": "Mantenimiento continuo",
+              "desc": "Actualizaciones periódicas de productos, publicación de noticias, parches de seguridad e informes mensuales de rendimiento. Su sitio se mantiene al día sin ningún trabajo de su parte."
+            }
+          ],
+          "process_label": "Cómo funciona",
+          "process_title": "De la consulta al sitio en línea",
+          "process_body": "Un proceso claro y estructurado: sin contratos indefinidos ni sorpresas.",
+          "steps": [
+            {
+              "title": "Envíe una consulta gratuita",
+              "meta": "Gratis · Sin compromiso",
+              "desc": "Complete el breve formulario a continuación: su región, sector, mercado objetivo y qué vende. Toma unos 3 minutos y es completamente gratuito. Lo usamos para conocer su negocio antes de contactarlo."
+            },
+            {
+              "title": "Analizamos y respondemos",
+              "meta": "En 1 día hábil",
+              "desc": "Nuestro equipo revisa su información y prepara una propuesta a medida: plan recomendado, cronograma estimado y una cotización de precio fijo basada en su alcance real. Sin paquetes genéricos."
+            },
+            {
+              "title": "Confirme el plan y la cotización",
+              "meta": "Día 2–3",
+              "desc": "Revisamos juntos la propuesta, resolvemos dudas y definimos el alcance. Solo paga después de acordar todo: precio fijo, plazo fijo, sin sorpresas."
+            },
+            {
+              "title": "Diseño, desarrollo y lanzamiento",
+              "meta": "2–3 semanas",
+              "desc": "Diseñamos las páginas, redactamos los textos en inglés y construimos el sitio. Usted revisa una URL de prueba antes de que nada salga en línea. El lanzamiento incluye el envío del sitemap a Google y la configuración de analítica."
+            },
+            {
+              "title": "Soporte y contenido continuos",
+              "meta": "Mensual",
+              "desc": "Actualizaciones periódicas de productos, publicación de noticias e informes de SEO. Su sitio crece y se mantiene actualizado sin que tenga que gestionarlo. Cambie de plan en cualquier momento."
+            }
+          ],
+          "ideal_label": "Ideal para",
+          "ideal_title": "Para quién construimos",
+          "ideal": [
+            {
+              "title": "Fabricantes y exportadores B2B",
+              "desc": "Fábricas OEM/ODM y empresas comerciales que necesitan una presencia web en inglés creíble para ganar solicitudes de cotización internacionales, no solo una página de tienda en Alibaba."
+            },
+            {
+              "title": "Firmas de servicios profesionales",
+              "desc": "Despachos de abogados, consultoras y agencias que se expanden a nuevos mercados. Creamos sitios multilingües con el tono y los avisos legales adecuados para clientes internacionales."
+            },
+            {
+              "title": "Empresas sin sitio en inglés",
+              "desc": "Si su empresa solo tiene un sitio web en chino, o ningún sitio web, nos encargamos de todo desde cero. Dominio, textos, diseño y lanzamiento en 2–3 semanas."
+            }
+          ],
+          "form_label": "Consulta gratuita",
+          "form_title": "Cuéntenos sobre su negocio",
+          "form_body": "Toma unos 3 minutos. Usaremos sus respuestas para preparar una propuesta a medida: completamente gratis y sin compromiso. Respondemos en un día hábil.",
+          "form": {
+            "success_title": "Solicitud recibida. ¡Gracias!",
+            "success_body": "Revisaremos su envío y le responderemos en un día hábil con una propuesta a medida.",
+            "sec_contact": "Información de contacto",
+            "sec_business": "Información del negocio",
+            "sec_details": "Detalles adicionales",
+            "label_name": "Nombre completo *",
+            "label_email": "Correo electrónico *",
+            "label_company": "Nombre de la empresa",
+            "label_region": "Su región *",
+            "label_industry": "Sector *",
+            "label_biz_type": "Tipo de negocio *",
+            "label_offer_type": "Ofrece principalmente *",
+            "label_product_count": "Número de productos / SKU",
+            "label_target_customer": "Clientes objetivo",
+            "label_target_market": "Mercado objetivo *",
+            "label_current_site": "Sitio web actual (si tiene)",
+            "label_notes": "Algo más que debamos saber",
+            "ph_name": "Su nombre",
+            "ph_email": "usted@empresa.com",
+            "ph_company": "Nombre de su empresa",
+            "ph_current_site": "https://ejemplo.com — o déjelo en blanco si no tiene",
+            "ph_notes": "Plazos, referencias de competidores, funciones especiales, rango de presupuesto...",
+            "opt_region": [
+              [
+                "",
+                "Seleccione la región..."
+              ],
+              [
+                "cn-mainland",
+                "China — Continental"
+              ],
+              [
+                "cn-hktw",
+                "China — Hong Kong / Taiwán"
+              ],
+              [
+                "sea",
+                "Sudeste Asiático"
+              ],
+              [
+                "south-asia",
+                "Asia del Sur"
+              ],
+              [
+                "middle-east",
+                "Medio Oriente"
+              ],
+              [
+                "europe",
+                "Europa"
+              ],
+              [
+                "north-america",
+                "Norteamérica"
+              ],
+              [
+                "other",
+                "Otra"
+              ]
+            ],
+            "opt_industry": [
+              [
+                "",
+                "Seleccione el sector..."
+              ],
+              [
+                "manufacturing",
+                "Manufactura / OEM / ODM"
+              ],
+              [
+                "trading",
+                "Comercio / Importación y exportación"
+              ],
+              [
+                "professional-services",
+                "Servicios profesionales"
+              ],
+              [
+                "tech",
+                "Tecnología / SaaS"
+              ],
+              [
+                "education",
+                "Educación / Capacitación"
+              ],
+              [
+                "healthcare",
+                "Salud / Medicina"
+              ],
+              [
+                "consumer-goods",
+                "Bienes de consumo / Comercio minorista"
+              ],
+              [
+                "other",
+                "Otro"
+              ]
+            ],
+            "opt_biz_type": [
+              [
+                "",
+                "Seleccione el tipo..."
+              ],
+              [
+                "b2b",
+                "B2B — Venta a otras empresas"
+              ],
+              [
+                "b2c",
+                "B2C — Venta a consumidores"
+              ],
+              [
+                "b2b-b2c",
+                "B2B + B2C, ambos"
+              ]
+            ],
+            "opt_offer_type": [
+              [
+                "",
+                "Seleccione..."
+              ],
+              [
+                "products",
+                "Productos físicos / mercancías"
+              ],
+              [
+                "services",
+                "Servicios"
+              ],
+              [
+                "both",
+                "Productos + Servicios"
+              ]
+            ],
+            "opt_product_count": [
+              [
+                "",
+                "Cantidad aprox...."
+              ],
+              [
+                "1-5",
+                "1 – 5"
+              ],
+              [
+                "6-20",
+                "6 – 20"
+              ],
+              [
+                "21-50",
+                "21 – 50"
+              ],
+              [
+                "50+",
+                "Más de 50"
+              ],
+              [
+                "unknown",
+                "Aún no lo sé"
+              ]
+            ],
+            "opt_target_customer": [
+              [
+                "",
+                "¿Quién le compra?"
+              ],
+              [
+                "manufacturers",
+                "Fabricantes / compradores OEM"
+              ],
+              [
+                "distributors",
+                "Mayoristas y distribuidores"
+              ],
+              [
+                "retailers",
+                "Minoristas"
+              ],
+              [
+                "end-consumers",
+                "Consumidores finales"
+              ],
+              [
+                "enterprises",
+                "Empresas e instituciones"
+              ],
+              [
+                "mix",
+                "Una mezcla de lo anterior"
+              ]
+            ],
+            "opt_target_market": [
+              [
+                "",
+                "¿Dónde están sus compradores objetivo?"
+              ],
+              [
+                "north-america",
+                "Norteamérica"
+              ],
+              [
+                "europe",
+                "Europa"
+              ],
+              [
+                "sea",
+                "Sudeste Asiático"
+              ],
+              [
+                "middle-east",
+                "Medio Oriente y África"
+              ],
+              [
+                "latin-america",
+                "Latinoamérica"
+              ],
+              [
+                "global",
+                "Global — múltiples regiones"
+              ],
+              [
+                "unknown",
+                "Aún no lo sé"
+              ]
+            ],
+            "submit": "Enviar consulta gratuita",
+            "sending": "Enviando…",
+            "footnote": "Gratis · Sin compromiso · Respondemos en 1 día hábil",
+            "err_name": "Ingrese su nombre completo.",
+            "err_email": "Ingrese una dirección de correo electrónico válida.",
+            "err_region": "Seleccione su región.",
+            "err_industry": "Seleccione su sector.",
+            "err_biz_type": "Seleccione su tipo de negocio.",
+            "err_offer_type": "Indíquenos qué ofrece principalmente.",
+            "err_target_market": "Seleccione su mercado objetivo.",
+            "err_missing": "Complete todos los campos obligatorios.",
+            "err_invalid_email": "Esa dirección de correo electrónico no parece correcta. Revísela.",
+            "err_generic": "Algo salió mal. Inténtelo de nuevo o escríbanos a ken.lee@medialocalize.com"
+          },
+          "loc_label": "¿Quiere llegar a más idiomas?",
+          "loc_title": "¿Necesita más que inglés?",
+          "loc_body": "Nuestro equipo de localización traduce su sitio web, documentos, videos y e-learning a más de 50 idiomas: el mismo socio, el mismo equipo de proyecto.",
+          "loc_cta": "Conocer los servicios de localización"
+        }
       },
       "services/localization": {
         "title": "Localización multilingüe",
@@ -2529,7 +4346,112 @@
             "title": "QA humano",
             "desc": "Revisión de precisión, formato y experiencia final."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Servicios",
+          "offer_label": "Qué ofrecemos",
+          "offer_title": "Cuatro especialidades de localización",
+          "offer_body": "De documentos técnicos a contenido multimedia: todos los formatos, todos los idiomas.",
+          "subs": [
+            {
+              "title": "Autoedición multilingüe (DTP)",
+              "desc": "Documentos multilingües impecables al píxel en InDesign, FrameMaker, Word, PowerPoint y más. Desde $2/page.",
+              "url": "/services/localization/dtp/",
+              "img": "/images/services/dtp.jpg",
+              "icon": "doc"
+            },
+            {
+              "title": "Doblaje multimedia",
+              "desc": "Doblaje con IA desde $1/min y actores de voz profesionales desde $20/min. Resultados de sonido natural en más de 50 idiomas.",
+              "url": "/services/localization/dubbing/",
+              "img": "/images/services/dubbing.jpg",
+              "icon": "mic"
+            },
+            {
+              "title": "Localización de video y animación",
+              "desc": "Subtitulado, textos en pantalla, gráficos en movimiento y adaptación completa de video. Desde $8/minute.",
+              "url": "/services/localization/video/",
+              "img": "/images/services/video-localization.jpg",
+              "icon": "video"
+            },
+            {
+              "title": "Localización de e-learning",
+              "desc": "SCORM, xAPI, Articulate, Captivate: localización completa de cursos, incluidos narración, interfaz y evaluaciones. Desde $0.12/word.",
+              "url": "/services/localization/elearning/",
+              "img": "/images/services/elearning.jpg",
+              "icon": "book"
+            }
+          ],
+          "learn_more": "Más información",
+          "lang_label": "Cobertura de idiomas",
+          "lang_title": "Más de 50 idiomas compatibles",
+          "lang_body": "Lingüistas nativos en todos los idiomas principales del mundo y sus variantes regionales.",
+          "langs": [
+            "Inglés",
+            "Chino simplificado",
+            "Chino tradicional",
+            "Español",
+            "Francés",
+            "Alemán",
+            "Japonés",
+            "Coreano",
+            "Árabe",
+            "Portugués",
+            "Ruso",
+            "Italiano",
+            "Neerlandés",
+            "Polaco",
+            "Turco",
+            "Vietnamita",
+            "Tailandés",
+            "Indonesio",
+            "Malayo",
+            "Hindi",
+            "Bengalí",
+            "Sueco",
+            "Noruego",
+            "Danés",
+            "Finlandés",
+            "Checo",
+            "Rumano",
+            "Húngaro",
+            "Griego",
+            "Hebreo",
+            "Ucraniano",
+            "Persa (farsi)",
+            "Urdu",
+            "Tagalo",
+            "Suajili"
+          ],
+          "langs_more": "+ Más",
+          "qa_label": "Aseguramiento de la calidad",
+          "qa_title": "Cómo garantizamos la precisión",
+          "qa_steps": [
+            {
+              "title": "Traducción experta",
+              "desc": "Traductores nativos con experiencia en su sector. Todos los traductores superan pruebas de competencia antes de ser asignados."
+            },
+            {
+              "title": "Posedición asistida por IA",
+              "desc": "Las herramientas de IA aceleran el contenido repetitivo mientras un lingüista sénior garantiza coherencia, tono y adecuación cultural en todo el proyecto."
+            },
+            {
+              "title": "Revisión independiente",
+              "desc": "Un segundo hablante nativo revisa el resultado final contra el original para verificar precisión, fluidez y cumplimiento de su guía de estilo."
+            },
+            {
+              "title": "Control de calidad de formato y DTP",
+              "desc": "Todos los archivos se revisan antes de la entrega: desbordamiento de texto, integridad del diseño, renderización de fuentes y cumplimiento del formato de archivo."
+            }
+          ],
+          "web_label": "También de MediaLocalize",
+          "web_title": "¿Necesita primero un sitio web?",
+          "web_body": "Creamos sitios web en inglés rápidos y optimizados para SEO para fabricantes y exportadores B2B, y luego los localizamos a todos los idiomas de esta página.",
+          "web_cta": "Conocer la creación de sitios web",
+          "cta_label": "Comenzar",
+          "cta_title": "Localicemos su contenido.",
+          "cta_body": "Envíenos sus archivos y le daremos una cotización en 24 horas."
+        }
       },
       "services/localization/dtp": {
         "title": "DTP y maquetación multilingüe",
@@ -2571,7 +4493,236 @@
             "title": "QA humano",
             "desc": "Revisión de precisión, formato y experiencia final."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Localización",
+          "request_sample": "Solicitar una muestra",
+          "toggle_ai": "Doblaje con IA",
+          "toggle_ai_sub": "Desde $1/min · Entrega en 24–72 h",
+          "toggle_human": "Doblaje humano",
+          "toggle_human_sub": "Desde $20/min · Entrega en 3–7 días",
+          "ai_label": "Biblioteca de voces IA",
+          "ai_title": "Voces IA naturales, en todos los estilos",
+          "ai_body": "Escuche nuestros perfiles de voz IA a continuación. Haga clic en cualquier muestra para solicitar una demostración completa en su idioma de destino.",
+          "male_voices": "Voces masculinas",
+          "female_voices": "Voces femeninas",
+          "voices": [
+            {
+              "name": "Alex",
+              "gender": "male",
+              "style": "Voz masculina joven · 22–28 · Natural y conversacional",
+              "samples": [
+                "Demostración de producto",
+                "Video de capacitación"
+              ]
+            },
+            {
+              "name": "Marcus",
+              "gender": "male",
+              "style": "Voz masculina madura · 38–48 · Profesional y autoritaria",
+              "samples": [
+                "Video explicativo",
+                "Narración corporativa"
+              ]
+            },
+            {
+              "name": "William",
+              "gender": "male",
+              "style": "Voz masculina sénior · 55–65 · Cálida y confiable",
+              "samples": [
+                "Historia de marca",
+                "Finanzas / Legal"
+              ]
+            },
+            {
+              "name": "Sophie",
+              "gender": "female",
+              "style": "Voz femenina joven · 22–28 · Enérgica y cercana",
+              "samples": [
+                "Tutorial",
+                "Anuncio de marketing"
+              ]
+            },
+            {
+              "name": "Claire",
+              "gender": "female",
+              "style": "Voz femenina madura · 35–45 · Profesional y serena",
+              "samples": [
+                "Corporativo",
+                "E-learning"
+              ]
+            },
+            {
+              "name": "Emma",
+              "gender": "female",
+              "style": "Voz femenina sénior · 55–65 · Cercana y confiable",
+              "samples": [
+                "Salud",
+                "Finanzas"
+              ]
+            }
+          ],
+          "ai_note": "Todas las voces IA disponibles en más de 50 idiomas. Clonación de voz personalizada disponible a pedido.",
+          "ai_cta": "Solicitar muestra de voz IA",
+          "human_label": "Actores de voz profesionales",
+          "human_title": "Actores de voz nativos certificados",
+          "human_body": "Para contenido de marca premium y proyectos donde la interpretación humana auténtica marca la diferencia. Todos los actores son hablantes nativos seleccionados por audición y con formación profesional.",
+          "actors": [
+            {
+              "name": "Daniel",
+              "style": "Voz masculina joven · 25–32 · Dinámica y cautivadora",
+              "langs": [
+                "EN (US)",
+                "EN (AU)"
+              ],
+              "bio": "Actor versátil con 8 años de experiencia en doblaje comercial y de animación. Reconocido por su interpretación natural y su capacidad para adaptarse a estilos cómicos, dramáticos y de alta energía; una elección frecuente para campañas globales de tecnología y estilo de vida.",
+              "tags": [
+                "Comercial",
+                "Filme de marca",
+                "Animación",
+                "Lanzamiento de producto"
+              ],
+              "samples": [
+                "Filme de marca",
+                "Lanzamiento de producto"
+              ],
+              "color": "#1a3a5c"
+            },
+            {
+              "name": "Richard",
+              "style": "Voz masculina madura · 40–50 · Grave e imponente",
+              "langs": [
+                "EN (UK)",
+                "EN (US)"
+              ],
+              "bio": "Locutor y narrador de documentales con más de 15 años de trayectoria en la industria. Su imponente voz de barítono es una opción de confianza para filmes de marca de prestigio, comunicaciones financieras y temas serios que requieren solemnidad.",
+              "tags": [
+                "Documental",
+                "Corporativo",
+                "Financiero",
+                "Industrial"
+              ],
+              "samples": [
+                "Documental",
+                "Capacitación industrial"
+              ],
+              "color": "#2c1a1a"
+            },
+            {
+              "name": "Olivia",
+              "style": "Voz femenina joven · 24–30 · Brillante y persuasiva",
+              "langs": [
+                "EN (US)",
+                "EN (CA)"
+              ],
+              "bio": "Con formación en teatro y locución comercial, Olivia aporta calidez y una energía contagiosa a cada línea. Frecuentemente elegida para trabajos de tecnología, estilo de vida y promoción de aplicaciones, destaca por hacer que las ideas complejas resulten accesibles y emocionantes.",
+              "tags": [
+                "Comercial",
+                "Promoción de apps",
+                "Tecnología",
+                "E-learning"
+              ],
+              "samples": [
+                "Comercial",
+                "Promoción de apps"
+              ],
+              "color": "#1a2e1a"
+            },
+            {
+              "name": "Margaret",
+              "style": "Voz femenina madura · 38–48 · Segura y clara",
+              "langs": [
+                "EN (UK)",
+                "FR"
+              ],
+              "bio": "Actriz bilingüe (EN/FR) especializada en comunicaciones corporativas y contenido de salud. La claridad excepcional de Margaret y su tono autorizado pero cercano la convierten en la primera opción para programas de cumplimiento, seguridad y capacitación empresarial.",
+              "tags": [
+                "Salud",
+                "Corporativo",
+                "Capacitación",
+                "Cumplimiento"
+              ],
+              "samples": [
+                "Capacitación y seguridad",
+                "Video corporativo"
+              ],
+              "color": "#2c1a3a"
+            }
+          ],
+          "human_note": "Hablantes nativos en más de 40 mercados lingüísticos. Sesiones dirigidas a distancia disponibles.",
+          "human_cta": "Solicitar casting",
+          "lang_label": "Cobertura de idiomas",
+          "lang_title": "Más de 50 idiomas",
+          "langs": [
+            "Inglés (EE. UU.)",
+            "Inglés (Reino Unido)",
+            "Chino mandarín",
+            "Cantonés",
+            "Español (Latinoamérica)",
+            "Español (España)",
+            "Francés",
+            "Alemán",
+            "Japonés",
+            "Coreano",
+            "Árabe (estándar moderno)",
+            "Portugués (Brasil)",
+            "Ruso",
+            "Italiano",
+            "Neerlandés",
+            "Polaco",
+            "Turco",
+            "Vietnamita",
+            "Tailandés",
+            "Indonesio",
+            "Hindi",
+            "Sueco",
+            "Noruego",
+            "Danés",
+            "Finlandés",
+            "Griego",
+            "Hebreo",
+            "Checo",
+            "Rumano",
+            "Húngaro"
+          ],
+          "langs_more": "+ 20 más",
+          "pricing_label": "Precios",
+          "pricing_title": "Tarifas de doblaje transparentes",
+          "pricing": [
+            {
+              "amount": "$1–$2",
+              "unit": "/min",
+              "name": "Doblaje con IA",
+              "sub": "Entrega en 24–72 h"
+            },
+            {
+              "amount": "$5–$10",
+              "unit": "/min",
+              "name": "IA + revisión humana",
+              "sub": "Control de calidad por hablante nativo"
+            },
+            {
+              "amount": "$20–$50",
+              "unit": "/min",
+              "name": "Actor de voz profesional",
+              "sub": "Entrega en 3–7 días"
+            },
+            {
+              "amount": "A medida",
+              "unit": "",
+              "name": "Doblaje con sincronización labial",
+              "sub": "Cotización según la duración del video"
+            }
+          ],
+          "pricing_note": "Los precios son por minuto final de audio. Pedido mínimo: USD 50. Descuentos por volumen a partir de 30 minutos.",
+          "cta_title": "¿Listo para localizar su audio?",
+          "cta_body": "Comparta sus archivos de video y le enviaremos una cotización y una muestra en 24 horas.",
+          "cta_all": "Todos los servicios de localización",
+          "web_label": "También de MediaLocalize",
+          "web_title": "¿También necesita un sitio web multilingüe?",
+          "web_body": "Creamos sitios web en inglés rápidos y optimizados para SEO para exportadores B2B, con doblaje, subtítulos y contenido localizado del mismo equipo.",
+          "web_cta": "Conocer la creación de sitios web"
+        }
       },
       "services/localization/video": {
         "title": "Localización de video y animación",
@@ -2897,18 +5048,48 @@
         ]
       ],
       "industries": [
-        "Производство и промышленность",
-        "Медтехника и фарма",
-        "Корпоративное обучение",
-        "Маркетинг и реклама",
-        "Юридические и compliance-материалы"
+        [
+          "Производство и промышленность",
+          "/services/website-building/"
+        ],
+        [
+          "Медтехника и фарма",
+          "/services/localization/"
+        ],
+        [
+          "Корпоративное обучение",
+          "/services/localization/elearning/"
+        ],
+        [
+          "Маркетинг и реклама",
+          "/services/localization/video/"
+        ],
+        [
+          "Юридические и compliance-материалы",
+          "/services/localization/dtp/"
+        ]
       ],
       "languages": [
-        "Китайский ↔ английский",
-        "Японский и корейский",
-        "Немецкий, французский, испанский",
-        "Арабский и RTL",
-        "50+ языковых пар"
+        [
+          "Китайский ↔ английский",
+          "/services/localization/"
+        ],
+        [
+          "Японский и корейский",
+          "/services/localization/"
+        ],
+        [
+          "Немецкий, французский, испанский",
+          "/services/localization/"
+        ],
+        [
+          "Арабский и RTL",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "50+ языковых пар",
+          "/services/localization/dubbing/"
+        ]
       ],
       "copyright": "MediaLocalize — многоязычная локализация и глобальные сайты. Все права защищены.",
       "privacy": "Конфиденциальность",
@@ -3141,7 +5322,7 @@
             "Глобальный CDN + edge caching",
             "Расширенное SEO и аналитика",
             "AI-чатбот",
-            "Приоритетная поддержка 24/7",
+            "Приоритетная поддержка — прямая связь с командой проекта",
             "Квартальный стратегический обзор",
             "1 статья в неделю",
             "До 10 обновлений продукта в месяц"
@@ -3150,6 +5331,26 @@
           "badge": ""
         }
       ],
+      "addons": {
+        "title": "Дополнительные опции",
+        "items": [
+          [
+            "Мультиязычный сайт — добавьте 1 язык",
+            "$199 разово + $99/год",
+            "Профессиональный перевод и локализованное развёртывание всего сайта на ещё одном языке, включая hreflang."
+          ],
+          [
+            "Дополнительный домен",
+            "$25 / домен / год",
+            "Дополнительный домен с привязкой к сайту, включая SSL."
+          ],
+          [
+            "Дополнительный email",
+            "$50 / аккаунт / год",
+            "Дополнительный почтовый ящик на вашем домене."
+          ]
+        ]
+      },
       "plan_cta": "Бесплатная консультация",
       "web_note": "Разовый платеж покрывает дизайн, разработку и запуск. Годовая оплата покрывает хостинг, поддержку и обслуживание.",
       "loc_intro": {
@@ -3211,7 +5412,7 @@
       "info_title": "Связаться",
       "email_label": "Email",
       "languages_label": "Языки",
-      "languages": "Общаемся на английском и китайском",
+      "languages": "English · 中文 · Español · Русский · العربية",
       "response_label": "Ответ",
       "response": "В течение 1 рабочего дня",
       "include_title": "Что указать в сообщении:",
@@ -3239,9 +5440,9 @@
         "message": "Опишите языки, объем и сроки..."
       },
       "options": [
-        "Сайт — Starter ($199/год)",
-        "Сайт — Growth ($499/год)",
-        "Сайт — Business ($999/год)",
+        "Сайт — Starter (установка $199 + $199/год)",
+        "Сайт — Growth (установка $499 + $299/год)",
+        "Сайт — Business (установка $999 + $399/год)",
         "DTP-верстка",
         "AI-дубляж",
         "Дубляж диктором",
@@ -3522,7 +5723,340 @@
             "title": "Проверка людьми",
             "desc": "Контроль точности, формата и итогового опыта."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Создание сайтов",
+          "hero_title": "Ваш бизнес,<br>видимый всему миру.",
+          "hero_subtitle": "Мы создаём профессиональные англоязычные сайты для B2B-производителей и экспортёров — от домена до запуска, полностью под ключ. Бесплатная консультация, индивидуальный расчёт стоимости под ваши реальные задачи.",
+          "hero_cta": "Бесплатная консультация",
+          "included_label": "Что входит",
+          "included_title": "Всё необходимое для вашего международного сайта",
+          "included_body": "Один контракт — от регистрации домена до запуска, полностью под ключ. Вы занимаетесь бизнесом — всё остальное берём на себя.",
+          "included": [
+            {
+              "icon": "monitor",
+              "title": "Домен и хостинг",
+              "desc": "Регистрация домена, SSL-сертификат и глобальный хостинг корпоративного уровня — 99,9% доступности, никаких операционных забот с вашей стороны."
+            },
+            {
+              "icon": "pen",
+              "title": "Профессиональный дизайн",
+              "desc": "Чистый, современный дизайн, который формирует доверие у международных покупателей. Безупречное отображение на десктопе, планшете и смартфоне. Согласование с вами перед запуском."
+            },
+            {
+              "icon": "globe",
+              "title": "Глобальная CDN-доставка",
+              "desc": "Ваш сайт загружается менее чем за секунду из Северной Америки, Европы, Юго-Восточной Азии или Ближнего Востока — с ближайшего к каждому посетителю пограничного узла."
+            },
+            {
+              "icon": "search",
+              "title": "SEO и видимость в поиске",
+              "desc": "Исследование ключевых слов, внутренняя оптимизация и структурированные данные, чтобы ваши продукты находили зарубежные покупатели в Google. Ежемесячные отчёты о позициях включены."
+            },
+            {
+              "icon": "chat",
+              "title": "ИИ-поддержка клиентов",
+              "desc": "ИИ-чат-бот 24/7, обученный на ваших продуктах и частых вопросах. Собирает лиды, отвечает на запросы на нескольких языках и при необходимости передаёт диалог вашей команде."
+            },
+            {
+              "icon": "chart",
+              "title": "Постоянное обслуживание",
+              "desc": "Регулярное обновление продуктов, публикация новостей, патчи безопасности и ежемесячные отчёты об эффективности. Ваш сайт остаётся актуальным без каких-либо усилий с вашей стороны."
+            }
+          ],
+          "process_label": "Как это работает",
+          "process_title": "От консультации до запуска сайта",
+          "process_body": "Понятный, структурированный процесс — без бессрочного абонемента и сюрпризов.",
+          "steps": [
+            {
+              "title": "Оставьте заявку на бесплатную консультацию",
+              "meta": "Бесплатно · Без обязательств",
+              "desc": "Заполните короткую форму ниже — ваш регион, отрасль, целевой рынок и что вы продаёте. Это займёт около 3 минут и совершенно бесплатно. Мы используем эти данные, чтобы понять ваш бизнес до выхода на связь."
+            },
+            {
+              "title": "Мы анализируем и отвечаем",
+              "meta": "В течение 1 рабочего дня",
+              "desc": "Наша команда изучает ваш бриф и готовит индивидуальное предложение — рекомендуемый план, ориентировочные сроки и фиксированную стоимость на основе реального объёма работ. Никаких шаблонных пакетов."
+            },
+            {
+              "title": "Согласование плана и стоимости",
+              "meta": "День 2–3",
+              "desc": "Мы вместе проходим по предложению, отвечаем на вопросы и фиксируем объём работ. Вы платите только после полного согласования — фиксированная цена, фиксированные сроки, без сюрпризов."
+            },
+            {
+              "title": "Дизайн, разработка и запуск",
+              "meta": "2–3 недели",
+              "desc": "Мы разрабатываем страницы, пишем англоязычный контент и создаём сайт. Вы проверяете тестовую версию до публикации. Запуск включает отправку карты сайта в Google и настройку аналитики."
+            },
+            {
+              "title": "Постоянная поддержка и контент",
+              "meta": "Ежемесячно",
+              "desc": "Регулярное обновление продуктов, публикация новостей и SEO-отчётность. Ваш сайт развивается и остаётся актуальным без вашего участия. План можно повысить или понизить в любой момент."
+            }
+          ],
+          "ideal_label": "Кому подходит",
+          "ideal_title": "Для кого мы создаём сайты",
+          "ideal": [
+            {
+              "title": "B2B-производители и экспортёры",
+              "desc": "OEM/ODM-заводы и торговые компании, которым нужен надёжный англоязычный сайт для привлечения международных запросов на коммерческие предложения — а не просто страница в магазине Alibaba."
+            },
+            {
+              "title": "Компании профессиональных услуг",
+              "desc": "Юридические фирмы, консалтинговые компании и агентства, выходящие на новые рынки. Мы создаём многоязычные сайты с правильным тоном и юридическими оговорками для зарубежных клиентов."
+            },
+            {
+              "title": "Компании без англоязычного сайта",
+              "desc": "Если у вашей компании есть только китайский сайт — или нет сайта вовсе — мы сделаем всё с нуля. Домен, контент, дизайн и запуск за 2–3 недели."
+            }
+          ],
+          "form_label": "Бесплатная консультация",
+          "form_title": "Расскажите о вашем бизнесе",
+          "form_body": "Это займёт около 3 минут. Мы используем ваши ответы для подготовки индивидуального предложения — совершенно бесплатно и без обязательств. Отвечаем в течение одного рабочего дня.",
+          "form": {
+            "success_title": "Заявка получена — спасибо!",
+            "success_body": "Мы рассмотрим вашу заявку и свяжемся с вами в течение одного рабочего дня с индивидуальным предложением.",
+            "sec_contact": "Контактная информация",
+            "sec_business": "Информация о бизнесе",
+            "sec_details": "Дополнительные сведения",
+            "label_name": "ФИО *",
+            "label_email": "Адрес электронной почты *",
+            "label_company": "Название компании",
+            "label_region": "Ваш регион *",
+            "label_industry": "Отрасль *",
+            "label_biz_type": "Тип бизнеса *",
+            "label_offer_type": "Что вы в основном предлагаете *",
+            "label_product_count": "Количество продуктов / SKU",
+            "label_target_customer": "Целевые клиенты",
+            "label_target_market": "Целевой рынок *",
+            "label_current_site": "Текущий сайт (если есть)",
+            "label_notes": "Что ещё нам стоит знать",
+            "ph_name": "Ваше имя",
+            "ph_email": "you@company.com",
+            "ph_company": "Название вашей компании",
+            "ph_current_site": "https://example.com — или оставьте пустым, если сайта нет",
+            "ph_notes": "Требования к срокам, примеры конкурентов, особые функции, бюджет...",
+            "opt_region": [
+              [
+                "",
+                "Выберите регион..."
+              ],
+              [
+                "cn-mainland",
+                "Китай — континентальный"
+              ],
+              [
+                "cn-hktw",
+                "Китай — Гонконг / Тайвань"
+              ],
+              [
+                "sea",
+                "Юго-Восточная Азия"
+              ],
+              [
+                "south-asia",
+                "Южная Азия"
+              ],
+              [
+                "middle-east",
+                "Ближний Восток"
+              ],
+              [
+                "europe",
+                "Европа"
+              ],
+              [
+                "north-america",
+                "Северная Америка"
+              ],
+              [
+                "other",
+                "Другое"
+              ]
+            ],
+            "opt_industry": [
+              [
+                "",
+                "Выберите отрасль..."
+              ],
+              [
+                "manufacturing",
+                "Производство / OEM / ODM"
+              ],
+              [
+                "trading",
+                "Торговля / Импорт и экспорт"
+              ],
+              [
+                "professional-services",
+                "Профессиональные услуги"
+              ],
+              [
+                "tech",
+                "Технологии / SaaS"
+              ],
+              [
+                "education",
+                "Образование / Обучение"
+              ],
+              [
+                "healthcare",
+                "Здравоохранение / Медицина"
+              ],
+              [
+                "consumer-goods",
+                "Потребительские товары / Розница"
+              ],
+              [
+                "other",
+                "Другое"
+              ]
+            ],
+            "opt_biz_type": [
+              [
+                "",
+                "Выберите тип..."
+              ],
+              [
+                "b2b",
+                "B2B — продажи другим компаниям"
+              ],
+              [
+                "b2c",
+                "B2C — продажи потребителям"
+              ],
+              [
+                "b2b-b2c",
+                "B2B и B2C одновременно"
+              ]
+            ],
+            "opt_offer_type": [
+              [
+                "",
+                "Выберите..."
+              ],
+              [
+                "products",
+                "Физические продукты / товары"
+              ],
+              [
+                "services",
+                "Услуги"
+              ],
+              [
+                "both",
+                "Продукты и услуги"
+              ]
+            ],
+            "opt_product_count": [
+              [
+                "",
+                "Примерное количество..."
+              ],
+              [
+                "1-5",
+                "1 – 5"
+              ],
+              [
+                "6-20",
+                "6 – 20"
+              ],
+              [
+                "21-50",
+                "21 – 50"
+              ],
+              [
+                "50+",
+                "Более 50"
+              ],
+              [
+                "unknown",
+                "Пока не знаю"
+              ]
+            ],
+            "opt_target_customer": [
+              [
+                "",
+                "Кто у вас покупает?"
+              ],
+              [
+                "manufacturers",
+                "Производители / OEM-закупщики"
+              ],
+              [
+                "distributors",
+                "Оптовики и дистрибьюторы"
+              ],
+              [
+                "retailers",
+                "Розничные продавцы"
+              ],
+              [
+                "end-consumers",
+                "Конечные потребители"
+              ],
+              [
+                "enterprises",
+                "Крупные компании и организации"
+              ],
+              [
+                "mix",
+                "Сочетание перечисленного"
+              ]
+            ],
+            "opt_target_market": [
+              [
+                "",
+                "Где находятся ваши целевые покупатели?"
+              ],
+              [
+                "north-america",
+                "Северная Америка"
+              ],
+              [
+                "europe",
+                "Европа"
+              ],
+              [
+                "sea",
+                "Юго-Восточная Азия"
+              ],
+              [
+                "middle-east",
+                "Ближний Восток и Африка"
+              ],
+              [
+                "latin-america",
+                "Латинская Америка"
+              ],
+              [
+                "global",
+                "Весь мир — несколько регионов"
+              ],
+              [
+                "unknown",
+                "Пока не знаю"
+              ]
+            ],
+            "submit": "Отправить заявку на бесплатную консультацию",
+            "sending": "Отправка…",
+            "footnote": "Бесплатно · Без обязательств · Отвечаем в течение 1 рабочего дня",
+            "err_name": "Пожалуйста, укажите ваше полное имя.",
+            "err_email": "Пожалуйста, укажите корректный адрес электронной почты.",
+            "err_region": "Пожалуйста, выберите ваш регион.",
+            "err_industry": "Пожалуйста, выберите вашу отрасль.",
+            "err_biz_type": "Пожалуйста, выберите тип вашего бизнеса.",
+            "err_offer_type": "Пожалуйста, укажите, что вы в основном предлагаете.",
+            "err_target_market": "Пожалуйста, выберите ваш целевой рынок.",
+            "err_missing": "Пожалуйста, заполните все обязательные поля.",
+            "err_invalid_email": "Похоже, адрес электронной почты указан неверно. Пожалуйста, проверьте его.",
+            "err_generic": "Что-то пошло не так — попробуйте ещё раз или напишите нам на ken.lee@medialocalize.com"
+          },
+          "loc_label": "Выходите на новые языки?",
+          "loc_title": "Нужно больше, чем английский?",
+          "loc_body": "Наша команда локализации переводит ваш сайт, документы, видео и учебные курсы на более чем 50 языков — тот же партнёр, та же проектная команда.",
+          "loc_cta": "Узнать об услугах локализации"
+        }
       },
       "services/localization": {
         "title": "Многоязычная локализация",
@@ -3543,7 +6077,112 @@
             "title": "Проверка людьми",
             "desc": "Контроль точности, формата и итогового опыта."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Услуги",
+          "offer_label": "Что мы предлагаем",
+          "offer_title": "Четыре специализации локализации",
+          "offer_body": "От технических документов до мультимедийного контента — любой формат, любой язык.",
+          "subs": [
+            {
+              "title": "Вёрстка (DTP)",
+              "desc": "Многоязычные документы с пиксельной точностью в InDesign, FrameMaker, Word, PowerPoint и других форматах. От $2/page.",
+              "url": "/services/localization/dtp/",
+              "img": "/images/services/dtp.jpg",
+              "icon": "doc"
+            },
+            {
+              "title": "Озвучка мультимедиа",
+              "desc": "ИИ-озвучка от $1/min и профессиональная озвучка актёрами от $20/min. Естественный результат на более чем 50 языках.",
+              "url": "/services/localization/dubbing/",
+              "img": "/images/services/dubbing.jpg",
+              "icon": "mic"
+            },
+            {
+              "title": "Локализация видео и анимации",
+              "desc": "Субтитры, экранный текст, моушн-графика и полная адаптация видео. От $8/minute.",
+              "url": "/services/localization/video/",
+              "img": "/images/services/video-localization.jpg",
+              "icon": "video"
+            },
+            {
+              "title": "Локализация электронного обучения",
+              "desc": "SCORM, xAPI, Articulate, Captivate — полная локализация курсов, включая озвучку, интерфейс и тесты. От $0.12/word.",
+              "url": "/services/localization/elearning/",
+              "img": "/images/services/elearning.jpg",
+              "icon": "book"
+            }
+          ],
+          "learn_more": "Подробнее",
+          "lang_label": "Языковой охват",
+          "lang_title": "Поддержка более 50 языков",
+          "lang_body": "Лингвисты — носители всех основных мировых языков и региональных вариантов.",
+          "langs": [
+            "Английский",
+            "Китайский (упрощённый)",
+            "Китайский (традиционный)",
+            "Испанский",
+            "Французский",
+            "Немецкий",
+            "Японский",
+            "Корейский",
+            "Арабский",
+            "Португальский",
+            "Русский",
+            "Итальянский",
+            "Нидерландский",
+            "Польский",
+            "Турецкий",
+            "Вьетнамский",
+            "Тайский",
+            "Индонезийский",
+            "Малайский",
+            "Хинди",
+            "Бенгальский",
+            "Шведский",
+            "Норвежский",
+            "Датский",
+            "Финский",
+            "Чешский",
+            "Румынский",
+            "Венгерский",
+            "Греческий",
+            "Иврит",
+            "Украинский",
+            "Персидский (фарси)",
+            "Урду",
+            "Тагальский",
+            "Суахили"
+          ],
+          "langs_more": "+ другие",
+          "qa_label": "Обеспечение качества",
+          "qa_title": "Как мы гарантируем точность",
+          "qa_steps": [
+            {
+              "title": "Экспертный перевод",
+              "desc": "Переводчики — носители языка с отраслевой экспертизой в вашей сфере. Все переводчики проходят проверку квалификации до назначения на проект."
+            },
+            {
+              "title": "Постредактирование с помощью ИИ",
+              "desc": "ИИ-инструменты ускоряют работу с повторяющимся контентом, а старший лингвист обеспечивает единообразие, тон и культурную уместность текста."
+            },
+            {
+              "title": "Независимая проверка",
+              "desc": "Второй носитель языка сверяет итоговый результат с оригиналом на точность, беглость и соответствие вашему руководству по стилю."
+            },
+            {
+              "title": "Проверка формата и вёрстки",
+              "desc": "Перед сдачей все файлы проверяются на переполнение текста, целостность макета, отображение шрифтов и соответствие формату файла."
+            }
+          ],
+          "web_label": "Также от MediaLocalize",
+          "web_title": "Сначала нужен сайт?",
+          "web_body": "Мы создаём быстрые англоязычные сайты с готовностью к SEO для B2B-производителей и экспортёров — а затем локализуем их на все языки, перечисленные на этой странице.",
+          "web_cta": "Узнать о создании сайтов",
+          "cta_label": "Начать",
+          "cta_title": "Давайте локализуем ваш контент.",
+          "cta_body": "Отправьте нам ваши файлы, и мы подготовим расчёт стоимости в течение 24 часов."
+        }
       },
       "services/localization/dtp": {
         "title": "Многоязычная DTP-верстка",
@@ -3585,7 +6224,236 @@
             "title": "Проверка людьми",
             "desc": "Контроль точности, формата и итогового опыта."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "Локализация",
+          "request_sample": "Запросить образец",
+          "toggle_ai": "ИИ-озвучка",
+          "toggle_ai_sub": "От $1/мин · доставка за 24–72 часа",
+          "toggle_human": "Озвучка актёрами",
+          "toggle_human_sub": "От $20/мин · доставка за 3–7 дней",
+          "ai_label": "Библиотека ИИ-голосов",
+          "ai_title": "Естественные ИИ-голоса в любом стиле",
+          "ai_body": "Прослушайте наши профили ИИ-голосов ниже. Нажмите на любой образец, чтобы запросить полную демоверсию на нужном вам языке.",
+          "male_voices": "Мужские голоса",
+          "female_voices": "Женские голоса",
+          "voices": [
+            {
+              "name": "Alex",
+              "gender": "male",
+              "style": "Молодой мужской голос · 22–28 · Естественный, разговорный",
+              "samples": [
+                "Демонстрация продукта",
+                "Обучающее видео"
+              ]
+            },
+            {
+              "name": "Marcus",
+              "gender": "male",
+              "style": "Мужской голос среднего возраста · 38–48 · Профессиональный, авторитетный",
+              "samples": [
+                "Объясняющее видео",
+                "Корпоративная озвучка"
+              ]
+            },
+            {
+              "name": "William",
+              "gender": "male",
+              "style": "Зрелый мужской голос · 55–65 · Тёплый, вызывающий доверие",
+              "samples": [
+                "История бренда",
+                "Финансы / Право"
+              ]
+            },
+            {
+              "name": "Sophie",
+              "gender": "female",
+              "style": "Молодой женский голос · 22–28 · Энергичный, дружелюбный",
+              "samples": [
+                "Учебное пособие",
+                "Рекламный ролик"
+              ]
+            },
+            {
+              "name": "Claire",
+              "gender": "female",
+              "style": "Женский голос среднего возраста · 35–45 · Профессиональный, спокойный",
+              "samples": [
+                "Корпоративный",
+                "Электронное обучение"
+              ]
+            },
+            {
+              "name": "Emma",
+              "gender": "female",
+              "style": "Зрелый женский голос · 55–65 · Заботливый, вызывающий доверие",
+              "samples": [
+                "Здравоохранение",
+                "Финансы"
+              ]
+            }
+          ],
+          "ai_note": "Все ИИ-голоса доступны на более чем 50 языках. Индивидуальное клонирование голоса — по запросу.",
+          "ai_cta": "Запросить образец ИИ-голоса",
+          "human_label": "Профессиональные дикторы",
+          "human_title": "Сертифицированные носители языка",
+          "human_body": "Для премиального контента бренда и проектов, где важна подлинная человеческая игра. Все актёры прошли кастинг и являются профессионально обученными носителями языка.",
+          "actors": [
+            {
+              "name": "Daniel",
+              "style": "Молодой мужской голос · 25–32 · Динамичный, увлекательный",
+              "langs": [
+                "EN (US)",
+                "EN (AU)"
+              ],
+              "bio": "Разносторонний актёр с 8-летним опытом озвучки рекламы и анимации. Известен естественной подачей и способностью работать в комедийных, драматических и энергичных стилях — частый выбор для глобальных кампаний в сфере технологий и стиля жизни.",
+              "tags": [
+                "Реклама",
+                "Имиджевый фильм",
+                "Анимация",
+                "Запуск продукта"
+              ],
+              "samples": [
+                "Имиджевый фильм",
+                "Запуск продукта"
+              ],
+              "color": "#1a3a5c"
+            },
+            {
+              "name": "Richard",
+              "style": "Мужской голос среднего возраста · 40–50 · Глубокий, властный",
+              "langs": [
+                "EN (UK)",
+                "EN (US)"
+              ],
+              "bio": "Опытный теле- и радиоведущий, диктор документальных фильмов с более чем 15-летним стажем в отрасли. Его властный баритон — проверенный выбор для престижных фильмов о бренде, финансовых коммуникаций и серьёзных тем, требующих весомости.",
+              "tags": [
+                "Документалистика",
+                "Корпоративный",
+                "Финансовый",
+                "Промышленный"
+              ],
+              "samples": [
+                "Документальный фильм",
+                "Промышленное обучение"
+              ],
+              "color": "#2c1a1a"
+            },
+            {
+              "name": "Olivia",
+              "style": "Молодой женский голос · 24–30 · Яркий, убедительный",
+              "langs": [
+                "EN (US)",
+                "EN (CA)"
+              ],
+              "bio": "С опытом работы в театре и коммерческой озвучке Olivia привносит тепло и заразительную энергию в каждую реплику. Её часто приглашают для технологических проектов, лайфстайл-тематики и промо мобильных приложений — она мастерски делает сложные идеи понятными и захватывающими.",
+              "tags": [
+                "Реклама",
+                "Промо приложений",
+                "Технологии",
+                "Электронное обучение"
+              ],
+              "samples": [
+                "Реклама",
+                "Промо приложения"
+              ],
+              "color": "#1a2e1a"
+            },
+            {
+              "name": "Margaret",
+              "style": "Женский голос среднего возраста · 38–48 · Уверенный, чёткий",
+              "langs": [
+                "EN (UK)",
+                "FR"
+              ],
+              "bio": "Билингвальная актриса (EN/FR), специализирующаяся на корпоративных коммуникациях и контенте для здравоохранения. Исключительная чёткость дикции и авторитетная, но доступная манера подачи Margaret делают её первым выбором для программ по комплаенсу, безопасности и корпоративному обучению.",
+              "tags": [
+                "Здравоохранение",
+                "Корпоративный",
+                "Обучение",
+                "Комплаенс"
+              ],
+              "samples": [
+                "Обучение и безопасность",
+                "Корпоративное видео"
+              ],
+              "color": "#2c1a3a"
+            }
+          ],
+          "human_note": "Носители языка на более чем 40 языковых рынках. Возможны сессии под руководством режиссёра через Source-Connect.",
+          "human_cta": "Запросить кастинг",
+          "lang_label": "Языковой охват",
+          "lang_title": "Более 50 языков",
+          "langs": [
+            "Английский (США)",
+            "Английский (Великобритания)",
+            "Китайский (путунхуа)",
+            "Кантонский",
+            "Испанский (Латинская Америка)",
+            "Испанский (Испания)",
+            "Французский",
+            "Немецкий",
+            "Японский",
+            "Корейский",
+            "Арабский (литературный)",
+            "Португальский (Бразилия)",
+            "Русский",
+            "Итальянский",
+            "Нидерландский",
+            "Польский",
+            "Турецкий",
+            "Вьетнамский",
+            "Тайский",
+            "Индонезийский",
+            "Хинди",
+            "Шведский",
+            "Норвежский",
+            "Датский",
+            "Финский",
+            "Греческий",
+            "Иврит",
+            "Чешский",
+            "Румынский",
+            "Венгерский"
+          ],
+          "langs_more": "+ ещё 20",
+          "pricing_label": "Цены",
+          "pricing_title": "Прозрачные тарифы на озвучку",
+          "pricing": [
+            {
+              "amount": "$1–$2",
+              "unit": "/мин",
+              "name": "ИИ-озвучка",
+              "sub": "Выполнение за 24–72 часа"
+            },
+            {
+              "amount": "$5–$10",
+              "unit": "/мин",
+              "name": "ИИ + проверка человеком",
+              "sub": "Контроль качества носителем языка"
+            },
+            {
+              "amount": "$20–$50",
+              "unit": "/мин",
+              "name": "Профессиональный диктор",
+              "sub": "Доставка за 3–7 дней"
+            },
+            {
+              "amount": "По запросу",
+              "unit": "",
+              "name": "Озвучка с синхронизацией по губам",
+              "sub": "Расчёт стоимости по длительности видео"
+            }
+          ],
+          "pricing_note": "Цены указаны за готовую минуту аудио. Минимальный заказ — 50 долларов США. Скидки при объёме от 30 минут.",
+          "cta_title": "Готовы локализовать ваше аудио?",
+          "cta_body": "Отправьте нам ваши видеофайлы, и мы подготовим расчёт стоимости и образец в течение 24 часов.",
+          "cta_all": "Все услуги локализации",
+          "web_label": "Также от MediaLocalize",
+          "web_title": "Нужен ещё и многоязычный сайт?",
+          "web_body": "Мы создаём быстрые англоязычные сайты с готовностью к SEO для B2B-экспортёров — с озвучкой, субтитрами и локализованным контентом от той же команды.",
+          "web_cta": "Узнать о создании сайтов"
+        }
       },
       "services/localization/video": {
         "title": "Локализация видео и анимации",
@@ -3911,18 +6779,48 @@
         ]
       ],
       "industries": [
-        "التصنيع والصناعة",
-        "الأجهزة الطبية والدواء",
-        "التعليم الإلكتروني والتدريب",
-        "التسويق والإعلان",
-        "المواد القانونية والامتثال"
+        [
+          "التصنيع والصناعة",
+          "/services/website-building/"
+        ],
+        [
+          "الأجهزة الطبية والدواء",
+          "/services/localization/"
+        ],
+        [
+          "التعليم الإلكتروني والتدريب",
+          "/services/localization/elearning/"
+        ],
+        [
+          "التسويق والإعلان",
+          "/services/localization/video/"
+        ],
+        [
+          "المواد القانونية والامتثال",
+          "/services/localization/dtp/"
+        ]
       ],
       "languages": [
-        "الصينية ↔ الإنجليزية",
-        "اليابانية والكورية",
-        "الألمانية والفرنسية والإسبانية",
-        "العربية واتجاه RTL",
-        "50+ زوجا لغويا"
+        [
+          "الصينية ↔ الإنجليزية",
+          "/services/localization/"
+        ],
+        [
+          "اليابانية والكورية",
+          "/services/localization/"
+        ],
+        [
+          "الألمانية والفرنسية والإسبانية",
+          "/services/localization/"
+        ],
+        [
+          "العربية واتجاه RTL",
+          "/services/localization/dubbing/"
+        ],
+        [
+          "50+ زوجا لغويا",
+          "/services/localization/dubbing/"
+        ]
       ],
       "copyright": "MediaLocalize — توطين متعدد اللغات ومواقع عالمية. جميع الحقوق محفوظة.",
       "privacy": "الخصوصية",
@@ -4155,7 +7053,7 @@
             "CDN عالمي + تخزين حافة",
             "SEO وتحليلات متقدمة",
             "روبوت محادثة AI",
-            "دعم أولوية 24/7",
+            "دعم ذو أولوية — تواصل مباشر مع فريق المشروع",
             "مراجعة استراتيجية ربع سنوية",
             "مقال واحد أسبوعيا",
             "حتى 10 تحديثات منتج شهريا"
@@ -4164,6 +7062,26 @@
           "badge": ""
         }
       ],
+      "addons": {
+        "title": "إضافات",
+        "items": [
+          [
+            "موقع متعدد اللغات — أضف لغة واحدة",
+            "$199 لمرة واحدة + $99/سنة",
+            "ترجمة احترافية ونشر مُوطَّن لموقعك بالكامل بلغة إضافية، بما في ذلك إعداد hreflang."
+          ],
+          [
+            "نطاق إضافي",
+            "$25 / نطاق / سنة",
+            "نطاق إضافي يوجَّه إلى موقعك، شامل SSL."
+          ],
+          [
+            "بريد أعمال إضافي",
+            "$50 / حساب / سنة",
+            "صندوق بريد إضافي على نطاقك."
+          ]
+        ]
+      },
       "plan_cta": "استشارة مجانية",
       "web_note": "رسوم الإعداد تغطي التصميم والبناء والإطلاق. الرسوم السنوية تغطي الاستضافة والصيانة والدعم.",
       "loc_intro": {
@@ -4225,7 +7143,7 @@
       "info_title": "بيانات التواصل",
       "email_label": "البريد الإلكتروني",
       "languages_label": "اللغات",
-      "languages": "ندعم التواصل بالإنجليزية والصينية",
+      "languages": "English · 中文 · Español · Русский · العربية",
       "response_label": "وقت الرد",
       "response": "خلال يوم عمل واحد",
       "include_title": "يفضل أن يتضمن طلبك:",
@@ -4253,9 +7171,9 @@
         "message": "اكتب اللغات والحجم والموعد..."
       },
       "options": [
-        "موقع — Starter ($199/سنة)",
-        "موقع — Growth ($499/سنة)",
-        "موقع — Business ($999/سنة)",
+        "موقع — Starter (إعداد $199 + $199/سنة)",
+        "موقع — Growth (إعداد $499 + $299/سنة)",
+        "موقع — Business (إعداد $999 + $399/سنة)",
         "إخراج مكتبي DTP",
         "دبلجة AI",
         "دبلجة بشرية",
@@ -4536,7 +7454,340 @@
             "title": "مراجعة بشرية",
             "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "بناء المواقع الإلكترونية",
+          "hero_title": "عملك التجاري،<br>مرئي للعالم.",
+          "hero_subtitle": "نبني مواقع إلكترونية احترافية باللغة الإنجليزية للمصنعين والمصدرين في مجال B2B — من النطاق إلى الموقع المباشر، بإدارة كاملة. استشارة مجانية وعرض سعر مخصص بناءً على احتياجاتك الفعلية.",
+          "hero_cta": "استشارة مجانية",
+          "included_label": "ما الذي يشمله",
+          "included_title": "كل ما يحتاجه موقعك العالمي",
+          "included_body": "تعاقد واحد — من تسجيل النطاق إلى النشر المباشر، بإدارة كاملة. ركّز على عملك؛ ونحن نتولى الباقي.",
+          "included": [
+            {
+              "icon": "monitor",
+              "title": "النطاق والاستضافة",
+              "desc": "تسجيل النطاق وشهادة SSL واستضافة عالمية بمستوى المؤسسات — وقت تشغيل 99.9% ودون أي أعباء تشغيلية عليك."
+            },
+            {
+              "icon": "pen",
+              "title": "تصميم احترافي",
+              "desc": "تصميم نظيف وعصري يبني المصداقية لدى المشترين الدوليين. دقة مثالية على الحاسوب والجهاز اللوحي والجوال. تتم مراجعته معك قبل الإطلاق."
+            },
+            {
+              "icon": "globe",
+              "title": "توصيل عالمي عبر CDN",
+              "desc": "يتم تحميل موقعك في أقل من ثانية واحدة من أمريكا الشمالية أو أوروبا أو جنوب شرق آسيا أو الشرق الأوسط — يُقدَّم من أقرب عقدة طرفية لكل زائر."
+            },
+            {
+              "icon": "search",
+              "title": "تحسين محركات البحث والظهور",
+              "desc": "بحث الكلمات المفتاحية والتحسين داخل الصفحات والبيانات المنظمة حتى تظهر منتجاتك عندما يبحث المشترون الأجانب على Google. تشمل تقارير ترتيب شهرية."
+            },
+            {
+              "icon": "chat",
+              "title": "خدمة عملاء بالذكاء الاصطناعي",
+              "desc": "روبوت دردشة ذكي يعمل على مدار الساعة ومدرَّب على منتجاتك والأسئلة الشائعة. يلتقط العملاء المحتملين ويجيب على الاستفسارات بعدة لغات ويحوّل المحادثة إلى فريقك عند الحاجة."
+            },
+            {
+              "icon": "chart",
+              "title": "صيانة مستمرة",
+              "desc": "تحديثات منتجات منتظمة ونشر الأخبار وتصحيحات الأمان وتقارير أداء شهرية. يبقى موقعك محدثًا دون أي جهد من جانبك."
+            }
+          ],
+          "process_label": "كيف نعمل",
+          "process_title": "من الاستشارة إلى الموقع المباشر",
+          "process_body": "عملية واضحة ومنظمة — لا عقود مفتوحة ولا مفاجآت.",
+          "steps": [
+            {
+              "title": "أرسل طلب استشارة مجانية",
+              "meta": "مجاني · دون التزام",
+              "desc": "املأ النموذج الموجز أدناه — منطقتك وقطاعك وسوقك المستهدف وما تبيعه. يستغرق ذلك نحو 3 دقائق وهو مجاني تمامًا. نستخدمه لفهم عملك قبل التواصل معك."
+            },
+            {
+              "title": "نحلل ونرد عليك",
+              "meta": "خلال يوم عمل واحد",
+              "desc": "يراجع فريقنا موجزك ويعد عرضًا مخصصًا — الخطة الموصى بها والجدول الزمني التقديري وعرض سعر ثابت بناءً على نطاق عملك الفعلي. لا باقات جاهزة."
+            },
+            {
+              "title": "أكّد الخطة وعرض السعر",
+              "meta": "اليوم 2–3",
+              "desc": "نستعرض العرض معًا ونجيب على أسئلتك ونثبت نطاق العمل. تدفع فقط بعد الاتفاق على كل شيء — سعر ثابت وجدول زمني ثابت ولا مفاجآت."
+            },
+            {
+              "title": "التصميم والبناء والإطلاق",
+              "meta": "2–3 أسابيع",
+              "desc": "نصمم الصفحات ونكتب المحتوى الإنجليزي ونبني الموقع. تراجع نسخة تجريبية قبل نشر أي شيء. يشمل الإطلاق إرسال خريطة الموقع إلى Google وإعداد التحليلات."
+            },
+            {
+              "title": "دعم ومحتوى مستمر",
+              "meta": "شهريًا",
+              "desc": "تحديثات منتجات منتظمة ونشر أخبار وتقارير تحسين محركات البحث. ينمو موقعك ويبقى محدثًا دون أن تديره بنفسك. يمكنك ترقية خطتك أو تخفيضها في أي وقت."
+            }
+          ],
+          "ideal_label": "مثالي لـ",
+          "ideal_title": "لمن نبني مواقعنا",
+          "ideal": [
+            {
+              "title": "المصنعون والمصدرون في مجال B2B",
+              "desc": "مصانع OEM/ODM وشركات التجارة التي تحتاج إلى حضور إلكتروني إنجليزي موثوق للفوز بطلبات عروض الأسعار الدولية — وليس مجرد صفحة متجر على Alibaba."
+            },
+            {
+              "title": "شركات الخدمات المهنية",
+              "desc": "مكاتب المحاماة والاستشارات والوكالات التي تتوسع في أسواق جديدة. نبني مواقع متعددة اللغات بالنبرة المناسبة وإخلاءات المسؤولية القانونية للعملاء الأجانب."
+            },
+            {
+              "title": "الشركات التي لا تملك موقعًا إنجليزيًا",
+              "desc": "إذا كانت شركتك تملك موقعًا صينيًا فقط — أو لا تملك موقعًا إطلاقًا — نتولى كل شيء من الصفر. النطاق والمحتوى والتصميم والإطلاق خلال 2–3 أسابيع."
+            }
+          ],
+          "form_label": "استشارة مجانية",
+          "form_title": "أخبرنا عن عملك",
+          "form_body": "يستغرق ذلك نحو 3 دقائق. سنستخدم إجاباتك لإعداد عرض مخصص — مجاني تمامًا ودون التزام. نرد خلال يوم عمل واحد.",
+          "form": {
+            "success_title": "تم استلام الموجز — شكرًا لك!",
+            "success_body": "سنراجع طلبك ونعاود التواصل معك خلال يوم عمل واحد مع عرض مخصص.",
+            "sec_contact": "معلومات الاتصال",
+            "sec_business": "معلومات العمل",
+            "sec_details": "تفاصيل إضافية",
+            "label_name": "الاسم الكامل *",
+            "label_email": "البريد الإلكتروني *",
+            "label_company": "اسم الشركة",
+            "label_region": "منطقتك *",
+            "label_industry": "القطاع *",
+            "label_biz_type": "نوع العمل *",
+            "label_offer_type": "ما الذي تقدمه أساسًا *",
+            "label_product_count": "عدد المنتجات / وحدات SKU",
+            "label_target_customer": "العملاء المستهدفون",
+            "label_target_market": "السوق المستهدف *",
+            "label_current_site": "الموقع الإلكتروني الحالي (إن وجد)",
+            "label_notes": "أي شيء آخر يجب أن نعرفه",
+            "ph_name": "اسمك",
+            "ph_email": "you@company.com",
+            "ph_company": "اسم شركتك",
+            "ph_current_site": "https://example.com — أو اتركه فارغًا إن لم يوجد",
+            "ph_notes": "متطلبات الجدول الزمني، مراجع المنافسين، ميزات خاصة، نطاق الميزانية...",
+            "opt_region": [
+              [
+                "",
+                "اختر المنطقة..."
+              ],
+              [
+                "cn-mainland",
+                "الصين — البر الرئيسي"
+              ],
+              [
+                "cn-hktw",
+                "الصين — هونغ كونغ / تايوان"
+              ],
+              [
+                "sea",
+                "جنوب شرق آسيا"
+              ],
+              [
+                "south-asia",
+                "جنوب آسيا"
+              ],
+              [
+                "middle-east",
+                "الشرق الأوسط"
+              ],
+              [
+                "europe",
+                "أوروبا"
+              ],
+              [
+                "north-america",
+                "أمريكا الشمالية"
+              ],
+              [
+                "other",
+                "أخرى"
+              ]
+            ],
+            "opt_industry": [
+              [
+                "",
+                "اختر القطاع..."
+              ],
+              [
+                "manufacturing",
+                "التصنيع / OEM / ODM"
+              ],
+              [
+                "trading",
+                "التجارة / الاستيراد والتصدير"
+              ],
+              [
+                "professional-services",
+                "الخدمات المهنية"
+              ],
+              [
+                "tech",
+                "التكنولوجيا / البرمجيات كخدمة"
+              ],
+              [
+                "education",
+                "التعليم / التدريب"
+              ],
+              [
+                "healthcare",
+                "الرعاية الصحية / الطب"
+              ],
+              [
+                "consumer-goods",
+                "السلع الاستهلاكية / التجزئة"
+              ],
+              [
+                "other",
+                "أخرى"
+              ]
+            ],
+            "opt_biz_type": [
+              [
+                "",
+                "اختر النوع..."
+              ],
+              [
+                "b2b",
+                "B2B — البيع لشركات أخرى"
+              ],
+              [
+                "b2c",
+                "B2C — البيع للمستهلكين"
+              ],
+              [
+                "b2b-b2c",
+                "B2B وB2C معًا"
+              ]
+            ],
+            "opt_offer_type": [
+              [
+                "",
+                "اختر..."
+              ],
+              [
+                "products",
+                "منتجات / سلع مادية"
+              ],
+              [
+                "services",
+                "خدمات"
+              ],
+              [
+                "both",
+                "منتجات + خدمات"
+              ]
+            ],
+            "opt_product_count": [
+              [
+                "",
+                "العدد التقريبي..."
+              ],
+              [
+                "1-5",
+                "1 – 5"
+              ],
+              [
+                "6-20",
+                "6 – 20"
+              ],
+              [
+                "21-50",
+                "21 – 50"
+              ],
+              [
+                "50+",
+                "أكثر من 50"
+              ],
+              [
+                "unknown",
+                "لست متأكدًا بعد"
+              ]
+            ],
+            "opt_target_customer": [
+              [
+                "",
+                "من يشتري منك؟"
+              ],
+              [
+                "manufacturers",
+                "المصنعون / مشترو OEM"
+              ],
+              [
+                "distributors",
+                "تجار الجملة والموزعون"
+              ],
+              [
+                "retailers",
+                "تجار التجزئة"
+              ],
+              [
+                "end-consumers",
+                "المستهلكون النهائيون"
+              ],
+              [
+                "enterprises",
+                "المؤسسات والهيئات"
+              ],
+              [
+                "mix",
+                "مزيج مما سبق"
+              ]
+            ],
+            "opt_target_market": [
+              [
+                "",
+                "أين يقع مشتروك المستهدفون؟"
+              ],
+              [
+                "north-america",
+                "أمريكا الشمالية"
+              ],
+              [
+                "europe",
+                "أوروبا"
+              ],
+              [
+                "sea",
+                "جنوب شرق آسيا"
+              ],
+              [
+                "middle-east",
+                "الشرق الأوسط وأفريقيا"
+              ],
+              [
+                "latin-america",
+                "أمريكا اللاتينية"
+              ],
+              [
+                "global",
+                "عالمي — عدة مناطق"
+              ],
+              [
+                "unknown",
+                "لست متأكدًا بعد"
+              ]
+            ],
+            "submit": "أرسل الاستشارة المجانية",
+            "sending": "جارٍ الإرسال…",
+            "footnote": "مجاني · دون التزام · نرد خلال يوم عمل واحد",
+            "err_name": "يرجى إدخال اسمك الكامل.",
+            "err_email": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+            "err_region": "يرجى اختيار منطقتك.",
+            "err_industry": "يرجى اختيار قطاعك.",
+            "err_biz_type": "يرجى اختيار نوع عملك.",
+            "err_offer_type": "يرجى إخبارنا بما تقدمه أساسًا.",
+            "err_target_market": "يرجى اختيار سوقك المستهدف.",
+            "err_missing": "يرجى ملء جميع الحقول المطلوبة.",
+            "err_invalid_email": "يبدو أن عنوان البريد الإلكتروني غير صحيح. يرجى التحقق منه.",
+            "err_generic": "حدث خطأ ما — يرجى المحاولة مرة أخرى أو مراسلتنا عبر ken.lee@medialocalize.com"
+          },
+          "loc_label": "هل تتجه نحو تعدد اللغات؟",
+          "loc_title": "هل تحتاج إلى أكثر من الإنجليزية؟",
+          "loc_body": "يترجم فريق التوطين لدينا موقعك ووثائقك وفيديوهاتك ومحتوى التعليم الإلكتروني إلى أكثر من 50 لغة — الشريك نفسه وفريق المشروع نفسه.",
+          "loc_cta": "استكشف خدمات التوطين"
+        }
       },
       "services/localization": {
         "title": "توطين متعدد اللغات",
@@ -4557,7 +7808,112 @@
             "title": "مراجعة بشرية",
             "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "الخدمات",
+          "offer_label": "ما نقدمه",
+          "offer_title": "أربعة تخصصات في التوطين",
+          "offer_body": "من الوثائق التقنية إلى محتوى الوسائط المتعددة — كل صيغة وكل لغة.",
+          "subs": [
+            {
+              "title": "النشر المكتبي (DTP)",
+              "desc": "وثائق متعددة اللغات بدقة مثالية في InDesign وFrameMaker وWord وPowerPoint وغيرها. ابتداءً من $2/page.",
+              "url": "/services/localization/dtp/",
+              "img": "/images/services/dtp.jpg",
+              "icon": "doc"
+            },
+            {
+              "title": "دبلجة الوسائط المتعددة",
+              "desc": "دبلجة بالذكاء الاصطناعي ابتداءً من $1/min وأداء صوتي بشري ابتداءً من $20/min. نتائج طبيعية الصوت بأكثر من 50 لغة.",
+              "url": "/services/localization/dubbing/",
+              "img": "/images/services/dubbing.jpg",
+              "icon": "mic"
+            },
+            {
+              "title": "توطين الفيديو والرسوم المتحركة",
+              "desc": "الترجمة المصاحبة والنصوص على الشاشة والرسوم المتحركة ومواءمة الفيديو الكاملة. ابتداءً من $8/minute.",
+              "url": "/services/localization/video/",
+              "img": "/images/services/video-localization.jpg",
+              "icon": "video"
+            },
+            {
+              "title": "توطين التعليم الإلكتروني",
+              "desc": "SCORM وxAPI وArticulate وCaptivate — توطين كامل للدورات يشمل السرد الصوتي وواجهة المستخدم والتقييمات. ابتداءً من $0.12/word.",
+              "url": "/services/localization/elearning/",
+              "img": "/images/services/elearning.jpg",
+              "icon": "book"
+            }
+          ],
+          "learn_more": "اعرف المزيد",
+          "lang_label": "التغطية اللغوية",
+          "lang_title": "أكثر من 50 لغة مدعومة",
+          "lang_body": "لغويون ناطقون أصليون في كل اللغات العالمية الرئيسية ولهجاتها الإقليمية.",
+          "langs": [
+            "الإنجليزية",
+            "الصينية المبسطة",
+            "الصينية التقليدية",
+            "الإسبانية",
+            "الفرنسية",
+            "الألمانية",
+            "اليابانية",
+            "الكورية",
+            "العربية",
+            "البرتغالية",
+            "الروسية",
+            "الإيطالية",
+            "الهولندية",
+            "البولندية",
+            "التركية",
+            "الفيتنامية",
+            "التايلاندية",
+            "الإندونيسية",
+            "الماليزية",
+            "الهندية",
+            "البنغالية",
+            "السويدية",
+            "النرويجية",
+            "الدانماركية",
+            "الفنلندية",
+            "التشيكية",
+            "الرومانية",
+            "المجرية",
+            "اليونانية",
+            "العبرية",
+            "الأوكرانية",
+            "الفارسية",
+            "الأردية",
+            "التاغالوغية",
+            "السواحيلية"
+          ],
+          "langs_more": "+ المزيد",
+          "qa_label": "ضمان الجودة",
+          "qa_title": "كيف نضمن الدقة",
+          "qa_steps": [
+            {
+              "title": "ترجمة بخبرة متخصصة",
+              "desc": "مترجمون ناطقون أصليون يتمتعون بخبرة متخصصة في مجال عملك. جميع المترجمين يجتازون اختبارات الكفاءة قبل تكليفهم."
+            },
+            {
+              "title": "تحرير لاحق بمساعدة الذكاء الاصطناعي",
+              "desc": "تسرّع أدوات الذكاء الاصطناعي معالجة المحتوى المتكرر بينما يضمن لغوي أول الاتساق والنبرة والملاءمة الثقافية في كل جزء."
+            },
+            {
+              "title": "مراجعة مستقلة",
+              "desc": "ناطق أصلي ثانٍ يراجع الناتج النهائي مقابل النص الأصلي للتحقق من الدقة والسلاسة والالتزام بدليل الأسلوب الخاص بك."
+            },
+            {
+              "title": "ضمان جودة التنسيق والنشر المكتبي",
+              "desc": "تُفحص جميع الملفات للتحقق من تجاوز النص وسلامة التخطيط وعرض الخطوط والامتثال لصيغ الملفات قبل التسليم."
+            }
+          ],
+          "web_label": "أيضًا من MediaLocalize",
+          "web_title": "هل تحتاج إلى موقع إلكتروني أولًا؟",
+          "web_body": "نبني مواقع إنجليزية سريعة وجاهزة لمحركات البحث للمصنعين والمصدرين في مجال B2B — ثم نوطنها إلى كل لغة في هذه الصفحة.",
+          "web_cta": "استكشف بناء المواقع",
+          "cta_label": "ابدأ الآن",
+          "cta_title": "لنوطن محتواك.",
+          "cta_body": "أرسل لنا ملفاتك وسنوفر لك عرض سعر خلال 24 ساعة."
+        }
       },
       "services/localization/dtp": {
         "title": "إخراج مكتبي متعدد اللغات",
@@ -4599,7 +7955,236 @@
             "title": "مراجعة بشرية",
             "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
           }
-        ]
+        ],
+        "detail": {
+          "section_label": "التوطين",
+          "request_sample": "اطلب عينة",
+          "toggle_ai": "الدبلجة بالذكاء الاصطناعي",
+          "toggle_ai_sub": "ابتداءً من $1/min · التسليم خلال 24–72 ساعة",
+          "toggle_human": "الدبلجة البشرية",
+          "toggle_human_sub": "ابتداءً من $20/min · التسليم خلال 3–7 أيام",
+          "ai_label": "مكتبة الأصوات بالذكاء الاصطناعي",
+          "ai_title": "أصوات ذكاء اصطناعي طبيعية بكل الأنماط",
+          "ai_body": "استمع إلى نماذج أصوات الذكاء الاصطناعي لدينا أدناه. انقر على أي عينة لطلب عرض توضيحي كامل بلغتك المستهدفة.",
+          "male_voices": "أصوات ذكورية",
+          "female_voices": "أصوات أنثوية",
+          "voices": [
+            {
+              "name": "Alex",
+              "gender": "male",
+              "style": "صوت ذكر شاب · 22–28 · طبيعي ومحادثة",
+              "samples": [
+                "عرض توضيحي لمنتج",
+                "فيديو تدريبي"
+              ]
+            },
+            {
+              "name": "Marcus",
+              "gender": "male",
+              "style": "صوت ذكر متوسط العمر · 38–48 · احترافي وموثوق",
+              "samples": [
+                "فيديو شرح",
+                "سرد مؤسسي"
+              ]
+            },
+            {
+              "name": "William",
+              "gender": "male",
+              "style": "صوت ذكر كبير السن · 55–65 · دافئ وجدير بالثقة",
+              "samples": [
+                "قصة علامة تجارية",
+                "مالي / قانوني"
+              ]
+            },
+            {
+              "name": "Sophie",
+              "gender": "female",
+              "style": "صوت أنثى شابة · 22–28 · حيوي وودود",
+              "samples": [
+                "فيديو تعليمي",
+                "إعلان تسويقي"
+              ]
+            },
+            {
+              "name": "Claire",
+              "gender": "female",
+              "style": "صوت أنثى متوسطة العمر · 35–45 · احترافي وهادئ",
+              "samples": [
+                "مؤسسي",
+                "تعليم إلكتروني"
+              ]
+            },
+            {
+              "name": "Emma",
+              "gender": "female",
+              "style": "صوت أنثى كبيرة السن · 55–65 · حنون وجدير بالثقة",
+              "samples": [
+                "رعاية صحية",
+                "شؤون مالية"
+              ]
+            }
+          ],
+          "ai_note": "جميع أصوات الذكاء الاصطناعي متاحة بأكثر من 50 لغة. استنساخ صوتي مخصص متاح عند الطلب.",
+          "ai_cta": "اطلب عينة صوت بالذكاء الاصطناعي",
+          "human_label": "ممثلو الأداء الصوتي البشري",
+          "human_title": "ممثلو أصوات معتمدون من الناطقين الأصليين",
+          "human_body": "لمحتوى العلامات التجارية الفاخرة والمشاريع التي تتطلب أداءً بشريًا أصيلًا. جميع الممثلين ناطقون أصليون خضعوا لاختبارات أداء وتدريب مهني.",
+          "actors": [
+            {
+              "name": "Daniel",
+              "style": "صوت ذكر شاب · 25–32 · ديناميكي وجذاب",
+              "langs": [
+                "EN (US)",
+                "EN (AU)"
+              ],
+              "bio": "ممثل متعدد المواهب يتمتع بخبرة 8 سنوات في دبلجة الإعلانات التجارية والرسوم المتحركة. معروف بأدائه الطبيعي وقدرته على التكيف بين الأساليب الكوميدية والدرامية والحماسية، وهو خيار متكرر لحملات التكنولوجيا ونمط الحياة العالمية.",
+              "tags": [
+                "إعلانات تجارية",
+                "فيلم علامة تجارية",
+                "رسوم متحركة",
+                "إطلاق منتج"
+              ],
+              "samples": [
+                "فيلم علامة تجارية",
+                "إطلاق منتج"
+              ],
+              "color": "#1a3a5c"
+            },
+            {
+              "name": "Richard",
+              "style": "صوت ذكر متوسط العمر · 40–50 · عميق ومهيب",
+              "langs": [
+                "EN (UK)",
+                "EN (US)"
+              ],
+              "bio": "مذيع ومعلّق وثائقي متمرس يتمتع بخبرة تزيد عن 15 عامًا في المجال. صوته الباريتون المهيب خيار موثوق لأفلام العلامات التجارية الراقية والاتصالات المالية والموضوعات الجادة التي تتطلب الوقار.",
+              "tags": [
+                "وثائقي",
+                "مؤسسي",
+                "مالي",
+                "صناعي"
+              ],
+              "samples": [
+                "وثائقي",
+                "تدريب صناعي"
+              ],
+              "color": "#2c1a1a"
+            },
+            {
+              "name": "Olivia",
+              "style": "صوت أنثى شابة · 24–30 · مشرق ومقنع",
+              "langs": [
+                "EN (US)",
+                "EN (CA)"
+              ],
+              "bio": "بخلفية في المسرح والتعليق الصوتي الإعلاني، تضفي Olivia الدفء والطاقة المعدية على كل سطر. يتم اختيارها باستمرار لأعمال التكنولوجيا ونمط الحياة والترويج للتطبيقات، وتتميز بجعل الأفكار المعقدة مألوفة ومشوقة.",
+              "tags": [
+                "إعلانات تجارية",
+                "ترويج تطبيقات",
+                "تكنولوجيا",
+                "تعليم إلكتروني"
+              ],
+              "samples": [
+                "إعلان تجاري",
+                "ترويج تطبيق"
+              ],
+              "color": "#1a2e1a"
+            },
+            {
+              "name": "Margaret",
+              "style": "صوت أنثى متوسطة العمر · 38–48 · واثق وواضح",
+              "langs": [
+                "EN (UK)",
+                "FR"
+              ],
+              "bio": "ممثلة ثنائية اللغة (EN/FR) متخصصة في الاتصالات المؤسسية ومحتوى الرعاية الصحية. وضوح Margaret الاستثنائي ونبرتها الموثوقة والودودة في آن واحد تجعلها الخيار الأول لبرامج الامتثال والسلامة والتدريب المؤسسي.",
+              "tags": [
+                "رعاية صحية",
+                "مؤسسي",
+                "تدريب",
+                "امتثال"
+              ],
+              "samples": [
+                "التدريب والسلامة",
+                "فيديو مؤسسي"
+              ],
+              "color": "#2c1a3a"
+            }
+          ],
+          "human_note": "ناطقون أصليون في أكثر من 40 سوقًا لغويًا. تتوفر جلسات موجهة عبر Source-Connect.",
+          "human_cta": "اطلب اختيار الأصوات",
+          "lang_label": "التغطية اللغوية",
+          "lang_title": "أكثر من 50 لغة",
+          "langs": [
+            "الإنجليزية (الأمريكية)",
+            "الإنجليزية (البريطانية)",
+            "الصينية الماندرين",
+            "الكانتونية",
+            "الإسبانية (أمريكا اللاتينية)",
+            "الإسبانية (إسبانيا)",
+            "الفرنسية",
+            "الألمانية",
+            "اليابانية",
+            "الكورية",
+            "العربية (الفصحى)",
+            "البرتغالية (البرازيل)",
+            "الروسية",
+            "الإيطالية",
+            "الهولندية",
+            "البولندية",
+            "التركية",
+            "الفيتنامية",
+            "التايلاندية",
+            "الإندونيسية",
+            "الهندية",
+            "السويدية",
+            "النرويجية",
+            "الدانماركية",
+            "الفنلندية",
+            "اليونانية",
+            "العبرية",
+            "التشيكية",
+            "الرومانية",
+            "المجرية"
+          ],
+          "langs_more": "+ 20 لغة أخرى",
+          "pricing_label": "الأسعار",
+          "pricing_title": "أسعار دبلجة شفافة",
+          "pricing": [
+            {
+              "amount": "$1–$2",
+              "unit": "/دقيقة",
+              "name": "الدبلجة بالذكاء الاصطناعي",
+              "sub": "التسليم خلال 24–72 ساعة"
+            },
+            {
+              "amount": "$5–$10",
+              "unit": "/دقيقة",
+              "name": "ذكاء اصطناعي + مراجعة بشرية",
+              "sub": "فحص جودة من قبل ناطق أصلي"
+            },
+            {
+              "amount": "$20–$50",
+              "unit": "/دقيقة",
+              "name": "ممثل أداء صوتي بشري",
+              "sub": "التسليم خلال 3–7 أيام"
+            },
+            {
+              "amount": "حسب الطلب",
+              "unit": "",
+              "name": "دبلجة متزامنة مع حركة الشفاه",
+              "sub": "عرض سعر بناءً على مدة الفيديو"
+            }
+          ],
+          "pricing_note": "الأسعار لكل دقيقة صوت نهائية. الحد الأدنى للطلب 50 دولارًا أمريكيًا. خصومات على الكميات ابتداءً من 30 دقيقة.",
+          "cta_title": "هل أنت مستعد لتوطين محتواك الصوتي؟",
+          "cta_body": "شاركنا ملفات الفيديو الخاصة بك وسنوفر لك عرض سعر وعينة خلال 24 ساعة.",
+          "cta_all": "جميع خدمات التوطين",
+          "web_label": "أيضًا من MediaLocalize",
+          "web_title": "هل تحتاج إلى موقع متعدد اللغات أيضًا؟",
+          "web_body": "نبني مواقع إنجليزية سريعة وجاهزة لمحركات البحث لمصدري B2B — مع الدبلجة والترجمة المصاحبة والمحتوى الموطن من الفريق نفسه.",
+          "web_cta": "استكشف بناء المواقع"
+        }
       },
       "services/localization/video": {
         "title": "توطين الفيديو والرسوم",

@@ -38,4 +38,4 @@ Final review should be done by watching the full video. Check names, brand terms
 
 AI dubbing helps companies update global training faster. The quality does not come from the voice model alone. It comes from the workflow around script localization, dubbing, mixing, and QA.
 
-If you need multilingual training videos, we can help choose between AI dubbing, human voiceover, and hybrid delivery: [view our video localization service](/services/video/).
+If you need multilingual training videos, we can help choose between AI dubbing, human voiceover, and hybrid delivery: [view our video localization service](/services/localization/video/).

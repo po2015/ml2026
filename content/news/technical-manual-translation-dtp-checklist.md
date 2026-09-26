@@ -42,4 +42,4 @@ Tables, warnings, captions, and step-by-step instructions should have enough spa
 
 Final review should cover more than translated sentences. Check page numbers, table of contents, cross-references, image numbers, units, warning icons, and links. A multilingual manual is part of compliance and customer support.
 
-If you need manuals, training files, or product documentation localized, we can manage source-file checks, translation, DTP, and QA together: [view our DTP localization service](/services/dtp/).
+If you need manuals, training files, or product documentation localized, we can manage source-file checks, translation, DTP, and QA together: [view our DTP localization service](/services/localization/dtp/).

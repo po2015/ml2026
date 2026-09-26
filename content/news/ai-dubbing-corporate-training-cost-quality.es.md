@@ -38,4 +38,4 @@ La revisión final debe comprobar nombres, marcas, unidades, números, siglas, s
 
 El doblaje con IA acelera la formación global, pero la calidad depende del flujo completo: guion, localización, voz, mezcla y QA.
 
-Podemos ayudarte a elegir entre IA, locución humana o flujo híbrido para tus videos: [ver servicio de localización de video](/es/services/video/).
+Podemos ayudarte a elegir entre IA, locución humana o flujo híbrido para tus videos: [ver servicio de localización de video](/es/services/localization/video/).

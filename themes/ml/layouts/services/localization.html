@@ -1,17 +1,18 @@
 {{ define "main" }}
-{{ if ne .Site.Language.Lang "en" }}
-  {{ partial "localized/service-detail.html" . }}
-{{ else }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $page := partial "i18n/page.html" . -}}
+{{- $d := $page.detail -}}
+{{- $title := partial "i18n/title.html" . -}}
 
 <!-- Hero -->
-<section class="service-img-hero" style="--hero-img:url('/images/services/localization.jpg');">
+<section class="service-img-hero" style="--hero-img:url('{{ $page.cover | default "/images/services/localization.jpg" }}');">
   <div class="page-hero-inner reveal">
-    <p class="section-label">Services</p>
-    <h1 class="page-hero-title">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
+    <p class="section-label">{{ $d.section_label }}</p>
+    <h1 class="page-hero-title">{{ $title }}</h1>
+    {{ with ($page.subtitle | default .Params.subtitle) }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
     <div class="hero-actions" style="margin-top:32px;">
-      <a href="/contact/" class="btn btn-primary">Get a Quote</a>
-      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.get_quote }}</a>
+      <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
 </section>
@@ -20,55 +21,32 @@
 <section class="section-light section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">What We Offer</p>
-      <h2 class="section-headline">Four localization specialisms</h2>
-      <p class="body-copy color-muted">From technical documents to multimedia content — every format, every language.</p>
+      <p class="section-label">{{ $d.offer_label }}</p>
+      <h2 class="section-headline">{{ $d.offer_title }}</h2>
+      <p class="body-copy color-muted">{{ $d.offer_body }}</p>
     </div>
     <div class="loc-sub-grid">
-      <a href="/services/localization/dtp/" class="loc-sub-card reveal reveal-delay-1">
-        <img src="/images/services/dtp.jpg" alt="Desktop Publishing" class="loc-sub-img" loading="lazy">
+      {{ range $idx, $sub := $d.subs }}
+      <a href="{{ $sub.url | relLangURL }}" class="loc-sub-card reveal reveal-delay-{{ add (mod $idx 2) 1 }}">
+        <img src="{{ $sub.img }}" alt="{{ $sub.title }}" class="loc-sub-img" loading="lazy">
         <div class="loc-sub-body">
           <div class="service-icon" style="width:44px;height:44px;margin-bottom:16px;">
+            {{ if eq $sub.icon "doc" }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-          </div>
-          <div class="loc-sub-title">Desktop Publishing (DTP)</div>
-          <p class="loc-sub-desc">Pixel-perfect multilingual documents in InDesign, FrameMaker, Word, PowerPoint, and more. Starting at $2/page.</p>
-          <span class="loc-sub-link">Learn more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>
-        </div>
-      </a>
-      <a href="/services/localization/dubbing/" class="loc-sub-card reveal reveal-delay-2">
-        <img src="/images/services/dubbing.jpg" alt="Multimedia Dubbing" class="loc-sub-img" loading="lazy">
-        <div class="loc-sub-body">
-          <div class="service-icon" style="width:44px;height:44px;margin-bottom:16px;">
+            {{ else if eq $sub.icon "mic" }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-          </div>
-          <div class="loc-sub-title">Multimedia Dubbing</div>
-          <p class="loc-sub-desc">AI dubbing from $30/min and human voice acting from $100/min. Natural-sounding results in 50+ languages.</p>
-          <span class="loc-sub-link">Learn more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>
-        </div>
-      </a>
-      <a href="/services/localization/video/" class="loc-sub-card reveal reveal-delay-1">
-        <img src="/images/services/video-localization.jpg" alt="Video Localization" class="loc-sub-img" loading="lazy">
-        <div class="loc-sub-body">
-          <div class="service-icon" style="width:44px;height:44px;margin-bottom:16px;">
+            {{ else if eq $sub.icon "video" }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
-          </div>
-          <div class="loc-sub-title">Video &amp; Animation Localization</div>
-          <p class="loc-sub-desc">Subtitling, on-screen text, motion graphics, and full video adaptation. From $8/minute.</p>
-          <span class="loc-sub-link">Learn more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>
-        </div>
-      </a>
-      <a href="/services/localization/elearning/" class="loc-sub-card reveal reveal-delay-2">
-        <img src="/images/services/elearning.jpg" alt="E-Learning Localization" class="loc-sub-img" loading="lazy">
-        <div class="loc-sub-body">
-          <div class="service-icon" style="width:44px;height:44px;margin-bottom:16px;">
+            {{ else }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            {{ end }}
           </div>
-          <div class="loc-sub-title">E-Learning Localization</div>
-          <p class="loc-sub-desc">SCORM, xAPI, Articulate, Captivate — full course localization including narration, UI, and assessments. From $0.12/word.</p>
-          <span class="loc-sub-link">Learn more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>
+          <div class="loc-sub-title">{{ $sub.title }}</div>
+          <p class="loc-sub-desc">{{ $sub.desc }}</p>
+          <span class="loc-sub-link">{{ $d.learn_more }} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></span>
         </div>
       </a>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -77,23 +55,13 @@
 <section class="section-dark section-pad">
   <div class="container">
     <div class="section-intro section-intro-dark reveal">
-      <p class="section-label">Language Coverage</p>
-      <h2 class="section-headline color-white">50+ languages supported</h2>
-      <p class="body-copy" style="color:rgba(255,255,255,0.6);">Native-speaking linguists across every major world language and regional variant.</p>
+      <p class="section-label">{{ $d.lang_label }}</p>
+      <h2 class="section-headline color-white">{{ $d.lang_title }}</h2>
+      <p class="body-copy" style="color:rgba(255,255,255,0.6);">{{ $d.lang_body }}</p>
     </div>
     <div class="lang-cloud reveal">
-      <span class="lang-tag">English</span><span class="lang-tag">Simplified Chinese</span><span class="lang-tag">Traditional Chinese</span>
-      <span class="lang-tag">Spanish</span><span class="lang-tag">French</span><span class="lang-tag">German</span>
-      <span class="lang-tag">Japanese</span><span class="lang-tag">Korean</span><span class="lang-tag">Arabic</span>
-      <span class="lang-tag">Portuguese</span><span class="lang-tag">Russian</span><span class="lang-tag">Italian</span>
-      <span class="lang-tag">Dutch</span><span class="lang-tag">Polish</span><span class="lang-tag">Turkish</span>
-      <span class="lang-tag">Vietnamese</span><span class="lang-tag">Thai</span><span class="lang-tag">Indonesian</span>
-      <span class="lang-tag">Malay</span><span class="lang-tag">Hindi</span><span class="lang-tag">Bengali</span>
-      <span class="lang-tag">Swedish</span><span class="lang-tag">Norwegian</span><span class="lang-tag">Danish</span>
-      <span class="lang-tag">Finnish</span><span class="lang-tag">Czech</span><span class="lang-tag">Romanian</span>
-      <span class="lang-tag">Hungarian</span><span class="lang-tag">Greek</span><span class="lang-tag">Hebrew</span>
-      <span class="lang-tag">Ukrainian</span><span class="lang-tag">Persian (Farsi)</span><span class="lang-tag">Urdu</span>
-      <span class="lang-tag">Tagalog</span><span class="lang-tag">Swahili</span><span class="lang-tag">+ More</span>
+      {{ range $d.langs }}<span class="lang-tag">{{ . }}</span>{{ end }}
+      <span class="lang-tag">{{ $d.langs_more }}</span>
     </div>
   </div>
 </section>
@@ -102,54 +70,44 @@
 <section class="section-light section-pad">
   <div class="container">
     <div class="section-intro reveal">
-      <p class="section-label">Quality Assurance</p>
-      <h2 class="section-headline">How we ensure accuracy</h2>
+      <p class="section-label">{{ $d.qa_label }}</p>
+      <h2 class="section-headline">{{ $d.qa_title }}</h2>
     </div>
     <div class="process-steps">
+      {{ range $idx, $step := $d.qa_steps }}
       <div class="process-step reveal">
-        <div class="step-num">1</div>
+        <div class="step-num">{{ add $idx 1 }}</div>
         <div class="step-body">
-          <div class="step-title">Expert Translation</div>
-          <div class="step-desc">Native-speaking translators with subject-matter expertise in your industry. All translators pass proficiency testing before assignment.</div>
+          <div class="step-title">{{ $step.title }}</div>
+          <div class="step-desc">{{ $step.desc }}</div>
         </div>
       </div>
-      <div class="process-step reveal">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <div class="step-title">AI-Assisted Post-Editing</div>
-          <div class="step-desc">AI tools accelerate repetitive content while a senior linguist ensures consistency, tone, and cultural appropriateness throughout.</div>
-        </div>
-      </div>
-      <div class="process-step reveal">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <div class="step-title">Independent Review</div>
-          <div class="step-desc">A second native speaker reviews the final output against the source for accuracy, fluency, and adherence to your style guide.</div>
-        </div>
-      </div>
-      <div class="process-step reveal">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <div class="step-title">Format &amp; DTP QA</div>
-          <div class="step-desc">All files are checked for text overflow, layout integrity, font rendering, and file format compliance before delivery.</div>
-        </div>
-      </div>
+      {{ end }}
     </div>
+  </div>
+</section>
+
+<!-- Website Building Cross-link -->
+<section class="section-white section-pad-sm">
+  <div class="container text-center reveal">
+    <p class="section-label">{{ $d.web_label }}</p>
+    <h2 class="section-headline mb-16">{{ $d.web_title }}</h2>
+    <p class="body-copy color-muted mb-32" style="max-width:560px;margin-left:auto;margin-right:auto;">{{ $d.web_body }}</p>
+    <a href="{{ "/services/website-building/" | relLangURL }}" class="btn btn-secondary-light">{{ $d.web_cta }}</a>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">
   <div class="container reveal">
-    <p class="section-label">Get Started</p>
-    <h2 class="section-headline color-white mb-16">Let's localize your content.</h2>
-    <p class="subheadline">Send us your files and we'll provide a quote within 24 hours.</p>
+    <p class="section-label">{{ $d.cta_label }}</p>
+    <h2 class="section-headline color-white mb-16">{{ $d.cta_title }}</h2>
+    <p class="subheadline">{{ $d.cta_body }}</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Quote</a>
-      <a href="/prices/" class="btn btn-secondary-dark">View Pricing</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.get_quote }}</a>
+      <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
 </section>
 
-{{ end }}
 {{ end }}

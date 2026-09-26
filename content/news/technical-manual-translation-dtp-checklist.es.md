@@ -42,4 +42,4 @@ Tablas, advertencias, pies de imagen y pasos numerados deberían diseñarse con 
 
 La revisión final debe comprobar traducción, paginación, índice, referencias cruzadas, números de imágenes, unidades, símbolos de advertencia y enlaces. Un manual multilingüe forma parte del soporte y del cumplimiento.
 
-Podemos encargarnos de revisión de archivos, traducción, DTP y QA para manuales y materiales técnicos: [ver servicio DTP](/es/services/dtp/).
+Podemos encargarnos de revisión de archivos, traducción, DTP y QA para manuales y materiales técnicos: [ver servicio DTP](/es/services/localization/dtp/).

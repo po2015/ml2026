@@ -575,6 +575,14 @@ html[lang="zh-CN"] .service-card-body {
   letter-spacing: 0.02em;
 }
 
+.stats-light .stat-number {
+  color: var(--color-blue);
+}
+
+.stats-light .stat-label {
+  color: var(--color-gray-mid);
+}
+
 /* ---------- Service Cards ---------- */
 .service-icon {
   width: 56px;
@@ -2093,6 +2101,16 @@ html[lang="zh-CN"] .service-card-body {
 
 .footer-list-muted li {
   color: rgba(255,255,255,0.3);
+}
+
+.footer-list-muted li a {
+  color: rgba(255,255,255,0.45);
+  transition: color 0.2s;
+}
+
+.footer-list-muted li a:hover {
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 .footer-bottom {

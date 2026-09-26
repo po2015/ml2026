@@ -12,7 +12,7 @@
 </section>
 
 {{ range $idx, $service := $hub.services }}
-<section class="section-white section-pad">
+<section class="{{ if eq (mod $idx 2) 0 }}section-white{{ else }}section-light{{ end }} section-pad">
   <div class="container">
     <div class="service-feature-row reveal">
       {{ if eq $idx 1 }}<img src="{{ $service.image }}" alt="{{ $service.title }}" class="reveal reveal-delay-1" loading="lazy">{{ end }}
@@ -35,7 +35,6 @@
     </div>
   </div>
 </section>
-{{ if eq $idx 0 }}<hr class="divider">{{ end }}
 {{ end }}
 
 <!-- Stats -->

@@ -1,6 +1,11 @@
 # ─────────────────────────────────────────────────────────────
 #  MediaLocalize — Company Profile, Pricing & Site Architecture
 #  Brand color: #0071e3  |  Website: medialocalize.com
+#
+#  NOTE (updated 2026-09): this file is the business source-of-truth for
+#  services and pricing. Live page copy lives in data/site_i18n.json
+#  (5 languages: en/zh/es/ru/ar) — when the two disagree, the live site
+#  wins and this file should be updated to match.
 # ─────────────────────────────────────────────────────────────
 
 company:
@@ -108,18 +113,21 @@ company:
 
 pricing:
 
-  # ── Website Building Packages (Annual Subscription) ────────
+  # ── Website Building Packages (One-time Setup + Annual) ────
   website_building:
-    billing_cycle: annual
+    billing_cycle: one-time setup fee + annual subscription
     currency: USD
     note_zh: >
-      所有套餐均按年付费，含一年续费价格。域名续费费用按市价另计。
+      所有套餐由一次性搭建费（含设计、开发与上线）和年度服务费
+      （含托管、维护与支持）组成。域名续费费用按市价另计。
     packages:
       - id: starter
         name_en: Starter
         name_zh: 入门版
-        price_usd: 199
-        price_display: "$199 / year"
+        setup_usd: 199
+        annual_usd: 199
+        year1_total_usd: 398
+        price_display: "$199 setup + $199/year"
         tagline_en: "Everything you need to go live"
         tagline_zh: "快速上线的基础配置"
         includes:
@@ -140,8 +148,10 @@ pricing:
       - id: growth
         name_en: Growth
         name_zh: 成长版
-        price_usd: 499
-        price_display: "$499 / year"
+        setup_usd: 499
+        annual_usd: 299
+        year1_total_usd: 798
+        price_display: "$499 setup + $299/year"
         tagline_en: "Scale your online presence"
         tagline_zh: "扩展品牌线上影响力"
         includes:
@@ -158,13 +168,14 @@ pricing:
         not_included:
           - Live chat widget
           - AI customer service bot
-          - Dedicated account manager
 
       - id: business
         name_en: Business
         name_zh: 商业版
-        price_usd: 999
-        price_display: "$999 / year"
+        setup_usd: 999
+        annual_usd: 399
+        year1_total_usd: 1398
+        price_display: "$999 setup + $399/year"
         tagline_en: "Full-featured with AI customer service"
         tagline_zh: "全功能配置，含 AI 在线客服"
         includes:
@@ -179,7 +190,7 @@ pricing:
           - forms: Multi-step forms & CRM lead sync
           - live_chat: Live chat widget integration
           - ai_service: AI customer service chatbot (trained on your content)
-          - support: 24/7 priority support + dedicated account manager
+          - support: Priority support — direct access to the project team (boutique model: no account-manager layer)
           - report: Monthly website performance report
         add_ons_available: true
 
@@ -253,7 +264,7 @@ pricing:
       ai_dubbing:
         name_en: AI Voice-Over
         name_zh: AI 配音
-        languages: [English, Chinese (Mandarin)]
+        languages: [English, Chinese (Mandarin), Spanish, Russian, Arabic, and 45+ more]
         voices:
           - gender: Male
             ages: [Youth (18–30), Middle-aged (30–50), Senior (50+)]
@@ -261,7 +272,7 @@ pricing:
           - gender: Female
             ages: [Youth (18–30), Middle-aged (30–50), Senior (50+)]
             styles: [Narration, Commercial]
-        price_range_usd: "30 – 60"
+        price_range_usd: "1 – 2"
         unit: per finished minute
         includes:
           - Script synchronization
@@ -269,16 +280,23 @@ pricing:
           - 2 rounds of revision
         audition: "Free sample clip before production"
 
+      ai_human_review:
+        name_en: AI + Human Review
+        name_zh: AI 配音 + 人工审校
+        price_range_usd: "5 – 10"
+        unit: per finished minute
+        notes_en: "AI synthesis quality-checked and corrected by a native speaker"
+
       human_dubbing:
         name_en: Professional Voice Actor
         name_zh: 真人专业配音
-        languages: [English, Chinese (Mandarin)]
+        languages: [English, Chinese (Mandarin), Spanish, Russian, Arabic, and 35+ more]
         voices:
           - gender: Male
             styles: [Narration, Commercial, Documentary]
           - gender: Female
             styles: [Narration, Commercial, Documentary]
-        price_range_usd: "100 – 180"
+        price_range_usd: "20 – 50"
         unit: per finished minute
         includes:
           - Professional studio recording
@@ -287,7 +305,14 @@ pricing:
           - 3 rounds of revision
         audition: "Free audition from selected voice talents"
 
-      minimum_order_minutes: 3
+      lip_sync:
+        name_en: Lip-Sync Dubbing
+        name_zh: 对口型配音
+        price_range_usd: "custom quote"
+        notes_en: "Quoted based on video length and on-camera talent count"
+
+      minimum_order_usd: 50
+      volume_discount: "Available from 30 finished minutes"
 
     video:
       name_en: Video & Animation Localization
@@ -455,15 +480,57 @@ cases:
       - 上线后规格书月均下载量超 40 次
       - 上线 2 周内收到首个 OEM 正式询价
 
+  - id: laser-marking-localization
+    slug: laser-marking-localization
+    client_en: Wuhan laser equipment manufacturer (named on site)
+    industry_en: Laser Equipment / Manufacturing
+    services: [localization]   # DTP + English content overhaul
+    date: 2025
+    featured: false
+    title_en: "Wuhan Laser Equipment Manufacturer — Export Materials Localization"
+    summary_en: >
+      Full English content audit and rebuild of spec sheets for 20W/30W/50W
+      fiber laser marking machines (InDesign, dual metric/imperial, CE
+      directive language, industry-segmented application sheets). First
+      direct European buyer inquiry within 6 weeks; converted to a 2-unit
+      order within 4 weeks of contact.
+
+  - id: courseware-localization
+    slug: courseware-localization
+    client_en: Confidential (NDA) — global compliance training provider
+    industry_en: Enterprise Training / HR Tech
+    services: [localization]   # courseware layout + Mandarin VO + subtitles
+    date: 2025
+    featured: false
+    title_en: "Confidential Client — Enterprise Training Courseware Localization"
+    summary_en: >
+      Three-track Simplified Chinese localization of a 40+ module training
+      library: slide layout adaptation, professional Mandarin voice-over,
+      subtitle retiming. Learner satisfaction scores matched or exceeded
+      the English originals; engagement extended to ongoing releases.
+
+  - id: translation-dtp-partnership
+    slug: translation-dtp-partnership
+    client_en: Confidential (NDA) — European industrial equipment company
+    industry_en: Industrial Equipment
+    services: [localization]   # translation + InDesign DTP
+    date: "10+ years ongoing"
+    featured: false
+    title_en: "Confidential Client — 10-Year Translation & DTP Partnership"
+    summary_en: >
+      Decade-long EN↔ZH translation and InDesign typesetting partnership:
+      dedicated termbase (4,000+ entries) and translation memory, 250,000+
+      words across hundreds of documents, 5-business-day standing SLA.
+
 # ─────────────────────────────────────────────────────────────
 #  SITE ARCHITECTURE
 # ─────────────────────────────────────────────────────────────
 
 site:
-  languages: [en, zh]
+  languages: [en, zh, es, ru, ar]
   default_language: en
-  url_structure: "/{lang}/{page}/"   # e.g. /en/services/ and /zh/services/
-  hugo_theme_note: "Apple-inspired design system (DESIGN.md); bilingual Hugo"
+  url_structure: "en at root; others /{lang}/{page}/"   # e.g. /services/ and /zh/services/
+  hugo_theme_note: "Apple-inspired design system (DESIGN.md); 5-language Hugo (Arabic RTL)"
 
   navigation:
     primary:
@@ -832,7 +899,7 @@ site:
       - Article (news pages)
     og_meta: true
     twitter_cards: true
-    hreflang: true   # bilingual en/zh alternate tags
+    hreflang: true   # 5-language alternate tags + x-default
 
   performance:
     lazy_load_images: true

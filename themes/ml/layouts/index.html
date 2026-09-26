@@ -16,7 +16,7 @@
 </section>
 
 <!-- ===== STATS ===== -->
-<section class="section-dark section-pad-sm">
+<section class="section-light section-pad-sm stats-light">
   <div class="container">
     <div class="stats-grid">
       {{ range $idx, $stat := $home.stats }}
@@ -76,8 +76,8 @@
     </div>
 
     <div class="grid-2" style="gap:20px;">
-      {{ range $idx, $slug := slice "cases/irmodules" "cases/laser-marking-localization" }}
-      {{ with $.Site.GetPage $slug }}
+      {{ range $idx, $case := first 2 (where .Site.RegularPages "Section" "cases").ByDate.Reverse }}
+      {{ with $case }}
       {{- $page := partial "i18n/page.html" . -}}
       <article class="case-card reveal reveal-delay-{{ add $idx 1 }}">
         {{ with .Params.cover }}

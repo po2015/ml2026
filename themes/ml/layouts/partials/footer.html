@@ -41,7 +41,7 @@
       <div class="footer-col">
         <p class="footer-col-title">{{ $copy.footer.industries_title }}</p>
         <ul class="footer-list-muted">
-          {{ range $copy.footer.industries }}<li>{{ . }}</li>{{ end }}
+          {{ range $copy.footer.industries }}<li><a href="{{ index . 1 | relLangURL }}">{{ index . 0 }}</a></li>{{ end }}
         </ul>
       </div>
 
@@ -49,7 +49,7 @@
       <div class="footer-col">
         <p class="footer-col-title">{{ $copy.footer.languages_title }}</p>
         <ul class="footer-list-muted">
-          {{ range $copy.footer.languages }}<li>{{ . }}</li>{{ end }}
+          {{ range $copy.footer.languages }}<li><a href="{{ index . 1 | relLangURL }}">{{ index . 0 }}</a></li>{{ end }}
         </ul>
       </div>
 
