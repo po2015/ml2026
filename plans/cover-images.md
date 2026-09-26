@@ -94,6 +94,11 @@ Pexels 许可：免费商用，无需署名。此处留存来源备查。
 | hybrid-ai-human-voiceover-workflow | photo 306088 (录音棚调音台旋钮特写) | (Pexels) |
 | subtitle-file-formats-srt-vtt | photo 357514 (堆叠的文件夹与文档) | (Pexels) |
 | automated-multilingual-publishing-xml | photo 9550363 (工业印刷机处理纸张) | (Pexels) |
+| india-multilingual-content-strategy | photo 22591327 (印度街市与印地语招牌) | (Pexels) |
+| multilingual-cms-export-website | photo 577210 (笔记本电脑上的数据分析仪表盘) | (Pexels) |
+| content-hub-seo-architecture | photo 1181343 (白板上的结构流程图) | (Pexels) |
+| translation-style-guide-brand-voice | photo 7598007 (品牌策略文件与色卡平铺) | (Pexels) |
+| audio-loudness-standards-international | photo 7087611 (调音台 VU 表特写) | (Pexels) |
 
 ## 下载方式（无 API key 时）
 
