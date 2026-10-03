@@ -13,16 +13,13 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'Invalid request body' }), { status: 400, headers });
   }
 
-  const { name, email, company, service, message, _hp, _t0 } = body;
+  const { form_type, name, email, company, service, message, voice_type, voice_name, text: voiceText, chars, price_usd, tier_rate, _hp, _t0 } = body;
 
   // Bot guards (server-side mirror of client checks)
   if (_hp) {
     return new Response(JSON.stringify({ ok: true }), { headers }); // silently accept bots
   }
-  if (!name || !email || !service || !message) {
-    return new Response(JSON.stringify({ ok: false, error: 'missing_fields' }), { status: 400, headers });
-  }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email || '')) {
     return new Response(JSON.stringify({ ok: false, error: 'invalid_email' }), { status: 400, headers });
   }
 
@@ -31,17 +28,42 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'server_config' }), { status: 500, headers });
   }
 
-  const text = [
-    '📬 New Inquiry — MediaLocalize',
-    '',
-    `Name:    ${name}`,
-    `Email:   ${email}`,
-    `Company: ${company || '—'}`,
-    `Service: ${service}`,
-    '',
-    'Message:',
-    message,
-  ].join('\n');
+  let text;
+  if (form_type === 'voice_request') {
+    // Self-serve TTS request from the dubbing voice catalog. The message carries
+    // everything needed to execute the job: voice ID + text + char count + quote.
+    if (!voice_type || !voiceText) {
+      return new Response(JSON.stringify({ ok: false, error: 'missing_fields' }), { status: 400, headers });
+    }
+    text = [
+      '🎙️ Voice Dubbing Request — MediaLocalize',
+      '',
+      `Email:     ${email}`,
+      `Voice:     ${voice_name || '—'}`,
+      `Voice ID:  ${voice_type}`,
+      `Engine:    Volcano Engine Doubao TTS 2.0 (cluster: volcano_tts)`,
+      `Chars:     ${chars ?? '—'}`,
+      `Quote:     $${price_usd ?? '—'} (tier $${tier_rate ?? '—'}/5k chars)`,
+      '',
+      '--- Text to synthesize ---',
+      String(voiceText).slice(0, 5000),
+    ].join('\n');
+  } else {
+    if (!name || !service || !message) {
+      return new Response(JSON.stringify({ ok: false, error: 'missing_fields' }), { status: 400, headers });
+    }
+    text = [
+      '📬 New Inquiry — MediaLocalize',
+      '',
+      `Name:    ${name}`,
+      `Email:   ${email}`,
+      `Company: ${company || '—'}`,
+      `Service: ${service}`,
+      '',
+      'Message:',
+      message,
+    ].join('\n');
+  }
 
   try {
     const res = await fetch(webhookUrl, {

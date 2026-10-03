@@ -11,7 +11,7 @@
     <h1 class="page-hero-title">{{ $title }}</h1>
     {{ with ($page.subtitle | default .Params.subtitle) }}<p class="page-hero-subtitle">{{ . }}</p>{{ end }}
     <div class="hero-actions" style="margin-top:32px;">
-      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $d.request_sample }}</a>
+      <a href="#ai-voices" class="btn btn-primary">{{ $d.listen_samples }}</a>
       <a href="{{ "/prices/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.view_pricing }}</a>
     </div>
   </div>
@@ -42,37 +42,291 @@
       <p class="body-copy color-muted">{{ $d.ai_body }}</p>
     </div>
 
-    {{ range $group := slice (dict "title" $d.male_voices "voices" (where $d.voices "gender" "male")) (dict "title" $d.female_voices "voices" (where $d.voices "gender" "female")) }}
-    <p class="voice-section-title" style="margin-bottom:20px;">{{ $group.title }}</p>
-    <div class="voice-grid" style="margin-bottom:40px;">
-      {{ range $idx, $voice := $group.voices }}
-      <div class="voice-card reveal reveal-delay-{{ add (mod $idx 3) 1 }}">
-        <div class="voice-card-header">
-          <div class="voice-avatar"{{ if eq $voice.gender "female" }} style="background:linear-gradient(135deg,#FF6B9D,#C44BFF);"{{ end }}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <div class="voice-meta">
-            <div class="voice-name">{{ $voice.name }}</div>
-            <div class="voice-style">{{ $voice.style }}</div>
-          </div>
-        </div>
-        <div class="voice-players">
-          {{ range $sidx, $sample := $voice.samples }}
-          <a href="{{ "/contact/" | relLangURL }}" class="voice-player-row" style="text-decoration:none;">
-            <button class="voice-play-btn" onclick="return false;" aria-label="Play sample">
-              <svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg>
+    {{- $voices := site.Data.voices -}}
+    {{- $cat := $d.catalog -}}
+    {{- $siteLang := .Site.Language.Lang -}}
+    {{- $scenOrder := slice "general" "video" "roleplay" "reading" "service" "education" -}}
+    {{- $langOrder := slice "en_us" "en_gb" "ja" "ko" "de" "fr" "es" "es_mx" "pt_br" "ru" "ar" "id" "th" "vi" "tl" "ms" "it" -}}
+
+    <!-- Filters: language x gender (combinable) -->
+    <div class="vc-filter-row reveal">
+      <span class="vc-filter-label">{{ $cat.filter_lang_label }}</span>
+      <div class="vc-nav" id="vc-filter-lang">
+        <button class="vc-chip active" data-lang="all">{{ $cat.filter_all_lang }}</button>
+        <button class="vc-chip" data-lang="zh">{{ $cat.langs_zh }}</button>
+        {{ range $l := $langOrder }}<button class="vc-chip" data-lang="{{ $l }}">{{ index $cat.langs $l }}</button>{{ end }}
+      </div>
+    </div>
+    <div class="vc-filter-row reveal">
+      <span class="vc-filter-label">{{ $cat.filter_gender_label }}</span>
+      <div class="vc-nav" id="vc-filter-gender">
+        <button class="vc-chip active" data-gender="all">{{ $cat.filter_all_gender }}</button>
+        <button class="vc-chip" data-gender="male">{{ $cat.legend_male }}</button>
+        <button class="vc-chip" data-gender="female">{{ $cat.legend_female }}</button>
+      </div>
+      <span id="vc-count" class="vc-legend" style="margin:0;margin-inline-start:auto;"></span>
+    </div>
+    <p class="body-copy color-muted" style="font-size:13px;margin:8px 0 16px;">{{ $cat.pricing_note }}</p>
+
+    <!-- Chinese voices (single group) -->
+    <div id="vc-sec-zh">
+    <h3 class="vc-group-title">{{ $cat.group_zh }} <span class="vc-group-count">· {{ len $voices.zh }}</span></h3>
+    <p class="body-copy color-muted" style="font-size:14px;">{{ $cat.zh_note }}</p>
+    <div class="vc-group">
+      <div class="vc-grid">
+        {{ range $voices.zh }}
+        {{ $vn := or (index .name_i18n $siteLang) .name }}
+        <div class="vc-card" data-gender="{{ .gender }}" data-lang="zh" data-vt="{{ .voice_type }}" data-vname="{{ $vn }}">
+          <div class="vc-card-head">
+            <button class="vc-play" data-audio="/audio/voices/{{ .voice_type }}.mp3" aria-label="{{ $vn }}">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
             </button>
-            <div class="voice-waveform">
-              {{ range $i := seq 20 }}<span style="height:{{ add 6 (mod (mul $i (add (mul $idx 3) (add $sidx 7))) 19) }}px"></span>{{ end }}
+            <div class="vc-main">
+              <div class="vc-name">{{ $vn }}</div>
+              <div class="vc-type">{{ .voice_type }}</div>
             </div>
-            <span class="voice-label">{{ $sample }}</span>
-          </a>
-          {{ end }}
+            <span class="vc-dot {{ if eq .gender "female" }}vc-dot-f{{ else }}vc-dot-m{{ end }}"></span>
+            <button class="vc-request" type="button" aria-label="{{ $cat.submit }}" title="{{ $cat.submit }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>
+            </button>
+          </div>
+          {{ with .desc }}<p class="vc-desc">{{ or (index . $siteLang) .en }}</p>{{ end }}
+          <div class="vc-card-tags">
+            <span class="vc-stag">{{ index $cat.scenarios .scenario }}</span>{{ range .also }}<span class="vc-stag">{{ index $cat.scenarios . }}</span>{{ end }}
+          </div>
         </div>
+        {{ end }}
+      </div>
+    </div>
+    </div>
+
+    <!-- International voices by language -->
+    <div id="vc-sec-fo">
+    <h3 class="vc-group-title">{{ $cat.group_foreign }} <span class="vc-group-count">· {{ len $voices.foreign }}</span></h3>
+    <p class="body-copy color-muted" style="font-size:14px;">{{ $cat.foreign_note }}</p>
+    {{ range $l := $langOrder }}
+      {{ $vs := where $voices.foreign "lang" $l }}
+      {{ if $vs }}
+      <div class="vc-group">
+      <h4 class="vc-group-title" style="font-size:15px;">{{ index $cat.langs $l }} <span class="vc-group-count">· {{ len $vs }}</span></h4>
+      <div class="vc-grid">
+        {{ range $vs }}
+        <div class="vc-card" data-gender="{{ .gender }}" data-lang="{{ .lang }}" data-vt="{{ .voice_type }}" data-vname="{{ .name }}">
+          <div class="vc-card-head">
+            <button class="vc-play" data-audio="/audio/voices/{{ .voice_type }}.mp3" aria-label="{{ .name }}">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <div class="vc-main">
+              <div class="vc-name">{{ .name }}</div>
+              <div class="vc-type">{{ .voice_type }}</div>
+            </div>
+            <span class="vc-dot {{ if eq .gender "female" }}vc-dot-f{{ else }}vc-dot-m{{ end }}"></span>
+            <button class="vc-request" type="button" aria-label="{{ $cat.submit }}" title="{{ $cat.submit }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg>
+            </button>
+          </div>
+          {{ with .desc }}<p class="vc-desc">{{ or (index . $siteLang) .en }}</p>{{ end }}
+          {{ with .scenarios }}<div class="vc-card-tags">{{ range . }}<span class="vc-stag">{{ index $cat.scenarios . }}</span>{{ end }}</div>{{ end }}
+        </div>
+        {{ end }}
+      </div>
       </div>
       {{ end }}
-    </div>
     {{ end }}
+    </div>
+
+    <!-- Request modal: collects email + text, submits to /api/contact (voice_request) -->
+    <div class="vc-modal-overlay" id="vc-modal" hidden>
+      <div class="vc-modal" role="dialog" aria-modal="true" aria-labelledby="vc-modal-title">
+        <button class="vc-modal-close" id="vc-modal-close" type="button" aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <h3 class="vc-modal-title" id="vc-modal-title">{{ $cat.modal_title }}</h3>
+        <div class="vc-modal-voice">
+          <div class="vc-main">
+            <div class="vc-name" id="vc-modal-vname"></div>
+            <div class="vc-type" id="vc-modal-vtype"></div>
+          </div>
+        </div>
+        <textarea class="vc-modal-text" id="vc-modal-text" rows="5" placeholder="{{ $cat.text_placeholder }}"></textarea>
+        <input type="text" class="vc-modal-hp" id="vc-modal-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="vc-quote">
+          <span><span id="vc-modal-chars">0</span> {{ $cat.chars_label }}</span>
+          <span><strong class="vc-price" id="vc-modal-price">$1.00</strong> <span class="vc-tier" id="vc-modal-tier"></span></span>
+        </div>
+        <div class="vc-form">
+          <input type="email" class="vc-email" id="vc-modal-email" placeholder="{{ $cat.email_placeholder }}">
+          <button class="vc-submit btn btn-primary" id="vc-modal-submit" type="button">{{ $cat.submit }}</button>
+        </div>
+        <p class="vc-status" id="vc-modal-status" hidden></p>
+      </div>
+    </div>
+
+    <script>
+    (function () {
+      // Language x Gender filters (combinable)
+      var langChips = document.querySelectorAll('#vc-filter-lang .vc-chip');
+      var genderChips = document.querySelectorAll('#vc-filter-gender .vc-chip');
+      var cards = document.querySelectorAll('.vc-card');
+      var count = document.getElementById('vc-count');
+      var tpl = {{ $cat.filter_count | jsonify }};
+      var lang = 'all', gender = 'all';
+
+      function apply() {
+        var n = 0;
+        cards.forEach(function (c) {
+          var show = (lang === 'all' || c.dataset.lang === lang)
+                  && (gender === 'all' || c.dataset.gender === gender);
+          c.style.display = show ? '' : 'none';
+          if (show) n++;
+        });
+        document.querySelectorAll('.vc-group').forEach(function (g) {
+          g.style.display = g.querySelector('.vc-card:not([style*="none"])') ? '' : 'none';
+        });
+        document.getElementById('vc-sec-zh').style.display =
+          document.querySelector('#vc-sec-zh .vc-card:not([style*="none"])') ? '' : 'none';
+        document.getElementById('vc-sec-fo').style.display =
+          document.querySelector('#vc-sec-fo .vc-group:not([style*="none"])') ? '' : 'none';
+        if (count) count.textContent = tpl.replace('%d', n);
+      }
+      function bind(chips, set) {
+        chips.forEach(function (c) {
+          c.addEventListener('click', function () {
+            chips.forEach(function (x) { x.classList.remove('active'); });
+            c.classList.add('active');
+            set(c);
+            apply();
+          });
+        });
+      }
+      bind(langChips, function (c) { lang = c.dataset.lang; });
+      bind(genderChips, function (c) { gender = c.dataset.gender; });
+      apply();
+
+      // Sample playback: one shared Audio, click toggles play/stop
+      var audio = null, currentBtn = null;
+      function stopCurrent() {
+        if (audio) audio.pause();
+        if (currentBtn) currentBtn.classList.remove('playing');
+        currentBtn = null;
+      }
+      document.querySelectorAll('.vc-play').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (currentBtn === btn) { stopCurrent(); return; }
+          stopCurrent();
+          if (!audio) audio = new Audio();
+          audio.src = btn.dataset.audio;
+          audio.onended = stopCurrent;
+          audio.onerror = stopCurrent;
+          audio.play().catch(stopCurrent);
+          btn.classList.add('playing');
+          currentBtn = btn;
+        });
+      });
+
+      // Request modal: one shared dialog, submits form_type=voice_request to /api/contact
+      var S = {
+        tier: {{ $cat.tier_fmt | jsonify }},
+        sending: {{ $cat.sending | jsonify }},
+        success: {{ $cat.success | jsonify }},
+        errEmail: {{ $cat.err_email | jsonify }},
+        errText: {{ $cat.err_text | jsonify }},
+        errFail: {{ $cat.err_fail | jsonify }}
+      };
+      var T0 = Date.now();
+      var TIERS = [[10000, 1.00], [50000, 0.80], [200000, 0.65], [Infinity, 0.50]];
+      var MIN_PRICE = 1.00;
+      function quote(n) {
+        var rate = TIERS.find(function (t) { return n <= t[0]; })[1];
+        return { rate: rate, price: Math.max((n / 5000) * rate, MIN_PRICE) };
+      }
+      var modal = document.getElementById('vc-modal');
+      var mVname = document.getElementById('vc-modal-vname');
+      var mVtype = document.getElementById('vc-modal-vtype');
+      var mText = document.getElementById('vc-modal-text');
+      var mChars = document.getElementById('vc-modal-chars');
+      var mPrice = document.getElementById('vc-modal-price');
+      var mTier = document.getElementById('vc-modal-tier');
+      var mEmail = document.getElementById('vc-modal-email');
+      var mSubmit = document.getElementById('vc-modal-submit');
+      var mStatus = document.getElementById('vc-modal-status');
+      var mHp = document.getElementById('vc-modal-hp');
+      var voice = null;
+
+      function updQuote() {
+        var n = Array.from(mText.value).length;
+        var q = quote(n);
+        mChars.textContent = n;
+        mPrice.textContent = '$' + q.price.toFixed(2);
+        mTier.textContent = S.tier.replace('%s', q.rate.toFixed(2));
+      }
+      function openModal(card) {
+        voice = { vt: card.dataset.vt, vname: card.dataset.vname };
+        mVname.textContent = voice.vname;
+        mVtype.textContent = voice.vt;
+        mStatus.hidden = true;
+        modal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        updQuote();
+        mText.focus();
+      }
+      function closeModal() {
+        modal.hidden = true;
+        document.body.style.overflow = '';
+      }
+      document.querySelectorAll('.vc-request').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          openModal(btn.closest('.vc-card'));
+        });
+      });
+      document.getElementById('vc-modal-close').addEventListener('click', closeModal);
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !modal.hidden) closeModal(); });
+      mText.addEventListener('input', updQuote);
+
+      function mShow(msg, ok) {
+        mStatus.textContent = msg;
+        mStatus.className = 'vc-status ' + (ok ? 'ok' : 'err');
+        mStatus.hidden = false;
+      }
+      mSubmit.addEventListener('click', function () {
+        if (mHp.value !== '') return; // honeypot
+        var text = mText.value.trim();
+        var email = mEmail.value.trim();
+        var n = Array.from(text).length;
+        if (!text) { mShow(S.errText, false); mText.focus(); return; }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { mShow(S.errEmail, false); mEmail.focus(); return; }
+        var q = quote(n);
+        mSubmit.disabled = true;
+        mSubmit.textContent = S.sending;
+        fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            form_type: 'voice_request',
+            email: email,
+            voice_type: voice.vt,
+            voice_name: voice.vname,
+            text: text,
+            chars: n,
+            price_usd: q.price.toFixed(2),
+            tier_rate: q.rate.toFixed(2),
+            _hp: '',
+            _t0: T0
+          })
+        })
+          .then(function (r) { return r.json(); })
+          .then(function (d) {
+            if (d.ok) { mShow(S.success, true); mText.value = ''; updQuote(); }
+            else { mShow(S.errFail, false); }
+          })
+          .catch(function () { mShow(S.errFail, false); })
+          .finally(function () { mSubmit.disabled = false; mSubmit.textContent = {{ $cat.submit | jsonify }}; });
+      });
+    })();
+    </script>
 
     <div class="text-center" style="margin-top:32px;">
       <p class="body-copy color-muted" style="margin-bottom:16px;">{{ $d.ai_note }}</p>

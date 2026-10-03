@@ -1,0 +1,2755 @@
+{
+ "zh": [
+  {
+   "name": "云舟 2.0",
+   "voice_type": "zh_male_m191_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "general",
+   "name_i18n": {
+    "en": "Yunzhou 2.0",
+    "es": "Yunzhou 2.0",
+    "ru": "Yunzhou 2.0",
+    "ar": "Yunzhou 2.0"
+   },
+   "desc": {
+    "zh": "沉稳大气的男声，S2S 主打音色，适合品牌旁白与通用场景。",
+    "en": "Composed, resonant male voice — a flagship voice for brand narration and general use.",
+    "es": "Voz masculina serena y con cuerpo — una voz insignia para narración de marca y uso general.",
+    "ru": "Спокойный, насыщенный мужской голос — флагманский тембр для фирменной озвучки и общих задач.",
+    "ar": "صوت رجالي هادئ وعميق — صوت رائد للسرد التجاري والاستخدام العام."
+   }
+  },
+  {
+   "name": "小天 2.0",
+   "voice_type": "zh_male_taocheng_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "general",
+   "name_i18n": {
+    "en": "Xiaotian 2.0",
+    "es": "Xiaotian 2.0",
+    "ru": "Xiaotian 2.0",
+    "ar": "Xiaotian 2.0"
+   },
+   "desc": {
+    "zh": "清亮自然的青年男声，S2S 主打音色，日常对话与知识讲解都合适。",
+    "en": "Bright, natural young male voice — a flagship voice for dialogue and explainers.",
+    "es": "Voz masculina joven, clara y natural — voz insignia para diálogos y contenido explicativo.",
+    "ru": "Яркий, естественный молодой мужской голос — флагман для диалогов и объясняющих видео.",
+    "ar": "صوت رجالي شاب وواضح وطبيعي — صوت رائد للحوارات والمحتوى التوضيحي."
+   }
+  },
+  {
+   "name": "猴哥 2.0",
+   "voice_type": "zh_male_sunwukong_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "video",
+   "name_i18n": {
+    "en": "Monkey King 2.0",
+    "es": "Rey Mono 2.0",
+    "ru": "Царь обезьян 2.0",
+    "ar": "ملك القرود 2.0"
+   },
+   "desc": {
+    "zh": "活泼搞怪的猴哥音色，短视频与动画配音的人气选择。",
+    "en": "Playful, mischievous Monkey King voice — a popular pick for short videos and animation.",
+    "es": "Voz traviesa del Rey Mono — muy popular para videos cortos y animación.",
+    "ru": "Озорной голос Царя обезьян — популярен для коротких видео и анимации.",
+    "ar": "صوت ملك القرود المرح والمشاغب — خيار شائع للفيديوهات القصيرة والرسوم."
+   }
+  },
+  {
+   "name": "四郎 2.0",
+   "voice_type": "zh_male_silang_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Silang 2.0",
+    "es": "Silang 2.0",
+    "ru": "Silang 2.0",
+    "ar": "Silang 2.0"
+   },
+   "desc": {
+    "zh": "威严深情的帝王音，宫斗剧同款，适合角色扮演与有声剧情。",
+    "en": "Regal, impassioned emperor voice from palace dramas — for character work and audio fiction.",
+    "es": "Voz de emperador, regia y apasionada, de dramas palaciegos — para personajes y ficción sonora.",
+    "ru": "Величественный голос императора из дворцовых драм — для ролевых сцен и аудиопрозы.",
+    "ar": "صوت إمبراطور مهيب وعاطفي من الدراما الملكية — للأدوار والقصص الصوتية."
+   }
+  },
+  {
+   "name": "儒雅青年 2.0",
+   "voice_type": "zh_male_ruyaqingnian_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "general",
+   "name_i18n": {
+    "en": "Elegant Youth 2.0",
+    "es": "Joven Elegante 2.0",
+    "ru": "Элегантный юноша 2.0",
+    "ar": "شاب أنيق 2.0"
+   },
+   "desc": {
+    "zh": "温文尔雅的青年男声，小说平台同款，适合有声书与知识内容。",
+    "en": "Polished, gentle young male voice — a popular choice for audiobooks and knowledge content.",
+    "es": "Voz masculina joven, educada y suave — popular para audiolibros y contenido educativo.",
+    "ru": "Учтивый, мягкий молодой мужской голос — популярен для аудиокниг и образовательного контента.",
+    "ar": "صوت رجالي شاب رقيق ومهذب — شائع للكتب الصوتية والمحتوى المعرفي."
+   }
+  },
+  {
+   "name": "擎苍 2.0",
+   "voice_type": "zh_male_qingcang_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Qingcang 2.0",
+    "es": "Qingcang 2.0",
+    "ru": "Qingcang 2.0",
+    "ar": "Qingcang 2.0"
+   },
+   "desc": {
+    "zh": "低沉磁性的古风男声，有声小说与短剧常用音色。",
+    "en": "Deep, magnetic classical-style male voice — a favorite for audio novels and drama series.",
+    "es": "Voz masculina grave y magnética de estilo clásico — favorita para audionovelas y series.",
+    "ru": "Низкий магнетический мужской голос в классическом стиле — для аудиороманов и сериалов.",
+    "ar": "صوت رجالي عميق وجذاب بأسلوب كلاسيكي — مفضل للروايات الصوتية والمسلسلات."
+   }
+  },
+  {
+   "name": "熊二 2.0",
+   "voice_type": "zh_male_xionger_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Briar Bear 2.0",
+    "es": "Oso Briar 2.0",
+    "ru": "Мишка Брайар 2.0",
+    "ar": "الدب براير 2.0"
+   },
+   "desc": {
+    "zh": "憨厚可爱的卡通熊音，动画与儿童内容首选。",
+    "en": "Warm, goofy cartoon-bear voice — perfect for animation and kids’ content.",
+    "es": "Voz de oso de dibujos, tierna y torpe — perfecta para animación y contenido infantil.",
+    "ru": "Добродушный мультяшный медведь — идеален для анимации и детского контента.",
+    "ar": "صوت دب كرتوني لطيف ومضحك — مثالي للرسوم ومحتوى الأطفال."
+   }
+  },
+  {
+   "name": "霸气青叔 2.0",
+   "voice_type": "zh_male_baqiqingshu_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "reading",
+   "name_i18n": {
+    "en": "Commanding Mid Male 2.0",
+    "es": "Voz Autoritaria 2.0",
+    "ru": "Властный баритон 2.0",
+    "ar": "صوت حاسم 2.0"
+   },
+   "desc": {
+    "zh": "成熟有力的中年男声，气场十足，适合有声阅读与宣言式内容。",
+    "en": "Mature, commanding middle-aged male voice — for audiobooks and bold, declarative reads.",
+    "es": "Voz masculina madura y contundente — para audiolibros y lecturas con carácter.",
+    "ru": "Зрелый, властный мужской голос — для аудиокниг и выразительной подачи.",
+    "ar": "صوت رجالي ناضج وواثق — للكتب الصوتية والقراءات القوية."
+   }
+  },
+  {
+   "name": "悬疑解说 2.0",
+   "voice_type": "zh_male_xuanyijieshuo_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "reading",
+   "name_i18n": {
+    "en": "Mystery Narrator 2.0",
+    "es": "Narrador de Misterio 2.0",
+    "ru": "Детективный диктор 2.0",
+    "ar": "راوي الغموض 2.0"
+   },
+   "desc": {
+    "zh": "压低嗓音的悬疑讲述感，适合案件解说、纪录片与播客。",
+    "en": "Hushed, suspenseful storytelling voice — for true-crime explainers, documentaries and podcasts.",
+    "es": "Voz narrativa susurrada y de suspense — para true crime, documentales y pódcast.",
+    "ru": "Приглушённый, напряжённый голос рассказчика — для детективных разборов, документалистики и подкастов.",
+    "ar": "صوت سردي هامس ومشوّق — لقصص الجريمة والوثائقيات والبودكاست."
+   }
+  },
+  {
+   "name": "鲁班七号 2.0",
+   "voice_type": "zh_male_lubanqihao_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Luban No.7 2.0",
+    "es": "Luban N.º 7 2.0",
+    "ru": "Лубань №7 2.0",
+    "ar": "لوبان رقم 7 2.0"
+   },
+   "desc": {
+    "zh": "机灵俏皮的游戏角色音，适合游戏解说与二次元内容。",
+    "en": "Clever, cheeky game-character voice — for gaming videos and anime-style content.",
+    "es": "Voz ingeniosa de personaje de videojuego — para vídeos de gaming y contenido anime.",
+    "ru": "Находчивый голос игрового персонажа — для гейминг-видео и аниме-контента.",
+    "ar": "صوت شخصية ألعاب ذكي ومشاكس — لفيديوهات الألعاب ومحتوى الأنمي."
+   }
+  },
+  {
+   "name": "佩奇猪 2.0",
+   "voice_type": "zh_female_peiqi_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "video",
+   "name_i18n": {
+    "en": "Peppa Pig 2.0",
+    "es": "Peppa Pig 2.0",
+    "ru": "Свинка Пеппа 2.0",
+    "ar": "بيبا بيغ 2.0"
+   },
+   "desc": {
+    "zh": "软萌的小猪音色，短视频平台同款，适合儿童向与搞笑内容。",
+    "en": "Cute, squeaky piglet voice (Peppa style) — for kids’ clips and funny shorts.",
+    "es": "Voz de cerdita adorable (estilo Peppa) — para clips infantiles y videos graciosos.",
+    "ru": "Милый голосок поросёнка в стиле Пеппы — для детских и юмористических видео.",
+    "ar": "صوت خنزيرة لطيف بأسلوب بيبا — لمقاطع الأطفال والفيديوهات المضحكة."
+   }
+  },
+  {
+   "name": "Tina老师 2.0",
+   "voice_type": "zh_female_yingyujiaoxue_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "education",
+   "name_i18n": {
+    "en": "Teacher Tina 2.0",
+    "es": "Maestra Tina 2.0",
+    "ru": "Учитель Тина 2.0",
+    "ar": "المعلمة تينا 2.0"
+   },
+   "desc": {
+    "zh": "清晰亲切的英语教学女声，课件与语言学习内容首选。",
+    "en": "Clear, friendly English-teaching voice — ideal for courseware and language learning.",
+    "es": "Voz femenina clara y cercana para enseñar inglés — ideal para cursos e idiomas.",
+    "ru": "Чёткий, дружелюбный голос преподавателя английского — для курсов и изучения языков.",
+    "ar": "صوت نسائي واضح وودود لتعليم الإنجليزية — مثالي للدورات وتعلم اللغات."
+   }
+  },
+  {
+   "name": "暖阳女声 2.0",
+   "voice_type": "zh_female_kefunvsheng_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "service",
+   "name_i18n": {
+    "en": "Warm Sunshine 2.0",
+    "es": "Sol Cálido 2.0",
+    "ru": "Тёплое солнце 2.0",
+    "ar": "شمس دافئة 2.0"
+   },
+   "desc": {
+    "zh": "温暖耐心的女声，客服场景推荐音色，亲和力强。",
+    "en": "Warm, patient female voice — the go-to choice for customer service lines.",
+    "es": "Voz femenina cálida y paciente — la opción ideal para atención al cliente.",
+    "ru": "Тёплый, терпеливый женский голос — оптимален для клиентского сервиса.",
+    "ar": "صوت نسائي دافئ وصبور — الخيار الأمثل لخدمة العملاء."
+   }
+  },
+  {
+   "name": "儿童绘本 2.0",
+   "voice_type": "zh_female_xiaoxue_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "reading",
+   "name_i18n": {
+    "en": "Kids' Storybook 2.0",
+    "es": "Cuentos Infantiles 2.0",
+    "ru": "Детские сказки 2.0",
+    "ar": "قصص الأطفال 2.0"
+   },
+   "desc": {
+    "zh": "甜美有画面感的讲故事女声，专为儿童绘本与睡前故事设计。",
+    "en": "Sweet, vivid storytelling voice designed for children’s picture books and bedtime stories.",
+    "es": "Voz dulce y evocadora para cuentos — diseñada para libros infantiles y historias antes de dormir.",
+    "ru": "Сладкий, образный голос сказочницы — для детских книжек и сказок на ночь.",
+    "ar": "صوت قصصي عذب ومعبّر — مصمم لقصص الأطفال المصورة وقصص ما قبل النوم."
+   }
+  },
+  {
+   "name": "直率英子 2.0",
+   "voice_type": "zh_female_zhishuaiyingzi_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Frank Yingzi 2.0",
+    "es": "Yingzi Directa 2.0",
+    "ru": "Прямая Инцзы 2.0",
+    "ar": "ينغتسي الصريحة 2.0"
+   },
+   "desc": {
+    "zh": "直爽干练的女性角色音，戏剧张力强，短剧常用。",
+    "en": "Direct, no-nonsense female character voice with strong dramatic energy — a short-drama staple.",
+    "es": "Voz de personaje femenino, directa y enérgica — habitual en minidramas.",
+    "ru": "Прямой, решительный женский характерный голос — частый выбор для мини-драм.",
+    "ar": "صوت شخصية نسائية جريء وحاسم — شائع في الدراما القصيرة."
+   }
+  },
+  {
+   "name": "樱桃丸子 2.0",
+   "voice_type": "zh_female_yingtaowanzi_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Cherry Maruko 2.0",
+    "es": "Cereza Maruko 2.0",
+    "ru": "Вишня Маруко 2.0",
+    "ar": "ماروكو الكرز 2.0"
+   },
+   "desc": {
+    "zh": "天真俏皮的小女孩音色，丸子同款，活泼可爱。",
+    "en": "Innocent, playful little-girl voice (Maruko style) — lively and cute.",
+    "es": "Voz de niña traviesa e inocente (estilo Maruko) — viva y adorable.",
+    "ru": "Наивный, игривый голосок девочки в стиле Маруко — живой и милый.",
+    "ar": "صوت طفلة بريئة ومرحة بأسلوب ماروكو — حيوي ولطيف."
+   }
+  },
+  {
+   "name": "婆婆 2.0",
+   "voice_type": "zh_female_popo_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "general",
+   "name_i18n": {
+    "en": "Granny 2.0",
+    "es": "Abuela 2.0",
+    "ru": "Бабушка 2.0",
+    "ar": "الجدة 2.0"
+   },
+   "desc": {
+    "zh": "慈祥市井的奶奶音色，生活化对话与家庭短剧的常客。",
+    "en": "Kindly, down-to-earth granny voice — a staple for everyday dialogue and family skits.",
+    "es": "Voz de abuela bondadosa y cercana — habitual en diálogos cotidianos y sketches familiares.",
+    "ru": "Добрый, простой голос бабушки — для бытовых диалогов и семейных сценок.",
+    "ar": "صوت جدة طيبة وقريبة — للحوارات اليومية والمشاهد العائلية."
+   }
+  },
+  {
+   "name": "温柔淑女 2.0",
+   "voice_type": "zh_female_wenroushunv_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "general",
+   "name_i18n": {
+    "en": "Gentle Lady 2.0",
+    "es": "Dama Gentil 2.0",
+    "ru": "Нежная леди 2.0",
+    "ar": "سيدة لطيفة 2.0"
+   },
+   "desc": {
+    "zh": "轻柔温婉的女声，小说平台同款，适合情感与治愈系内容。",
+    "en": "Soft, gentle female voice — for emotional and feel-good content.",
+    "es": "Voz femenina suave y delicada — para contenido emotivo y reconfortante.",
+    "ru": "Мягкий, нежный женский голос — для эмоционального и душевного контента.",
+    "ar": "صوت نسائي ناعم ولطيف — للمحتوى العاطفي والمريح."
+   }
+  },
+  {
+   "name": "林潇 2.0",
+   "voice_type": "zh_female_linxiao_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Lin Xiao 2.0",
+    "es": "Lin Xiao 2.0",
+    "ru": "Lin Xiao 2.0",
+    "ar": "Lin Xiao 2.0"
+   },
+   "desc": {
+    "zh": "清冷淡雅的女性角色音，古风与现代剧都能驾驭。",
+    "en": "Cool, elegant female character voice — suits period and modern drama alike.",
+    "es": "Voz de personaje femenino, serena y elegante — sirve para drama de época y moderno.",
+    "ru": "Холодноватый, изящный женский характерный голос — для исторических и современных драм.",
+    "ar": "صوت شخصية نسائية هادئ وأنيق — يناسب الدراما التاريخية والحديثة."
+   }
+  },
+  {
+   "name": "玲玲姐姐 2.0",
+   "voice_type": "zh_female_lingling_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "multilingual"
+   ],
+   "scenario": "roleplay",
+   "name_i18n": {
+    "en": "Sister Lingling 2.0",
+    "es": "Hermana Lingling 2.0",
+    "ru": "Сестра Линлин 2.0",
+    "ar": "الأخت لينغ لينغ 2.0"
+   },
+   "desc": {
+    "zh": "亲切甜美的大姐姐音色，陪伴感强，适合儿童与剧情内容。",
+    "en": "Sweet, caring big-sister voice with a companionable feel — for kids and drama content.",
+    "es": "Voz dulce de hermana mayor, muy cercana — para contenido infantil y dramático.",
+    "ru": "Милый, заботливый голос старшей сестры — для детского и драматического контента.",
+    "ar": "صوت أخت كبرى عذب وحنون — لمحتوى الأطفال والدراما."
+   }
+  }
+ ],
+ "foreign": [
+  {
+   "name": "Youssef",
+   "voice_type": "ar_male_youssef_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ar",
+   "scenarios": [
+    "general",
+    "reading"
+   ],
+   "desc": {
+    "en": "Arabic male voice — suited to everyday narration and audiobook narration.",
+    "zh": "阿拉伯语男声，适合日常讲述和有声阅读。",
+    "es": "Voz masculina en árabe — ideal para narración general y audiolibros.",
+    "ru": "Мужской голос (арабский) — для повседневной озвучки и аудиокниг.",
+    "ar": "العربية — صوت رجالي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Dina",
+   "voice_type": "ar_female_dina_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ar",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Arabic female voice — suited to everyday narration and video dubbing.",
+    "zh": "阿拉伯语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en árabe — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (арабский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "العربية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Fatma",
+   "voice_type": "ar_female_fatma_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ar",
+   "scenarios": [
+    "accent"
+   ],
+   "desc": {
+    "en": "Arabic female voice — suited to fun accents.",
+    "zh": "阿拉伯语女声，适合趣味口音。",
+    "es": "Voz femenina en árabe — ideal para acentos divertidos.",
+    "ru": "Женский голос (арабский) — для характерных акцентов.",
+    "ar": "العربية — صوت نسائي، مناسب لـاللهجات المميزة."
+   }
+  },
+  {
+   "name": "Sven",
+   "voice_type": "de_male_sven_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "de",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "German male voice — suited to everyday narration and teaching content.",
+    "zh": "德语男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en alemán — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (немецкий) — для повседневной озвучки и обучения.",
+    "ar": "الألمانية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Stella",
+   "voice_type": "de_female_bv081_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "de",
+   "scenarios": [
+    "education",
+    "service"
+   ],
+   "desc": {
+    "en": "German female voice — suited to teaching content and customer service.",
+    "zh": "德语女声，适合教学内容和客服应答。",
+    "es": "Voz femenina en alemán — ideal para enseñanza y atención al cliente.",
+    "ru": "Женский голос (немецкий) — для обучения и клиентского сервиса.",
+    "ar": "الألمانية — صوت نسائي، مناسب لـالمحتوى التعليمي وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Alfred",
+   "voice_type": "en_male_father-christmas_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_gb",
+   "scenarios": [
+    "general",
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "English (UK) male voice — suited to everyday narration and audiobook narration.",
+    "zh": "英语（英式）男声，适合日常讲述和有声阅读。",
+    "es": "Voz masculina en inglés (RU) — ideal para narración general y audiolibros.",
+    "ru": "Мужской голос (английский (Великобритания)) — для повседневной озвучки и аудиокниг.",
+    "ar": "إنجليزية بريطانية — صوت رجالي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Knightley",
+   "voice_type": "en_male_knightley_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_gb",
+   "scenarios": [
+    "reading"
+   ],
+   "desc": {
+    "en": "English (UK) male voice — suited to audiobook narration.",
+    "zh": "英语（英式）男声，适合有声阅读。",
+    "es": "Voz masculina en inglés (RU) — ideal para audiolibros.",
+    "ru": "Мужской голос (английский (Великобритания)) — для аудиокниг.",
+    "ar": "إنجليزية بريطانية — صوت رجالي، مناسب لـالكتب الصوتية."
+   }
+  },
+  {
+   "name": "Russell",
+   "voice_type": "en_male_russell_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_gb",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "English (UK) male voice — suited to everyday narration and teaching content.",
+    "zh": "英语（英式）男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en inglés (RU) — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (английский (Великобритания)) — для повседневной озвучки и обучения.",
+    "ar": "إنجليزية بريطانية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Charlotte",
+   "voice_type": "en_female_authoritative-british_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_gb",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "English (UK) female voice — suited to teaching content and video dubbing.",
+    "zh": "英语（英式）女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en inglés (RU) — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (английский (Великобритания)) — для обучения и дубляжа видео.",
+    "ar": "إنجليزية بريطانية — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Rowan",
+   "voice_type": "en_male_adam-imitation_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "reading"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and audiobook narration.",
+    "zh": "英语（美式）男声，适合日常讲述和有声阅读。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y audiolibros.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и аудиокниг.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Alberto",
+   "voice_type": "en_male_alberto_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and teaching content.",
+    "zh": "英语（美式）男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и обучения.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Alex",
+   "voice_type": "en_male_alex_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and video dubbing.",
+    "zh": "英语（美式）男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Jones",
+   "voice_type": "en_male_bill-jones_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "accent"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to fun accents.",
+    "zh": "英语（美式）男声，适合趣味口音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para acentos divertidos.",
+    "ru": "Мужской голос (английский (США)) — для характерных акцентов.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـاللهجات المميزة."
+   }
+  },
+  {
+   "name": "Bill",
+   "voice_type": "en_male_bill_jones_corey_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and video dubbing.",
+    "zh": "英语（美式）男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Brad_Pitt",
+   "voice_type": "en_male_brad_pitt_p1_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and video dubbing.",
+    "zh": "英语（美式）男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Adrian",
+   "voice_type": "en_male_bruce_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and video dubbing.",
+    "zh": "英语（美式）男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Leo",
+   "voice_type": "en_male_chandler_p1_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "accent"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to fun accents.",
+    "zh": "英语（美式）男声，适合趣味口音。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para acentos divertidos.",
+    "ru": "Мужской голос (английский (США)) — для характерных акцентов.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـاللهجات المميزة."
+   }
+  },
+  {
+   "name": "Bob",
+   "voice_type": "en_male_cowboy-bob_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to everyday narration and teaching content.",
+    "zh": "英语（美式）男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (английский (США)) — для повседневной озвучки и обучения.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "John",
+   "voice_type": "en_male_cowboy_john_b_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "accent",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "English (US) male voice — suited to fun accents and character work.",
+    "zh": "英语（美式）男声，适合趣味口音和角色演绎。",
+    "es": "Voz masculina en inglés (EE. UU.) — ideal para acentos divertidos y personajes.",
+    "ru": "Мужской голос (английский (США)) — для характерных акцентов и ролевых сцен.",
+    "ar": "إنجليزية أمريكية — صوت رجالي، مناسب لـاللهجات المميزة وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Allison",
+   "voice_type": "en_female_allison_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to video dubbing.",
+    "zh": "英语（美式）女声，适合视频配音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para doblaje de video.",
+    "ru": "Женский голос (английский (США)) — для дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Margaret",
+   "voice_type": "en_female_authoritative-informative_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "reading"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to everyday narration and audiobook narration.",
+    "zh": "英语（美式）女声，适合日常讲述和有声阅读。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para narración general y audiolibros.",
+    "ru": "Женский голос (английский (США)) — для повседневной озвучки и аудиокниг.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Brittney",
+   "voice_type": "en_female_brittney_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to everyday narration and video dubbing.",
+    "zh": "英语（美式）女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (английский (США)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Zoe",
+   "voice_type": "en_female_brittney_pimintel_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "reading",
+    "service"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to audiobook narration and customer service.",
+    "zh": "英语（美式）女声，适合有声阅读和客服应答。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para audiolibros y atención al cliente.",
+    "ru": "Женский голос (английский (США)) — для аудиокниг и клиентского сервиса.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالكتب الصوتية وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Holly",
+   "voice_type": "en_female_female_tutor_ms-jenny_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to teaching content and video dubbing.",
+    "zh": "英语（美式）女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (английский (США)) — для обучения и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Hayley",
+   "voice_type": "en_female_hayley_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to teaching content and video dubbing.",
+    "zh": "英语（美式）女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (английский (США)) — для обучения и дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Jane",
+   "voice_type": "en_female_jane_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to video dubbing.",
+    "zh": "英语（美式）女声，适合视频配音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para doblaje de video.",
+    "ru": "Женский голос (английский (США)) — для дубляжа видео.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Jenny",
+   "voice_type": "en_female_jenny_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to everyday narration and customer service.",
+    "zh": "英语（美式）女声，适合日常讲述和客服应答。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para narración general y atención al cliente.",
+    "ru": "Женский голос (английский (США)) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Lynn",
+   "voice_type": "en_female_lana_del_rey_kelley_d_p1_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "roleplay"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to character work.",
+    "zh": "英语（美式）女声，适合角色演绎。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para personajes.",
+    "ru": "Женский голос (английский (США)) — для ролевых сцен.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Rachel",
+   "voice_type": "en_female_rachel_p1_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "en_us",
+   "scenarios": [
+    "accent"
+   ],
+   "desc": {
+    "en": "English (US) female voice — suited to fun accents.",
+    "zh": "英语（美式）女声，适合趣味口音。",
+    "es": "Voz femenina en inglés (EE. UU.) — ideal para acentos divertidos.",
+    "ru": "Женский голос (английский (США)) — для характерных акцентов.",
+    "ar": "إنجليزية أمريكية — صوت نسائي، مناسب لـاللهجات المميزة."
+   }
+  },
+  {
+   "name": "Dani",
+   "voice_type": "es_male_dani_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (ES) male voice — suited to audiobook narration and video dubbing.",
+    "zh": "西班牙语男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en español (España) — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (испанский) — для аудиокниг и дубляжа видео.",
+    "ar": "الإسبانية — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Guillem",
+   "voice_type": "es_male_guillem_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es",
+   "scenarios": [
+    "reading"
+   ],
+   "desc": {
+    "en": "Spanish (ES) male voice — suited to audiobook narration.",
+    "zh": "西班牙语男声，适合有声阅读。",
+    "es": "Voz masculina en español (España) — ideal para audiolibros.",
+    "ru": "Мужской голос (испанский) — для аудиокниг.",
+    "ar": "الإسبانية — صوت رجالي، مناسب لـالكتب الصوتية."
+   }
+  },
+  {
+   "name": "Gracie",
+   "voice_type": "es_female_bv084_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Spanish (ES) female voice — suited to everyday narration and customer service.",
+    "zh": "西班牙语女声，适合日常讲述和客服应答。",
+    "es": "Voz femenina en español (España) — ideal para narración general y atención al cliente.",
+    "ru": "Женский голос (испанский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الإسبانية — صوت نسائي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Marisol",
+   "voice_type": "es_female_ht_mx_f6_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (ES) female voice — suited to everyday narration and video dubbing.",
+    "zh": "西班牙语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en español (España) — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (испанский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإسبانية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Diego",
+   "voice_type": "mx_male_bv165dialogue_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) male voice — suited to audiobook narration and video dubbing.",
+    "zh": "西语（墨西哥）男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en español (México) — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (испанский (Мексика)) — для аудиокниг и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Marcos",
+   "voice_type": "mx_male_bv165narrator_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) male voice — suited to audiobook narration and video dubbing.",
+    "zh": "西语（墨西哥）男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en español (México) — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (испанский (Мексика)) — для аудиокниг и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Felipe",
+   "voice_type": "mx_male_felipe_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "general",
+    "reading"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) male voice — suited to everyday narration and audiobook narration.",
+    "zh": "西语（墨西哥）男声，适合日常讲述和有声阅读。",
+    "es": "Voz masculina en español (México) — ideal para narración general y audiolibros.",
+    "ru": "Мужской голос (испанский (Мексика)) — для повседневной озвучки и аудиокниг.",
+    "ar": "إسبانية المكسيك — صوت رجالي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Derek",
+   "voice_type": "mx_male_ht_mx_m012_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) male voice — suited to teaching content and video dubbing.",
+    "zh": "西语（墨西哥）男声，适合教学内容和视频配音。",
+    "es": "Voz masculina en español (México) — ideal para enseñanza y doblaje de video.",
+    "ru": "Мужской голос (испанский (Мексика)) — для обучения и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت رجالي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Marcelo",
+   "voice_type": "mx_male_marcelo_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) male voice — suited to everyday narration and video dubbing.",
+    "zh": "西语（墨西哥）男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en español (México) — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (испанский (Мексика)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Irene",
+   "voice_type": "mx_female_bv065_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) female voice — suited to teaching content and video dubbing.",
+    "zh": "西语（墨西哥）女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en español (México) — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (испанский (Мексика)) — для обучения и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Lucy",
+   "voice_type": "mx_female_bv166dialogue_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) female voice — suited to everyday narration and video dubbing.",
+    "zh": "西语（墨西哥）女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en español (México) — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (испанский (Мексика)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Rosa",
+   "voice_type": "mx_female_bv166emotion_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) female voice — suited to everyday narration and video dubbing.",
+    "zh": "西语（墨西哥）女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en español (México) — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (испанский (Мексика)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Freya",
+   "voice_type": "mx_female_bv166narrator_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "reading",
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) female voice — suited to audiobook narration and video dubbing.",
+    "zh": "西语（墨西哥）女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en español (México) — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (испанский (Мексика)) — для аудиокниг и дубляжа видео.",
+    "ar": "إسبانية المكسيك — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Leslie",
+   "voice_type": "mx_female_leslie_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "es_mx",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Spanish (LATAM) female voice — suited to everyday narration and customer service.",
+    "zh": "西语（墨西哥）女声，适合日常讲述和客服应答。",
+    "es": "Voz femenina en español (México) — ideal para narración general y atención al cliente.",
+    "ru": "Женский голос (испанский (Мексика)) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "إسبانية المكسيك — صوت نسائي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Maurice",
+   "voice_type": "fr_male_fr_m29_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "fr",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "French male voice — suited to audiobook narration and video dubbing.",
+    "zh": "法语男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en francés — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (французский) — для аудиокниг и дубляжа видео.",
+    "ar": "الفرنسية — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Usseau",
+   "voice_type": "fr_male_usseau_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "fr",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "French male voice — suited to everyday narration and customer service.",
+    "zh": "法语男声，适合日常讲述和客服应答。",
+    "es": "Voz masculina en francés — ideal para narración general y atención al cliente.",
+    "ru": "Мужской голос (французский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الفرنسية — صوت رجالي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Simone",
+   "voice_type": "fr_female_fr_bv078_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "fr",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "French female voice — suited to everyday narration and video dubbing.",
+    "zh": "法语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en francés — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (французский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الفرنسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Camille",
+   "voice_type": "fr_female_fr_f47_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "fr",
+   "scenarios": [
+    "education",
+    "service"
+   ],
+   "desc": {
+    "en": "French female voice — suited to teaching content and customer service.",
+    "zh": "法语女声，适合教学内容和客服应答。",
+    "es": "Voz femenina en francés — ideal para enseñanza y atención al cliente.",
+    "ru": "Женский голос (французский) — для обучения и клиентского сервиса.",
+    "ar": "الفرنسية — صوت نسائي، مناسب لـالمحتوى التعليمي وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Rocco",
+   "voice_type": "id_male_bv160_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Jude",
+   "voice_type": "id_male_bv160dialogue_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Hugo",
+   "voice_type": "id_male_bv160narration_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to audiobook narration and video dubbing.",
+    "zh": "印尼语男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en indonesio — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (индонезийский) — для аудиокниг и дубляжа видео.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Elian",
+   "voice_type": "id_male_bv164dialogue_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to video dubbing.",
+    "zh": "印尼语男声，适合视频配音。",
+    "es": "Voz masculina en indonesio — ideal para doblaje de video.",
+    "ru": "Мужской голос (индонезийский) — для дубляжа видео.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Ronan",
+   "voice_type": "id_male_bv164narration_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to audiobook narration and video dubbing.",
+    "zh": "印尼语男声，适合有声阅读和视频配音。",
+    "es": "Voz masculina en indonesio — ideal para audiolibros y doblaje de video.",
+    "ru": "Мужской голос (индонезийский) — для аудиокниг и дубляжа видео.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Han",
+   "voice_type": "id_male_han_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to everyday narration.",
+    "zh": "印尼语男声，适合日常讲述。",
+    "es": "Voz masculina en indonesio — ideal para narración general.",
+    "ru": "Мужской голос (индонезийский) — для повседневной озвучки.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالسرد العام."
+   }
+  },
+  {
+   "name": "Kyle",
+   "voice_type": "id_male_m08_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Indonesian male voice — suited to everyday narration and teaching content.",
+    "zh": "印尼语男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en indonesio — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (индонезийский) — для повседневной озвучки и обучения.",
+    "ar": "الإندونيسية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Clara",
+   "voice_type": "id_female_bv161_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Sylvia",
+   "voice_type": "id_female_bv161dialogue_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Celeste",
+   "voice_type": "id_female_bv161narration_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Crew",
+   "voice_type": "id_female_bv164_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Chloe",
+   "voice_type": "id_female_f20_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to video dubbing.",
+    "zh": "印尼语女声，适合视频配音。",
+    "es": "Voz femenina en indonesio — ideal para doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Phulia",
+   "voice_type": "id_female_phulia_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "id",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Indonesian female voice — suited to everyday narration and video dubbing.",
+    "zh": "印尼语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en indonesio — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (индонезийский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الإندونيسية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Enzo",
+   "voice_type": "it_male_enzo_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "it",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Italian male voice — suited to everyday narration and teaching content.",
+    "zh": "意大利语男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en italiano — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (итальянский) — для повседневной озвучки и обучения.",
+    "ar": "الإيطالية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Ken",
+   "voice_type": "ja_male_bv524_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Japanese male voice — suited to everyday narration and video dubbing.",
+    "zh": "日语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en japonés — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (японский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "اليابانية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Bonnie",
+   "voice_type": "ja_female_bv024_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to everyday narration and teaching content.",
+    "zh": "日语女声，适合日常讲述和教学内容。",
+    "es": "Voz femenina en japonés — ideal para narración general y enseñanza.",
+    "ru": "Женский голос (японский) — для повседневной озвучки и обучения.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Poppy",
+   "voice_type": "ja_female_bv520_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "video",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to video dubbing and character work.",
+    "zh": "日语女声，适合视频配音和角色演绎。",
+    "es": "Voz femenina en japonés — ideal para doblaje de video y personajes.",
+    "ru": "Женский голос (японский) — для дубляжа видео и ролевых сцен.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـدبلجة الفيديو وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Aoi",
+   "voice_type": "ja_female_bv521_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "accent",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to fun accents and character work.",
+    "zh": "日语女声，适合趣味口音和角色演绎。",
+    "es": "Voz femenina en japonés — ideal para acentos divertidos y personajes.",
+    "ru": "Женский голос (японский) — для характерных акцентов и ролевых сцен.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـاللهجات المميزة وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Hana",
+   "voice_type": "ja_female_bv522_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "general",
+    "education",
+    "service"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to everyday narration and teaching content.",
+    "zh": "日语女声，适合日常讲述和教学内容。",
+    "es": "Voz femenina en japonés — ideal para narración general y enseñanza.",
+    "ru": "Женский голос (японский) — для повседневной озвучки и обучения.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Lily",
+   "voice_type": "ja_female_bv523_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "accent",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to fun accents and character work.",
+    "zh": "日语女声，适合趣味口音和角色演绎。",
+    "es": "Voz femenina en japonés — ideal para acentos divertidos y personajes.",
+    "ru": "Женский голос (японский) — для характерных акцентов и ролевых сцен.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـاللهجات المميزة وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Minimi",
+   "voice_type": "ja_female_minimi_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to everyday narration and video dubbing.",
+    "zh": "日语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en japonés — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (японский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Shirou",
+   "voice_type": "ja_female_shirou_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ja",
+   "scenarios": [
+    "video",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Japanese female voice — suited to video dubbing and character work.",
+    "zh": "日语女声，适合视频配音和角色演绎。",
+    "es": "Voz femenina en japonés — ideal para doblaje de video y personajes.",
+    "ru": "Женский голос (японский) — для дубляжа видео и ролевых сцен.",
+    "ar": "اليابانية — صوت نسائي، مناسب لـدبلجة الفيديو وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Jay",
+   "voice_type": "ko_male_bv545_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ko",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Korean male voice — suited to everyday narration and video dubbing.",
+    "zh": "韩语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en coreano — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (корейский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الكورية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Minho",
+   "voice_type": "ko_male_m03_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ko",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Korean male voice — suited to everyday narration and customer service.",
+    "zh": "韩语男声，适合日常讲述和客服应答。",
+    "es": "Voz masculina en coreano — ideal para narración general y atención al cliente.",
+    "ru": "Мужской голос (корейский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الكورية — صوت رجالي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Shane",
+   "voice_type": "ko_male_shane_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "ko",
+   "scenarios": [
+    "reading",
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Korean male voice — suited to audiobook narration and teaching content.",
+    "zh": "韩语男声，适合有声阅读和教学内容。",
+    "es": "Voz masculina en coreano — ideal para audiolibros y enseñanza.",
+    "ru": "Мужской голос (корейский) — для аудиокниг и обучения.",
+    "ar": "الكورية — صوت رجالي، مناسب لـالكتب الصوتية والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Momo",
+   "voice_type": "ko_female_bv546_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ko",
+   "scenarios": [
+    "video",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Korean female voice — suited to video dubbing and character work.",
+    "zh": "韩语女声，适合视频配音和角色演绎。",
+    "es": "Voz femenina en coreano — ideal para doblaje de video y personajes.",
+    "ru": "Женский голос (корейский) — для дубляжа видео и ролевых сцен.",
+    "ar": "الكورية — صوت نسائي، مناسب لـدبلجة الفيديو وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Ham",
+   "voice_type": "ms_male_ham_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ms",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Malay male voice — suited to everyday narration and teaching content.",
+    "zh": "马来语男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en malayo — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (малайский) — для повседневной озвучки и обучения.",
+    "ar": "الماليزية — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Naim",
+   "voice_type": "ms_male_naim_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ms",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Malay male voice — suited to everyday narration and customer service.",
+    "zh": "马来语男声，适合日常讲述和客服应答。",
+    "es": "Voz masculina en malayo — ideal para narración general y atención al cliente.",
+    "ru": "Мужской голос (малайский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الماليزية — صوت رجالي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Sam",
+   "voice_type": "pt_male_bv172_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to everyday narration and customer service.",
+    "zh": "葡语（巴西）男声，适合日常讲述和客服应答。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para narración general y atención al cliente.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Walter",
+   "voice_type": "pt_male_bv172dialogue_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to video dubbing.",
+    "zh": "葡语（巴西）男声，适合视频配音。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para doblaje de video.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для дубляжа видео.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Vincent",
+   "voice_type": "pt_male_bv172emotion_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to teaching content and video dubbing.",
+    "zh": "葡语（巴西）男声，适合教学内容和视频配音。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para enseñanza y doblaje de video.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для обучения и дубляжа видео.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Miles",
+   "voice_type": "pt_male_bv172narrator_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "reading",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to audiobook narration and character work.",
+    "zh": "葡语（巴西）男声，适合有声阅读和角色演绎。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para audiolibros y personajes.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для аудиокниг и ролевых сцен.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالكتب الصوتية وتمثيل الأدوار."
+   }
+  },
+  {
+   "name": "Arthur",
+   "voice_type": "pt_male_bv531_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to everyday narration and teaching content.",
+    "zh": "葡语（巴西）男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для повседневной озвучки и обучения.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Toby",
+   "voice_type": "pt_male_martins_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to everyday narration and teaching content.",
+    "zh": "葡语（巴西）男声，适合日常讲述和教学内容。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para narración general y enseñanza.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для повседневной озвучки и обучения.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Rael",
+   "voice_type": "pt_male_rael_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) male voice — suited to teaching content and video dubbing.",
+    "zh": "葡语（巴西）男声，适合教学内容和视频配音。",
+    "es": "Voz masculina en portugués (Brasil) — ideal para enseñanza y doblaje de video.",
+    "ru": "Мужской голос (португальский (Бразилия)) — для обучения и дубляжа видео.",
+    "ar": "برتغالية البرازيل — صوت رجالي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Diana",
+   "voice_type": "pt_female_bv173_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to everyday narration and teaching content.",
+    "zh": "葡语（巴西）女声，适合日常讲述和教学内容。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para narración general y enseñanza.",
+    "ru": "Женский голос (португальский (Бразилия)) — для повседневной озвучки и обучения.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Elena",
+   "voice_type": "pt_female_bv173dialogue_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to video dubbing and customer service.",
+    "zh": "葡语（巴西）女声，适合视频配音和客服应答。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para doblaje de video y atención al cliente.",
+    "ru": "Женский голос (португальский (Бразилия)) — для дубляжа видео и клиентского сервиса.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـدبلجة الفيديو وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Lola",
+   "voice_type": "pt_female_bv173emotion_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "education"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to everyday narration and teaching content.",
+    "zh": "葡语（巴西）女声，适合日常讲述和教学内容。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para narración general y enseñanza.",
+    "ru": "Женский голос (португальский (Бразилия)) — для повседневной озвучки и обучения.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـالسرد العام والمحتوى التعليمي."
+   }
+  },
+  {
+   "name": "Emma",
+   "voice_type": "pt_female_bv173narrator_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to video dubbing and customer service.",
+    "zh": "葡语（巴西）女声，适合视频配音和客服应答。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para doblaje de video y atención al cliente.",
+    "ru": "Женский голос (португальский (Бразилия)) — для дубляжа видео и клиентского сервиса.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـدبلجة الفيديو وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Sofia",
+   "voice_type": "pt_female_bv530_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to everyday narration and video dubbing.",
+    "zh": "葡语（巴西）女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (португальский (Бразилия)) — для повседневной озвучки и дубляжа видео.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Mari",
+   "voice_type": "pt_female_mari_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "pt_br",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Portuguese (BR) female voice — suited to teaching content and video dubbing.",
+    "zh": "葡语（巴西）女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en portugués (Brasil) — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (португальский (Бразилия)) — для обучения и дубляжа видео.",
+    "ar": "برتغالية البرازيل — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Pavel",
+   "voice_type": "ru_male_pavel_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ru",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Russian male voice — suited to everyday narration and video dubbing.",
+    "zh": "俄语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en ruso — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (русский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الروسية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Silas",
+   "voice_type": "ru_male_vlad_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ru",
+   "scenarios": [
+    "accent"
+   ],
+   "desc": {
+    "en": "Russian male voice — suited to fun accents.",
+    "zh": "俄语男声，适合趣味口音。",
+    "es": "Voz masculina en ruso — ideal para acentos divertidos.",
+    "ru": "Мужской голос (русский) — для характерных акцентов.",
+    "ar": "الروسية — صوت رجالي، مناسب لـاللهجات المميزة."
+   }
+  },
+  {
+   "name": "Amelia",
+   "voice_type": "ru_female_af07_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ru",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Russian female voice — suited to audiobook narration and video dubbing.",
+    "zh": "俄语女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en ruso — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (русский) — для аудиокниг и дубляжа видео.",
+    "ar": "الروسية — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Irinae",
+   "voice_type": "ru_female_irinae_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ru",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Russian female voice — suited to audiobook narration and video dubbing.",
+    "zh": "俄语女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en ruso — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (русский) — для аудиокниг и дубляжа видео.",
+    "ar": "الروسية — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Ksenia",
+   "voice_type": "ru_female_sophie_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "ru",
+   "scenarios": [
+    "general"
+   ],
+   "desc": {
+    "en": "Russian female voice — suited to everyday narration.",
+    "zh": "俄语女声，适合日常讲述。",
+    "es": "Voz femenina en ruso — ideal para narración general.",
+    "ru": "Женский голос (русский) — для повседневной озвучки.",
+    "ar": "الروسية — صوت نسائي، مناسب لـالسرد العام."
+   }
+  },
+  {
+   "name": "Valeria",
+   "voice_type": "th_female_bv568_angry_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "education",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to teaching content and video dubbing.",
+    "zh": "泰语女声，适合教学内容和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para enseñanza y doblaje de video.",
+    "ru": "Женский голос (тайский) — для обучения и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالمحتوى التعليمي ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Iris",
+   "voice_type": "th_female_bv568_fear_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to audiobook narration and video dubbing.",
+    "zh": "泰语女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (тайский) — для аудиокниг и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Zara",
+   "voice_type": "th_female_bv568_happy_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to everyday narration and video dubbing.",
+    "zh": "泰语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (тайский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Valentina",
+   "voice_type": "th_female_bv568_hate_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to everyday narration and video dubbing.",
+    "zh": "泰语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (тайский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Mildred",
+   "voice_type": "th_female_bv568_neutral_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to everyday narration and video dubbing.",
+    "zh": "泰语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (тайский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Lydia",
+   "voice_type": "th_female_bv568_sad_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to video dubbing and customer service.",
+    "zh": "泰语女声，适合视频配音和客服应答。",
+    "es": "Voz femenina en tailandés — ideal para doblaje de video y atención al cliente.",
+    "ru": "Женский голос (тайский) — для дубляжа видео и клиентского сервиса.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـدبلجة الفيديو وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Phoebe",
+   "voice_type": "th_female_bv568_suprise_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "th",
+   "scenarios": [
+    "reading",
+    "video"
+   ],
+   "desc": {
+    "en": "Thai female voice — suited to audiobook narration and video dubbing.",
+    "zh": "泰语女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en tailandés — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (тайский) — для аудиокниг и дубляжа видео.",
+    "ar": "التايلاندية — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Ed",
+   "voice_type": "tl_male_ed_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "tl",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Filipino male voice — suited to everyday narration and video dubbing.",
+    "zh": "菲律宾语男声，适合日常讲述和视频配音。",
+    "es": "Voz masculina en filipino — ideal para narración general y doblaje de video.",
+    "ru": "Мужской голос (филиппинский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الفلبينية — صوت رجالي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Annika",
+   "voice_type": "tl_female_annika_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "tl",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Filipino female voice — suited to everyday narration and video dubbing.",
+    "zh": "菲律宾语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en filipino — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (филиппинский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الفلبينية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Hervie",
+   "voice_type": "tl_female_hervie_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "tl",
+   "scenarios": [
+    "reading",
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Filipino female voice — suited to audiobook narration and video dubbing.",
+    "zh": "菲律宾语女声，适合有声阅读和视频配音。",
+    "es": "Voz femenina en filipino — ideal para audiolibros y doblaje de video.",
+    "ru": "Женский голос (филиппинский) — для аудиокниг и дубляжа видео.",
+    "ar": "الفلبينية — صوت نسائي، مناسب لـالكتب الصوتية ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Wumg",
+   "voice_type": "vi_male_wumg_uranus_bigtts",
+   "gender": "male",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Vietnamese male voice — suited to everyday narration and customer service.",
+    "zh": "越南语男声，适合日常讲述和客服应答。",
+    "es": "Voz masculina en vietnamita — ideal para narración general y atención al cliente.",
+    "ru": "Мужской голос (вьетнамский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الفيتنامية — صوت رجالي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Hong",
+   "voice_type": "vi_female_hong_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "general",
+    "service"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to everyday narration and customer service.",
+    "zh": "越南语女声，适合日常讲述和客服应答。",
+    "es": "Voz femenina en vietnamita — ideal para narración general y atención al cliente.",
+    "ru": "Женский голос (вьетнамский) — для повседневной озвучки и клиентского сервиса.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـالسرد العام وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Ling",
+   "voice_type": "vi_female_ling_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to everyday narration and video dubbing.",
+    "zh": "越南语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en vietnamita — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (вьетнамский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Linh",
+   "voice_type": "vi_female_linh_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "video"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to video dubbing.",
+    "zh": "越南语女声，适合视频配音。",
+    "es": "Voz femenina en vietnamita — ideal para doblaje de video.",
+    "ru": "Женский голос (вьетнамский) — для дубляжа видео.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـدبلجة الفيديو."
+   }
+  },
+  {
+   "name": "Partner",
+   "voice_type": "vi_female_partner_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "video",
+    "service"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to video dubbing and customer service.",
+    "zh": "越南语女声，适合视频配音和客服应答。",
+    "es": "Voz femenina en vietnamita — ideal para doblaje de video y atención al cliente.",
+    "ru": "Женский голос (вьетнамский) — для дубляжа видео и клиентского сервиса.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـدبلجة الفيديو وخدمة العملاء."
+   }
+  },
+  {
+   "name": "Ruan",
+   "voice_type": "vi_female_ruan_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "general",
+    "reading",
+    "roleplay"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to everyday narration and audiobook narration.",
+    "zh": "越南语女声，适合日常讲述和有声阅读。",
+    "es": "Voz femenina en vietnamita — ideal para narración general y audiolibros.",
+    "ru": "Женский голос (вьетнамский) — для повседневной озвучки и аудиокниг.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـالسرد العام والكتب الصوتية."
+   }
+  },
+  {
+   "name": "Wu",
+   "voice_type": "vi_female_wu_uranus_bigtts",
+   "gender": "female",
+   "tags": [
+    "instruction",
+    "emotion"
+   ],
+   "lang": "vi",
+   "scenarios": [
+    "general",
+    "video"
+   ],
+   "desc": {
+    "en": "Vietnamese female voice — suited to everyday narration and video dubbing.",
+    "zh": "越南语女声，适合日常讲述和视频配音。",
+    "es": "Voz femenina en vietnamita — ideal para narración general y doblaje de video.",
+    "ru": "Женский голос (вьетнамский) — для повседневной озвучки и дубляжа видео.",
+    "ar": "الفيتنامية — صوت نسائي، مناسب لـالسرد العام ودبلجة الفيديو."
+   }
+  }
+ ]
+}

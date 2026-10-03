@@ -279,6 +279,19 @@ pricing:
           - Audio normalization & mastering
           - 2 rounds of revision
         audition: "Free sample clip before production"
+        self_serve_tts:
+          name_en: Self-Serve TTS (voice catalog requests)
+          name_zh: 自助语音合成（音色库点选）
+          pricing_model: per_character_usd
+          engine: "Volcano Engine Doubao TTS 2.0 (uranus_bigtts voices)"
+          base_rate: "USD 1.00 per 5,000 characters"
+          tiers:
+            - { max_chars: 10000,   rate_per_5000_usd: 1.00 }
+            - { max_chars: 50000,   rate_per_5000_usd: 0.80 }
+            - { max_chars: 200000,  rate_per_5000_usd: 0.65 }
+            - { max_chars: null,    rate_per_5000_usd: 0.50 }
+          minimum_order_usd: 1
+          notes_en: "Flat rate by total character count tier; price = chars/5000 x tier rate, min USD 1"
 
       ai_human_review:
         name_en: AI + Human Review

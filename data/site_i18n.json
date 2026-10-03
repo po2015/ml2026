@@ -1227,74 +1227,16 @@
         "cover": "/images/services/dubbing.jpg",
         "detail": {
           "section_label": "Localization",
-          "request_sample": "Request a Sample",
+          "listen_samples": "Listen to Samples",
           "toggle_ai": "AI Dubbing",
           "toggle_ai_sub": "From $1/min · 24–72 hr delivery",
           "toggle_human": "Human Dubbing",
           "toggle_human_sub": "From $20/min · 3–7 day delivery",
           "ai_label": "AI Voice Library",
-          "ai_title": "Natural AI voices, every style",
-          "ai_body": "Preview our AI voice profiles below. Click any sample to request a full demo in your target language.",
-          "male_voices": "Male Voices",
-          "female_voices": "Female Voices",
-          "voices": [
-            {
-              "name": "Alex",
-              "gender": "male",
-              "style": "Young Male · 22–28 · Natural & Conversational",
-              "samples": [
-                "Product Demo",
-                "Training Video"
-              ]
-            },
-            {
-              "name": "Marcus",
-              "gender": "male",
-              "style": "Mid-aged Male · 38–48 · Professional & Authoritative",
-              "samples": [
-                "Explainer Video",
-                "Corporate Narration"
-              ]
-            },
-            {
-              "name": "William",
-              "gender": "male",
-              "style": "Senior Male · 55–65 · Warm & Trustworthy",
-              "samples": [
-                "Brand Story",
-                "Financial / Legal"
-              ]
-            },
-            {
-              "name": "Sophie",
-              "gender": "female",
-              "style": "Young Female · 22–28 · Energetic & Friendly",
-              "samples": [
-                "Tutorial",
-                "Marketing Ad"
-              ]
-            },
-            {
-              "name": "Claire",
-              "gender": "female",
-              "style": "Mid-aged Female · 35–45 · Professional & Calm",
-              "samples": [
-                "Corporate",
-                "E-Learning"
-              ]
-            },
-            {
-              "name": "Emma",
-              "gender": "female",
-              "style": "Senior Female · 55–65 · Nurturing & Trustworthy",
-              "samples": [
-                "Healthcare",
-                "Finance"
-              ]
-            }
-          ],
-          "ai_note": "All AI voices available in 50+ languages. Custom voice cloning available on request.",
-          "ai_cta": "Request AI Voice Sample",
+          "ai_title": "130 production voices, all previewable",
+          "ai_body": "Every voice below can be previewed instantly. Chinese voices follow instructions and most auto-detect 30+ languages; international voices support emotion control. Pick a voice, send your text, and receive the finished audio.",
+          "ai_note": "Custom text in any supported language. Voice cloning available on request.",
+          "ai_cta": "Contact Us for Custom Dubbing",
           "human_label": "Human Voice Actors",
           "human_title": "Certified native voice actors",
           "human_body": "For premium brand content and projects where authentic human performance matters. All actors are auditioned, professionally trained native speakers.",
@@ -1452,7 +1394,59 @@
           "web_label": "Also from MediaLocalize",
           "web_title": "Need a multilingual website too?",
           "web_body": "We build fast, SEO-ready English websites for B2B exporters — with dubbing, subtitles, and localized content from the same team.",
-          "web_cta": "Explore Website Building"
+          "web_cta": "Explore Website Building",
+          "catalog": {
+            "group_zh": "Chinese Voices",
+            "group_foreign": "International Voices",
+            "zh_note": "Instruction-following · most voices auto-detect 30+ languages and major Chinese dialects",
+            "foreign_note": "Emotion control · instruction-following",
+            "legend_male": "Male",
+            "legend_female": "Female",
+            "scenarios": {
+              "general": "General",
+              "video": "Video Dubbing",
+              "roleplay": "Character & Roleplay",
+              "reading": "Audiobook & Reading",
+              "service": "Customer Service",
+              "education": "Education",
+              "accent": "Fun Accents"
+            },
+            "langs": {
+              "en_us": "English (US)",
+              "en_gb": "English (UK)",
+              "ja": "Japanese",
+              "ko": "Korean",
+              "de": "German",
+              "fr": "French",
+              "es": "Spanish (ES)",
+              "es_mx": "Spanish (LATAM)",
+              "pt_br": "Portuguese (BR)",
+              "ru": "Russian",
+              "ar": "Arabic",
+              "id": "Indonesian",
+              "th": "Thai",
+              "vi": "Vietnamese",
+              "tl": "Filipino",
+              "ms": "Malay",
+              "it": "Italian"
+            },
+            "filter_count": "%d voices",
+            "text_placeholder": "Paste or type the text to record…",
+            "email_placeholder": "Your email",
+            "submit": "Request Dubbing",
+            "sending": "Sending…",
+            "success": "Request received — we confirm within 1 business day.",
+            "err_email": "Enter a valid email",
+            "err_text": "Enter the text to record first",
+            "err_fail": "Submit failed — please email ken.lee@medialocalize.com",
+            "chars_label": "chars",
+            "tier_fmt": "($%s / 5k chars)",
+            "pricing_note": "Self-serve TTS pricing: $1.00 per 5,000 chars (up to 10k) · $0.80 (up to 50k) · $0.65 (up to 200k) · $0.50 (above 200k). Minimum $1 per request — quote updates live as you type.",
+            "modal_title": "Request this voice",
+            "filter_all_lang": "All Languages",
+            "filter_all_gender": "All Genders",
+            "langs_zh": "Chinese"
+          }
         }
       },
       "services/localization/video": {
@@ -1638,8 +1632,8 @@
     "home": {
       "hero": {
         "eyebrow": "面向 B2B 出口企业的多语言本地化与 AI 建站",
-        "title": "走向全球<br>表达像本地品牌",
-        "subtitle": "从英文外贸官网到文案、配音、版式和课程内容本地化，MediaLocalize 用 50+ 语言帮制造企业把专业能力讲给海外买家听",
+        "title": "走向全球<br>听起来像本地品牌",
+        "subtitle": "从英文外贸官网到文案、配音、版式和课程内容本地化，MediaLocalize 以 50 多种语言帮制造企业把专业能力讲给海外买家听",
         "primary": "获取免费报价",
         "secondary": "查看案例"
       },
@@ -1657,7 +1651,7 @@
           "交付项目"
         ],
         [
-          "10年+",
+          "10+ 年",
           "最长客户合作"
         ]
       ],
@@ -1696,7 +1690,7 @@
       ],
       "cases": {
         "label": "案例",
-        "title": "真实项目 真实结果",
+        "title": "真实项目，真实结果。",
         "body": "从中国制造企业第一版英文官网，到十年以上的多语言资料合作，我们关注的是询盘、可信度和长期效率",
         "all": "查看全部案例"
       },
@@ -2765,74 +2759,16 @@
         ],
         "detail": {
           "section_label": "语言本地化",
-          "request_sample": "索取试听样音",
+          "listen_samples": "查看样音",
           "toggle_ai": "AI 配音",
           "toggle_ai_sub": "$1/分钟起 · 24–72 小时交付",
           "toggle_human": "真人配音",
           "toggle_human_sub": "$20/分钟起 · 3–7 天交付",
           "ai_label": "AI 语音库",
-          "ai_title": "自然的 AI 语音，各种风格应有尽有",
-          "ai_body": "在下方试听我们的 AI 语音档案。点击任意样音，即可索取您目标语言的完整演示。",
-          "male_voices": "男声",
-          "female_voices": "女声",
-          "voices": [
-            {
-              "name": "Alex",
-              "gender": "male",
-              "style": "年轻男声 · 22–28 岁 · 自然对话风",
-              "samples": [
-                "产品演示",
-                "培训视频"
-              ]
-            },
-            {
-              "name": "Marcus",
-              "gender": "male",
-              "style": "中年男声 · 38–48 岁 · 专业权威",
-              "samples": [
-                "讲解视频",
-                "企业解说"
-              ]
-            },
-            {
-              "name": "William",
-              "gender": "male",
-              "style": "资深男声 · 55–65 岁 · 温暖可信",
-              "samples": [
-                "品牌故事",
-                "金融 / 法律"
-              ]
-            },
-            {
-              "name": "Sophie",
-              "gender": "female",
-              "style": "年轻女声 · 22–28 岁 · 活力亲和",
-              "samples": [
-                "教程",
-                "营销广告"
-              ]
-            },
-            {
-              "name": "Claire",
-              "gender": "female",
-              "style": "中年女声 · 35–45 岁 · 专业沉稳",
-              "samples": [
-                "企业宣传",
-                "在线课程"
-              ]
-            },
-            {
-              "name": "Emma",
-              "gender": "female",
-              "style": "资深女声 · 55–65 岁 · 亲切可信",
-              "samples": [
-                "医疗健康",
-                "金融"
-              ]
-            }
-          ],
-          "ai_note": "所有 AI 语音均支持 50+ 种语言。可按需定制声音克隆。",
-          "ai_cta": "索取 AI 语音样音",
+          "ai_title": "130 个精选音色，先试听再决定",
+          "ai_body": "以下音色全部可以在线试听。中文音色支持指令遵循，多数可自动识别 30+ 语种；外语音色支持情感变化。选好音色、提交文本，即可拿到成品音频。",
+          "ai_note": "所有音色支持自定义文本合成，另支持专属声音克隆。",
+          "ai_cta": "联系定制专属配音",
           "human_label": "真人配音演员",
           "human_title": "经认证的母语配音演员",
           "human_body": "适用于对真实人声演绎有要求的高端品牌内容与项目。所有演员均通过试音甄选，是受过专业训练的母语人士。",
@@ -2990,7 +2926,59 @@
           "web_label": "MediaLocalize 另有服务",
           "web_title": "还需要一个多语言网站吗？",
           "web_body": "我们为 B2B 出口商打造快速、利于 SEO 的英文网站——配音、字幕与本地化内容均由同一团队完成。",
-          "web_cta": "了解网站建设服务"
+          "web_cta": "了解网站建设服务",
+          "catalog": {
+            "group_zh": "中文音色",
+            "group_foreign": "外语音色",
+            "zh_note": "支持指令遵循 · 多数音色支持 30+ 语种自动识别及粤语、上海话等方言",
+            "foreign_note": "支持情感变化与指令遵循",
+            "legend_male": "男声",
+            "legend_female": "女声",
+            "scenarios": {
+              "general": "通用场景",
+              "video": "视频配音",
+              "roleplay": "角色扮演",
+              "reading": "有声阅读",
+              "service": "客服场景",
+              "education": "教育场景",
+              "accent": "趣味口音"
+            },
+            "langs": {
+              "en_us": "英语（美式）",
+              "en_gb": "英语（英式）",
+              "ja": "日语",
+              "ko": "韩语",
+              "de": "德语",
+              "fr": "法语",
+              "es": "西班牙语",
+              "es_mx": "西语（墨西哥）",
+              "pt_br": "葡语（巴西）",
+              "ru": "俄语",
+              "ar": "阿拉伯语",
+              "id": "印尼语",
+              "th": "泰语",
+              "vi": "越南语",
+              "tl": "菲律宾语",
+              "ms": "马来语",
+              "it": "意大利语"
+            },
+            "filter_count": "共 %d 个音色",
+            "text_placeholder": "输入或粘贴要录制的文本…",
+            "email_placeholder": "你的邮箱",
+            "submit": "提交配音请求",
+            "sending": "提交中…",
+            "success": "已收到，我们会在 1 个工作日内确认并联系你。",
+            "err_email": "请输入有效邮箱",
+            "err_text": "请先输入要录制的文本",
+            "err_fail": "提交失败，请直接邮件联系 ken.lee@medialocalize.com",
+            "chars_label": "字符",
+            "tier_fmt": "（$%s / 5千字符）",
+            "pricing_note": "自助合成阶梯价：$1.00/5千字符（≤1万）· $0.80（≤5万）· $0.65（≤20万）· $0.50（20万+），每单最低 $1。输入文本即时报价。",
+            "modal_title": "请求该音色配音",
+            "filter_all_lang": "全部语言",
+            "filter_all_gender": "全部性别",
+            "langs_zh": "中文"
+          }
         }
       },
       "services/localization/video": {
@@ -3367,7 +3355,7 @@
     "home": {
       "hero": {
         "eyebrow": "Localización multilingüe y sitios web con IA para exportadores B2B",
-        "title": "Vende fuera.<br>Habla como local.",
+        "title": "Sal al mundo.<br>Suena local.",
         "subtitle": "Creamos tu sitio web internacional y adaptamos textos, voz y diseño para que compradores de otros mercados te lean con confianza.",
         "primary": "Pedir presupuesto",
         "secondary": "Ver casos"
@@ -3418,7 +3406,7 @@
             "Voces humanas nativas",
             "Localización de video y animación",
             "E-learning y SCORM",
-            "Termbase y memoria de traducción"
+            "Base terminológica y memoria de traducción"
           ],
           "url": "/services/localization/"
         }
@@ -4496,74 +4484,16 @@
         ],
         "detail": {
           "section_label": "Localización",
-          "request_sample": "Solicitar una muestra",
+          "listen_samples": "Escuchar muestras",
           "toggle_ai": "Doblaje con IA",
           "toggle_ai_sub": "Desde $1/min · Entrega en 24–72 h",
           "toggle_human": "Doblaje humano",
           "toggle_human_sub": "Desde $20/min · Entrega en 3–7 días",
           "ai_label": "Biblioteca de voces IA",
-          "ai_title": "Voces IA naturales, en todos los estilos",
-          "ai_body": "Escuche nuestros perfiles de voz IA a continuación. Haga clic en cualquier muestra para solicitar una demostración completa en su idioma de destino.",
-          "male_voices": "Voces masculinas",
-          "female_voices": "Voces femeninas",
-          "voices": [
-            {
-              "name": "Alex",
-              "gender": "male",
-              "style": "Voz masculina joven · 22–28 · Natural y conversacional",
-              "samples": [
-                "Demostración de producto",
-                "Video de capacitación"
-              ]
-            },
-            {
-              "name": "Marcus",
-              "gender": "male",
-              "style": "Voz masculina madura · 38–48 · Profesional y autoritaria",
-              "samples": [
-                "Video explicativo",
-                "Narración corporativa"
-              ]
-            },
-            {
-              "name": "William",
-              "gender": "male",
-              "style": "Voz masculina sénior · 55–65 · Cálida y confiable",
-              "samples": [
-                "Historia de marca",
-                "Finanzas / Legal"
-              ]
-            },
-            {
-              "name": "Sophie",
-              "gender": "female",
-              "style": "Voz femenina joven · 22–28 · Enérgica y cercana",
-              "samples": [
-                "Tutorial",
-                "Anuncio de marketing"
-              ]
-            },
-            {
-              "name": "Claire",
-              "gender": "female",
-              "style": "Voz femenina madura · 35–45 · Profesional y serena",
-              "samples": [
-                "Corporativo",
-                "E-learning"
-              ]
-            },
-            {
-              "name": "Emma",
-              "gender": "female",
-              "style": "Voz femenina sénior · 55–65 · Cercana y confiable",
-              "samples": [
-                "Salud",
-                "Finanzas"
-              ]
-            }
-          ],
-          "ai_note": "Todas las voces IA disponibles en más de 50 idiomas. Clonación de voz personalizada disponible a pedido.",
-          "ai_cta": "Solicitar muestra de voz IA",
+          "ai_title": "130 voces de producción, todas con muestra",
+          "ai_body": "Todas las voces se pueden escuchar al instante. Las voces chinas siguen instrucciones y la mayoría detecta automáticamente más de 30 idiomas; las internacionales admiten control emocional. Elige una voz, envía tu texto y recibe el audio terminado.",
+          "ai_note": "Texto personalizado en cualquier idioma soportado. Clonación de voz disponible.",
+          "ai_cta": "Contáctenos para doblaje a medida",
           "human_label": "Actores de voz profesionales",
           "human_title": "Actores de voz nativos certificados",
           "human_body": "Para contenido de marca premium y proyectos donde la interpretación humana auténtica marca la diferencia. Todos los actores son hablantes nativos seleccionados por audición y con formación profesional.",
@@ -4721,7 +4651,59 @@
           "web_label": "También de MediaLocalize",
           "web_title": "¿También necesita un sitio web multilingüe?",
           "web_body": "Creamos sitios web en inglés rápidos y optimizados para SEO para exportadores B2B, con doblaje, subtítulos y contenido localizado del mismo equipo.",
-          "web_cta": "Conocer la creación de sitios web"
+          "web_cta": "Conocer la creación de sitios web",
+          "catalog": {
+            "group_zh": "Voces en chino",
+            "group_foreign": "Voces internacionales",
+            "zh_note": "Siguen instrucciones · la mayoría detecta automáticamente 30+ idiomas y dialectos del chino",
+            "foreign_note": "Control de emoción · siguen instrucciones",
+            "legend_male": "Hombre",
+            "legend_female": "Mujer",
+            "scenarios": {
+              "general": "General",
+              "video": "Doblaje de video",
+              "roleplay": "Personajes",
+              "reading": "Audiolibros",
+              "service": "Atención al cliente",
+              "education": "Educación",
+              "accent": "Acentos divertidos"
+            },
+            "langs": {
+              "en_us": "Inglés (EE. UU.)",
+              "en_gb": "Inglés (RU)",
+              "ja": "Japonés",
+              "ko": "Coreano",
+              "de": "Alemán",
+              "fr": "Francés",
+              "es": "Español (España)",
+              "es_mx": "Español (México)",
+              "pt_br": "Portugués (Brasil)",
+              "ru": "Ruso",
+              "ar": "Árabe",
+              "id": "Indonesio",
+              "th": "Tailandés",
+              "vi": "Vietnamita",
+              "tl": "Filipino",
+              "ms": "Malayo",
+              "it": "Italiano"
+            },
+            "filter_count": "%d voces",
+            "text_placeholder": "Pega o escribe el texto a grabar…",
+            "email_placeholder": "Tu email",
+            "submit": "Solicitar doblaje",
+            "sending": "Enviando…",
+            "success": "Solicitud recibida. Confirmamos en 1 día hábil.",
+            "err_email": "Introduce un email válido",
+            "err_text": "Escribe primero el texto",
+            "err_fail": "Error al enviar. Escribe a ken.lee@medialocalize.com",
+            "chars_label": "caracteres",
+            "tier_fmt": "($%s / 5k car.)",
+            "pricing_note": "Precio TTS por niveles: $1.00 por 5.000 caracteres (hasta 10k) · $0.80 (hasta 50k) · $0.65 (hasta 200k) · $0.50 (más de 200k). Mínimo $1 por solicitud — el precio se actualiza al escribir.",
+            "modal_title": "Solicitar esta voz",
+            "filter_all_lang": "Todos los idiomas",
+            "filter_all_gender": "Todos los géneros",
+            "langs_zh": "Chino"
+          }
         }
       },
       "services/localization/video": {
@@ -5098,7 +5080,7 @@
     "home": {
       "hero": {
         "eyebrow": "Многоязычная локализация и AI-сайты для B2B-экспорта",
-        "title": "Выходите на мир.<br>Звучите локально.",
+        "title": "Выходите на мировой рынок.<br>Звучите по-местному.",
         "subtitle": "Мы создаем экспортные сайты и адаптируем тексты, голос, видео и верстку так, чтобы зарубежные покупатели воспринимали бренд как профессиональный и понятный.",
         "primary": "Получить расчет",
         "secondary": "Смотреть кейсы"
@@ -5146,10 +5128,10 @@
           "features": [
             "DTP: InDesign, FrameMaker",
             "AI-дубляж от $1/мин",
-            "Нативные дикторы",
+            "Дикторы — носители языка",
             "Видео и анимация",
             "E-learning и SCORM",
-            "Терминология и translation memory"
+            "Терминобаза и память переводов"
           ],
           "url": "/services/localization/"
         }
@@ -6227,74 +6209,16 @@
         ],
         "detail": {
           "section_label": "Локализация",
-          "request_sample": "Запросить образец",
+          "listen_samples": "Прослушать образцы",
           "toggle_ai": "ИИ-озвучка",
           "toggle_ai_sub": "От $1/мин · доставка за 24–72 часа",
           "toggle_human": "Озвучка актёрами",
           "toggle_human_sub": "От $20/мин · доставка за 3–7 дней",
           "ai_label": "Библиотека ИИ-голосов",
-          "ai_title": "Естественные ИИ-голоса в любом стиле",
-          "ai_body": "Прослушайте наши профили ИИ-голосов ниже. Нажмите на любой образец, чтобы запросить полную демоверсию на нужном вам языке.",
-          "male_voices": "Мужские голоса",
-          "female_voices": "Женские голоса",
-          "voices": [
-            {
-              "name": "Alex",
-              "gender": "male",
-              "style": "Молодой мужской голос · 22–28 · Естественный, разговорный",
-              "samples": [
-                "Демонстрация продукта",
-                "Обучающее видео"
-              ]
-            },
-            {
-              "name": "Marcus",
-              "gender": "male",
-              "style": "Мужской голос среднего возраста · 38–48 · Профессиональный, авторитетный",
-              "samples": [
-                "Объясняющее видео",
-                "Корпоративная озвучка"
-              ]
-            },
-            {
-              "name": "William",
-              "gender": "male",
-              "style": "Зрелый мужской голос · 55–65 · Тёплый, вызывающий доверие",
-              "samples": [
-                "История бренда",
-                "Финансы / Право"
-              ]
-            },
-            {
-              "name": "Sophie",
-              "gender": "female",
-              "style": "Молодой женский голос · 22–28 · Энергичный, дружелюбный",
-              "samples": [
-                "Учебное пособие",
-                "Рекламный ролик"
-              ]
-            },
-            {
-              "name": "Claire",
-              "gender": "female",
-              "style": "Женский голос среднего возраста · 35–45 · Профессиональный, спокойный",
-              "samples": [
-                "Корпоративный",
-                "Электронное обучение"
-              ]
-            },
-            {
-              "name": "Emma",
-              "gender": "female",
-              "style": "Зрелый женский голос · 55–65 · Заботливый, вызывающий доверие",
-              "samples": [
-                "Здравоохранение",
-                "Финансы"
-              ]
-            }
-          ],
-          "ai_note": "Все ИИ-голоса доступны на более чем 50 языках. Индивидуальное клонирование голоса — по запросу.",
-          "ai_cta": "Запросить образец ИИ-голоса",
+          "ai_title": "130 рабочих голосов с онлайн-прослушиванием",
+          "ai_body": "Каждый голос можно сразу прослушать. Китайские голоса следуют инструкциям, и большинство автоматически распознает 30+ языков; международные поддерживают управление эмоциями. Выберите голос, отправьте текст и получите готовое аудио.",
+          "ai_note": "Произвольный текст на любом поддерживаемом языке. Доступно клонирование голоса.",
+          "ai_cta": "Связаться с нами для индивидуальной озвучки",
           "human_label": "Профессиональные дикторы",
           "human_title": "Сертифицированные носители языка",
           "human_body": "Для премиального контента бренда и проектов, где важна подлинная человеческая игра. Все актёры прошли кастинг и являются профессионально обученными носителями языка.",
@@ -6452,7 +6376,59 @@
           "web_label": "Также от MediaLocalize",
           "web_title": "Нужен ещё и многоязычный сайт?",
           "web_body": "Мы создаём быстрые англоязычные сайты с готовностью к SEO для B2B-экспортёров — с озвучкой, субтитрами и локализованным контентом от той же команды.",
-          "web_cta": "Узнать о создании сайтов"
+          "web_cta": "Узнать о создании сайтов",
+          "catalog": {
+            "group_zh": "Китайские голоса",
+            "group_foreign": "Международные голоса",
+            "zh_note": "Следуют инструкциям · большинство распознает 30+ языков и диалекты китайского",
+            "foreign_note": "Управление эмоциями · следование инструкциям",
+            "legend_male": "Мужские",
+            "legend_female": "Женские",
+            "scenarios": {
+              "general": "Общие",
+              "video": "Дубляж видео",
+              "roleplay": "Ролевые",
+              "reading": "Аудиокниги",
+              "service": "Клиентский сервис",
+              "education": "Образование",
+              "accent": "Акценты"
+            },
+            "langs": {
+              "en_us": "Английский (США)",
+              "en_gb": "Английский (Великобритания)",
+              "ja": "Японский",
+              "ko": "Корейский",
+              "de": "Немецкий",
+              "fr": "Французский",
+              "es": "Испанский",
+              "es_mx": "Испанский (Мексика)",
+              "pt_br": "Португальский (Бразилия)",
+              "ru": "Русский",
+              "ar": "Арабский",
+              "id": "Индонезийский",
+              "th": "Тайский",
+              "vi": "Вьетнамский",
+              "tl": "Филиппинский",
+              "ms": "Малайский",
+              "it": "Итальянский"
+            },
+            "filter_count": "Голосов: %d",
+            "text_placeholder": "Вставьте текст для озвучки…",
+            "email_placeholder": "Ваш email",
+            "submit": "Заказать озвучку",
+            "sending": "Отправка…",
+            "success": "Заявка получена. Подтвердим в течение одного рабочего дня.",
+            "err_email": "Введите корректный email",
+            "err_text": "Сначала введите текст",
+            "err_fail": "Ошибка отправки. Напишите на ken.lee@medialocalize.com",
+            "chars_label": "символов",
+            "tier_fmt": "($%s / 5 тыс. знаков)",
+            "pricing_note": "Тарифы на синтез речи: $1.00 за 5 000 знаков (до 10 тыс.) · $0.80 (до 50 тыс.) · $0.65 (до 200 тыс.) · $0.50 (свыше 200 тыс.). Минимум $1 за заявку — цена обновляется по мере ввода.",
+            "modal_title": "Заказать этот голос",
+            "filter_all_lang": "Все языки",
+            "filter_all_gender": "Оба пола",
+            "langs_zh": "Китайский"
+          }
         }
       },
       "services/localization/video": {
@@ -6709,7 +6685,7 @@
       "site_description": "تبني MediaLocalize مواقع مدعومة بالذكاء الاصطناعي وتقدم توطينا احترافيا متعدد اللغات لشركات التصنيع والتصدير B2B.",
       "contact": "تواصل",
       "get_quote": "اطلب عرض سعر",
-      "free_quote": "اطلب عرضا مجانيا",
+      "free_quote": "اطلب عرضًا مجانيًا",
       "view_pricing": "الأسعار",
       "learn_more": "المزيد",
       "read_article": "اقرأ المقال",
@@ -6743,12 +6719,12 @@
       },
       "pagination_prev": "السابق",
       "pagination_next": "التالي",
-      "coming_soon": "قريبا",
+      "coming_soon": "قريبًا",
       "no_articles": "لا توجد مقالات بعد."
     },
     "footer": {
       "desc": "توطين متعدد اللغات وبناء مواقع مدعوم بالذكاء الاصطناعي للمصنعين والمصدرين وشركات B2B منذ عام 2009.",
-      "meta": "أكثر من 15 عاما · 500+ مشروع · 50+ زوجا لغويا",
+      "meta": "أكثر من 15 عامًا · 500+ مشروع · 50+ زوجًا لغويًا",
       "services_title": "الخدمات",
       "industries_title": "القطاعات",
       "languages_title": "الأزواج اللغوية",
@@ -6829,9 +6805,9 @@
     "home": {
       "hero": {
         "eyebrow": "توطين متعدد اللغات وبناء مواقع AI لشركات التصدير B2B",
-        "title": "انطلق عالميا.<br>وتحدث محليا.",
+        "title": "انطلق عالميًا.<br>تحدّث بلسان محلي.",
         "subtitle": "نبني موقعك الدولي ونكيف النصوص والصوت والتصميم لتبدو مفهومة وموثوقة للمشترين في كل سوق.",
-        "primary": "اطلب عرضا مجانيا",
+        "primary": "اطلب عرضًا مجانيًا",
         "secondary": "شاهد الأعمال"
       },
       "stats": [
@@ -6848,8 +6824,8 @@
           "مشروع منجز"
         ],
         [
-          "10+",
-          "أعوام أطول شراكة"
+          "10+ سنوات",
+          "أطول شراكة مع عميل"
         ]
       ],
       "intro": {
@@ -7958,74 +7934,16 @@
         ],
         "detail": {
           "section_label": "التوطين",
-          "request_sample": "اطلب عينة",
+          "listen_samples": "استمع إلى العينات",
           "toggle_ai": "الدبلجة بالذكاء الاصطناعي",
           "toggle_ai_sub": "ابتداءً من $1/min · التسليم خلال 24–72 ساعة",
           "toggle_human": "الدبلجة البشرية",
           "toggle_human_sub": "ابتداءً من $20/min · التسليم خلال 3–7 أيام",
           "ai_label": "مكتبة الأصوات بالذكاء الاصطناعي",
-          "ai_title": "أصوات ذكاء اصطناعي طبيعية بكل الأنماط",
-          "ai_body": "استمع إلى نماذج أصوات الذكاء الاصطناعي لدينا أدناه. انقر على أي عينة لطلب عرض توضيحي كامل بلغتك المستهدفة.",
-          "male_voices": "أصوات ذكورية",
-          "female_voices": "أصوات أنثوية",
-          "voices": [
-            {
-              "name": "Alex",
-              "gender": "male",
-              "style": "صوت ذكر شاب · 22–28 · طبيعي ومحادثة",
-              "samples": [
-                "عرض توضيحي لمنتج",
-                "فيديو تدريبي"
-              ]
-            },
-            {
-              "name": "Marcus",
-              "gender": "male",
-              "style": "صوت ذكر متوسط العمر · 38–48 · احترافي وموثوق",
-              "samples": [
-                "فيديو شرح",
-                "سرد مؤسسي"
-              ]
-            },
-            {
-              "name": "William",
-              "gender": "male",
-              "style": "صوت ذكر كبير السن · 55–65 · دافئ وجدير بالثقة",
-              "samples": [
-                "قصة علامة تجارية",
-                "مالي / قانوني"
-              ]
-            },
-            {
-              "name": "Sophie",
-              "gender": "female",
-              "style": "صوت أنثى شابة · 22–28 · حيوي وودود",
-              "samples": [
-                "فيديو تعليمي",
-                "إعلان تسويقي"
-              ]
-            },
-            {
-              "name": "Claire",
-              "gender": "female",
-              "style": "صوت أنثى متوسطة العمر · 35–45 · احترافي وهادئ",
-              "samples": [
-                "مؤسسي",
-                "تعليم إلكتروني"
-              ]
-            },
-            {
-              "name": "Emma",
-              "gender": "female",
-              "style": "صوت أنثى كبيرة السن · 55–65 · حنون وجدير بالثقة",
-              "samples": [
-                "رعاية صحية",
-                "شؤون مالية"
-              ]
-            }
-          ],
-          "ai_note": "جميع أصوات الذكاء الاصطناعي متاحة بأكثر من 50 لغة. استنساخ صوتي مخصص متاح عند الطلب.",
-          "ai_cta": "اطلب عينة صوت بالذكاء الاصطناعي",
+          "ai_title": "130 صوتًا احترافيًا مع استماع فوري",
+          "ai_body": "يمكن الاستماع إلى كل صوت مباشرة. الأصوات الصينية تتبع التعليمات ومعظمها يتعرف تلقائيًا على أكثر من 30 لغة، والأصوات الدولية تدعم التحكم في المشاعر. اختر الصوت وأرسل النص لتحصل على التسجيل الجاهز.",
+          "ai_note": "نص مخصص بأي لغة مدعومة. تتوفر خدمة استنساخ الصوت.",
+          "ai_cta": "تواصل معنا للدبلجة المخصصة",
           "human_label": "ممثلو الأداء الصوتي البشري",
           "human_title": "ممثلو أصوات معتمدون من الناطقين الأصليين",
           "human_body": "لمحتوى العلامات التجارية الفاخرة والمشاريع التي تتطلب أداءً بشريًا أصيلًا. جميع الممثلين ناطقون أصليون خضعوا لاختبارات أداء وتدريب مهني.",
@@ -8183,7 +8101,59 @@
           "web_label": "أيضًا من MediaLocalize",
           "web_title": "هل تحتاج إلى موقع متعدد اللغات أيضًا؟",
           "web_body": "نبني مواقع إنجليزية سريعة وجاهزة لمحركات البحث لمصدري B2B — مع الدبلجة والترجمة المصاحبة والمحتوى الموطن من الفريق نفسه.",
-          "web_cta": "استكشف بناء المواقع"
+          "web_cta": "استكشف بناء المواقع",
+          "catalog": {
+            "group_zh": "أصوات صينية",
+            "group_foreign": "أصوات دولية",
+            "zh_note": "تتبع التعليمات · معظمها يتعرف تلقائيا على أكثر من 30 لغة وعلى لهجات صينية",
+            "foreign_note": "تحكم في المشاعر · اتباع التعليمات",
+            "legend_male": "رجالية",
+            "legend_female": "نسائية",
+            "scenarios": {
+              "general": "عام",
+              "video": "دبلجة الفيديو",
+              "roleplay": "تمثيل الأدوار",
+              "reading": "كتب صوتية",
+              "service": "خدمة العملاء",
+              "education": "تعليم",
+              "accent": "لهجات"
+            },
+            "langs": {
+              "en_us": "إنجليزية أمريكية",
+              "en_gb": "إنجليزية بريطانية",
+              "ja": "اليابانية",
+              "ko": "الكورية",
+              "de": "الألمانية",
+              "fr": "الفرنسية",
+              "es": "الإسبانية",
+              "es_mx": "إسبانية المكسيك",
+              "pt_br": "برتغالية البرازيل",
+              "ru": "الروسية",
+              "ar": "العربية",
+              "id": "الإندونيسية",
+              "th": "التايلاندية",
+              "vi": "الفيتنامية",
+              "tl": "الفلبينية",
+              "ms": "الماليزية",
+              "it": "الإيطالية"
+            },
+            "filter_count": "%d صوتًا",
+            "text_placeholder": "ألصق أو اكتب النص المراد تسجيله…",
+            "email_placeholder": "بريدك الإلكتروني",
+            "submit": "اطلب الدبلجة",
+            "sending": "جارٍ الإرسال…",
+            "success": "تم استلام الطلب، سنؤكد خلال يوم عمل واحد.",
+            "err_email": "أدخل بريدًا إلكترونيًا صالحًا",
+            "err_text": "أدخل النص أولًا",
+            "err_fail": "فشل الإرسال، راسلنا على ken.lee@medialocalize.com",
+            "chars_label": "حرف",
+            "tier_fmt": "($%s / 5 آلاف حرف)",
+            "pricing_note": "أسعار التوليد الصوتي: $1.00 لكل 5000 حرف (حتى 10 آلاف) · $0.80 (حتى 50 ألفًا) · $0.65 (حتى 200 ألف) · $0.50 (فوق 200 ألف). الحد الأدنى $1 للطلب — والسعر يتحدث فورًا أثناء الكتابة.",
+            "modal_title": "اطلب هذا الصوت",
+            "filter_all_lang": "كل اللغات",
+            "filter_all_gender": "كلا الجنسين",
+            "langs_zh": "الصينية"
+          }
         }
       },
       "services/localization/video": {
