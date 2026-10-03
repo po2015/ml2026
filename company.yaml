@@ -406,49 +406,6 @@ pricing:
 
 cases:
 
-  - id: cyrentis
-    slug: cyrentis
-    url: https://cyrentis.com
-    client_en: Cyrentis
-    client_zh: Cyrentis
-    industry_en: Security — Radar Products
-    industry_zh: 安防行业 — 雷达产品
-    services: [website_building]
-    date: 2024-09
-    featured: true
-    tags: [B2B, Security, Hardware, English]
-
-    title_en: "B2B Radar Product Website for Global Security Buyers"
-    title_zh: "面向全球安防采购商的雷达产品 B2B 网站"
-
-    challenge_en: >
-      Cyrentis, a radar security product manufacturer, lacked a professional
-      English-language web presence to reach international B2B buyers in the
-      security and surveillance industry. Their existing channels were limited
-      to domestic trade platforms with no global discoverability.
-    challenge_zh: >
-      Cyrentis 是一家雷达安防产品制造商，缺乏专业的英文网站，难以触达
-      国际安防行业的 B2B 采购商，原有渠道局限于国内平台，全球曝光度极低。
-
-    solution_en: >
-      MediaLocalize designed and built a multi-page B2B product showcase website
-      featuring technical product listings with specification tables, an RFQ
-      (Request for Quote) inquiry system, and CDN-accelerated global hosting.
-      On-page SEO was configured for security-industry search terms in English.
-    solution_zh: >
-      MediaLocalize 为其设计并搭建了多页产品展示网站，包含带参数表格的技术
-      产品列表、RFQ 询价系统，并部署全球 CDN 加速。页面 SEO 针对安防行业
-      英文关键词进行了深度配置。
-
-    results_en:
-      - Professional English B2B presence live within 2 weeks
-      - Indexed by Google within 72 hours of launch
-      - Inbound RFQ inquiries from overseas buyers within first month
-    results_zh:
-      - 2 周内上线专业英文 B2B 网站
-      - 上线 72 小时内被 Google 收录
-      - 首月内收到境外采购商主动询价
-
   - id: irmodules
     slug: irmodules
     url: https://irmodules.com
@@ -486,12 +443,12 @@ cases:
 
     results_en:
       - Complete OEM-ready product catalog live within 3 weeks
-      - Spec sheet downloads averaging 40+ per month post-launch
-      - First OEM inquiry received within 2 weeks of going live
+      - Stable 100+ inbound inquiries per month from OEM/ODM buyers
+      - Large and growing base of B2B customers across NA, EU and SEA
     results_zh:
       - 3 周内上线完整 OEM 产品目录站
-      - 上线后规格书月均下载量超 40 次
-      - 上线 2 周内收到首个 OEM 正式询价
+      - 每月稳定产生 100+ 海外询盘
+      - 积累大量 B 端客户，覆盖北美、欧洲与东南亚
 
   - id: laser-marking-localization
     slug: laser-marking-localization

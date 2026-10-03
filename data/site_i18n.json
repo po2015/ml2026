@@ -3065,33 +3065,16 @@
         "industry": "红外机芯 / OEM·ODM",
         "service_label": "网站建设",
         "tagline": "一个技术型产品目录网站，帮助红外机芯制造商承接全球 OEM 询盘",
-        "description": "为红外机芯制造商搭建可信英文官网，首月获得 40+ 规格书下载，并在 2 周内收到 OEM 询盘",
+        "description": "为红外机芯制造商搭建可信英文官网，上线后每月稳定带来 100+ 海外询盘，积累大量 B 端客户",
         "challenge": "客户具备红外机芯制造能力，但海外买家在线上无法看到可信的英文资料、规格参数和 OEM 联系路径",
         "solution": "我们搭建了技术产品目录网站，完善规格表、PDF 下载、OEM 询盘表单和面向热成像采购关键词的内容结构，并通过全球 CDN 部署",
-        "results_desc": "网站上线后三周内开始稳定产生规格书下载，两周内收到第一条正式 OEM 询盘，首月下载量达到 40+",
+        "results_desc": "网站 3 周上线，很快成为客户最主要的海外获客渠道：目前每月稳定产生 100+ OEM/ODM 询盘，并为公司带来遍布北美、欧洲和东南亚的大量 B 端客户，官网已成为全天候的全球销售通道。",
         "results_short": [
           "3 周上线完整产品目录",
-          "首月 40+ 规格书下载",
-          "2 周内收到第一条 OEM 询盘"
+          "每月稳定 100+ 海外询盘",
+          "B 端客户持续增长"
         ],
-        "body": "该项目说明 技术型 B2B 网站的核心不是炫目设计，而是让工程买家快速判断参数、下载资料并发起询盘"
-      },
-      "cases/cyrentis": {
-        "title": "Cyrentis — 安防雷达产品 B2B 官网",
-        "domain": "cyrentis.com",
-        "industry": "安防 / 雷达产品",
-        "service_label": "网站建设",
-        "tagline": "一个专业 B2B 官网，让国际安防买家能够快速评估产品能力",
-        "description": "为雷达制造商搭建多页面产品展示网站，上线数周内获得海外 RFQ 询价",
-        "challenge": "没有英文官网导致国际系统集成商、分销商和采购团队无法在线评估产品",
-        "solution": "我们搭建产品展示、技术规格、RFQ 表单和安防行业关键词内容，并部署到全球 CDN",
-        "results_desc": "网站两周内上线，72 小时内被 Google 收录，首月获得海外 RFQ",
-        "results_short": [
-          "2 周完成上线",
-          "72 小时内被 Google 收录",
-          "首月收到海外 RFQ"
-        ],
-        "body": "对于安防类 B2B 产品，官网相当于 24 小时在线销售代表，必须能承载参数、场景和采购沟通"
+        "body": "该项目说明 技术型 B2B 网站的核心不是炫目设计，而是成为企业最可靠的海外获客渠道——每月 100+ 稳定询盘，B 端客户持续积累。"
       },
       "cases/laser-marking-localization": {
         "title": "武汉激光设备制造商 — 出口资料本地化",
@@ -4826,33 +4809,16 @@
         "industry": "Cámaras infrarrojas / OEM·ODM",
         "service_label": "Sitio web",
         "tagline": "Un catálogo técnico que ayudó al fabricante a competir por contratos OEM globales.",
-        "description": "Sitio en inglés con catálogo técnico, descargas de fichas y formularios OEM; generó 40+ descargas mensuales y la primera consulta en dos semanas.",
+        "description": "Sitio web en inglés para un fabricante de núcleos de cámara infrarroja que hoy genera más de 100 consultas estables al mes y una cartera creciente de clientes B2B.",
         "challenge": "El fabricante tenía capacidad técnica, pero los compradores internacionales no encontraban especificaciones ni un canal de contacto fiable.",
         "solution": "Diseñamos un catálogo técnico con fichas descargables, formulario OEM, contenido orientado a búsqueda y despliegue global por CDN.",
-        "results_desc": "El sitio empezó a generar descargas de fichas desde el lanzamiento y recibió su primera consulta OEM en dos semanas.",
+        "results_desc": "El sitio se lanzó en tres semanas y se convirtió en la principal fuente de clientes potenciales internacionales de IRModules: hoy genera más de 100 consultas estables al mes de compradores OEM/ODM y una base creciente de clientes B2B en Norteamérica, Europa y el Sudeste Asiático — un canal de ventas global que trabaja a tiempo completo.",
         "results_short": [
-          "Sitio completo en 3 semanas",
-          "40+ descargas de fichas al mes",
-          "Primera consulta OEM en 2 semanas"
+          "Catálogo completo en línea en 3 semanas",
+          "Más de 100 consultas estables al mes",
+          "Cartera creciente de clientes B2B"
         ],
-        "body": "En B2B técnico, el sitio funciona cuando permite comparar especificaciones y contactar sin fricción."
-      },
-      "cases/cyrentis": {
-        "title": "Cyrentis — sitio B2B para productos de radar de seguridad",
-        "domain": "cyrentis.com",
-        "industry": "Seguridad / Radar",
-        "service_label": "Sitio web",
-        "tagline": "Un sitio B2B profesional para que compradores internacionales evaluaran la línea de producto.",
-        "description": "Creamos un sitio multipágina para un fabricante de radar, con especificaciones y RFQ, que generó consultas extranjeras en semanas.",
-        "challenge": "Sin sitio en inglés, integradores y distribuidores internacionales no podían validar productos ni capacidades.",
-        "solution": "Construimos páginas de producto, especificaciones, formulario RFQ y contenido SEO para compras de seguridad.",
-        "results_desc": "El sitio se lanzó en dos semanas, Google lo indexó en 72 horas y llegaron RFQ internacionales el primer mes.",
-        "results_short": [
-          "Lanzamiento en 2 semanas",
-          "Indexado por Google en 72 horas",
-          "RFQ internacional en el primer mes"
-        ],
-        "body": "Para productos de seguridad, la credibilidad digital es parte del proceso de compra."
+        "body": "El proyecto demuestra que un sitio técnico creíble se convierte en el canal de ventas internacional más fiable de un fabricante: más de 100 consultas cada mes y una base de clientes B2B en crecimiento constante."
       },
       "cases/laser-marking-localization": {
         "title": "Fabricante de equipos láser en Wuhan — localización de materiales de exportación",
@@ -6587,33 +6553,16 @@
         "industry": "Инфракрасные камеры / OEM·ODM",
         "service_label": "Сайт",
         "tagline": "Технический каталог для привлечения глобальных OEM-запросов.",
-        "description": "Англоязычный сайт с каталогом, спецификациями и OEM-формой дал 40+ скачиваний в месяц и первый запрос за две недели.",
+        "description": "Англоязычный сайт для производителя инфракрасных модулей, который сегодня приносит стабильно 100+ запросов в месяц и растущую базу B2B-клиентов.",
         "challenge": "Покупатели не видели онлайн спецификаций и понятного канала связи.",
         "solution": "Мы построили каталог, PDF-спецификации, OEM-форму, SEO-контент и CDN-деплой.",
-        "results_desc": "Первые скачивания начались сразу после запуска, первый OEM-запрос пришел через две недели.",
+        "results_desc": "Сайт запустили за три недели, и он стал основным источником зарубежных лидов: сегодня он стабильно приносит 100+ запросов в месяц от OEM/ODM-покупателей и сформировал большую, постоянно растущую базу B2B-клиентов в Северной Америке, Европе и Юго-Восточной Азии — сайт работает как круглосуточный канал глобальных продаж.",
         "results_short": [
-          "Запуск за 3 недели",
-          "40+ скачиваний спецификаций в месяц",
-          "Первый OEM-запрос за 2 недели"
+          "Запуск за 3 недели с полным каталогом",
+          "100+ стабильных запросов в месяц",
+          "Растущая база B2B-клиентов"
         ],
-        "body": "Технический B2B-сайт должен помогать инженеру быстро проверить параметры и отправить запрос."
-      },
-      "cases/cyrentis": {
-        "title": "Cyrentis — B2B-сайт для радарных систем безопасности",
-        "domain": "cyrentis.com",
-        "industry": "Безопасность / Радар",
-        "service_label": "Сайт",
-        "tagline": "Профессиональный сайт для оценки продукта международными покупателями.",
-        "description": "Многостраничный сайт с продуктами, спецификациями и RFQ принес зарубежные запросы за несколько недель.",
-        "challenge": "Без английского сайта интеграторы и дистрибьюторы не могли проверить возможности компании.",
-        "solution": "Мы создали продуктовые страницы, RFQ-форму, SEO-структуру и CDN-деплой.",
-        "results_desc": "Сайт запущен за две недели, индексирован Google за 72 часа и дал RFQ в первый месяц.",
-        "results_short": [
-          "Запуск за 2 недели",
-          "Индексация Google за 72 часа",
-          "RFQ в первый месяц"
-        ],
-        "body": "Для B2B-безопасности цифровая доверенность становится частью закупки."
+        "body": "Проект показывает: убедительный технический сайт становится самым надёжным каналом экспортных продаж производителя — 100+ запросов ежемесячно и клиентская база, которая продолжает расти."
       },
       "cases/laser-marking-localization": {
         "title": "Производитель лазерного оборудования в Ухане — локализация экспортных материалов",
@@ -8348,33 +8297,16 @@
         "industry": "كاميرات الأشعة تحت الحمراء / OEM·ODM",
         "service_label": "بناء موقع",
         "tagline": "كتالوج تقني ساعد المصنع على استقبال طلبات OEM عالمية.",
-        "description": "موقع إنجليزي بكتالوج تقني وملفات مواصفات ونموذج OEM؛ حقق 40+ تحميل شهريا وأول طلب خلال أسبوعين.",
+        "description": "موقع إنجليزي موثوق لمصنّع وحدات التصوير بالأشعة تحت الحمراء يولّد اليوم أكثر من 100 استفسار شهريًا بثبات وقاعدة متنامية من عملاء B2B.",
         "challenge": "لم يكن لدى المشترين الدوليين مواصفات واضحة أو قناة تواصل موثوقة على الإنترنت.",
         "solution": "بنينا كتالوجا تقنيا وملفات PDF ونموذج OEM ومحتوى SEO ونشرا عبر CDN عالمي.",
-        "results_desc": "بدأت تحميلات المواصفات فور الإطلاق وجاء أول طلب OEM خلال أسبوعين.",
+        "results_desc": "أُطلق الموقع في ثلاثة أسابيع وأصبح سريعًا المصدر الرئيسي للعملاء المحتملين من الخارج: يولّد اليوم أكثر من 100 استفسار شهري ثابت من مشتري OEM/ODM، وجلب للشركة قاعدة كبيرة ومتنامية من عملاء B2B في أمريكا الشمالية وأوروبا وجنوب شرق آسيا — ليصبح قناة مبيعات عالمية تعمل على مدار الساعة.",
         "results_short": [
-          "إطلاق خلال 3 أسابيع",
-          "40+ تحميل مواصفات شهريا",
-          "أول طلب OEM خلال أسبوعين"
+          "إطلاق كامل خلال 3 أسابيع",
+          "أكثر من 100 استفسار شهري ثابت",
+          "قاعدة متنامية من عملاء B2B"
         ],
-        "body": "في B2B التقني، ينجح الموقع عندما يساعد المهندس على مقارنة المواصفات والتواصل بسرعة."
-      },
-      "cases/cyrentis": {
-        "title": "Cyrentis — موقع B2B لمنتجات رادار الأمن",
-        "domain": "cyrentis.com",
-        "industry": "الأمن / الرادار",
-        "service_label": "بناء موقع",
-        "tagline": "موقع احترافي يساعد المشترين الدوليين على تقييم المنتجات.",
-        "description": "موقع متعدد الصفحات لرادارات أمنية مع مواصفات ونموذج RFQ، جلب طلبات خارجية خلال أسابيع.",
-        "challenge": "من دون موقع إنجليزي لم يستطع الموزعون والمكاملون تقييم الشركة ومنتجاتها.",
-        "solution": "أنشأنا صفحات منتجات ومواصفات ونموذج RFQ ومحتوى SEO ونشرا عالميا.",
-        "results_desc": "أطلق الموقع خلال أسبوعين، وفهرسه Google خلال 72 ساعة، ووصلت طلبات RFQ في الشهر الأول.",
-        "results_short": [
-          "إطلاق خلال أسبوعين",
-          "فهرسة Google خلال 72 ساعة",
-          "RFQ في الشهر الأول"
-        ],
-        "body": "في منتجات الأمن، الثقة الرقمية جزء من عملية الشراء."
+        "body": "يوضح هذا المشروع أن الموقع التقني الموثوق يصبح قناة المبيعات الخارجية الأكثر اعتمادًا للمصنّع — أكثر من 100 استفسار شهريًا وقاعدة عملاء B2B في نمو مستمر."
       },
       "cases/laser-marking-localization": {
         "title": "مصنع معدات ليزر في ووهان — توطين مواد التصدير",
