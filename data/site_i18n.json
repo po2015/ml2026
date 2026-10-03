@@ -2721,19 +2721,31 @@
         "description": "Word、PPT、InDesign、FrameMaker 等多语言文档排版",
         "subtitle": "翻译之后，让版式也真正可用",
         "cover": "/images/services/dtp.jpg",
-        "body": "## 多语言文档需要重新排版\n不同语言会导致文字长度、断行、字体和表格高度发生变化。阿拉伯语还需要 RTL 方向处理，中文则要注意标点、换行和字体显示。\n\n我们处理 Word、PPT、InDesign、FrameMaker 和 PDF 重建，交付可印刷或可发布的最终文件。",
+        "body": "我们直接在您的原始排版软件中完成本地化排版——不转换格式、不丢失样式。\n\n### 按工具\n\n- **Microsoft Word**(.docx / .doc / .rtf):样式集、模板、页眉页脚、脚注与交叉引用完整保留;表格随目标文本长短重新排布;目录与索引按语言重新生成;可按修订模式交付。\n- **Adobe InDesign**(.indd / .idml):字符、段落、表格与对象样式原样保留;解决文本串接与溢流;用 GREP 样式自动规范单位、日期与标点;目录索引重新生成,打包交付字体与链接。\n- **Adobe FrameMaker**(.fm / .book / .mif):支持结构化与非结构化文档及 DITA/XML 工作流;变量、条件文本与交叉引用逐语言更新;书册重建并重新生成目录、图表目录与索引。\n- 同时支持 PowerPoint、Excel、Publisher、QuarkXPress、Illustrator、Photoshop、Affinity Publisher、CorelDRAW、Visio,以及任意版本 PDF 的重建排版。\n\n### 按语言与文字系统\n\n- **从右到左(RTL)语言**:阿拉伯语、希伯来语、波斯语、乌尔都语——版式整体镜像(页序、分栏、图标、标注全部翻转),正确处理连字、kashida 两端对齐与标符位置,以及双向混排(RTL 段落中内嵌拉丁品牌名、数字与 URL)。\n- **中日韩(CJK)**:简/繁中文、日语、韩语——正确的字体选择与回退链、禁则处理(避头尾)、字符间距、竖排与注音(ruby/furigana)支持。\n- **南亚与东南亚文字**:印地语(天城文)、泰语、越南语、泰米尔语、孟加拉语等——组合符与声调符正确渲染,无空格语言的换行规则处理,最终在渲染页面上逐页验证。\n- **欧洲与西里尔文字**:吸收 30–40% 的文本膨胀而不破坏版式;语言正确的断字与变音符;妥善处理德语、芬兰语的长复合词。",
         "features": [
           {
-            "title": "文字溢出检查",
-            "desc": "逐页检查文本框、表格、页码和交叉引用"
+            "title": "源文件分析",
+            "desc": "开工前检查字体可用性、文本膨胀率、内嵌图形,以及 RTL 方向、CJK 间距等语言特有问题。"
           },
           {
-            "title": "字体与脚本支持",
-            "desc": "处理 CJK、RTL、泰文、天城文等复杂脚本"
+            "title": "翻译与术语",
+            "desc": "行业译员翻译并套用您的术语库与翻译记忆,与既往出版物保持一致。"
           },
           {
-            "title": "印前交付",
-            "desc": "导出 PDF/X 或客户指定格式"
+            "title": "排版制作",
+            "desc": "译文回流原生文件,解决溢流、调整字号、重排标注与含字图形。"
+          },
+          {
+            "title": "排版质检",
+            "desc": "独立质检逐页检查溢流、孤行、断字、字体替换错误与色彩配置一致性。"
+          },
+          {
+            "title": "交付与预检",
+            "desc": "打包全部链接与字体,印刷级 PDF 通过标准预检,源文件与 PDF 一并交付。"
+          },
+          {
+            "title": "透明计价",
+            "desc": "Office 文档 $2/页,复杂排版(InDesign、FrameMaker)$4/页,PDF 重建按复杂度报价,50+ 页享量价。"
           }
         ]
       },
@@ -2986,19 +2998,31 @@
         "description": "字幕、配音、屏幕文字、动画图层和最终视频合成",
         "subtitle": "让视频在目标市场看起来完整、自然",
         "cover": "/images/services/video-localization.jpg",
-        "body": "## 视频本地化是时间、画面和语言的协同\n我们处理字幕时间轴、配音、屏幕文字替换、AE 图层、本地化导出和质量检查。目标不是只给视频加字幕，而是让观看体验完整。",
+        "body": "把源工程文件发给我们——而不仅是成片视频。我们在您团队日常使用的同一套工具中原生编辑。\n\n### 制作平台\n\n- **Adobe Creative Cloud**:Premiere Pro(.prproj)时间线编辑、字幕轨与按新旁白时长重剪;After Effects(.aep)文字层本地化,完整保留关键帧与表达式;Audition(.sesx)对白处理、混音与响度标准化(EBU R128 / ATSC A/85);Photoshop / Illustrator 重建内嵌图形与标题字;Media Encoder 按交付规格批量输出。\n- **Sony**:Vegas Pro(.veg)原生时间线工程编辑——字幕、替换音频、重新卡点;Sound Forge 采样级音频编辑、修复与母带处理;与 Adobe 流程混合时可无缝互换工程。\n- **Autodesk**:Maya(.ma / .mb)与 3ds Max(.max)中的 3D 文字、场景标识与 UI 模型按目标语言重建并重新渲染;含字贴图重制并重新烘焙;渲染通道管理,本地化帧可直接进入您现有的合成流程。\n\n### 服务内容\n\n字幕与隐藏式字幕(SRT、VTT、ASS、STL、SCC 等,符合 Netflix、YouTube 等平台规范,支持烧录);屏幕文字与图形按原字体风格重建;动画与动态图形本地化,按文本长度伸缩时间轴;企业与营销视频整体打包——字幕 + AI 或真人配音 + 图形,一站式交付多语言母版。",
         "features": [
           {
-            "title": "字幕与封闭字幕",
-            "desc": "SRT、VTT 等格式，控制行长和阅读速度"
+            "title": "字幕与隐藏式字幕",
+            "desc": "母语级时间轴审校,按阅读速度精简文本,符合无障碍与各平台规范,可烧录。"
           },
           {
-            "title": "屏幕文字替换",
-            "desc": "重建标题、标注、下三分之一和图形文字"
+            "title": "屏幕文字与图形",
+            "desc": "字幕条、标题卡与标注按原设计重建,可交付新合成视频或 After Effects 工程。"
           },
           {
-            "title": "多版本交付",
-            "desc": "按平台、语言和分辨率输出最终文件"
+            "title": "动画与动态图形",
+            "desc": "保留全部关键帧动画,根据译文长度伸缩节奏,支持信息图与解说视频。"
+          },
+          {
+            "title": "AI 或真人配音",
+            "desc": "旁白替换、混音与响度匹配原声;音乐音效版权咨询;多语言母版交付。"
+          },
+          {
+            "title": "母语质检",
+            "desc": "独立母语审校完整观看成片,检查字幕时间轴、音画同步与图形质量。"
+          },
+          {
+            "title": "按时长计价",
+            "desc": "字幕 $8/分钟,字幕+图形 $25/分钟,全包(字幕+AI 配音+图形)$55/分钟,60+ 分钟享量价。"
           }
         ]
       },
@@ -3007,19 +3031,31 @@
         "description": "Articulate、Captivate、Lectora 等课程包文字、音频、视频和交互本地化",
         "subtitle": "让海外学员学得懂，也愿意继续学",
         "cover": "/images/services/elearning.jpg",
-        "body": "## 培训课程不能只翻脚本\n课件本地化涉及页面文字、旁白、动画时长、测验反馈、SCORM 追踪和 LMS 测试。我们会把学习体验作为整体处理，而不是分散翻译。",
+        "body": "我们在您的课件制作工具中原生作业——不转换、不失真。\n\n### 覆盖更多应用\n\nArticulate Storyline 与 Rise 360、Adobe Captivate、Lectora、iSpring Suite、Camtasia、Elucidat、dominKnow | ONE、Gomo、Adapt Learning、H5P、Vyond、Synthesia、Moodle 及各类 LMS,以及自定义 HTML5 / xAPI 课件。\n\n### 流程\n\n1. **内容审计**:解析 SCORM 包或源文件(.story / .cptx / XLIFF / HTML5),梳理全部可翻译文本、音频、视频与交互层,开工前交付固定字数、媒体时长与逐项清单。\n2. **翻译与脚本改编**:文本导出 XLIFF 交由行业译员翻译,套用您的术语库与翻译记忆保证跨模块一致;旁白脚本按原节奏改编,确保动画同步,随后回导制作工具。\n3. **多媒体制作**:AI 或真人配音逐页对齐动画;内嵌视频加字幕或全配音;含字图形按目标语言重建;软件模拟操作以本地化界面重新录制。\n4. **课件重建与语言质检**:修复文本溢出、按钮截断与触发器错位;独立母语质检完整走查导航、测验逻辑、分支路径、热点与音画同步。\n5. **LMS 测试与交付**:在 SCORM Cloud 及您的 LMS(Moodle、Cornerstone、SAP SuccessFactors、Workday、Docebo)中验证完成跟踪、通过阈值、断点续学与证书生成,交付发布包并附本地化源文件,便于后续自行更新。",
         "features": [
           {
-            "title": "课程包处理",
-            "desc": "支持 Storyline、Rise、Captivate、Lectora 等常见工具"
+            "title": "全元素本地化",
+            "desc": "UI、幻灯片文本、测验与反馈、分支对话、热点与拖拽标签、xAPI 语句逐层适配。"
           },
           {
-            "title": "音频与视频同步",
-            "desc": "重录或 AI 配音后重新对齐动画和字幕"
+            "title": "音频与视频",
+            "desc": "旁白以 AI 或真人声音替换,内嵌视频配字幕或全配音,画面与动画保持同步。"
           },
           {
-            "title": "LMS 测试",
-            "desc": "检查本地化包在客户平台中的显示与追踪"
+            "title": "软件模拟重录",
+            "desc": "以目标语言界面重新捕捉操作录屏与软件模拟,学员看到的就是本地化界面。"
+          },
+          {
+            "title": "无障碍保持",
+            "desc": "替代文本、Tab 顺序与 WCAG 对比度在本地化后依然合规。"
+          },
+          {
+            "title": "多文字系统",
+            "desc": "RTL(阿拉伯语、希伯来语)镜像版式与 CJK(中日韩)排版规范全覆盖。"
+          },
+          {
+            "title": "按模块计价",
+            "desc": "简单模块 $250,复杂模块(视频、分支、完整质检)$600,10+ 模块课程包享量价与更新托管。"
           }
         ]
       },
@@ -4446,19 +4482,31 @@
         "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
         "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
         "cover": "/images/services/dtp.jpg",
-        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "body": "Maquetamos directamente en su aplicación original — sin conversiones y sin pérdida de estilos.\n\n### Por herramienta\n\n- **Microsoft Word** (.docx / .doc / .rtf): estilos, plantillas, encabezados, notas al pie y referencias cruzadas intactos; tablas refluidas según la longitud del texto; índices y tablas de contenido regenerados por idioma; entrega con control de cambios si lo desea.\n- **Adobe InDesign** (.indd / .idml): estilos de carácter, párrafo, tabla y objeto preservados; resolución de texto encadenado y desbordado; estilos GREP para normalizar unidades, fechas y puntuación; empaquetado con fuentes y vínculos.\n- **Adobe FrameMaker** (.fm / .book / .mif): documentos estructurados y no estructurados, incluidos flujos DITA/XML; variables, texto condicional y referencias actualizadas por idioma; libros reconstruidos con listas generadas (TOC, LOF, LOT, índices).\n- Además: PowerPoint, Excel, Publisher, QuarkXPress, Illustrator, Photoshop, Affinity Publisher, CorelDRAW, Visio y reconstrucción de PDF de cualquier versión.\n\n### Por idioma y sistema de escritura\n\n- **Idiomas de derecha a izquierda (RTL)**: árabe, hebreo, persa y urdu — maquetas totalmente espejadas (orden de páginas, columnas, iconos y llamadas), ligaduras y kashida correctos, y texto bidireccional (marcas latinas, números y URL incrustados en párrafos RTL).\n- **CJK**: chino simplificado y tradicional, japonés y coreano — selección de fuentes con cadenas de reserva, reglas de ruptura de línea (kinsoku), espaciado de caracteres, texto vertical y anotaciones ruby/furigana.\n- **Escrituras del sur y sudeste asiático**: hindi (devanagari), tailandés, vietnamita, tamil y bengalí — signos combinantes y tonos renderizados correctamente y saltos de línea en idiomas sin espacios, verificados en las páginas finales.\n- **Europeos y cirílico**: absorción de la expansión de texto del 30–40 % sin romper el diseño; guionado y diacríticos correctos por idioma; palabras compuestas largas (alemán, finés) bien resueltas.",
         "features": [
           {
-            "title": "Tono local",
-            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+            "title": "Análisis de archivos",
+            "desc": "Revisamos fuentes, expansión de texto, gráficos incrustados y problemas específicos como RTL o espaciado CJK antes de empezar."
           },
           {
-            "title": "Entrega técnica",
-            "desc": "Archivos, web, video o paquetes listos para uso real."
+            "title": "Traducción y terminología",
+            "desc": "Lingüistas especializados con sus glosarios y memorias de traducción para mantener coherencia con publicaciones anteriores."
           },
           {
-            "title": "QA humano",
-            "desc": "Revisión de precisión, formato y experiencia final."
+            "title": "Producción DTP",
+            "desc": "El texto traducido vuelve al archivo nativo: resolvemos desbordes, ajustamos cuerpos y refluidos de llamadas y gráficos con texto."
+          },
+          {
+            "title": "Control de calidad",
+            "desc": "Un especialista independiente revisa cada página: desbordes, líneas huérfanas, guionado, sustitución de fuentes y perfiles de color."
+          },
+          {
+            "title": "Entrega y preflight",
+            "desc": "Archivos empaquetados con vínculos y fuentes; PDF listos para imprenta que superan el preflight; fuentes nativas incluidas."
+          },
+          {
+            "title": "Precios transparentes",
+            "desc": "Documentos Office $2/página, maquetas complejas (InDesign, FrameMaker) $4/página; reconstrucción de PDF según complejidad."
           }
         ]
       },
@@ -4711,19 +4759,31 @@
         "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
         "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
         "cover": "/images/services/video-localization.jpg",
-        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "body": "Envíenos los archivos de proyecto, no solo el vídeo renderizado. Editamos de forma nativa en las mismas herramientas que usa su equipo.\n\n### Plataformas de edición\n\n- **Adobe Creative Cloud**: Premiere Pro (.prproj) — edición de línea de tiempo, pistas de subtítulos y re-edición a la duración de la nueva narración; After Effects (.aep) — capas de texto localizadas con fotogramas clave y expresiones intactos; Audition (.sesx) — limpieza de diálogo, mezcla y normalización de loudness (EBU R128 / ATSC A/85); Photoshop / Illustrator — gráficos y rótulos reconstruidos por idioma; Media Encoder — exportaciones por lotes a cada especificación.\n- **Sony**: Vegas Pro (.veg) — proyectos de línea de tiempo editados nativamente: subtítulos, audio reemplazado y cortes re-sincronizados; Sound Forge — edición de audio con precisión de muestra, restauración y masterización; intercambio de proyectos con flujos Adobe cuando se combinan ambos.\n- **Autodesk**: Maya (.ma / .mb) y 3ds Max (.max) — textos 3D, señalética e interfaces reconstruidos en el idioma de destino y re-renderizados; mapas de textura con texto recreados y re-horneados; gestión de pases de render para integrar los fotogramas localizados en su composición.\n\n### Qué hacemos\n\nSubtitulado y closed captions (SRT, VTT, ASS, STL, SCC…, conforme a Netflix, YouTube y accesibilidad, con opción de incrustación); texto en pantalla y gráficos reconstruidos con su estilo; animación y motion graphics localizados adaptando los tiempos; paquete completo para vídeo corporativo y de marketing: subtítulos + doblaje IA o humano + gráficos, con masters multilingües.",
         "features": [
           {
-            "title": "Tono local",
-            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+            "title": "Subtítulos y closed captions",
+            "desc": "Sincronización revisada por nativos, condensación para velocidad de lectura y cumplimiento de plataformas; burn-in disponible."
           },
           {
-            "title": "Entrega técnica",
-            "desc": "Archivos, web, video o paquetes listos para uso real."
+            "title": "Texto y gráficos en pantalla",
+            "desc": "Rótulos, tercios inferiores y llamadas reconstruidos con sus fuentes; entrega como vídeo compuesto o archivos de After Effects."
           },
           {
-            "title": "QA humano",
-            "desc": "Revisión de precisión, formato y experiencia final."
+            "title": "Animación y motion graphics",
+            "desc": "Animaciones de fotogramas clave preservadas, tiempos ajustados a la longitud del texto; vídeos explicativos e infografías."
+          },
+          {
+            "title": "Doblaje IA o humano",
+            "desc": "Sustitución de narración, mezcla y loudness a juego con la banda sonora; asesoría de derechos musicales."
+          },
+          {
+            "title": "QA por nativos",
+            "desc": "Un revisor nativo independiente ve el vídeo completo: tiempos de subtítulos, sincronía y calidad gráfica."
+          },
+          {
+            "title": "Precio por minuto",
+            "desc": "Subtítulos $8/min, subtítulos + gráficos $25/min, paquete completo (con doblaje IA) $55/min; descuentos desde 60 min."
           }
         ]
       },
@@ -4732,19 +4792,31 @@
         "description": "Servicio profesional de MediaLocalize para equipos B2B internacionales.",
         "subtitle": "Contenido adaptado para que funcione en el mercado objetivo.",
         "cover": "/images/services/elearning.jpg",
-        "body": "## Adaptación pensada para compradores reales\nTrabajamos desde el original inglés, pero ajustamos estructura, tono, unidades, formatos y flujo de decisión para el mercado objetivo. El resultado debe sentirse escrito para el lector local, no traducido en bloque.\n\nCombinamos producción asistida por IA con revisión humana, control terminológico y entrega técnica lista para publicar.",
+        "body": "Trabajamos de forma nativa en su herramienta de autoría — sin conversiones y sin pérdida de calidad.\n\n### Más aplicaciones cubiertas\n\nArticulate Storyline y Rise 360, Adobe Captivate, Lectora, iSpring Suite, Camtasia, Elucidat, dominKnow | ONE, Gomo, Adapt Learning, H5P, Vyond, Synthesia, Moodle y otros LMS, además de cursos HTML5 / xAPI a medida.\n\n### Proceso\n\n1. **Auditoría de contenido**: analizamos el paquete SCORM o los archivos fuente (.story / .cptx / XLIFF / HTML5) para identificar todo el texto traducible, audio, vídeo y capas interactivas; recibe un recuento fijo de palabras, duración de medios y una hoja de alcance por elemento.\n2. **Traducción y adaptación de guiones**: el texto se exporta a XLIFF para lingüistas especializados, aplicando sus glosarios y memorias de traducción; los guiones de narración se adaptan al ritmo original para mantener la sincronía y se reimportan a la herramienta.\n3. **Producción multimedia**: narración con voces IA o humanas sincronizada diapositiva a diapositiva; subtítulos o doblaje completo del vídeo; gráficos con texto reconstruidos; simulaciones de software regrabadas con la interfaz localizada.\n4. **Reconstrucción y QA lingüístico**: corregimos desbordes, botones truncados y disparadores desalineados; un revisor nativo independiente recorre todo el curso: navegación, lógica de cuestionarios, ramificaciones, hotspots y sincronía de audio.\n5. **Pruebas en LMS y entrega**: el paquete SCORM/xAPI se prueba en SCORM Cloud y, si se requiere, en su LMS (Moodle, Cornerstone, SAP SuccessFactors, Workday, Docebo): seguimiento de finalización, umbrales de aprobado, reanudación y certificados. Entregamos el paquete junto con los archivos fuente localizados.",
         "features": [
           {
-            "title": "Tono local",
-            "desc": "Redacción natural para equipos B2B del mercado objetivo."
+            "title": "Cada elemento localizado",
+            "desc": "UI, textos de diapositivas, cuestionarios y retroalimentación, diálogos ramificados, hotspots, etiquetas de arrastrar y soltar y sentencias xAPI."
           },
           {
-            "title": "Entrega técnica",
-            "desc": "Archivos, web, video o paquetes listos para uso real."
+            "title": "Audio y vídeo",
+            "desc": "Narración sustituida con voces IA o humanas; vídeo con subtítulos o doblaje completo, siempre en sincronía con las animaciones."
           },
           {
-            "title": "QA humano",
-            "desc": "Revisión de precisión, formato y experiencia final."
+            "title": "Simulaciones regrabadas",
+            "desc": "Capturas y simulaciones de software repetidas con la interfaz en el idioma de destino."
+          },
+          {
+            "title": "Accesibilidad intacta",
+            "desc": "Texto alternativo, orden de tabulación y contraste WCAG se mantienen tras la localización."
+          },
+          {
+            "title": "Todos los sistemas de escritura",
+            "desc": "Maquetas espejadas RTL (árabe, hebreo) y tipografía CJK (chino, japonés, coreano)."
+          },
+          {
+            "title": "Precio por módulo",
+            "desc": "Módulo sencillo $250, módulo complejo (vídeo, ramificaciones, QA completo) $600; descuentos en currículos de 10+ módulos."
           }
         ]
       },
@@ -6171,19 +6243,31 @@
         "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
         "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
         "cover": "/images/services/dtp.jpg",
-        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "body": "Мы вёрстаем прямо в вашей исходной программе — без конвертаций и потери стилей.\n\n### По инструментам\n\n- **Microsoft Word** (.docx / .doc / .rtf): наборы стилей, шаблоны, колонтитулы, сноски и перекрёстные ссылки сохраняются; таблицы перестраиваются под длину перевода; оглавление и указатели генерируются заново; возможна сдача в режиме отслеживания изменений.\n- **Adobe InDesign** (.indd / .idml): стили символов, абзацев, таблиц и объектов остаются нетронутыми; устранение переполнения связанных фреймов; GREP-стили для автоформатирования единиц, дат и пунктуации; сборка пакета со шрифтами и линками.\n- **Adobe FrameMaker** (.fm / .book / .mif): структурированные и неструктурированные документы, включая DITA/XML; переменные, условный текст и перекрёстные ссылки обновляются для каждого языка; книги пересобираются с генерируемыми списками (TOC, LOF, LOT, индексы).\n- Также: PowerPoint, Excel, Publisher, QuarkXPress, Illustrator, Photoshop, Affinity Publisher, CorelDRAW, Visio и реконструкция PDF любой версии.\n\n### По языкам и системам письма\n\n- **Языки справа налево (RTL)**: арабский, иврит, персидский, урду — полностью зеркальная вёрстка (порядок страниц, колонки, значки и выноски), корректные лигатуры, кашида и диакритика, а также двунаправленный текст (латинские названия, цифры и URL внутри RTL-абзацев).\n- **Китайский, японский, корейский (CJK)**: упрощённый и традиционный китайский, японский, корейский — подбор шрифтов с цепочками замены, правила переноса строк (кинсоку), межзнаковые интервалы, вертикальный текст и аннотации руби/фуригана.\n- **Письменности Южной и Юго-Восточной Азии**: хинди (деванагари), тайский, вьетнамский, тамильский, бенгальский — корректный рендеринг комбинирующихся знаков и тонов, переносы в языках без пробелов, проверка на финальных отрисованных страницах.\n- **Европейские языки и кириллица**: поглощение расширения текста на 30–40 % без разрушения макета; корректные переносы и диакритика; длинные составные слова (немецкий, финский).",
         "features": [
           {
-            "title": "Локальный тон",
-            "desc": "Естественная деловая подача для B2B-аудитории."
+            "title": "Анализ исходников",
+            "desc": "Проверяем шрифты, коэффициент расширения текста, встроенную графику и языковые особенности (RTL, интервалы CJK) до начала работ."
           },
           {
-            "title": "Готовые материалы",
-            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+            "title": "Перевод и терминология",
+            "desc": "Профильные лингвисты работают с вашими глоссариями и памятью переводов — единообразие с прошлыми изданиями."
           },
           {
-            "title": "Проверка людьми",
-            "desc": "Контроль точности, формата и итогового опыта."
+            "title": "Вёрстка",
+            "desc": "Перевод возвращается в нативный файл: устраняем переполнение, корректируем кегль, перестраиваем выноски и графику с текстом."
+          },
+          {
+            "title": "Контроль качества",
+            "desc": "Отдельный специалист проверяет каждую страницу: переполнение, висячие строки, переносы, подмену шрифтов и цветовые профили."
+          },
+          {
+            "title": "Сдача и препресс",
+            "desc": "Пакет со всеми линками и шрифтами; печатные PDF проходят preflight; исходники передаём вместе с PDF."
+          },
+          {
+            "title": "Прозрачные цены",
+            "desc": "Документы Office — $2/страница, сложная вёрстка (InDesign, FrameMaker) — $4/страница, реконструкция PDF — по сложности."
           }
         ]
       },
@@ -6436,19 +6520,31 @@
         "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
         "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
         "cover": "/images/services/video-localization.jpg",
-        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "body": "Присылайте исходные проекты, а не только готовое видео. Мы редактируем нативно в тех же инструментах, что и ваша команда.\n\n### Платформы монтажа\n\n- **Adobe Creative Cloud**: Premiere Pro (.prproj) — монтаж таймлайна, дорожки субтитров и пересборка под длину новой озвучки; After Effects (.aep) — локализация текстовых слоёв с сохранением ключевых кадров и выражений; Audition (.sesx) — чистка диалогов, сведение и нормализация громкости (EBU R128 / ATSC A/85); Photoshop / Illustrator — пересборка графики и титров; Media Encoder — пакетный экспорт под любые спецификации.\n- **Sony**: Vegas Pro (.veg) — нативное редактирование проектов: субтитры, замена аудио, пересинхронизация склеек; Sound Forge — покадровое редактирование звука, реставрация и мастеринг; обмен проектами с Adobe-конвейером при смешанных процессах.\n- **Autodesk**: Maya (.ma / .mb) и 3ds Max (.max) — 3D-текст, вывески и элементы интерфейса перестраиваются на целевом языке и рендерятся заново; текстуры с текстом пересоздаются и запекаются; управление рендер-пассами для встраивания локализованных кадров в ваш композитинг.\n\n### Что мы делаем\n\nСубтитры и скрытые субтитры (SRT, VTT, ASS, STL, SCC и др., по требованиям Netflix, YouTube и стандартов доступности, с возможностью «вжигания»); пересборка экранного текста и графики в исходном стиле; локализация анимации и моушн-графики с подгонкой таймингов; полный пакет для корпоративного и маркетингового видео: субтитры + ИИ- или живая озвучка + графика, с мультиязычными мастер-файлами.",
         "features": [
           {
-            "title": "Локальный тон",
-            "desc": "Естественная деловая подача для B2B-аудитории."
+            "title": "Субтитры и closed captions",
+            "desc": "Тайминг с проверкой носителем, сокращение под скорость чтения, соответствие требованиям платформ; вжигание субтитров."
           },
           {
-            "title": "Готовые материалы",
-            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+            "title": "Экранный текст и графика",
+            "desc": "Титры, плашки и выноски пересобираются с исходными шрифтами; сдача готовым видео или проектами After Effects."
           },
           {
-            "title": "Проверка людьми",
-            "desc": "Контроль точности, формата и итогового опыта."
+            "title": "Анимация и моушн-графика",
+            "desc": "Ключевые кадры сохраняются, тайминги растягиваются или сжимаются под длину перевода; explainer-видео и инфографика."
+          },
+          {
+            "title": "Озвучка — ИИ или люди",
+            "desc": "Замена закадрового голоса, сведение и громкость вровень с оригиналом; консультации по правам на музыку."
+          },
+          {
+            "title": "QA носителем",
+            "desc": "Независимый ревьюер-носитель смотрит весь ролик: тайминг субтитров, синхронизация звука и качество графики."
+          },
+          {
+            "title": "Цена за минуту",
+            "desc": "Субтитры — $8/мин, субтитры + графика — $25/мин, полный пакет с ИИ-озвучкой — $55/мин; скидки от 60 минут."
           }
         ]
       },
@@ -6457,19 +6553,31 @@
         "description": "Профессиональная услуга MediaLocalize для международных B2B-команд.",
         "subtitle": "Контент, адаптированный под ожидания конкретного рынка.",
         "cover": "/images/services/elearning.jpg",
-        "body": "## Адаптация под реальных покупателей\nМы берем английский оригинал как источник, но меняем структуру, тон, единицы, формат и логику подачи под рынок. Материал должен читаться как локальный, а не как дословный перевод.\n\nAI ускоряет производство, а человеческая экспертиза отвечает за терминологию, качество и готовность к публикации.",
+        "body": "Мы работаем нативно в вашем инструменте разработки курсов — без конвертаций и потери качества.\n\n### Больше поддерживаемых приложений\n\nArticulate Storyline и Rise 360, Adobe Captivate, Lectora, iSpring Suite, Camtasia, Elucidat, dominKnow | ONE, Gomo, Adapt Learning, H5P, Vyond, Synthesia, Moodle и другие LMS, а также самописные курсы HTML5 / xAPI.\n\n### Процесс\n\n1. **Аудит контента**: анализируем SCORM-пакет или исходники (.story / .cptx / XLIFF / HTML5), выявляем весь переводимый текст, аудио, видео и интерактивные слои; до начала работ вы получаете фиксированный объём слов, хронометраж медиа и поэлементную спецификацию.\n2. **Перевод и адаптация сценариев**: текст экспортируется в XLIFF для профильных лингвистов с применением ваших глоссариев и памяти переводов; закадровые сценарии адаптируются под исходный темп, чтобы сохранить синхронизацию анимаций, и импортируются обратно.\n3. **Мультимедийное производство**: озвучка ИИ- или живыми голосами с послайдовой синхронизацией; субтитры или полный дубляж видео; пересборка графики с текстом; пересъёмка программных симуляций в локализованном интерфейсе.\n4. **Сборка курса и лингвистический QA**: исправляем переполнение текста, обрезанные кнопки и сбитые триггеры; независимый ревьюер-носитель проходит весь курс: навигация, логика тестов, ветвления, хот-споты и синхронизация звука.\n5. **Тестирование в LMS и сдача**: пакет SCORM/xAPI проверяется в SCORM Cloud и при необходимости в вашей LMS (Moodle, Cornerstone, SAP SuccessFactors, Workday, Docebo): отслеживание прохождения, пороги зачёта, возобновление и сертификаты. Передаём пакет вместе с локализованными исходниками для будущих обновлений.",
         "features": [
           {
-            "title": "Локальный тон",
-            "desc": "Естественная деловая подача для B2B-аудитории."
+            "title": "Локализация всех элементов",
+            "desc": "Интерфейс, тексты слайдов, тесты и обратная связь, диалоги ветвлений, хот-споты, метки drag-and-drop и xAPI-выражения."
           },
           {
-            "title": "Готовые материалы",
-            "desc": "Сайт, файлы, видео или пакеты готовы к использованию."
+            "title": "Аудио и видео",
+            "desc": "Замена закадрового голоса (ИИ или дикторы), субтитры или полный дубляж видео — с сохранением синхронизации анимаций."
           },
           {
-            "title": "Проверка людьми",
-            "desc": "Контроль точности, формата и итогового опыта."
+            "title": "Пересъёмка симуляций",
+            "desc": "Записи экрана и программные симуляции снимаются заново в локализованном интерфейсе."
+          },
+          {
+            "title": "Доступность сохраняется",
+            "desc": "Alt-тексты, порядок табуляции и контраст WCAG остаются в силе после локализации."
+          },
+          {
+            "title": "Любые системы письма",
+            "desc": "Зеркальная вёрстка RTL (арабский, иврит) и типографика CJK (китайский, японский, корейский)."
+          },
+          {
+            "title": "Цена за модуль",
+            "desc": "Простой модуль — $250, сложный (видео, ветвления, полный QA) — $600; скидки для курсов от 10 модулей и абонентское сопровождение."
           }
         ]
       },
@@ -7896,19 +8004,31 @@
         "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
         "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
         "cover": "/images/services/dtp.jpg",
-        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "body": "نعمل مباشرة داخل برنامج النشر المكتبي الأصلي — دون تحويل صيغ ودون فقدان الأنماط.\n\n### حسب الأداة\n\n- **Microsoft Word** (‏.docx / .doc / .rtf): مجموعات الأنماط والقوالب والرؤوس والتذييلات والحواشي والمراجع المتقاطعة تُحفظ كما هي؛ الجداول تُعاد تهيئتها حسب طول النص؛ الفهارس تُولَّد من جديد لكل لغة؛ وإمكانية التسليم مع تتبع التغييرات.\n- **Adobe InDesign** (‏.indd / .idml): أنماط الأحرف والفقرات والجداول والكائنات تبقى سليمة؛ معالجة النص المتسلسل والفائض؛ أنماط GREP لتنسيق الوحدات والتواريخ وعلامات الترقيم تلقائيًا؛ تسليم حزمة كاملة بالخطوط والروابط.\n- **Adobe FrameMaker** (‏.fm / .book / .mif): مستندات منظمة وغير منظمة بما فيها مسارات DITA/XML؛ تحديث المتغيرات والنص الشرطي والمراجع لكل لغة؛ إعادة بناء ملفات الكتب مع القوائم المولدة (المحتويات وقوائم الأشكال والجداول والفهارس).\n- كذلك: PowerPoint وExcel وPublisher وQuarkXPress وIllustrator وPhotoshop وAffinity Publisher وCorelDRAW وVisio، وإعادة بناء ملفات PDF بأي إصدار.\n\n### حسب اللغة ونظام الكتابة\n\n- **اللغات من اليمين إلى اليسار (RTL)**: العربية والعبرية والفارسية والأردية — تخطيطات معكوسة بالكامل (ترتيب الصفحات والأعمدة والأيقونات والتسميات)، تشكيل صحيح للحروف المتصلة والكشيدة والتشكيل، ومعالجة النص ثنائي الاتجاه (أسماء لاتينية وأرقام وروابط داخل فقرات RTL).\n- **الصينية واليابانية والكورية (CJK)**: الصينية المبسطة والتقليدية واليابانية والكورية — اختيار خطوط سليم مع سلاسل بديلة، وقواعد كسر الأسطر (kinsoku)، وتباعد الأحرف، والنص العمودي، وحواشي ruby/furigana.\n- **أنظمة كتابة جنوب وجنوب شرق آسيا**: الهندية (ديفانغاري) والتايلاندية والفيتنامية والتاميلية والبنغالية — عرض صحيح للعلامات المركبة وعلامات النبرة، وكسر الأسطر في اللغات بلا مسافات، مع تحقق على الصفحات النهائية المعروضة.\n- **اللغات الأوروبية والسيريلية**: استيعاب تمدد النص بنسبة 30–40٪ دون الإخلال بالتصميم؛ وواصلات وعلامات تمييز صحيحة لكل لغة؛ ومعالجة الكلمات المركبة الطويلة (الألمانية والفنلندية).",
         "features": [
           {
-            "title": "نبرة محلية",
-            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+            "title": "تحليل الملفات المصدرية",
+            "desc": "نفحص توفر الخطوط ونسبة تمدد النص والرسومات المضمنة وقضايا اللغة مثل اتجاه RTL وتباعد CJK قبل بدء العمل."
           },
           {
-            "title": "تسليم جاهز",
-            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+            "title": "الترجمة والمصطلحات",
+            "desc": "لغويون متخصصون يعملون بمساردكم وذاكرة الترجمة لضمان الاتساق مع المنشورات السابقة."
           },
           {
-            "title": "مراجعة بشرية",
-            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+            "title": "إنتاج النشر المكتبي",
+            "desc": "يُعاد النص المترجم إلى الملف الأصلي مع معالجة الفائض وضبط أحجام الخطوط وإعادة ترتيب التسميات والرسومات النصية."
+          },
+          {
+            "title": "مراجعة الجودة",
+            "desc": "مختص مستقل يفحص كل صفحة: الفائض والأسطر اليتيمة والواصلات واستبدال الخطوط واتساق ملفات الألوان."
+          },
+          {
+            "title": "التسليم والفحص الطباعي",
+            "desc": "حزمة بجميع الروابط والخطوط، وملفات PDF جاهزة للطباعة تجتاز فحص preflight، مع تسليم الملفات المصدرية."
+          },
+          {
+            "title": "أسعار شفافة",
+            "desc": "مستندات Office بسعر $2 للصفحة، والتخطيطات المعقدة (InDesign وFrameMaker) بسعر $4 للصفحة، وإعادة بناء PDF حسب التعقيد."
           }
         ]
       },
@@ -8161,19 +8281,31 @@
         "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
         "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
         "cover": "/images/services/video-localization.jpg",
-        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "body": "أرسلوا لنا ملفات المشروع المصدرية، لا الفيديو المُصدَّر فقط. نحرر بشكل أصلي في الأدوات نفسها التي يستخدمها فريقكم.\n\n### منصات المونتاج\n\n- **Adobe Creative Cloud**: برنامج Premiere Pro (‏.prproj) — تحرير الخط الزمني ومسارات الترجمة وإعادة المونتاج على طول التعليق الجديد؛ After Effects (‏.aep) — توطين طبقات النص مع الحفاظ على الإطارات المفتاحية والتعبيرات؛ Audition (‏.sesx) — تنقية الحوار والمزج وتوحيد مستوى الصوت (EBU R128 / ATSC A/85)؛ Photoshop / Illustrator — إعادة بناء الرسومات والعناوين لكل لغة؛ Media Encoder — تصدير دفعي بجميع المواصفات.\n- **Sony**: برنامج Vegas Pro (‏.veg) — تحرير أصلي لمشاريع الخط الزمني: الترجمة والصوت البديل وإعادة ضبط القطع؛ Sound Forge — تحرير صوتي بدقة العينة واستعادة وماسترينغ؛ وتبادل المشاريع مع مسارات Adobe عند دمج المنصتين.\n- **Autodesk**: برنامجا Maya (‏.ma / .mb) و3ds Max (‏.max) — إعادة بناء النصوص ثلاثية الأبعاد واللافتات وواجهات العرض باللغة الهدف وإعادة تصييرها؛ إعادة إنشاء خرائط النسيج النصية وخبزها؛ وإدارة ممرات التصيير لإدراج اللقطات الموطَّنة في التركيب الحالي.\n\n### ماذا نقدم\n\nالترجمة المصاحبة والتسميات المغلقة (SRT وVTT وASS وSTL وSCC… وفق متطلبات Netflix وYouTube ومعايير الوصول، مع خيار الحرق على الفيديو)؛ إعادة بناء النصوص والرسومات على الشاشة بنفس الطابع؛ توطين الرسوم المتحركة والموشن جرافيك مع ضبط التوقيت؛ وحزمة متكاملة لفيديو الشركات والتسويق: ترجمة + دبلجة بالذكاء الاصطناعي أو بأصوات بشرية + رسومات، مع ملفات رئيسية متعددة اللغات.",
         "features": [
           {
-            "title": "نبرة محلية",
-            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+            "title": "الترجمة والتسميات المغلقة",
+            "desc": "ضبط توقيت بمراجعة متحدث أصلي، وتكثيف النص لسرعة القراءة، والتوافق مع المنصات؛ مع إمكانية الحرق."
           },
           {
-            "title": "تسليم جاهز",
-            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+            "title": "النصوص والرسومات على الشاشة",
+            "desc": "إعادة بناء العناوين والأشرطة السفلية والتسميات بخطوطكم؛ التسليم كفيديو مركب أو ملفات After Effects."
           },
           {
-            "title": "مراجعة بشرية",
-            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+            "title": "الرسوم المتحركة والموشن جرافيك",
+            "desc": "حفظ الإطارات المفتاحية مع تمديد أو ضغط التوقيت حسب طول النص؛ فيديوهات شرح وإنفوجرافيك."
+          },
+          {
+            "title": "دبلجة بالذكاء الاصطناعي أو بشرية",
+            "desc": "استبدال التعليق الصوتي ومزجه بمستوى الموسيقى الأصلية؛ استشارات حقوق الموسيقى والمؤثرات."
+          },
+          {
+            "title": "مراجعة بمتحدث أصلي",
+            "desc": "مراجع مستقل يشاهد الفيديو كاملًا: توقيت الترجمة ومزامنة الصوت وجودة الرسومات."
+          },
+          {
+            "title": "التسعير بالدقيقة",
+            "desc": "الترجمة $8 للدقيقة، والترجمة مع الرسومات $25، والحزمة الكاملة مع الدبلجة الذكية $55؛ خصومات من 60 دقيقة."
           }
         ]
       },
@@ -8182,19 +8314,31 @@
         "description": "خدمة احترافية من MediaLocalize لفرق B2B الدولية.",
         "subtitle": "محتوى مكيف ليتعامل معه السوق المستهدف بثقة.",
         "cover": "/images/services/elearning.jpg",
-        "body": "## تكييف موجه للمشتري الحقيقي\nننطلق من الأصل الإنجليزي، لكننا نعدل البنية والنبرة والوحدات وطريقة العرض حسب السوق. يجب أن يشعر القارئ أن المحتوى كتب له، لا أنه نقل حرفيا.\n\nنستخدم AI لتسريع الإنتاج مع مراجعة بشرية للمصطلحات والجودة والجاهزية للنشر.",
+        "body": "نعمل مباشرة داخل أداة التأليف الخاصة بكم — دون تحويل ودون فقدان للجودة.\n\n### تغطية أوسع للتطبيقات\n\nArticulate Storyline وRise 360 وAdobe Captivate وLectora وiSpring Suite وCamtasia وElucidat وdominKnow | ONE وGomo وAdapt Learning وH5P وVyond وSynthesia وMoodle وغيرها من أنظمة LMS، إضافة إلى الدورات المخصصة بصيغة HTML5 / xAPI.\n\n### العملية\n\n1. **تدقيق المحتوى**: نحلل حزمة SCORM أو الملفات المصدرية (‏.story / .cptx / XLIFF / HTML5) لتحديد كل النصوص القابلة للترجمة والمقاطع الصوتية والفيديو والطبقات التفاعلية؛ وتتسلمون قبل البدء عدد كلمات ثابتًا ومدة الوسائط وقائمة نطاق مفصلة.\n2. **الترجمة وتكييف النصوص**: تُصدَّر النصوص إلى XLIFF ليترجمها لغويون متخصصون مع تطبيق مساردكم وذاكرة الترجمة؛ وتُكيَّف نصوص التعليق الصوتي على الإيقاع الأصلي للحفاظ على تزامن الرسوم ثم تُعاد إلى الأداة.\n3. **إنتاج الوسائط**: تعليق صوتي بأصوات ذكية أو بشرية متزامن شريحة بشريحة؛ ترجمة مصاحبة أو دبلجة كاملة للفيديو؛ إعادة بناء الرسومات النصية؛ وإعادة تسجيل محاكاة البرامج بالواجهة الموطَّنة.\n4. **إعادة بناء الدورة ومراجعة لغوية**: نصلح تجاوز النص والأزرار المقتطعة والمشغلات المزاحة؛ ثم يراجع متحدث أصلي مستقل الدورة كاملة: التنقل ومنطق الاختبارات والمسارات المتفرعة والنقاط الساخنة وتزامن الصوت.\n5. **اختبار LMS والتسليم**: تُختبر حزمة SCORM/xAPI في SCORM Cloud وعند الحاجة في نظامكم (Moodle وCornerstone وSAP SuccessFactors وWorkday وDocebo): تتبع الإكمال وحدود النجاح واستئناف التقدم وإصدار الشهادات. نسلم الحزمة مع الملفات المصدرية الموطَّنة لتحديثاتكم المستقبلية.",
         "features": [
           {
-            "title": "نبرة محلية",
-            "desc": "صياغة طبيعية لجمهور B2B في السوق المستهدف."
+            "title": "توطين كل عنصر",
+            "desc": "الواجهة ونصوص الشرائح والاختبارات والملاحظات وحوارات التفرع والنقاط الساخنة وتسميات السحب والإفلات وعبارات xAPI."
           },
           {
-            "title": "تسليم جاهز",
-            "desc": "موقع أو ملفات أو فيديو أو حزمة تدريب جاهزة للاستخدام."
+            "title": "الصوت والفيديو",
+            "desc": "استبدال التعليق الصوتي بأصوات ذكية أو بشرية، وترجمة أو دبلجة كاملة للفيديو مع الحفاظ على تزامن الرسوم."
           },
           {
-            "title": "مراجعة بشرية",
-            "desc": "فحص الدقة والتنسيق وتجربة المستخدم النهائية."
+            "title": "إعادة تسجيل المحاكاة",
+            "desc": "تُعاد لقطات الشاشة ومحاكاة البرامج بالواجهة الموطَّنة ليرى المتعلم ما سيراه فعلًا."
+          },
+          {
+            "title": "الحفاظ على الوصول",
+            "desc": "النص البديل وترتيب التبويب وتباين WCAG تبقى كما هي بعد التوطين."
+          },
+          {
+            "title": "جميع أنظمة الكتابة",
+            "desc": "تخطيطات معكوسة للغات RTL (العربية والعبرية) وقواعد تنضيد CJK (الصينية واليابانية والكورية)."
+          },
+          {
+            "title": "التسعير بالوحدة",
+            "desc": "الوحدة البسيطة $250 والمعقدة (فيديو وتفرعات ومراجعة كاملة) $600؛ وخصومات للمناهج من 10 وحدات فأكثر مع عقود تحديث مستمرة."
           }
         ]
       },
