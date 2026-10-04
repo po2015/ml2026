@@ -2,8 +2,8 @@
 title: "外贸网站 SEO 关键词怎么做 制造业英文站的选词方法"
 date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
-category: "marketing"
-category_label: "营销增长"
+category: "tech"
+category_label: "技术洞察"
 tags: ["外贸 SEO", "关键词研究", "英文网站", "Google 优化"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"

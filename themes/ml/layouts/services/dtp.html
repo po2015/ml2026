@@ -2,6 +2,7 @@
 {{ if ne .Site.Language.Lang "en" }}
   {{ partial "localized/service-detail.html" . }}
 {{ else }}
+{{- $copy := partial "i18n/site.html" . -}}
 
 <!-- Hero -->
 <section class="service-img-hero" style="--hero-img:url('/images/services/dtp.jpg');">
@@ -234,6 +235,8 @@
     </div>
   </div>
 </section>
+
+{{ with (index $copy.pages "services/localization/dtp").faq }}{{ partial "faq.html" (dict "items" . "title" $copy.service_detail.faq_title "bg" "section-white") }}{{ end }}
 
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">

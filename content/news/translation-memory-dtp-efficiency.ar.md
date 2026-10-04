@@ -2,7 +2,7 @@
 title: "كيف تختصر ذاكرة الترجمة زمن الإخراج المكتبي"
 date: 2026-03-20
 category: "tech"
-category_label: "تقنية"
+category_label: "التقنية"
 tags: ["ذاكرة الترجمة", "DTP", "سير العمل", "أدوات التوطين", "الكفاءة"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

@@ -2,8 +2,8 @@
 title: "SEO для B2B-экспорта: как подбирать ключевые слова производителю"
 date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
-category: "marketing"
-category_label: "Маркетинг"
+category: "tech"
+category_label: "Технологии"
 tags: ["SEO для B2B", "ключевые слова", "экспорт", "производство"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"

@@ -2,7 +2,7 @@
 title: "كيف تبني كتالوج منتجات يجلب طلبات OEM"
 date: 2021-04-13
 category: "industry"
-category_label: "السوق"
+category_label: "القطاع"
 tags: ["إنشاء المواقع", "OEM", "كتالوج المنتجات", "موقع B2B", "التصدير"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."

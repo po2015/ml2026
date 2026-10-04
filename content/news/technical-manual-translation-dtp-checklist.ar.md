@@ -2,8 +2,8 @@
 title: "ترجمة الأدلة الفنية وDTP: قائمة تجهيز الملفات قبل البدء"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
-category: "localization"
-category_label: "التوطين"
+category: "tech"
+category_label: "التقنية"
 tags: ["ترجمة فنية", "DTP", "أدلة متعددة اللغات", "تجهيز الملفات"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

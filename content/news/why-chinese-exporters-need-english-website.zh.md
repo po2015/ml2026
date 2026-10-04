@@ -2,7 +2,7 @@
 title: "没有英文官网，中国出口企业每天在失去什么"
 date: 2026-04-05
 category: "industry"
-category_label: "行业观察"
+category_label: "行业洞察"
 tags: ["出口", "B2B", "网站", "中国制造企业", "国际营销"]
 cover: "/images/news/chinese-export.jpg"
 author: "MediaLocalize Team"

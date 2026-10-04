@@ -2,8 +2,8 @@
 title: "B2B Export SEO Keyword Research for Manufacturers"
 date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
-category: "marketing"
-category_label: "Marketing"
+category: "tech"
+category_label: "Tech Insights"
 tags: ["export SEO", "keyword research", "B2B manufacturing", "Google search"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"

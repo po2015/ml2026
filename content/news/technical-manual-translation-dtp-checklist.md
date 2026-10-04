@@ -2,8 +2,8 @@
 title: "Technical Manual Translation and DTP: A File Preparation Checklist"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
-category: "localization"
-category_label: "Localization"
+category: "tech"
+category_label: "Tech Insights"
 tags: ["technical manual translation", "DTP", "multilingual documentation", "file preparation"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

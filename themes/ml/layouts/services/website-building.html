@@ -91,6 +91,8 @@
   </div>
 </section>
 
+{{ with $page.faq }}{{ partial "faq.html" (dict "items" . "title" $copy.service_detail.faq_title "bg" "section-light") }}{{ end }}
+
 <!-- ===== LOCALIZATION CROSS-LINK ===== -->
 <section class="section-white section-pad-sm">
   <div class="container text-center reveal">

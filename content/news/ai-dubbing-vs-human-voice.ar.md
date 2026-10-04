@@ -2,7 +2,7 @@
 title: "دبلجة AI أم أصوات بشرية: متى تختار كل خيار"
 date: 2026-04-18
 category: "tech"
-category_label: "تقنية"
+category_label: "التقنية"
 tags: ["الدبلجة بالذكاء الاصطناعي", "الأداء الصوتي", "الدبلجة", "التوطين", "إنتاج الصوت"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"

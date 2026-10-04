@@ -2,8 +2,8 @@
 title: "技术手册翻译与 DTP 排版流程 少返工的文件准备清单"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
-category: "localization"
-category_label: "本地化"
+category: "tech"
+category_label: "技术洞察"
 tags: ["技术手册翻译", "DTP 排版", "多语言说明书", "文件准备"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

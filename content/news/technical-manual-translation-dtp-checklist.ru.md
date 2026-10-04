@@ -2,8 +2,8 @@
 title: "Перевод технических руководств и DTP: чек-лист подготовки файлов"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
-category: "localization"
-category_label: "Локализация"
+category: "tech"
+category_label: "Технологии"
 tags: ["технический перевод", "DTP", "многоязычные руководства", "подготовка файлов"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

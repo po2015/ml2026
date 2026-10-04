@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $ind := $copy.industries -}}
+
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">{{ $ind.label }}</p>
+    <h1 class="page-hero-title">{{ .Title }}</h1>
+    <p class="page-hero-subtitle">{{ .Params.description }}</p>
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="glossary-grid">
+      {{ range .Pages.ByTitle }}
+      <a href="{{ .RelPermalink }}" class="glossary-card reveal">
+        <h2 class="glossary-term">{{ .Title }}</h2>
+        <p class="glossary-def">{{ .Params.description }}</p>
+        <span class="glossary-more">
+          {{ $ind.explore }}
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">{{ $copy.service_detail.cta_title }}</h2>
+    <p class="subheadline">{{ $copy.service_detail.cta_body }}</p>
+    <div class="hero-actions">
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.get_quote }}</a>
+      <a href="{{ "/services/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.explore_services }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

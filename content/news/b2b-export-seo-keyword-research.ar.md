@@ -2,8 +2,8 @@
 title: "بحث الكلمات المفتاحية لمواقع التصدير B2B للمصنعين"
 date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
-category: "marketing"
-category_label: "التسويق"
+category: "tech"
+category_label: "التقنية"
 tags: ["SEO للتصدير", "كلمات مفتاحية", "B2B", "مصنعون"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"

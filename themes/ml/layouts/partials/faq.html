@@ -1,0 +1,28 @@
+{{- /* Renders a FAQ accordion + FAQPage JSON-LD. Call with: dict "items" (slice of {q,a}) "title" string "bg" "section-white"|"section-light" */ -}}
+{{- $items := .items -}}
+{{- $title := .title | default "FAQ" -}}
+{{- $bg := .bg | default "section-light" -}}
+{{- with $items -}}
+<section class="{{ $bg }} section-pad faq-section">
+  <div class="container">
+    <div class="section-intro reveal">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-headline">{{ $title }}</h2>
+    </div>
+    <div class="faq-list reveal">
+      {{ range . }}
+      <details class="faq-item">
+        <summary class="faq-q">{{ .q }}</summary>
+        <div class="faq-a"><p>{{ .a | markdownify }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{- $ld := slice -}}
+{{- range $items -}}
+{{- $plain := .a | replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" -}}
+{{- $ld = $ld | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" $plain)) -}}
+{{- end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $ld | jsonify | safeJS }}</script>
+{{- end -}}

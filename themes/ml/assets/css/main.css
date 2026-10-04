@@ -2221,6 +2221,159 @@ html[lang="zh-CN"] .service-card-body {
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
+/* ---------- FAQ ---------- */
+.faq-list {
+  max-width: 760px;
+  margin: 40px auto 0;
+}
+.faq-item {
+  border-bottom: 1px solid var(--color-gray-border);
+  background: transparent;
+}
+.faq-item:first-child {
+  border-top: 1px solid var(--color-gray-border);
+}
+.faq-q {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding: 20px 40px 20px 4px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-near-black);
+}
+.faq-q::-webkit-details-marker { display: none; }
+.faq-q::after {
+  content: "+";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-blue);
+  transition: transform 0.2s ease;
+}
+[dir="rtl"] .faq-q { padding: 20px 4px 20px 40px; }
+[dir="rtl"] .faq-q::after { right: auto; left: 8px; }
+.faq-item[open] .faq-q::after { transform: translateY(-50%) rotate(45deg); }
+.faq-a { padding: 0 4px 22px; }
+.faq-a p, .faq-a p p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-gray-mid);
+  margin: 0;
+}
+
+/* ---------- Glossary ---------- */
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+.glossary-card {
+  display: block;
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.glossary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+}
+.glossary-term {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-near-black);
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+.glossary-def {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-gray-mid);
+  margin: 0 0 16px;
+}
+.glossary-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-link-light);
+}
+[dir="rtl"] .glossary-more svg { transform: scaleX(-1); }
+.glossary-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-link-light);
+  text-decoration: none;
+}
+[dir="rtl"] .glossary-back svg { transform: scaleX(-1); }
+.glossary-single {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.glossary-related {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-gray-border);
+}
+.glossary-related-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gray-mid);
+  margin: 0 0 14px;
+}
+.glossary-related-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ---------- Industries ---------- */
+.industry-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.industry-service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--color-gray-light);
+  border-radius: 14px;
+  padding: 22px 24px;
+  text-decoration: none;
+  color: var(--color-near-black);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.industry-service:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+.industry-service-name {
+  font-size: 17px;
+  font-weight: 600;
+}
+.industry-service svg {
+  color: var(--color-link-light);
+  flex-shrink: 0;
+}
+[dir="rtl"] .industry-service svg {
+  transform: scaleX(-1);
+}
+
 /* ---------- Misc ---------- */
 .divider {
   border: none;

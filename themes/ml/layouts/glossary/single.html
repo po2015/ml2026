@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $g := $copy.glossary -}}
+
+<section class="article-hero">
+  <div class="container article-hero-inner reveal">
+    <div class="article-hero-meta">
+      <a href="{{ "/glossary/" | relLangURL }}" class="glossary-back">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polyline points="15 18 9 12 15 6"/></svg>
+        {{ $g.back }}
+      </a>
+    </div>
+    <h1 class="article-hero-title">{{ .Title }}</h1>
+    {{ with .Params.definition }}<p class="article-hero-summary">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<div class="article-outer">
+  <div class="glossary-single reveal">
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+    {{ with .Params.related }}
+    <div class="glossary-related">
+      <p class="glossary-related-title">{{ $g.related }}</p>
+      <div class="glossary-related-list">
+        {{ range . }}
+        <a href="{{ index . 1 | relLangURL }}" class="article-tag">{{ index . 0 }}</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<section class="section-dark section-pad-sm cta-banner">
+  <div class="container reveal">
+    <h2 class="section-headline color-white mb-16">{{ $copy.service_detail.cta_title }}</h2>
+    <p class="subheadline">{{ $copy.service_detail.cta_body }}</p>
+    <div class="hero-actions">
+      <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.get_quote }}</a>
+      <a href="{{ "/services/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.explore_services }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -2,6 +2,7 @@
 {{ if ne .Site.Language.Lang "en" }}
   {{ partial "localized/service-detail.html" . }}
 {{ else }}
+{{- $copy := partial "i18n/site.html" . -}}
 
 <!-- Hero -->
 <section class="service-img-hero" style="--hero-img:url('/images/services/video-localization.jpg');">
@@ -242,6 +243,8 @@
     <p style="text-align:center;font-size:13px;color:var(--color-gray-mid);margin-top:16px;">Rates are per finished minute of video. Volume discounts for 60+ minutes. Transcription service available at $1.50/min.</p>
   </div>
 </section>
+
+{{ with (index $copy.pages "services/localization/video").faq }}{{ partial "faq.html" (dict "items" . "title" $copy.service_detail.faq_title "bg" "section-light") }}{{ end }}
 
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">

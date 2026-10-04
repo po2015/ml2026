@@ -97,6 +97,8 @@
   </div>
 </section>
 
+{{ with $page.faq }}{{ partial "faq.html" (dict "items" . "title" $copy.service_detail.faq_title "bg" "section-light") }}{{ end }}
+
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">
   <div class="container reveal">

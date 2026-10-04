@@ -2,6 +2,7 @@
 {{ if ne .Site.Language.Lang "en" }}
   {{ partial "localized/service-detail.html" . }}
 {{ else }}
+{{- $copy := partial "i18n/site.html" . -}}
 
 <!-- Hero -->
 <section class="service-img-hero" style="--hero-img:url('/images/services/elearning.jpg');">
@@ -251,6 +252,8 @@
     <p style="text-align:center;font-size:13px;color:var(--color-gray-mid);margin-top:16px;">Volume pricing available for curricula of 10+ modules. Ongoing update retainers available.</p>
   </div>
 </section>
+
+{{ with (index $copy.pages "services/localization/elearning").faq }}{{ partial "faq.html" (dict "items" . "title" $copy.service_detail.faq_title "bg" "section-white") }}{{ end }}
 
 <!-- CTA -->
 <section class="section-dark section-pad-sm cta-banner">

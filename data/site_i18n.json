@@ -126,15 +126,15 @@
       "industries": [
         [
           "Manufacturing & Industrial",
-          "/services/website-building/"
+          "/industries/manufacturing/"
         ],
         [
           "Medical Device & Pharma",
-          "/services/localization/"
+          "/industries/medical-devices/"
         ],
         [
           "E-Learning & Corporate Training",
-          "/services/localization/elearning/"
+          "/industries/corporate-training/"
         ],
         [
           "Marketing & Advertising",
@@ -169,7 +169,8 @@
       ],
       "copyright": "MediaLocalize — Multilingual Localization & Global Website Experts. All rights reserved.",
       "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "terms": "Terms of Service",
+      "glossary": "Glossary"
     },
     "home": {
       "hero": {
@@ -737,7 +738,8 @@
       "section_label": "Service",
       "included": "What's included",
       "cta_title": "Interested in this service?",
-      "cta_body": "Get a custom quote tailored to your needs."
+      "cta_body": "Get a custom quote tailored to your needs.",
+      "faq_title": "Frequently Asked Questions"
     },
     "pages": {
       "home": {
@@ -1110,7 +1112,29 @@
           "loc_title": "Need more than English?",
           "loc_body": "Our localization team translates your site, documents, videos, and e-learning into 50+ languages — same partner, same project team.",
           "loc_cta": "Explore Localization Services"
-        }
+        },
+        "faq": [
+          {
+            "q": "How long does it take to launch my website?",
+            "a": "A single-language Starter site typically goes live in about 2 weeks. Standard and Pro packages with multiple language versions take 3–5 weeks, depending on how quickly content and feedback are provided."
+          },
+          {
+            "q": "What does the annual fee cover?",
+            "a": "Everything needed to keep the site running: global CDN hosting, SSL certificate, security updates, daily backups, uptime monitoring, and routine content updates. No surprise bills."
+          },
+          {
+            "q": "Can I request changes after the site is live?",
+            "a": "Yes. Routine text and image updates are included in your annual plan — just send us the changes. Larger work such as new pages, new features, or additional languages is quoted as a fixed-price task before we start."
+          },
+          {
+            "q": "Will my website rank on Google?",
+            "a": "SEO is built in, not bolted on: keyword research, a search-friendly site structure, hreflang for every language version, schema markup, and Core Web Vitals optimization. Rankings then grow over the following 3–6 months as content and backlinks accumulate."
+          },
+          {
+            "q": "Do I own the website and the domain?",
+            "a": "Yes. The domain is registered in your company's name, and you receive the full source files and content. If you ever leave, everything goes with you — there is no lock-in."
+          }
+        ]
       },
       "services/localization": {
         "cover": "/images/services/localization.jpg",
@@ -1218,10 +1242,54 @@
           "cta_label": "Get Started",
           "cta_title": "Let's localize your content.",
           "cta_body": "Send us your files and we'll provide a quote within 24 hours."
-        }
+        },
+        "faq": [
+          {
+            "q": "What is the difference between translation and localization?",
+            "a": "Translation converts words; localization adapts the whole experience — layout, images, formats, units, tone, and cultural references — so the result feels native. Every project we deliver is localized, not just translated. [Read the full comparison →](/news/localization-vs-translation-differences/)"
+          },
+          {
+            "q": "Which file formats do you work with?",
+            "a": "Practically all of them: Word, InDesign, FrameMaker, PowerPoint, Excel, PDF, XLIFF, SRT/VTT, video project files, and SCORM packages. Native source files give the best results, but we can also work from PDFs or exports."
+          },
+          {
+            "q": "How do you guarantee quality?",
+            "a": "Every project goes through native-speaker translation, independent revision, and a final QA pass against your glossary and style guide. Terminology is stored in a termbase so it stays consistent across every future project."
+          },
+          {
+            "q": "Do you use machine translation?",
+            "a": "Where it helps, transparently: AI-assisted translation with full human post-editing (MTPE) cuts cost and turnaround for suitable content, and we tell you exactly which workflow your quote is based on. Critical copy is always fully human."
+          },
+          {
+            "q": "How is localization priced?",
+            "a": "Most text work is priced per word, DTP per page, and audio/video per finished minute. You always receive a fixed quote before work begins — see our [pricing page](/prices/) for starting rates."
+          }
+        ]
       },
       "services/localization/dtp": {
-        "cover": "/images/services/dtp.jpg"
+        "cover": "/images/services/dtp.jpg",
+        "faq": [
+          {
+            "q": "Which DTP applications do you work in?",
+            "a": "We produce natively in Microsoft Word, Adobe InDesign, and Adobe FrameMaker, and also support PowerPoint, Illustrator, and Publisher. Files are delivered in the same format you send — no conversion, no quality loss."
+          },
+          {
+            "q": "Can you handle right-to-left languages like Arabic and Hebrew?",
+            "a": "Yes — RTL is a core specialty. We mirror layouts, rebuild tables and numbering, fix mixed-direction punctuation, and typeset with properly licensed Arabic and Hebrew fonts in InDesign ME."
+          },
+          {
+            "q": "How do you handle fonts for Chinese, Japanese, and other scripts?",
+            "a": "We maintain a licensed multilingual font library and match CJK and non-Latin typefaces to your brand's Latin typography, so every language version looks like it belongs to the same family."
+          },
+          {
+            "q": "Will the translated document look exactly like the original?",
+            "a": "That is the goal. We adjust for text expansion (German can run 30% longer, Chinese 20% shorter), reflow layouts, and run a pre-press QA checklist so the translated file mirrors the original's design."
+          },
+          {
+            "q": "What do you need from us to start?",
+            "a": "Ideally the native source files (INDD, FM, DOCX) plus any brand fonts and style guides. If you only have a PDF, we can usually rebuild it — send us what you have via the [contact page](/contact/) and we will advise."
+          }
+        ]
       },
       "services/localization/dubbing": {
         "cover": "/images/services/dubbing.jpg",
@@ -1447,14 +1515,93 @@
             "filter_all_gender": "All Genders",
             "langs_zh": "Chinese"
           }
-        }
+        },
+        "faq": [
+          {
+            "q": "Should I choose AI voices or human voice actors?",
+            "a": "AI voices suit most corporate, training, and product content — fast, consistent, and roughly a third of studio cost. Human actors remain the right choice for brand films, emotional storytelling, and lip-sync drama. Many clients mix both, and we are happy to advise per project."
+          },
+          {
+            "q": "How do you make sure AI pronounces our brand and technical terms correctly?",
+            "a": "We build a custom pronunciation lexicon for every project covering brand names, model numbers, and domain terminology, then fine-tune delivery with SSML. A native-speaker QA pass verifies every term before delivery."
+          },
+          {
+            "q": "Which languages and voices are available?",
+            "a": "Our curated catalog covers 130 AI voices across 20+ languages and dialects — each with a real sample you can preview on this page. Human voice talent is available for all major commercial languages."
+          },
+          {
+            "q": "What do you deliver?",
+            "a": "Broadcast-ready audio: mixed tracks normalized to EBU R128 loudness, separate stems if you need them, and optional lip-sync timing or subtitle files. Files are delivered in WAV or any format your workflow requires."
+          },
+          {
+            "q": "How much does dubbing cost?",
+            "a": "AI dubbing starts at $15 per finished minute; human voice-over is quoted per project based on language, talent, and usage rights. [Contact us](/contact/) with your script or video for a fixed quote within 24 hours."
+          }
+        ]
       },
       "services/localization/video": {
-        "cover": "/images/services/video-localization.jpg"
+        "cover": "/images/services/video-localization.jpg",
+        "faq": [
+          {
+            "q": "Subtitles or dubbing — which one do I need?",
+            "a": "It depends on the market and content: corporate training and product demos usually warrant dubbing, while social and marketing clips often perform best with styled subtitles. We will recommend per target market — or deliver both from the same workflow."
+          },
+          {
+            "q": "Can you localize on-screen text and motion graphics?",
+            "a": "Yes. We edit your original After Effects, Premiere Pro, or Motion project files and rebuild every text layer, lower third, and title card in the target language — keyframes, expressions, and timing preserved."
+          },
+          {
+            "q": "Which editing platforms do you work in?",
+            "a": "Adobe Creative Cloud (Premiere Pro, After Effects, Audition, Media Encoder), Sony Vegas Pro and Sound Forge, and Autodesk Maya and 3ds Max for 3D content. You send project files; you receive project files."
+          },
+          {
+            "q": "Which subtitle formats do you deliver?",
+            "a": "SRT, VTT, ASS/SSA, STL, SCC, TTML, and platform-specific formats for YouTube, Netflix-style specs, and broadcast. Burned-in versions are available on request."
+          },
+          {
+            "q": "How is video localization priced?",
+            "a": "Per finished minute: subtitling starts at $8/min, on-screen text rebuild at $25/min, and full packages with AI dubbing at $55/min. Human dubbing is quoted per project. See [pricing](/prices/) for details."
+          }
+        ]
       },
       "services/localization/elearning": {
-        "cover": "/images/services/elearning.jpg"
+        "cover": "/images/services/elearning.jpg",
+        "faq": [
+          {
+            "q": "Which authoring tools do you support?",
+            "a": "We work natively in Articulate Storyline and Rise 360, Adobe Captivate, Lectora, iSpring, Elucidat, dominKnow, Gomo, Adapt, H5P, and more. You send the source files; you receive publish-ready localized files in the same tool."
+          },
+          {
+            "q": "Will the localized course still work in our LMS?",
+            "a": "Yes. We repackage and validate every course against SCORM 1.2/2004 or xAPI in SCORM Cloud, and can test in your specific LMS (Moodle, Cornerstone, SuccessFactors, Workday, Docebo) before delivery."
+          },
+          {
+            "q": "What parts of the course do you localize?",
+            "a": "Everything the learner sees or hears: slide text, narration (AI or human voice), embedded video and subtitles, quiz questions and feedback, images containing text, and the player interface itself."
+          },
+          {
+            "q": "How long does a typical module take?",
+            "a": "A standard 20–30 minute module takes about 5–7 business days per language including QA. Large curricula are delivered in rolling batches so your first languages go live while the rest are in production."
+          },
+          {
+            "q": "How much does e-learning localization cost?",
+            "a": "Text translation starts at $0.12 per word; complete module localization typically runs $250–$600 per module per language depending on interactivity and media. Volume pricing applies to curricula of 10+ modules."
+          }
+        ]
       }
+    },
+    "glossary": {
+      "hero_label": "Knowledge Base",
+      "back": "All terms",
+      "read_term": "Read definition",
+      "related": "Related reading"
+    },
+    "industries": {
+      "label": "Industries",
+      "explore": "Explore this industry",
+      "services_title": "What we do for this industry",
+      "cases_title": "Case studies",
+      "articles_title": "Insights & guides"
     }
   },
   "zh": {
@@ -1584,15 +1731,15 @@
       "industries": [
         [
           "制造业与工业设备",
-          "/services/website-building/"
+          "/industries/manufacturing/"
         ],
         [
           "医疗器械与医药",
-          "/services/localization/"
+          "/industries/medical-devices/"
         ],
         [
           "企业培训与在线学习",
-          "/services/localization/elearning/"
+          "/industries/corporate-training/"
         ],
         [
           "营销与广告",
@@ -1627,7 +1774,8 @@
       ],
       "copyright": "MediaLocalize — 多语言本地化与全球网站服务，保留所有权利",
       "privacy": "隐私政策",
-      "terms": "服务条款"
+      "terms": "服务条款",
+      "glossary": "术语库"
     },
     "home": {
       "hero": {
@@ -2195,7 +2343,8 @@
       "section_label": "服务",
       "included": "包含内容",
       "cta_title": "想了解这项服务",
-      "cta_body": "告诉我们内容类型、语言和交付时间，我们会给出适合你的报价"
+      "cta_body": "告诉我们内容类型、语言和交付时间，我们会给出适合你的报价",
+      "faq_title": "常见问题"
     },
     "pages": {
       "home": {
@@ -2588,7 +2737,29 @@
           "loc_title": "只有英语还不够？",
           "loc_body": "我们的本地化团队可将您的网站、文档、视频与电子课程翻译为 50+ 种语言——同一合作伙伴、同一项目团队。",
           "loc_cta": "了解本地化服务"
-        }
+        },
+        "faq": [
+          {
+            "q": "网站多久能上线？",
+            "a": "单语言入门版通常 2 周左右上线；含多语言版本的标准版和专业版一般 3–5 周，取决于内容准备和反馈速度。"
+          },
+          {
+            "q": "年费包含什么？",
+            "a": "维持网站运行的一切：全球 CDN 托管、SSL 证书、安全更新、每日备份、运行监控和日常内容更新，不会有意外账单。"
+          },
+          {
+            "q": "上线后还能修改吗？",
+            "a": "可以。常规的文字和图片修改包含在年费内，直接发给我们即可；新增页面、新功能或新增语言等较大改动会在开工前按固定价格单独报价。"
+          },
+          {
+            "q": "网站能在 Google 上获得排名吗？",
+            "a": "SEO 从建站第一天就内置：关键词研究、对搜索引擎友好的站点结构、每种语言的 hreflang、结构化数据和 Core Web Vitals 优化。排名会随后 3–6 个月内容和外链的积累逐步提升。"
+          },
+          {
+            "q": "网站和域名归谁所有？",
+            "a": "归你。域名注册在你公司名下，你拥有全部源文件和内容。即使不再合作，一切都可以带走——没有锁定。"
+          }
+        ]
       },
       "services/localization": {
         "title": "多语言本地化服务",
@@ -2714,7 +2885,29 @@
           "cta_label": "开始使用",
           "cta_title": "让我们本地化您的内容。",
           "cta_body": "把文件发给我们，我们将在 24 小时内提供报价。"
-        }
+        },
+        "faq": [
+          {
+            "q": "翻译和本地化有什么区别？",
+            "a": "翻译转换文字，本地化适配整体体验——版式、图片、格式、单位、语气和文化习惯——让成品读起来像原生内容。我们交付的每个项目都是本地化而非纯翻译。[阅读完整对比 →](/zh/news/localization-vs-translation-differences/)"
+          },
+          {
+            "q": "支持哪些文件格式？",
+            "a": "几乎全部：Word、InDesign、FrameMaker、PowerPoint、Excel、PDF、XLIFF、SRT/VTT、视频工程文件和 SCORM 课件包。原生源文件效果最好，但也可以从 PDF 或导出件处理。"
+          },
+          {
+            "q": "如何保证质量？",
+            "a": "每个项目都经过母语译员翻译、独立审校和最终 QA，并对照你的术语表和风格指南检查。术语存入术语库，保证后续所有项目用词一致。"
+          },
+          {
+            "q": "你们用机器翻译吗？",
+            "a": "在合适的地方透明地使用：AI 辅助翻译加全程人工审校（MTPE）可以为适合的内容降低成本和周期，报价时会明确说明采用哪种流程。关键文案始终纯人工完成。"
+          },
+          {
+            "q": "本地化如何收费？",
+            "a": "文本按字数、排版按页、音视频按成品分钟计价。开工前总会先给固定报价——起步价见[价格页](/zh/prices/)。"
+          }
+        ]
       },
       "services/localization/dtp": {
         "title": "DTP 桌面排版",
@@ -2746,6 +2939,28 @@
           {
             "title": "透明计价",
             "desc": "Office 文档 $2/页,复杂排版(InDesign、FrameMaker)$4/页,PDF 重建按复杂度报价,50+ 页享量价。"
+          }
+        ],
+        "faq": [
+          {
+            "q": "你们用哪些排版软件？",
+            "a": "原生使用 Microsoft Word、Adobe InDesign 和 Adobe FrameMaker，也支持 PowerPoint、Illustrator 和 Publisher。交付格式与来稿一致——不转换、无质量损失。"
+          },
+          {
+            "q": "能处理阿拉伯语、希伯来语等从右到左的语言吗？",
+            "a": "可以——RTL 是我们的核心专长。我们镜像版式、重建表格和编号、修正混排标点，并使用 InDesign ME 的正版阿语和希伯来语字体排版。"
+          },
+          {
+            "q": "中日韩等文字的字体怎么处理？",
+            "a": "我们维护正版多语言字体库，为 CJK 和非拉丁文字挑选与你品牌拉丁字体风格匹配的字型，让每个语言版本看起来属于同一系列。"
+          },
+          {
+            "q": "翻译后的文档会和原版一模一样吗？",
+            "a": "这正是目标。我们会处理文本膨胀（德语可能长 30%，中文可能短 20%）、重排版面，并执行印前 QA 清单，让译文文件镜像原版设计。"
+          },
+          {
+            "q": "开始之前需要我们提供什么？",
+            "a": "最好是原生源文件（INDD、FM、DOCX）以及品牌字体和风格指南。只有 PDF 也通常可以重建——通过[联系页](/zh/contact/)发给我们，我们会给出建议。"
           }
         ]
       },
@@ -2991,7 +3206,29 @@
             "filter_all_gender": "全部性别",
             "langs_zh": "中文"
           }
-        }
+        },
+        "faq": [
+          {
+            "q": "该选 AI 配音还是真人配音？",
+            "a": "AI 配音适合大多数企业、培训和产品内容——快、稳定，成本约为录音棚的三分之一。真人配音仍是品牌片、情感叙事和口型同步剧集的正确选择。很多客户两者混用，我们可以按项目给建议。"
+          },
+          {
+            "q": "如何保证 AI 把品牌名和技术术语读对？",
+            "a": "每个项目都建定制发音词典，覆盖品牌名、型号和行业术语，再用 SSML 微调表达。交付前由母语者逐一核验。"
+          },
+          {
+            "q": "有哪些语言和音色？",
+            "a": "精选目录覆盖 20 多种语言和方言的 130 个 AI 音色，本页即可试听真实样音。真人配音覆盖所有主要商业语言。"
+          },
+          {
+            "q": "交付什么？",
+            "a": "播出级音频：按 EBU R128 响度标准化的混音轨、可选的分轨文件，以及可选的口型同步或字幕文件。格式为 WAV 或你工作流程需要的任何格式。"
+          },
+          {
+            "q": "配音怎么收费？",
+            "a": "AI 配音每成品分钟 $15 起；真人配音按项目根据语言、配音员和授权范围报价。把脚本或视频通过[联系页](/zh/contact/)发给我们，24 小时内给固定报价。"
+          }
+        ]
       },
       "services/localization/video": {
         "title": "视频与动画本地化",
@@ -3023,6 +3260,28 @@
           {
             "title": "按时长计价",
             "desc": "字幕 $8/分钟,字幕+图形 $25/分钟,全包(字幕+AI 配音+图形)$55/分钟,60+ 分钟享量价。"
+          }
+        ],
+        "faq": [
+          {
+            "q": "该做字幕还是配音？",
+            "a": "取决于市场和内容：企业培训和产品演示通常值得配音，社交和营销短片往往用风格化字幕效果更好。我们会按目标市场给建议——也可以用同一流程两者都交付。"
+          },
+          {
+            "q": "能本地化屏幕文字和动态图形吗？",
+            "a": "能。我们直接编辑你的 After Effects、Premiere Pro 或 Motion 工程文件，把每个文字层、字幕条和标题卡重建成目标语言——关键帧、表达式和时间轴完整保留。"
+          },
+          {
+            "q": "你们用哪些剪辑平台？",
+            "a": "Adobe Creative Cloud（Premiere Pro、After Effects、Audition、Media Encoder）、Sony Vegas Pro 和 Sound Forge，以及 3D 内容的 Autodesk Maya 和 3ds Max。你发工程文件，我们交回工程文件。"
+          },
+          {
+            "q": "交付哪些字幕格式？",
+            "a": "SRT、VTT、ASS/SSA、STL、SCC、TTML，以及 YouTube、Netflix 式规范和广播级格式。可按需提供硬字幕（烧录）版本。"
+          },
+          {
+            "q": "视频本地化如何计价？",
+            "a": "按成品分钟：字幕 $8/分钟起，屏幕文字重建 $25/分钟起，含 AI 配音的完整方案 $55/分钟起。真人配音按项目报价。详见[价格页](/zh/prices/)。"
           }
         ]
       },
@@ -3056,6 +3315,28 @@
           {
             "title": "按模块计价",
             "desc": "简单模块 $250,复杂模块(视频、分支、完整质检)$600,10+ 模块课程包享量价与更新托管。"
+          }
+        ],
+        "faq": [
+          {
+            "q": "支持哪些课件制作工具？",
+            "a": "原生支持 Articulate Storyline 和 Rise 360、Adobe Captivate、Lectora、iSpring、Elucidat、dominKnow、Gomo、Adapt、H5P 等。你发源文件，我们交付同一工具的可直接发布的本地化文件。"
+          },
+          {
+            "q": "本地化后的课程还能在我们的 LMS 里正常运行吗？",
+            "a": "能。我们按 SCORM 1.2/2004 或 xAPI 重新打包并在 SCORM Cloud 验证，还可以在你们的具体 LMS（Moodle、Cornerstone、SuccessFactors、Workday、Docebo）里测试后再交付。"
+          },
+          {
+            "q": "课程的哪些部分会被本地化？",
+            "a": "学员看到和听到的一切：幻灯片文字、旁白（AI 或真人）、嵌入视频和字幕、测验题目和反馈、含文字的图片，以及播放器界面本身。"
+          },
+          {
+            "q": "一个标准模块要多久？",
+            "a": "20–30 分钟的标准模块每种语言约 5–7 个工作日（含 QA）。大型课程库按滚动批次交付，第一批语言上线时其余语言仍在制作中。"
+          },
+          {
+            "q": "电子课程本地化怎么收费？",
+            "a": "文本翻译 $0.12/词起；完整模块本地化通常每模块每语言 $250–$600，取决于交互和媒体量。10 个以上模块的课程库有批量价格。"
           }
         ]
       },
@@ -3196,7 +3477,71 @@
         "title": "B2B 出口营销中低质量本地化的真实成本",
         "summary": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升",
         "description": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
+      },
+      "cases/ai-dubbing-industrial-videos": {
+        "title": "保密客户 — 工业产品视频 AI 配音",
+        "domain": "保密 · 工业设备制造商",
+        "industry": "工业设备 / 制造业",
+        "service_label": "本地化 · AI 配音",
+        "tagline": "42 条产品和培训视频用 AI 配音覆盖 6 种语言，三周交付，成本约为录音棚报价的三分之一",
+        "description": "为工业设备制造商将 42 条产品和培训视频 AI 配音为 6 种语言，含发音词典和母语质检",
+        "challenge": "视频库只有英文版，经销商不断索要本地语言版本；录音棚报价超预算三倍、周期十周，客户还担心 AI 读不准型号和技术术语",
+        "solution": "先做德语和阿语试点验证质量，从 130 个精选音色中按市场选配音色，脚本按口语节奏改写，定制发音词典覆盖全部型号和术语，SSML 控制停顿重音，每种语言由母语者按清单质检",
+        "results_desc": "252 个本地化版本三周交付，成本约为录音棚最低报价的三分之一；客户已把 AI 配音纳入标准发布流程，每条新品视频发布时同步推出全部 6 种语言",
+        "results_short": [
+          "42 条视频 × 6 语言 = 252 个版本，3 周交付",
+          "比录音棚最低报价低约 65%",
+          "AI 配音已成为新品视频的标准配置"
+        ],
+        "body": "AI 配音的成败很少取决于音色本身，而在于配套工程：为口语改写的脚本、保证型号永远读对的发音词典，以及交付前的母语者质检。这些到位后，AI 配音就不再是妥协，而是产能优势。"
+      },
+      "cases/video-subtitling-medical-launch": {
+        "title": "保密客户 — 全球发布视频 12 语言字幕",
+        "domain": "保密 · 医疗器械公司",
+        "industry": "医疗器械 / 医疗健康",
+        "service_label": "本地化 · 视频 + 字幕",
+        "tagline": "同一个全球发布日，12 种语言版本——字幕、屏幕文字和动态图形全部重做，在解禁日前交付",
+        "description": "为医疗器械公司将 8 条全球发布视频本地化为 12 种语言，涵盖监管级术语管理、字幕计时和 After Effects 文字层重建",
+        "challenge": "新产品全球同步发布、解禁日期不可更改；8 条视频含大量 AE 动态图形屏幕文字，医学术语受监管约束——此前供应商的字幕曾因剂量和计量术语直译被区域团队判定不合规",
+        "solution": "先建术语库：用客户监管批准的词汇表建项目术语库，争议术语经区域审核签字后再开工；母语医学译员按各语言阅读速度压缩台词；直接在 AE 源文件中重建文字层并保留关键帧与动画；语言审校加成片语境审看两阶段质检",
+        "results_desc": "96 个本地化版本提前解禁日 5 天交付，发布时区域监管团队零术语质询——客户全球营销活动的第一次；重建的 AE 母版已交还客户代理商复用",
+        "results_short": [
+          "8 条视频 × 12 语言，提前解禁日 5 天交付",
+          "区域监管团队零术语质询",
+          "AE 母版重建并交还客户复用"
+        ],
+        "body": "发布本地化总在可预见的地方失败：术语定得太晚、字幕按译者而非观众的节奏计时、动态图形被当作事后补漏。把顺序倒过来——术语先行、计时其次、图形并行——固定的全球档期才有活路。"
+      },
+      "cases/arabic-rtl-gulf-expansion": {
+        "title": "保密客户 — 阿拉伯语网站与物料进军海湾市场",
+        "domain": "保密 · 建材制造商",
+        "industry": "建材 / 建筑",
+        "service_label": "本地化 · 阿语 RTL + 排版",
+        "tagline": "完整的阿语市场进入方案——RTL 网站、InDesign 宣传册和海湾 SEO——上线六周后收到首批经销商询盘",
+        "description": "为建材制造商完成面向沙特和阿联酋的阿语网站与营销物料本地化，涵盖母语阿语文案、RTL 版式和 InDesign 阿语排版",
+        "challenge": "客户此前把机翻阿语页面直接拼在英文站上：RTL 版式错乱、混排标点数字渲染错误、产品名音译不统一、文案翻译腔浓重；印刷宣传册的 InDesign 源文件完全不支持阿语",
+        "solution": "从文案重建：母语阿语撰稿人按建筑行业语境把核心页面重写为原创销售文案，统一产品名音译词表；网站全面 RTL 镜像并配置 hreflang；宣传册用支持阿语的 InDesign 重排，选用与品牌拉丁字体匹配的授权阿语字体；同步开展海湾搜索行为关键词研究",
+        "results_desc": "阿语网站 5 周上线，上线 6 周内收到沙特和阿联酋首批直接经销商询盘——客户第一批不经过中间商的区域线索；阿语宣传册在迪拜 Big 5 展会首发；阿语落地页第一季度内开始在海湾产品词上获得排名",
+        "results_short": [
+          "网站 5 周上线，6 周内收获海湾首批询盘",
+          "24 页宣传册以阿语 InDesign 重排，亮相 Big 5 迪拜展",
+          "阿语页面一个季度内开始在海湾产品词排名"
+        ],
+        "body": "把阿语市场进入当成'翻译加 CSS 方向翻转'，失败是悄无声息的：海湾买家读机翻阿语，就像你读一本糟糕翻译的说明书——它传递的信号是这个市场只是顺带做做。母语文案、真正工程化的 RTL 版式和尊重阿文书写规则的排版，讲的是相反的故事。"
       }
+    },
+    "glossary": {
+      "hero_label": "知识库",
+      "back": "返回术语库",
+      "read_term": "阅读释义",
+      "related": "相关阅读"
+    },
+    "industries": {
+      "label": "行业",
+      "explore": "了解该行业",
+      "services_title": "我们为该行业做什么",
+      "cases_title": "客户案例",
+      "articles_title": "洞察与指南"
     }
   },
   "es": {
@@ -3326,15 +3671,15 @@
       "industries": [
         [
           "Manufactura e industria",
-          "/services/website-building/"
+          "/industries/manufacturing/"
         ],
         [
           "Dispositivos médicos y farma",
-          "/services/localization/"
+          "/industries/medical-devices/"
         ],
         [
           "E-learning corporativo",
-          "/services/localization/elearning/"
+          "/industries/corporate-training/"
         ],
         [
           "Marketing y publicidad",
@@ -3369,7 +3714,8 @@
       ],
       "copyright": "MediaLocalize — Localización multilingüe y sitios globales. Todos los derechos reservados.",
       "privacy": "Privacidad",
-      "terms": "Términos"
+      "terms": "Términos",
+      "glossary": "Glosario"
     },
     "home": {
       "hero": {
@@ -3939,7 +4285,8 @@
       "section_label": "Servicio",
       "included": "Qué incluye",
       "cta_title": "¿Te interesa este servicio?",
-      "cta_body": "Solicita un presupuesto adaptado a tu volumen, idiomas y plazo."
+      "cta_body": "Solicita un presupuesto adaptado a tu volumen, idiomas y plazo.",
+      "faq_title": "Preguntas frecuentes"
     },
     "pages": {
       "home": {
@@ -4332,7 +4679,29 @@
           "loc_title": "¿Necesita más que inglés?",
           "loc_body": "Nuestro equipo de localización traduce su sitio web, documentos, videos y e-learning a más de 50 idiomas: el mismo socio, el mismo equipo de proyecto.",
           "loc_cta": "Conocer los servicios de localización"
-        }
+        },
+        "faq": [
+          {
+            "q": "¿Cuánto tarda en publicarse mi sitio web?",
+            "a": "Un sitio Starter en un idioma suele estar en línea en unas 2 semanas. Los paquetes Standard y Pro con varios idiomas tardan de 3 a 5 semanas, según la rapidez con que se entreguen contenidos y comentarios."
+          },
+          {
+            "q": "¿Qué incluye la cuota anual?",
+            "a": "Todo lo necesario para mantener el sitio en marcha: alojamiento en CDN global, certificado SSL, actualizaciones de seguridad, copias de seguridad diarias, monitorización de disponibilidad y actualizaciones rutinarias de contenido. Sin facturas sorpresa."
+          },
+          {
+            "q": "¿Puedo pedir cambios después del lanzamiento?",
+            "a": "Sí. Las actualizaciones rutinarias de texto e imágenes están incluidas en el plan anual: solo tienes que enviárnoslas. Los trabajos mayores — páginas nuevas, funciones o idiomas adicionales — se presupuestan a precio fijo antes de empezar."
+          },
+          {
+            "q": "¿Mi sitio aparecerá en Google?",
+            "a": "El SEO viene integrado desde el primer día: investigación de palabras clave, estructura apta para buscadores, hreflang para cada idioma, datos estructurados y optimización de Core Web Vitals. El posicionamiento crece durante los 3–6 meses siguientes a medida que se acumulan contenidos y enlaces."
+          },
+          {
+            "q": "¿Soy dueño del sitio y del dominio?",
+            "a": "Sí. El dominio se registra a nombre de tu empresa y recibes todos los archivos fuente y el contenido. Si algún día te vas, todo va contigo: no hay dependencia."
+          }
+        ]
       },
       "services/localization": {
         "title": "Localización multilingüe",
@@ -4458,7 +4827,29 @@
           "cta_label": "Comenzar",
           "cta_title": "Localicemos su contenido.",
           "cta_body": "Envíenos sus archivos y le daremos una cotización en 24 horas."
-        }
+        },
+        "faq": [
+          {
+            "q": "¿Cuál es la diferencia entre traducción y localización?",
+            "a": "La traducción convierte palabras; la localización adapta toda la experiencia — maquetación, imágenes, formatos, unidades, tono y referencias culturales — para que el resultado parezca nativo. Todos nuestros proyectos se localizan, no solo se traducen. [Lee la comparación completa →](/es/news/localization-vs-translation-differences/)"
+          },
+          {
+            "q": "¿Con qué formatos de archivo trabajan?",
+            "a": "Prácticamente todos: Word, InDesign, FrameMaker, PowerPoint, Excel, PDF, XLIFF, SRT/VTT, archivos de proyecto de vídeo y paquetes SCORM. Los archivos fuente nativos dan los mejores resultados, pero también podemos trabajar desde PDF o exportaciones."
+          },
+          {
+            "q": "¿Cómo garantizan la calidad?",
+            "a": "Cada proyecto pasa por traducción de hablantes nativos, revisión independiente y un control final de calidad contra tu glosario y guía de estilo. La terminología se guarda en una base terminológica para mantener la coherencia en todos los proyectos futuros."
+          },
+          {
+            "q": "¿Usan traducción automática?",
+            "a": "Donde ayuda, y con transparencia: la traducción asistida por IA con postedición humana completa (MTPE) reduce coste y plazos para contenidos adecuados, y te decimos exactamente en qué flujo se basa tu presupuesto. Los textos críticos son siempre 100 % humanos."
+          },
+          {
+            "q": "¿Cómo se calcula el precio de la localización?",
+            "a": "La mayoría del trabajo de texto se cobra por palabra, el DTP por página y el audio/vídeo por minuto final. Siempre recibes un presupuesto fijo antes de empezar: consulta las tarifas iniciales en nuestra [página de precios](/es/prices/)."
+          }
+        ]
       },
       "services/localization/dtp": {
         "title": "DTP y maquetación multilingüe",
@@ -4490,6 +4881,28 @@
           {
             "title": "Precios transparentes",
             "desc": "Documentos Office $2/página, maquetas complejas (InDesign, FrameMaker) $4/página; reconstrucción de PDF según complejidad."
+          }
+        ],
+        "faq": [
+          {
+            "q": "¿En qué aplicaciones de DTP trabajan?",
+            "a": "Producimos de forma nativa en Microsoft Word, Adobe InDesign y Adobe FrameMaker, y también admitimos PowerPoint, Illustrator y Publisher. Los archivos se entregan en el mismo formato en que los envías: sin conversión ni pérdida de calidad."
+          },
+          {
+            "q": "¿Pueden trabajar con idiomas de derecha a izquierda como el árabe y el hebreo?",
+            "a": "Sí: los idiomas RTL son una especialidad clave. Reflejamos las maquetas, reconstruimos tablas y numeración, corregimos la puntuación bidireccional y componemos con fuentes árabes y hebreas con licencia en InDesign ME."
+          },
+          {
+            "q": "¿Cómo gestionan las fuentes para chino, japonés y otros alfabetos?",
+            "a": "Mantenemos una biblioteca de fuentes multilingües con licencia y combinamos los tipos CJK y no latinos con la tipografía latina de tu marca, para que cada versión lingüística parezca de la misma familia."
+          },
+          {
+            "q": "¿El documento traducido será idéntico al original?",
+            "a": "Ese es el objetivo. Ajustamos la expansión del texto (el alemán puede crecer un 30 %, el chino reducirse un 20 %), recomponemos las páginas y aplicamos una lista de verificación preprensa para que el archivo traducido refleje el diseño original."
+          },
+          {
+            "q": "¿Qué necesitan de nosotros para empezar?",
+            "a": "Idealmente los archivos fuente nativos (INDD, FM, DOCX) más las fuentes y guías de estilo de marca. Si solo tienes un PDF, normalmente podemos reconstruirlo: envíanos lo que tengas desde la [página de contacto](/es/contact/) y te asesoraremos."
           }
         ]
       },
@@ -4735,7 +5148,29 @@
             "filter_all_gender": "Todos los géneros",
             "langs_zh": "Chino"
           }
-        }
+        },
+        "faq": [
+          {
+            "q": "¿Voces de IA o actores de voz humanos?",
+            "a": "Las voces de IA encajan en la mayoría de los contenidos corporativos, de formación y de producto: rápidas, coherentes y aproximadamente a un tercio del coste de estudio. Los actores humanos siguen siendo la elección correcta para películas de marca, narración emocional y lip-sync dramático. Muchos clientes combinan ambos; te asesoramos por proyecto."
+          },
+          {
+            "q": "¿Cómo se aseguran de que la IA pronuncie bien nuestra marca y los términos técnicos?",
+            "a": "Creamos un léxico de pronunciación personalizado para cada proyecto con marcas, referencias y terminología del sector, y ajustamos la entrega con SSML. Un hablante nativo verifica cada término antes de la entrega."
+          },
+          {
+            "q": "¿Qué idiomas y voces hay disponibles?",
+            "a": "Nuestro catálogo curado cubre 130 voces de IA en más de 20 idiomas y dialectos, cada una con una muestra real que puedes escuchar en esta página. El talento de voz humano está disponible para los principales idiomas comerciales."
+          },
+          {
+            "q": "¿Qué entregan?",
+            "a": "Audio listo para emisión: pistas mezcladas normalizadas a sonoridad EBU R128, stems separados si los necesitas, y sincronización labial o archivos de subtítulos opcionales. Entregamos en WAV o en cualquier formato que requiera tu flujo de trabajo."
+          },
+          {
+            "q": "¿Cuánto cuesta el doblaje?",
+            "a": "El doblaje con IA empieza en $15 por minuto final; la voz humana se presupuesta por proyecto según idioma, talento y derechos de uso. [Contáctanos](/es/contact/) con tu guion o vídeo y recibe un presupuesto fijo en 24 horas."
+          }
+        ]
       },
       "services/localization/video": {
         "title": "Localización de video y animación",
@@ -4767,6 +5202,28 @@
           {
             "title": "Precio por minuto",
             "desc": "Subtítulos $8/min, subtítulos + gráficos $25/min, paquete completo (con doblaje IA) $55/min; descuentos desde 60 min."
+          }
+        ],
+        "faq": [
+          {
+            "q": "¿Subtítulos o doblaje: cuál necesito?",
+            "a": "Depende del mercado y del contenido: la formación corporativa y las demos de producto suelen justificar doblaje, mientras que los clips sociales y de marketing rinden mejor con subtítulos con estilo. Recomendamos por mercado de destino, o entregamos ambos desde el mismo flujo."
+          },
+          {
+            "q": "¿Pueden localizar el texto en pantalla y los motion graphics?",
+            "a": "Sí. Editamos tus archivos originales de After Effects, Premiere Pro o Motion y reconstruimos cada capa de texto, rótulo y título en el idioma de destino, conservando keyframes, expresiones y tiempos."
+          },
+          {
+            "q": "¿En qué plataformas de edición trabajan?",
+            "a": "Adobe Creative Cloud (Premiere Pro, After Effects, Audition, Media Encoder), Sony Vegas Pro y Sound Forge, y Autodesk Maya y 3ds Max para contenido 3D. Envías archivos de proyecto y recibes archivos de proyecto."
+          },
+          {
+            "q": "¿Qué formatos de subtítulos entregan?",
+            "a": "SRT, VTT, ASS/SSA, STL, SCC, TTML y formatos específicos para YouTube, especificaciones tipo Netflix y broadcast. Versiones con subtítulos incrustados disponibles bajo petición."
+          },
+          {
+            "q": "¿Cómo se calcula el precio de la localización de vídeo?",
+            "a": "Por minuto final: subtitulado desde $8/min, reconstrucción de texto en pantalla desde $25/min y paquetes completos con doblaje IA desde $55/min. El doblaje humano se presupuesta por proyecto. Consulta [precios](/es/prices/) para más detalles."
           }
         ]
       },
@@ -4800,6 +5257,28 @@
           {
             "title": "Precio por módulo",
             "desc": "Módulo sencillo $250, módulo complejo (vídeo, ramificaciones, QA completo) $600; descuentos en currículos de 10+ módulos."
+          }
+        ],
+        "faq": [
+          {
+            "q": "¿Qué herramientas de autor admiten?",
+            "a": "Trabajamos de forma nativa en Articulate Storyline y Rise 360, Adobe Captivate, Lectora, iSpring, Elucidat, dominKnow, Gomo, Adapt, H5P y más. Envías los archivos fuente y recibes archivos localizados listos para publicar en la misma herramienta."
+          },
+          {
+            "q": "¿El curso localizado seguirá funcionando en nuestro LMS?",
+            "a": "Sí. Reempaquetamos y validamos cada curso contra SCORM 1.2/2004 o xAPI en SCORM Cloud, y podemos probarlo en tu LMS específico (Moodle, Cornerstone, SuccessFactors, Workday, Docebo) antes de la entrega."
+          },
+          {
+            "q": "¿Qué partes del curso se localizan?",
+            "a": "Todo lo que el alumno ve u oye: texto de las diapositivas, narración (voz de IA o humana), vídeo incrustado y subtítulos, preguntas y retroalimentación de cuestionarios, imágenes con texto y la propia interfaz del reproductor."
+          },
+          {
+            "q": "¿Cuánto tarda un módulo típico?",
+            "a": "Un módulo estándar de 20–30 minutos lleva unos 5–7 días laborables por idioma, incluido el control de calidad. Los planes de estudios grandes se entregan en lotes continuos para que los primeros idiomas salgan mientras el resto está en producción."
+          },
+          {
+            "q": "¿Cuánto cuesta la localización de e-learning?",
+            "a": "La traducción de texto empieza en $0,12 por palabra; la localización completa de módulos suele costar entre $250 y $600 por módulo e idioma según la interactividad y los medios. Hay precios por volumen para planes de 10+ módulos."
           }
         ]
       },
@@ -4940,7 +5419,71 @@
         "title": "El coste real de una mala localización en marketing B2B",
         "summary": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento.",
         "description": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
+      },
+      "cases/ai-dubbing-industrial-videos": {
+        "title": "Cliente confidencial — Doblaje con IA para vídeos industriales",
+        "domain": "Confidencial · Fabricante de equipos industriales",
+        "industry": "Equipos industriales / Manufactura",
+        "service_label": "Localización · Doblaje con IA",
+        "tagline": "42 vídeos doblados a 6 idiomas con voces de IA y QA nativo, entregados en tres semanas por un tercio del presupuesto de estudio",
+        "description": "Doblaje con IA de 42 vídeos de producto y formación a 6 idiomas, con léxico de pronunciación y QA nativo",
+        "challenge": "La videoteca solo existía en inglés y los distribuidores pedían versiones locales; los estudios pedían el triple del presupuesto y diez semanas, y el cliente dudaba de que la IA pronunciara bien modelos y términos técnicos",
+        "solution": "Piloto en alemán y árabe para validar la calidad; voces elegidas de nuestro catálogo de 130 según cada mercado; guiones adaptados al ritmo hablado; léxico de pronunciación para referencias y términos; control SSML; QA con hablantes nativos en cada idioma",
+        "results_desc": "Las 252 versiones localizadas se entregaron en tres semanas por un tercio del presupuesto de estudio más bajo; el cliente incorporó el doblaje con IA a su proceso estándar y cada vídeo nuevo sale en los seis idiomas el día del lanzamiento",
+        "results_short": [
+          "42 vídeos × 6 idiomas = 252 versiones en 3 semanas",
+          "~65 % por debajo del presupuesto de estudio más bajo",
+          "El doblaje con IA ya es estándar en cada vídeo nuevo"
+        ],
+        "body": "El éxito del doblaje con IA rara vez depende de la voz en sí, sino de la infraestructura que la rodea: guiones adaptados al habla, un léxico de pronunciación que acierta cada referencia y un filtro de QA nativo antes de entregar. Con eso, la IA deja de ser un compromiso y pasa a ser una ventaja de producción."
+      },
+      "cases/video-subtitling-medical-launch": {
+        "title": "Cliente confidencial — Vídeos de lanzamiento en 12 idiomas",
+        "domain": "Confidencial · Empresa de dispositivos médicos",
+        "industry": "Dispositivos médicos / Salud",
+        "service_label": "Localización · Vídeo + Subtitulado",
+        "tagline": "Una misma fecha de lanzamiento global, doce versiones: subtítulos, texto en pantalla y motion graphics rehechos y entregados antes del embargo",
+        "description": "Localización de 8 vídeos de lanzamiento global a 12 idiomas con gestión terminológica de nivel regulatorio, subtitulado y reconstrucción de texto en After Effects",
+        "challenge": "Lanzamiento global simultáneo con fecha de embargo inamovible; 8 vídeos con denso texto en pantalla en motion graphics de After Effects y terminología médica regulada — un proveedor anterior había entregado traducciones literales de términos de dosificación marcadas como no conformes",
+        "solution": "Empezamos por la terminología, no por la traducción: base terminológica con glosarios aprobados por regulación y validación regional de términos disputados antes de subtitular; traductores médicos nativos condensaron el diálogo según la velocidad de lectura; texto en pantalla reconstruido en After Effects conservando keyframes; doble QA: revisión lingüística y visionado en contexto",
+        "results_desc": "Las 96 versiones localizadas se entregaron 5 días antes del embargo, con cero escalaciones terminológicas de los equipos regulatorios regionales — una primera vez para las campañas globales del cliente; los másteres de After Effects reconstruidos se devolvieron a la agencia del cliente",
+        "results_short": [
+          "8 vídeos × 12 idiomas, entregados 5 días antes del embargo",
+          "Cero escalaciones terminológicas de equipos regulatorios",
+          "Másteres de After Effects reconstruidos y devueltos"
+        ],
+        "body": "La localización de lanzamientos falla en lugares predecibles: terminología decidida tarde, subtítulos cronometrados para traductores y no para espectadores, y motion graphics tratados como un añadido. Invertir ese orden — terminología primero, timing después, gráficos en paralelo — es lo que hace viable una fecha global fija."
+      },
+      "cases/arabic-rtl-gulf-expansion": {
+        "title": "Cliente confidencial — Web y materiales en árabe para el Golfo",
+        "domain": "Confidencial · Fabricante de materiales de construcción",
+        "industry": "Materiales de construcción / Construcción",
+        "service_label": "Localización · Árabe RTL + DTP",
+        "tagline": "Entrada completa al mercado árabe — web RTL, folletos en InDesign y SEO para el Golfo — con las primeras consultas de distribuidores seis semanas después del lanzamiento",
+        "description": "Localización al árabe de la web y los materiales de marketing de un fabricante de materiales de construcción para Arabia Saudí y los EAU",
+        "challenge": "El primer intento del cliente — páginas en árabe traducidas automáticamente sobre la web inglesa — dañó su credibilidad: el diseño se rompía en lectura RTL, la puntuación y los números mixtos se renderizaban mal, los nombres de producto se transliteraban de forma inconsistente y los folletos en InDesign no soportaban la escritura árabe",
+        "solution": "Reconstruimos la presencia árabe desde el texto: redactores nativos con experiencia en construcción reescribieron las páginas clave como copy original con transliteración unificada en un glosario aprobado; la web se reflejó por completo a RTL con hreflang; los folletos se maquetaron en InDesign con soporte árabe y tipografías licenciadas acordes a la marca; en paralelo, keyword research para el comportamiento de búsqueda saudí y emiratí",
+        "results_desc": "La web árabe se lanzó en 5 semanas y las primeras consultas directas de distribuidores de Arabia Saudí y los EAU llegaron en 6 semanas — los primeros leads de la región sin intermediarios; los folletos árabes debutaron en la feria Big 5 de Dubái y las landing pages árabes empezaron a posicionar en el primer trimestre",
+        "results_short": [
+          "Web lanzada en 5 semanas; primeras consultas del Golfo en 6",
+          "Folleto de 24 páginas recompuesto en InDesign árabe para Big 5 Dubái",
+          "Páginas árabes posicionando en términos del Golfo en un trimestre"
+        ],
+        "body": "Entrar en el mercado árabe fracasa en silencio cuando se reduce a traducir y girar el CSS: los compradores del Golfo leen el árabe automático como tú lees un manual mal traducido — la señal de que su mercado es un extra. Copy nativo, RTL bien ingenierado y tipografía que respeta la escritura árabe cuentan la historia contraria."
       }
+    },
+    "glossary": {
+      "hero_label": "Base de conocimientos",
+      "back": "Todos los términos",
+      "read_term": "Leer la definición",
+      "related": "Lecturas relacionadas"
+    },
+    "industries": {
+      "label": "Sectores",
+      "explore": "Explorar este sector",
+      "services_title": "Qué hacemos por este sector",
+      "cases_title": "Casos de éxito",
+      "articles_title": "Análisis y guías"
     }
   },
   "ru": {
@@ -5070,15 +5613,15 @@
       "industries": [
         [
           "Производство и промышленность",
-          "/services/website-building/"
+          "/industries/manufacturing/"
         ],
         [
           "Медтехника и фарма",
-          "/services/localization/"
+          "/industries/medical-devices/"
         ],
         [
           "Корпоративное обучение",
-          "/services/localization/elearning/"
+          "/industries/corporate-training/"
         ],
         [
           "Маркетинг и реклама",
@@ -5113,7 +5656,8 @@
       ],
       "copyright": "MediaLocalize — многоязычная локализация и глобальные сайты. Все права защищены.",
       "privacy": "Конфиденциальность",
-      "terms": "Условия"
+      "terms": "Условия",
+      "glossary": "Глоссарий"
     },
     "home": {
       "hero": {
@@ -5683,7 +6227,8 @@
       "section_label": "Услуга",
       "included": "Что входит",
       "cta_title": "Интересует эта услуга?",
-      "cta_body": "Запросите расчет под ваши языки, объем и сроки."
+      "cta_body": "Запросите расчет под ваши языки, объем и сроки.",
+      "faq_title": "Частые вопросы"
     },
     "pages": {
       "home": {
@@ -6076,7 +6621,29 @@
           "loc_title": "Нужно больше, чем английский?",
           "loc_body": "Наша команда локализации переводит ваш сайт, документы, видео и учебные курсы на более чем 50 языков — тот же партнёр, та же проектная команда.",
           "loc_cta": "Узнать об услугах локализации"
-        }
+        },
+        "faq": [
+          {
+            "q": "Как быстро запустится мой сайт?",
+            "a": "Одноязычный сайт пакета Starter обычно запускается примерно за 2 недели. Пакеты Standard и Pro с несколькими языками занимают 3–5 недель в зависимости от скорости предоставления контента и обратной связи."
+          },
+          {
+            "q": "Что входит в годовую плату?",
+            "a": "Всё необходимое для работы сайта: хостинг на глобальной CDN, SSL-сертификат, обновления безопасности, ежедневные резервные копии, мониторинг доступности и регулярные обновления контента. Никаких неожиданных счетов."
+          },
+          {
+            "q": "Можно ли вносить изменения после запуска?",
+            "a": "Да. Регулярные правки текста и изображений входят в годовой план — просто пришлите нам изменения. Более крупные работы — новые страницы, функции или дополнительные языки — оцениваются по фиксированной цене до начала работ."
+          },
+          {
+            "q": "Будет ли мой сайт ранжироваться в Google?",
+            "a": "SEO встроено с первого дня: исследование ключевых слов, дружественная поисковикам структура, hreflang для каждой языковой версии, разметка schema и оптимизация Core Web Vitals. Позиции растут в течение следующих 3–6 месяцев по мере накопления контента и ссылок."
+          },
+          {
+            "q": "Кому принадлежат сайт и домен?",
+            "a": "Вам. Домен регистрируется на вашу компанию, и вы получаете все исходные файлы и контент. Если вы когда-нибудь уйдёте — всё уйдёт с вами, никакой привязки."
+          }
+        ]
       },
       "services/localization": {
         "title": "Многоязычная локализация",
@@ -6202,7 +6769,29 @@
           "cta_label": "Начать",
           "cta_title": "Давайте локализуем ваш контент.",
           "cta_body": "Отправьте нам ваши файлы, и мы подготовим расчёт стоимости в течение 24 часов."
-        }
+        },
+        "faq": [
+          {
+            "q": "Чем перевод отличается от локализации?",
+            "a": "Перевод преобразует слова; локализация адаптирует весь опыт — вёрстку, изображения, форматы, единицы, тон и культурные реалии, — чтобы результат выглядел нативным. Каждый наш проект локализуется, а не просто переводится. [Читать полное сравнение →](/ru/news/localization-vs-translation-differences/)"
+          },
+          {
+            "q": "С какими форматами файлов вы работаете?",
+            "a": "Практически со всеми: Word, InDesign, FrameMaker, PowerPoint, Excel, PDF, XLIFF, SRT/VTT, проектные файлы видео и пакеты SCORM. Родные исходники дают лучший результат, но можем работать и с PDF или экспортами."
+          },
+          {
+            "q": "Как вы гарантируете качество?",
+            "a": "Каждый проект проходит перевод носителем, независимую редактуру и финальный контроль качества по вашему глоссарию и гайду стиля. Терминология хранится в терминологической базе и остаётся единообразной во всех будущих проектах."
+          },
+          {
+            "q": "Используете ли вы машинный перевод?",
+            "a": "Где это помогает — прозрачно: ИИ-перевод с полным человеческим постредактированием (MTPE) снижает стоимость и сроки для подходящего контента, и мы точно говорим, на каком процессе основана ваша смета. Критичные тексты всегда полностью человеческие."
+          },
+          {
+            "q": "Как формируется цена локализации?",
+            "a": "Текст — за слово, вёрстка — за страницу, аудио и видео — за готовую минуту. Вы всегда получаете фиксированную смету до начала работ — стартовые тарифы на [странице цен](/ru/prices/)."
+          }
+        ]
       },
       "services/localization/dtp": {
         "title": "Многоязычная DTP-верстка",
@@ -6234,6 +6823,28 @@
           {
             "title": "Прозрачные цены",
             "desc": "Документы Office — $2/страница, сложная вёрстка (InDesign, FrameMaker) — $4/страница, реконструкция PDF — по сложности."
+          }
+        ],
+        "faq": [
+          {
+            "q": "В каких DTP-приложениях вы работаете?",
+            "a": "Работаем нативно в Microsoft Word, Adobe InDesign и Adobe FrameMaker, также поддерживаем PowerPoint, Illustrator и Publisher. Файлы возвращаются в том же формате — без конвертации и потери качества."
+          },
+          {
+            "q": "Работаете ли с языками справа налево — арабским и ивритом?",
+            "a": "Да, RTL — наша ключевая специализация. Зеркалим макеты, пересобираем таблицы и нумерацию, исправляем смешанную пунктуацию и верстаем лицензированными арабскими и еврейскими шрифтами в InDesign ME."
+          },
+          {
+            "q": "Как вы решаете вопрос шрифтов для китайского, японского и других письменностей?",
+            "a": "Поддерживаем библиотеку лицензированных многоязычных шрифтов и подбираем CJK- и нелатинские гарнитуры под латинскую типографику вашего бренда, чтобы все языковые версии выглядели одним семейством."
+          },
+          {
+            "q": "Будет ли переведённый документ выглядеть точно как оригинал?",
+            "a": "Именно это цель. Учитываем расширение текста (немецкий может стать длиннее на 30 %, китайский — короче на 20 %), перекомпонуем страницы и проходим допечатный чек-лист, чтобы файл зеркалил дизайн оригинала."
+          },
+          {
+            "q": "Что нужно от нас для старта?",
+            "a": "В идеале — родные исходники (INDD, FM, DOCX) плюс фирменные шрифты и гайды. Если есть только PDF — обычно можем пересобрать: пришлите, что есть, через [страницу контактов](/ru/contact/), и мы подскажем."
           }
         ]
       },
@@ -6479,7 +7090,29 @@
             "filter_all_gender": "Оба пола",
             "langs_zh": "Китайский"
           }
-        }
+        },
+        "faq": [
+          {
+            "q": "Выбрать ИИ-голоса или живых дикторов?",
+            "a": "ИИ-голоса подходят большинству корпоративного, обучающего и продуктового контента — быстро, стабильно и примерно втрое дешевле студии. Живые актёры остаются правильным выбором для имиджевых фильмов, эмоциональных историй и липсинка. Многие клиенты комбинируют оба варианта — посоветуем под конкретный проект."
+          },
+          {
+            "q": "Как вы добиваетесь правильного произношения брендов и терминов?",
+            "a": "Для каждого проекта создаём собственный словарь произношения: бренды, артикулы и отраслевая терминология, затем тонко настраиваем подачу через SSML. Носитель проверяет каждый термин перед сдачей."
+          },
+          {
+            "q": "Какие языки и голоса доступны?",
+            "a": "Наш курируемый каталог — 130 ИИ-голосов на более чем 20 языках и диалектах, у каждого есть реальный образец, который можно прослушать на этой странице. Живые дикторы доступны для всех основных коммерческих языков."
+          },
+          {
+            "q": "Что вы сдаёте?",
+            "a": "Аудио вещательного качества: миксы, нормализованные по громкости EBU R128, отдельные стемы при необходимости, а также опционально липсинк-тайминг или файлы субтитров. Формат — WAV или любой другой под ваш процесс."
+          },
+          {
+            "q": "Сколько стоит озвучка?",
+            "a": "ИИ-озвучка — от $15 за готовую минуту; живая озвучка оценивается по проекту в зависимости от языка, диктора и прав использования. [Свяжитесь с нами](/ru/contact/) и пришлите сценарий или видео — фиксированная смета в течение 24 часов."
+          }
+        ]
       },
       "services/localization/video": {
         "title": "Локализация видео и анимации",
@@ -6511,6 +7144,28 @@
           {
             "title": "Цена за минуту",
             "desc": "Субтитры — $8/мин, субтитры + графика — $25/мин, полный пакет с ИИ-озвучкой — $55/мин; скидки от 60 минут."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Субтитры или озвучка — что выбрать?",
+            "a": "Зависит от рынка и контента: корпоративное обучение и демонстрации продуктов обычно оправдывают озвучку, а социальные и маркетинговые ролики лучше работают со стилизованными субтитрами. Посоветуем под целевой рынок — или сделаем и то и другое в одном процессе."
+          },
+          {
+            "q": "Можете локализовать экранный текст и моушн-графику?",
+            "a": "Да. Редактируем ваши исходники After Effects, Premiere Pro или Motion и пересобираем каждый текстовый слой, плашку и титр на целевом языке — ключевые кадры, выражения и тайминг сохраняются."
+          },
+          {
+            "q": "В каких монтажных платформах вы работаете?",
+            "a": "Adobe Creative Cloud (Premiere Pro, After Effects, Audition, Media Encoder), Sony Vegas Pro и Sound Forge, а для 3D-контента — Autodesk Maya и 3ds Max. Присылаете проектные файлы — получаете проектные файлы."
+          },
+          {
+            "q": "В каких форматах вы сдаёте субтитры?",
+            "a": "SRT, VTT, ASS/SSA, STL, SCC, TTML и платформенные форматы для YouTube, спецификаций уровня Netflix и эфира. По запросу — версии с вшитыми субтитрами."
+          },
+          {
+            "q": "Как считается стоимость локализации видео?",
+            "a": "За готовую минуту: субтитры — от $8/мин, пересборка экранного текста — от $25/мин, полный пакет с ИИ-озвучкой — от $55/мин. Живая озвучка оценивается по проекту. Подробности — на [странице цен](/ru/prices/)."
           }
         ]
       },
@@ -6544,6 +7199,28 @@
           {
             "title": "Цена за модуль",
             "desc": "Простой модуль — $250, сложный (видео, ветвления, полный QA) — $600; скидки для курсов от 10 модулей и абонентское сопровождение."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Какие авторские инструменты вы поддерживаете?",
+            "a": "Работаем нативно в Articulate Storyline и Rise 360, Adobe Captivate, Lectora, iSpring, Elucidat, dominKnow, Gomo, Adapt, H5P и других. Вы присылаете исходники — получаете готовые к публикации локализованные файлы в том же инструменте."
+          },
+          {
+            "q": "Будет ли локализованный курс работать в нашем LMS?",
+            "a": "Да. Перепаковываем и валидируем каждый курс по SCORM 1.2/2004 или xAPI в SCORM Cloud и можем протестировать в вашей конкретной LMS (Moodle, Cornerstone, SuccessFactors, Workday, Docebo) перед сдачей."
+          },
+          {
+            "q": "Какие части курса локализуются?",
+            "a": "Всё, что видит и слышит обучающийся: текст слайдов, закадровый текст (ИИ или живой голос), встроенное видео и субтитры, вопросы тестов и обратная связь, изображения с текстом и сам интерфейс плеера."
+          },
+          {
+            "q": "Сколько занимает типичный модуль?",
+            "a": "Стандартный модуль на 20–30 минут — около 5–7 рабочих дней на язык с учётом контроля качества. Большие учебные программы сдаются скользящими партиями: первые языки запускаются, пока остальные в производстве."
+          },
+          {
+            "q": "Сколько стоит локализация электронных курсов?",
+            "a": "Перевод текста — от $0,12 за слово; полная локализация модуля обычно $250–$600 за модуль и язык в зависимости от интерактивности и медиа. Для программ от 10+ модулей действуют объёмные скидки."
           }
         ]
       },
@@ -6684,7 +7361,71 @@
         "title": "Реальная стоимость плохой локализации в B2B-маркетинге",
         "summary": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски.",
         "description": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски."
+      },
+      "cases/ai-dubbing-industrial-videos": {
+        "title": "Конфиденциальный клиент — ИИ-озвучка видео об оборудовании",
+        "domain": "Конфиденциально · Производитель промышленного оборудования",
+        "industry": "Промышленное оборудование / Производство",
+        "service_label": "Локализация · ИИ-озвучка",
+        "tagline": "42 видео озвучены ИИ-голосами на 6 языках с контролем носителей — за три недели и за треть студийной сметы",
+        "description": "ИИ-озвучка 42 продуктовых и обучающих видео на 6 языков со словарём произношения и контролем носителей",
+        "challenge": "Видеотека была только на английском, дистрибьюторы просили локальные версии; студии запросили втрое больше бюджета и десять недель, а клиент сомневался, что ИИ правильно произнесёт артикулы и термины",
+        "solution": "Пилот на немецком и арабском для проверки качества; голоса из каталога 130 голосов под каждый рынок; сценарии адаптированы под разговорный ритм; словарь произношения для артикулов и терминов; настройка SSML; контроль качества носителями каждого языка",
+        "results_desc": "Все 252 локализованные версии сданы за три недели примерно за треть минимальной студийной сметы; клиент включил ИИ-озвучку в стандартный процесс выпуска — каждое новое видео выходит на всех шести языках в день релиза",
+        "results_short": [
+          "42 видео × 6 языков = 252 версии за 3 недели",
+          "Примерно на 65 % дешевле минимальной студийной сметы",
+          "ИИ-озвучка стала стандартом для каждого нового видео"
+        ],
+        "body": "Успех ИИ-озвучки редко зависит от самого голоса — он определяется инфраструктурой вокруг: сценариями, адаптированными под речь, словарём произношения, который безошибочно читает артикулы, и контролем носителем перед сдачей. Тогда ИИ-озвучка перестаёт быть компромиссом и становится производственным преимуществом."
+      },
+      "cases/video-subtitling-medical-launch": {
+        "title": "Конфиденциальный клиент — Ролики запуска на 12 языках",
+        "domain": "Конфиденциально · Компания медицинских изделий",
+        "industry": "Медицинские изделия / Здравоохранение",
+        "service_label": "Локализация · Видео + Субтитры",
+        "tagline": "Одна мировая дата запуска, двенадцать языковых версий — субтитры, экранный текст и моушн-графика пересобраны и сданы раньше эмбарго",
+        "description": "Локализация 8 роликов глобального запуска на 12 языков: терминология регуляторного уровня, тайминг субтитров и пересборка текстовых слоёв в After Effects",
+        "challenge": "Одновременный мировой запуск с фиксированной датой эмбарго; 8 роликов с плотным экранным текстом в моушн-графике After Effects и регулируемой медицинской терминологией — предыдущий подрядчик сдал субтитры с буквальным переводом дозировок, признанным рецензентом несоответствующим требованиям",
+        "solution": "Начали с терминологии, а не с перевода: база терминов из утверждённых регуляторами глоссариев, спорные термины согласованы с региональными рецензентами до начала работ; переводчики-медики сжали реплики под скорость чтения каждого языка; экранный текст пересобран в файлах After Effects с сохранением ключевых кадров; двухэтапный контроль: лингвистическая вычитка и просмотр финального рендера носителями",
+        "results_desc": "Все 96 локализованных версий сданы за 5 дней до эмбарго без единой терминологической претензии региональных регуляторных команд — впервые за историю глобальных кампаний клиента; пересобранные мастер-файлы After Effects возвращены агентству клиента",
+        "results_short": [
+          "8 роликов × 12 языков, сдано за 5 дней до эмбарго",
+          "Ноль терминологических претензий регуляторных команд",
+          "Мастера After Effects пересобраны и возвращены"
+        ],
+        "body": "Локализация запусков проваливается в предсказуемых местах: терминология решена слишком поздно, субтитры рассчитаны на переводчиков, а не на зрителей, а моушн-графика вспоминается в последний момент. Обратный порядок — сначала терминология, затем тайминг, графика параллельно — делает фиксированную мировую дату выполнимой."
+      },
+      "cases/arabic-rtl-gulf-expansion": {
+        "title": "Конфиденциальный клиент — Арабский сайт и материалы для Залива",
+        "domain": "Конфиденциально · Производитель стройматериалов",
+        "industry": "Стройматериалы / Строительство",
+        "service_label": "Локализация · Арабский RTL + Вёрстка",
+        "tagline": "Полный выход на арабский рынок — RTL-сайт, буклеты в InDesign и SEO для Залива — первые запросы дистрибьюторов через шесть недель после запуска",
+        "description": "Арабская локализация сайта и маркетинговых материалов производителя стройматериалов для Саудовской Аравии и ОАЭ",
+        "challenge": "Первая попытка клиента — машинно переведённые арабские страницы поверх английского сайта — подорвала доверие: вёрстка ломалась при чтении справа налево, смешанная пунктуация и числа отображались неверно, названия продуктов транслитерировались непоследовательно, а исходники буклетов в InDesign не поддерживали арабскую письменность",
+        "solution": "Перестроили арабское присутствие начиная с текстов: копирайтеры-носители с опытом в строительной отрасли переписали ключевые страницы как оригинальные продающие тексты с единым глоссарием транслитерации; сайт полностью зеркалирован под RTL с настройкой hreflang; буклеты свёрстаны в InDesign с поддержкой арабского и лицензированными шрифтами в фирменном стиле; параллельно провели keyword-исследование поискового поведения в Саудовской Аравии и ОАЭ",
+        "results_desc": "Арабский сайт запущен через 5 недель, первые прямые запросы дистрибьюторов из Саудовской Аравии и ОАЭ пришли в течение 6 недель — первые лиды из региона без посредников; арабские буклеты дебютировали на выставке Big 5 в Дубае; арабские посадочные страницы начали ранжироваться по региональным запросам в первый же квартал",
+        "results_short": [
+          "Сайт за 5 недель; первые запросы из Залива через 6",
+          "24-страничный буклет пересобран в арабском InDesign для Big 5 Дубай",
+          "Арабские страницы в выдаче по запросам Залива за квартал"
+        ],
+        "body": "Выход на арабский рынок тихо проваливается, когда его сводят к переводу и смене направления в CSS: покупатели в Заливе читают машинный арабский так же, как вы читаете плохо переведённую инструкцию, — это сигнал, что их рынок второстепенен. Нативные тексты, грамотный RTL и вёрстка с уважением к арабской письменности говорят об обратном."
       }
+    },
+    "glossary": {
+      "hero_label": "База знаний",
+      "back": "Все термины",
+      "read_term": "Читать определение",
+      "related": "Связанные материалы"
+    },
+    "industries": {
+      "label": "Отрасли",
+      "explore": "Подробнее об отрасли",
+      "services_title": "Что мы делаем для этой отрасли",
+      "cases_title": "Кейсы",
+      "articles_title": "Аналитика и руководства"
     }
   },
   "ar": {
@@ -6814,15 +7555,15 @@
       "industries": [
         [
           "التصنيع والصناعة",
-          "/services/website-building/"
+          "/industries/manufacturing/"
         ],
         [
           "الأجهزة الطبية والدواء",
-          "/services/localization/"
+          "/industries/medical-devices/"
         ],
         [
           "التعليم الإلكتروني والتدريب",
-          "/services/localization/elearning/"
+          "/industries/corporate-training/"
         ],
         [
           "التسويق والإعلان",
@@ -6857,7 +7598,8 @@
       ],
       "copyright": "MediaLocalize — توطين متعدد اللغات ومواقع عالمية. جميع الحقوق محفوظة.",
       "privacy": "الخصوصية",
-      "terms": "الشروط"
+      "terms": "الشروط",
+      "glossary": "المسرد"
     },
     "home": {
       "hero": {
@@ -7427,7 +8169,8 @@
       "section_label": "خدمة",
       "included": "ما الذي يشمله العمل",
       "cta_title": "هل تهمك هذه الخدمة؟",
-      "cta_body": "اطلب عرض سعر يناسب اللغات والحجم والموعد."
+      "cta_body": "اطلب عرض سعر يناسب اللغات والحجم والموعد.",
+      "faq_title": "الأسئلة الشائعة"
     },
     "pages": {
       "home": {
@@ -7820,7 +8563,29 @@
           "loc_title": "هل تحتاج إلى أكثر من الإنجليزية؟",
           "loc_body": "يترجم فريق التوطين لدينا موقعك ووثائقك وفيديوهاتك ومحتوى التعليم الإلكتروني إلى أكثر من 50 لغة — الشريك نفسه وفريق المشروع نفسه.",
           "loc_cta": "استكشف خدمات التوطين"
-        }
+        },
+        "faq": [
+          {
+            "q": "كم يستغرق إطلاق موقعي؟",
+            "a": "عادةً يُطلق موقع Starter أحادي اللغة خلال أسبوعين تقريبًا، بينما تستغرق باقتا Standard وPro متعددتا اللغات من 3 إلى 5 أسابيع حسب سرعة تقديم المحتوى والملاحظات."
+          },
+          {
+            "q": "ماذا تغطي الرسوم السنوية؟",
+            "a": "كل ما يلزم لبقاء الموقع يعمل: استضافة على CDN عالمية، شهادة SSL، تحديثات أمنية، نسخ احتياطي يومي، مراقبة التوفر، وتحديثات المحتوى الروتينية — دون فواتير مفاجئة."
+          },
+          {
+            "q": "هل يمكنني طلب تعديلات بعد الإطلاق؟",
+            "a": "نعم. تعديلات النصوص والصور الروتينية مشمولة في خطتك السنوية — أرسلها لنا فحسب. أما الأعمال الأكبر كالصفحات أو الميزات أو اللغات الجديدة فيُسعَّر كل منها بسعر ثابت قبل البدء."
+          },
+          {
+            "q": "هل سيظهر موقعي في نتائج Google؟",
+            "a": "التهيئة لمحركات البحث مدمجة منذ اليوم الأول: بحث الكلمات المفتاحية، بنية صديقة للبحث، hreflang لكل نسخة لغوية، بيانات منظمة، وتحسين Core Web Vitals. ثم تنمو الترتيبات خلال 3–6 أشهر مع تراكم المحتوى والروابط."
+          },
+          {
+            "q": "هل أملك الموقع والنطاق؟",
+            "a": "نعم. يُسجَّل النطاق باسم شركتك وتحصل على كامل الملفات المصدرية والمحتوى. وإن غادرت يومًا، يذهب كل شيء معك — لا قيود."
+          }
+        ]
       },
       "services/localization": {
         "title": "توطين متعدد اللغات",
@@ -7946,7 +8711,29 @@
           "cta_label": "ابدأ الآن",
           "cta_title": "لنوطن محتواك.",
           "cta_body": "أرسل لنا ملفاتك وسنوفر لك عرض سعر خلال 24 ساعة."
-        }
+        },
+        "faq": [
+          {
+            "q": "ما الفرق بين الترجمة والتوطين؟",
+            "a": "الترجمة تحوّل الكلمات؛ أما التوطين فيكيّف التجربة كاملة — التخطيط والصور والتنسيقات والوحدات والنبرة والمراجع الثقافية — ليبدو الناتج أصيلًا. كل مشروع نسلّمه مُوطَّن لا مجرد مترجم. [اقرأ المقارنة الكاملة ←](/ar/news/localization-vs-translation-differences/)"
+          },
+          {
+            "q": "ما صيغ الملفات التي تعملون بها؟",
+            "a": "عمليًا جميعها: Word وInDesign وFrameMaker وPowerPoint وExcel وPDF وXLIFF وSRT/VTT وملفات مشاريع الفيديو وحزم SCORM. الملفات المصدرية الأصلية تعطي أفضل النتائج، لكن يمكننا العمل أيضًا من PDF أو الملفات المُصدَّرة."
+          },
+          {
+            "q": "كيف تضمنون الجودة؟",
+            "a": "يمر كل مشروع بترجمة متحدث أصلي ومراجعة مستقلة وفحص جودة نهائي مقابل مسردك ودليل أسلوبك. وتُحفظ المصطلحات في قاعدة مصطلحات لتبقى متسقة في كل المشاريع المستقبلية."
+          },
+          {
+            "q": "هل تستخدمون الترجمة الآلية؟",
+            "a": "حيث تفيد، وبشفافية: الترجمة المدعومة بالذكاء الاصطناعي مع تحرير بشري كامل (MTPE) تخفض التكلفة والمدة للمحتوى المناسب، ونوضح لك بدقة سير العمل الذي يستند إليه عرض السعر. أما النصوص الحرجة فهي بشرية بالكامل دائمًا."
+          },
+          {
+            "q": "كيف تُحسب أسعار التوطين؟",
+            "a": "معظم النصوص تُسعَّر بالكلمة، والنشر المكتبي بالصفحة، والصوت والفيديو بالدقيقة النهائية. تستلم دائمًا عرض سعر ثابتًا قبل البدء — راجع الأسعار الابتدائية في [صفحة الأسعار](/ar/prices/)."
+          }
+        ]
       },
       "services/localization/dtp": {
         "title": "إخراج مكتبي متعدد اللغات",
@@ -7978,6 +8765,28 @@
           {
             "title": "أسعار شفافة",
             "desc": "مستندات Office بسعر $2 للصفحة، والتخطيطات المعقدة (InDesign وFrameMaker) بسعر $4 للصفحة، وإعادة بناء PDF حسب التعقيد."
+          }
+        ],
+        "faq": [
+          {
+            "q": "ما تطبيقات النشر المكتبي التي تعملون بها؟",
+            "a": "ننتج بشكل أصيل في Microsoft Word وAdobe InDesign وAdobe FrameMaker، وندعم أيضًا PowerPoint وIllustrator وPublisher. تُسلَّم الملفات بالصيغة نفسها التي ترسلها — دون تحويل أو فقدان جودة."
+          },
+          {
+            "q": "هل تتعاملون مع اللغات من اليمين إلى اليسار كالعربية والعبرية؟",
+            "a": "نعم — لغات RTL تخصص أساسي لدينا. نعكس التخطيطات، ونعيد بناء الجداول والترقيم، ونصحح علامات الترقيم ثنائية الاتجاه، وننضّد بخطوط عربية وعبرية مرخّصة في InDesign ME."
+          },
+          {
+            "q": "كيف تتعاملون مع خطوط الصينية واليابانية وغيرها؟",
+            "a": "نحتفظ بمكتبة خطوط متعددة اللغات مرخّصة ونطابق محارف CJK وغير اللاتينية مع الطباعة اللاتينية لعلامتك، لتبدو كل نسخة لغوية من العائلة نفسها."
+          },
+          {
+            "q": "هل سيبدو المستند المترجم مطابقًا للأصل؟",
+            "a": "هذا هو الهدف. نعالج تمدد النص (الألمانية قد تطول 30% والصينية تقصر 20%)، ونعيد تدفق التخطيطات، ونطبق قائمة تحقق ما قبل الطباعة ليعكس الملف المترجم تصميم الأصل."
+          },
+          {
+            "q": "ماذا تحتاجون منا للبدء؟",
+            "a": "يفضَّل الملفات المصدرية الأصلية (INDD وFM وDOCX) مع خطوط العلامة وأدلة الأسلوب. وإن لم يتوفر إلا PDF، فيمكننا عادةً إعادة بنائه — أرسل ما لديك عبر [صفحة الاتصال](/ar/contact/) وسننصحك."
           }
         ]
       },
@@ -8223,7 +9032,29 @@
             "filter_all_gender": "كلا الجنسين",
             "langs_zh": "الصينية"
           }
-        }
+        },
+        "faq": [
+          {
+            "q": "أصوات الذكاء الاصطناعي أم ممثلو صوت بشريون؟",
+            "a": "أصوات الذكاء الاصطناعي تناسب معظم المحتوى المؤسسي والتدريبي والمنتجات — سريعة ومتسقة وبنحو ثلث تكلفة الاستوديو. ويبقى الممثلون البشريون الخيار الصحيح لأفلام العلامة والسرد العاطفي وليب-سينك الدرامي. كثير من العملاء يمزجون بينهما، ويسعدنا إسداء النصح لكل مشروع."
+          },
+          {
+            "q": "كيف تضمنون نطق الذكاء الاصطناعي لعلامتنا ومصطلحاتنا التقنية بشكل صحيح؟",
+            "a": "نبني قاموس نطق مخصصًا لكل مشروع يغطي أسماء العلامات والأرقام المرجعية والمصطلحات، ثم نضبط الأداء بدقة عبر SSML. ويتحقق متحدث أصلي من كل مصطلح قبل التسليم."
+          },
+          {
+            "q": "ما اللغات والأصوات المتاحة؟",
+            "a": "يغطي كتالوجنا المنتقى 130 صوتًا بالذكاء الاصطناعي عبر أكثر من 20 لغة ولهجة — لكل صوت عينة حقيقية يمكنك الاستماع إليها في هذه الصفحة. والمواهب الصوتية البشرية متاحة لجميع اللغات التجارية الرئيسية."
+          },
+          {
+            "q": "ماذا تسلّمون؟",
+            "a": "صوتًا جاهزًا للبث: مسارات ممزوجة مُطبَّعة على جهارة EBU R128، ومسارات منفصلة عند الحاجة، وتوقيت ليب-سينك أو ملفات ترجمة مصاحبة اختيارية. التسليم بصيغة WAV أو أي صيغة يتطلبها سير عملك."
+          },
+          {
+            "q": "كم تكلفة الدبلجة؟",
+            "a": "تبدأ الدبلجة بالذكاء الاصطناعي من $15 للدقيقة النهائية؛ أما الصوت البشري فيُسعَّر لكل مشروع حسب اللغة والموهبة وحقوق الاستخدام. [تواصل معنا](/ar/contact/) مع النص أو الفيديو لتحصل على عرض سعر ثابت خلال 24 ساعة."
+          }
+        ]
       },
       "services/localization/video": {
         "title": "توطين الفيديو والرسوم",
@@ -8255,6 +9086,28 @@
           {
             "title": "التسعير بالدقيقة",
             "desc": "الترجمة $8 للدقيقة، والترجمة مع الرسومات $25، والحزمة الكاملة مع الدبلجة الذكية $55؛ خصومات من 60 دقيقة."
+          }
+        ],
+        "faq": [
+          {
+            "q": "الترجمة المصاحبة أم الدبلجة — أيهما أحتاج؟",
+            "a": "يعتمد على السوق والمحتوى: التدريب المؤسسي وعروض المنتجات تستحق الدبلجة عادةً، بينما تحقق مقاطع التواصل والتسويق أفضل أداء مع ترجمة مصاحبة منسّقة. نوصي حسب السوق المستهدف — أو نسلّم كليهما من سير العمل نفسه."
+          },
+          {
+            "q": "هل يمكنكم توطين النصوص على الشاشة والرسوم المتحركة؟",
+            "a": "نعم. نحرّر ملفات مشاريع After Effects أو Premiere Pro أو Motion الأصلية ونعيد بناء كل طبقة نص ولافتة وبطاقة عنوان باللغة المستهدفة — مع الحفاظ على الإطارات المفتاحية والتعبيرات والتوقيت."
+          },
+          {
+            "q": "ما منصات المونتاج التي تعملون بها؟",
+            "a": "Adobe Creative Cloud (Premiere Pro وAfter Effects وAudition وMedia Encoder)، وSony Vegas Pro وSound Forge، وللمحتوى ثلاثي الأبعاد Autodesk Maya و3ds Max. ترسل ملفات المشروع فتستلم ملفات المشروع."
+          },
+          {
+            "q": "ما صيغ الترجمة المصاحبة التي تسلّمونها؟",
+            "a": "SRT وVTT وASS/SSA وSTL وSCC وTTML وصيغ خاصة بالمنصات كيوتيوب ومواصفات نتفليكس والبث. وتتوفر نسخ مدمجة الترجمة عند الطلب."
+          },
+          {
+            "q": "كيف يُحسب سعر توطين الفيديو؟",
+            "a": "بالدقيقة النهائية: الترجمة المصاحبة من $8/دقيقة، وإعادة بناء النصوص على الشاشة من $25/دقيقة، والحزم الكاملة مع دبلجة الذكاء الاصطناعي من $55/دقيقة. أما الدبلجة البشرية فتُسعَّر لكل مشروع. راجع [الأسعار](/ar/prices/) للتفاصيل."
           }
         ]
       },
@@ -8288,6 +9141,28 @@
           {
             "title": "التسعير بالوحدة",
             "desc": "الوحدة البسيطة $250 والمعقدة (فيديو وتفرعات ومراجعة كاملة) $600؛ وخصومات للمناهج من 10 وحدات فأكثر مع عقود تحديث مستمرة."
+          }
+        ],
+        "faq": [
+          {
+            "q": "ما أدوات التأليف التي تدعمونها؟",
+            "a": "نعمل بشكل أصيل في Articulate Storyline وRise 360 وAdobe Captivate وLectora وiSpring وElucidat وdominKnow وGomo وAdapt وH5P وغيرها. ترسل الملفات المصدرية فتستلم ملفات مُوطَّنة جاهزة للنشر في الأداة نفسها."
+          },
+          {
+            "q": "هل ستظل الدورة المُوطَّنة تعمل في نظام LMS لدينا؟",
+            "a": "نعم. نعيد تغليف كل دورة ونتحقق منها وفق SCORM 1.2/2004 أو xAPI في SCORM Cloud، ويمكننا الاختبار في نظامك تحديدًا (Moodle وCornerstone وSuccessFactors وWorkday وDocebo) قبل التسليم."
+          },
+          {
+            "q": "ما أجزاء الدورة التي تُوطَّن؟",
+            "a": "كل ما يراه المتعلم أو يسمعه: نصوص الشرائح، والتعليق الصوتي (ذكاء اصطناعي أو بشري)، والفيديو المضمّن والترجمة المصاحبة، وأسئلة الاختبارات وملاحظاتها، والصور المحتوية على نص، وواجهة المشغّل نفسها."
+          },
+          {
+            "q": "كم تستغرق الوحدة النموذجية؟",
+            "a": "الوحدة القياسية بطول 20–30 دقيقة تستغرق نحو 5–7 أيام عمل لكل لغة شاملة ضبط الجودة. أما المناهج الكبيرة فتُسلَّم على دفعات متتابعة لتنطلق اللغات الأولى بينما الباقي قيد الإنتاج."
+          },
+          {
+            "q": "كم تكلفة توطين التعليم الإلكتروني؟",
+            "a": "تبدأ ترجمة النص من $0.12 للكلمة؛ ويتراوح توطين الوحدة الكامل عادةً بين $250 و$600 لكل وحدة ولغة حسب التفاعلية والوسائط. وتتوفر أسعار خاصة للمناهج من 10+ وحدات."
           }
         ]
       },
@@ -8428,7 +9303,71 @@
         "title": "التكلفة الحقيقية للتوطين الضعيف في تسويق B2B",
         "summary": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر.",
         "description": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
+      },
+      "cases/ai-dubbing-industrial-videos": {
+        "title": "عميل باسم سرّي — الدبلجة بالذكاء الاصطناعي لفيديوهات صناعية",
+        "domain": "اسم سرّي · مصنع معدات صناعية",
+        "industry": "المعدات الصناعية / التصنيع",
+        "service_label": "توطين · دبلجة بالذكاء الاصطناعي",
+        "tagline": "42 فيديو مدبلجة إلى 6 لغات بأصوات الذكاء الاصطناعي مع مراجعة متحدثين أصليين — التسليم في ثلاثة أسابيع بثلث تكلفة الاستوديو",
+        "description": "دبلجة 42 فيديو للمنتجات والتدريب بالذكاء الاصطناعي إلى 6 لغات، مع قاموس نطق مخصص ومراجعة من متحدثين أصليين",
+        "challenge": "كانت مكتبة الفيديو بالإنجليزية فقط وطلب الموزعون نسخاً محلية؛ عروض الاستوديو تجاوزت الميزانية بثلاثة أضعاف مع عشرة أسابيع، وكان العميل قلقاً من نطق الذكاء الاصطناعي للأرقام المرجعية والمصطلحات التقنية",
+        "solution": "مشروع تجريبي بالألمانية والعربية للتحقق من الجودة؛ اختيار الأصوات من كتالوج 130 صوتاً بما يناسب كل سوق؛ إعادة صياغة النصوص بإيقاع منطوق؛ قاموس نطق للأرقام المرجعية والمصطلحات؛ ضبط الإيقاع عبر SSML؛ مراجعة متحدث أصلي لكل لغة وفق قائمة تحقق ثابتة",
+        "results_desc": "سُلّمت النسخ الـ252 خلال ثلاثة أسابيع بنحو ثلث أدنى عرض من الاستوديوهات؛ وأدرج العميل الدبلجة بالذكاء الاصطناعي في عملية الإصدار القياسية، فأصبح كل فيديو جديد يصدر باللغات الست في يوم الإطلاق",
+        "results_short": [
+          "42 فيديو × 6 لغات = 252 نسخة خلال 3 أسابيع",
+          "أقل بنحو 65% من أدنى عروض الاستوديو",
+          "الدبلجة بالذكاء الاصطناعي أصبحت إجراءً قياسياً لكل فيديو جديد"
+        ],
+        "body": "نجاح الدبلجة بالذكاء الاصطناعي نادراً ما يتوقف على الصوت نفسه، بل على البنية المحيطة به: نصوص مكتوبة للنطق، وقاموس نطق يصيب الأرقام المرجعية في كل مرة، وبوابة مراجعة من متحدث أصلي قبل التسليم. حينها تتحول الدبلجة بالذكاء الاصطناعي من حل وسط إلى ميزة إنتاجية حقيقية."
+      },
+      "cases/video-subtitling-medical-launch": {
+        "title": "عميل باسم سرّي — فيديوهات إطلاق بـ12 لغة",
+        "domain": "اسم سرّي · شركة أجهزة طبية",
+        "industry": "الأجهزة الطبية / الرعاية الصحية",
+        "service_label": "توطين · فيديو + ترجمة مصاحبة",
+        "tagline": "موعد إطلاق عالمي واحد واثنتا عشرة نسخة لغوية — الترجمة المصاحبة والنصوص على الشاشة والرسوم المتحركة أُعيد بناؤها وسُلّمت قبل الموعد النهائي",
+        "description": "توطين 8 فيديوهات لإطلاق عالمي إلى 12 لغة مع إدارة مصطلحات بمستوى تنظيمي، وتوقيت ترجمة مصاحبة، وإعادة بناء طبقات النص في After Effects",
+        "challenge": "إطلاق عالمي متزامن بموعد نهائي ثابت؛ 8 فيديوهات تضم نصوصاً كثيفة على الشاشة ضمن رسوم After Effects متحركة ومصطلحات طبية خاضعة للتنظيم — وسبق أن سلّم مورّد سابق ترجمات حرفية لمصطلحات الجرعات اعتبرها مراجع إقليمي غير ممتثلة",
+        "solution": "بدأنا بالمصطلحات لا بالترجمة: قاعدة مصطلحات من مسارد العميل المعتمدة تنظيمياً واعتماد المصطلحات الخلافية من المراجعين الإقليميين قبل البدء؛ مترجمون طبيون أصليون اختصروا الحوار وفق سرعة القراءة لكل لغة؛ إعادة بناء النصوص على الشاشة داخل ملفات After Effects مع الحفاظ على الإطارات المفتاحية؛ ثم مرحلتا مراجعة: لغوية ومشاهدة سياقية للنسخة النهائية",
+        "results_desc": "سُلّمت النسخ الـ96 قبل موعد الإطلاق بخمسة أيام دون أي اعتراض مصطلحي من الفرق التنظيمية الإقليمية — سابقة في حملات العميل العالمية؛ وأُعيدت ملفات After Effects المُعاد بناؤها إلى وكالة العميل لإعادة استخدامها",
+        "results_short": [
+          "8 فيديوهات × 12 لغة، سُلّمت قبل الموعد بخمسة أيام",
+          "صفر اعتراضات مصطلحية من الفرق التنظيمية",
+          "ملفات After Effects أُعيد بناؤها وأُرجعت للعميل"
+        ],
+        "body": "تفشل ترجمة الإطلاقات في أماكن متوقعة: مصطلحات تُحسم متأخراً، وترجمة مصاحبة موقوتة على إيقاع المترجم لا المشاهد، ورسوم متحركة تُعامل كفكرة لاحقة. عكس هذا الترتيب — المصطلحات أولاً، فالتوقيت، فالرسوم بالتوازي — هو ما يجعل الموعد العالمي الثابت قابلاً للتحقيق."
+      },
+      "cases/arabic-rtl-gulf-expansion": {
+        "title": "عميل باسم سرّي — موقع ومواد تسويقية عربية لأسواق الخليج",
+        "domain": "اسم سرّي · مصنع مواد بناء",
+        "industry": "مواد البناء / الإنشاءات",
+        "service_label": "توطين · عربي RTL + نشر مكتبي",
+        "tagline": "دخول متكامل إلى السوق العربية — موقع RTL وكتيبات InDesign وتهيئة لمحركات بحث الخليج — وأولى استفسارات الموزعين بعد ستة أسابيع من الإطلاق",
+        "description": "توطين موقع ومواد تسويقية لمصنع مواد بناء إلى العربية للسعودية والإمارات، شمل كتابة عربية أصيلة وتكييف تخطيط RTL وتنضيد الكتيبات في InDesign",
+        "challenge": "محاولة العميل الأولى — صفحات عربية مترجمة آلياً أُلحقت بالموقع الإنجليزي — أضرّت بمصداقيته: انهار التخطيط في القراءة من اليمين إلى اليسار، وظهرت علامات الترقيم والأرقام المختلطة بشكل خاطئ، وتفاوتت كتابة أسماء المنتجات، ولم تكن ملفات InDesign للكتيبات تدعم العربية أصلاً",
+        "solution": "أعدنا بناء الحضور العربي من النص أولاً: كتّاب عرب أصليون بخبرة في قطاع الإنشاءات أعادوا صياغة الصفحات الأساسية كنصوص بيعية أصيلة مع مسرد موحد لكتابة أسماء المنتجات؛ وعُكس الموقع بالكامل إلى RTL مع ضبط hreflang؛ ونُضّدت الكتيبات في InDesign داعم للعربية بخطوط مرخّصة تنسجم مع هوية العلامة؛ وبالتوازي أجرينا بحث كلمات مفتاحية لسلوك البحث السعودي والإماراتي",
+        "results_desc": "أُطلق الموقع العربي خلال 5 أسابيع، ووصلت أولى استفسارات الموزعين المباشرة من السعودية والإمارات خلال 6 أسابيع — أول عملاء محتملين من المنطقة دون وسطاء؛ وظهرت الكتيبات العربية لأول مرة في معرض Big 5 دبي؛ وبدأت الصفحات العربية تتصدر نتائج مصطلحات المنتجات الخليجية خلال الربع الأول",
+        "results_short": [
+          "الموقع خلال 5 أسابيع؛ وأولى الاستفسارات الخليجية خلال 6",
+          "كتيب من 24 صفحة أُعيد تنضيده بالعربية لمعرض Big 5 دبي",
+          "الصفحات العربية تتصدر مصطلحات المنتجات الخليجية خلال ربع واحد"
+        ],
+        "body": "يفشل دخول السوق العربية بصمت حين يُختزل في ترجمة وقلب اتجاه CSS: يقرأ مشترو الخليج العربية المترجمة آلياً كما تقرأ أنت دليلاً رديء الترجمة — رسالة مفادها أن سوقهم مجرد إضافة ثانوية. أما النص الأصيل وتخطيط RTL المُحكم والتنضيد الذي يحترم قواعد الخط العربي فيروي القصة المعاكسة تماماً."
       }
+    },
+    "glossary": {
+      "hero_label": "قاعدة المعرفة",
+      "back": "كل المصطلحات",
+      "read_term": "اقرأ التعريف",
+      "related": "مواد ذات صلة"
+    },
+    "industries": {
+      "label": "القطاعات",
+      "explore": "استكشف هذا القطاع",
+      "services_title": "ما نقدمه لهذا القطاع",
+      "cases_title": "دراسات الحالة",
+      "articles_title": "رؤى وأدلة"
     }
   }
 }

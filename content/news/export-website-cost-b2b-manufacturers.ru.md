@@ -3,7 +3,7 @@ title: "Сколько стоит B2B-сайт для экспорта: прак
 date: 2026-05-26T09:00:00+08:00
 publishDate: 2026-05-26T09:00:00+08:00
 category: "industry"
-category_label: "Отрасль"
+category_label: "Индустрия"
 tags: ["экспортный сайт", "B2B сайт", "производители", "заявки"]
 cover: "/images/news/website-export.jpg"
 author: "MediaLocalize Team"

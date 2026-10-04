@@ -3,7 +3,7 @@ title: "企业培训视频 AI 配音怎么选 成本质量和交付周期"
 date: 2026-09-15T09:00:00+08:00
 publishDate: 2026-09-15T09:00:00+08:00
 category: "tech"
-category_label: "技术趋势"
+category_label: "技术洞察"
 tags: ["AI 配音", "培训视频本地化", "企业学习", "多语言视频"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"

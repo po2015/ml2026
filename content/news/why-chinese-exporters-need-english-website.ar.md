@@ -2,7 +2,7 @@
 title: "التكلفة الخفية لغياب موقع إنجليزي"
 date: 2026-04-05
 category: "industry"
-category_label: "السوق"
+category_label: "القطاع"
 tags: ["التصدير", "B2B", "موقع إلكتروني", "مصنعون صينيون", "التسويق الدولي"]
 cover: "/images/news/chinese-export.jpg"
 author: "MediaLocalize Team"

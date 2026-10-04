@@ -3,7 +3,7 @@ title: "Cómo estructurar un catálogo web B2B para generar más solicitudes"
 date: 2026-07-15T09:00:00+08:00
 publishDate: 2026-07-15T09:00:00+08:00
 category: "industry"
-category_label: "Sector"
+category_label: "Industria"
 tags: ["catálogo de productos", "web B2B", "solicitudes", "fabricantes"]
 cover: "/images/news/manufacturing-catalog.jpg"
 author: "MediaLocalize Team"

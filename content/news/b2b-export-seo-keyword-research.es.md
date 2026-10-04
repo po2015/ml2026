@@ -2,8 +2,8 @@
 title: "SEO internacional B2B: cómo elegir palabras clave para fabricantes"
 date: 2026-06-15T09:00:00+08:00
 publishDate: 2026-06-15T09:00:00+08:00
-category: "marketing"
-category_label: "Marketing"
+category: "tech"
+category_label: "Tecnología"
 tags: ["SEO B2B", "palabras clave", "fabricantes", "Google"]
 cover: "/images/news/seo-analytics.jpg"
 author: "MediaLocalize Team"

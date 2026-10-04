@@ -2,8 +2,8 @@
 title: "Traducción técnica y DTP: checklist para preparar manuales multilingües"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
-category: "localization"
-category_label: "Localización"
+category: "tech"
+category_label: "Tecnología"
 tags: ["traducción técnica", "DTP", "manuales multilingües", "preparación de archivos"]
 cover: "/images/news/translation-memory.jpg"
 author: "MediaLocalize Team"

@@ -2,7 +2,7 @@
 title: "التكلفة الحقيقية للتوطين الضعيف في تسويق B2B"
 date: 2019-07-09
 category: "industry"
-category_label: "السوق"
+category_label: "القطاع"
 tags: ["التوطين", "B2B", "تسويق التصدير", "جودة الترجمة", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."

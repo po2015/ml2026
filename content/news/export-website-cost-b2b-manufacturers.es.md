@@ -3,7 +3,7 @@ title: "Cuánto cuesta una web B2B de exportación: presupuesto realista para fa
 date: 2026-05-26T09:00:00+08:00
 publishDate: 2026-05-26T09:00:00+08:00
 category: "industry"
-category_label: "Sector"
+category_label: "Industria"
 tags: ["web de exportación", "sitio B2B", "fabricantes", "captación de leads"]
 cover: "/images/news/website-export.jpg"
 author: "MediaLocalize Team"

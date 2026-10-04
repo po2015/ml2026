@@ -3,7 +3,7 @@ title: "Как оформить товарный каталог на B2B-сай�
 date: 2026-07-15T09:00:00+08:00
 publishDate: 2026-07-15T09:00:00+08:00
 category: "industry"
-category_label: "Отрасль"
+category_label: "Индустрия"
 tags: ["каталог продукции", "B2B сайт", "заявки", "производители"]
 cover: "/images/news/manufacturing-catalog.jpg"
 author: "MediaLocalize Team"

@@ -2,7 +2,7 @@
 title: "ما هو توطين المواقع ولماذا يهم مصدري B2B"
 date: 2014-03-11
 category: "industry"
-category_label: "السوق"
+category_label: "القطاع"
 tags: ["توطين الموقع", "B2B", "التصدير", "التسويق الدولي"]
 cover: "/images/news/website-export.jpg"
 summary: "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."

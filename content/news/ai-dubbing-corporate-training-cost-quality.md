@@ -3,7 +3,7 @@ title: "AI Dubbing for Corporate Training Videos: Cost, Quality, and Turnaround"
 date: 2026-09-15T09:00:00+08:00
 publishDate: 2026-09-15T09:00:00+08:00
 category: "tech"
-category_label: "Technology"
+category_label: "Tech Insights"
 tags: ["AI dubbing", "training video localization", "corporate learning", "multilingual video"]
 cover: "/images/news/ai-dubbing.jpg"
 author: "MediaLocalize Team"
