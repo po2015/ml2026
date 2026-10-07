@@ -1,0 +1,35 @@
+name: Scheduled rebuild
+
+# Cloudflare Pages' git integration rebuilds on every push to main, but has
+# no built-in scheduler. This workflow pushes an empty commit on a schedule,
+# which triggers a Cloudflare build via the normal push webhook — so
+# future-dated news articles go live automatically.
+#
+# Note: pushes made with GITHUB_TOKEN do not re-trigger GitHub Actions
+# workflows (recursion guard), but they DO fire git webhooks, which is what
+# Cloudflare Pages listens to. No secrets or Cloudflare settings needed.
+#
+# Weekly (Mondays, Beijing 09:15). To run daily instead, change the cron to:
+#   - cron: '15 1 * * *'
+
+on:
+  schedule:
+    - cron: '15 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Push empty commit to trigger Cloudflare build
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled rebuild (publish dated news)"
+          git push origin main
