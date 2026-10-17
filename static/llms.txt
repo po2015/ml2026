@@ -1,0 +1,32 @@
+# MediaLocalize
+
+> AI-powered website building and professional multilingual localization services for B2B manufacturers and exporters. English, Chinese, and 50+ languages — one specialist partner since 2009.
+
+The site is available in 5 languages: English (root), Chinese (/zh/), Spanish (/es/), Russian (/ru/), and Arabic (/ar/, RTL). Every URL below has a counterpart in each language under those prefixes.
+
+## Services
+
+- [AI Website Building](https://www.medialocalize.com/services/website-building/): End-to-end AI-built websites for exporters — domain, design, on-page SEO, hosting, CDN, SSL, business email, AI customer service.
+- [Multilingual Localization](https://www.medialocalize.com/services/localization/): Document, website, and software localization in 50+ languages.
+- [DTP — InDesign & FrameMaker](https://www.medialocalize.com/services/localization/dtp/): Multilingual desktop publishing and pre-press QA.
+- [AI & Human Voice Dubbing](https://www.medialocalize.com/services/localization/dubbing/): AI and human voice-over for corporate and marketing video.
+- [E-Learning Localization](https://www.medialocalize.com/services/localization/elearning/): SCORM/xAPI course localization, Articulate Storyline workflows.
+- [Video & Animation Localization](https://www.medialocalize.com/services/localization/video/): Subtitling, on-screen text replacement, voice-over.
+
+## Company
+
+- [Pricing](https://www.medialocalize.com/prices/): Three website packages (Starter/Growth/Business) — one-time setup + annual plan, USD.
+- [Case Studies](https://www.medialocalize.com/cases/): Client work across manufacturing, e-learning, and video localization.
+- [Industries](https://www.medialocalize.com/industries/): Industries served.
+- [About](https://www.medialocalize.com/about/): Company background, founded 2009.
+- [Contact](https://www.medialocalize.com/contact/): ken.lee@medialocalize.com — response within one business day.
+
+## Knowledge Base
+
+- [Insights (articles)](https://www.medialocalize.com/news/): 130+ articles on localization, AI dubbing, multilingual DTP, e-learning, and export websites.
+- [Glossary](https://www.medialocalize.com/glossary/): Definitions of localization terms (DTP, MTPE, SCORM, hreflang, RTL, SSML…).
+
+## Feeds
+
+- [RSS](https://www.medialocalize.com/index.xml)
+- [Sitemap](https://www.medialocalize.com/sitemap.xml)

@@ -4,7 +4,7 @@
 {{- $desc := partial "i18n/description.html" . -}}
 {{- $cover := $page.cover | default "/images/services/localization.jpg" -}}
 
-<section class="service-img-hero" style="--hero-img:url('{{ $cover }}');">
+<section class="service-img-hero" style="--hero-img:url('{{ partial "img/hero-url.html" $cover }}');">
   <div class="page-hero-inner reveal">
     <p class="section-label">{{ $page.section_label | default $copy.service_detail.section_label }}</p>
     <h1 class="page-hero-title">{{ $title }}</h1>

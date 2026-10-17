@@ -5,7 +5,7 @@
 {{- $copy := partial "i18n/site.html" . -}}
 
 <!-- Hero -->
-<section class="service-img-hero" style="--hero-img:url('/images/services/dtp.jpg');">
+<section class="service-img-hero" style="--hero-img:url('{{ partial "img/hero-url.html" "/images/services/dtp.jpg" }}');">
   <div class="page-hero-inner reveal">
     <p class="section-label">Localization</p>
     <h1 class="page-hero-title">{{ .Title }}</h1>

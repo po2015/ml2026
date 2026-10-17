@@ -89,7 +89,11 @@
       "pagination_prev": "Prev",
       "pagination_next": "Next",
       "coming_soon": "Coming Soon",
-      "no_articles": "No articles found."
+      "no_articles": "No articles found.",
+      "page_of": "Page %d of %d",
+      "not_found_title": "Page not found",
+      "not_found_desc": "The page you are looking for doesn't exist or may have been moved.",
+      "back_home": "Back to homepage"
     },
     "footer": {
       "desc": "Multilingual localization and AI-powered website building for Chinese manufacturers, B2B exporters, and global enterprises. English, Chinese, and 50+ languages — one specialist partner since 2009.",
@@ -1594,7 +1598,8 @@
       "hero_label": "Knowledge Base",
       "back": "All terms",
       "read_term": "Read definition",
-      "related": "Related reading"
+      "related": "Related reading",
+      "title": "Glossary"
     },
     "industries": {
       "label": "Industries",
@@ -1694,7 +1699,11 @@
       "pagination_prev": "上一页",
       "pagination_next": "下一页",
       "coming_soon": "即将发布",
-      "no_articles": "暂无文章"
+      "no_articles": "暂无文章",
+      "page_of": "第 %d 页，共 %d 页",
+      "not_found_title": "页面未找到",
+      "not_found_desc": "您访问的页面不存在或已被移动。",
+      "back_home": "返回首页"
     },
     "footer": {
       "desc": "面向中国制造企业、B2B 出口商和全球团队，提供多语言本地化与 AI 建站服务，覆盖英文、中文及 50+ 语言",
@@ -3534,7 +3543,8 @@
       "hero_label": "知识库",
       "back": "返回术语库",
       "read_term": "阅读释义",
-      "related": "相关阅读"
+      "related": "相关阅读",
+      "title": "术语库"
     },
     "industries": {
       "label": "行业",
@@ -3634,7 +3644,11 @@
       "pagination_prev": "Anterior",
       "pagination_next": "Siguiente",
       "coming_soon": "Próximamente",
-      "no_articles": "No hay artículos disponibles."
+      "no_articles": "No hay artículos disponibles.",
+      "page_of": "Página %d de %d",
+      "not_found_title": "Página no encontrada",
+      "not_found_desc": "La página que buscas no existe o ha sido movida.",
+      "back_home": "Volver al inicio"
     },
     "footer": {
       "desc": "Localización multilingüe y sitios web con IA para fabricantes chinos, exportadores B2B y equipos globales. Un socio especializado desde 2009.",
@@ -5476,7 +5490,8 @@
       "hero_label": "Base de conocimientos",
       "back": "Todos los términos",
       "read_term": "Leer la definición",
-      "related": "Lecturas relacionadas"
+      "related": "Lecturas relacionadas",
+      "title": "Glosario"
     },
     "industries": {
       "label": "Sectores",
@@ -5576,7 +5591,11 @@
       "pagination_prev": "Назад",
       "pagination_next": "Далее",
       "coming_soon": "Скоро",
-      "no_articles": "Статей пока нет."
+      "no_articles": "Статей пока нет.",
+      "page_of": "Страница %d из %d",
+      "not_found_title": "Страница не найдена",
+      "not_found_desc": "Запрашиваемая страница не существует или была перемещена.",
+      "back_home": "На главную"
     },
     "footer": {
       "desc": "Многоязычная локализация и AI-сайты для китайских производителей, B2B-экспортеров и международных команд. Специализация с 2009 года.",
@@ -7418,7 +7437,8 @@
       "hero_label": "База знаний",
       "back": "Все термины",
       "read_term": "Читать определение",
-      "related": "Связанные материалы"
+      "related": "Связанные материалы",
+      "title": "Глоссарий"
     },
     "industries": {
       "label": "Отрасли",
@@ -7518,7 +7538,11 @@
       "pagination_prev": "السابق",
       "pagination_next": "التالي",
       "coming_soon": "قريبًا",
-      "no_articles": "لا توجد مقالات بعد."
+      "no_articles": "لا توجد مقالات بعد.",
+      "page_of": "الصفحة %d من %d",
+      "not_found_title": "الصفحة غير موجودة",
+      "not_found_desc": "الصفحة التي تبحث عنها غير موجودة أو ربما تم نقلها.",
+      "back_home": "العودة إلى الصفحة الرئيسية"
     },
     "footer": {
       "desc": "توطين متعدد اللغات وبناء مواقع مدعوم بالذكاء الاصطناعي للمصنعين والمصدرين وشركات B2B منذ عام 2009.",
@@ -9360,7 +9384,8 @@
       "hero_label": "قاعدة المعرفة",
       "back": "كل المصطلحات",
       "read_term": "اقرأ التعريف",
-      "related": "مواد ذات صلة"
+      "related": "مواد ذات صلة",
+      "title": "المسرد"
     },
     "industries": {
       "label": "القطاعات",

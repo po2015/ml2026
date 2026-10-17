@@ -26,7 +26,7 @@
 <!-- Cover image -->
 {{ with .Params.cover }}
 <div class="article-cover-wrap">
-  <img src="{{ . }}" alt="{{ $page.title | default $.Title }}" class="article-cover-img" loading="eager">
+  {{ partial "img/responsive.html" (dict "src" . "alt" ($page.title | default $.Title) "class" "article-cover-img" "loading" "eager" "sizes" "(max-width: 1200px) 100vw, 1200px") }}
 </div>
 {{ end }}
 
@@ -121,6 +121,27 @@
         </div>
       </div>
       {{ end }}
+
+      {{- /* Glossary cross-links: match article tags against glossary term slugs */ -}}
+      {{- with .Params.tags }}
+      {{- $glossTerms := slice -}}
+      {{- range where $.Site.RegularPages "Section" "glossary" -}}
+        {{- $t := . -}}
+        {{- range $.Params.tags -}}
+          {{- if eq (. | urlize) $t.File.ContentBaseName -}}
+            {{- $glossTerms = $glossTerms | append $t -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{ if $glossTerms }}
+      <div class="sidebar-widget">
+        <p class="sidebar-widget-title">{{ $copy.glossary.title | default "Glossary" }}</p>
+        <div class="sidebar-tag-cloud">
+          {{ range $glossTerms }}<a href="{{ .RelPermalink }}" class="sidebar-tag">{{ .Title }}</a>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+      {{- end }}
 
       <div class="sidebar-widget sidebar-cta">
         <p class="sidebar-widget-title">{{ $copy.common.project_prompt }}</p>

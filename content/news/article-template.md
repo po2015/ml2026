@@ -109,10 +109,10 @@ Ordered list example (for steps or ranked items):
 
 ## H2: Third Major Section
 
-Image with caption example (Hugo renders raw HTML when unsafe = true):
+Image with caption example (use the img shortcode — it generates responsive WebP srcset automatically):
 
 <figure>
-  <img src="/images/news/your-image.jpg" alt="Descriptive alt text" loading="lazy">
+  {{< img src="/images/news/your-image.jpg" alt="Descriptive alt text" >}}
   <figcaption>Caption text: explain what the image shows and why it matters to the reader.</figcaption>
 </figure>
 

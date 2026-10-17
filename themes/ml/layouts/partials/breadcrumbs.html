@@ -1,0 +1,32 @@
+{{- /* Visible breadcrumb nav + matching BreadcrumbList JSON-LD.
+     Trail is built from the .Parent chain, so it works for any section/depth. */ -}}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $ancestors := slice -}}
+{{- $p := .Parent -}}
+{{- range seq 6 -}}
+  {{- if and $p (not $p.IsHome) -}}
+    {{- $ancestors = $ancestors | append $p -}}
+    {{- $p = $p.Parent -}}
+  {{- end -}}
+{{- end -}}
+{{- $crumbs := slice (dict "name" (index $copy.nav.items 0).label "url" ("/" | relLangURL)) -}}
+{{- range $i := seq (len $ancestors) -}}
+  {{- $a := index $ancestors (sub (len $ancestors) $i) -}}
+  {{- $name := partial "i18n/title.html" $a | replaceRE `\s*[—|–-]\s*MediaLocalize$` "" -}}
+  {{- $crumbs = $crumbs | append (dict "name" $name "url" $a.RelPermalink) -}}
+{{- end -}}
+{{- $current := partial "i18n/title.html" . -}}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol class="breadcrumbs-inner">
+    {{- range $crumbs }}
+    <li><a href="{{ .url }}">{{ .name }}</a><span class="breadcrumb-sep" aria-hidden="true">›</span></li>
+    {{- end }}
+    <li><span aria-current="page">{{ $current }}</span></li>
+  </ol>
+</nav>
+{{- $ld := slice -}}
+{{- range $i, $c := $crumbs -}}
+  {{- $ld = $ld | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" ($c.url | absURL)) -}}
+{{- end -}}
+{{- $ld = $ld | append (dict "@type" "ListItem" "position" (add (len $crumbs) 1) "name" $current "item" $.Permalink) -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $ld | jsonify | safeJS }}</script>

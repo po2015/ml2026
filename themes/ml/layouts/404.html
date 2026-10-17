@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{{- $copy := partial "i18n/site.html" . -}}
+<html lang="{{ $copy.meta.htmlLang }}" dir="{{ $copy.meta.dir }}">
+<head>
+  {{- partial "head.html" . }}
+</head>
+<body>
+  {{- partial "nav.html" . }}
+  <main id="main-content">
+    <section class="section-dark page-hero">
+      <div class="page-hero-inner reveal">
+        <p class="section-label">404</p>
+        <h1 class="page-hero-title">{{ $copy.common.not_found_title }}</h1>
+        <p class="page-hero-subtitle">{{ $copy.common.not_found_desc }}</p>
+        <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:32px;">
+          <a href="{{ "/" | relLangURL }}" class="btn btn-primary">{{ $copy.common.back_home }}</a>
+          <a href="{{ "/services/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.explore_services }}</a>
+          <a href="{{ "/news/" | relLangURL }}" class="btn btn-secondary-dark">{{ $copy.common.all_articles }}</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  {{- partial "footer.html" . }}
+  {{- partial "scroll-reveal.html" . }}
+</body>
+</html>

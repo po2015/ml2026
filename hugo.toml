@@ -81,7 +81,7 @@ canonifyURLs = false
       schemaLanguage = "ar"
 
 [pagination]
-  pagerSize = 6
+  pagerSize = 12
 
 [taxonomies]
   tag = "tags"

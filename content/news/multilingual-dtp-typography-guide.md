@@ -31,7 +31,7 @@ What a DTP engineer actually does on a typical project:
 - Exports to PDF/X-1a or PDF/X-4 for print, or interactive PDF for screen delivery
 
 <figure>
-  <img src="/images/services/localization.jpg" alt="Multilingual document localization workflow" loading="lazy">
+  {{< img src="/images/services/localization.jpg" alt="Multilingual document localization workflow" >}}
   <figcaption>A typical multilingual DTP project handles parallel InDesign packages for each language, with linked image assets shared across all versions.</figcaption>
 </figure>
 

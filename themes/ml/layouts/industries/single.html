@@ -59,7 +59,7 @@
       <article class="case-card reveal">
         {{ with $c.Params.cover }}
         <div class="case-cover">
-          <img src="{{ . }}" alt="{{ $page.title | default $c.Title }} preview" loading="lazy">
+          {{ partial "img/responsive.html" (dict "src" . "alt" ($page.title | default $c.Title) "sizes" "(max-width: 768px) 100vw, 50vw") }}
         </div>
         {{ end }}
         <div class="case-card-header">
@@ -109,7 +109,7 @@
       <article class="news-card reveal">
         {{ with $c.Params.cover }}
         <div class="news-card-cover">
-          <img src="{{ . }}" alt="{{ $page.title | default $c.Title }}" loading="lazy">
+          {{ partial "img/responsive.html" (dict "src" . "alt" ($page.title | default $c.Title) "sizes" "(max-width: 768px) 100vw, 33vw") }}
         </div>
         {{ end }}
         <div class="news-card-body">

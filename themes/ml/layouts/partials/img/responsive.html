@@ -1,0 +1,27 @@
+{{- /* Renders a responsive <img> with WebP srcset + original-format fallback.
+     Args (dict):
+       src     — path like "/images/news/foo.jpg" (file must live in assets/images/)
+       alt     — alt text (required for SEO/a11y)
+       class   — optional CSS class
+       loading — "lazy" (default) or "eager"
+       sizes   — sizes attr, default "100vw"
+       widths  — slice of srcset widths, default 480/800/1200
+     Falls back to a plain <img src> if the resource is not found. */ -}}
+{{- $path := strings.TrimPrefix "/" .src -}}
+{{- $res := resources.Get $path -}}
+{{- if $res -}}
+{{- $widths := .widths | default (slice 480 800 1200) -}}
+{{- $srcset := slice -}}
+{{- range $w := $widths -}}
+  {{- if le $w $res.Width -}}
+    {{- $r := $res.Resize (printf "%dx webp" $w) -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink $w) -}}
+  {{- end -}}
+{{- end -}}
+{{- $targetW := $res.Width -}}
+{{- if gt $res.Width 1200 }}{{ $targetW = 1200 }}{{ end -}}
+{{- $fallback := $res.Resize (printf "%dx" $targetW) -}}
+<img src="{{ $fallback.RelPermalink }}"{{ if $srcset }} srcset="{{ delimit $srcset ", " }}" sizes="{{ .sizes | default "100vw" }}"{{ end }} width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
+{{- else -}}
+<img src="{{ .src }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
+{{- end -}}

@@ -1,0 +1,11 @@
+{{- /* Returns a processed image URL (max 1920w) for CSS background usage.
+     Falls back to the input path if the resource is not found. */ -}}
+{{- $path := strings.TrimPrefix "/" . -}}
+{{- $url := . -}}
+{{- with resources.Get $path -}}
+{{- $w := .Width -}}
+{{- if gt $w 1920 }}{{ $w = 1920 }}{{ end -}}
+{{- $r := .Resize (printf "%dx" $w) -}}
+{{- $url = $r.RelPermalink -}}
+{{- end -}}
+{{- return $url -}}

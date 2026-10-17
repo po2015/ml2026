@@ -15,7 +15,7 @@
 <section class="{{ if eq (mod $idx 2) 0 }}section-white{{ else }}section-light{{ end }} section-pad">
   <div class="container">
     <div class="service-feature-row reveal">
-      {{ if eq $idx 1 }}<img src="{{ $service.image }}" alt="{{ $service.title }}" class="reveal reveal-delay-1" loading="lazy">{{ end }}
+      {{ if eq $idx 1 }}{{ partial "img/responsive.html" (dict "src" $service.image "alt" $service.title "class" "reveal reveal-delay-1" "sizes" "(max-width: 768px) 100vw, 50vw") }}{{ end }}
       <div>
         <p class="section-label">{{ $service.label }}</p>
         <h2 class="section-headline mb-16">{{ $service.title }}</h2>
@@ -31,7 +31,7 @@
         <a href="{{ $service.url | relLangURL }}" class="btn btn-primary" style="margin-right:12px;">{{ $copy.common.learn_more }}</a>
         <a href="{{ $service.secondary_url | relLangURL }}" class="btn btn-secondary-light">{{ $service.secondary }}</a>
       </div>
-      {{ if eq $idx 0 }}<img src="{{ $service.image }}" alt="{{ $service.title }}" class="reveal reveal-delay-1" loading="lazy">{{ end }}
+      {{ if eq $idx 0 }}{{ partial "img/responsive.html" (dict "src" $service.image "alt" $service.title "class" "reveal reveal-delay-1" "sizes" "(max-width: 768px) 100vw, 50vw") }}{{ end }}
     </div>
   </div>
 </section>

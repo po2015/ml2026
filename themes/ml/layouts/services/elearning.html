@@ -5,7 +5,7 @@
 {{- $copy := partial "i18n/site.html" . -}}
 
 <!-- Hero -->
-<section class="service-img-hero" style="--hero-img:url('/images/services/elearning.jpg');">
+<section class="service-img-hero" style="--hero-img:url('{{ partial "img/hero-url.html" "/images/services/elearning.jpg" }}');">
   <div class="page-hero-inner reveal">
     <p class="section-label">Localization</p>
     <h1 class="page-hero-title">{{ .Title }}</h1>
@@ -176,7 +176,7 @@
           <li>CJK typography and character spacing (Chinese, Japanese, Korean)</li>
         </ul>
       </div>
-      <img src="/images/services/elearning.jpg" alt="E-Learning Localization" class="reveal reveal-delay-1" loading="lazy">
+      {{ partial "img/responsive.html" (dict "src" "/images/services/elearning.jpg" "alt" "E-Learning Localization" "class" "reveal reveal-delay-1" "sizes" "(max-width: 768px) 100vw, 50vw") }}
     </div>
   </div>
 </section>

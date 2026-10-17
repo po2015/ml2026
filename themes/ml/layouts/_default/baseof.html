@@ -6,6 +6,9 @@
 </head>
 <body>
   {{- partial "nav.html" . }}
+  {{- if and (not .IsHome) (not (in (slice "taxonomy" "term" "404") .Kind)) }}
+    {{- partial "breadcrumbs.html" . }}
+  {{- end }}
   <main id="main-content">
     {{- block "main" . }}{{- end }}
   </main>

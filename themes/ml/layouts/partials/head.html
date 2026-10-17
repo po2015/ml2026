@@ -6,15 +6,62 @@
 {{- $siteName := "MediaLocalize" }}
 {{- $copy := partial "i18n/site.html" . }}
 {{- $pageTitle := partial "i18n/title.html" . }}
-{{- $title := cond .IsHome $pageTitle (printf "%s | %s" $pageTitle $siteName) }}
+{{- /* Append brand only when the title doesn't already contain it */ -}}
+{{- $title := $pageTitle }}
+{{- if and (not .IsHome) (not (strings.Contains $pageTitle $siteName)) }}
+{{- $title = printf "%s | %s" $pageTitle $siteName }}
+{{- end }}
 {{- $desc := partial "i18n/description.html" . | default $copy.common.site_description }}
+{{- $robots := "index, follow" }}
+
+{{- /* Taxonomy pages are thin content: noindex + unique titles.
+       Hugo kinds: "taxonomy" = terms list (/tags/), "term" = single term (/tags/seo/) */ -}}
+{{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $robots = "noindex, follow" }}
+{{- if eq .Kind "term" }}
+{{- $termName := .Title }}
+{{- if eq .Data.Singular "category" }}{{ $termName = index $copy.common.category_labels (lower .Title) | default .Title }}{{ end }}
+{{- $taxLabel := $copy.taxonomy.tag }}
+{{- if eq .Data.Singular "category" }}{{ $taxLabel = $copy.taxonomy.category }}{{ end }}
+{{- $title = printf "%s: %s | %s" $taxLabel $termName $siteName }}
+{{- else }}
+{{- $listLabel := $copy.taxonomy.all_tags }}
+{{- if eq .Data.Plural "category" }}{{ $listLabel = $copy.taxonomy.all_categories }}{{ end }}
+{{- $title = printf "%s | %s" $listLabel $siteName }}
+{{- end }}
+{{- end }}
+
+{{- if eq .Kind "404" }}
+{{- $robots = "noindex, follow" }}
+{{- $title = printf "%s | %s" $copy.common.not_found_title $siteName }}
+{{- $desc = $copy.common.not_found_desc }}
+{{- end }}
+
+{{- /* Paginated list pages: disambiguate duplicate titles/descriptions */ -}}
+{{- if and .IsNode (gt .Paginator.PageNumber 1) }}
+{{- $pageOf := printf ($copy.common.page_of | default "Page %d of %d") .Paginator.PageNumber .Paginator.TotalPages }}
+{{- $title = printf "%s — %s" $title $pageOf }}
+{{- $desc = printf "%s (%s)" $desc $pageOf }}
+{{- end }}
+
+{{- /* OG image: process through assets pipeline when possible (stable fallback: static og-image.png) */ -}}
 {{- $ogImage := .Params.cover | default .Params.image | default "/images/og-image.png" }}
+{{- $ogURL := $ogImage | absURL }}
+{{- $ogW := 1200 }}
+{{- $ogH := 630 }}
+{{- with resources.Get (strings.TrimPrefix "/" $ogImage) }}
+{{- $tw := .Width }}{{ if gt $tw 1200 }}{{ $tw = 1200 }}{{ end }}
+{{- $og := .Resize (printf "%dx" $tw) }}
+{{- $ogURL = $og.Permalink }}
+{{- $ogW = $og.Width }}
+{{- $ogH = $og.Height }}
+{{- end }}
 {{- $canonical := .Permalink }}
 
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="author" content="{{ $siteName }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="{{ $robots }}">
 {{- if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{- end }}
@@ -24,7 +71,9 @@
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ $canonical }}">
-<meta property="og:image" content="{{ $ogImage | absURL }}">
+<meta property="og:image" content="{{ $ogURL }}">
+<meta property="og:image:width" content="{{ $ogW }}">
+<meta property="og:image:height" content="{{ $ogH }}">
 <meta property="og:site_name" content="{{ $siteName }}">
 <meta property="og:locale" content="{{ $copy.meta.locale }}">
 {{- if and (eq .Section "news") .IsPage }}
@@ -37,10 +86,15 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
-<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+<meta name="twitter:image" content="{{ $ogURL }}">
 
 <!-- Canonical -->
 <link rel="canonical" href="{{ $canonical }}">
+
+<!-- RSS autodiscovery -->
+{{ with .OutputFormats.Get "RSS" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $siteName }}" href="{{ .Permalink }}">
+{{ end -}}
 {{- range .AllTranslations }}
 {{- $trCopy := index .Site.Data.site_i18n .Site.Language.Lang }}
 <link rel="alternate" hreflang="{{ $trCopy.meta.schemaLanguage | default .Site.Language.Lang }}" href="{{ .Permalink }}">
@@ -113,17 +167,6 @@
   "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
-    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 1).label | jsonify | safeJS }},"item":"{{ "/services/" | absLangURL }}"},
-    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
-  ]
-}
-</script>
 {{- end }}
 
 {{- if and (eq .Section "news") .IsPage }}
@@ -149,23 +192,12 @@
       "url": "https://www.medialocalize.com/images/og-image.png"
     }
   },
-  "image": "{{ $ogImage | absURL }}",
+  "image": "{{ $ogURL }}",
   "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ $canonical }}"
   }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
-    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 4).label | jsonify | safeJS }},"item":"{{ "/news/" | absLangURL }}"},
-    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
-  ]
 }
 </script>
 {{- end }}
@@ -192,19 +224,73 @@
       "url": "https://www.medialocalize.com/images/og-image.png"
     }
   },
-  "image": "{{ $ogImage | absURL }}",
+  "image": "{{ $ogURL }}",
   "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
 }
 </script>
+{{- end }}
+
+{{- if and (eq .Section "glossary") .IsPage }}
+<!-- Structured Data: DefinedTerm -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":{{ (index $copy.nav.items 0).label | jsonify | safeJS }},"item":"{{ "/" | absLangURL }}"},
-    {"@type":"ListItem","position":2,"name":{{ (index $copy.nav.items 3).label | jsonify | safeJS }},"item":"{{ "/cases/" | absLangURL }}"},
-    {"@type":"ListItem","position":3,"name":{{ $pageTitle | jsonify | safeJS }},"item":"{{ $canonical }}"}
+  "@type": "DefinedTerm",
+  "name": {{ $pageTitle | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "url": "{{ $canonical }}",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "MediaLocalize Localization Glossary",
+    "url": "{{ "/glossary/" | absLangURL }}"
+  },
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }}
+}
+</script>
+{{- end }}
+
+{{- if and (eq .Section "glossary") (eq .Kind "section") }}
+<!-- Structured Data: DefinedTermSet -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": {{ $pageTitle | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "url": "{{ $canonical }}",
+  "inLanguage": {{ $copy.meta.schemaLanguage | jsonify | safeJS }},
+  "hasDefinedTerm": [
+    {{- range $i, $t := .Pages }}{{ if $i }},{{ end }}
+    {"@type":"DefinedTerm","name":{{ $t.Title | jsonify | safeJS }},"url":"{{ $t.Permalink }}"}
+    {{- end }}
   ]
+}
+</script>
+{{- end }}
+
+{{- if and (eq .Section "prices") (eq .Kind "section") }}
+<!-- Structured Data: pricing offers (keep in sync with company.yaml) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "AI-Powered Website Building",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediaLocalize",
+    "url": "https://www.medialocalize.com"
+  },
+  "url": "{{ $canonical }}",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Website Building Packages",
+    "itemListElement": [
+      {"@type":"Offer","name":"Starter","description":"$199 one-time setup + $199/year (hosting, maintenance, support). Everything you need to go live.","priceSpecification":{"@type":"PriceSpecification","price":"398","priceCurrency":"USD","description":"First-year total: $199 setup + $199 annual"}},
+      {"@type":"Offer","name":"Growth","description":"$499 one-time setup + $299/year. Scale your online presence.","priceSpecification":{"@type":"PriceSpecification","price":"798","priceCurrency":"USD","description":"First-year total: $499 setup + $299 annual"}},
+      {"@type":"Offer","name":"Business","description":"$999 one-time setup + $399/year. Full-featured with AI customer service.","priceSpecification":{"@type":"PriceSpecification","price":"1398","priceCurrency":"USD","description":"First-year total: $999 setup + $399 annual"}}
+    ]
+  }
 }
 </script>
 {{- end }}

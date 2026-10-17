@@ -1,0 +1,9 @@
+{{- /* Responsive image shortcode for Markdown bodies:
+     {{< img src="/images/news/foo.jpg" alt="..." >}} */ -}}
+{{- partial "img/responsive.html" (dict
+  "src" (.Get "src")
+  "alt" (.Get "alt")
+  "class" (.Get "class")
+  "loading" (.Get "loading")
+  "sizes" (.Get "sizes")
+) -}}

@@ -26,9 +26,10 @@
       {{ range .Pages }}
       {{- $page := partial "i18n/page.html" . -}}
       <article class="case-card reveal" data-service="{{ .Params.service | default "website-building" }}">
+        {{- $caseTitle := $page.title | default .Title -}}
         {{ with .Params.cover }}
         <div class="case-cover">
-          <img src="{{ . }}" alt="{{ $page.title | default $.Title }} preview" loading="lazy">
+          {{ partial "img/responsive.html" (dict "src" . "alt" $caseTitle "sizes" "(max-width: 768px) 100vw, 50vw") }}
         </div>
         {{ end }}
         <div class="case-card-header">

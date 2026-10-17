@@ -36,9 +36,10 @@
       {{- $page := partial "i18n/page.html" . -}}
       {{ $cat := .Params.category | default "other" }}
       <article class="news-card reveal">
+        {{- $articleTitle := $page.title | default .Title -}}
         {{ with .Params.cover }}
         <div class="news-card-cover">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          {{ partial "img/responsive.html" (dict "src" . "alt" $articleTitle "sizes" "(max-width: 768px) 100vw, 33vw") }}
         </div>
         {{ end }}
         <div class="news-card-body">

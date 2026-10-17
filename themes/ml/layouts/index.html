@@ -80,9 +80,10 @@
       {{ with $case }}
       {{- $page := partial "i18n/page.html" . -}}
       <article class="case-card reveal reveal-delay-{{ add $idx 1 }}">
+        {{- $caseTitle := $page.title | default .Title -}}
         {{ with .Params.cover }}
         <div class="case-cover" style="height:160px;">
-          <img src="{{ . }}" alt="{{ $page.title | default $.Title }}" loading="lazy">
+          {{ partial "img/responsive.html" (dict "src" . "alt" $caseTitle "sizes" "(max-width: 768px) 100vw, 33vw") }}
         </div>
         {{ end }}
         <div class="case-card-header">

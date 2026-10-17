@@ -3761,3 +3761,37 @@ html[lang="zh-CN"] .service-card-body {
   border-radius: 10px;
   padding: 1px 8px;
 }
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumbs {
+  background: var(--color-gray-light);
+  border-bottom: 1px solid var(--color-gray-border);
+  padding: calc(var(--nav-height) + 12px) 22px 12px;
+  font-size: 13px;
+}
+
+.breadcrumbs-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-gray-mid);
+}
+
+.breadcrumbs-inner li { display: flex; align-items: center; gap: 6px; }
+.breadcrumbs-inner a { color: inherit; text-decoration: none; }
+.breadcrumbs-inner a:hover { color: var(--color-blue); }
+.breadcrumb-sep { color: var(--color-gray-mid); }
+.breadcrumbs-inner [aria-current] { color: var(--color-near-black); }
+
+.breadcrumbs + .page-hero,
+.breadcrumbs + .article-hero,
+.breadcrumbs + .service-img-hero,
+.breadcrumbs + .case-hero-header {
+  padding-top: 48px;
+}
+
+/* RTL: flip the separator direction */
+[dir="rtl"] .breadcrumb-sep { transform: scaleX(-1); display: inline-block; }
