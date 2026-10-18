@@ -22,14 +22,15 @@ date: 2026-01-01
 category: "tech"
 category_label: "Tech Insights"   # 或 "Industry" / "Company"
 
-# 摘要：120–160 字符，用于列表页卡片和 meta description
+# 摘要：120–155 字符（硬性上限），用于列表页卡片和 meta description
+# 超过 165 字符会被模板自动截断（可能影响阅读），请控制在 155 以内
 # 应清楚说明读者能从文章获得什么，不要写成标题的重复
 summary: "One or two sentences summarising what the reader will learn. Should stand alone without reading the article."
 
 # ---[ 推荐填写 ]----------------------------------------------
 
 # 封面图（显示在文章顶部，also used for OG image）
-# 图片放在 /static/images/news/ 目录，建议尺寸 1200×630
+# 图片放在 /assets/images/news/ 目录（Hugo 管道处理），建议尺寸 1200×630
 cover: "/images/news/your-image.jpg"
 
 # 作者姓名（显示在文章底部）

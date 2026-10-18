@@ -1,6 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   {{ range .Data.Pages }}
   {{- /* Thin taxonomy term/list pages are excluded (also noindexed in head.html) */ -}}
   {{- if and .Permalink (not (in (slice "taxonomy" "term") .Kind)) }}
@@ -18,7 +19,10 @@
                 rel="alternate"
                 hreflang="{{ .Language.Lang }}"
                 href="{{ .Permalink }}"
-                />{{ end }}
+                />{{ end }}{{ with .Params.cover }}{{ with resources.Get (strings.TrimPrefix "/" .) }}{{- $tw := .Width }}{{ if gt $tw 1200 }}{{ $tw = 1200 }}{{ end }}{{- $img := .Resize (printf "%dx" $tw) }}
+    <image:image>
+      <image:loc>{{ $img.Permalink }}</image:loc>
+    </image:image>{{ end }}{{ end }}
   </url>
   {{- end }}
   {{- end }}

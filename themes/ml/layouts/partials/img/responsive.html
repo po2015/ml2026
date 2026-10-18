@@ -6,6 +6,7 @@
        loading — "lazy" (default) or "eager"
        sizes   — sizes attr, default "100vw"
        widths  — slice of srcset widths, default 480/800/1200
+       fetchpriority — "high" for LCP images (omit otherwise)
      Falls back to a plain <img src> if the resource is not found. */ -}}
 {{- $path := strings.TrimPrefix "/" .src -}}
 {{- $res := resources.Get $path -}}
@@ -21,7 +22,7 @@
 {{- $targetW := $res.Width -}}
 {{- if gt $res.Width 1200 }}{{ $targetW = 1200 }}{{ end -}}
 {{- $fallback := $res.Resize (printf "%dx" $targetW) -}}
-<img src="{{ $fallback.RelPermalink }}"{{ if $srcset }} srcset="{{ delimit $srcset ", " }}" sizes="{{ .sizes | default "100vw" }}"{{ end }} width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
+<img src="{{ $fallback.RelPermalink }}"{{ if $srcset }} srcset="{{ delimit $srcset ", " }}" sizes="{{ .sizes | default "100vw" }}"{{ end }} width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }}{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
 {{- else -}}
-<img src="{{ .src }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
+<img src="{{ .src }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }}{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} loading="{{ .loading | default "lazy" }}">
 {{- end -}}
