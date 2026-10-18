@@ -9,7 +9,11 @@
     <p class="section-label">{{ $ui.label }}</p>
     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px;justify-content:center;">
       {{ with ($page.industry | default .Params.industry) }}<span class="case-tag">{{ . }}</span>{{ end }}
-      {{ with ($page.service_label | default .Params.service_label) }}<span class="case-tag" style="background:rgba(52,199,89,0.18);color:#5af59a;">{{ . }}</span>{{ end }}
+      {{ $serviceURLs := dict "website-building" "/services/website-building/" "localization" "/services/localization/" "dtp" "/services/localization/dtp/" "dubbing" "/services/localization/dubbing/" "elearning" "/services/localization/elearning/" "video" "/services/localization/video/" }}
+      {{ with ($page.service_label | default .Params.service_label) }}
+      {{ $serviceURL := index $serviceURLs ($.Params.service | default "") | default "/services/" }}
+      <a href="{{ $serviceURL | relLangURL }}" class="case-tag" style="background:rgba(52,199,89,0.18);color:#5af59a;text-decoration:none;">{{ . }}</a>
+      {{ end }}
     </div>
     <h1 class="page-hero-title">{{ $page.domain | default .Params.domain | default .Title }}</h1>
     <p class="page-hero-subtitle">{{ $page.tagline | default .Params.tagline }}</p>
@@ -75,6 +79,16 @@
       {{ with .Content }}
       <div class="case-section reveal body-copy">{{ . }}</div>
       {{ end }}
+    {{ end }}
+
+    {{/* Optional client testimonial — only rendered when real quotes exist in front matter */}}
+    {{ with .Params.testimonial }}
+    <div class="case-section reveal">
+      <blockquote style="margin:0;padding:28px 32px;background:#fff;border-left:3px solid var(--color-blue);border-radius:0 16px 16px 0;">
+        <p style="font-size:19px;line-height:1.5;font-weight:500;margin:0 0 12px;">&ldquo;{{ . }}&rdquo;</p>
+        {{ with $.Params.testimonial_author }}<cite style="font-style:normal;font-size:14px;color:var(--color-gray-mid);">— {{ . }}</cite>{{ end }}
+      </blockquote>
+    </div>
     {{ end }}
 
   </div>

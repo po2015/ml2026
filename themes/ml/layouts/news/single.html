@@ -41,8 +41,18 @@
       </div>
 
       {{ with .Params.author }}
+      {{- $authorName := . -}}
+      {{- $authorPage := $.Site.GetPage (printf "/authors/%s" ($authorName | urlize)) -}}
       <div class="article-author-line">
-        <p>{{ $copy.common.written_by }} <strong>{{ . }}</strong></p>
+        <p>{{ $copy.common.written_by }}
+          {{ if $authorPage }}
+          <a href="{{ $authorPage.RelPermalink }}"><strong>{{ $authorName }}</strong></a>
+          {{ else if eq $authorName "MediaLocalize Team" }}
+          <a href="{{ "/about/" | relLangURL }}"><strong>{{ $authorName }}</strong></a>
+          {{ else }}
+          <strong>{{ $authorName }}</strong>
+          {{ end }}
+        </p>
       </div>
       {{ end }}
 
@@ -115,7 +125,7 @@
       <div class="sidebar-widget">
         <p class="sidebar-widget-title">{{ $copy.common.tags }}</p>
         <div class="sidebar-tag-cloud">
-          {{ range $allTags.ByCount }}
+          {{ range first 15 $allTags.ByCount }}
           <a href="{{ .Page.RelPermalink }}" class="sidebar-tag">{{ .Page.Title }}</a>
           {{ end }}
         </div>

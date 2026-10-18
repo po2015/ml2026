@@ -174,7 +174,8 @@
       "copyright": "MediaLocalize — Multilingual Localization & Global Website Experts. All rights reserved.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
-      "glossary": "Glossary"
+      "glossary": "Glossary",
+      "authors": "Authors"
     },
     "home": {
       "hero": {
@@ -1592,6 +1593,10 @@
             "a": "Text translation starts at $0.12 per word; complete module localization typically runs $250–$600 per module per language depending on interactivity and media. Volume pricing applies to curricula of 10+ modules."
           }
         ]
+      },
+      "authors": {
+        "title": "Our Authors",
+        "description": "Meet the specialists behind MediaLocalize's insights on localization, AI dubbing, multilingual DTP, and export websites."
       }
     },
     "glossary": {
@@ -1607,6 +1612,10 @@
       "services_title": "What we do for this industry",
       "cases_title": "Case studies",
       "articles_title": "Insights & guides"
+    },
+    "authors": {
+      "back": "All Authors",
+      "articles_by": "Articles by %s"
     }
   },
   "zh": {
@@ -1784,7 +1793,8 @@
       "copyright": "MediaLocalize — 多语言本地化与全球网站服务，保留所有权利",
       "privacy": "隐私政策",
       "terms": "服务条款",
-      "glossary": "术语库"
+      "glossary": "术语库",
+      "authors": "作者"
     },
     "home": {
       "hero": {
@@ -3537,6 +3547,10 @@
           "阿语页面一个季度内开始在海湾产品词排名"
         ],
         "body": "把阿语市场进入当成'翻译加 CSS 方向翻转'，失败是悄无声息的：海湾买家读机翻阿语，就像你读一本糟糕翻译的说明书——它传递的信号是这个市场只是顺带做做。母语文案、真正工程化的 RTL 版式和尊重阿文书写规则的排版，讲的是相反的故事。"
+      },
+      "authors": {
+        "title": "我们的作者",
+        "description": "认识 MediaLocalize 洞察文章背后的本地化、AI 配音、DTP 与外贸建站专家。"
       }
     },
     "glossary": {
@@ -3552,6 +3566,10 @@
       "services_title": "我们为该行业做什么",
       "cases_title": "客户案例",
       "articles_title": "洞察与指南"
+    },
+    "authors": {
+      "back": "全部作者",
+      "articles_by": "%s 的文章"
     }
   },
   "es": {
@@ -3729,7 +3747,8 @@
       "copyright": "MediaLocalize — Localización multilingüe y sitios globales. Todos los derechos reservados.",
       "privacy": "Privacidad",
       "terms": "Términos",
-      "glossary": "Glosario"
+      "glossary": "Glosario",
+      "authors": "Autores"
     },
     "home": {
       "hero": {
@@ -5484,6 +5503,10 @@
           "Páginas árabes posicionando en términos del Golfo en un trimestre"
         ],
         "body": "Entrar en el mercado árabe fracasa en silencio cuando se reduce a traducir y girar el CSS: los compradores del Golfo leen el árabe automático como tú lees un manual mal traducido — la señal de que su mercado es un extra. Copy nativo, RTL bien ingenierado y tipografía que respeta la escritura árabe cuentan la historia contraria."
+      },
+      "authors": {
+        "title": "Nuestros autores",
+        "description": "Conoce a los especialistas detrás de los artículos de MediaLocalize sobre localización, doblaje con IA, DTP multilingüe y sitios web de exportación."
       }
     },
     "glossary": {
@@ -5499,6 +5522,10 @@
       "services_title": "Qué hacemos por este sector",
       "cases_title": "Casos de éxito",
       "articles_title": "Análisis y guías"
+    },
+    "authors": {
+      "back": "Todos los autores",
+      "articles_by": "Artículos de %s"
     }
   },
   "ru": {
@@ -5676,7 +5703,8 @@
       "copyright": "MediaLocalize — многоязычная локализация и глобальные сайты. Все права защищены.",
       "privacy": "Конфиденциальность",
       "terms": "Условия",
-      "glossary": "Глоссарий"
+      "glossary": "Глоссарий",
+      "authors": "Авторы"
     },
     "home": {
       "hero": {
@@ -7431,6 +7459,10 @@
           "Арабские страницы в выдаче по запросам Залива за квартал"
         ],
         "body": "Выход на арабский рынок тихо проваливается, когда его сводят к переводу и смене направления в CSS: покупатели в Заливе читают машинный арабский так же, как вы читаете плохо переведённую инструкцию, — это сигнал, что их рынок второстепенен. Нативные тексты, грамотный RTL и вёрстка с уважением к арабской письменности говорят об обратном."
+      },
+      "authors": {
+        "title": "Наши авторы",
+        "description": "Специалисты, которые пишут для MediaLocalize о локализации, ИИ-озвучке, вёрстке DTP и экспортных сайтах."
       }
     },
     "glossary": {
@@ -7446,6 +7478,10 @@
       "services_title": "Что мы делаем для этой отрасли",
       "cases_title": "Кейсы",
       "articles_title": "Аналитика и руководства"
+    },
+    "authors": {
+      "back": "Все авторы",
+      "articles_by": "Статьи автора: %s"
     }
   },
   "ar": {
@@ -7623,7 +7659,8 @@
       "copyright": "MediaLocalize — توطين متعدد اللغات ومواقع عالمية. جميع الحقوق محفوظة.",
       "privacy": "الخصوصية",
       "terms": "الشروط",
-      "glossary": "المسرد"
+      "glossary": "المسرد",
+      "authors": "الكُتّاب"
     },
     "home": {
       "hero": {
@@ -9378,6 +9415,10 @@
           "الصفحات العربية تتصدر مصطلحات المنتجات الخليجية خلال ربع واحد"
         ],
         "body": "يفشل دخول السوق العربية بصمت حين يُختزل في ترجمة وقلب اتجاه CSS: يقرأ مشترو الخليج العربية المترجمة آلياً كما تقرأ أنت دليلاً رديء الترجمة — رسالة مفادها أن سوقهم مجرد إضافة ثانوية. أما النص الأصيل وتخطيط RTL المُحكم والتنضيد الذي يحترم قواعد الخط العربي فيروي القصة المعاكسة تماماً."
+      },
+      "authors": {
+        "title": "كُتّابنا",
+        "description": "تعرف على الخبراء الذين يكتبون مقالات MediaLocalize عن التوطين والدبلجة بالذكاء الاصطناعي وDTP ومواقع التصدير."
       }
     },
     "glossary": {
@@ -9393,6 +9434,10 @@
       "services_title": "ما نقدمه لهذا القطاع",
       "cases_title": "دراسات الحالة",
       "articles_title": "رؤى وأدلة"
+    },
+    "authors": {
+      "back": "كل الكُتّاب",
+      "articles_by": "مقالات %s"
     }
   }
 }

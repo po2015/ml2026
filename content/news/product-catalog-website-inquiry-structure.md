@@ -40,4 +40,6 @@ If the document library is not complete, start with a clean PDF specification sh
 
 A good product catalog is not a display wall. It is an inquiry guidance system. It turns complex manufacturing capability into signals a buyer can evaluate quickly.
 
+For the broader picture — how OEM buyers evaluate suppliers, certification visibility, and SEO for OEM search terms — see [How to Generate OEM Inquiries With Your Manufacturing Website](/news/oem-product-catalog-website-guide/).
+
 If your product range is technical or model-heavy, we can help restructure the catalog and inquiry path: [view our website service](/services/website-building/).

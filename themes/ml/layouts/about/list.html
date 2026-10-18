@@ -38,10 +38,7 @@
       <div class="team-card reveal reveal-delay-{{ add (mod $idx 2) 1 }}" style="text-align:left;padding:36px;">
         <div style="display:flex;align-items:center;gap:20px;margin-bottom:20px;">
           <div class="team-avatar-photo" style="flex-shrink:0;">
-            {{ $nameSlug := $member.name | lower | replaceRE "[^a-z0-9]+" "-" | strings.TrimSuffix "-" }}
-            <img src="/images/team/{{ $nameSlug }}.jpg" alt="{{ $member.name }}" width="150" height="150"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-            <div class="team-avatar" style="background:linear-gradient(135deg,#3AB5FF,#0052CC);width:72px;height:72px;font-size:22px;display:none;">{{ substr $member.name 0 1 }}</div>
+            <div class="team-avatar" style="background:linear-gradient(135deg,#3AB5FF,#0052CC);width:72px;height:72px;font-size:22px;display:flex;" aria-hidden="true">{{ substr $member.name 0 1 }}</div>
           </div>
           <div>
             <div class="team-name" style="font-size:20px;">{{ $member.name }}</div>

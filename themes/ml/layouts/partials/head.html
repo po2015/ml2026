@@ -6,9 +6,12 @@
 {{- $siteName := "MediaLocalize" }}
 {{- $copy := partial "i18n/site.html" . }}
 {{- $pageTitle := partial "i18n/title.html" . }}
-{{- /* Append brand only when the title doesn't already contain it */ -}}
+{{- /* Append brand only when the title doesn't already contain it.
+       Content single pages (news/cases/glossary/industries) skip the suffix —
+       their titles are long and the brand adds no ranking value in SERPs. */ -}}
+{{- $skipBrand := and .IsPage (in (slice "news" "cases" "glossary" "industries") .Section) -}}
 {{- $title := $pageTitle }}
-{{- if and (not .IsHome) (not (strings.Contains $pageTitle $siteName)) }}
+{{- if and (not .IsHome) (not $skipBrand) (not (strings.Contains $pageTitle $siteName)) }}
 {{- $title = printf "%s | %s" $pageTitle $siteName }}
 {{- end }}
 {{- $desc := partial "i18n/description.html" . | default $copy.common.site_description }}
@@ -181,8 +184,15 @@
   "datePublished": "{{ .Params.date | time.Format "2006-01-02" }}",
   "dateModified": "{{ .Lastmod | time.Format "2006-01-02" }}",
   "author": {
-    "@type": {{ if .Params.author }}"Person"{{ else }}"Organization"{{ end }},
-    "name": {{ (.Params.author | default "MediaLocalize") | jsonify | safeJS }}
+    {{- $authorName := .Params.author | default "MediaLocalize" -}}
+    {{- $authorIsPerson := and .Params.author (ne .Params.author "MediaLocalize Team") -}}
+    "@type": {{ if $authorIsPerson }}"Person"{{ else }}"Organization"{{ end }},
+    "name": {{ $authorName | jsonify | safeJS }}
+    {{- if $authorIsPerson -}}
+    {{- with .Site.GetPage (printf "/authors/%s" ($authorName | urlize)) -}}
+    , "url": "{{ .Permalink }}"
+    {{- end -}}
+    {{- end }}
   },
   "publisher": {
     "@type": "Organization",

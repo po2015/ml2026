@@ -1,6 +1,7 @@
 ---
-title: "How to Build a Product Catalog Website That Generates OEM Inquiries"
+title: "How to Generate OEM Inquiries With Your Manufacturing Website"
 date: 2021-04-13
+lastmod: 2026-10-18
 category: "industry"
 category_label: "Industry"
 tags: ["website-building", "OEM", "product-catalog", "B2B-website", "export"]
@@ -32,6 +33,8 @@ Downloadable datasheets also serve as a qualified engagement signal. When a buye
 **Genuine contact infrastructure.** An OEM inquiry is not a casual purchase question. It is a serious qualification conversation that begins with technical requirements and leads, if successful, to a formal RFQ process. The contact pathway should reflect this: a professional inquiry form that asks the right questions, a visible email address, and a stated response time commitment.
 
 ## Page Structure That Works
+
+This section covers the essentials. For a focused walkthrough of catalog page structure and inquiry CTAs, see [How to Structure a Product Catalog Website That Converts B2B Buyers](/news/product-catalog-website-inquiry-structure/).
 
 A product catalog website optimized for OEM inquiries typically follows this structure:
 

@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{- $copy := partial "i18n/site.html" . -}}
+{{- $page := partial "i18n/page.html" . -}}
+
+<section class="section-dark page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="section-label">MediaLocalize</p>
+    <h1 class="page-hero-title">{{ $page.title | default .Title }}</h1>
+    <p class="page-hero-subtitle">{{ $page.description | default .Params.description }}</p>
+  </div>
+</section>
+
+<section class="section-light section-pad">
+  <div class="container">
+    <div class="team-grid">
+      {{ range .Pages }}
+      {{- $authorPage := . -}}
+      {{- $slug := .File.ContentBaseName -}}
+      {{- range $copy.about.team -}}
+      {{- if eq (.name | urlize) $slug }}
+      <a href="{{ $authorPage.RelPermalink }}" class="team-card reveal" style="text-decoration:none;color:inherit;display:block;">
+        <div style="display:flex;align-items:center;gap:20px;margin-bottom:16px;">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#3AB5FF,#0052CC);width:64px;height:64px;font-size:20px;display:flex;flex-shrink:0;" aria-hidden="true">{{ substr .name 0 1 }}</div>
+          <div>
+            <div class="team-name">{{ .name }}</div>
+            <div class="team-role">{{ .role }}</div>
+            <span class="team-exp">{{ .exp }}</span>
+          </div>
+        </div>
+        <p class="team-bio" style="margin:0;">{{ .bio }}</p>
+      </a>
+      {{- end -}}
+      {{- end -}}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
