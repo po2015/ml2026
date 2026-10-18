@@ -34,7 +34,8 @@ Not users by country — *conversions* by country. An export site often discover
 
 ### 2. Landing pages from organic search
 
-Which pages do international buyers actually enter on? For healthy B2B sites, the answer is product and application pages — not the homepage. If your top organic landing pages are your homepage and one blog post from two years ago, your product pages are not ranking, and that is an SEO problem with a specific address. Cross-reference with [Search Console data](/news/google-search-console-exporters/) to see which queries drive those entrances.
+<!-- TODO: re-link "Search Console data" to /news/google-search-console-exporters/ once it publishes -->
+Which pages do international buyers actually enter on? For healthy B2B sites, the answer is product and application pages — not the homepage. If your top organic landing pages are your homepage and one blog post from two years ago, your product pages are not ranking, and that is an SEO problem with a specific address. Cross-reference with Search Console data to see which queries drive those entrances.
 
 ### 3. Engagement rate on product pages, by country
 

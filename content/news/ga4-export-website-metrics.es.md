@@ -34,7 +34,7 @@ No usuarios por país: *conversiones* por país. Un sitio de exportación suele 
 
 ### 2. Páginas de destino desde búsqueda orgánica
 
-¿En qué páginas entran realmente los compradores internacionales? En sitios B2B saludables, la respuesta es páginas de producto y de aplicaciones, no la página de inicio. Si sus principales páginas de destino orgánicas son la portada y una entrada de blog de hace dos años, sus páginas de producto no están posicionando, y eso es un problema de SEO con una dirección específica. Cruce la información con los [datos de Search Console](/es/news/google-search-console-exporters/) para ver qué consultas generan esas entradas.
+¿En qué páginas entran realmente los compradores internacionales? En sitios B2B saludables, la respuesta es páginas de producto y de aplicaciones, no la página de inicio. Si sus principales páginas de destino orgánicas son la portada y una entrada de blog de hace dos años, sus páginas de producto no están posicionando, y eso es un problema de SEO con una dirección específica. Cruce la información con los datos de Search Console para ver qué consultas generan esas entradas.
 
 ### 3. Tasa de interacción en páginas de producto, por país
 

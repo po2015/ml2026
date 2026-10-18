@@ -48,7 +48,8 @@ For most exporters targeting the EU, this baseline covers the realistic risk env
 ## Localization mistakes specific to legal pages
 
 - **Translating legal pages with generic machine translation.** Legal register matters; a mistranslated liability clause in your German terms is a liability of its own. Legal pages deserve [professional translation with legal review](/services/localization/).
-- **Letting versions drift.** When the English privacy policy updates (new tool added) and the German one does not, you have a compliance gap in exactly the market that enforces hardest. Treat legal pages as [versioned content](/news/multilingual-content-version-control/) with an owner.
+<!-- TODO: re-link "versioned content" to /news/multilingual-content-version-control/ once it publishes -->
+- **Letting versions drift.** When the English privacy policy updates (new tool added) and the German one does not, you have a compliance gap in exactly the market that enforces hardest. Treat legal pages as versioned content with an owner.
 - **Translating concepts that don't transfer.** "Impressum" has no English equivalent; cookie consent mechanics differ by jurisdiction. Localization here is adaptation, not word substitution — sometimes the correct move is a jurisdiction-specific page, not a translated one.
 
 ## What skipping this actually costs

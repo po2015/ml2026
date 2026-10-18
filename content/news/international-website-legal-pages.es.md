@@ -48,7 +48,7 @@ Para la mayoría de los exportadores que apuntan a la UE, esta base cubre el rie
 ## Errores de localización específicos de las páginas legales
 
 - **Traducir páginas legales con traducción automática genérica.** El registro legal importa; una cláusula de responsabilidad mal traducida en sus términos en alemán es una responsabilidad en sí misma. Las páginas legales merecen [traducción profesional con revisión legal](/es/services/localization/).
-- **Dejar que las versiones diverjan.** Cuando la política de privacidad en inglés se actualiza (nueva herramienta agregada) y la alemana no, usted tiene una brecha de cumplimiento justo en el mercado que más hace cumplir las normas. Trate las páginas legales como [contenido versionado](/es/news/multilingual-content-version-control/) con un responsable.
+- **Dejar que las versiones diverjan.** Cuando la política de privacidad en inglés se actualiza (nueva herramienta agregada) y la alemana no, usted tiene una brecha de cumplimiento justo en el mercado que más hace cumplir las normas. Trate las páginas legales como contenido versionado con un responsable.
 - **Traducir conceptos que no se transfieren.** «Impressum» no tiene equivalente en inglés; la mecánica del consentimiento de cookies varía según la jurisdicción. Aquí la localización es adaptación, no sustitución de palabras: a veces la decisión correcta es una página específica por jurisdicción, no una traducida.
 
 ## Lo que realmente cuesta omitir esto

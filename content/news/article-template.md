@@ -167,11 +167,15 @@ If [topic] is relevant to your current project, [talk to our team](/contact/) �
   CHECKLIST BEFORE SUBMITTING
 ==============================================================
 [ ] Title includes primary keyword and is under 60 chars
-[ ] Summary is 120–160 chars and stands alone
+[ ] Summary is 120–155 chars (hard limit) and stands alone
 [ ] All H2 headings use sentence case (not Title Case)
 [ ] At least one table or list in the article
 [ ] At least one internal link to a service or case study page
-[ ] cover image path is correct and image exists in /static/
+[ ] Internal links point ONLY to already-published pages (never to
+    future-dated articles — they 404 until the weekly rebuild publishes them)
+[ ] At least 1–2 links to authoritative external sources where a claim
+    benefits from citation (Google docs, standards bodies, official guidelines)
+[ ] cover image path is correct and image exists in /assets/images/news/
 [ ] tags match the article content (3–6 tags)
 [ ] author field is set to a real team member name
 [ ] No filler phrases ("In today's world...", "It goes without saying...")
