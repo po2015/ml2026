@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "infografías", "gráficos", "localización visual"]
 keywords: ["localización de infografías", "traducción de gráficos", "localización de diagramas"]
 cover: "/images/news/infographic-chart-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Un gráfico no es una imagen con palabras encima: es texto, números, ejes, colores y orden de lectura fusionados en un solo argumento. Cómo localizar gráficos de datos sin romper el argumento ni el diseño."
 ---
 

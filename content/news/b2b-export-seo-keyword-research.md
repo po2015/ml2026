@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Tech Insights"
 tags: ["export SEO", "keyword research", "B2B manufacturing", "Google search"]
 cover: "/images/news/seo-analytics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Export SEO is not about translating a product catalog. It is about matching the search language of international buyers."
 ---
 

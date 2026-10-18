@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["creación de sitios web", "SEO", "nombre de dominio", "exportación B2B"]
 keywords: ["seo nombre de dominio", "dominio sitio web exportación", "cctld vs com"]
 cover: "/images/news/export-website-domain-name-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Una decisión de dominio toma diez minutos y dura una década. Qué importa realmente para los compradores internacionales y los buscadores — y qué puede ignorar con tranquilidad."
 ---
 

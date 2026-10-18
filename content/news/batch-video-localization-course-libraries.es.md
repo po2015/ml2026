@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "bibliotecas de cursos", "procesamiento por lotes", "e-learning"]
 keywords: ["localización de video por lotes", "traducción de bibliotecas de cursos", "localización masiva de video"]
 cover: "/images/news/batch-video-localization-course-libraries.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "47 videos de capacitación de producto, 4 idiomas, un trimestre. Hecho video por video, son 188 proyectos secuenciales — y 188 oportunidades de reinventar el glosario, la voz y el gráfico de apertura. Las bibliotecas de video solo se localizan de forma eficiente como un lote: el diseño de pipeline que convierte 188 proyectos en uno solo."
 ---
 

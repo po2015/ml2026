@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Japón", "localización de sitios web", "confianza"]
 keywords: ["sitio web b2b japonés", "localización de sitios web para japón", "cultura empresarial japonesa sitio web"]
 cover: "/images/news/japanese-b2b-website-trust.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Los compradores japoneses leen su sitio web de otra manera: con más formalidad, más exhaustividad y una lista de verificación más larga. Qué genera realmente confianza B2B en Japón, y los atajos que le descalifican silenciosamente."
 ---
 

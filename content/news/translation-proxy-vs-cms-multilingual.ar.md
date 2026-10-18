@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التوطين", "بنية المواقع", "CMS", "بروكسي الترجمة"]
 keywords: ["بروكسي الترجمة", "تعدد اللغات في CMS", "بنية توطين المواقع"]
 cover: "/images/news/translation-proxy-vs-cms-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "طريقتان لجعل موقعك متعدد اللغات: بروكسي يترجم لحظياً، أو نسخ لغوية حقيقية في نظام إدارة المحتوى. البروكسي سريع الإطلاق ومكلف التملّك — مقارنة بنيوية صريحة للمصدّرين."
 ---
 

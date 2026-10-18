@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "SDH", "accessibility", "subtitles"]
 keywords: ["sdh subtitles", "accessibility captions", "subtitles for deaf hard of hearing"]
 cover: "/images/news/sdh-accessibility-subtitles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Translated subtitles assume the viewer can hear the audio. SDH assumes they can't — speaker labels, sound cues, and different reading rules. What changes, what it costs, and when you need it."
 ---
 

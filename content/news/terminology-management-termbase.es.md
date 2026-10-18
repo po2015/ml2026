@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Localización", "terminología", "base de términos", "calidad de traducción"]
 keywords: ["gestión de terminología", "base de términos glosario traducción", "terminología multilingüe"]
 cover: "/images/news/terminology-management-termbase.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su ficha técnica en alemán dice Kugelhahn, su manual en alemán dice Kugelventil y su sitio web en alemán usa ambos en la misma página. Los compradores lo notan; los buscadores lo notan; sus propios ingenieros se estremecen. La terminología inconsistente es el defecto de calidad más común del contenido multilingüe — y el único que se corrige casi gratis: una base de términos, construida una vez, mantenida para siempre."
 ---
 

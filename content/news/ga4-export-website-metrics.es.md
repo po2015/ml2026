@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "Google Analytics", "exportación B2B", "analítica web"]
 keywords: ["ga4 b2b", "analítica web de exportación", "google analytics exportadores"]
 cover: "/images/news/ga4-export-website-metrics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "La mayoría de los sitios web de exportación tienen GA4 instalado, pero no responden ninguna pregunta con él. Las cinco métricas que realmente le dicen si el sitio está generando negocios."
 ---
 

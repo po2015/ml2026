@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Website Building", "B2B Export", "website redesign", "digital strategy"]
 keywords: ["website redesign seo", "seo migration checklist", "website replatforming seo"]
 cover: "/images/news/website-redesign-seo-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A machinery exporter rebuilds their five-year-old website. New design, new platform, new agency. Launch day traffic falls off a cliff: 70% of organic visits gone in a week, the pages that generated RFQs now return 404, and the German version starts outranking the English one for English queries. None of it was inevitable — every one of those losses maps to a skipped line on a standard SEO migration checklist. The checklist, the launch-day checks, and the recovery timeline."
 ---
 

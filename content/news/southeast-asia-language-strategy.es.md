@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Sudeste Asiático", "estrategia de idiomas", "mercados regionales"]
 keywords: ["idiomas del sudeste asiático", "localización web SEA", "estrategia lingüística ASEAN"]
 cover: "/images/news/southeast-asia-language-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Once países, una docena de idiomas importantes y un inglés que funciona... hasta que deja de funcionar. Cómo ordenar los idiomas para el Sudeste Asiático sin traducir su sitio once veces."
 ---
 

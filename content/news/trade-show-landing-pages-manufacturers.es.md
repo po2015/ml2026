@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "ferias comerciales", "landing pages", "generación de leads"]
 keywords: ["landing page feria comercial", "landing page exposición fabricantes", "landing page canton fair"]
 cover: "/images/news/trade-show-landing-pages-manufacturers.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Gastó 30 000 dólares en el stand. Los compradores escanean su código QR en la feria y aterrizan en... ¿su página de inicio? La landing page de feria es la página más barata y de mayor ROI que un fabricante puede construir: aquí está el manual."
 ---
 

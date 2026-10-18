@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "investigación de palabras clave", "sitio web multilingüe", "SEO internacional"]
 keywords: ["investigación de palabras clave multilingüe", "investigación de palabras clave internacional", "palabras clave traducidas"]
 cover: "/images/news/multilingual-keyword-research-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Los alemanes no buscan palabras clave inglesas traducidas. Por qué falla la traducción directa de palabras clave, y el proceso de investigación nativo que encuentra lo que los compradores realmente escriben."
 ---
 

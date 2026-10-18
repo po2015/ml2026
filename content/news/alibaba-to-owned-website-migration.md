@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "website strategy", "Alibaba", "channel strategy"]
 keywords: ["alibaba vs own website", "b2b marketplace migration", "exporter owned website"]
 cover: "/images/news/alibaba-to-owned-website-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your Alibaba store generates inquiries — but the buyers belong to the platform, the price competition is brutal, and every year the fees buy you the same rented visibility. An owned website isn't a replacement; it's the asset the marketplace can never be: your brand, your buyer relationships, your Google traffic. When to make the move, what to migrate first, and how to run both channels during the transition."
 ---
 

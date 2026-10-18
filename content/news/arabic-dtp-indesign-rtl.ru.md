@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["DTP", "арабский", "RTL", "InDesign"]
 keywords: ["арабский dtp indesign", "вёрстка справа налево", "арабская типографика"]
 cover: "/images/news/arabic-dtp-indesign-rtl.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Арабский DTP — это не «отзеркальте английский файл». Шрифты, цифры, направление таблиц и собственная RTL-механика InDesign — у каждого есть режимы отказа, которые проявляются только в финальном PDF; вот как их избежать."
 ---
 

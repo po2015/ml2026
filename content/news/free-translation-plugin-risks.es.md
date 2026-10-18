@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Localización", "traducción de sitios web", "traducción automática", "SEO"]
 keywords: ["riesgos de plugins de traducción", "widget de traducción de sitios web", "seo traducción automática sitios web"]
 cover: "/images/news/free-translation-plugin-risks.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un clic, y su sitio web \"soporta 100 idiomas\" — un widget de traducción gratuito, instalado en diez minutos, sin costo alguno. Salvo que: las páginas traducidas no pueden posicionarse en Google, el alemán se lee como un manual averiado, su nombre de marca se traduce a un sustantivo común, y los compradores de su mercado objetivo cierran la pestaña. Los plugins gratuitos de traducción son la solución barata más cara del marketing de exportación. Qué hacen realmente, por qué fallan y qué compra bien ese mismo dinero (poco)."
 ---
 

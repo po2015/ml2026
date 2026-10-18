@@ -6,7 +6,7 @@ category: "tech"
 category_label: "التقنية"
 tags: ["SEO للتصدير", "كلمات مفتاحية", "B2B", "مصنعون"]
 cover: "/images/news/seo-analytics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "SEO لمواقع التصدير لا يعني ترجمة أسماء المنتجات فقط، بل فهم الطريقة التي يبحث بها المشتري الدولي."
 ---
 

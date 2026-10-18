@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "西班牙语", "拉丁美洲", "国际 SEO"]
 keywords: ["西班牙语 SEO", "拉丁美洲 SEO", "西班牙与拉美关键词差异"]
 cover: "/images/news/spanish-seo-latin-america-spain.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "同一种语言，不同的搜索。为什么单一的西班牙语 SEO 策略在大西洋两岸都表现不佳，以及如何为两个市场安排关键词、内容与 hreflang。"
 ---
 

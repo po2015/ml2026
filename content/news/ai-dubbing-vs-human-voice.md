@@ -5,7 +5,7 @@ category: "tech"
 category_label: "Tech Insights"
 tags: ["AI-dubbing", "voice-acting", "dubbing", "localization", "audio-production"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Both AI and human dubbing have their place. The right choice depends on content type, budget, and turnaround — not a blanket preference for either."
 ---
 

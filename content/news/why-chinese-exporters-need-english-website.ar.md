@@ -5,7 +5,7 @@ category: "industry"
 category_label: "القطاع"
 tags: ["التصدير", "B2B", "موقع إلكتروني", "مصنعون صينيون", "التسويق الدولي"]
 cover: "/images/news/chinese-export.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة."
 description: "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة."
 ---

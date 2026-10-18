@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "版本控制", "内容管理", "翻译工作流"]
 keywords: ["翻译版本控制", "翻译更新工作流", "多语言文档版本"]
 cover: "/images/news/multilingual-content-version-control.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "手册改了：三句话更新，新增一条警告，修订了一项规格。你是要把整份文档用五种语言全部重翻一遍，还是手工把改动的句子补丁式修一下，或者干脆只更新英文、祈祷没人发现？没有翻译版本控制，每一次内容变更都逼你做出糟糕的选择。本文讲解基于翻译记忆的变更管理，如何把重翻译变成「按增量付费」的操作。"
 ---
 

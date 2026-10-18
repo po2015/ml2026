@@ -1,11 +1,11 @@
 ---
-title: "How Translation Memory Reduces DTP Turnaround — and Why Most Clients Don't Use It"
+title: "How Translation Memory Speeds Up DTP Turnaround"
 date: 2026-03-20
 category: "tech"
 category_label: "Tech Insights"
 tags: ["translation-memory", "DTP", "workflow", "localization-tools", "efficiency"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Translation memory is widely understood in translation circles. Its impact on the downstream DTP workflow is less discussed — but often more significant for clients with recurring multilingual documents."
 ---
 

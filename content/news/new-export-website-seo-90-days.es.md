@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "lanzamiento de sitio web", "marketing B2B", "estrategia digital"]
 keywords: ["cronograma de seo para sitio web nuevo", "seo para lanzamiento de sitio web de exportación", "primeros 90 días de seo"]
 cover: "/images/news/new-export-website-seo-90-days.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "El nuevo sitio web sale al aire el lunes. El martes, el dueño busca el nombre de la empresa — página cuatro. Para el viernes empiezan las preguntas: \"¿El SEO está roto?\" Nada está roto; el sitio tiene seis días de vida y Google aún no confía en él. Los primeros 90 días de vida de un sitio web de exportación siguen una secuencia predecible — indexación, cimientos, palabras clave iniciales — y conocer esa secuencia es lo que separa un lanzamiento disciplinado de tres meses de pánico. El manual semana a semana."
 ---
 

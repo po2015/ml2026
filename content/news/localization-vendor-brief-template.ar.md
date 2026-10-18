@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التوطين", "إدارة المورّدين", "التصدير B2B", "إدارة المشاريع"]
 keywords: ["موجز التوطين", "موجز مورّد الترجمة", "قالب مشروع توطين"]
 cover: "/images/news/localization-vendor-brief-template.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "معظم مشكلات التوطين هي في جوهرها مشكلات موجز. قالب من صفحة واحدة يمنحك عروض أسعار دقيقة وجداول زمنية واقعية وجولات مراجعة أقل."
 ---
 

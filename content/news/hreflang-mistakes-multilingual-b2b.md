@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "hreflang", "multilingual website", "technical SEO"]
 keywords: ["hreflang implementation", "hreflang errors", "multilingual seo"]
 cover: "/images/news/hreflang-mistakes-multilingual-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Hreflang is the most misimplemented tag in international SEO. The six mistakes we find most often on B2B sites, how to spot them, and how to fix each one."
 ---
 

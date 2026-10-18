@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "website launch", "B2B marketing", "digital strategy"]
 keywords: ["new website seo timeline", "export website launch seo", "first 90 days seo"]
 cover: "/images/news/new-export-website-seo-90-days.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "The new website goes live Monday. Tuesday the owner searches the company name — page four. By Friday the questions start: \"Is the SEO broken?\" Nothing is broken; the site is six days old and Google doesn't trust it yet. The first 90 days of an export website's life follow a predictable sequence — indexing, foundation, early keywords — and knowing the sequence is what separates a disciplined launch from three months of panic. The week-by-week playbook."
 ---
 

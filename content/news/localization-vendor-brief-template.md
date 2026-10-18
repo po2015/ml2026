@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "vendor management", "B2B export", "project management"]
 keywords: ["localization brief", "translation vendor brief", "localization project template"]
 cover: "/images/news/localization-vendor-brief-template.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Most localization problems are brief problems. A one-page template that gets you accurate quotes, realistic timelines, and fewer revision rounds."
 ---
 

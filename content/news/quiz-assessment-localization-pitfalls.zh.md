@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "测验本地化", "评估", "LMS"]
 keywords: ["测验本地化", "在线课程评估翻译", "LMS 测验本地化"]
 cover: "/images/news/quiz-assessment-localization-pitfalls.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "翻译题目只是最简单的部分。随机抽题、反馈逻辑、文化语境和固定尺寸的按钮，才是本地化评估真正出问题的地方——以及如何在学员发现之前先发现问题。"
 ---
 

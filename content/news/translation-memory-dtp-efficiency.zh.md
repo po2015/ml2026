@@ -5,7 +5,7 @@ category: "tech"
 category_label: "技术洞察"
 tags: ["翻译记忆库", "DTP", "工作流", "本地化工具", "效率"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大"
 description: "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大"
 ---

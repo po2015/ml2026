@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website building", "GDPR", "compliance", "B2B export"]
 keywords: ["website legal pages", "gdpr privacy policy export website", "international website compliance"]
 cover: "/images/news/international-website-legal-pages.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Legal pages are not boilerplate when your buyers are in the EU, California, or the Gulf. What international B2B sites actually need — and what it costs to skip."
 ---
 

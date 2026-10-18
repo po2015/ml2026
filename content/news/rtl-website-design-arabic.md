@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "Arabic", "RTL", "web design"]
 keywords: ["rtl website design", "arabic website layout", "right to left web design"]
 cover: "/images/news/rtl-website-design-arabic.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "An Arabic website is not your LTR site with translated text — the entire visual logic mirrors. What actually flips, what must not, and the CSS practices that make one codebase serve both directions."
 ---
 

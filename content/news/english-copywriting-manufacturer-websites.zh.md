@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 外贸", "文案写作", "网站建设", "制造业"]
 keywords: ["B2B 网站文案", "制造商网站内容", "工业品文案写作"]
 cover: "/images/news/english-copywriting-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "买家先评判你的英文，再评判你的工程技术。让制造商网站显得可信的文案写法——以及那些悄悄扼杀询盘的措辞。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "Human Dubbing", "Video Localization", "TTS", "voiceover"]
 keywords: ["ai dubbing quality", "evaluate ai dubbing", "ai voiceover test"]
 cover: "/images/news/ai-dubbing-quality-evaluation.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Every AI dubbing vendor demos a perfect 20-second clip. Then you sign, hand over 40 training videos, and discover the voice can't say your product name. A buyer's test protocol: build a representative script, score it with a rubric, and spot the demo red flags before the contract does."
 ---
 

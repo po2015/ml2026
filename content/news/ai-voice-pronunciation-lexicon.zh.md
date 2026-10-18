@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "TTS", "发音", "SSML"]
 keywords: ["TTS 发音控制", "AI 配音品牌名", "发音词典"]
 cover: "/images/news/ai-voice-pronunciation-lexicon.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你的 TTS 声音一定会读错公司名、产品名和行业缩写。发音词典如何解决这一问题——以及如何建一套能随业务扩展的词典。"
 ---
 

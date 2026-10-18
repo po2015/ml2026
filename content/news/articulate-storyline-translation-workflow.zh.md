@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["在线学习", "Articulate Storyline", "SCORM", "本地化"]
 keywords: ["articulate storyline 翻译", "storyline 本地化工作流", "storyline xlf 导出"]
 cover: "/images/news/articulate-storyline-translation-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Storyline 的翻译导出看起来很简单——直到幻灯片图层、触发器和变量文本回来后全都坏掉。本文给出一套经得起真实课程考验的完整工作流。"
 ---
 

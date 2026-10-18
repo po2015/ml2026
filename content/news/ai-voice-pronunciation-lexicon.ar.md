@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["الدبلجة بالذكاء الاصطناعي", "TTS", "النطق", "SSML"]
 keywords: ["التحكم في نطق TTS", "الأسماء التجارية والصوت الاصطناعي", "قاموس النطق"]
 cover: "/images/news/ai-voice-pronunciation-lexicon.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "صوت TTS لديك سيلفظ اسم شركتك وأسماء منتجاتك واختصارات قطاعك بشكل خاطئ. كيف تصلح ذلك قواميس النطق — وكيف تبني قاموسًا يتحمل النمو."
 ---
 

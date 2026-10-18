@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Localización", "control de versiones", "gestión de contenidos", "flujo de trabajo de traducción"]
 keywords: ["control de versiones de traducciones", "flujo de actualización de traducciones", "versiones de documentos multilingües"]
 cover: "/images/news/multilingual-content-version-control.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "El manual cambió: tres frases actualizadas, una advertencia añadida, una especificación revisada. ¿Retraduce todo el documento en cinco idiomas, parchea las frases modificadas a mano, o simplemente actualiza el inglés y espera que nadie se dé cuenta? Sin control de versiones para las traducciones, cada cambio de contenido obliga a una mala decisión. Cómo la gestión de cambios basada en memoria de traducción convierte la retraducción en una operación de pago por diferencia."
 ---
 

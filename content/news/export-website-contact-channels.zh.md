@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "联系渠道", "询盘转化", "网站转化"]
 keywords: ["b2b 联系渠道", "whatsapp business 出口", "出口网站在线客服"]
 cover: "/images/news/export-website-contact-channels.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "巴西买家发 WhatsApp，德国买家写邮件，沙特买家在你当地时间晚上 11 点打电话。你提供哪些联系渠道、回复有多快，决定了哪些询盘能变成真正的对话。一份按市场划分的渠道实操手册。"
 ---
 

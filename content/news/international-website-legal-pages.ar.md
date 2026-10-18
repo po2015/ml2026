@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["بناء المواقع", "GDPR", "الامتثال", "التصدير B2B"]
 keywords: ["الصفحات القانونية للمواقع", "سياسة خصوصية GDPR لموقع تصدير", "امتثال المواقع الدولية"]
 cover: "/images/news/international-website-legal-pages.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "الصفحات القانونية ليست نصوصًا جاهزة عندما يكون مشتروك في الاتحاد الأوروبي أو كاليفورنيا أو الخليج. ما تحتاجه مواقع B2B الدولية فعلًا — وكلفة تجاهله."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "mobile design", "emerging markets", "website performance"]
 keywords: ["mobile b2b website", "mobile first emerging markets", "b2b mobile optimization"]
 cover: "/images/news/mobile-first-b2b-emerging-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your procurement contact in Lagos, Jakarta, or São Paulo does not have your desktop setup. He has a mid-range Android, a 4G connection, and ten minutes between meetings. 60–80% of web traffic in emerging B2B markets is mobile — and your desktop-designed site with the 6MB hero image is losing buyers you'll never know about."
 ---
 

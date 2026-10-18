@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "字体", "授权许可", "排版"]
 keywords: ["多语言字体授权", "出版字体许可", "多语言排版授权"]
 cover: "/images/news/font-licensing-multilingual-publishing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "品牌字体对拉丁和西里尔字母的覆盖堪称完美。然后日语目录需要一款 CJK 字体，设计师看中的那款每年每种文档类型要价 4,000 美元，而 PDF 嵌入权限居然不含「商业分发」。字体授权是多语言出版最容易踩中的隐形成本项——本文梳理各类许可证到底覆盖什么。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["localización de video", "flujo de trabajo", "subtitulado", "doblaje"]
 keywords: ["flujo de trabajo traducción de video", "proceso de localización de video", "flujo de incrustación de subtítulos"]
 cover: "/images/news/video-translation-workflow-steps.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Transcribir, traducir, cronometrar, revisar, entregar: la localización de video parece lineal hasta que un número de parte mal transcrito se propaga a cinco idiomas. El flujo de trabajo de nivel producción, con los puntos de control que impiden que los errores se multipliquen."
 ---
 

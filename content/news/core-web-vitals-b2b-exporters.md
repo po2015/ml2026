@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "website speed", "SEO", "Core Web Vitals"]
 keywords: ["core web vitals", "website speed seo", "b2b website performance"]
 cover: "/images/news/core-web-vitals-b2b-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your site loads in 1.2 seconds in the office in Shenzhen — and in 9 seconds for a buyer in Lagos on hotel Wi-Fi. Google's Core Web Vitals measure the second experience, not the first, and they quietly decide whether your pages rank and whether mobile buyers stay. The three metrics, translated into business terms."
 ---
 

@@ -6,7 +6,7 @@ category_label: "Industria"
 tags: ["formación online", "localización", "SCORM", "diseño instruccional", "formación global"]
 cover: "/images/services/elearning.jpg"
 summary: "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
 ---
 

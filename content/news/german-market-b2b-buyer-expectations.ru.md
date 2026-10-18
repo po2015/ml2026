@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["B2B-экспорт", "Германия", "выход на рынок", "локализация сайта"]
 keywords: ["b2b рынок германии", "продажи в германию", "покупатели mittelstand"]
 cover: "/images/news/german-market-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Немецкий Mittelstand держится на технической глубине, сертификации и прямых ответах. Что эти покупатели проверяют на сайте поставщика ещё до того, как ответить."
 ---
 

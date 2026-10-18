@@ -6,7 +6,7 @@ category: "industry"
 category_label: "Индустрия"
 tags: ["каталог продукции", "B2B сайт", "заявки", "производители"]
 cover: "/images/news/manufacturing-catalog.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Каталог продукции должен быть не складом моделей, а инструментом, который помогает покупателю быстро оценить соответствие и риск."
 ---
 

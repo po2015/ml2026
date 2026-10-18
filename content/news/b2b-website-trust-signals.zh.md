@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "B2B 出海", "信任信号", "转化率"]
 keywords: ["B2B 网站信任信号", "制造商网站可信度", "供应商网站信任"]
 cover: "/images/news/b2b-website-trust-signals.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "一个从未踏足你工厂的买家，仅凭你的网站就决定要不要给你发询价。承载这一决定的十个信任信号——按采购人员实际的权重排序。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "LMS", "despliegue multilingüe", "SCORM"]
 keywords: ["despliegue lms multilingüe", "versiones de idioma scorm", "localización de lms"]
 cover: "/images/news/multilingual-lms-deployment.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Los cursos están traducidos, probados, perfectos. Entonces el LMS entrega a los alumnos alemanes el certificado de finalización en inglés, registra cinco versiones de idioma como cinco cursos distintos y el texto RTL rompe el reproductor. El despliegue en el LMS es donde los proyectos multilingües tropiezan: la lista de verificación que lo evita."
 ---
 

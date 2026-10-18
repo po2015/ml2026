@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "India", "regional markets", "content strategy"]
 keywords: ["india multilingual marketing", "indian b2b content strategy", "hindi website localization"]
 cover: "/images/news/india-multilingual-content-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Your India strategy says \"they speak English\" — and it's half right. English works for corner-office procurement in Mumbai, but India has 22 official languages, 600 million Hindi speakers, and a digital boom happening almost entirely in regional languages. Where English suffices, where it quietly costs you deals, and how to sequence an India content strategy that matches how the market actually buys."
 ---
 

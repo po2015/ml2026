@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["machine translation", "MTPE", "post-editing", "localization"]
 keywords: ["machine translation post editing", "mtpe", "mtpe vs human translation"]
 cover: "/images/news/what-is-mtpe-post-editing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "MTPE combines machine translation speed with human review. How the workflow actually runs, what it costs, and which content it fits — and does not."
 ---
 

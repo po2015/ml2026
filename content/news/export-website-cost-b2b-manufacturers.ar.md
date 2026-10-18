@@ -6,7 +6,7 @@ category: "industry"
 category_label: "القطاع"
 tags: ["موقع تصدير", "موقع B2B", "مصنعون", "طلبات عروض"]
 cover: "/images/news/website-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "ميزانية موقع التصدير لا تقاس بعدد الصفحات فقط، بل بقدرته على بناء الثقة والظهور في البحث وتحويل الزائر إلى طلب جاد."
 ---
 

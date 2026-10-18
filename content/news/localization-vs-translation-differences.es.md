@@ -6,7 +6,7 @@ category_label: "Industria"
 tags: ["localización", "traducción", "servicios lingüísticos", "adaptación cultural", "marketing global"]
 cover: "/images/news/localization-global.jpg"
 summary: "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
 ---
 

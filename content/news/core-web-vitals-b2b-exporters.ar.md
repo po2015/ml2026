@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التصدير B2B", "سرعة الموقع", "SEO", "Core Web Vitals"]
 keywords: ["core web vitals", "سرعة الموقع وSEO", "أداء مواقع B2B"]
 cover: "/images/news/core-web-vitals-b2b-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "موقعك يحمّل في 1.2 ثانية في مكتبك في شنتشن — وفي 9 ثوانٍ لمشترٍ في لاغوس على واي فاي فندق. مقاييس Core Web Vitals من جوجل تقيس التجربة الثانية لا الأولى، وهي تحدد بهدوء ما إذا كانت صفحاتك سترتّب وما إذا كان مشترو الجوال سيبقون. المقاييس الثلاثة، مترجمة إلى لغة الأعمال."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "CJK", "tipografía", "combinación de fuentes"]
 keywords: ["combinación de fuentes cjk", "armonizar fuentes chinas y latinas", "source han sans"]
 cover: "/images/news/cjk-latin-font-pairing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Los documentos mixtos en chino y latino fracasan cuando las dos escrituras parecen provenir de empresas distintas. Cómo combinar tipografías CJK y latinas para que folletos, manuales y sitios web se lean como un solo diseño."
 ---
 

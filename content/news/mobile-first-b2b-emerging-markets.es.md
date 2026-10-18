@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "diseño móvil", "mercados emergentes", "rendimiento web"]
 keywords: ["sitio web b2b móvil", "mobile first mercados emergentes", "optimización móvil b2b"]
 cover: "/images/news/mobile-first-b2b-emerging-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su contacto de compras en Lagos, Yakarta o São Paulo no tiene su configuración de escritorio. Tiene un Android de gama media, una conexión 4G y diez minutos entre reuniones. El 60–80 % del tráfico web en los mercados B2B emergentes es móvil — y su sitio diseñado para escritorio con la imagen principal de 6 MB está perdiendo compradores de los que nunca se enterará."
 ---
 

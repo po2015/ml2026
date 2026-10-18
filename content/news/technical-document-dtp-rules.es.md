@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "documentación técnica", "manuales", "fichas técnicas"]
 keywords: ["dtp documentos técnicos", "maquetación de manuales fichas catálogos", "documentos técnicos multilingües"]
 cover: "/images/news/technical-document-dtp-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Una ficha técnica se lee durante 40 segundos en una feria; un manual se maldice durante tres horas en una planta de fábrica. Documentos distintos fallan de formas distintas al traducirlos: las reglas de DTP que importan, por tipo de documento."
 ---
 

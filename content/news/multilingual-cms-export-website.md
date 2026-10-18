@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "CMS", "multilingual website", "technology choice"]
 keywords: ["multilingual cms", "export website cms", "b2b website platform"]
 cover: "/images/news/multilingual-cms-export-website.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "The CMS decision happens on day one of a website project and haunts it for years: WordPress because everyone knows it, the enterprise suite because the demo impressed, the static generator because a developer liked it. For a multilingual export site, the criteria are specific — translation workflow, per-language SEO, update cost, speed in target markets. How the main options stack up, and how to choose."
 ---
 

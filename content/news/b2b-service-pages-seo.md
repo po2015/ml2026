@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "website structure", "SEO", "conversion optimization"]
 keywords: ["b2b service page seo", "service page structure", "manufacturer website pages"]
 cover: "/images/news/b2b-service-pages-seo.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your website has one \"Services\" page with four paragraphs covering everything you do — custom machining, OEM assembly, tooling design, surface treatment. Google ranks it for nothing, and the buyers who do land there can't tell whether you handle their part geometry. A service page has two jobs — rank for a specific capability query, then convert that visit into an inquiry — and one page can only do one job. The structure that does both."
 ---
 

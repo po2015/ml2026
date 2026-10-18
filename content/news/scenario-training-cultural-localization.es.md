@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["e-learning", "capacitación por escenarios", "adaptación cultural", "diseño instruccional"]
 keywords: ["localización de capacitación por escenarios", "adaptación cultural elearning", "traducción de escenarios ramificados"]
 cover: "/images/news/scenario-training-cultural-localization.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Su escenario de role-play de ventas funciona en Ohio. En Osaka, el «cliente difícil» se lee como inaceptablemente grosero, la respuesta «correcta» es culturalmente equivocada y el humor cae como un ladrillo. La capacitación por escenarios es el contenido más denso culturalmente que usted localiza: esto es lo que hay que adaptar y lo que hay que proteger."
 ---
 

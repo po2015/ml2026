@@ -1,12 +1,12 @@
 ---
-title: "E-Learning Localization: Adapting Online Courses for Global Audiences"
+title: "E-Learning Localization for Global Audiences"
 date: 2017-11-07
 category: "industry"
 category_label: "Industry"
 tags: ["e-learning", "localization", "SCORM", "instructional-design", "global-training"]
 cover: "/images/services/elearning.jpg"
 summary: "Localizing an e-learning course involves far more than translating the narration script. From audio sync to SCORM compatibility to cultural adaptation of scenarios, here is what organizations deploying global training programs need to know."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 ---
 
 The global e-learning market has grown substantially over the past decade, and with it, the demand for localized training content. Organizations deploying training programs across multiple countries face a consistent challenge: the original course was built for one audience, in one language, with one set of cultural assumptions. Localizing it for a different audience means more than swapping out the text.

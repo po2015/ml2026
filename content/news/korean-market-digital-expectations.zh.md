@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "韩国", "区域市场", "数字营销"]
 keywords: ["韩国 b2b 市场", "韩国数字化期待", "韩国买家网站"]
 cover: "/images/news/korean-market-digital-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "你的韩国潜在经销商打开你的网站，等了四秒，发现只有英文，于是转去 Naver 上查你——那里根本没有你公司的存在。韩国是全球网络最发达的市场之一，其数字习惯与西方的假设背道而驰。韩国 B2B 买家在网上真正期待什么。"
 ---
 

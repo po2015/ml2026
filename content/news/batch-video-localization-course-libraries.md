@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "course libraries", "batch processing", "e-learning"]
 keywords: ["batch video localization", "course library translation", "bulk video localization"]
 cover: "/images/news/batch-video-localization-course-libraries.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "47 product-training videos, 4 languages, one quarter. Done one video at a time, that's 188 sequential projects — and 188 chances to reinvent the glossary, the voice, and the intro graphic. Video libraries localize efficiently only as a batch: the pipeline design that turns 188 projects into one."
 ---
 

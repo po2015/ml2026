@@ -6,7 +6,7 @@ category_label: "行业洞察"
 tags: ["本地化", "翻译", "语言服务", "文化适配", "全球营销"]
 cover: "/images/news/localization-global.jpg"
 summary: "翻译转换文字，本地化让内容在目标市场自然可信。对 B2B 营销来说，这个差别直接影响信任"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "翻译转换文字，本地化让内容在目标市场自然可信。对 B2B 营销来说，这个差别直接影响信任"
 ---
 

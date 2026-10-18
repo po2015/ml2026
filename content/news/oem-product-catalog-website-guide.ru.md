@@ -6,7 +6,7 @@ category_label: "Индустрия"
 tags: ["разработка сайтов", "OEM", "каталог продукции", "B2B-сайт", "экспорт"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма."
 ---
 

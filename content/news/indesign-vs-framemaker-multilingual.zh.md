@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "InDesign", "FrameMaker", "多语言文档"]
 keywords: ["indesign 与 framemaker 对比", "多语言 dtp 工具", "技术文档排版"]
 cover: "/images/news/indesign-vs-framemaker-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "InDesign 和 FrameMaker 解决的是不同的文档问题。选哪个，取决于文档长度、结构，以及你要发布多少种语言。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "visual design", "cultural adaptation", "iconography"]
 keywords: ["image localization", "icon localization", "color meaning cultures"]
 cover: "/images/news/image-icon-color-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "A thumbs-up icon is rude in parts of the Middle East; white means weddings in one market and funerals in another. How to audit the non-text layer of your site before it undermines the translation."
 ---
 

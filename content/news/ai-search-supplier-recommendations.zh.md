@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "AI 搜索", "ChatGPT", "B2B 出口"]
 keywords: ["AI 搜索优化", "ChatGPT 供应商推荐", "AI 搜索 B2B 可见度"]
 cover: "/images/news/ai-search-supplier-recommendations.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "买家问 ChatGPT「推荐三家有 API 6D 认证的中国球阀制造商」——而答案里有你的竞争对手。AI 搜索已经在把 B2B 买家引向供应商了。这些系统到底在读什么，以及如何让自己变得「可被推荐」。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "búsqueda con IA", "ChatGPT", "Exportación B2B"]
 keywords: ["optimización para búsqueda con ia", "recomendaciones de proveedores chatgpt", "visibilidad b2b en búsqueda con ia"]
 cover: "/images/news/ai-search-supplier-recommendations.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un comprador le pide a ChatGPT «recomienda tres fabricantes chinos de válvulas de bola con API 6D», y su competidor está en la respuesta. La búsqueda con IA ya está enviando compradores B2B a proveedores. Qué leen realmente estos sistemas y cómo volverse recomendable."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "velocidad del sitio web", "SEO", "Core Web Vitals"]
 keywords: ["core web vitals", "velocidad del sitio web seo", "rendimiento de sitios web b2b"]
 cover: "/images/news/core-web-vitals-b2b-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Tu sitio carga en 1.2 segundos en la oficina de Shenzhen — y en 9 segundos para un comprador en Lagos con Wi-Fi de hotel. Las Core Web Vitals de Google miden la segunda experiencia, no la primera, y deciden silenciosamente si tus páginas posicionan y si los compradores móviles se quedan. Las tres métricas, traducidas a términos de negocio."
 ---
 

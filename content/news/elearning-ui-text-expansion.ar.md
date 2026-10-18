@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التعلم الإلكتروني", "توطين الواجهات", "توسّع النص", "تصميم الدورات"]
 keywords: ["توطين واجهة الدورات التدريبية", "توسّع النص في الأزرار", "ترجمة واجهة الدورة"]
 cover: "/images/news/elearning-ui-text-expansion.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "كلمة \"Submit\" تتسع في زرّها. و\"Absenden\" تكاد تتسع. أما \"Envoyer la réponse\" فلا تتسع. يكسر توسّع النص واجهات الدورات قبل أن يصل المتعلمون إلى المحتوى أصلاً — كيف تصمم واجهة دورة تصمد أمام الترجمة."
 ---
 

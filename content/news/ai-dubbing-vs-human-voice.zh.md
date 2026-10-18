@@ -5,7 +5,7 @@ category: "tech"
 category_label: "技术洞察"
 tags: ["AI 配音", "真人配音", "配音", "本地化", "音频制作"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好"
 description: "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好"
 ---

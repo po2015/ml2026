@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Localización", "guía de estilo", "voz de marca", "calidad de traducción"]
 keywords: ["guía de estilo de traducción", "voz de marca multilingüe", "guía de estilo de localización"]
 cover: "/images/news/translation-style-guide-brand-voice.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Su sitio en inglés suena seguro y directo; su sitio en alemán se lee como un aviso legal; su sitio en japonés es tan cortés que se disculpa por existir. Misma empresa, tres personalidades — porque cada traductor adivinó la voz. Una guía de estilo de traducción reemplaza las adivinanzas con decisiones: tono, formalidad, terminología y las mil pequeñas convenciones que hacen que una marca suene a sí misma en cada idioma."
 ---
 

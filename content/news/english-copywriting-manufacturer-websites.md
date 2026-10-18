@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "copywriting", "website building", "manufacturing"]
 keywords: ["b2b website copywriting", "manufacturer website content", "industrial copywriting"]
 cover: "/images/news/english-copywriting-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Buyers judge your English before your engineering. The copywriting patterns that make manufacturer websites credible — and the phrases that quietly kill inquiries."
 ---
 

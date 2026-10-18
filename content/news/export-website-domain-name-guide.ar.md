@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["بناء المواقع", "SEO", "اسم النطاق", "التصدير B2B"]
 keywords: ["اسم النطاق وseo", "نطاق الموقع التصديري", "cctld مقابل com"]
 cover: "/images/news/export-website-domain-name-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "قرار اختيار النطاق يستغرق عشر دقائق ويدوم عقداً كاملاً. ما الذي يهمّ فعلاً للمشترين الدوليين ومحركات البحث — وما الذي يمكنك تجاهله بأمان."
 ---
 

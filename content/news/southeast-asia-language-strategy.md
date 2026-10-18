@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Southeast Asia", "language strategy", "regional markets"]
 keywords: ["southeast asia languages", "sea website localization", "asean language strategy"]
 cover: "/images/news/southeast-asia-language-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Eleven countries, a dozen major languages, and English that works — until it doesn't. How to sequence languages for Southeast Asia without translating your site eleven times."
 ---
 

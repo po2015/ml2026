@@ -6,7 +6,7 @@ category_label: "Tecnología"
 tags: ["traducción automática", "traducción humana", "MT", "posedición", "traducción técnica"]
 cover: "/images/news/mt-translation.jpg"
 summary: "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
 ---
 

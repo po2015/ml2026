@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "maintenance", "website management", "operations"]
 keywords: ["website maintenance plan", "export website upkeep", "b2b website maintenance"]
 cover: "/images/news/website-maintenance-plan-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "The new website launched eighteen months ago. Since then: two products discontinued (still online), a certificate expired (still displayed), prices changed (still quoted), and the German version stopped getting updates entirely. Websites don't decay loudly — they decay into a version of your company that no longer exists. The maintenance plan that prevents it: what to check, how often, and who owns it."
 ---
 

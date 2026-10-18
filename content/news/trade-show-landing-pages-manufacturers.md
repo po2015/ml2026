@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "trade shows", "landing pages", "lead generation"]
 keywords: ["trade show landing page", "exhibition landing page manufacturers", "canton fair landing page"]
 cover: "/images/news/trade-show-landing-pages-manufacturers.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "You spent $30k on the booth. Buyers scan your QR code at the show and land on... your homepage? The trade show landing page is the cheapest, highest-ROI page a manufacturer can build — here's the playbook."
 ---
 

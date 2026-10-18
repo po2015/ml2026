@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "外链", "数字公关", "链接建设"]
 keywords: ["B2B 外链", "出口企业链接建设", "行业目录链接"]
 cover: "/images/news/b2b-backlink-building-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你的内容比竞争对手好，排名却不如他们——因为有五十个行业目录、行业协会和行业媒体文章指向他们的域名，而指向你的几乎什么都没有。外链仍然是最难造假的排名因素，而 B2B 出口企业恰好有异常具体的赚外链方式。这份现实的链接建设手册：真正重要的目录、真正有效的公关，以及必须避开的套路。"
 ---
 

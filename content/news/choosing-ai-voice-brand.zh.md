@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "TTS", "音色选择", "品牌声音"]
 keywords: ["AI 音色选择", "AI 声音性别", "TTS 音色挑选"]
 cover: "/images/news/choosing-ai-voice-brand.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你选定的 AI 音色，将成为品牌在每个市场中的声音。本文给出一套关于性别、年龄与风格的选择框架，以及那些会让课程显得廉价的常见错误。"
 ---
 

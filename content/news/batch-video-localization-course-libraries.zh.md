@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "课程库", "批量处理", "在线学习"]
 keywords: ["批量视频本地化", "课程库翻译", "视频批量本地化"]
 cover: "/images/news/batch-video-localization-course-libraries.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "47 个产品培训视频、4 种语言、一个季度。如果一个视频一个视频地做，那就是 188 个串行项目——也意味着 188 次重新发明术语表、配音和片头图的机会。视频库只有批量处理才能高效本地化：本文介绍把 188 个项目变成一条产线的流水线设计。"
 ---
 

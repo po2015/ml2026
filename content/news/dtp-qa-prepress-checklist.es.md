@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "aseguramiento de calidad", "preprensa", "producción impresa"]
 keywords: ["aseguramiento de calidad dtp", "lista de verificación preprensa traducción", "qa de impresión de archivos traducidos"]
 cover: "/images/news/dtp-qa-prepress-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "El catálogo en árabe volvió de la imprenta con los números de teléfono invertidos. El índice del manual en alemán apuntaba a páginas que ya no existían. Ambos archivos habían sido 'revisados' — por alguien que miró la pantalla, no el PDF listo para imprenta. El QA de preprensa para documentos traducidos es una disciplina propia: la lista de verificación que detecta lo que la revisión de traducción nunca ve."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "audio production", "loudness", "delivery specs"]
 keywords: ["loudness standards ebu r128", "audio delivery specs", "lufs normalization dubbing"]
 cover: "/images/news/audio-loudness-standards-international.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your corporate video plays whisper-quiet on YouTube, blasts on LinkedIn, and gets rejected by a European broadcaster for exceeding -23 LUFS. Loudness — not peak level, but perceived volume measured over time — is regulated, platform-specific, and invisible until it breaks. The standards that matter (EBU R128, ATSC A/85, platform specs), what the numbers mean, and how to spec multilingual audio deliveries that pass everywhere."
 ---
 

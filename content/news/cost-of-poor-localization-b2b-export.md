@@ -6,7 +6,7 @@ category_label: "Industry"
 tags: ["localization", "B2B", "export-marketing", "translation-quality", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "Poor localization does not just look unprofessional — it costs revenue. Here is how to measure the actual business impact of translation and localization quality failures in B2B export marketing."
-author: "MediaLocalize Team"
+author: "Benny Chow"
 ---
 
 Localization quality is routinely treated as an aesthetic concern — something that matters if you can afford to care about it, and something to minimize if budgets are tight. This framing is wrong, and it leads to decisions that are far more expensive than the localization investment they were trying to avoid.

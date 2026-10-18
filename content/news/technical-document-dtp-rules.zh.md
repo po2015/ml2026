@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "技术文档", "手册", "数据表"]
 keywords: ["技术文档 DTP", "手册 数据表 目录排版", "多语言技术文档"]
 cover: "/images/news/technical-document-dtp-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "数据表在展会上只被扫读 40 秒；手册则在工厂车间里被人一边骂一边翻上三个小时。不同的文档在翻译后以不同的方式「翻车」——按文档类型梳理那些真正重要的 DTP 规则。"
 ---
 

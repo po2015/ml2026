@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "capacitación en cumplimiento", "precisión de traducción", "riesgo legal"]
 keywords: ["traducción de capacitación en cumplimiento", "localización de capacitación en seguridad", "precisión en e-learning de cumplimiento"]
 cover: "/images/news/compliance-training-translation-accuracy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Tras el accidente en la planta, la investigación encontró que la capacitación en seguridad había sido traducida, aproximadamente. El 'verifique energía cero' del procedimiento de bloqueo se convirtió en 'compruebe que la máquina esté apagada', y el cuestionario lo aceptó. En la capacitación en cumplimiento, los errores de traducción no son problemas de calidad; son evidencia. Cómo localizar capacitación que debe resistir una auditoría, o un tribunal."
 ---
 

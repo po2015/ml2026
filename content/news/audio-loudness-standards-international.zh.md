@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "音频制作", "响度", "交付规格"]
 keywords: ["响度标准 EBU R128", "音频交付规格", "LUFS 归一化 配音"]
 cover: "/images/news/audio-loudness-standards-international.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你的企业视频在 YouTube 上细若耳语，在 LinkedIn 上震耳欲聋，还因超过 -23 LUFS 被一家欧洲电视台拒收。响度——不是峰值电平，而是一段时间内测得的感知音量——是被监管的、因平台而异的，而且在出问题之前完全隐形。重要的标准（EBU R128、ATSC A/85、各平台规格）、数字的含义，以及如何为多语言音频交付定一套到哪里都能过审的规格。"
 ---
 

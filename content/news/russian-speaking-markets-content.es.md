@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "mercados rusos", "estrategia de contenidos", "mercados regionales"]
 keywords: ["mercados de habla rusa", "estrategia de contenidos rusia", "mercados cei b2b"]
 cover: "/images/news/russian-speaking-markets-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "270 millones de hablantes de ruso, un idioma de negocios compartido y una cultura de compra que lo lee todo antes de confiar en alguien. Cómo construir contenido para Rusia y la CEI sin equivocarse en los matices regionales."
 ---
 

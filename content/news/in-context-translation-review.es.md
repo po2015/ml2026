@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Localización", "revisión de traducciones", "QA", "calidad de sitios web"]
 keywords: ["revisión de traducciones en contexto", "revisión de traducciones de sitios web", "qa de contenido localizado"]
 cover: "/images/news/in-context-translation-review.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La traductora de alemán revisó su trabajo en una hoja de cálculo. Se leía de maravilla. Luego se lanzó el sitio: el elegante botón de tres palabras se partió en dos líneas, la etiqueta del formulario apuntaba al campo equivocado, y 'Anmelden' (iniciar sesión) quedó en el botón de pago donde debía decir 'Registrarse'. Una traducción revisada fuera de contexto es una traducción revisada a medias: el flujo de trabajo que cierra esa brecha."
 ---
 

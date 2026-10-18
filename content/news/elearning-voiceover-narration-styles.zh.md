@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["在线学习", "配音", "旁白", "AI 配音"]
 keywords: ["在线学习配音", "旁白风格", "培训旁白"]
 cover: "/images/news/elearning-voiceover-narration-styles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "学员放弃课程，更多时候是因为旁白，而不是因为内容。本文说明哪种旁白风格适合哪种培训、AI 声音何时够用，以及如何指导能在本地化中存活下来的旁白。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "PowerPoint", "localización de presentaciones", "traducción de documentos"]
 keywords: ["localización de powerpoint", "traducción de presentaciones", "presentación multilingüe"]
 cover: "/images/news/powerpoint-localization-30-languages.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "La presentación de ventas existe en inglés; para el viernes debe existir en alemán, japonés y árabe — y cada versión debe parecer de su marca, no un accidente de traducción automática con cuadros de texto desbordados. La localización de PowerPoint parece trivial y falla de formas predecibles: expansión, fuentes, diseños rotos, imágenes incrustadas con texto, gráficos. El flujo de trabajo que escala una presentación a 30 idiomas sin 30 rondas de reparación de diseño."
 ---
 

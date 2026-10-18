@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Arabic", "Middle East", "international SEO"]
 keywords: ["arabic seo", "gulf market seo", "arabic search behavior"]
 cover: "/images/news/arabic-seo-gulf-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Gulf buyers search in Arabic, English, and a mix of both — often in the same session. How Arabic search behavior actually works, and how to build pages that rank for it."
 ---
 

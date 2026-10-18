@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "estrategia de sitio web", "Alibaba", "estrategia de canales"]
 keywords: ["alibaba vs sitio web propio", "migración desde marketplace b2b", "sitio web propio para exportadores"]
 cover: "/images/news/alibaba-to-owned-website-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su tienda de Alibaba genera consultas — pero los compradores pertenecen a la plataforma, la competencia por precio es brutal, y cada año las tarifas le compran la misma visibilidad alquilada. Un sitio web propio no es un reemplazo; es el activo que el marketplace nunca puede ser: su marca, sus relaciones con compradores, su tráfico de Google. Cuándo dar el paso, qué migrar primero y cómo operar ambos canales durante la transición."
 ---
 

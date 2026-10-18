@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "producción de audio", "sonoridad", "especificaciones de entrega"]
 keywords: ["estándares de sonoridad ebu r128", "especificaciones de entrega de audio", "normalización lufs doblaje"]
 cover: "/images/news/audio-loudness-standards-international.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su video corporativo se escucha susurrado en YouTube, retumba en LinkedIn y es rechazado por un broadcaster europeo por exceder -23 LUFS. La sonoridad — no el nivel de pico, sino el volumen percibido medido en el tiempo — está regulada, es específica de cada plataforma e invisible hasta que falla. Los estándares que importan (EBU R128, ATSC A/85, especificaciones de plataformas), qué significan los números y cómo especificar entregas de audio multilingües que pasen en todas partes."
 ---
 

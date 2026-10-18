@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Creación de sitios web", "Exportación B2B", "diseño de página de inicio", "conversión"]
 keywords: ["diseño de página de inicio b2b", "primera impresión de la página de inicio", "conversión de sitios web industriales"]
 cover: "/images/news/b2b-homepage-first-impression.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un responsable de compras dedica unos diez segundos a su página de inicio antes de decidir si entra en la lista preseleccionada. Qué escanean, en qué orden y las correcciones que más rápido mueven la aguja."
 ---
 

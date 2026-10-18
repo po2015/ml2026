@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "营销视频", "广告", "品牌片"]
 keywords: ["营销视频本地化", "广告本地化", "品牌片翻译"]
 cover: "/images/news/marketing-video-localization-ads.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你的品牌片在总部拿了奖，却在出口市场哑火——同一条片子，只是加了字幕。营销视频是针对某一种文化的情绪开关调校过的说服工具；字幕翻译了文字，却把说服力留在了原地。广告本地化与教程本地化的区别在哪里、哪些元素必须重做而不是翻译，以及一套符合真实预算的分级方案。"
 ---
 

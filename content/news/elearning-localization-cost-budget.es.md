@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "localización", "presupuesto", "planificación de costes"]
 keywords: ["coste de localización de elearning", "presupuesto de traducción de cursos", "precios de localización de elearning"]
 cover: "/images/news/elearning-localization-cost-budget.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "¿Cuánto cuesta realmente localizar un curso de e-learning? Un modelo de presupuesto por minuto de curso con los factores de coste reales (narración, interactividad, nivel de exigencia normativa) y las decisiones que más mueven la cifra."
 ---
 

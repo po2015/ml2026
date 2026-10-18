@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "video de marketing", "publicidad", "película de marca"]
 keywords: ["localización de video de marketing", "localización de anuncios", "traducción de películas de marca"]
 cover: "/images/news/marketing-video-localization-ads.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su película de marca ganó premios en la sede central y fracasó en el mercado de exportación — el mismo video, subtitulado. Los videos de marketing son instrumentos de persuasión afinados a las claves emocionales de una cultura; los subtítulos traducen las palabras y dejan atrás la persuasión. Qué separa localizar un anuncio de localizar un tutorial, qué elementos deben recrearse en lugar de traducirse, y el enfoque por niveles que se ajusta a presupuestos reales."
 ---
 

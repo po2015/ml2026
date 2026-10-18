@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website building", "SEO", "domain name", "B2B export"]
 keywords: ["domain name seo", "export website domain", "cctld vs com"]
 cover: "/images/news/export-website-domain-name-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A domain decision takes ten minutes and lasts a decade. What actually matters for international buyers and search engines — and what you can safely ignore."
 ---
 

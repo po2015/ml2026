@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "formats", "i18n", "user experience"]
 keywords: ["date format localization", "currency localization", "units conversion website"]
 cover: "/images/news/date-currency-format-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "03/04/2026 means April 3rd to a German and March 4th to an American. Formatting errors are small, constant, and corrosive — a field guide to getting dates, currency, numbers, and units right per market."
 ---
 

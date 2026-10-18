@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "国际 SEO", "Google", "搜索引擎", "B2B 出口"]
 keywords: ["国际搜索引擎", "Yandex SEO", "Naver SEO", "Bing B2B"]
 cover: "/images/news/international-search-engines-comparison.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google 在大多数出口市场占主导地位，但 Bing、Yandex 和 Naver 在特定地区不容忽视。本文告诉你搜索可见性的投入重点应该放在哪里。"
 ---
 

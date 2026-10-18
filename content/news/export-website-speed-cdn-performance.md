@@ -1,12 +1,12 @@
 ---
-title: "Why Your Export Website Loads Slowly for International Buyers (And What to Do About It)"
+title: "Speed Up Your Export Website for International Buyers"
 date: 2018-02-14
 category: "tech"
 category_label: "Tech Insights"
 tags: ["CDN", "website-performance", "global-hosting", "page-speed", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "A website that loads in 1.2 seconds in Shanghai can take 12 seconds to load in Frankfurt. For B2B exporters, this gap costs qualified inquiries every day — and the fix is simpler than most people expect."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 ---
 
 There is a significant and widely underestimated problem with how most Chinese export company websites are hosted. The websites load quickly for people in China because the servers are in China. For buyers in Europe, North America, the Middle East, or Southeast Asia, the same website can take 8–15 seconds to load.

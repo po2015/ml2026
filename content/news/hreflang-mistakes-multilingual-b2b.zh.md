@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "hreflang", "多语言网站", "技术 SEO"]
 keywords: ["hreflang 实施", "hreflang 错误", "多语言 SEO"]
 cover: "/images/news/hreflang-mistakes-multilingual-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Hreflang 是国际 SEO 中被错误实施最多的标签。我们在 B2B 网站上最常发现的六个错误，如何发现它们，以及逐一的修复方法。"
 ---
 

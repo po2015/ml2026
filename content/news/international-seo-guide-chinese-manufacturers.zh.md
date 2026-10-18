@@ -6,7 +6,7 @@ category_label: "技术洞察"
 tags: ["SEO", "国际 SEO", "hreflang", "Google", "中国制造企业"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构"
 ---
 

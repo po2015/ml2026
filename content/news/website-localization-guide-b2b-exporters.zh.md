@@ -6,7 +6,7 @@ category_label: "行业洞察"
 tags: ["网站本地化", "B2B", "出口", "国际营销"]
 cover: "/images/news/website-export.jpg"
 summary: "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
 ---
 

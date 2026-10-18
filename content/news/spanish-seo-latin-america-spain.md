@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Spanish", "Latin America", "international SEO"]
 keywords: ["spanish seo", "latin america seo", "spain vs latam keywords"]
 cover: "/images/news/spanish-seo-latin-america-spain.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Same language, different searches. Why a single Spanish SEO strategy underperforms on both sides of the Atlantic, and how to structure keywords, content, and hreflang for both markets."
 ---
 

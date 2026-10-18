@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "scenario training", "cultural adaptation", "instructional design"]
 keywords: ["scenario training localization", "cultural adaptation elearning", "branching scenario translation"]
 cover: "/images/news/scenario-training-cultural-localization.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Your sales role-play scenario works in Ohio. In Osaka, the 'difficult customer' reads as unthinkably rude, the 'correct' answer is culturally wrong, and the humor lands like a brick. Scenario training is the most culture-dense content you localize — here's what to adapt and what to protect."
 ---
 

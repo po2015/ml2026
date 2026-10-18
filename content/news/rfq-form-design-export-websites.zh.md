@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "B2B 外贸", "表单", "转化"]
 keywords: ["rfq 表单设计", "b2b 询盘表单", "外贸网站联系表单"]
 cover: "/images/news/rfq-form-design-export-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "RFQ 表单是营销投入转化为销售管道——或悄悄漏掉——的地方。面向出口企业询盘表单的逐字段设计指南：该问什么、该省什么，以及如何在不增加摩擦的情况下完成筛选。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "阿拉伯语", "中东", "国际 SEO"]
 keywords: ["阿拉伯语 SEO", "海湾市场 SEO", "阿拉伯语搜索行为"]
 cover: "/images/news/arabic-seo-gulf-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "海湾买家用阿拉伯语、英语以及两者混合的方式搜索——常常就在同一个会话里。阿拉伯语搜索行为究竟如何运作，以及如何构建能排上名的页面。"
 ---
 

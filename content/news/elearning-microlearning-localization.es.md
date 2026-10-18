@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "localización", "Doblaje con IA", "SCORM", "memoria de traducción"]
 keywords: ["localización de microlearning", "microlearning multilingüe", "traducción de módulos cortos de capacitación"]
 cover: "/images/news/elearning-microlearning-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Una biblioteca de microlearning de 300 módulos se lanza en inglés; el equipo alemán recibe 60, el equipo brasileño recibe una hoja de cálculo con subtítulos. Los módulos cortos debían abaratar la capacitación — hasta que la localización chocó con mínimos por módulo, interfaces de tarjetas que recortan el texto alemán y cuestionarios que se rompen a pequeña escala. Cómo los equipos de L&D hacen funcionar módulos de 2 a 7 minutos en varios idiomas sin que el ciclo de actualizaciones se coma el presupuesto."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "产品演示", "B2B 营销", "配音"]
 keywords: ["产品演示视频本地化", "演示视频翻译", "产品视频本地化"]
 cover: "/images/news/product-demo-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你最厉害的销售员是一段 4 分钟的产品演示——英文的。如何不订摄影棚就把它带到十个市场：旁白、屏幕文字和 UI 录屏的分层处理法。"
 ---
 

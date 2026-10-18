@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["creación de sitios web", "RGPD", "cumplimiento", "exportación B2B"]
 keywords: ["páginas legales sitio web", "política de privacidad rgpd sitio de exportación", "cumplimiento de sitios web internacionales"]
 cover: "/images/news/international-website-legal-pages.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Las páginas legales no son un trámite cuando sus compradores están en la UE, California o el Golfo. Lo que un sitio B2B internacional realmente necesita y lo que cuesta omitirlo."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "AI chatbot", "lead generation", "customer service"]
 keywords: ["ai chatbot b2b export", "multilingual chatbot website", "chatbot overseas inquiries"]
 cover: "/images/news/ai-chatbot-overseas-inquiries.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your buyers message at 2am your time, in five languages, asking questions your website already answers. An AI chatbot can catch those inquiries — or torch your credibility with a hallucinated price quote. Where the line is, and how to deploy one that helps."
 ---
 

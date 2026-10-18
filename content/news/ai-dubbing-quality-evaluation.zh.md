@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "真人配音", "视频本地化", "TTS", "配音"]
 keywords: ["ai 配音质量", "评估 ai 配音", "ai 配音测试"]
 cover: "/images/news/ai-dubbing-quality-evaluation.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "每家 AI 配音供应商演示的都是完美的 20 秒片段。然后你签了合同，交出 40 个培训视频，才发现那个声音连你的产品名都念不对。一份买家测试协议：搭一段有代表性的测试脚本，用评分量表打分，在合同替你发现之前先认出演示里的危险信号。"
 ---
 

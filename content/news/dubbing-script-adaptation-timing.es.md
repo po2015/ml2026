@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "adaptación de guiones", "traducción", "vídeo"]
 keywords: ["adaptación guion doblaje", "traducción doblaje sincronización", "guion lip sync"]
 cover: "/images/news/dubbing-script-adaptation-timing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Un guion de doblaje no es una traducción: es una reescritura sincronizada con una imagen que no puede cambiar. Por qué los guiones literales producen audio apresurado y desfasado, y cómo funciona realmente la adaptación profesional."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "关键词", "B2B 出海", "内容战略"]
 keywords: ["工业长尾关键词", "b2b 关键词研究实例", "制造商 seo 关键词"]
 cover: "/images/news/industrial-long-tail-keywords.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "「Ball valve」有 4 万次搜索，但你永远排不上去。「API 6D trunnion mounted ball valve manufacturer」只有 90 次——而搜索的人抽屉里就放着采购订单。工业长尾关键词策略的完整实战示例。"
 ---
 

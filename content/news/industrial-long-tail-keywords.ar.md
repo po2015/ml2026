@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "الكلمات المفتاحية", "التصدير B2B", "استراتيجية المحتوى"]
 keywords: ["كلمات مفتاحية طويلة الذيل صناعية", "مثال بحث كلمات مفتاحية B2B", "كلمات مفتاحية SEO للمصنّعين"]
 cover: "/images/news/industrial-long-tail-keywords.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "عبارة \"ball valve\" عليها 40,000 عملية بحث ولن تتصدرها أبداً. أما \"API 6D trunnion mounted ball valve manufacturer\" فعليها 90 — والباحث يحمل أمر شراء في درجه. مثال عملي كامل على استراتيجية الكلمات المفتاحية طويلة الذيل الصناعية."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["包装", "多语言 DTP", "法规合规", "标签设计"]
 keywords: ["多语言包装设计", "法规标签翻译", "包装文字膨胀"]
 cover: "/images/news/multilingual-packaging-design-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "你的包装盒是按英文设计的。现在它需要四种语言、一个 CE 标志、一个进口商地址，还有一块法律规定每种语言必须同等大小的警示区。多语言包装是法规与排版的交汇处——也是重印噩梦的发源地。以下规则让项目保持理智。"
 ---
 

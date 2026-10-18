@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "旁白", "质量保证", "本地化预算"]
 keywords: ["配音返工成本", "旁白重录", "配音质量控制"]
 cover: "/images/news/dubbing-rework-cost-guide.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "德语旁白已交付、混音完成、视频发布——然后你的经销商听到了它：产品名念错了，一条安全警告被意译得走了样。重录一条视频的成本远高于第一次就录对，因为录音棚档期是账单上最小的一项。配音返工究竟从哪里来、真实成本是多少，以及在错误还很便宜时拦住它们的检查点。"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Multilingual DTP Explained: Typography Rules, Tools, and Workflow for Chinese-English Documents"
+title: "Multilingual DTP: Typography Rules for Chinese-English"
 date: 2026-04-23
 category: "tech"
 category_label: "Tech Insights"

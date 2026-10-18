@@ -6,7 +6,7 @@ category_label: "التقنية"
 tags: ["SEO", "SEO دولي", "hreflang", "Google", "مصنعون صينيون"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
 ---
 

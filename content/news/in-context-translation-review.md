@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Localization", "translation review", "QA", "website quality"]
 keywords: ["in context translation review", "translation review website", "localized content qa"]
 cover: "/images/news/in-context-translation-review.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The German translator reviewed her work in a spreadsheet. It read beautifully. Then the site launched: the elegant three-word button wrapped onto two lines, the form label pointed at the wrong field, and 'Anmelden' (log in) sat on the checkout button where 'Register' was meant. Translation reviewed out of context is translation half-reviewed — the workflow that closes the gap."
 ---
 

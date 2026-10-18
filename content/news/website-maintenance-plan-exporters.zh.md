@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "网站维护", "网站管理", "运营"]
 keywords: ["网站维护计划", "外贸网站维护", "B2B 网站维护"]
 cover: "/images/news/website-maintenance-plan-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "新网站十八个月前上线了。从那以后：两款产品停产了（页面还在线），一张证书过期了（还在展示），价格变了（还在报旧价），德语版干脆彻底停止了更新。网站的腐烂悄无声息——它慢慢变成一个已经不复存在的公司版本。防止这一切的维护计划：查什么、多久查一次、谁来负责。"
 ---
 

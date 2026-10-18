@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "keywords", "B2B Export", "content strategy"]
 keywords: ["industrial long tail keywords", "b2b keyword research example", "manufacturer seo keywords"]
 cover: "/images/news/industrial-long-tail-keywords.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "\"Ball valve\" has 40,000 searches and you'll never rank for it. \"API 6D trunnion mounted ball valve manufacturer\" has 90 — and the searcher has a PO in his drawer. A complete worked example of industrial long-tail keyword strategy."
 ---
 

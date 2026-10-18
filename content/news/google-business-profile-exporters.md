@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Google Business Profile", "local SEO", "digital marketing"]
 keywords: ["google business profile exporters", "b2b google maps listing", "gbp setup international"]
 cover: "/images/news/google-business-profile-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A European buyer searches your company name and finds... nothing on Maps, or worse, a blank profile with a wrong address and a 1-star review from a disgruntled ex-employee. Google Business Profile is free, takes an afternoon, and anchors your company's legitimacy in the search results buyers check before replying to your quote. What exporters should set up, what doesn't apply to you, and the pitfalls that suspend profiles."
 ---
 

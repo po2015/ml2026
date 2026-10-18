@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "Localization", "AI Dubbing", "SCORM", "Translation Memory"]
 keywords: ["microlearning localization", "multilingual microlearning", "short training modules translation"]
 cover: "/images/news/elearning-microlearning-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "A 300-module microlearning library ships in English; the German team gets 60 of them, the Brazilian team gets a spreadsheet of subtitles. Short modules were supposed to make training cheaper — until localization hit per-module minimums, card UIs that clip German text, and quizzes that break at small scale. How L&D teams make 2–7 minute modules work across languages without the update cycle eating the budget."
 ---
 

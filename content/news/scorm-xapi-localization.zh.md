@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "SCORM", "xAPI", "本地化", "企业培训"]
 keywords: ["SCORM 本地化", "xAPI 翻译", "在线课程本地化"]
 cover: "/images/news/scorm-xapi-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "翻译课程文字只是电子学习本地化的一半。SCORM 和 xAPI 课件包内部到底会发生什么变化——以及漏掉它们会带来什么后果。"
 ---
 

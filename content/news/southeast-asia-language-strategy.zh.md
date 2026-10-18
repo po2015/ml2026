@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "东南亚", "语言策略", "区域市场"]
 keywords: ["东南亚语言", "东南亚网站本地化", "东盟语言策略"]
 cover: "/images/news/southeast-asia-language-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "11 个国家、十几种主要语言，英语有时管用——直到它不管用为止。如何为东南亚市场排定语言优先级，而不必把网站翻译 11 遍。"
 ---
 

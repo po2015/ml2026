@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "compliance training", "translation accuracy", "legal risk"]
 keywords: ["compliance training translation", "safety training localization", "compliance elearning accuracy"]
 cover: "/images/news/compliance-training-translation-accuracy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "After the plant accident, the investigation found the safety training had been translated — loosely. The lockout procedure's 'verify zero energy' became 'check the machine is off,' and the quiz accepted it. In compliance training, translation errors aren't quality issues; they're evidence. How to localize training that has to stand up in an audit, or a courtroom."
 ---
 

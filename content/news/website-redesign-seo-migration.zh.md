@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "网站建设", "B2B 外贸", "网站改版", "数字化策略"]
 keywords: ["网站改版 seo", "seo 迁移清单", "网站换平台 seo"]
 cover: "/images/news/website-redesign-seo-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "一家机械出口商重建了用五年的网站。新设计、新平台、新代理商。上线当天流量断崖式下跌：一周内 70% 的自然流量消失，原本带来询盘的页面返回 404，德语版本甚至开始在英文查询上反超英文版。这些没有一个是不可避免的——每一项损失都对应标准 SEO 迁移清单上被跳过的一行。这是清单本身、上线当天的检查项，以及恢复时间线。"
 ---
 

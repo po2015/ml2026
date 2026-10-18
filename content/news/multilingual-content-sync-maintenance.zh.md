@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "网站维护", "内容同步", "本地化工作流"]
 keywords: ["多语言内容维护", "网站翻译同步", "多语言网站更新"]
 cover: "/images/news/multilingual-content-sync-maintenance.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "上线当天：五种语言，完美对齐。第八个月：英文站已经展示了新泵系列，德文站还停留在去年的型号，而没人说得清西班牙文页面引用的是哪一版规格表。多语言漂移是流程问题，而不是翻译问题——本文给出防止漂移的同步体系。"
 ---
 

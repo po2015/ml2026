@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "GEO", "AI search", "generative AI"]
 keywords: ["generative engine optimization", "geo seo manufacturers", "ai search optimization b2b"]
 cover: "/images/news/geo-generative-engine-optimization-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "SEO got you ranked on a page of ten blue links. GEO is about being the supplier the AI names when there is no page of links at all — one synthesized answer, three recommended vendors. The discipline has a name now, early research says what works, and most of it is content you should have had anyway."
 ---
 

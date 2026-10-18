@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "B2B Export", "trust signals", "conversion"]
 keywords: ["b2b website trust signals", "manufacturer website credibility", "supplier website trust"]
 cover: "/images/news/b2b-website-trust-signals.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A buyer who has never visited your factory decides from your website whether you get the RFQ. The ten trust signals that carry that decision — ranked by what procurement actually looks for."
 ---
 

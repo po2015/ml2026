@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "Google Analytics", "B2B-экспорт", "веб-аналитика"]
 keywords: ["ga4 b2b", "аналитика экспортного сайта", "google analytics для экспортеров"]
 cover: "/images/news/ga4-export-website-metrics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 установлен почти на каждом экспортном сайте, но почти ни на один вопрос не отвечает. Пять метрик, которые действительно показывают, приносит ли сайт бизнес."
 ---
 

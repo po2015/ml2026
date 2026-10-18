@@ -5,7 +5,7 @@ category: "tech"
 category_label: "Tecnología"
 tags: ["doblaje con IA", "locución humana", "doblaje", "localización", "producción de audio"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."
 description: "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."
 ---

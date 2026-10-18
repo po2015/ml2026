@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "字幕", "隐藏式字幕", "翻译"]
 keywords: ["字幕排版规范", "字幕行长", "阅读速度 CPS"]
 cover: "/images/news/subtitle-formatting-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "糟糕的字幕会让好视频没法看。本文讲清行长、阅读速度与时间轴的专业规则——以及字幕经过翻译之后，这些规则会发生什么变化。"
 ---
 

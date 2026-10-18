@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "motion graphics", "texto en pantalla", "DTP"]
 keywords: ["localización de texto en pantalla", "traducción de motion graphics", "sustitución de texto en video"]
 cover: "/images/news/on-screen-text-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La locución es solo la mitad de la localización de video. Lo que implica traducir texto en pantalla, títulos y motion graphics, y por qué los archivos de proyecto importan más que el propio video."
 ---
 

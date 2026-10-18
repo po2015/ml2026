@@ -6,7 +6,7 @@ category_label: "Tecnología"
 tags: ["localización de video", "subtitulado", "formación corporativa", "doblaje", "texto en pantalla"]
 cover: "/images/services/video.jpg"
 summary: "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
 ---
 

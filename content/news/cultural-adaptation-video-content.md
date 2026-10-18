@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "cultural adaptation", "video content", "international marketing"]
 keywords: ["cultural adaptation video", "video localization culture", "gestures humor localization"]
 cover: "/images/news/cultural-adaptation-video-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "The corporate video was perfectly translated — every word. The German distributor still winced at the thumbs-up montage, the Japanese version kept a joke that lands as rude, and the Middle East cut showed Friday as a workday. Words are the visible third of video localization. What's underneath: gestures, humor, symbols, and the cultural audit that catches them."
 ---
 

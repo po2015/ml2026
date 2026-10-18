@@ -6,7 +6,7 @@ category: "industry"
 category_label: "行业洞察"
 tags: ["产品目录网站", "英文产品页", "B2B 询盘", "制造业营销"]
 cover: "/images/news/manufacturing-catalog.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "产品目录不是把型号堆上去，而是帮海外采购快速判断适配性、风险和下一步动作"
 ---
 

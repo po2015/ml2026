@@ -6,7 +6,7 @@ category_label: "القطاع"
 tags: ["إنشاء المواقع", "OEM", "كتالوج المنتجات", "موقع B2B", "التصدير"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."
 ---
 

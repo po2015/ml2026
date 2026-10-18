@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "испанский", "Латинская Америка", "международное SEO"]
 keywords: ["испанское seo", "seo латинская америка", "ключевые слова испания против latam"]
 cover: "/images/news/spanish-seo-latin-america-spain.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Один язык — разные поисковые запросы. Почему единая испаноязычная SEO-стратегия недобирает по обе стороны Атлантики и как выстроить ключевые слова, контент и hreflang для обоих рынков."
 ---
 

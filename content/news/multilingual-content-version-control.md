@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Localization", "version control", "content management", "translation workflow"]
 keywords: ["translation version control", "translation update workflow", "multilingual document versions"]
 cover: "/images/news/multilingual-content-version-control.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The manual changed: three sentences updated, one warning added, a spec revised. Do you re-translate the whole document in five languages, patch the changed sentences by hand, or just update the English and hope nobody notices? Without version control for translations, every content change forces a bad choice. How translation-memory-based change management turns re-translation into a pay-per-delta operation."
 ---
 

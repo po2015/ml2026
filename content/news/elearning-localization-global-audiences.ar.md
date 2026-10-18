@@ -6,7 +6,7 @@ category_label: "القطاع"
 tags: ["التعلم الإلكتروني", "التوطين", "SCORM", "التصميم التعليمي", "التدريب العالمي"]
 cover: "/images/services/elearning.jpg"
 summary: "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
 ---
 

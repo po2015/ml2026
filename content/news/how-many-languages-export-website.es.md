@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización de sitios web", "sitio web multilingüe", "exportación B2B", "estrategia de idiomas"]
 keywords: ["estrategia de idiomas para sitios web", "costo de sitio web multilingüe", "idiomas para sitio web de exportación"]
 cover: "/images/news/how-many-languages-export-website.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Más idiomas no siempre es mejor. Una forma basada en datos de decidir qué idiomas necesita su sitio web de exportación y cuándo se paga cada uno por sí mismo."
 ---
 

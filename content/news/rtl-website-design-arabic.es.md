@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Creación de sitios web", "árabe", "RTL", "diseño web"]
 keywords: ["diseño web rtl", "diseño web árabe", "diseño web de derecha a izquierda"]
 cover: "/images/news/rtl-website-design-arabic.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un sitio web en árabe no es su sitio LTR con texto traducido: toda la lógica visual se refleja. Qué se invierte de verdad, qué no debe invertirse y las prácticas de CSS que permiten a una sola base de código servir ambas direcciones."
 ---
 

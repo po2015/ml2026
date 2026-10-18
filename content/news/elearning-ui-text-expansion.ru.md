@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["E-Learning", "локализация UI", "расширение текста", "дизайн курсов"]
 keywords: ["локализация интерфейса elearning", "расширение текста в кнопках", "перевод интерфейса курса"]
 cover: "/images/news/elearning-ui-text-expansion.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "«Submit» помещается на своей кнопке. «Absenden» — почти. «Envoyer la réponse» — уже нет. Расширение текста ломает интерфейсы курсов раньше, чем слушатели добираются до контента — как проектировать UI курса, который переживёт перевод."
 ---
 

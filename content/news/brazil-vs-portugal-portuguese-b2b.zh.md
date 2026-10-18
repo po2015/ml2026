@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "巴西", "葡语市场", "本地化变体"]
 keywords: ["巴西葡萄牙语本地化", "巴西与葡萄牙葡语差异", "葡萄牙语 B2B 网站"]
 cover: "/images/news/brazil-vs-portugal-portuguese-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "2.6 亿葡语人口，一门语言，两个截然不同的市场。巴西买家打开你的欧洲葡语网站，感觉像在读一份来自里斯本的法律文书；葡萄牙买家进入你的巴西式结账流程，看到 cadastro（注册）一词便直接跳出。PT-BR 与 PT-PT 在 B2B 场景中的真实差异在哪里，又该先做哪一个。"
 ---
 

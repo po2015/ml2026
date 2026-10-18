@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "术语", "术语库", "翻译质量"]
 keywords: ["术语管理", "术语库 词汇表 翻译", "多语言术语"]
 cover: "/images/news/terminology-management-termbase.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "你的德语数据表写的是 Kugelhahn，德语手册写的是 Kugelventil，德语网站则在同一页里两个都用。买家注意到了；搜索引擎注意到了；你自己的工程师看得直皱眉。术语不一致是多语言内容中最常见的质量缺陷——也是唯一一个几乎免费就能修复的：一个术语库，建一次，维护一辈子。"
 ---
 

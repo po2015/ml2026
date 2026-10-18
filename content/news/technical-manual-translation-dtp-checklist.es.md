@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Tecnología"
 tags: ["traducción técnica", "DTP", "manuales multilingües", "preparación de archivos"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Un manual multilingüe fluye mejor cuando los archivos fuente, la terminología y el diseño se preparan antes de traducir."
 ---
 

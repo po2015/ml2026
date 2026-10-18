@@ -6,7 +6,7 @@ category_label: "Индустрия"
 tags: ["онлайн-обучение", "локализация", "SCORM", "педагогический дизайн", "глобальное обучение"]
 cover: "/images/services/elearning.jpg"
 summary: "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
 ---
 

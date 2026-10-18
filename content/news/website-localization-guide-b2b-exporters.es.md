@@ -6,7 +6,7 @@ category_label: "Industria"
 tags: ["localización web", "B2B", "exportación", "marketing internacional"]
 cover: "/images/news/website-export.jpg"
 summary: "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
 ---
 

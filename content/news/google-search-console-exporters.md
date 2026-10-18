@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Google Search Console", "analytics", "B2B Export"]
 keywords: ["google search console exporters", "gsc reports multilingual", "search console b2b seo"]
 cover: "/images/news/google-search-console-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 tells you what visitors did. Search Console tells you whether Google can find you at all — and for a multilingual export site, five specific reports catch 90% of what goes wrong. Which ones, what to look for, and the traps that hide for months."
 ---
 

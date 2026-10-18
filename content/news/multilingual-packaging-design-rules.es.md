@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["empaque", "DTP multilingüe", "regulatorio", "diseño de etiquetas"]
 keywords: ["diseño de empaque multilingüe", "traducción de etiquetas regulatorias", "expansión de texto en empaques"]
 cover: "/images/news/multilingual-packaging-design-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Su caja se diseñó para el inglés. Ahora necesita cuatro idiomas, una marca CE, la dirección del importador y un panel de advertencias que legalmente debe tener el mismo tamaño en todos los idiomas. El empaque multilingüe es donde la regulación se encuentra con la tipografía, y donde los rediseños van a morir. Las reglas que lo mantienen bajo control."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "CJK", "typography", "font pairing"]
 keywords: ["cjk font pairing", "chinese latin font matching", "source han sans"]
 cover: "/images/news/cjk-latin-font-pairing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Mixed Chinese-Latin documents fail when the two scripts look like they came from different companies. How to pair CJK and Latin typefaces so brochures, manuals, and websites read as one design."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "подбор ключевых слов", "мультиязычный сайт", "международное SEO"]
 keywords: ["мультиязычный подбор ключевых слов", "международный keyword research", "переведённые ключевые слова"]
 cover: "/images/news/multilingual-keyword-research-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Немцы не ищут по переведённым с английского ключевым словам. Почему прямой перевод семантики проваливается — и как native-first подход находит то, что покупатели реально вводят в поиск."
 ---
 

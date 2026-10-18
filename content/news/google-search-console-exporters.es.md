@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "Google Search Console", "analítica", "exportación B2B"]
 keywords: ["google search console exportadores", "informes gsc multilingüe", "search console seo b2b"]
 cover: "/images/news/google-search-console-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 le dice qué hicieron los visitantes. Search Console le dice si Google puede encontrarlo siquiera —y para un sitio exportador multilingüe, cinco informes específicos capturan el 90 % de lo que sale mal. Cuáles son, qué buscar y las trampas que se esconden durante meses."
 ---
 

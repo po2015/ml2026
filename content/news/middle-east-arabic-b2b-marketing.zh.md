@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "中东", "阿拉伯语", "市场进入"]
 keywords: ["中东 B2B 营销", "阿拉伯语网站本地化", "海湾市场进入"]
 cover: "/images/news/middle-east-arabic-b2b-marketing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "海湾地区的工业采购者年轻、数字化、重关系。中东 B2B 买家对你的内容有什么期待——远不止把网站翻译成阿拉伯语。"
 ---
 

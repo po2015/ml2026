@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "European markets", "language strategy", "regional markets"]
 keywords: ["european languages business", "eu language priority b2b", "which languages european market"]
 cover: "/images/news/european-language-priorities-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "The EU has 24 official languages. You need maybe five. Germany won't buy in English, Scandinavia happily will, and France is somewhere in between — a data-driven priority order for European B2B websites."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "信息图", "图表", "视觉本地化"]
 keywords: ["信息图本地化", "图表翻译", "示意图本地化"]
 cover: "/images/news/infographic-chart-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "图表并不是「带文字的图片」——它是文字、数字、坐标轴、颜色和阅读顺序融合成的一个论点。如何在不破坏论点和版式的前提下本地化数据图形。"
 ---
 

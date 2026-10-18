@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Japan", "website localization", "trust"]
 keywords: ["japanese b2b website", "japan website localization", "japanese business culture website"]
 cover: "/images/news/japanese-b2b-website-trust.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Japanese buyers read your website differently: more formally, more thoroughly, and with a longer checklist. What actually builds B2B trust in Japan — and the shortcuts that quietly disqualify you."
 ---
 

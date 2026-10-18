@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "ILT conversion", "training", "course development"]
 keywords: ["ilt to elearning conversion", "classroom to online training", "multilingual elearning development"]
 cover: "/images/news/ilt-to-multilingual-elearning.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The two-day distributor training works brilliantly in the Shanghai classroom. Converting it for 40 countries, the team records the slides with narration — and produces an e-learning course nobody finishes. Classroom training fails online for predictable reasons, and multilingual multiplies every one of them. The conversion sequence that preserves what made the classroom work."
 ---
 

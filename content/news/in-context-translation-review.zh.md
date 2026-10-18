@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "翻译审校", "QA", "网站质量"]
 keywords: ["情境化翻译审校", "网站翻译审校", "本地化内容 qa"]
 cover: "/images/news/in-context-translation-review.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "德语译员在电子表格里审校了自己的译文，读起来很漂亮。然后网站上线了：优雅的三个词按钮折成了两行，表单标签指向了错误的字段，本该是「注册」的结账按钮上却写着 Anmelden（登录）。脱离情境审校的翻译，只完成了一半审校——补上这一课的工作流。"
 ---
 

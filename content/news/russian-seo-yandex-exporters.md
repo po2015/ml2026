@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Russian", "Yandex", "international SEO"]
 keywords: ["russian seo", "yandex seo", "russian market seo exporters"]
 cover: "/images/news/russian-seo-yandex-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Russia searches differently: Yandex's ranking logic, Cyrillic keyword behavior, and a buyer base that reads specs in Russian. What exporters need to know before building Russian-language pages."
 ---
 

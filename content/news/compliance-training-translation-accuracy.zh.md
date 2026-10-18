@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "合规培训", "翻译准确性", "法律风险"]
 keywords: ["合规培训翻译", "安全培训本地化", "合规在线课程准确性"]
 cover: "/images/news/compliance-training-translation-accuracy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "工厂事故之后，调查发现安全培训确实翻译过——译得很随意。上锁挂牌程序里的「确认零能量状态」变成了「确认机器已关机」，而测验也接受了这种理解。在合规培训中，翻译错误不是质量问题，而是呈堂证据。如何本地化一套经得起审计甚至法庭检验的培训。"
 ---
 

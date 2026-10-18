@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "quiz localization", "assessment", "LMS"]
 keywords: ["quiz localization", "e-learning assessment translation", "lms quiz localization"]
 cover: "/images/news/quiz-assessment-localization-pitfalls.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Translating quiz questions is the easy part. Randomization, feedback logic, cultural framing, and fixed-size buttons are where localized assessments actually break — and how to catch it before learners do."
 ---
 

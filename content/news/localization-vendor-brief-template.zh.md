@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "供应商管理", "B2B 出海", "项目管理"]
 keywords: ["本地化需求简报", "翻译供应商简报", "本地化项目模板"]
 cover: "/images/news/localization-vendor-brief-template.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "大多数本地化问题，其实都是需求简报的问题。一份一页纸的模板，帮你拿到准确报价、靠谱工期，减少返工轮次。"
 ---
 

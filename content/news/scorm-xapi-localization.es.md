@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "SCORM", "xAPI", "localización", "formación corporativa"]
 keywords: ["localización scorm", "traducción xapi", "localización elearning"]
 cover: "/images/news/scorm-xapi-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Traducir el texto del curso es solo la mitad de la localización de e-learning. Qué cambia realmente dentro de los paquetes SCORM y xAPI — y qué se rompe si lo pasa por alto."
 ---
 

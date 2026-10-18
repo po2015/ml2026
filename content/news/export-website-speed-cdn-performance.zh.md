@@ -6,7 +6,7 @@ category_label: "技术洞察"
 tags: ["CDN", "网站性能", "全球托管", "页面速度", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
 ---
 

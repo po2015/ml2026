@@ -6,7 +6,7 @@ category_label: "التقنية"
 tags: ["CDN", "أداء الموقع", "الاستضافة العالمية", "سرعة الصفحة", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
 ---
 

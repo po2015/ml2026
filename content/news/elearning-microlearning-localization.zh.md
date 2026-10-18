@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["电子学习", "本地化", "AI 配音", "SCORM", "翻译记忆"]
 keywords: ["微学习本地化", "多语言微学习", "短培训模块翻译"]
 cover: "/images/news/elearning-microlearning-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "一个 300 模块的微学习库用英文上线；德国团队拿到 60 个，巴西团队拿到一张字幕电子表格。短模块本该让培训更便宜——直到本地化撞上按模块起价的最低收费、把德文截断的卡片式 UI，以及在小体量下直接崩掉的测验。L&D 团队如何让 2–7 分钟的模块跨语言运转，而不让更新周期吃掉预算。"
 ---
 

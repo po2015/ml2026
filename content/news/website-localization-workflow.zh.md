@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站本地化", "本地化工作流程", "多语言网站", "项目管理"]
 keywords: ["网站本地化流程", "网站本地化工作流程", "本地化项目步骤"]
 cover: "/images/news/website-localization-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "从\"我们需要一个德语网站\"到上线日之间到底发生什么：专业网站本地化项目的八个阶段，以及现实的工期。"
 ---
 

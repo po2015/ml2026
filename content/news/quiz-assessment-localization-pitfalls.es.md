@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "localización de cuestionarios", "evaluación", "LMS"]
 keywords: ["localización de cuestionarios", "traducción de evaluaciones e-learning", "localización de cuestionarios lms"]
 cover: "/images/news/quiz-assessment-localization-pitfalls.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Traducir las preguntas de un cuestionario es la parte fácil. La aleatorización, la lógica de retroalimentación, el encuadre cultural y los botones de tamaño fijo son donde las evaluaciones localizadas realmente fallan — y cómo detectarlo antes de que lo hagan los alumnos."
 ---
 

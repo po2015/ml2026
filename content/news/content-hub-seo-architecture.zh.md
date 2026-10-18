@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "内容策略", "网站架构", "内容营销"]
 keywords: ["内容枢纽 SEO", "B2B 内容架构", "支柱页面策略"]
 cover: "/images/news/content-hub-seo-architecture.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "八十篇关于阀门的博客文章，按日期排列、最新在前——Google 一篇也不给排名。按时间排序的博客会埋掉你最好的内容，把你的话题权威度打散在一篇篇孤立的文章里。内容枢纽（content hub）修复的是架构：每个话题一个权威的支柱页面，支撑文章环绕链接，权威度被集中而不是稀释。怎么重构，以及什么时候值得做。"
 ---
 

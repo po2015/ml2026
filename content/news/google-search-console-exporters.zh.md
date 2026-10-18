@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "Google Search Console", "数据分析", "B2B 出口"]
 keywords: ["google search console 出口商", "gsc 多语言报告", "search console b2b seo"]
 cover: "/images/news/google-search-console-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 告诉你访客做了什么，Search Console 告诉你谷歌到底能不能找到你——对多语言出口网站来说，五份特定的报告能抓住 90% 的出错点。看哪几份、看什么，以及那些能藏好几个月的坑。"
 ---
 

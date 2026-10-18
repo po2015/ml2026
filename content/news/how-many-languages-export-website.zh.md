@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站本地化", "多语言网站", "B2B 出口", "语言策略"]
 keywords: ["网站语言策略", "多语言网站成本", "外贸网站语言"]
 cover: "/images/news/how-many-languages-export-website.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "语言并非越多越好。本文提供一种数据驱动的方法，帮你判断外贸网站需要哪些语言——以及每种语言何时能收回成本。"
 ---
 

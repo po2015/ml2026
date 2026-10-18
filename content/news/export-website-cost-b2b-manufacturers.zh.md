@@ -6,7 +6,7 @@ category: "industry"
 category_label: "行业洞察"
 tags: ["外贸独立站", "B2B 建站", "制造业出海", "询盘转化"]
 cover: "/images/news/website-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "外贸独立站的预算不该只看页面数量，而要看它能不能支撑海外买家的信任、搜索和询盘动作"
 ---
 

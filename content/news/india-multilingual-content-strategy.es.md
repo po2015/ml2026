@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "India", "mercados regionales", "estrategia de contenido"]
 keywords: ["marketing multilingüe india", "estrategia de contenido b2b india", "localización de sitio web al hindi"]
 cover: "/images/news/india-multilingual-content-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Su estrategia para India dice \"hablan inglés\" — y está a medias en lo cierto. El inglés funciona para las compras corporativas en las oficinas centrales de Mumbai, pero India tiene 22 idiomas oficiales, 600 millones de hablantes de hindi y un auge digital que ocurre casi por completo en idiomas regionales. Dónde basta el inglés, dónde le cuesta contratos silenciosamente y cómo secuenciar una estrategia de contenido para India que refleje cómo compra realmente el mercado."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "localización de UI", "expansión de texto", "diseño de cursos"]
 keywords: ["localización ui elearning", "expansión de texto botones", "traducción interfaz de curso"]
 cover: "/images/news/elearning-ui-text-expansion.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "«Submit» cabe en su botón. «Absenden» casi cabe. «Envoyer la réponse» no cabe. La expansión de texto rompe las interfaces de los cursos antes de que los alumnos lleguen al contenido: cómo diseñar una interfaz de curso que sobreviva a la traducción."
 ---
 

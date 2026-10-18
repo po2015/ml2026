@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "UI localization", "text expansion", "course design"]
 keywords: ["elearning ui localization", "text expansion buttons", "course interface translation"]
 cover: "/images/news/elearning-ui-text-expansion.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "\"Submit\" fits its button. \"Absenden\" almost does. \"Envoyer la réponse\" doesn't. Text expansion breaks course interfaces before learners ever reach the content — how to design course UI that survives translation."
 ---
 

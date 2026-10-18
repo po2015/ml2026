@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["الترجمة الآلية", "MTPE", "التحرير اللاحق", "التوطين"]
 keywords: ["التحرير اللاحق للترجمة الآلية", "MTPE", "MTPE مقابل الترجمة البشرية"]
 cover: "/images/news/what-is-mtpe-post-editing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "يجمع MTPE بين سرعة الترجمة الآلية والمراجعة البشرية. كيف يسير سير العمل فعليًا، وكم يكلّف، ولأي محتوى يناسب — وأيّه لا."
 ---
 

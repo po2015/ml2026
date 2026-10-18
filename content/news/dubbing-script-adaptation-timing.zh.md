@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "台本改编", "翻译", "视频"]
 keywords: ["配音台本改编", "配音翻译对时", "口型同步台本"]
 cover: "/images/news/dubbing-script-adaptation-timing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "配音台本不是翻译——它是照着一帧无法改动的画面掐着秒表重写。为什么直译台本会产出赶得要命、越飘越远的配音，以及专业改编到底是怎么做的。"
 ---
 

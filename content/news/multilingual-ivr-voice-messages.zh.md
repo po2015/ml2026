@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "IVR", "语音录制", "客户体验"]
 keywords: ["多语言 ivr 配音", "电话系统语音留言", "ivr 多语言录音"]
 cover: "/images/news/multilingual-ivr-voice-messages.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "一位德国买家拨打你的出口热线，听到的是：一段犹豫的英文问候，一段长长的沉默，然后是一段由某位同事录制、机器翻译水准的德语菜单。他挂断电话，转而给你的竞争对手发了邮件。IVR 只有十分钟的音频——却往往是买家接触到的第一个「有人味」的触点。如何把这个小项目一次做对。"
 ---
 

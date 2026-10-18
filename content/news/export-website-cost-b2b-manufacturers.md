@@ -1,12 +1,12 @@
 ---
-title: "How Much Does a B2B Export Website Cost? A Practical Budget for Manufacturers"
+title: "B2B Export Website Cost: A Budget Guide for Manufacturers"
 date: 2026-05-26T09:00:00+08:00
 publishDate: 2026-05-26T09:00:00+08:00
 category: "industry"
 category_label: "Industry"
 tags: ["export website", "B2B website", "manufacturer marketing", "lead generation"]
 cover: "/images/news/website-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "A serious export website budget is not just about page count. It should cover credibility, search visibility, technical content, and inquiry conversion."
 ---
 

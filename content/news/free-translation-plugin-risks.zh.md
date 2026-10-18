@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "网站翻译", "机器翻译", "SEO"]
 keywords: ["翻译插件风险", "网站翻译挂件", "机器翻译网站 seo"]
 cover: "/images/news/free-translation-plugin-risks.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "一键点击，你的网站就「支持 100 种语言」——一个免费翻译挂件，十分钟装完，一分钱不花。只是：翻译出来的页面无法在 Google 上排名，德语读起来像一本出故障的说明书，你的品牌名被翻成了一个普通名词，而目标市场的买家直接关掉了标签页。免费翻译插件是出口营销里最昂贵的廉价方案。它们实际做了什么、为什么会失败，以及同样（很少的）钱正经花能买到什么。"
 ---
 

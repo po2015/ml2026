@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 外贸", "产品摄影", "网站内容", "视觉营销"]
 keywords: ["工业产品摄影", "制造商网站照片", "b2b 产品图片"]
 cover: "/images/news/industrial-product-photography-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "一位德国买家打开你的产品目录页，看到一只阀门拍在杂乱的工作台上，荧光灯管照明，旁边还放着谁的咖啡杯。规格书写得很出色，照片却在说「作坊」，而不是「供应商」。工业买家把产品照片当作证据来读——质量管控的证据、规模的证据、专业度的证据。该拍什么、如何在五位数预算以内拍好，以及每个制造商网站都需要的拍摄清单。"
 ---
 

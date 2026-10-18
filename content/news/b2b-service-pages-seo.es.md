@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "estructura web", "SEO", "optimización de conversión"]
 keywords: ["seo de páginas de servicios b2b", "estructura de página de servicios", "páginas de sitio web de fabricante"]
 cover: "/images/news/b2b-service-pages-seo.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su sitio web tiene una sola página de \"Servicios\" con cuatro párrafos que cubren todo lo que hace — mecanizado a medida, ensamblaje OEM, diseño de utillajes, tratamiento de superficies. Google no la posiciona para nada, y los compradores que llegan no saben si usted maneja la geometría de su pieza. Una página de servicios tiene dos trabajos — posicionar para una consulta de capacidad específica y luego convertir esa visita en una consulta comercial — y una sola página solo puede hacer un trabajo. La estructura que hace ambos."
 ---
 

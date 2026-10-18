@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "content strategy", "site architecture", "content marketing"]
 keywords: ["content hub seo", "b2b content architecture", "pillar page strategy"]
 cover: "/images/news/content-hub-seo-architecture.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Eighty blog posts about valves, published in date order, newest first — and Google ranks none of them. Chronological blogs bury your best content and scatter your topical authority across isolated posts. The content hub fixes the architecture: one authoritative pillar page per topic, supporting articles linked around it, authority concentrated instead of diluted. How to restructure, and when it matters."
 ---
 

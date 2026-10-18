@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["exportación B2B", "canales de contacto", "generación de leads", "conversión web"]
 keywords: ["canales de contacto b2b", "whatsapp business exportación", "chat en vivo sitio web exportador"]
 cover: "/images/news/export-website-contact-channels.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su comprador brasileño escribe por WhatsApp. Su comprador alemán envía un correo. Su comprador saudí llama a las 11 p. m., hora suya. Los canales de contacto que ofrece —y la rapidez con que responde— deciden qué consultas se convierten en conversaciones. La guía de canales por mercado."
 ---
 

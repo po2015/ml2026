@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["B2B-экспорт", "скорость сайта", "SEO", "Core Web Vitals"]
 keywords: ["core web vitals", "скорость сайта seo", "производительность b2b сайта"]
 cover: "/images/news/core-web-vitals-b2b-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Ваш сайт загружается за 1,2 секунды в офисе в Шэньчжэне — и за 9 секунд у покупателя в Лагосе через гостиничный Wi-Fi. Core Web Vitals от Google измеряют именно второй опыт, а не первый, и негласно решают, будут ли ваши страницы ранжироваться и останутся ли мобильные покупатели. Три метрики — в пересказе на языке бизнеса."
 ---
 

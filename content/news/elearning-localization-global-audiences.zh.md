@@ -6,7 +6,7 @@ category_label: "行业洞察"
 tags: ["在线学习", "本地化", "SCORM", "教学设计", "全球培训"]
 cover: "/images/services/elearning.jpg"
 summary: "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
 ---
 

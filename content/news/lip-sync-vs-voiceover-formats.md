@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["dubbing", "lip sync", "voiceover", "video localization"]
 keywords: ["lip sync vs voiceover", "un style voiceover", "dubbing formats"]
 cover: "/images/news/lip-sync-vs-voiceover-formats.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Germans expect lip-sync. Poles grew up with a lector. Your corporate video doesn't need either — but it does need the right format choice, because the wrong one costs double or looks cheap. The four dubbing formats, what each costs, and when to use which."
 ---
 

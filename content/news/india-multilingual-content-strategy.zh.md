@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "印度", "区域市场", "内容策略"]
 keywords: ["印度多语言营销", "印度 B2B 内容策略", "印地语网站本地化"]
 cover: "/images/news/india-multilingual-content-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "你的印度策略写着「他们说英语」——这话只对了一半。英语在孟买的高管采购层确实行得通，但印度有 22 种官方语言、6 亿印地语使用者，而且正在爆发的互联网增长几乎全部发生在地方语言里。哪里英语够用，哪里英语正在悄悄让你丢单，以及如何排出一套符合印度市场真实购买方式的内容策略。"
 ---
 

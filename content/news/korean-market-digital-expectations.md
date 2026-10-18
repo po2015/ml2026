@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Korea", "regional markets", "digital marketing"]
 keywords: ["korean b2b market", "korea digital expectations", "korean buyer website"]
 cover: "/images/news/korean-market-digital-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Your Korean distributor candidate opens your website, waits four seconds, finds English only, and leaves to check you on Naver — where your company doesn't exist. Korea is one of the world's most wired markets, with digital habits that run counter to Western assumptions. What Korean B2B buyers actually expect online."
 ---
 

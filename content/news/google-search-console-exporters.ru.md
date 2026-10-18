@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "Google Search Console", "аналитика", "B2B-экспорт"]
 keywords: ["google search console для экспортёров", "отчёты gsc многоязычный сайт", "search console b2b seo"]
 cover: "/images/news/google-search-console-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 говорит, что делали посетители. Search Console говорит, находит ли Google вас вообще, — а для многоязычного экспортного сайта пять конкретных отчётов ловят 90% всего, что ломается. Какие именно, что в них искать и какие ловушки скрываются месяцами."
 ---
 

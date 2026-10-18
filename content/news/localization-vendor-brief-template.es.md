@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "gestión de proveedores", "exportación B2B", "gestión de proyectos"]
 keywords: ["brief de localización", "brief para proveedor de traducción", "plantilla de proyecto de localización"]
 cover: "/images/news/localization-vendor-brief-template.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "La mayoría de los problemas de localización son problemas de brief. Una plantilla de una página para obtener cotizaciones precisas, plazos realistas y menos rondas de revisión."
 ---
 

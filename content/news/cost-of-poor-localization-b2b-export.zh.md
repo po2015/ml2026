@@ -6,7 +6,7 @@ category_label: "行业洞察"
 tags: ["本地化", "B2B", "出口营销", "翻译质量", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 description: "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
 ---
 

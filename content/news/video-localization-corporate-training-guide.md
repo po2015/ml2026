@@ -1,12 +1,12 @@
 ---
-title: "Video Localization for Corporate Training: Subtitles, Dubbing, and On-Screen Text"
+title: "Corporate Training Video Localization: Subtitles & Dubbing"
 date: 2016-05-17
 category: "tech"
 category_label: "Tech Insights"
 tags: ["video-localization", "subtitling", "corporate-training", "dubbing", "on-screen-text"]
 cover: "/images/services/video.jpg"
 summary: "Corporate training video localization involves more than translating a script. This guide covers the three main approaches, when to use each, and how to avoid the technical mistakes that create expensive rework."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 ---
 
 Corporate training video localization is one of the most technically demanding forms of content localization. Unlike a document or website, video has locked-in timing, visual elements that may need to change, audio that requires replacement or addition, and distribution formats that interact with localization in complex ways.

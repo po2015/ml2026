@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "subtitulado", "doblaje", "Doblaje con IA", "webinar"]
 keywords: ["localización de webinars", "traducción de repetición de webinar", "localizar webinar grabado"]
 cover: "/images/news/webinar-localization-replay-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su webinar con mayor asistencia del trimestre termina, la grabación cae en una carpeta, y tres meses después sigue solo en inglés mientras sus equipos de ventas de Alemania y Japón piden \"su versión\". Una grabación puede convertirse en cinco activos listos para cada mercado — pero solo si planea la localización antes de presionar grabar. El flujo de trabajo, la decisión entre subtítulos y doblaje, y lo que realmente cuesta."
 ---
 

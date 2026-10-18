@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["النشر المكتبي DTP", "InDesign", "FrameMaker", "التوثيق متعدد اللغات"]
 keywords: ["InDesign مقابل FrameMaker", "أدوات DTP متعددة اللغات", "تنسيق المستندات التقنية"]
 cover: "/images/news/indesign-vs-framemaker-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "InDesign وFrameMaker يحلّان مشكلتين مختلفتين في عالم المستندات. أيّهما يناسبك يعتمد على طول المستند وبنيته وعدد اللغات التي تنشر بها."
 ---
 

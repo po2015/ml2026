@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "международное SEO", "Google", "поисковые системы", "B2B-экспорт"]
 keywords: ["международные поисковые системы", "SEO в Яндексе", "SEO в Naver", "Bing для B2B"]
 cover: "/images/news/international-search-engines-comparison.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google доминирует на большинстве экспортных рынков, но Bing, Яндекс и Naver важны в отдельных регионах. Разбираем, куда вкладываться в поисковую видимость."
 ---
 

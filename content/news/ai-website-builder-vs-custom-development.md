@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website building", "AI website builder", "B2B export", "export website"]
 keywords: ["ai website builder", "custom website development", "export website cost"]
 cover: "/images/news/ai-website-builder-vs-custom-development.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "AI website builders and custom development solve different problems. Here is how exporters should choose based on budget, timeline, and growth plans."
 ---
 

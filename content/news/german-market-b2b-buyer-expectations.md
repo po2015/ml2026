@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Germany", "market entry", "website localization"]
 keywords: ["german b2b market", "selling to germany", "mittelstand buyers"]
 cover: "/images/news/german-market-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Germany's Mittelstand runs on technical depth, certifications, and straight answers. What these buyers check on a supplier website before they ever reply."
 ---
 

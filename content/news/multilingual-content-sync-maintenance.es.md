@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "mantenimiento web", "sincronización de contenido", "flujo de trabajo de localización"]
 keywords: ["mantenimiento de contenido multilingüe", "sincronización de traducción web", "actualizaciones de sitios web multilingües"]
 cover: "/images/news/multilingual-content-sync-maintenance.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Día del lanzamiento: cinco idiomas, perfectamente alineados. Mes ocho: el sitio en inglés muestra la nueva serie de bombas, el sitio en alemán muestra la del año pasado y nadie sabe de qué ficha técnica toma los datos la página en español. La deriva multilingüe es una falla de proceso, no de traducción: este es el sistema de sincronización que la previene."
 ---
 

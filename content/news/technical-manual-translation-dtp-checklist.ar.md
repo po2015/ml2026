@@ -6,7 +6,7 @@ category: "tech"
 category_label: "التقنية"
 tags: ["ترجمة فنية", "DTP", "أدلة متعددة اللغات", "تجهيز الملفات"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "نجاح دليل متعدد اللغات يعتمد على تجهيز الملفات والمصطلحات والتخطيط الطباعي قبل بدء الترجمة."
 ---
 

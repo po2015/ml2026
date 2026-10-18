@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["doblaje", "control de calidad", "QA de audio", "voz IA"]
 keywords: ["control de calidad de doblaje", "lista de verificación de audio", "revisión de audio doblado"]
 cover: "/images/news/dubbing-audio-qa-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "El estudio de doblaje entregó 40 archivos. Nadie de su equipo habla vietnamita. Los aprobó de todos modos, y el nombre del producto está mal pronunciado en los 40. El QA de audio es una disciplina propia, con su propia lista de verificación; así puede ejecutarla incluso sin lingüistas internos."
 ---
 

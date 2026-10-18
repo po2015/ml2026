@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "voice cloning", "ethics", "consent"]
 keywords: ["voice cloning ethics", "voice cloning consent", "ai voice legal"]
 cover: "/images/news/voice-cloning-ethics-consent.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Cloning your CEO's voice for training videos is now a Tuesday-afternoon task — and a legal and reputational minefield if done casually. The consent, contract, and quality framework for business voice cloning."
 ---
 

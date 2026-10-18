@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "schema markup", "structured data", "technical SEO"]
 keywords: ["schema markup", "structured data manufacturers", "product schema b2b"]
 cover: "/images/news/schema-markup-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google shows your competitor's product with an image, a rating, and a spec snippet — and yours as a bare blue link. The difference is rarely content; it's structured data: machine-readable labels that tell search engines and AI systems exactly what your pages describe. The manufacturer's starter kit: which schema types matter, where to put them, and how to verify they work."
 ---
 

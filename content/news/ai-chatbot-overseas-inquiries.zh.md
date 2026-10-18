@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "AI 聊天机器人", "询盘转化", "客户服务"]
 keywords: ["AI 聊天机器人 B2B 出口", "多语言聊天机器人 网站", "聊天机器人 海外询盘"]
 cover: "/images/news/ai-chatbot-overseas-inquiries.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你的买家在你当地时间凌晨两点发来消息，用五种语言，问着你的网站其实已经回答了的问题。AI 聊天机器人可以接住这些询盘——也可能用一句幻觉出来的报价把你的信誉烧光。界线在哪，以及如何部署一个真正帮得上忙的机器人。"
 ---
 

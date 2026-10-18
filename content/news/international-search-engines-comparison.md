@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "international SEO", "Google", "search engines", "B2B export"]
 keywords: ["international search engines", "yandex seo", "naver seo", "bing b2b"]
 cover: "/images/news/international-search-engines-comparison.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google dominates most export markets, but Bing, Yandex, and Naver matter in specific regions. Here is where to focus your search visibility efforts."
 ---
 

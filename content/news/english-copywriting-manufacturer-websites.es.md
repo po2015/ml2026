@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "redacción de contenidos", "creación de sitios web", "manufactura"]
 keywords: ["redacción web b2b", "contenido web para fabricantes", "redacción industrial"]
 cover: "/images/news/english-copywriting-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Los compradores juzgan su inglés antes que su ingeniería. Los patrones de redacción que hacen creíbles los sitios web de fabricantes, y las frases que silenciosamente acaban con las consultas."
 ---
 

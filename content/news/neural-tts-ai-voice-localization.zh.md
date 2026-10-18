@@ -6,7 +6,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "TTS", "神经语音", "语音合成", "本地化技术"]
 cover: "/images/services/dubbing.jpg"
 summary: "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "palabras clave", "Exportación B2B", "estrategia de contenidos"]
 keywords: ["palabras clave cola larga industriales", "ejemplo investigación keywords b2b", "keywords seo fabricantes"]
 cover: "/images/news/industrial-long-tail-keywords.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "«Ball valve» tiene 40 000 búsquedas y nunca se posicionará para ella. «API 6D trunnion mounted ball valve manufacturer» tiene 90, y quien la busca tiene una orden de compra en el cajón. Un ejemplo completo y resuelto de estrategia de palabras clave de cola larga industrial."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Middle East", "Arabic", "market entry"]
 keywords: ["middle east b2b marketing", "arabic website localization", "gulf market entry"]
 cover: "/images/news/middle-east-arabic-b2b-marketing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "The Gulf's industrial buyers are young, digital, and relationship-driven. What Middle East B2B buyers expect from your content — beyond just translating it into Arabic."
 ---
 

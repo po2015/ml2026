@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "voice casting", "voice actors", "audio production"]
 keywords: ["casting voice actors", "multilingual voice casting", "voiceover talent selection"]
 cover: "/images/news/casting-voice-actors-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The English narrator sounds like your brand: warm, authoritative, mid-40s. For the German version, your vendor picks someone \"similar\" — and the result is a perky 25-year-old reading a specs video like a podcast ad. Voice casting is brand casting, and in multilingual projects it happens N times, by N different people, with N interpretations of your brand. How to cast deliberately: the brief, the audition, and the consistency rules that keep five languages sounding like one company."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización de sitios web", "flujo de trabajo de localización", "sitio web multilingüe", "gestión de proyectos"]
 keywords: ["proceso de localización de sitios web", "flujo de trabajo de localización web", "pasos de un proyecto de localización"]
 cover: "/images/news/website-localization-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Qué ocurre realmente entre 'necesitamos un sitio web en alemán' y el día del lanzamiento: las ocho fases de un proyecto profesional de localización de sitios web, con plazos realistas."
 ---
 

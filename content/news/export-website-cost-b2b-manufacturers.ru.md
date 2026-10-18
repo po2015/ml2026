@@ -6,7 +6,7 @@ category: "industry"
 category_label: "Индустрия"
 tags: ["экспортный сайт", "B2B сайт", "производители", "заявки"]
 cover: "/images/news/website-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Стоимость экспортного сайта нельзя считать только по количеству страниц. Важны доверие, технический контент, поиск и путь к заявке."
 ---
 

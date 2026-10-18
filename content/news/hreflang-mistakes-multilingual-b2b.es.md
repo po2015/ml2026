@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "hreflang", "sitio web multilingüe", "SEO técnico"]
 keywords: ["implementación hreflang", "errores hreflang", "seo multilingüe"]
 cover: "/images/news/hreflang-mistakes-multilingual-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Hreflang es la etiqueta más mal implementada del SEO internacional. Los seis errores que encontramos con más frecuencia en sitios B2B, cómo detectarlos y cómo corregir cada uno."
 ---
 

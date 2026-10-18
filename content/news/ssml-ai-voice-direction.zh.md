@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "SSML", "TTS", "声音指导"]
 keywords: ["ssml 指南", "ai 声音指导", "tts 韵律控制"]
 cover: "/images/news/ssml-ai-voice-direction.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "AI 声音会用同样自信的语调平铺直叙地读完一切，直到你开始指导它们。本文介绍用于停顿、重音和语速的 SSML 工具箱，以及超越 SSML 的新一代风格与提示词控制手段。"
 ---
 

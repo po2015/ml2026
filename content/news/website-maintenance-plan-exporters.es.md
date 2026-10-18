@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Creación de sitios web", "mantenimiento", "gestión de sitios web", "operaciones"]
 keywords: ["plan de mantenimiento de sitio web", "mantenimiento de sitio web de exportación", "mantenimiento de sitio web b2b"]
 cover: "/images/news/website-maintenance-plan-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "El nuevo sitio web se lanzó hace dieciocho meses. Desde entonces: dos productos descontinuados (aún en línea), un certificado vencido (aún exhibido), precios que cambiaron (aún cotizados) y la versión en alemán que dejó de recibir actualizaciones por completo. Los sitios web no se deterioran ruidosamente — se deterioran hasta convertirse en una versión de su empresa que ya no existe. El plan de mantenimiento que lo evita: qué revisar, con qué frecuencia y quién es responsable."
 ---
 

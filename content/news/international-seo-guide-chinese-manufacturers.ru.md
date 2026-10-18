@@ -6,7 +6,7 @@ category_label: "Технологии"
 tags: ["SEO", "международное SEO", "hreflang", "Google", "китайские производители"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
 ---
 

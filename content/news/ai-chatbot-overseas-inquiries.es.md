@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "chatbot de IA", "generación de leads", "servicio al cliente"]
 keywords: ["chatbot ia exportación b2b", "chatbot multilingüe sitio web", "chatbot consultas del exterior"]
 cover: "/images/news/ai-chatbot-overseas-inquiries.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Sus compradores escriben a las 2 a. m. de su hora, en cinco idiomas, haciendo preguntas que su sitio web ya responde. Un chatbot de IA puede capturar esas consultas, o incendiar su credibilidad con una cotización inventada. Dónde está la línea y cómo desplegar uno que ayude."
 ---
 

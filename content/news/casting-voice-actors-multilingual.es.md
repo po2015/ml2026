@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "selección de voces", "actores de voz", "producción de audio"]
 keywords: ["selección de actores de voz", "casting de voces multilingüe", "selección de talento de locución"]
 cover: "/images/news/casting-voice-actors-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "El narrador en inglés suena como su marca: cálido, autoritario, cuarentón. Para la versión alemana, su proveedor elige a alguien \"similar\" — y el resultado es un joven veinteañero y efusivo leyendo un video de especificaciones como un anuncio de pódcast. La selección de voces es selección de marca, y en los proyectos multilingües ocurre N veces, a manos de N personas distintas, con N interpretaciones de su marca. Cómo seleccionar con intención: el brief, la audición y las reglas de consistencia que hacen que cinco idiomas suenen a una sola empresa."
 ---
 

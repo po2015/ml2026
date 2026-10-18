@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "IVR", "voice recording", "customer experience"]
 keywords: ["ivr voiceover multilingual", "phone system voice messages", "ivr recording languages"]
 cover: "/images/news/multilingual-ivr-voice-messages.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "A German buyer calls your export hotline and hears: a hesitant English greeting, then a long pause, then a Google-Translate-quality German menu recorded by someone's colleague. He hangs up and emails your competitor. IVR is ten minutes of audio — and often the first human-sounding touchpoint a buyer gets. How to do this small project properly."
 ---
 

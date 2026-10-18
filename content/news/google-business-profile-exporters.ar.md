@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "Google Business Profile", "SEO المحلي", "التسويق الرقمي"]
 keywords: ["Google Business Profile للمصدّرين", "إدراج B2B على Google Maps", "إعداد GBP الدولي"]
 cover: "/images/news/google-business-profile-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "مشترٍ أوروبي يبحث عن اسم شركتك فيجد... لا شيء على Maps، أو الأسوأ، ملفًّا فارغًا بعنوان خاطئ ومراجعة بنجمة واحدة من موظف سابق ساخط. Google Business Profile مجاني، ويستغرق ظهيرة، ويرسّخ شرعية شركتك في نتائج البحث التي يتحقق منها المشترون قبل الرد على عرض سعرك. ما الذي ينبغي للمصدّرين إعداده، وما الذي لا ينطبق عليك، والمزالق التي تعلّق الملفات."
 ---
 

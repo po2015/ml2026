@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "俄语", "Yandex", "国际 SEO"]
 keywords: ["俄语 seo", "yandex seo", "俄罗斯市场 seo 出口商"]
 cover: "/images/news/russian-seo-yandex-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "俄罗斯的搜索方式与众不同：Yandex 的排名逻辑、西里尔字母关键词的行为特点，以及一个习惯用俄语阅读规格参数的买家群体。出口商在搭建俄语页面前需要了解的事。"
 ---
 

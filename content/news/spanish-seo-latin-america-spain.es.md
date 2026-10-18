@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "español", "América Latina", "SEO internacional"]
 keywords: ["seo en español", "seo américa latina", "palabras clave españa vs latam"]
 cover: "/images/news/spanish-seo-latin-america-spain.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Mismo idioma, búsquedas distintas. Por qué una única estrategia de SEO en español rinde menos a ambos lados del Atlántico, y cómo estructurar palabras clave, contenido y hreflang para ambos mercados."
 ---
 

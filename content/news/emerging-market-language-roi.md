@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "emerging markets", "language strategy", "Southeast Asia"]
 keywords: ["emerging market languages", "vietnamese thai indonesian localization", "sea market language roi"]
 cover: "/images/news/emerging-market-language-roi.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "German, Japanese, Spanish — the usual localization shortlist. Meanwhile Vietnam, Thailand, and Indonesia add up to 450 million people, some of the world's fastest-growing manufacturing economies, and B2B markets where English reaches a fraction of buyers. When do emerging languages out-ROI the safe choices, and how to evaluate the bet before you place it."
 ---
 

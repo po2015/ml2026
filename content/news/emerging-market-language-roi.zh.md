@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "新兴市场", "语言策略", "东南亚"]
 keywords: ["新兴市场语言", "越南语 泰语 印尼语 本地化", "东南亚市场语言 ROI"]
 cover: "/images/news/emerging-market-language-roi.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "德语、日语、西班牙语——常见本地化清单上的老三样。与此同时，越南、泰国和印度尼西亚加起来有 4.5 亿人口、全球增长最快的一批制造业经济体，以及英语只能触达一小部分买家的 B2B 市场。新兴语言的 ROI 什么时候能跑赢那些稳妥选项，下注之前又该如何评估。"
 ---
 

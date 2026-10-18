@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "الإسبانية", "أمريكا اللاتينية", "SEO الدولي"]
 keywords: ["seo بالإسبانية", "seo أمريكا اللاتينية", "كلمات إسبانيا مقابل أمريكا اللاتينية"]
 cover: "/images/news/spanish-seo-latin-america-spain.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "اللغة نفسها، وعمليات بحث مختلفة. لماذا تؤدي استراتيجية SEO إسبانية واحدة إلى أداء دون المستوى على ضفتي الأطلسي، وكيف تبني الكلمات المفتاحية والمحتوى و hreflang للسوقين معًا."
 ---
 

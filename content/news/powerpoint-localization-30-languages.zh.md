@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "PowerPoint", "演示文稿本地化", "文档翻译"]
 keywords: ["PowerPoint 本地化", "演示文稿翻译", "多语言幻灯片"]
 cover: "/images/news/powerpoint-localization-30-languages.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "销售演示文稿只有英文版；到周五，它需要存在德语、日语和阿拉伯语版本——而且每个版本都必须看起来像你的品牌，而不是一场文字溢出的机器翻译事故。PowerPoint 本地化看起来轻而易举，却总在可预测的地方翻车：文本膨胀、字体、崩掉的版式、嵌在图片里的文字、图表。一套能把一份 PPT 扩展到 30 种语言、而不需要 30 轮设计返工的工作流。"
 ---
 

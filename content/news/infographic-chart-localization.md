@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "infographics", "charts", "visual localization"]
 keywords: ["infographic localization", "chart translation", "diagram localization"]
 cover: "/images/news/infographic-chart-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "A chart is not a picture with words on it — it's text, numbers, axes, colors, and reading order fused into one argument. How to localize data graphics without breaking the argument or the layout."
 ---
 

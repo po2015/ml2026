@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "automation", "XML publishing", "structured content"]
 keywords: ["automated publishing xml", "data merge multilingual", "structured documentation automation"]
 cover: "/images/news/automated-multilingual-publishing-xml.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Every quarter, someone on your team re-pastes 800 spec values into the catalog — then does it again for the German version, the Spanish version, the Russian version. Manual layout of multilingual documents doesn't just waste hours; it guarantees that version 3 of the datasheet disagrees with version 3.1 of the catalog. Data merge and XML publishing turn documents into database output: update the data once, regenerate every language in minutes."
 ---
 

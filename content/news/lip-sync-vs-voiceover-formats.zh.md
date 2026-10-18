@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "口型同步", "旁白配音", "视频本地化"]
 keywords: ["口型同步 vs 旁白配音", "un 式配音", "配音格式"]
 cover: "/images/news/lip-sync-vs-voiceover-formats.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "德国观众习惯口型同步，波兰观众是听着 lector 解说长大的。你的企业宣传片两个都不需要——但它确实需要选*对*格式，因为选错了要么多花一倍的钱，要么显得廉价。四种配音格式、各自的成本、以及什么时候用哪种。"
 ---
 

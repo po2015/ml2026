@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["doblaje", "lip sync", "voiceover", "localización de video"]
 keywords: ["lip sync vs voiceover", "voiceover estilo un", "formatos de doblaje"]
 cover: "/images/news/lip-sync-vs-voiceover-formats.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Los alemanes esperan lip-sync. Los polacos crecieron con un lector. Su video corporativo no necesita ninguno de los dos —pero sí necesita la elección de formato correcta, porque la equivocada cuesta el doble o se ve barata. Los cuatro formatos de doblaje, cuánto cuesta cada uno y cuándo usar cuál."
 ---
 

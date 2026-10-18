@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "script adaptation", "translation", "video"]
 keywords: ["dubbing script adaptation", "dubbing translation timing", "lip sync script"]
 cover: "/images/news/dubbing-script-adaptation-timing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "A dubbing script is not a translation — it's a rewrite timed to a picture that can't change. Why literal scripts produce rushed, drifting audio, and how professional adaptation actually works."
 ---
 

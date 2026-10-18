@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "fonts", "licensing", "typography"]
 keywords: ["font licensing multilingual", "font license publishing", "multilingual typography licensing"]
 cover: "/images/news/font-licensing-multilingual-publishing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "The brand's typeface covers Latin and Cyrillic beautifully. Then the Japanese catalog needs a CJK font, the designer's favorite costs $4,000 per year per document type, and the PDF embedding rights turn out to exclude 'commercial distribution.' Font licensing is the invisible line item that multilingual publishing trips over — the map of what licenses actually cover."
 ---
 

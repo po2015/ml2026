@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "TTS", "pronunciación", "SSML"]
 keywords: ["control de pronunciación tts", "nombres de marca con voz ia", "léxico de pronunciación"]
 cover: "/images/news/ai-voice-pronunciation-lexicon.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su voz TTS pronunciará mal el nombre de su empresa, los de sus productos y las siglas de su industria. Cómo lo corrigen los léxicos de pronunciación, y cómo construir uno que escale."
 ---
 

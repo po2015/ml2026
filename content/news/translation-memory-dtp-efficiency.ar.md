@@ -5,7 +5,7 @@ category: "tech"
 category_label: "التقنية"
 tags: ["ذاكرة الترجمة", "DTP", "سير العمل", "أدوات التوطين", "الكفاءة"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."
 description: "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."
 ---

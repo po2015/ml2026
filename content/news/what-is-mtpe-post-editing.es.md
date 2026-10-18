@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["traducción automática", "MTPE", "posedición", "localización"]
 keywords: ["posedición de traducción automática", "mtpe", "mtpe vs traducción humana"]
 cover: "/images/news/what-is-mtpe-post-editing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "MTPE combina la velocidad de la traducción automática con la revisión humana. Cómo funciona realmente el flujo de trabajo, cuánto cuesta y para qué contenido sirve — y para cuál no."
 ---
 

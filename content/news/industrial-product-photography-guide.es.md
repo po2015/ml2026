@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "fotografía de producto", "contenido web", "marketing visual"]
 keywords: ["fotografía industrial de producto", "fotos para sitio web de fabricante", "imágenes de producto b2b"]
 cover: "/images/news/industrial-product-photography-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un comprador alemán abre su página de catálogo y encuentra una válvula fotografiada sobre un banco de trabajo desordenado, iluminada por un tubo fluorescente, junto a la taza de café de alguien. Las especificaciones son excelentes; la foto dice \"taller\", no \"proveedor\". Los compradores industriales leen las fotos de producto como evidencia — de control de calidad, de escala, de profesionalismo. Qué fotografiar, cómo hacerlo sin un presupuesto de cinco cifras y la lista de tomas que todo sitio web de fabricante necesita."
 ---
 

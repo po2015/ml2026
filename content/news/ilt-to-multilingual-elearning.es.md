@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "conversión de ILT", "capacitación", "desarrollo de cursos"]
 keywords: ["conversión de ilt a elearning", "capacitación presencial a en línea", "desarrollo de elearning multilingüe"]
 cover: "/images/news/ilt-to-multilingual-elearning.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La capacitación de distribuidores de dos días funciona de maravilla en el aula de Shanghái. Para convertirla para 40 países, el equipo graba las diapositivas con narración — y produce un curso de e-learning que nadie termina. La capacitación presencial falla en línea por razones predecibles, y lo multilingüe multiplica cada una de ellas. La secuencia de conversión que preserva lo que hacía funcionar el aula."
 ---
 

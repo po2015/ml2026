@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "数据分析", "B2B 营销", "ROI 衡量"]
 keywords: ["b2b seo 投资回报率", "外贸网站 seo 衡量", "自然搜索 roi"]
 cover: "/images/news/seo-roi-b2b-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "SEO 项目进行到第八个月，老板问：「这笔钱换来了什么？」流量涨了 140%——却没人说得清有没有一条询盘来自它。B2B 外贸 SEO 是可衡量的，但不能用电商的仪表盘：长周期、线下成交、五位数的订单，需要一条不同的衡量链。当成交发生在三个月后的一封邮件往来里，如何把排名连接到收入。"
 ---
 

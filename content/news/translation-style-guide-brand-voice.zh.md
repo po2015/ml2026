@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "风格指南", "品牌声音", "翻译质量"]
 keywords: ["翻译风格指南", "多语言品牌声音", "本地化风格指南"]
 cover: "/images/news/translation-style-guide-brand-voice.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "你的英文网站自信而直接；德语网站读起来像一份法律通告；日语网站客气到仿佛在为自身存在道歉。同一家公司，三种人格——因为每位译者都在猜你的声音。翻译风格指南把猜测换成决策：语气、正式度、术语，以及让品牌在任何语言里都像自己的那上千条小约定。"
 ---
 

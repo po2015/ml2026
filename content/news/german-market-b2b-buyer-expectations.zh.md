@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "德国", "市场进入", "网站本地化"]
 keywords: ["德国 B2B 市场", "出口德国", "Mittelstand 买家"]
 cover: "/images/news/german-market-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "德国 Mittelstand（中小企业群）的运转靠的是技术深度、认证和直截了当的答案。这些买家在回复你之前，会在供应商网站上核查什么。"
 ---
 

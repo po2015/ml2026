@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "TTS", "pronunciation", "SSML"]
 keywords: ["tts pronunciation control", "ai voice brand names", "pronunciation lexicon"]
 cover: "/images/news/ai-voice-pronunciation-lexicon.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your TTS voice will mispronounce your company name, your product names, and your industry's acronyms. How pronunciation lexicons fix it — and how to build one that scales."
 ---
 

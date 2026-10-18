@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["exportación B2B", "mercados europeos", "estrategia de idiomas", "mercados regionales"]
 keywords: ["idiomas europeos para negocios", "prioridad de idiomas ue b2b", "qué idiomas mercado europeo"]
 cover: "/images/news/european-language-priorities-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "La UE tiene 24 idiomas oficiales. Usted necesita quizá cinco. Alemania no compra en inglés, Escandinavia lo hace con gusto y Francia está en un punto intermedio: un orden de prioridades basado en datos para sitios web B2B europeos."
 ---
 

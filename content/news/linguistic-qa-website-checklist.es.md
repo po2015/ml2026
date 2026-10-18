@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "QA lingüístico", "traducción de sitios web", "calidad"]
 keywords: ["qa lingüístico sitio web", "lista de verificación lqa traducción", "control de calidad traducción web"]
 cover: "/images/news/linguistic-qa-website-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La traducción era perfecta —en la hoja de cálculo. En el sitio en vivo, la navegación alemana se parte en dos líneas, la mitad de los textos alt sigue en inglés y el checkout dice 'Vielen Dank' en una página en árabe. El LQA de sitios web es una pasada distinta con su propia lista de verificación. Aquí está la que nosotros ejecutamos."
 ---
 

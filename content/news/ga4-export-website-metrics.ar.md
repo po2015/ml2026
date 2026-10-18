@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["تحسين محركات البحث", "Google Analytics", "التصدير B2B", "تحليلات المواقع"]
 keywords: ["GA4 للشركات B2B", "تحليلات مواقع التصدير", "Google Analytics للمصدّرين"]
 cover: "/images/news/ga4-export-website-metrics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "معظم مواقع التصدير لديها GA4 مثبّت لكنها لا تجيب به عن أي سؤال. المقاييس الخمسة التي تخبرك فعلًا ما إذا كان الموقع يولّد أعمالًا."
 ---
 

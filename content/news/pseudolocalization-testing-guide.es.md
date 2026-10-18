@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "pseudolocalización", "pruebas", "internacionalización"]
 keywords: ["pruebas de pseudolocalización", "pseudolocalización", "pruebas i18n"]
 cover: "/images/news/pseudolocalization-testing-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Simule la traducción de su interfaz antes de pagar por la traducción real. La pseudolocalización detecta roturas de diseño, cadenas fijas en el código y errores de codificación mientras corregirlos no cuesta nada."
 ---
 

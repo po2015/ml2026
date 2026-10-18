@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "PDF", "文档翻译", "工作流"]
 keywords: ["pdf 翻译工作流", "翻译 pdf 文档", "pdf 本地化 可编辑"]
 cover: "/images/news/pdf-translation-workflow-editable.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "「这个 PDF 你们能翻译吗？」是文档本地化里最贵的一句话。为什么答案取决于文件里装的是什么——以及那套让你不再交「PDF 税」的工作流。"
 ---
 

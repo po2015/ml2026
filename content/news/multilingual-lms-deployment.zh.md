@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "LMS", "多语言部署", "SCORM"]
 keywords: ["多语言 LMS 部署", "SCORM 语言版本", "LMS 本地化"]
 cover: "/images/news/multilingual-lms-deployment.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "课程翻译好了、测试通过了、堪称完美。然后 LMS 把英文结业证书发给了德国学员，把五个语言版本当成五门不同的课来统计，RTL 文字还把播放器搞崩了。多语言项目栽跟头的地方往往在 LMS 部署环节——这是防患于未然的那份清单。"
 ---
 

@@ -6,7 +6,7 @@ category_label: "القطاع"
 tags: ["التوطين", "B2B", "تسويق التصدير", "جودة الترجمة", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
-author: "MediaLocalize Team"
+author: "Benny Chow"
 description: "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
 ---
 

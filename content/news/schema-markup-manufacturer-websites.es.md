@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "schema markup", "datos estructurados", "SEO técnico"]
 keywords: ["schema markup", "datos estructurados fabricantes", "product schema b2b"]
 cover: "/images/news/schema-markup-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google muestra el producto de su competidor con una imagen, una valoración y un fragmento de especificaciones — y el suyo como un simple enlace azul. La diferencia rara vez es el contenido; son los datos estructurados: etiquetas legibles por máquinas que le dicen a los buscadores y a los sistemas de IA exactamente qué describen sus páginas. El kit de inicio para fabricantes: qué tipos de schema importan, dónde colocarlos y cómo verificar que funcionan."
 ---
 

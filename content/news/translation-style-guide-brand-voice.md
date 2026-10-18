@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Localization", "style guide", "brand voice", "translation quality"]
 keywords: ["translation style guide", "multilingual brand voice", "localization style guide"]
 cover: "/images/news/translation-style-guide-brand-voice.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Your English site sounds confident and direct; your German site reads like a legal notice; your Japanese site is so polite it apologizes for existing. Same company, three personalities — because every translator guessed at the voice. A translation style guide replaces guessing with decisions: tone, formality, terminology, and the thousand small conventions that make a brand sound like itself in every language."
 ---
 

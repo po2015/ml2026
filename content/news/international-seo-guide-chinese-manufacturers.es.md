@@ -6,7 +6,7 @@ category_label: "Tecnología"
 tags: ["SEO", "SEO internacional", "hreflang", "Google", "fabricantes chinos"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
 ---
 

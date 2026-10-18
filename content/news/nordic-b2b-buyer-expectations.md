@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Nordics", "market entry", "website localization", "Localization"]
 keywords: ["nordic b2b market", "selling to sweden norway denmark finland", "nordic buyer expectations"]
 cover: "/images/news/nordic-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Sweden, Norway, Denmark, and Finland are wealthy, English-fluent, and quietly demanding markets. What Nordic B2B buyers actually check on your website — language, design restraint, sustainability documentation, and consensus-ready proof."
 ---
 

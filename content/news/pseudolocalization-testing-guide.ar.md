@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التوطين", "التوطين الزائف", "الاختبار", "التدويل"]
 keywords: ["اختبار التوطين الزائف", "pseudo-localization", "اختبار i18n"]
 cover: "/images/news/pseudolocalization-testing-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "نفّذ ترجمة زائفة لواجهتك قبل أن تدفع ثمن الترجمة الحقيقية. التوطين الزائف يكشف انكسارات التخطيط والنصوص المبرمجة ثابتًا وأخطاء الترميز وهي لا تزال مجانية الإصلاح."
 ---
 

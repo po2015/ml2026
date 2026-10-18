@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "árabe", "RTL", "InDesign"]
 keywords: ["dtp árabe indesign", "maquetación de derecha a izquierda", "composición tipográfica árabe"]
 cover: "/images/news/arabic-dtp-indesign-rtl.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "El DTP en árabe no es «reflejar el archivo en inglés». Las fuentes, los dígitos, la dirección de las tablas y la propia maquinaria RTL de InDesign tienen modos de fallo que solo aparecen en el PDF final: así se evitan."
 ---
 

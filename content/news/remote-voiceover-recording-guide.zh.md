@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "旁白", "远程录音", "语音制作"]
 keywords: ["远程配音录制", "家庭录音棚配音质量", "采购配音制作"]
 cover: "/images/news/remote-voiceover-recording-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "德语配音以一段在厨房里录的 MP3 交付——你能听见冰箱声。巴西葡语那条配得极好，却比整个系列其他语言轻了 6 dB。远程录制如今是多语言配音的主流生产方式；质量完全可以做到，但前提是你要把质量要求写清楚。该要什么、该查什么，以及远程方案真实的边界。"
 ---
 

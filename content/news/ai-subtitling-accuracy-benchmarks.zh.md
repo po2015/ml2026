@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 字幕", "准确率", "ASR", "技术内容"]
 keywords: ["AI 字幕准确率", "语音识别技术术语", "字幕质量基准"]
 cover: "/images/news/ai-subtitling-accuracy-benchmarks.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "「95% 准确率」听起来很美，直到你发现那 5% 全是你的型号、扭矩数值和标准号。通用 ASR 基准预测不了技术字幕的质量——以下才是该测的指标，附带真实数字。"
 ---
 

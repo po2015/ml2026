@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de vídeo", "YouTube", "audio multilingüe", "metadatos"]
 keywords: ["audio multilingüe youtube", "localización youtube", "metadatos de vídeo traducidos"]
 cover: "/images/news/youtube-multi-language-audio.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Las pistas de audio multilingüe de YouTube permiten que un solo vídeo hable diez idiomas, pero el audio es solo la mitad del trabajo. Cómo localizar pistas, títulos, descripciones y miniaturas para que cada mercado realmente encuentre y vea el contenido."
 ---
 

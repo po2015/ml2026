@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "text expansion", "multilingual layout", "typography"]
 keywords: ["text expansion translation", "multilingual layout design", "translation text growth"]
 cover: "/images/news/text-expansion-translation-layout.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "German is 30% longer than English and Arabic reads backwards. How to design documents and interfaces that survive translation — before you pay to fix every layout."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "schema 标记", "结构化数据", "技术 SEO"]
 keywords: ["schema 标记", "制造业结构化数据", "b2b 产品 schema"]
 cover: "/images/news/schema-markup-manufacturer-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Google 展示竞争对手的产品时带着图片、评分和规格摘要——而你的产品只是一条光秃秃的蓝色链接。差别往往不在内容，而在结构化数据：那些机器可读的标签，能准确告诉搜索引擎和 AI 系统你的页面在描述什么。制造企业入门套件：哪些 schema 类型重要、放在哪里、如何验证它们真的生效。"
 ---
 

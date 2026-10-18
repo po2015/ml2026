@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "motion graphics", "on-screen text", "DTP"]
 keywords: ["on screen text localization", "motion graphics translation", "video text replacement"]
 cover: "/images/news/on-screen-text-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Voiceover is only half of video localization. What it takes to translate on-screen text, titles, and motion graphics — and why project files matter more than the video itself."
 ---
 

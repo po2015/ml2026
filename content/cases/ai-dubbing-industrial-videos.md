@@ -1,5 +1,5 @@
 ---
-title: "Confidential Client — AI Dubbing for Industrial Product Videos"
+title: "AI Dubbing for Industrial Product Videos"
 domain: "Confidential · Industrial Equipment Manufacturer"
 industry: "Industrial Equipment / Manufacturing"
 service: "localization"

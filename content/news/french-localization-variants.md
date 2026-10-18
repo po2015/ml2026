@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "French markets", "localization variants", "regional markets"]
 keywords: ["french localization variants", "france canada french differences", "french speaking africa b2b"]
 cover: "/images/news/french-localization-variants.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "One French site for France, Belgium, Switzerland, Quebec, and 20+ African markets? It works — until a Quebec buyer reads 'ordinateur' pricing in euros and an Ivorian distributor hits a payment page with no mobile money. Where French variants actually differ, and where one build is fine."
 ---
 

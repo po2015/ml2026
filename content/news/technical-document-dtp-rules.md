@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "technical documentation", "manuals", "datasheets"]
 keywords: ["technical document dtp", "manual datasheet catalog layout", "multilingual technical documents"]
 cover: "/images/news/technical-document-dtp-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "A datasheet is read for 40 seconds at a trade show; a manual is cursed at for three hours on a factory floor. Different documents fail in different ways when translated — the DTP rules that matter, by document type."
 ---
 

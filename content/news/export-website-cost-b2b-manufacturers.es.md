@@ -6,7 +6,7 @@ category: "industry"
 category_label: "Industria"
 tags: ["web de exportación", "sitio B2B", "fabricantes", "captación de leads"]
 cover: "/images/news/website-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "El coste de una web de exportación no debería medirse solo por páginas. También cuenta la confianza, el SEO técnico y la facilidad para pedir una cotización."
 ---
 

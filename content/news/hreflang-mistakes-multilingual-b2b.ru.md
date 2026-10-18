@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "hreflang", "многоязычный сайт", "техническое SEO"]
 keywords: ["внедрение hreflang", "ошибки hreflang", "многоязычное seo"]
 cover: "/images/news/hreflang-mistakes-multilingual-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Hreflang — самый неправильно реализуемый тег в международном SEO. Шесть ошибок, которые мы чаще всего находим на B2B-сайтах, как их обнаружить и как исправить каждую."
 ---
 

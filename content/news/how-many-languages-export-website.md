@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website localization", "multilingual website", "B2B export", "language strategy"]
 keywords: ["website language strategy", "multilingual website cost", "export website languages"]
 cover: "/images/news/how-many-languages-export-website.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "More languages is not always better. A data-driven way to decide which languages your export website needs — and when each one pays for itself."
 ---
 

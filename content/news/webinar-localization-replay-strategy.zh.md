@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "字幕", "配音", "AI 配音", "网络研讨会"]
 keywords: ["网络研讨会本地化", "研讨会回放翻译", "录制研讨会本地化"]
 cover: "/images/news/webinar-localization-replay-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "本季度最成功的一场网络研讨会结束了，录像落进一个文件夹，三个月后它还是纯英文的，而你的德国和日本销售团队一直在要「他们的版本」。一份录像可以变成五份市场就绪的资产——但前提是你在按下录制键之前就规划好本地化。工作流、字幕还是配音的决策，以及它到底花多少钱。"
 ---
 

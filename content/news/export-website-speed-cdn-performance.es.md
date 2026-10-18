@@ -6,7 +6,7 @@ category_label: "Tecnología"
 tags: ["CDN", "rendimiento web", "hosting global", "velocidad de página", "SEO"]
 cover: "/images/services/website-building.jpg"
 summary: "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["字幕", "视频本地化", "文件格式", "隐藏字幕"]
 keywords: ["字幕文件格式", "srt vtt ass 区别", "字幕格式 视频本地化"]
 cover: "/images/news/subtitle-file-formats-srt-vtt.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "中文字幕交回来是一个 SRT，你的网页播放器却导入不了；阿拉伯语文件每一行都反着显示；培训平台要求 VTT，你手里只有 SRT。字幕文件看起来微不足道——文本加时间戳——直到它们坏掉为止。三种真正重要的格式各自能做什么、什么时候用哪个，以及毁掉多语言交付的编码陷阱。"
 ---
 

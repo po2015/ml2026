@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "analítica", "marketing B2B", "medición de ROI"]
 keywords: ["roi seo b2b", "medición de seo en sitio de exportación", "roi de búsqueda orgánica"]
 cover: "/images/news/seo-roi-b2b-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Ocho meses después de iniciado el programa de SEO, el jefe pregunta: \"¿Qué obtuvimos por ese dinero?\" El tráfico subió 140% — y nadie puede decir si una sola consulta vino de ahí. El SEO de exportación B2B es medible, pero no con paneles de e-commerce: ciclos largos, cierres offline y acuerdos de cinco cifras necesitan una cadena de medición distinta. Cómo conectar los rankings con los ingresos cuando la venta ocurre en un hilo de correos tres meses después."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "voiceover", "quality assurance", "localization budget"]
 keywords: ["dubbing rework cost", "voiceover re-recording", "dubbing quality control"]
 cover: "/images/news/dubbing-rework-cost-guide.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "The German voiceover is delivered, mixed, and published — then your distributor hears it: the product name is mispronounced, and a safety warning was translated loosely. Re-recording one video costs more than recording it right the first time, because the studio session is the smallest line item. Where dubbing rework actually comes from, what it really costs, and the checkpoints that catch errors while they're still cheap."
 ---
 

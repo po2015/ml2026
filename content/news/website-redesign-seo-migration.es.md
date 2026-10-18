@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "construcción de sitios web", "exportación B2B", "rediseño de sitio web", "estrategia digital"]
 keywords: ["seo para rediseño de sitio web", "lista de verificación de migración seo", "seo para cambio de plataforma web"]
 cover: "/images/news/website-redesign-seo-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un exportador de maquinaria reconstruye su sitio web de cinco años. Nuevo diseño, nueva plataforma, nueva agencia. El día del lanzamiento el tráfico se desploma: el 70% de las visitas orgánicas desaparecen en una semana, las páginas que generaban RFQ ahora devuelven 404, y la versión en alemán empieza a superar a la inglesa en las consultas en inglés. Nada de esto era inevitable — cada una de esas pérdidas corresponde a una línea omitida en una lista de verificación estándar de migración SEO. La lista, las comprobaciones del día del lanzamiento y el cronograma de recuperación."
 ---
 

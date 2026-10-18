@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "subtítulos", "subtitulado", "traducción"]
 keywords: ["reglas de formato de subtítulos", "longitud de línea de subtítulos", "velocidad de lectura cps"]
 cover: "/images/news/subtitle-formatting-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Los subtítulos malos hacen que los buenos videos sean imposibles de ver. Las reglas profesionales de longitud de línea, velocidad de lectura y tiempos, y cómo cambian cuando los subtítulos se traducen."
 ---
 

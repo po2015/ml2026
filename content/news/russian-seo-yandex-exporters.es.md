@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "ruso", "Yandex", "SEO internacional"]
 keywords: ["seo en ruso", "seo en yandex", "seo mercado ruso exportadores"]
 cover: "/images/news/russian-seo-yandex-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Rusia busca de otra manera: la lógica de posicionamiento de Yandex, el comportamiento de las palabras clave en cirílico y una base de compradores que lee las especificaciones en ruso. Lo que los exportadores deben saber antes de crear páginas en ruso."
 ---
 

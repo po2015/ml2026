@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Tecnología"
 tags: ["SEO B2B", "palabras clave", "fabricantes", "Google"]
 cover: "/images/news/seo-analytics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "El SEO para fabricantes exportadores no consiste en traducir el catálogo, sino en entender cómo busca un comprador internacional."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Russian markets", "content strategy", "regional markets"]
 keywords: ["russian speaking markets", "russia content strategy", "cis markets b2b"]
 cover: "/images/news/russian-speaking-markets-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "270 million Russian speakers, one shared business language, and a buying culture that reads everything before trusting anyone. How to build content for Russia and the CIS without getting the regional nuances wrong."
 ---
 

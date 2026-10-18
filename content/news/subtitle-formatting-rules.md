@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "subtitles", "captioning", "translation"]
 keywords: ["subtitle formatting rules", "subtitle line length", "reading speed cps"]
 cover: "/images/news/subtitle-formatting-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Bad subtitles make good videos unwatchable. The professional rules for line length, reading speed, and timing — and how they change when subtitles are translated."
 ---
 

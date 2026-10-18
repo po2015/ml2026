@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "语言质检", "网站翻译", "质量"]
 keywords: ["网站语言质检", "lqa 翻译清单", "网站翻译质量检查"]
 cover: "/images/news/linguistic-qa-website-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "译文在表格里是完美的。上了线，德语导航折行了，一半的 alt 文本还是英文，阿拉伯语页面上却写着「Vielen Dank」。网站 LQA 是一个独立的环节，有它自己的清单。这是我们实际在跑的那份。"
 ---
 

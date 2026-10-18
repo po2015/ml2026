@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "voiceover", "narration", "AI Dubbing"]
 keywords: ["elearning voiceover", "narration styles", "training narration"]
 cover: "/images/news/elearning-voiceover-narration-styles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Learners drop courses over narration more often than over content. Which narration styles fit which training, when AI voices are good enough, and how to direct narration that survives localization."
 ---
 

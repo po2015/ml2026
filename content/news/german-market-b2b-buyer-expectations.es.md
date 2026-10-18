@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Alemania", "entrada en mercados", "localización de sitios web"]
 keywords: ["mercado b2b alemán", "vender a alemania", "compradores mittelstand"]
 cover: "/images/news/german-market-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "El Mittelstand alemán se mueve por profundidad técnica, certificaciones y respuestas directas. Qué comprueban estos compradores en el sitio web de un proveedor antes de responder siquiera."
 ---
 

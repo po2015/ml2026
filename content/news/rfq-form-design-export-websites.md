@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "B2B Export", "forms", "conversion"]
 keywords: ["rfq form design", "b2b inquiry form", "export website contact form"]
 cover: "/images/news/rfq-form-design-export-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your RFQ form is where marketing spend turns into pipeline — or leaks. Field-by-field design guidance for exporter inquiry forms: what to ask, what to skip, and how to qualify without friction."
 ---
 

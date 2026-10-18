@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "arquitectura web", "CMS", "proxy de traducción"]
 keywords: ["proxy de traducción", "cms multilingüe", "arquitectura localización web"]
 cover: "/images/news/translation-proxy-vs-cms-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Dos formas de hacer su sitio web multilingüe: un proxy que traduce sobre la marcha, o versiones de idioma reales en su CMS. El proxy es rápido de lanzar y caro de mantener: una comparación de arquitecturas honesta para exportadores."
 ---
 

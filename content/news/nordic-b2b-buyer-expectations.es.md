@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "países nórdicos", "entrada a mercados", "localización de sitios web", "localización"]
 keywords: ["mercado b2b nórdico", "vender a suecia noruega dinamarca finlandia", "expectativas de compradores nórdicos"]
 cover: "/images/news/nordic-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Suecia, Noruega, Dinamarca y Finlandia son mercados ricos, con dominio del inglés y discretamente exigentes. Lo que los compradores B2B nórdicos realmente revisan en su sitio web — idioma, contención en el diseño, documentación de sostenibilidad y pruebas listas para el consenso."
 ---
 

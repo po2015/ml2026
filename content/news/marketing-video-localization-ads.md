@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "marketing video", "advertising", "brand film"]
 keywords: ["marketing video localization", "ad localization", "brand film translation"]
 cover: "/images/news/marketing-video-localization-ads.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your brand film won awards at headquarters and flopped in the export market — same video, subtitled. Marketing videos are persuasion instruments tuned to one culture's emotional keys; subtitles translate the words and leave the persuasion behind. What separates localizing an ad from localizing a tutorial, which elements must be re-created rather than translated, and the tiered approach that fits real budgets."
 ---
 

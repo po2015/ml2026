@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "网站上线", "B2B 营销", "数字战略"]
 keywords: ["新网站 seo 时间表", "外贸网站上线 seo", "seo 前 90 天"]
 cover: "/images/news/new-export-website-seo-90-days.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "新网站周一上线。周二老板搜公司名——第四页。到周五问题来了：「SEO 是不是坏了？」什么也没坏；网站才六天大，Google 还不信任它。外贸网站生命的前 90 天遵循一个可预测的次序——收录、地基、早期关键词——而知道这个次序，正是一次有纪律的上线与三个月恐慌之间的差别。逐周行动手册。"
 ---
 

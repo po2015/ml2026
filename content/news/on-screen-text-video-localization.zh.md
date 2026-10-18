@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "动态图形", "屏幕文字", "DTP"]
 keywords: ["屏幕文字本地化", "动态图形翻译", "视频文字替换"]
 cover: "/images/news/on-screen-text-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "配音只是视频本地化的一半。翻译屏幕文字、标题和动态图形需要什么——以及为什么工程文件比视频本身更重要。"
 ---
 

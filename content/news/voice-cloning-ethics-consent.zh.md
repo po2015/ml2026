@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "声音克隆", "伦理", "授权"]
 keywords: ["声音克隆伦理", "声音克隆授权", "AI 声音法律"]
 cover: "/images/news/voice-cloning-ethics-consent.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "克隆 CEO 的声音给培训视频配音，如今只是一个下午就能完成的任务——但如果做得随意，它就是法律和声誉的雷区。商业声音克隆的授权、合同与质量框架。"
 ---
 

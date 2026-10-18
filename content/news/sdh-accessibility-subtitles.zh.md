@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "SDH", "无障碍", "字幕"]
 keywords: ["sdh 字幕", "无障碍字幕", "失聪及听障人士字幕"]
 cover: "/images/news/sdh-accessibility-subtitles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "翻译字幕默认观众能听见音频，SDH 则默认他们听不见——说话人标注、声音提示和不同的阅读规则。本文说明 SDH 改变了什么、成本几何，以及何时需要它。"
 ---
 

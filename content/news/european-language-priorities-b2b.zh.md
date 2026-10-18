@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "欧洲市场", "语言策略", "区域市场"]
 keywords: ["欧洲商业语言", "欧盟语言优先级 B2B", "欧洲市场选哪些语言"]
 cover: "/images/news/european-language-priorities-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "欧盟有 24 种官方语言，你需要的大概是五种。德国人不会用英语采购，北欧人很乐意，法国介于两者之间——一份数据驱动的欧洲 B2B 网站语言优先级。"
 ---
 

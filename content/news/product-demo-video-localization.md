@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "product demo", "B2B marketing", "dubbing"]
 keywords: ["product demo video localization", "demo video translation", "localize product video"]
 cover: "/images/news/product-demo-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your best salesperson is a 4-minute product demo — in English. How to take it to ten markets without booking a studio: the layered approach to narration, on-screen text, and UI captures."
 ---
 

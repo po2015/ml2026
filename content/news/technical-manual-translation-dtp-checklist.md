@@ -1,12 +1,12 @@
 ---
-title: "Technical Manual Translation and DTP: A File Preparation Checklist"
+title: "Technical Manual Translation: File Prep Checklist"
 date: 2026-08-15T09:00:00+08:00
 publishDate: 2026-08-15T09:00:00+08:00
 category: "tech"
 category_label: "Tech Insights"
 tags: ["technical manual translation", "DTP", "multilingual documentation", "file preparation"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Successful multilingual manuals depend less on last-minute effort and more on clean source files, terminology, and layout planning."
 ---
 

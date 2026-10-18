@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["doblaje con IA", "locución", "TTS", "localización de video"]
 keywords: ["cómo funciona el doblaje con ia", "proceso de locución con ia", "flujo de trabajo de doblaje con ia"]
 cover: "/images/news/how-ai-dubbing-works.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "El doblaje con IA es un flujo de trabajo, no un botón. Un recorrido etapa por etapa de cómo un guion se convierte en audio multilingüe terminado, y dónde siguen importando las personas."
 ---
 

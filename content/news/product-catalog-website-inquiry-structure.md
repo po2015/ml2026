@@ -1,12 +1,12 @@
 ---
-title: "How to Structure a Product Catalog Website That Converts B2B Buyers"
+title: "Product Catalog Websites That Convert B2B Buyers"
 date: 2026-07-15T09:00:00+08:00
 publishDate: 2026-07-15T09:00:00+08:00
 category: "industry"
 category_label: "Industry"
 tags: ["product catalog", "B2B website", "inquiry conversion", "manufacturing marketing"]
 cover: "/images/news/manufacturing-catalog.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A product catalog should not be an internal database online. It should help buyers judge fit, risk, and the next step quickly."
 ---
 

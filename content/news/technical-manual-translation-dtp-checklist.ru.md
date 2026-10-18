@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Технологии"
 tags: ["технический перевод", "DTP", "многоязычные руководства", "подготовка файлов"]
 cover: "/images/news/translation-memory.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Качественная локализация руководств начинается до перевода: с исходных файлов, терминологии и проверки макета."
 ---
 

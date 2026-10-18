@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Технологии"
 tags: ["SEO для B2B", "ключевые слова", "экспорт", "производство"]
 cover: "/images/news/seo-analytics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "SEO для экспортного сайта начинается не с перевода каталога, а с понимания того, как зарубежный покупатель формулирует запрос."
 ---
 

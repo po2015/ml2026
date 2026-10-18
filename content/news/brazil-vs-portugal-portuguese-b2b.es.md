@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Brasil", "mercados de habla portuguesa", "variantes de localización"]
 keywords: ["localización al portugués de Brasil", "portugués de Brasil vs Portugal", "sitio web B2B en portugués"]
 cover: "/images/news/brazil-vs-portugal-portuguese-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "260 millones de hablantes de portugués, un idioma, dos mercados muy diferentes. Un comprador brasileño lee tu sitio en portugués de Portugal y siente que lee un documento legal de Lisboa; un comprador portugués llega a tu checkout brasileño y abandona al ver 'cadastro'. Dónde divergen de verdad el PT-BR y el PT-PT en B2B, y cuál construir primero."
 ---
 

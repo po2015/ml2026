@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website localization", "localization workflow", "multilingual website", "project management"]
 keywords: ["website localization process", "website localization workflow", "localization project steps"]
 cover: "/images/news/website-localization-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "What actually happens between 'we need a German website' and launch day: the eight phases of a professional website localization project, with realistic timelines."
 ---
 

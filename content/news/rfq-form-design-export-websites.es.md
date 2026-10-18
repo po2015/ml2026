@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Creación de sitios web", "Exportación B2B", "formularios", "conversión"]
 keywords: ["diseño de formulario rfq", "formulario de consulta b2b", "formulario de contacto sitio web de exportación"]
 cover: "/images/news/rfq-form-design-export-websites.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su formulario RFQ es donde la inversión en marketing se convierte en oportunidades, o en fugas. Guía de diseño campo por campo para formularios de consulta de exportadores: qué preguntar, qué omitir y cómo cualificar sin fricción."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "SSML", "TTS", "dirección de voz"]
 keywords: ["guía ssml", "dirección de voz ia", "control de prosodia tts"]
 cover: "/images/news/ssml-ai-voice-direction.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Las voces de IA lo leen todo con el mismo tono monocorde y seguro hasta que alguien las dirige. El conjunto de herramientas SSML para pausas, énfasis y velocidad, más los controles más recientes basados en estilos e instrucciones que van más allá."
 ---
 

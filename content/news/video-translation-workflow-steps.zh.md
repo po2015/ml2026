@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "工作流", "字幕", "配音"]
 keywords: ["视频翻译工作流", "视频本地化流程", "字幕硬压流程"]
 cover: "/images/news/video-translation-workflow-steps.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "转写、翻译、打轴、审校、交付——视频本地化看起来是线性的，直到一个零件号被听错，再被复制进五种语言。一套生产级工作流，以及阻止错误复利放大的检查点。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Creación de sitios web", "Exportación B2B", "señales de confianza", "conversión"]
 keywords: ["señales de confianza web b2b", "credibilidad web de fabricantes", "confianza en sitios de proveedores"]
 cover: "/images/news/b2b-website-trust-signals.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un comprador que nunca ha visitado su fábrica decide, a partir de su sitio web, si usted recibe la solicitud de cotización. Las diez señales de confianza que sostienen esa decisión, ordenadas según lo que compras realmente busca."
 ---
 

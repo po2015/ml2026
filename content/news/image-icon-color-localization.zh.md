@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "视觉设计", "文化适配", "图标设计"]
 keywords: ["图像本地化", "图标本地化", "颜色的文化含义"]
 cover: "/images/news/image-icon-color-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "竖大拇指的图标在中东部分地区是粗鲁的手势；白色在一个市场代表婚礼，在另一个市场却代表葬礼。如何赶在视觉元素拖累翻译质量之前，审查网站的非文本层。"
 ---
 

@@ -6,7 +6,7 @@ category_label: "Industria"
 tags: ["creación web", "OEM", "catálogo de productos", "web B2B", "exportación"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
 ---
 

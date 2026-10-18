@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de video", "adaptación cultural", "contenido de video", "marketing internacional"]
 keywords: ["adaptación cultural de video", "cultura en localización de video", "localización de gestos y humor"]
 cover: "/images/news/cultural-adaptation-video-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "El video corporativo estaba perfectamente traducido: palabra por palabra. Aun así, el distribuidor alemán hizo una mueca ante el montaje de pulgares arriba, la versión japonesa conservó un chiste que cae como una grosería y el corte para Medio Oriente mostraba el viernes como día laboral. Las palabras son el tercio visible de la localización de video. Lo que hay debajo: gestos, humor, símbolos y la auditoría cultural que los detecta."
 ---
 

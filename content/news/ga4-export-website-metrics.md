@@ -1,5 +1,5 @@
 ---
-title: "Google Analytics 4 for Export Websites: The Metrics That Matter"
+title: "Google Analytics 4 for Export Websites"
 date: 2026-09-21T09:48:00+08:00
 publishDate: 2026-09-21T09:48:00+08:00
 category: "tech"
@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "Google Analytics", "B2B export", "website analytics"]
 keywords: ["ga4 b2b", "export website analytics", "google analytics exporters"]
 cover: "/images/news/ga4-export-website-metrics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Most export websites have GA4 installed but answer no questions with it. The five metrics that actually tell you whether the site is generating business."
 ---
 

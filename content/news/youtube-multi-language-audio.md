@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "YouTube", "multi-language audio", "metadata"]
 keywords: ["youtube multi language audio", "youtube localization", "translated video metadata"]
 cover: "/images/news/youtube-multi-language-audio.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "YouTube's multi-language audio tracks let one video speak ten languages — but the audio is only half the job. How to localize tracks, titles, descriptions, and thumbnails so each market actually finds and watches."
 ---
 

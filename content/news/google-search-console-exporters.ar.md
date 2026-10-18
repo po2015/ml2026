@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "Google Search Console", "التحليلات", "التصدير B2B"]
 keywords: ["Google Search Console للمصدّرين", "تقارير GSC للمواقع متعددة اللغات", "Search Console وSEO لـB2B"]
 cover: "/images/news/google-search-console-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "GA4 يخبرك بما فعله الزوار. أما Search Console فيخبرك هل يستطيع Google أن يجدك أصلاً — وفي المواقع التصديرية متعددة اللغات، تلتقط خمسة تقارير محددة 90% مما يخطئ. أيّها هي، وما الذي تبحث عنه، والفخاخ التي تختبئ لأشهر."
 ---
 

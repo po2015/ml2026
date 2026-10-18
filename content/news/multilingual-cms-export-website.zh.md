@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "CMS", "多语言网站", "技术选型"]
 keywords: ["多语言 CMS", "外贸网站 CMS", "B2B 网站平台"]
 cover: "/images/news/multilingual-cms-export-website.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "CMS 的决策发生在网站项目的第一天，却会在往后多年里阴魂不散：选 WordPress 是因为人人都会，选企业级套件是因为演示很炫，选静态生成器是因为某个开发喜欢。对多语言外贸网站来说，评判标准是具体的——翻译工作流、分语言 SEO、更新成本、目标市场的访问速度。主流选项各自的成色，以及该怎么选。"
 ---
 

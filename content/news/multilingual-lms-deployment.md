@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "LMS", "multilingual deployment", "SCORM"]
 keywords: ["multilingual lms deployment", "scorm language versions", "lms localization"]
 cover: "/images/news/multilingual-lms-deployment.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The courses are translated, tested, perfect. Then the LMS serves German learners the English completion certificate, tracks five language versions as five different courses, and RTL text breaks the player. LMS deployment is where multilingual projects go to stumble — the checklist that prevents it."
 ---
 

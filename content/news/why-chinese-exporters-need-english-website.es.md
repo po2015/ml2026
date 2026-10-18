@@ -5,7 +5,7 @@ category: "industry"
 category_label: "Industria"
 tags: ["exportación", "B2B", "sitio web", "fabricantes chinos", "marketing internacional"]
 cover: "/images/news/chinese-export.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."
 description: "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."
 ---

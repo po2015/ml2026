@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["packaging", "multilingual DTP", "regulatory", "label design"]
 keywords: ["multilingual packaging design", "regulatory label translation", "packaging text expansion"]
 cover: "/images/news/multilingual-packaging-design-rules.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Your box was designed for English. Now it needs four languages, a CE mark, an importer address, and a warning panel that legally must be the same size in every language. Multilingual packaging is where regulation meets typography — and where redesigns go to die. The rules that keep it sane."
 ---
 

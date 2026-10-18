@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "clonación de voz", "ética", "consentimiento"]
 keywords: ["ética de la clonación de voz", "consentimiento clonación de voz", "legalidad voz ia"]
 cover: "/images/news/voice-cloning-ethics-consent.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Clonar la voz de su CEO para videos de formación es hoy una tarea de una tarde cualquiera, y un campo minado legal y reputacional si se hace con descuido. El marco de consentimiento, contrato y calidad para la clonación de voz empresarial."
 ---
 

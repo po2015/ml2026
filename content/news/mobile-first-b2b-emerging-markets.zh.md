@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "移动设计", "新兴市场", "网站性能"]
 keywords: ["移动端 b2b 网站", "移动优先新兴市场", "b2b 移动端优化"]
 cover: "/images/news/mobile-first-b2b-emerging-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你在拉各斯、雅加达或圣保罗的采购联系人，并没有你那样的桌面设备。他只有一部中端 Android 手机、一条 4G 网络，以及会议之间的十分钟。新兴 B2B 市场 60–80% 的网页流量来自移动端——而你那个为桌面设计、带着 6MB 首屏大图的网站，正在丢掉你永远不会知道的买家。"
 ---
 

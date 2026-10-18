@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["video localization", "workflow", "subtitling", "dubbing"]
 keywords: ["video translation workflow", "video localization process", "subtitle burn in workflow"]
 cover: "/images/news/video-translation-workflow-steps.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Transcribe, translate, time, review, deliver — video localization looks linear until a part number gets mistranscribed and propagates into five languages. The production-grade workflow, with the checkpoints that stop errors from compounding."
 ---
 

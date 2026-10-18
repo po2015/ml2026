@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "PDF", "document translation", "workflow"]
 keywords: ["pdf translation workflow", "translate pdf document", "pdf localization editable"]
 cover: "/images/news/pdf-translation-workflow-editable.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "\"Can you translate this PDF?\" is the most expensive sentence in document localization. Why the answer depends on what's inside the file — and the workflow that stops paying the PDF tax."
 ---
 

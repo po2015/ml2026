@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "阿拉伯语", "RTL", "InDesign"]
 keywords: ["阿拉伯语 dtp indesign", "从右到左排版", "阿拉伯语排版"]
 cover: "/images/news/arabic-dtp-indesign-rtl.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "阿拉伯语 DTP 不是「把英文文件镜像一下」。字体、数字、表格方向和 InDesign 自身的 RTL 机制，各自都有只在最终 PDF 中才暴露的失效模式——本文讲如何避开它们。"
 ---
 

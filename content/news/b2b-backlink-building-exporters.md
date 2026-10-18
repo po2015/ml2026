@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "backlinks", "digital PR", "link building"]
 keywords: ["b2b backlinks", "exporter link building", "industrial directory links"]
 cover: "/images/news/b2b-backlink-building-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your content is better than the competitor's, but they outrank you — because fifty industry directories, trade associations, and trade-press articles point at their domain and almost nothing points at yours. Backlinks remain the hardest ranking factor to fake, and B2B exporters have unusually concrete ways to earn them. The realistic link-building playbook: directories that matter, PR that works, and the schemes to avoid."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "文化适配", "视频内容", "国际营销"]
 keywords: ["视频文化适配", "视频本地化文化", "手势幽默本地化"]
 cover: "/images/news/cultural-adaptation-video-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "企业宣传片的翻译完美无缺——每一个词都对。但德国经销商看到竖大拇指的蒙太奇还是皱了眉，日语版保留了一个在当地显得无礼的笑话，中东版本则把周五拍成了工作日。文字只是视频本地化露出水面的三分之一。水面之下是：手势、幽默、符号，以及能抓住它们的文化审查。"
 ---
 

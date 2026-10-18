@@ -1,12 +1,12 @@
 ---
-title: "AI Dubbing for Corporate Training Videos: Cost, Quality, and Turnaround"
+title: "AI Dubbing for Corporate Training: Cost and Quality"
 date: 2026-09-15T09:00:00+08:00
 publishDate: 2026-09-15T09:00:00+08:00
 category: "tech"
 category_label: "Tech Insights"
 tags: ["AI dubbing", "training video localization", "corporate learning", "multilingual video"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "AI dubbing works well for high-volume training content, but natural delivery still depends on script localization, pronunciation control, and audio QA."
 ---
 

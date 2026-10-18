@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "GEO", "AI 搜索", "生成式 AI"]
 keywords: ["生成式引擎优化", "制造业 geo seo", "b2b ai 搜索优化"]
 cover: "/images/news/geo-generative-engine-optimization-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "SEO 让你在一页十条蓝色链接中排名靠前。GEO 要解决的，是在根本没有链接列表时，让 AI 报出你这家供应商的名字——一个合成答案，三家推荐厂商。这门学科如今有了名字，早期研究已经指出什么有效，而其中大部分内容，本来就是你应该做的。"
 ---
 

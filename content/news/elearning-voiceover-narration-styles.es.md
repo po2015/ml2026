@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["E-Learning", "locución", "narración", "Doblaje con IA"]
 keywords: ["locución elearning", "estilos de narración", "narración para formación"]
 cover: "/images/news/elearning-voiceover-narration-styles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Los alumnos abandonan los cursos por la narración más a menudo que por el contenido. Qué estilos de narración encajan con cada formación, cuándo las voces de IA son suficientes y cómo dirigir una narración que sobreviva a la localización."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "mercados emergentes", "estrategia de idiomas", "Sudeste Asiático"]
 keywords: ["idiomas de mercados emergentes", "localización vietnamita tailandés indonesio", "roi de idiomas en el sudeste asiático"]
 cover: "/images/news/emerging-market-language-roi.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Alemán, japonés, español — la lista habitual de localización. Mientras tanto, Vietnam, Tailandia e Indonesia suman 450 millones de personas, algunas de las economías manufactureras de mayor crecimiento del mundo y mercados B2B donde el inglés llega a una fracción de los compradores. ¿Cuándo los idiomas emergentes superan en ROI a las opciones seguras, y cómo evaluar la apuesta antes de hacerla?"
 ---
 

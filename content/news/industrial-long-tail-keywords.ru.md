@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "ключевые слова", "B2B-экспорт", "контентная стратегия"]
 keywords: ["промышленные длиннохвостые ключевые слова", "пример исследования b2b ключевых слов", "seo ключевые слова производителя"]
 cover: "/images/news/industrial-long-tail-keywords.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "У «ball valve» — 40 000 запросов, и вы никогда по нему не подниметесь. У «API 6D trunnion mounted ball valve manufacturer» — 90, и у ищущего заказ на поставку лежит в ящике стола. Полный разобранный пример стратегии промышленных длиннохвостых ключей."
 ---
 

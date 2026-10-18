@@ -6,7 +6,7 @@ category: "industry"
 category_label: "Industria"
 tags: ["catálogo de productos", "web B2B", "solicitudes", "fabricantes"]
 cover: "/images/news/manufacturing-catalog.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un catálogo industrial no debe ser solo una lista de modelos. Debe ayudar al comprador a validar compatibilidad, riesgo y siguiente paso."
 ---
 

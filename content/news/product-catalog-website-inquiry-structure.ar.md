@@ -6,7 +6,7 @@ category: "industry"
 category_label: "القطاع"
 tags: ["كتالوج منتجات", "موقع B2B", "طلبات شراء", "مصنعون"]
 cover: "/images/news/manufacturing-catalog.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "كتالوج المنتجات ليس قائمة موديلات فقط، بل أداة تساعد المشتري على تقييم الملاءمة والمخاطر والخطوة التالية."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "法语市场", "本地化变体", "区域市场"]
 keywords: ["法语本地化变体", "法国 加拿大 法语差异", "法语非洲 B2B"]
 cover: "/images/news/french-localization-variants.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "用一个法语站覆盖法国、比利时、瑞士、魁北克和 20 多个非洲市场？行得通——直到一位魁北克买家看到用欧元标价的「ordinateur」，一位科特迪瓦经销商点开一个没有移动支付的付款页。法语各变体真正的差异在哪，以及哪里一套版本就够。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["subtitulado IA", "precisión", "ASR", "contenido técnico"]
 keywords: ["precisión subtitulado ia", "reconocimiento de voz términos técnicos", "benchmarks de calidad de subtítulos"]
 cover: "/images/news/ai-subtitling-accuracy-benchmarks.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "«95 % de precisión» suena muy bien hasta que se da cuenta de que el 5 % restante son sus números de modelo, valores de torque y referencias de normas. Los benchmarks genéricos de ASR no predicen la calidad del subtitulado técnico: esto es lo que debe medir en su lugar, con cifras realistas."
 ---
 

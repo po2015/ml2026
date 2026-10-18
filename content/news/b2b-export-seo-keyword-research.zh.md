@@ -6,7 +6,7 @@ category: "tech"
 category_label: "技术洞察"
 tags: ["外贸 SEO", "关键词研究", "英文网站", "Google 优化"]
 cover: "/images/news/seo-analytics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "制造业外贸SEO不是把中文产品名翻成英文，而是还原海外采购真正会搜索的词和问题"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["SEO", "AI-поиск", "ChatGPT", "B2B-экспорт"]
 keywords: ["оптимизация под ai-поиск", "рекомендации поставщиков chatgpt", "видимость b2b в ai-поиске"]
 cover: "/images/news/ai-search-supplier-recommendations.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Покупатель спрашивает ChatGPT: «порекомендуй трёх китайских производителей шаровых кранов с API 6D» — и в ответе оказывается ваш конкурент. AI-поиск уже направляет B2B-покупателей к поставщикам. Что эти системы на самом деле читают — и как стать тем, кого рекомендуют."
 ---
 

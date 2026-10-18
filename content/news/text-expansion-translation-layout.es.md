@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "expansión del texto", "diseño multilingüe", "tipografía"]
 keywords: ["expansión de texto en traducción", "diseño de maquetas multilingües", "crecimiento del texto al traducir"]
 cover: "/images/news/text-expansion-translation-layout.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "El alemán es un 30 % más largo que el inglés y el árabe se lee al revés. Cómo diseñar documentos e interfaces que sobrevivan a la traducción, antes de pagar por arreglar cada maqueta."
 ---
 

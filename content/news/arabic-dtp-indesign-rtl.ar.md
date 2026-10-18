@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["DTP", "العربية", "RTL", "InDesign"]
 keywords: ["النشر المكتبي العربي في InDesign", "تخطيط من اليمين إلى اليسار", "التنضيد بالعربية"]
 cover: "/images/news/arabic-dtp-indesign-rtl.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "النشر المكتبي بالعربية ليس مجرد «اعكس الملف الإنجليزي». فالخطوط والأرقام واتجاه الجداول وآليات RTL في InDesign نفسها لكل منها أوجه قصور لا تظهر إلا في ملف PDF النهائي — وإليك كيف تتجنبها."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "AI voiceover", "voice production", "localization workflow"]
 keywords: ["hybrid dubbing workflow", "ai human voiceover mixing", "multilingual voice production"]
 cover: "/images/news/hybrid-ai-human-voiceover-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "All-human dubbing of your 40-video product library costs a year's budget; all-AI dubbing gets you voices that mispronounce your product name in the flagship demo. The pragmatic answer is neither extreme: a hybrid workflow that routes each segment — and each video — to human or AI voices by stakes, budget, and shelf life. How the routing works in practice."
 ---
 

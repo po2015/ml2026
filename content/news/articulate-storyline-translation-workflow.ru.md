@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["E-Learning", "Articulate Storyline", "SCORM", "локализация"]
 keywords: ["перевод articulate storyline", "процесс локализации storyline", "экспорт storyline xlf"]
 cover: "/images/news/articulate-storyline-translation-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Экспорт для перевода в Storyline выглядит просто, пока слои слайдов, триггеры и текст с переменными не возвращаются сломанными. Полный процесс, который выдерживает реальные курсы."
 ---
 

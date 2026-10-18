@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["E-Learning", "закадровая озвучка", "нарация", "ИИ-озвучка"]
 keywords: ["озвучка elearning", "стили нарации", "озвучка тренингов"]
 cover: "/images/news/elearning-voiceover-narration-styles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Слушатели бросают курсы из-за озвучки чаще, чем из-за содержания. Какие стили нарации подходят каким тренингам, когда ИИ-голосов достаточно и как режиссировать нарацию, которая переживает локализацию."
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "estrategia de contenido", "arquitectura del sitio", "marketing de contenidos"]
 keywords: ["seo centro de contenido", "arquitectura de contenido b2b", "estrategia de página pilar"]
 cover: "/images/news/content-hub-seo-architecture.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Ochenta publicaciones de blog sobre válvulas, publicadas en orden cronológico, la más reciente primero — y Google no posiciona ninguna. Los blogs cronológicos entierran su mejor contenido y dispersan su autoridad temática entre publicaciones aisladas. El centro de contenido (content hub) corrige la arquitectura: una página pilar autoritativa por tema, artículos de apoyo enlazados a su alrededor, autoridad concentrada en lugar de diluida. Cómo reestructurar y cuándo importa."
 ---
 

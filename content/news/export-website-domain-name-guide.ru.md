@@ -7,7 +7,7 @@ category_label: "Индустрия"
 tags: ["создание сайтов", "SEO", "доменное имя", "B2B-экспорт"]
 keywords: ["домен seo", "домен экспортного сайта", "cctld или com"]
 cover: "/images/news/export-website-domain-name-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Решение о домене принимается за десять минут, а живёт десятилетие. Что действительно важно для международных покупателей и поисковых систем — и что можно спокойно игнорировать."
 ---
 

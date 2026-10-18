@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "Articulate Storyline", "SCORM", "localization"]
 keywords: ["articulate storyline translation", "storyline localization workflow", "storyline xlf export"]
 cover: "/images/news/articulate-storyline-translation-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Storyline's translation export looks simple until slide layers, triggers, and variable text come back broken. The complete workflow that survives real courses."
 ---
 

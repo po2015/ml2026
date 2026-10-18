@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["在线学习", "ILT 转化", "培训", "课程开发"]
 keywords: ["ilt 转在线学习", "课堂培训转线上", "多语言在线课程开发"]
 cover: "/images/news/ilt-to-multilingual-elearning.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "为期两天的经销商培训在上海的课堂里效果出色。要把它转化到 40 个国家，团队给幻灯片配上旁白录了下来——结果做出的在线课程没人学完。课堂培训搬到线上失败的原因是可以预见的，而多语言会把每一个原因都放大。本文介绍保住课堂精髓的转化顺序。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "CJK", "字体排印", "字体搭配"]
 keywords: ["cjk 字体搭配", "中西文字体匹配", "source han sans"]
 cover: "/images/news/cjk-latin-font-pairing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "中西文混排的文档一旦看起来像是两家公司做的，就失败了。如何搭配 CJK 与西文字体，让宣传册、手册和网站读起来是同一套设计。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "AI 建站工具", "B2B 出口", "外贸网站"]
 keywords: ["AI 建站工具", "定制网站开发", "外贸网站成本"]
 cover: "/images/news/ai-website-builder-vs-custom-development.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "AI 建站工具和定制开发解决的是不同问题。出口企业应根据预算、时间周期和业务增长规划来做选择，本文提供具体的判断方法。"
 ---
 

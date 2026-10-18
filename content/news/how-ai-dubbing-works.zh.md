@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["AI 配音", "旁白配音", "TTS", "视频本地化"]
 keywords: ["AI 配音原理", "AI 配音流程", "AI 配音工作流"]
 cover: "/images/news/how-ai-dubbing-works.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "AI 配音是一条流水线，不是一个按钮。本文逐环节拆解脚本如何变成成品多语言音频——以及人在其中仍然不可替代的位置。"
 ---
 

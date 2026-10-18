@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "阿拉伯语", "RTL", "网页设计"]
 keywords: ["rtl 网站设计", "阿拉伯语网站布局", "从右到左网页设计"]
 cover: "/images/news/rtl-website-design-arabic.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "阿拉伯语网站不是你那个 LTR 网站换上翻译后的文字——整套视觉逻辑都要镜像。到底哪些要翻转、哪些绝不能翻，以及让一套代码库同时服务两种方向的 CSS 实践。"
 ---
 

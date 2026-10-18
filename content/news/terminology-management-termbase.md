@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Localization", "terminology", "termbase", "translation quality"]
 keywords: ["terminology management", "termbase glossary translation", "multilingual terminology"]
 cover: "/images/news/terminology-management-termbase.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your German datasheet says Kugelhahn, your German manual says Kugelventil, and your German website says both on the same page. Buyers notice; search engines notice; your own engineers cringe. Inconsistent terminology is the most common quality defect in multilingual content — and the only one that's nearly free to fix: one termbase, built once, maintained forever."
 ---
 

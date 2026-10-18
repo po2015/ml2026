@@ -6,7 +6,7 @@ category_label: "Tech Insights"
 tags: ["AI-dubbing", "TTS", "neural-voice", "voice-synthesis", "localization-technology"]
 cover: "/images/services/dubbing.jpg"
 summary: "The leap from robotic text-to-speech to neural voice synthesis has changed what is possible in localization. Here is how the technology works, what it can realistically deliver, and where the limits still are."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 ---
 
 The first text-to-speech systems were unmistakably mechanical. Anyone who heard them in the 1990s or early 2000s recognized them immediately: the flat prosody, the mispronounced proper nouns, the uncanny pause patterns. They were useful for accessibility applications where intelligibility mattered more than naturalness. For media, marketing, or learning content, they were not a serious option.

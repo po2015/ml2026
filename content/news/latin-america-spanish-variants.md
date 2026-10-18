@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "Latin America", "Spanish", "regional markets"]
 keywords: ["latin america localization", "spanish variants", "latam b2b marketing"]
 cover: "/images/news/latin-america-spanish-variants.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Latin America is twenty markets sharing one language — mostly. Which Spanish variant to publish in, where the differences actually matter, and how LatAm B2B buyers research and purchase."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["电子学习", "UI 本地化", "文字膨胀", "课程设计"]
 keywords: ["电子学习 ui 本地化", "按钮文字膨胀", "课程界面翻译"]
 cover: "/images/news/elearning-ui-text-expansion.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "「Submit」刚好放得下按钮，「Absenden」勉强，「Envoyer la réponse」就放不下了。文字膨胀会在学员看到内容之前先毁掉课程界面——如何设计出经得起翻译的课程 UI。"
 ---
 

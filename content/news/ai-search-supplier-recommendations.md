@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "AI search", "ChatGPT", "B2B Export"]
 keywords: ["ai search optimization", "chatgpt supplier recommendations", "ai search b2b visibility"]
 cover: "/images/news/ai-search-supplier-recommendations.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A buyer asks ChatGPT \"recommend three Chinese ball valve manufacturers with API 6D\" — and your competitor is in the answer. AI search is already sending B2B buyers to suppliers. What these systems actually read, and how to become recommendable."
 ---
 

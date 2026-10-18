@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "البحث بالذكاء الاصطناعي", "ChatGPT", "التصدير B2B"]
 keywords: ["تحسين البحث بالذكاء الاصطناعي", "توصيات الموردين في ChatGPT", "ظهور B2B في البحث بالذكاء الاصطناعي"]
 cover: "/images/news/ai-search-supplier-recommendations.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "يسأل مشترٍ ChatGPT: «اقترح ثلاثة مصنعين صينيين للصمامات الكروية بحسب API 6D» — فيظهر منافسك في الجواب. البحث بالذكاء الاصطناعي يوجّه مشتري B2B إلى المورّدين بالفعل. ماذا تقرأ هذه الأنظمة فعلًا، وكيف تصبح قابلًا للتوصية."
 ---
 

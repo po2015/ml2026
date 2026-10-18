@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "关键词研究", "多语言网站", "国际 SEO"]
 keywords: ["多语言关键词研究", "国际关键词研究", "关键词翻译"]
 cover: "/images/news/multilingual-keyword-research-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "德国人不会搜索从英文直译过来的关键词。为什么直接翻译关键词注定失败，以及以母语为起点的研究流程如何找到买家真正输入的词。"
 ---
 

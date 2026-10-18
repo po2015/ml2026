@@ -1,12 +1,12 @@
 ---
-title: "Localization vs. Translation: The Difference That Determines Whether Your Content Works"
+title: "Localization vs. Translation: Why the Difference Matters"
 date: 2023-08-15
 category: "industry"
 category_label: "Industry"
 tags: ["localization", "translation", "language-services", "cultural-adaptation", "global-marketing"]
 cover: "/images/news/localization-global.jpg"
 summary: "Translation converts words from one language to another. Localization makes content feel native. For international B2B marketing, the distinction determines whether your content builds trust or undermines it."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 ---
 
 The terms "translation" and "localization" are frequently used interchangeably in business contexts, which obscures an important distinction that affects both what to expect from a language services project and how to evaluate whether the result is successful.

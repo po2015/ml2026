@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "árabe", "Oriente Medio", "SEO internacional"]
 keywords: ["seo árabe", "seo mercados del golfo", "comportamiento de búsqueda árabe"]
 cover: "/images/news/arabic-seo-gulf-markets.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Los compradores del Golfo buscan en árabe, en inglés y en una mezcla de ambos, a menudo en la misma sesión. Cómo funciona realmente la búsqueda en árabe y cómo construir páginas que se posicionen para ella."
 ---
 

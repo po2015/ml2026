@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["dubbing", "quality assurance", "audio QA", "AI voice"]
 keywords: ["dubbing quality assurance", "audio qa checklist", "dubbed audio review"]
 cover: "/images/news/dubbing-audio-qa-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The dubbing studio delivered 40 files. Nobody on your team speaks Vietnamese. You approved them anyway — and the product name is mispronounced in all 40. Audio QA is a distinct discipline with its own checklist; here's how to run it even without in-house linguists."
 ---
 

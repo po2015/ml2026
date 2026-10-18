@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["النشر المكتبي (DTP)", "PDF", "ترجمة الوثائق", "سير العمل"]
 keywords: ["سير عمل ترجمة PDF", "ترجمة مستند PDF", "توطين PDF قابل للتحرير"]
 cover: "/images/news/pdf-translation-workflow-editable.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "«هل يمكنكم ترجمة ملف PDF هذا؟» هي أغلى جملة في توطين الوثائق. لماذا يعتمد الجواب على ما بداخل الملف — وسير العمل الذي يوقف دفع ضريبة PDF."
 ---
 

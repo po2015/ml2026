@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["subtitulado", "doblaje", "localización de video", "exportación B2B"]
 keywords: ["subtítulos vs doblaje", "países de doblaje", "países de subtitulado", "localización de video"]
 cover: "/images/news/subtitles-vs-dubbing-by-market.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Algunos mercados leen subtítulos; otros esperan doblaje. Una guía de preferencias mercado por mercado, con comparación de costos y plazos para video corporativo."
 ---
 

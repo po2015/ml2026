@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "doblaje humano", "localización de video", "TTS", "voiceover"]
 keywords: ["calidad del doblaje con ia", "evaluar doblaje con ia", "prueba de voiceover con ia"]
 cover: "/images/news/ai-dubbing-quality-evaluation.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Todo proveedor de doblaje con IA muestra una demostración perfecta de 20 segundos. Luego usted firma, entrega 40 videos de capacitación y descubre que la voz no puede decir el nombre de su producto. Un protocolo de prueba para compradores: construya un guion representativo, puntúelo con una rúbrica y detecte las señales de alerta de la demostración antes de que lo haga el contrato."
 ---
 

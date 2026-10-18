@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "格式", "i18n", "用户体验"]
 keywords: ["日期格式本地化", "货币本地化", "网站单位换算"]
 cover: "/images/news/date-currency-format-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "03/04/2026 对德国人意味着 4 月 3 日，对美国人意味着 3 月 4 日。格式错误微小、持续、且有腐蚀性——一份按市场把日期、货币、数字和单位做对的实战指南。"
 ---
 

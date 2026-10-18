@@ -6,7 +6,7 @@ category_label: "Industria"
 tags: ["localización", "B2B", "marketing de exportación", "calidad de traducción", "ROI"]
 cover: "/images/services/localization.jpg"
 summary: "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
-author: "MediaLocalize Team"
+author: "Benny Chow"
 description: "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
 ---
 

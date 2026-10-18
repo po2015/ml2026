@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "voz en off", "grabación remota", "producción de voz"]
 keywords: ["grabación remota de voz en off", "calidad de estudio casero para voz en off", "comprar producción de voz en off"]
 cover: "/images/news/remote-voiceover-recording-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La voz en off en alemán llega como un MP3 grabado en una cocina: se oye el refrigerador. La brasileña es brillante pero está 6 dB más baja que el resto de la serie. La grabación remota es cómo se produce hoy la voz en off multilingüe; la calidad es totalmente alcanzable, pero solo si la especificas. Qué pedir, qué verificar y dónde la modalidad remota realmente no llega."
 ---
 

@@ -65,7 +65,14 @@
 {{- $ogW = $og.Width }}
 {{- $ogH = $og.Height }}
 {{- end }}
+{{- /* Paginated pages: .Permalink on a Hugo list page always points at page 1,
+       so canonical/hreflang/og:url must append the page/N/ segment explicitly. */ -}}
 {{- $canonical := .Permalink }}
+{{- $pageSuffix := "" }}
+{{- if and .IsNode (gt .Paginator.PageNumber 1) }}
+{{- $pageSuffix = printf "page/%d/" .Paginator.PageNumber }}
+{{- $canonical = printf "%s%s" .Permalink $pageSuffix }}
+{{- end }}
 
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
@@ -111,11 +118,11 @@
 {{- end }}
 {{- range .AllTranslations }}
 {{- $trCopy := index .Site.Data.site_i18n .Site.Language.Lang }}
-<link rel="alternate" hreflang="{{ $trCopy.meta.schemaLanguage | default .Site.Language.Lang }}" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="{{ $trCopy.meta.schemaLanguage | default .Site.Language.Lang }}" href="{{ .Permalink }}{{ $pageSuffix }}">
 {{- end }}
 {{- range .AllTranslations }}
 {{- if eq .Site.Language.Lang "en" }}
-<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}{{ $pageSuffix }}">
 {{- end }}
 {{- end }}
 

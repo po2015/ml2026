@@ -1,5 +1,5 @@
 ---
-title: "Confidential Client — Launch Videos Subtitled in 12 Languages"
+title: "Launch Videos Subtitled in 12 Languages"
 domain: "Confidential · Medical Device Company"
 industry: "Medical Devices / Healthcare"
 service: "localization"

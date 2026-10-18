@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "quality assurance", "pre-press", "print production"]
 keywords: ["dtp quality assurance", "prepress checklist translation", "translated files print qa"]
 cover: "/images/news/dtp-qa-prepress-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "The Arabic catalog came back from print with the phone numbers mirrored. The German manual's index pointed to pages that no longer existed. Both files had been 'checked' — by someone who looked at the screen, not the print-ready PDF. Pre-press QA for translated documents is its own discipline: the checklist that catches what translation review never sees."
 ---
 

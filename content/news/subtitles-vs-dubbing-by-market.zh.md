@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["字幕", "配音", "视频本地化", "B2B 出口"]
 keywords: ["字幕与配音对比", "配音国家", "字幕国家", "视频本地化"]
 cover: "/images/news/subtitles-vs-dubbing-by-market.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "有些市场习惯看字幕，有些市场期待配音。本文提供分市场的偏好指南，并对企业视频的字幕与配音方案做成本和周期对比。"
 ---
 

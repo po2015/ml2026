@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "B2B 出海", "首页设计", "转化"]
 keywords: ["B2B 首页设计", "首页第一印象", "工业网站转化"]
 cover: "/images/news/b2b-homepage-first-impression.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "采购经理只给你的首页大约十秒钟，然后决定你是否进入候选名单。他们按什么顺序扫视什么，以及见效最快的修复方案。"
 ---
 

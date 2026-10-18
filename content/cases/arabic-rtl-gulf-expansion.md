@@ -1,5 +1,5 @@
 ---
-title: "Confidential Client — Arabic Website & Materials for Gulf Market Entry"
+title: "Arabic Website & Materials for Gulf Market Entry"
 domain: "Confidential · Building Materials Manufacturer"
 industry: "Building Materials / Construction"
 service: "localization"

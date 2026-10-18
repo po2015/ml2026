@@ -7,7 +7,7 @@ category_label: "Технологии"
 tags: ["AI-дубляж", "TTS", "выбор голоса", "голос бренда"]
 keywords: ["выбор голоса ai", "пол голоса ai", "выбор голоса tts"]
 cover: "/images/news/choosing-ai-voice-brand.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Выбранный вами голос AI станет голосом вашего бренда на каждом рынке. Методика выбора пола, возраста и стиля — и ошибки, из-за которых курсы звучат дёшево."
 ---
 

@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["机器翻译", "MTPE", "译后编辑", "本地化"]
 keywords: ["机器翻译译后编辑", "mtpe", "mtpe 与人工翻译对比"]
 cover: "/images/news/what-is-mtpe-post-editing.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "MTPE 把机器翻译的速度与人工审校结合起来。它的实际工作流程、成本水平，以及适合与不适合的内容类型。"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI subtitling", "accuracy", "ASR", "technical content"]
 keywords: ["ai subtitling accuracy", "speech recognition technical terms", "subtitle quality benchmarks"]
 cover: "/images/news/ai-subtitling-accuracy-benchmarks.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "\"95% accurate\" sounds great until you realize the 5% is your model numbers, torque values, and standard references. Generic ASR benchmarks don't predict technical subtitle quality — here's what to measure instead, with realistic numbers."
 ---
 

@@ -6,7 +6,7 @@ category: "tech"
 category_label: "التقنية"
 tags: ["دبلجة بالذكاء الاصطناعي", "فيديوهات تدريب", "توطين فيديو", "تعلم مؤسسي"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "الدبلجة بالذكاء الاصطناعي مناسبة لمحتوى التدريب كثير التحديث، لكن الجودة تحتاج إلى نص محلي ونطق مضبوط ومراجعة صوتية كاملة."
 ---
 

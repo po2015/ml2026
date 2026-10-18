@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "pseudolocalization", "testing", "internationalization"]
 keywords: ["pseudolocalization testing", "pseudo-localization", "i18n testing"]
 cover: "/images/news/pseudolocalization-testing-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Fake-translate your UI before paying for real translation. Pseudo-localization catches layout breaks, hardcoded strings, and encoding bugs while they cost nothing to fix."
 ---
 

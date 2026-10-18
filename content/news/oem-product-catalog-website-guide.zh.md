@@ -6,7 +6,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "OEM", "产品目录", "B2B 网站", "出口"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚"
 ---
 

@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "Arabic", "RTL", "InDesign"]
 keywords: ["arabic dtp indesign", "right to left layout", "arabic typesetting"]
 cover: "/images/news/arabic-dtp-indesign-rtl.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Arabic DTP is not 'mirror the English file.' Fonts, digits, table direction, and InDesign's own RTL machinery each have failure modes that only show up in the final PDF — here is how to avoid them."
 ---
 

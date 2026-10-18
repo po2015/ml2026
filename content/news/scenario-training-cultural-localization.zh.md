@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "情景培训", "文化适配", "教学设计"]
 keywords: ["情景培训本地化", "文化适配在线学习", "分支情景翻译"]
 cover: "/images/news/scenario-training-cultural-localization.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "你的销售角色扮演情景在俄亥俄跑得通。到了大阪，「难缠客户」显得无礼到不可思议，「正确」答案在文化上是错的，幽默落地像块砖头。情景培训是你本地化的内容里文化密度最高的一种——这里讲什么该适配、什么该保护。"
 ---
 

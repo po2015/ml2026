@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "Google Business Profile", "SEO local", "marketing digital"]
 keywords: ["google business profile exportadores", "ficha de google maps b2b", "configuración de gbp internacional"]
 cover: "/images/news/google-business-profile-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Un comprador europeo busca el nombre de su empresa y encuentra... nada en Maps, o peor, un perfil vacío con una dirección incorrecta y una reseña de 1 estrella de un exempleado resentido. Google Business Profile es gratuito, toma una tarde y ancla la legitimidad de su empresa en los resultados de búsqueda que los compradores revisan antes de responder a su cotización. Qué deben configurar los exportadores, qué no aplica para usted y las trampas que suspenden perfiles."
 ---
 

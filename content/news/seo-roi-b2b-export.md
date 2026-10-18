@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "analytics", "B2B marketing", "ROI measurement"]
 keywords: ["seo roi b2b", "export website seo measurement", "organic search roi"]
 cover: "/images/news/seo-roi-b2b-export.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Eight months into the SEO program, the boss asks: \"What did we get for that money?\" Traffic is up 140% — and nobody can say whether a single inquiry came from it. B2B export SEO is measurable, but not with e-commerce dashboards: long cycles, offline closes, and five-figure deals need a different measurement chain. How to connect rankings to revenue when the sale happens in an email thread three months later."
 ---
 

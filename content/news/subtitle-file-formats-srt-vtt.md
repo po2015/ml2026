@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Subtitling", "video localization", "file formats", "captioning"]
 keywords: ["subtitle file formats", "srt vtt ass difference", "caption formats video localization"]
 cover: "/images/news/subtitle-file-formats-srt-vtt.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your Chinese subtitles come back as an SRT that won't import into your web player; the Arabic file shows every line in reverse order; the training platform demands VTT and you have SRT. Subtitle files look trivial — text plus timestamps — until they break. What the three formats that matter actually do, when to use each, and the encoding traps that ruin multilingual deliveries."
 ---
 

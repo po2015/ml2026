@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "质量保证", "音频质检", "AI 语音"]
 keywords: ["配音质量保证", "音频质检清单", "配音音频审核"]
 cover: "/images/news/dubbing-audio-qa-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "配音工作室交付了 40 个文件，团队里没人会说越南语，你还是照单全收——结果 40 个文件里产品名全都念错。音频质检是一门独立学科，有自己的清单；即使内部没有语言人才，也能照此执行。"
 ---
 

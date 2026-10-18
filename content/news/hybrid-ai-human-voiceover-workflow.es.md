@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "locución con IA", "producción de voz", "flujo de trabajo de localización"]
 keywords: ["flujo de trabajo híbrido de doblaje", "mezcla de voces ia y humanas", "producción de voz multilingüe"]
 cover: "/images/news/hybrid-ai-human-voiceover-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Doblar con voces 100 % humanas su biblioteca de 40 videos de producto cuesta el presupuesto de un año; doblarla 100 % con IA le da voces que pronuncian mal el nombre de su producto en la demostración insignia. La respuesta pragmática no es ninguno de los extremos: un flujo de trabajo híbrido que dirige cada segmento — y cada video — a voces humanas o de IA según la importancia, el presupuesto y la vida útil. Cómo funciona el direccionamiento en la práctica."
 ---
 

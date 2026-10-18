@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "SSML", "TTS", "voice direction"]
 keywords: ["ssml guide", "ai voice direction", "tts prosody control"]
 cover: "/images/news/ssml-ai-voice-direction.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "AI voices read everything at the same confident drone until you direct them. The SSML toolkit for pauses, emphasis, and rate — plus the newer style and prompt-based controls that go beyond it."
 ---
 

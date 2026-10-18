@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["SEO", "keyword research", "multilingual website", "international SEO"]
 keywords: ["multilingual keyword research", "international keyword research", "translated keywords"]
 cover: "/images/news/multilingual-keyword-research-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Germans don't search for translated English keywords. Why direct keyword translation fails, and the native-first research process that finds what buyers actually type."
 ---
 

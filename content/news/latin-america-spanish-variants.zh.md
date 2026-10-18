@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "拉丁美洲", "西班牙语", "区域市场"]
 keywords: ["拉丁美洲本地化", "西班牙语变体", "拉美 B2B 营销"]
 cover: "/images/news/latin-america-spanish-variants.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "拉丁美洲是二十个共享一种语言的市场——大体如此。该用哪种西班牙语变体发布内容，差异在哪里真正重要，以及拉美 B2B 买家如何调研与采购。"
 ---
 

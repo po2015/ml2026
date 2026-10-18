@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Website Building", "B2B Export", "homepage design", "conversion"]
 keywords: ["b2b homepage design", "homepage first impression", "industrial website conversion"]
 cover: "/images/news/b2b-homepage-first-impression.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A procurement manager gives your homepage about ten seconds before deciding whether you make the shortlist. What they scan, in what order, and the fixes that move the needle fastest."
 ---
 

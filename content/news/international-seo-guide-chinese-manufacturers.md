@@ -1,12 +1,12 @@
 ---
-title: "International SEO: A Practical Guide for Chinese Manufacturers"
+title: "International SEO for Chinese Manufacturers"
 date: 2022-01-18
 category: "tech"
 category_label: "Tech Insights"
 tags: ["SEO", "international-SEO", "hreflang", "Google", "Chinese-manufacturers"]
 cover: "/images/news/seo-analytics.jpg"
 summary: "Getting a Chinese manufacturer's website to rank on Google for international buyers requires a different approach than domestic SEO. This guide covers keyword strategy, technical requirements, and content structure that works."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 ---
 
 Chinese manufacturers building English websites for international buyers frequently underestimate the gap between having an English website and having an English website that international buyers can find. Translation produces the first; search engine optimization for international buyers produces the second.

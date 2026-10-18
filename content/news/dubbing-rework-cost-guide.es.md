@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "locución", "control de calidad", "presupuesto de localización"]
 keywords: ["costo de retrabajo en doblaje", "regrabación de locución", "control de calidad de doblaje"]
 cover: "/images/news/dubbing-rework-cost-guide.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "La locución en alemán está entregada, mezclada y publicada — y entonces su distribuidor la escucha: el nombre del producto está mal pronunciado y una advertencia de seguridad fue traducida con demasiada libertad. Regrabar un solo video cuesta más que grabarlo bien desde el principio, porque la sesión de estudio es la partida más pequeña. De dónde viene realmente el retrabajo en doblaje, cuánto cuesta de verdad y los puntos de control que detectan los errores mientras todavía son baratos."
 ---
 

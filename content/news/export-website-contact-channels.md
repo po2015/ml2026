@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "contact channels", "lead generation", "website conversion"]
 keywords: ["b2b contact channels", "whatsapp business export", "export website live chat"]
 cover: "/images/news/export-website-contact-channels.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Your Brazilian buyer WhatsApps. Your German buyer emails. Your Saudi buyer calls at 11pm your time. The contact channels you offer — and how fast you answer them — decide which inquiries become conversations. The per-market channel playbook."
 ---
 

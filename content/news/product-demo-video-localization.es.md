@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de vídeo", "demostración de producto", "marketing B2B", "doblaje"]
 keywords: ["localización vídeo demostración producto", "traducción vídeo demo", "localizar vídeo de producto"]
 cover: "/images/news/product-demo-video-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Su mejor vendedor es una demostración de producto de 4 minutos, en inglés. Cómo llevarla a diez mercados sin reservar un estudio: el enfoque por capas para la narración, el texto en pantalla y las capturas de la interfaz."
 ---
 

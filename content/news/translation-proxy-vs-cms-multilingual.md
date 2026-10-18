@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "website architecture", "CMS", "translation proxy"]
 keywords: ["translation proxy", "cms multilingual", "website localization architecture"]
 cover: "/images/news/translation-proxy-vs-cms-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Two ways to make your website multilingual: a proxy that translates on the fly, or real language versions in your CMS. The proxy is fast to launch and expensive to own — an honest architecture comparison for exporters."
 ---
 

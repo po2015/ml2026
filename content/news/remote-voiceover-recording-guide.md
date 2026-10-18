@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Dubbing", "voiceover", "remote recording", "voice production"]
 keywords: ["remote voiceover recording", "voiceover home studio quality", "buy voiceover production"]
 cover: "/images/news/remote-voiceover-recording-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The German voiceover arrives as an MP3 recorded in a kitchen — you can hear the refrigerator. The Brazilian one is brilliant but 6 dB quieter than the rest of the series. Remote recording is how multilingual voiceover gets made now; quality is entirely achievable, but only if you specify it. What to ask for, what to check, and where remote genuinely can't go."
 ---
 

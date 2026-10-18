@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Medio Oriente", "árabe", "entrada a mercados"]
 keywords: ["marketing b2b en medio oriente", "localización de sitios web al árabe", "entrada al mercado del golfo"]
 cover: "/images/news/middle-east-arabic-b2b-marketing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Los compradores industriales del Golfo son jóvenes, digitales y se guían por las relaciones. Qué esperan los compradores B2B de Medio Oriente de su contenido, más allá de simplemente traducirlo al árabe."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出口", "网站战略", "Alibaba", "渠道战略"]
 keywords: ["alibaba 与自建站对比", "b2b 平台迁移", "出口企业自有网站"]
 cover: "/images/news/alibaba-to-owned-website-migration.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你的 Alibaba 店铺带来询盘——但买家属于平台，价格竞争惨烈，每年的年费买来的只是同样的租来的曝光。自有网站不是替代品；它是平台永远不可能成为的那项资产：你的品牌、你的买家关系、你的 Google 流量。什么时候该迈出这一步，先迁移什么，以及过渡期如何同时运营两个渠道。"
 ---
 

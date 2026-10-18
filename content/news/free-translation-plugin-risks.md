@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["Localization", "website translation", "machine translation", "SEO"]
 keywords: ["translation plugin risks", "website translation widget", "machine translation website seo"]
 cover: "/images/news/free-translation-plugin-risks.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "One click, and your website \"supports 100 languages\" — a free translation widget, installed in ten minutes, costing nothing. Except: the translated pages can't rank on Google, the German reads like a malfunctioning manual, your brand name gets translated into a common noun, and buyers in your target market close the tab. Free translation plugins are the most expensive cheap solution in export marketing. What they actually do, why it fails, and what the same money (little) buys properly."
 ---
 

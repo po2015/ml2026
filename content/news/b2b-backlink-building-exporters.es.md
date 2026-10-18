@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "backlinks", "PR digital", "construcción de enlaces"]
 keywords: ["backlinks b2b", "construcción de enlaces para exportadores", "enlaces de directorios industriales"]
 cover: "/images/news/b2b-backlink-building-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Su contenido es mejor que el de la competencia, pero ellos se posicionan por encima — porque cincuenta directorios sectoriales, asociaciones comerciales y artículos de prensa especializada apuntan a su dominio y casi nada apunta al suyo. Los backlinks siguen siendo el factor de posicionamiento más difícil de falsificar, y los exportadores B2B tienen formas inusualmente concretas de ganarlos. El manual realista de construcción de enlaces: los directorios que importan, el PR que funciona y los esquemas que hay que evitar."
 ---
 

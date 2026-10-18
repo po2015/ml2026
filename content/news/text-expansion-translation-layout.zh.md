@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "文本膨胀", "多语言排版", "字体排印"]
 keywords: ["翻译文本膨胀", "多语言版式设计", "翻译文本增长"]
 cover: "/images/news/text-expansion-translation-layout.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "德语比英语长 30%，阿拉伯语还要反过来读。如何设计经得起翻译的文档与界面——在花钱逐语言修版式之前。"
 ---
 

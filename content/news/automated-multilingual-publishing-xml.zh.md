@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "自动化", "XML 出版", "结构化内容"]
 keywords: ["XML 自动化出版", "多语言数据合并", "结构化文档自动化"]
 cover: "/images/news/automated-multilingual-publishing-xml.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "每个季度，你团队里都有人把 800 个规格值重新粘贴进产品目录——然后为德语版、西班牙语版、俄语版各做一遍。手工排版多语言文档不只是浪费工时；它保证第 3 版的数据表一定会和第 3.1 版的目录对不上。数据合并与 XML 出版把文档变成数据库的输出：数据改一次，所有语言在几分钟内重新生成。"
 ---
 

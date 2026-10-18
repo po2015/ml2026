@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "América Latina", "español", "mercados regionales"]
 keywords: ["localización para américa latina", "variantes del español", "marketing b2b latam"]
 cover: "/images/news/latin-america-spanish-variants.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "América Latina es veinte mercados que comparten un idioma — casi. En qué variante de español publicar, dónde importan realmente las diferencias y cómo investigan y compran los compradores B2B de la región."
 ---
 

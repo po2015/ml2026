@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje con IA", "TTS", "selección de voz", "voz de marca"]
 keywords: ["elegir voz de ia", "género de voz ia", "selección de voz tts"]
 cover: "/images/news/choosing-ai-voice-brand.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "La voz de IA que elija se convierte en la voz de su marca en cada mercado. Un marco práctico para elegir género, edad y estilo, y los errores que hacen que los cursos suenen baratos."
 ---
 

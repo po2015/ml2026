@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "website maintenance", "content sync", "localization workflow"]
 keywords: ["multilingual content maintenance", "website translation sync", "multilingual website updates"]
 cover: "/images/news/multilingual-content-sync-maintenance.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Launch day: five languages, perfectly aligned. Month eight: the English site shows the new pump series, the German site shows last year's, and nobody knows which spec sheet the Spanish page quotes. Multilingual drift is a process failure, not a translation failure — the sync system that prevents it."
 ---
 

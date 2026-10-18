@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "俄语市场", "内容战略", "区域市场"]
 keywords: ["俄语市场", "俄罗斯内容战略", "独联体 b2b 市场"]
 cover: "/images/news/russian-speaking-markets-content.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "2.7 亿俄语使用者，一门共通的商务语言，以及一种「先读完所有资料再谈信任」的采购文化。如何为俄罗斯和独联体市场做内容，同时不踩区域差异的坑。"
 ---
 

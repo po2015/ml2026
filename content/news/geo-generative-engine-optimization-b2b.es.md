@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["SEO", "GEO", "búsqueda con IA", "IA generativa"]
 keywords: ["optimización para motores generativos", "geo seo fabricantes", "optimización de búsqueda con ia b2b"]
 cover: "/images/news/geo-generative-engine-optimization-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "El SEO te posicionó en una página de diez enlaces azules. El GEO consiste en ser el proveedor que la IA nombra cuando ya no hay página de enlaces: una respuesta sintetizada, tres proveedores recomendados. La disciplina ya tiene nombre, las primeras investigaciones dicen qué funciona, y casi todo es contenido que deberías haber tenido de todos modos."
 ---
 

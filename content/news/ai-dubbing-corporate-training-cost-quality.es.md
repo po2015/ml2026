@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Tecnología"
 tags: ["doblaje con IA", "videos de formación", "localización audiovisual", "formación online"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "El doblaje con IA escala bien en formación corporativa, siempre que el guion, la pronunciación y el QA de audio estén bien controlados."
 ---
 

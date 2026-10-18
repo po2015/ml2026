@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "InDesign", "FrameMaker", "multilingual documentation"]
 keywords: ["indesign vs framemaker", "multilingual dtp tools", "technical document layout"]
 cover: "/images/news/indesign-vs-framemaker-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "InDesign and FrameMaker solve different document problems. Which one fits depends on document length, structure, and how many languages you publish."
 ---
 

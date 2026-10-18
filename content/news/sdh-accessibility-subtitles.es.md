@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Localización de vídeo", "SDH", "accesibilidad", "subtítulos"]
 keywords: ["subtítulos sdh", "subtítulos de accesibilidad", "subtítulos para personas sordas y con discapacidad auditiva"]
 cover: "/images/news/sdh-accessibility-subtitles.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Los subtítulos traducidos dan por sentado que el espectador puede oír el audio. El SDH da por sentado que no puede: etiquetas de hablante, indicaciones sonoras y reglas de lectura diferentes. Qué cambia, cuánto cuesta y cuándo lo necesita."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "伪本地化", "测试", "国际化"]
 keywords: ["伪本地化测试", "pseudo-localization", "i18n 测试"]
 cover: "/images/news/pseudolocalization-testing-guide.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "在为真正的翻译付费之前，先给你的界面做一遍「假翻译」。伪本地化能在修复成本为零时，就揪出布局错位、硬编码字符串和编码 bug。"
 ---
 

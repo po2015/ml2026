@@ -1,5 +1,5 @@
 ---
-title: "Wuhan Laser Equipment Manufacturer — Export Materials Localization"
+title: "Laser Equipment Export Materials Localization"
 domain: "Laser Equipment Manufacturer · Wuhan Optics Valley"
 industry: "Laser Equipment / Manufacturing"
 service: "localization"

@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "formatos", "i18n", "experiencia de usuario"]
 keywords: ["localización de formatos de fecha", "localización de moneda", "conversión de unidades sitios web"]
 cover: "/images/news/date-currency-format-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "03/04/2026 significa 3 de abril para un alemán y 4 de marzo para un estadounidense. Los errores de formato son pequeños, constantes y corrosivos: una guía de campo para acertar con fechas, monedas, números y unidades en cada mercado."
 ---
 

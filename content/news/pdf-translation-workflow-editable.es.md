@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "PDF", "traducción de documentos", "flujo de trabajo"]
 keywords: ["flujo traducción pdf", "traducir documento pdf", "localización pdf editable"]
 cover: "/images/news/pdf-translation-workflow-editable.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "«¿Pueden traducir este PDF?» es la frase más cara de la localización de documentos. Por qué la respuesta depende de lo que hay dentro del archivo, y el flujo de trabajo que deja de pagar el impuesto del PDF."
 ---
 

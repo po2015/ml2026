@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التصدير B2B", "ألمانيا", "دخول الأسواق", "تعريب المواقع"]
 keywords: ["سوق b2b الألمانية", "البيع إلى ألمانيا", "مشترو mittelstand"]
 cover: "/images/news/german-market-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "يعتمد قطاع Mittelstand الألماني على العمق التقني والشهادات والإجابات المباشرة. ما الذي يفحصه هؤلاء المشترون في موقع المورّد قبل أن يردّوا أصلاً."
 ---
 

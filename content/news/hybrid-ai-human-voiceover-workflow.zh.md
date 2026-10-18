@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "AI 配音", "声音制作", "本地化工作流"]
 keywords: ["混合配音工作流", "AI 真人配音混用", "多语言声音制作"]
 cover: "/images/news/hybrid-ai-human-voiceover-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "给 40 条产品视频做全真人配音，报价吃掉一年的预算；全 AI 配音，则让你的旗舰演示片把产品名都念错。务实的答案不是任何一个极端：按风险高低、预算和内容寿命，把每个片段——每条视频——分别路由给真人或 AI 声音的混合工作流。以下是路由在实践中的运作方式。"
 ---
 

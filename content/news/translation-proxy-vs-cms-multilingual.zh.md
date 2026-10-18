@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["本地化", "网站架构", "CMS", "翻译代理"]
 keywords: ["翻译代理", "cms 多语言", "网站本地化架构"]
 cover: "/images/news/translation-proxy-vs-cms-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "让网站多语言化有两条路：实时翻译的代理，或 CMS 里真实的语言版本。代理上线快、持有贵——一份写给出口商的坦诚架构对比。"
 ---
 

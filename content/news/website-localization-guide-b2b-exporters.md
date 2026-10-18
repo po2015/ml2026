@@ -1,12 +1,12 @@
 ---
-title: "What Is Website Localization and Why B2B Exporters Can't Ignore It"
+title: "Website Localization: A Guide for B2B Exporters"
 date: 2014-03-11
 category: "industry"
 category_label: "Industry"
 tags: ["website-localization", "B2B", "export", "international-marketing"]
 cover: "/images/news/website-export.jpg"
 summary: "Website localization is not the same as translation. For B2B exporters, the distinction determines whether an international buyer trusts you enough to send an inquiry."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 ---
 
 When most people hear "website localization," they assume it means translation — converting the Chinese text on a website to English and calling the job done. This misunderstanding is one of the most common and costly mistakes B2B exporters make when entering international markets.

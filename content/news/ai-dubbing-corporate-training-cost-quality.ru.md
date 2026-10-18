@@ -6,7 +6,7 @@ category: "tech"
 category_label: "Технологии"
 tags: ["AI-дубляж", "обучающие видео", "локализация видео", "корпоративное обучение"]
 cover: "/images/news/ai-dubbing.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "AI-дубляж хорошо подходит для масштабных обучающих материалов, но качество зависит от локализованного сценария, произношения и аудио-QA."
 ---
 

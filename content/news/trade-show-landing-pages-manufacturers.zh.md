@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "展会营销", "落地页", "询盘获客"]
 keywords: ["展会落地页", "制造商展会落地页", "广交会落地页"]
 cover: "/images/news/trade-show-landing-pages-manufacturers.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "展位花了 3 万美元，买家在展会上扫了你的二维码，落在的却是……你的首页？展会落地页是制造商能建的最便宜、ROI 最高的页面——这是实战手册。"
 ---
 

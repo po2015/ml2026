@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 外贸", "日本", "网站本地化", "信任"]
 keywords: ["日本 b2b 网站", "日本网站本地化", "日本商业文化 网站"]
 cover: "/images/news/japanese-b2b-website-trust.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "日本买家阅读你网站的方式与众不同：更正式、更彻底、清单更长。在日本市场，究竟是什么在构建 B2B 信任——以及那些悄悄让你出局的捷径。"
 ---
 

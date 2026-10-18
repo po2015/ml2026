@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "Google Analytics", "B2B 出海", "网站数据分析"]
 keywords: ["ga4 b2b", "外贸网站数据分析", "google analytics 外贸企业"]
 cover: "/images/news/ga4-export-website-metrics.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "大多数外贸网站都装了 GA4，却回答不了任何实际问题。这五个指标才能真正告诉你：网站到底有没有带来生意。"
 ---
 

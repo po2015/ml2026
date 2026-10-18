@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 外贸", "北欧", "市场进入", "网站本地化", "本地化"]
 keywords: ["北欧 b2b 市场", "销往瑞典挪威丹麦芬兰", "北欧买家期望"]
 cover: "/images/news/nordic-b2b-buyer-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "瑞典、挪威、丹麦和芬兰是富裕、英语流利、且不动声色地挑剔的市场。北欧 B2B 买家在你的网站上真正检查什么——语言、克制的设计、可持续性文档，以及能支撑共识决策的证据。"
 ---
 

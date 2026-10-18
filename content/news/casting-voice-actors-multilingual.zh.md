@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["配音", "声音选角", "配音演员", "音频制作"]
 keywords: ["配音演员选角", "多语言声音选角", "配音人才筛选"]
 cover: "/images/news/casting-voice-actors-multilingual.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "英文旁白听起来就是你的品牌：温暖、权威、四十多岁。做德语版时，供应商挑了一位「类似」的配音——结果是一个 25 岁的活泼年轻人，把规格视频读成了播客广告。声音选角就是品牌选角，而在多语言项目中，这件事要发生 N 次、由 N 个不同的人、按 N 种对你品牌的理解来执行。如何有意识地选角：简报、试音，以及让五种语言听起来像同一家公司的一致性规则。"
 ---
 

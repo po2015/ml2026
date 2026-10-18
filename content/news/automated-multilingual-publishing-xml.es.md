@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "automatización", "publicación XML", "contenido estructurado"]
 keywords: ["publicación automatizada xml", "combinación de datos multilingüe", "automatización de documentación estructurada"]
 cover: "/images/news/automated-multilingual-publishing-xml.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Cada trimestre, alguien de su equipo vuelve a pegar 800 valores de especificaciones en el catálogo — y luego lo hace de nuevo para la versión alemana, la española, la rusa. La maquetación manual de documentos multilingües no solo desperdicia horas; garantiza que la versión 3 de la ficha técnica discrepe con la versión 3.1 del catálogo. La combinación de datos y la publicación XML convierten los documentos en salida de una base de datos: actualice los datos una vez, regenere cada idioma en minutos."
 ---
 

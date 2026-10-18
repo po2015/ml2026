@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["B2B Export", "product photography", "website content", "visual marketing"]
 keywords: ["industrial product photography", "manufacturer website photos", "b2b product images"]
 cover: "/images/news/industrial-product-photography-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "A German buyer opens your catalog page and finds a valve photographed on a cluttered workbench, lit by a fluorescent tube, next to someone's coffee mug. The specs are excellent; the photo says \"workshop,\" not \"supplier.\" Industrial buyers read product photos as evidence — of quality control, of scale, of professionalism. What to shoot, how to shoot it without a five-figure budget, and the shot list every manufacturer website needs."
 ---
 

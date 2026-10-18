@@ -1,12 +1,12 @@
 ---
-title: "Human Translation vs. Machine Translation: Choosing the Right Approach for Technical Content"
+title: "Human vs. Machine Translation for Technical Content"
 date: 2015-09-03
 category: "tech"
 category_label: "Tech Insights"
 tags: ["machine-translation", "human-translation", "MT", "post-editing", "technical-translation"]
 cover: "/images/news/mt-translation.jpg"
 summary: "Machine translation has improved dramatically, but it is not a replacement for human expertise on technical content. The answer lies in understanding where each approach adds value — and where it introduces risk."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 ---
 
 The debate between human translation and machine translation (MT) has been a fixture of the localization industry for decades. Neural MT, which emerged as the dominant paradigm in the mid-2010s, shifted the terms of that debate significantly — but did not resolve it.

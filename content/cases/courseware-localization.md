@@ -1,5 +1,5 @@
 ---
-title: "Confidential Client — Enterprise Training Courseware Localization"
+title: "Enterprise Training Courseware Localization"
 domain: "Confidential · Global Training Provider"
 industry: "Enterprise Training / HR Tech"
 service: "localization"

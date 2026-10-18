@@ -6,7 +6,7 @@ category_label: "Tecnología"
 tags: ["doblaje con IA", "TTS", "voz neuronal", "síntesis de voz", "tecnología de localización"]
 cover: "/images/services/dubbing.jpg"
 summary: "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 description: "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
 ---
 

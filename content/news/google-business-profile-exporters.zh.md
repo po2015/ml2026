@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["SEO", "Google Business Profile", "本地 SEO", "数字营销"]
 keywords: ["出口商 google business profile", "b2b google maps 商家信息", "gbp 国际设置"]
 cover: "/images/news/google-business-profile-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "一位欧洲买家搜索你的公司名，结果在 Maps 上什么都找不到——或者更糟：一个空白资料页，地址是错的，还挂着一条来自心怀不满的前员工的 1 星评价。Google Business Profile 免费，一个下午就能搞定，却能在买家回复你报价之前核查的搜索结果里，锚定你公司的可信度。出口商该设置什么、哪些功能与你无关，以及那些会让资料被暂停的陷阱。"
 ---
 

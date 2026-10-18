@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI dubbing", "voiceover", "TTS", "video localization"]
 keywords: ["how ai dubbing works", "ai voiceover process", "ai dubbing pipeline"]
 cover: "/images/news/how-ai-dubbing-works.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "AI dubbing is a pipeline, not a button. A stage-by-stage look at how a script becomes finished multilingual audio — and where humans still matter."
 ---
 

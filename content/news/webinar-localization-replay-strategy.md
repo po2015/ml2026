@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["Video Localization", "subtitling", "dubbing", "AI Dubbing", "webinar"]
 keywords: ["webinar localization", "webinar replay translation", "localize recorded webinar"]
 cover: "/images/news/webinar-localization-replay-strategy.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Your best-attended webinar of the quarter ends, the recording lands in a folder, and three months later it's still English-only while your German and Japanese sales teams ask for \"their version.\" One recording can become five market-ready assets — but only if you plan the localization before you press record. The workflow, the subtitles-vs-dubbing decision, and what it actually costs."
 ---
 

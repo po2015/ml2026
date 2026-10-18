@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "SEO", "域名", "B2B 出口"]
 keywords: ["域名 SEO", "出口网站域名", "国家域名与 .com"]
 cover: "/images/news/export-website-domain-name-guide.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "域名决策花十分钟，影响十年。对国际买家和搜索引擎来说，什么才是真正重要的——以及哪些事情你可以放心忽略。"
 ---
 

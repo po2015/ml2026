@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["creación de sitios web", "constructor de sitios web con IA", "exportación B2B", "sitio web de exportación"]
 keywords: ["constructor de sitios web con ia", "desarrollo web personalizado", "costo de sitio web de exportación"]
 cover: "/images/news/ai-website-builder-vs-custom-development.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Los constructores de sitios web con IA y el desarrollo personalizado resuelven problemas distintos. Así debe elegir un exportador según su presupuesto, plazos y planes de crecimiento."
 ---
 

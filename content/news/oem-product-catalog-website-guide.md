@@ -1,5 +1,5 @@
 ---
-title: "How to Generate OEM Inquiries With Your Manufacturing Website"
+title: "Generate OEM Inquiries With Your Manufacturing Website"
 date: 2021-04-13
 lastmod: 2026-10-18
 category: "industry"
@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["website-building", "OEM", "product-catalog", "B2B-website", "export"]
 cover: "/images/news/manufacturing-catalog.jpg"
 summary: "OEM buyers evaluate suppliers differently from retail buyers. Building a product catalog website that generates OEM inquiries means understanding what procurement engineers look for — and making sure your site delivers it clearly."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 ---
 
 OEM buyers — the procurement engineers and sourcing managers at device manufacturers, systems integrators, and distributors who are looking for components or complete product solutions to embed in their own offerings — evaluate suppliers in a specific way. Understanding that evaluation process is the starting point for building a website that converts their visits into inquiries.

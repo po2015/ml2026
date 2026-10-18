@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["视频本地化", "YouTube", "多语言音轨", "元数据"]
 keywords: ["youtube 多语言音轨", "youtube 本地化", "视频元数据翻译"]
 cover: "/images/news/youtube-multi-language-audio.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "YouTube 的多语言音轨功能让一条视频可以说十种语言——但音轨只完成了一半的工作。如何本地化音轨、标题、描述和缩略图，让每个市场的观众真正找到并观看你的视频。"
 ---
 

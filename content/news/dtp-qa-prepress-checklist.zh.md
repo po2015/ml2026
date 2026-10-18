@@ -7,7 +7,7 @@ category_label: "技术洞察"
 tags: ["DTP", "质量保证", "印前", "印刷制作"]
 keywords: ["dtp 质量保证", "翻译印前检查清单", "译文文件印刷 QA"]
 cover: "/images/news/dtp-qa-prepress-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "阿拉伯语目录印回来，电话号码全是反的。德语手册的索引指向的页码早已不存在。两份文件都「检查过」——但检查的人看的是屏幕，而不是可印刷的 PDF。译文文档的印前 QA 是一门独立的学问：这份清单能抓住翻译审校永远看不到的问题。"
 ---
 

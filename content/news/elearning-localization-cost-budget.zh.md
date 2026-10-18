@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["E-Learning", "本地化", "预算", "成本规划"]
 keywords: ["elearning 本地化成本", "课程翻译预算", "elearning 本地化报价"]
 cover: "/images/news/elearning-localization-cost-budget.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "本地化一门在线课程到底要花多少钱？一个按课时分钟计算的预算模型，包含真实的成本驱动因素——旁白、交互性、合规风险——以及最能改变总价的几项决策。"
 ---
 

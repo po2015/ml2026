@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["Exportación B2B", "Corea", "mercados regionales", "marketing digital"]
 keywords: ["mercado b2b coreano", "expectativas digitales de corea", "sitio web para compradores coreanos"]
 cover: "/images/news/korean-market-digital-expectations.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "Su candidato a distribuidor coreano abre su sitio web, espera cuatro segundos, encuentra solo inglés y se va a verificarlo en Naver — donde su empresa no existe. Corea es uno de los mercados más conectados del mundo, con hábitos digitales que van en contra de los supuestos occidentales. Lo que los compradores B2B coreanos realmente esperan en línea."
 ---
 

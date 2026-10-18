@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["AI Dubbing", "TTS", "voice selection", "brand voice"]
 keywords: ["choosing ai voice", "ai voice gender", "tts voice selection"]
 cover: "/images/news/choosing-ai-voice-brand.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The AI voice you pick becomes your brand's voice in every market. A framework for choosing gender, age, and style — and the mistakes that make courses feel cheap."
 ---
 

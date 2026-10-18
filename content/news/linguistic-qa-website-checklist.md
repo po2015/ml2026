@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["localization", "linguistic QA", "website translation", "quality"]
 keywords: ["linguistic qa website", "lqa checklist translation", "website translation quality check"]
 cover: "/images/news/linguistic-qa-website-checklist.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "The translation was perfect — in the spreadsheet. On the live site, the German navigation wraps, half the alt text is still English, and the checkout says 'Vielen Dank' on an Arabic page. Website LQA is a distinct pass with its own checklist. Here's the one we run."
 ---
 

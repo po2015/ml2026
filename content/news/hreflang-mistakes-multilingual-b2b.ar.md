@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "hreflang", "موقع متعدد اللغات", "SEO تقني"]
 keywords: ["تنفيذ hreflang", "أخطاء hreflang", "seo متعدد اللغات"]
 cover: "/images/news/hreflang-mistakes-multilingual-b2b.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "Hreflang هو أكثر الوسوم سوء تنفيذ في SEO الدولي. الأخطاء الستة التي نجدها أكثر من غيرها في مواقع B2B، وكيف تكتشفها، وكيف تصلح كلاً منها."
 ---
 

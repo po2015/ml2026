@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["DTP", "fuentes", "licencias", "tipografía"]
 keywords: ["licencias de fuentes multilingüe", "licencia de fuentes para publicación", "licenciamiento tipográfico multilingüe"]
 cover: "/images/news/font-licensing-multilingual-publishing.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "La tipografía de marca cubre el latín y el cirílico a la perfección. Luego el catálogo en japonés necesita una fuente CJK, la favorita del diseñador cuesta USD 4,000 al año por tipo de documento y los derechos de incrustación en PDF resultan excluir la 'distribución comercial'. Las licencias de fuentes son la partida invisible con la que tropieza la publicación multilingüe: el mapa de lo que realmente cubren las licencias."
 ---
 

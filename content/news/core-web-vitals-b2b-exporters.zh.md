@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 出海", "网站速度", "SEO", "Core Web Vitals"]
 keywords: ["core web vitals", "网站速度 seo", "b2b 网站性能"]
 cover: "/images/news/core-web-vitals-b2b-exporters.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你的网站在深圳办公室里 1.2 秒打开——而在拉各斯用酒店 Wi-Fi 的买家要等 9 秒。Google 的 Core Web Vitals 衡量的是后一种体验，而不是前一种，它们在悄无声息地决定你的页面能否排名、移动端买家能否留得住。三个指标，翻译成商业语言。"
 ---
 

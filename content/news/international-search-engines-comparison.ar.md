@@ -7,7 +7,7 @@ category_label: "التقنية"
 tags: ["SEO", "SEO دولي", "Google", "محركات البحث", "التصدير بين الشركات"]
 keywords: ["محركات البحث الدولية", "SEO على Yandex", "SEO على Naver", "Bing للأعمال بين الشركات"]
 cover: "/images/news/international-search-engines-comparison.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "يهيمن Google على معظم أسواق التصدير، لكن Bing وYandex وNaver مهمون في مناطق محددة. إليك أين تركّز جهود الظهور في نتائج البحث."
 ---
 

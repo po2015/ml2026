@@ -7,7 +7,7 @@ category_label: "Industry"
 tags: ["E-Learning", "localization", "budget", "cost planning"]
 keywords: ["elearning localization cost", "course translation budget", "elearning localization pricing"]
 cover: "/images/news/elearning-localization-cost-budget.jpg"
-author: "MediaLocalize Team"
+author: "Benny Chow"
 summary: "What does it actually cost to localize an e-learning course? A per-course-minute budget model with real cost drivers — narration, interactivity, compliance stakes — and the decisions that move the number most."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["B2B 外贸", "网站结构", "SEO", "转化优化"]
 keywords: ["b2b 服务页 seo", "服务页结构", "制造商网站页面"]
 cover: "/images/news/b2b-service-pages-seo.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "你的网站只有一页「服务」页，四个段落涵盖你们所做的一切——定制机加工、OEM 组装、模具设计、表面处理。Google 没有让它排上任何词，而偶然落到这页的买家也看不出你们能不能做他们的零件结构。服务页有两项工作——为某个具体的能力查询排名，然后把这次访问转化成询盘——而一个页面只能干好一项工作。这是两项都做到的结构。"
 ---
 

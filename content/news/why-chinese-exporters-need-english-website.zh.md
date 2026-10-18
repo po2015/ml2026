@@ -5,7 +5,7 @@ category: "industry"
 category_label: "行业洞察"
 tags: ["出口", "B2B", "网站", "中国制造企业", "国际营销"]
 cover: "/images/news/chinese-export.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"
 description: "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"
 ---

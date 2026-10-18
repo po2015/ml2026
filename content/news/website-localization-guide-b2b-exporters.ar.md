@@ -6,7 +6,7 @@ category_label: "القطاع"
 tags: ["توطين الموقع", "B2B", "التصدير", "التسويق الدولي"]
 cover: "/images/news/website-export.jpg"
 summary: "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."
-author: "MediaLocalize Team"
+author: "Ken Lee"
 description: "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."
 ---
 

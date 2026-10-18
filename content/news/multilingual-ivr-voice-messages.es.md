@@ -7,7 +7,7 @@ category_label: "Tecnología"
 tags: ["Doblaje", "IVR", "grabación de voz", "experiencia del cliente"]
 keywords: ["locución IVR multilingüe", "mensajes de voz para sistemas telefónicos", "grabación IVR en varios idiomas"]
 cover: "/images/news/multilingual-ivr-voice-messages.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "Un comprador alemán llama a su línea de exportación y escucha: un saludo en inglés vacilante, luego una larga pausa, luego un menú en alemán de calidad Google Translate grabado por el colega de alguien. Cuelga y le escribe a su competidor. El IVR son diez minutos de audio, y a menudo el primer punto de contacto con voz humana que recibe un comprador. Cómo hacer bien este pequeño proyecto."
 ---
 

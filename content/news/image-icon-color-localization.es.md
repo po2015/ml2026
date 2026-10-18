@@ -7,7 +7,7 @@ category_label: "Industria"
 tags: ["localización", "diseño visual", "adaptación cultural", "iconografía"]
 keywords: ["localización de imágenes", "localización de iconos", "significado del color en las culturas"]
 cover: "/images/news/image-icon-color-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "Un icono de pulgar hacia arriba resulta ofensivo en partes de Oriente Medio; el blanco significa bodas en un mercado y funerales en otro. Cómo auditar la capa no textual de su sitio antes de que socave la traducción."
 ---
 

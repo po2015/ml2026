@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التعليم الإلكتروني", "SCORM", "xAPI", "التعريب", "التدريب المؤسسي"]
 keywords: ["تعريب scorm", "ترجمة xapi", "تعريب التعليم الإلكتروني"]
 cover: "/images/news/scorm-xapi-localization.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "ترجمة نصوص الدورة التدريبية ليست سوى نصف عملية تعريب التعليم الإلكتروني. ما الذي يتغيّر فعلاً داخل حزم SCORM وxAPI — وما الذي ينكسر إذا أغفلته."
 ---
 

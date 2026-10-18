@@ -7,7 +7,7 @@ category_label: "القطاع"
 tags: ["التعلم الإلكتروني", "Articulate Storyline", "SCORM", "التعريب"]
 keywords: ["ترجمة Articulate Storyline", "سير عمل تعريب Storyline", "تصدير XLF من Storyline"]
 cover: "/images/news/articulate-storyline-translation-workflow.jpg"
-author: "MediaLocalize Team"
+author: "Jesse Chen"
 summary: "تبدو ميزة تصدير الترجمة في Storyline بسيطة حتى تعود طبقات الشرائح والمحفزات والنصوص المتغيرة معطوبة. سير العمل الكامل الذي يصمد أمام الدورات الحقيقية."
 ---
 

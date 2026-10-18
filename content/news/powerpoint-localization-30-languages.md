@@ -7,7 +7,7 @@ category_label: "Tech Insights"
 tags: ["DTP", "PowerPoint", "presentation localization", "document translation"]
 keywords: ["powerpoint localization", "presentation translation", "multilingual slide deck"]
 cover: "/images/news/powerpoint-localization-30-languages.jpg"
-author: "MediaLocalize Team"
+author: "Jerry Hu"
 summary: "The sales deck exists in English; by Friday it needs to exist in German, Japanese, and Arabic — and every version must look like your brand, not like a machine-translated accident with overflowing text boxes. PowerPoint localization looks trivial and breaks in predictable ways: expansion, fonts, broken layouts, embedded images with text, charts. The workflow that scales one deck to 30 languages without 30 rounds of design repair."
 ---
 

@@ -7,7 +7,7 @@ category_label: "行业洞察"
 tags: ["网站建设", "GDPR", "合规", "B2B 出海"]
 keywords: ["网站法律页面", "gdpr 隐私政策 外贸网站", "国际网站合规"]
 cover: "/images/news/international-website-legal-pages.jpg"
-author: "MediaLocalize Team"
+author: "Ken Lee"
 summary: "当买家在欧盟、加州或海湾地区时，法律页面就不再是摆设。国际 B2B 网站真正需要什么——以及不做的代价。"
 ---
 
