@@ -43,6 +43,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Create the Pages site automatically if it isn't enabled yet
+          enablement: true
 
       - name: Build
         env:
