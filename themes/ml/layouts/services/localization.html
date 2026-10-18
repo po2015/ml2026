@@ -28,7 +28,7 @@
     <div class="loc-sub-grid">
       {{ range $idx, $sub := $d.subs }}
       <a href="{{ $sub.url | relLangURL }}" class="loc-sub-card reveal reveal-delay-{{ add (mod $idx 2) 1 }}">
-        <img src="{{ $sub.img }}" alt="{{ $sub.title }}" class="loc-sub-img" loading="lazy">
+        {{ partial "img/responsive.html" (dict "src" $sub.img "alt" $sub.title "class" "loc-sub-img" "sizes" "(max-width: 768px) 100vw, 50vw") }}
         <div class="loc-sub-body">
           <div class="service-icon" style="width:44px;height:44px;margin-bottom:16px;">
             {{ if eq $sub.icon "doc" }}
