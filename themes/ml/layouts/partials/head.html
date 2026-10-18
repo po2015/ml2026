@@ -40,8 +40,11 @@
 {{- $desc = $copy.common.not_found_desc }}
 {{- end }}
 
-{{- /* Paginated list pages: disambiguate duplicate titles/descriptions */ -}}
-{{- if and .IsNode (gt .Paginator.PageNumber 1) }}
+{{- /* Paginated list pages: disambiguate duplicate titles/descriptions.
+       Restrict to real list kinds — merely reading .Paginator on the 404
+       page makes Hugo emit junk /404/page/N/ URLs. */ -}}
+{{- $isList := in (slice "home" "section" "taxonomy" "term") .Kind -}}
+{{- if and $isList (gt .Paginator.PageNumber 1) }}
 {{- $pageOf := printf ($copy.common.page_of | default "Page %d of %d") .Paginator.PageNumber .Paginator.TotalPages }}
 {{- $title = printf "%s — %s" $title $pageOf }}
 {{- $desc = printf "%s (%s)" $desc $pageOf }}
@@ -69,7 +72,7 @@
        so canonical/hreflang/og:url must append the page/N/ segment explicitly. */ -}}
 {{- $canonical := .Permalink }}
 {{- $pageSuffix := "" }}
-{{- if and .IsNode (gt .Paginator.PageNumber 1) }}
+{{- if and $isList (gt .Paginator.PageNumber 1) }}
 {{- $pageSuffix = printf "page/%d/" .Paginator.PageNumber }}
 {{- $canonical = printf "%s%s" .Permalink $pageSuffix }}
 {{- end }}
@@ -116,6 +119,15 @@
 <link rel="alternate" type="application/rss+xml" title="{{ $siteName }}" href="{{ .Permalink }}">
 {{ end -}}
 {{- end }}
+{{- /* Paginated taxonomy pages: tag/category counts differ per language, so a
+       cross-language page/N/ equivalent may not exist (e.g. /ar/tags/page/9/ vs
+       /tags/page/9/). These pages are noindex anyway — omit hreflang there
+       instead of pointing crawlers at 404s. */ -}}
+{{- $hreflangOK := true -}}
+{{- if and $isList (in (slice "taxonomy" "term") .Kind) (gt .Paginator.PageNumber 1) -}}
+{{- $hreflangOK = false -}}
+{{- end -}}
+{{- if $hreflangOK }}
 {{- range .AllTranslations }}
 {{- $trCopy := index .Site.Data.site_i18n .Site.Language.Lang }}
 <link rel="alternate" hreflang="{{ $trCopy.meta.schemaLanguage | default .Site.Language.Lang }}" href="{{ .Permalink }}{{ $pageSuffix }}">
@@ -123,6 +135,7 @@
 {{- range .AllTranslations }}
 {{- if eq .Site.Language.Lang "en" }}
 <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}{{ $pageSuffix }}">
+{{- end }}
 {{- end }}
 {{- end }}
 

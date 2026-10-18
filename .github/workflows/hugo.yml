@@ -53,6 +53,12 @@ jobs:
           HUGO_ENV: production
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Check internal references
+        # Fails the build if any src/href/srcset/inline-url() in the built
+        # HTML points at a file that doesn't exist (e.g. images referenced
+        # outside the assets pipeline).
+        run: python3 scripts/check-site-refs.py public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

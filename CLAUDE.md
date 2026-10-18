@@ -12,6 +12,7 @@ Hugo static site for medialocalize.com (B2B AI website building + localization s
 - Production build: `hugo --gc --minify` (outputs to `public/`, which is gitignored — a stale local copy may exist but is never committed)
 - New content: `hugo new content/news/my-post.md` (archetype sets `draft = true`)
 - Hugo version: extended **0.157.0** (pinned in `.github/workflows/hugo.yml`; match it locally)
+- Reference check: `python3 scripts/check-site-refs.py public` (after a build) — fails if any `src`/`href`/`srcset`/inline `url()` in the built HTML points at a missing file. Runs in CI after every build. Note Hugo never cleans `public/`, so `rm -rf public` first for a trustworthy local run.
 
 Deployment: push to `main` triggers GitHub Actions → GitHub Pages. There is also `functions/api/contact.js`, a Cloudflare Pages Function (contact form → Feishu webhook via `FEISHU_WEBHOOK` env var, with `_hp` honeypot / `_t0` timing bot guards) — keep its client-side form in sync if you edit either side.
 

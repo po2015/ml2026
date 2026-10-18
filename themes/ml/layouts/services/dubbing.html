@@ -5,7 +5,7 @@
 {{- $title := partial "i18n/title.html" . -}}
 
 <!-- Hero -->
-<section class="service-img-hero" style="--hero-img:url('{{ $page.cover | default "/images/services/dubbing.jpg" }}');">
+<section class="service-img-hero" style="--hero-img:url('{{ partial "img/hero-url.html" ($page.cover | default "/images/services/dubbing.jpg") }}');">
   <div class="page-hero-inner reveal">
     <p class="section-label">{{ $d.section_label }}</p>
     <h1 class="page-hero-title">{{ $title }}</h1>
