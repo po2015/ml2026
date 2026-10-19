@@ -1,0 +1,13 @@
+# Cloudflare Pages redirects (ignored by GitHub Pages, harmless there).
+# Section rename 2026-10: /news/ -> /insights/ (true 301s; splat covers
+# articles, pagination and the section index, with and without trailing slash).
+/news /insights/ 301
+/news/* /insights/:splat 301
+/zh/news /zh/insights/ 301
+/zh/news/* /zh/insights/:splat 301
+/es/news /es/insights/ 301
+/es/news/* /es/insights/:splat 301
+/ru/news /ru/insights/ 301
+/ru/news/* /ru/insights/:splat 301
+/ar/news /ar/insights/ 301
+/ar/news/* /ar/insights/:splat 301

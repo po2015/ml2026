@@ -23,7 +23,7 @@ The site is available in 5 languages: English (root), Chinese (/zh/), Spanish (/
 
 ## Knowledge Base
 
-- [Insights (articles)](https://www.medialocalize.com/news/): 130+ articles on localization, AI dubbing, multilingual DTP, e-learning, and export websites.
+- [Insights (articles)](https://www.medialocalize.com/insights/): 130+ articles on localization, AI dubbing, multilingual DTP, e-learning, and export websites.
 - [Glossary](https://www.medialocalize.com/glossary/): Definitions of localization terms (DTP, MTPE, SCORM, hreflang, RTL, SSML…).
 
 ## Feeds

@@ -4,7 +4,7 @@ definition: "The HTML attribute that tells search engines which language and reg
 description: "The HTML attribute that tells search engines which language and region a page targets, so each visitor finds the version written for them."
 date: 2026-10-04
 related:
-  - ["International SEO guide", "/news/international-seo-guide-chinese-manufacturers/"]
+  - ["International SEO guide", "/insights/international-seo-guide-chinese-manufacturers/"]
   - ["Website building", "/services/website-building/"]
 ---
 

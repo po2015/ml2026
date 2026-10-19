@@ -4,7 +4,7 @@ definition: "A workflow where machine translation produces a first draft and pro
 description: "A workflow where machine translation produces a first draft and professional linguists revise it to full human quality — faster and cheaper than translation from scratch."
 date: 2026-10-04
 related:
-  - ["Human vs machine translation", "/news/human-vs-machine-translation-technical-content/"]
+  - ["Human vs machine translation", "/insights/human-vs-machine-translation-technical-content/"]
   - ["Localization services", "/services/localization/"]
 ---
 

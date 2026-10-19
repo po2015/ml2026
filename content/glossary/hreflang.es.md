@@ -4,7 +4,7 @@ definition: "El atributo HTML que indica a los buscadores a qué idioma y regió
 description: "El atributo HTML que indica a los buscadores a qué idioma y región está dirigida una página, para que cada visitante encuentre la versión escrita para él."
 date: 2026-10-04
 related:
-  - ["Guía de SEO internacional", "/news/international-seo-guide-chinese-manufacturers/"]
+  - ["Guía de SEO internacional", "/insights/international-seo-guide-chinese-manufacturers/"]
   - ["Creación web", "/services/website-building/"]
 ---
 

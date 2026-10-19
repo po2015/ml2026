@@ -5,7 +5,7 @@ description: "Стандарт упаковки, позволяющий элек
 date: 2026-10-04
 related:
   - ["Локализация курсов", "/services/localization/elearning/"]
-  - ["Курсы для глобальной аудитории", "/news/elearning-localization-global-audiences/"]
+  - ["Курсы для глобальной аудитории", "/insights/elearning-localization-global-audiences/"]
 ---
 
 SCORM (Sharable Content Object Reference Model) — технический стандарт, позволяющий электронному курсу и LMS общаться друг с другом. SCORM-пакет — это zip-архив с курсом и манифестом, который сообщает LMS, как запускать курс, сохранять прогресс, фиксировать завершение и передавать оценки.

@@ -5,7 +5,7 @@ description: "以 LUFS 度量音频并设定响度目标的欧洲广播标准,�
 date: 2026-10-04
 related:
   - ["AI 配音", "/services/localization/dubbing/"]
-  - ["AI 与真人配音", "/news/ai-dubbing-vs-human-voice/"]
+  - ["AI 与真人配音", "/insights/ai-dubbing-vs-human-voice/"]
 ---
 
 EBU R128 是欧洲广播联盟的响度标准,也是全球多数平台采用的参照。它以 LUFS(相对满量程响度单位)度量音频——衡量声音实际听起来的响度,而非峰值多高——并为广播设定 -23 LUFS 整体响度目标和 -1 dBTP 真峰值上限。

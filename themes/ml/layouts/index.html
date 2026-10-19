@@ -121,7 +121,7 @@
 </section>
 
 <!-- ===== LATEST INSIGHTS ===== -->
-{{ $news := (where .Site.RegularPages "Section" "news") | first 3 }}
+{{ $news := (where .Site.RegularPages "Section" "insights") | first 3 }}
 {{ if $news }}
 <section class="section-light section-pad">
   <div class="container">
@@ -153,7 +153,7 @@
     </div>
 
     <div class="text-center mt-48 reveal">
-      <a href="{{ "/news/" | relLangURL }}" class="btn btn-secondary-light">{{ $copy.common.all_articles }}</a>
+      <a href="{{ "/insights/" | relLangURL }}" class="btn btn-secondary-light">{{ $copy.common.all_articles }}</a>
     </div>
   </div>
 </section>

@@ -526,7 +526,7 @@ site:
         path: /contact/
       - label_en: Blog / News
         label_zh: 动态
-        path: /news/
+        path: /insights/
 
   pages:
     - id: home
@@ -798,7 +798,7 @@ site:
           headline_zh: "合作伙伴"
 
     - id: news
-      path: /news/
+      path: /insights/
       template: blog_list
       title_en: "News & Updates — MediaLocalize"
       title_zh: "动态 — MediaLocalize"
@@ -818,7 +818,7 @@ site:
           sidebar: false
 
       article_detail:
-        path: /news/{slug}/
+        path: /insights/{slug}/
         template: news_single
         sections: [article_header, article_body, related_posts, cta_banner]
 
@@ -843,7 +843,7 @@ site:
   # ── Hugo content structure ──────────────────────────────────
   hugo_content_types:
     - name: news
-      path: content/news/
+      path: content/insights/
       archetype: news
       fields: [title, date, author, category, tags, summary, thumbnail, body]
 

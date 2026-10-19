@@ -5,7 +5,7 @@ description: "El estándar XML abierto para intercambiar contenido traducible en
 date: 2026-10-04
 related:
   - ["Servicios de localización", "/services/localization/"]
-  - ["Memoria de traducción y DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["Memoria de traducción y DTP", "/insights/translation-memory-dtp-efficiency/"]
 ---
 
 XLIFF (XML Localization Interchange File Format) es el estándar abierto para mover texto traducible entre sistemas. Un CMS, una herramienta de diseño o una plataforma de autor exporta un archivo XLIFF con el texto fuente dividido en segmentos, con notas de contexto y marcadores de formato. Los traductores trabajan en sus herramientas y el archivo completado se reimporta: la estructura, intacta.

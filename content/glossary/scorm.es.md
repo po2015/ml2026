@@ -5,7 +5,7 @@ description: "El estándar de empaquetado que permite que un curso de e-learning
 date: 2026-10-04
 related:
   - ["Localización de e-learning", "/services/localization/elearning/"]
-  - ["E-learning para audiencias globales", "/news/elearning-localization-global-audiences/"]
+  - ["E-learning para audiencias globales", "/insights/elearning-localization-global-audiences/"]
 ---
 
 SCORM (Sharable Content Object Reference Model) es el estándar técnico que permite que un curso de e-learning y un LMS se comuniquen. Un paquete SCORM es un zip con el curso y un manifiesto que indica al LMS cómo lanzarlo, guardar el progreso, registrar la finalización y reportar las puntuaciones.

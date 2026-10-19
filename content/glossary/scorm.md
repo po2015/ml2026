@@ -5,7 +5,7 @@ description: "The packaging standard that lets an e-learning course run, bookmar
 date: 2026-10-04
 related:
   - ["E-learning localization", "/services/localization/elearning/"]
-  - ["E-learning for global audiences", "/news/elearning-localization-global-audiences/"]
+  - ["E-learning for global audiences", "/insights/elearning-localization-global-audiences/"]
 ---
 
 SCORM (Sharable Content Object Reference Model) is the technical standard that lets an e-learning course and a learning management system talk to each other. A SCORM package is a zip file containing the course plus a manifest that tells the LMS how to launch it, bookmark progress, record completion, and report quiz scores.

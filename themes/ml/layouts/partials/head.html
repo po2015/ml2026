@@ -9,7 +9,7 @@
 {{- /* Append brand only when the title doesn't already contain it.
        Content single pages (news/cases/glossary/industries) skip the suffix —
        their titles are long and the brand adds no ranking value in SERPs. */ -}}
-{{- $skipBrand := and .IsPage (in (slice "news" "cases" "glossary" "industries") .Section) -}}
+{{- $skipBrand := and .IsPage (in (slice "insights" "cases" "glossary" "industries") .Section) -}}
 {{- $title := $pageTitle }}
 {{- if and (not .IsHome) (not $skipBrand) (not (strings.Contains $pageTitle $siteName)) }}
 {{- $title = printf "%s | %s" $pageTitle $siteName }}
@@ -98,7 +98,7 @@
 <meta property="og:locale:alternate" content="{{ $trCopy.meta.locale }}">
 {{- end }}
 {{- end }}
-{{- if and (eq .Section "news") .IsPage }}
+{{- if and (eq .Section "insights") .IsPage }}
 <meta property="article:published_time" content="{{ .Params.date | time.Format "2006-01-02T00:00:00Z" }}">
 <meta property="article:modified_time" content="{{ .Lastmod | time.Format "2006-01-02T00:00:00Z" }}">
 {{- with .Params.author }}<meta property="article:author" content="{{ . }}">{{ end }}
@@ -114,7 +114,7 @@
 <link rel="canonical" href="{{ $canonical }}">
 
 <!-- RSS autodiscovery: home + news section only (taxonomy feeds are noindexed clutter) -->
-{{- if or .IsHome (eq .Section "news") }}
+{{- if or .IsHome (eq .Section "insights") }}
 {{ with .OutputFormats.Get "RSS" -}}
 <link rel="alternate" type="application/rss+xml" title="{{ $siteName }}" href="{{ .Permalink }}">
 {{ end -}}
@@ -203,7 +203,7 @@
 </script>
 {{- end }}
 
-{{- if and (eq .Section "news") .IsPage }}
+{{- if and (eq .Section "insights") .IsPage }}
 <!-- Structured Data: BlogPosting -->
 <script type="application/ld+json">
 {

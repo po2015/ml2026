@@ -5,7 +5,7 @@ description: "在对白之外标注说话人身份和非语言声音信息的字
 date: 2026-10-04
 related:
   - ["视频本地化", "/services/localization/video/"]
-  - ["视频本地化指南", "/news/video-localization-corporate-training-guide/"]
+  - ["视频本地化指南", "/insights/video-localization-corporate-training-guide/"]
 ---
 
 SDH(听障字幕)不止于对白。它标注说话人、描述有意义的声音([警报响起]、[音乐渐强]),并在语气承载信息时加以标记。普通字幕假定观众听得到,SDH 假定观众听不到。

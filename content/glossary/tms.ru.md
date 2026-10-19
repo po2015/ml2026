@@ -4,7 +4,7 @@ definition: "Программная платформа, ведущая проц�
 description: "Программная платформа, ведущая процессы локализации в одном месте: память переводов, терминологические базы, назначения и контроль качества."
 date: 2026-10-04
 related:
-  - ["Память переводов и DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["Память переводов и DTP", "/insights/translation-memory-dtp-efficiency/"]
   - ["Услуги локализации", "/services/localization/"]
 ---
 

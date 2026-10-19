@@ -5,7 +5,7 @@ description: "经过审批的多语言词汇库,收录品牌名、产品术语�
 date: 2026-10-04
 related:
   - ["本地化服务", "/services/localization/"]
-  - ["本地化与翻译", "/news/localization-vs-translation-differences/"]
+  - ["本地化与翻译", "/insights/localization-vs-translation-differences/"]
 ---
 
 术语库是你业务中经过批准的多语言词汇库:品牌名、产品名、型号、技术术语,以及那些永远不该翻译的词。与文档附录词汇表不同,术语库是活的数据库——每个条目带各语言批准术语、禁用说法、定义和使用语境。

@@ -4,7 +4,7 @@ definition: "خاصية HTML التي تخبر محركات البحث بالل�
 description: "خاصية HTML التي تخبر محركات البحث باللغة والمنطقة المستهدفتين للصفحة, ليجد كل زائر النسخة المكتوبة من أجله."
 date: 2026-10-04
 related:
-  - ["دليل SEO الدولي", "/news/international-seo-guide-chinese-manufacturers/"]
+  - ["دليل SEO الدولي", "/insights/international-seo-guide-chinese-manufacturers/"]
   - ["بناء المواقع", "/services/website-building/"]
 ---
 

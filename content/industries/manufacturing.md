@@ -11,13 +11,13 @@ cases:
   - "/cases/ai-dubbing-industrial-videos/"
   - "/cases/translation-dtp-partnership/"
 articles:
-  - "/news/why-chinese-exporters-need-english-website/"
-  - "/news/export-website-cost-b2b-manufacturers/"
-  - "/news/oem-product-catalog-website-guide/"
-  - "/news/international-seo-guide-chinese-manufacturers/"
-  - "/news/b2b-export-seo-keyword-research/"
-  - "/news/industrial-long-tail-keywords/"
-  - "/news/product-catalog-website-inquiry-structure/"
+  - "/insights/why-chinese-exporters-need-english-website/"
+  - "/insights/export-website-cost-b2b-manufacturers/"
+  - "/insights/oem-product-catalog-website-guide/"
+  - "/insights/international-seo-guide-chinese-manufacturers/"
+  - "/insights/b2b-export-seo-keyword-research/"
+  - "/insights/industrial-long-tail-keywords/"
+  - "/insights/product-catalog-website-inquiry-structure/"
 ---
 
 Most industrial manufacturers reach global buyers through distributors and trade fairs — channels where the buyer relationship belongs to someone else. A manufacturer with its own multilingual website, localized catalogs, and native-language product videos changes that equation: buyers find you on Google, evaluate your specs in their language, and send the RFQ directly to you.

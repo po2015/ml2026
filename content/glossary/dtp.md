@@ -5,7 +5,7 @@ description: "The layout and typesetting stage that rebuilds translated text ins
 date: 2026-10-04
 related:
   - ["DTP services", "/services/localization/dtp/"]
-  - ["DTP checklist", "/news/technical-manual-translation-dtp-checklist/"]
+  - ["DTP checklist", "/insights/technical-manual-translation-dtp-checklist/"]
 ---
 
 Desktop publishing — in localization, usually called multilingual DTP — is the stage where translated text goes back into the designed document. Translation changes text; DTP rebuilds the layout around it so the German manual, Arabic brochure, and Chinese datasheet all look like they came from the same designer.

@@ -5,7 +5,7 @@ description: "The markup language used to direct text-to-speech engines: pronunc
 date: 2026-10-04
 related:
   - ["AI dubbing", "/services/localization/dubbing/"]
-  - ["Neural TTS", "/news/neural-tts-ai-voice-localization/"]
+  - ["Neural TTS", "/insights/neural-tts-ai-voice-localization/"]
 ---
 
 SSML (Speech Synthesis Markup Language) is the control layer for text-to-speech. Plain text tells a TTS engine what to say; SSML tells it how — where to pause, what to emphasize, how fast to speak, and how to pronounce words the engine would otherwise get wrong.

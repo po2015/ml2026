@@ -11,13 +11,13 @@ cases:
   - "/cases/ai-dubbing-industrial-videos/"
   - "/cases/translation-dtp-partnership/"
 articles:
-  - "/news/why-chinese-exporters-need-english-website/"
-  - "/news/export-website-cost-b2b-manufacturers/"
-  - "/news/oem-product-catalog-website-guide/"
-  - "/news/international-seo-guide-chinese-manufacturers/"
-  - "/news/b2b-export-seo-keyword-research/"
-  - "/news/industrial-long-tail-keywords/"
-  - "/news/product-catalog-website-inquiry-structure/"
+  - "/insights/why-chinese-exporters-need-english-website/"
+  - "/insights/export-website-cost-b2b-manufacturers/"
+  - "/insights/oem-product-catalog-website-guide/"
+  - "/insights/international-seo-guide-chinese-manufacturers/"
+  - "/insights/b2b-export-seo-keyword-research/"
+  - "/insights/industrial-long-tail-keywords/"
+  - "/insights/product-catalog-website-inquiry-structure/"
 ---
 
 La mayoría de los fabricantes industriales llega a los compradores globales a través de distribuidores y ferias —canales donde la relación con el comprador pertenece a otro. Un fabricante con su propio sitio web multilingüe, catálogos localizados y vídeos de producto en lengua nativa cambia esa ecuación: los compradores te encuentran en Google, evalúan tus especificaciones en su idioma y envían la solicitud de oferta directamente a ti.

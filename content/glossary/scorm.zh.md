@@ -5,7 +5,7 @@ description: "让电子课程能在任何兼容的学习管理系统中运行、
 date: 2026-10-04
 related:
   - ["课件本地化", "/services/localization/elearning/"]
-  - ["面向全球受众的在线课程", "/news/elearning-localization-global-audiences/"]
+  - ["面向全球受众的在线课程", "/insights/elearning-localization-global-audiences/"]
 ---
 
 SCORM(可共享内容对象参考模型)是让电子课程与学习管理系统(LMS)互相通信的技术标准。一个 SCORM 包是一个 zip 文件,内含课程和一份清单,告诉 LMS 如何启动课程、记录学习进度、判定完成和回传测验成绩。

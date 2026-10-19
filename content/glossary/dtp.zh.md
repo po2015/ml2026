@@ -5,7 +5,7 @@ description: "把译文重新装回原版设计的排版环节,让每个语言�
 date: 2026-10-04
 related:
   - ["排版服务", "/services/localization/dtp/"]
-  - ["排版检查清单", "/news/technical-manual-translation-dtp-checklist/"]
+  - ["排版检查清单", "/insights/technical-manual-translation-dtp-checklist/"]
 ---
 
 桌面排版——在本地化行业通常叫多语言 DTP——是把译文装回设计稿的环节。翻译改变文字,DTP 围绕译文重建版式,让德语手册、阿语宣传册和中文数据表看起来出自同一位设计师。

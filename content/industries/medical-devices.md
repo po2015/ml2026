@@ -8,11 +8,11 @@ services:
 cases:
   - "/cases/video-subtitling-medical-launch/"
 articles:
-  - "/news/technical-manual-translation-dtp-checklist/"
-  - "/news/human-vs-machine-translation-technical-content/"
-  - "/news/multilingual-dtp-typography-guide/"
-  - "/news/compliance-training-translation-accuracy/"
-  - "/news/multilingual-packaging-design-rules/"
+  - "/insights/technical-manual-translation-dtp-checklist/"
+  - "/insights/human-vs-machine-translation-technical-content/"
+  - "/insights/multilingual-dtp-typography-guide/"
+  - "/insights/compliance-training-translation-accuracy/"
+  - "/insights/multilingual-packaging-design-rules/"
 ---
 
 Medical device content lives under rules most vendors never feel. IFUs, labeling, and training materials must use regulator-approved terminology — in every market, on every revision — because a mistranslated dosage or contraindication is not a quality issue, it is a compliance failure with a paper trail.

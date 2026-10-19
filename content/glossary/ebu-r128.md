@@ -5,7 +5,7 @@ description: "The European broadcast standard that measures audio in LUFS and se
 date: 2026-10-04
 related:
   - ["AI dubbing", "/services/localization/dubbing/"]
-  - ["AI vs human voice", "/news/ai-dubbing-vs-human-voice/"]
+  - ["AI vs human voice", "/insights/ai-dubbing-vs-human-voice/"]
 ---
 
 EBU R128 is the European Broadcasting Union's loudness standard, and the reference most of the world's platforms have adopted. It measures audio in LUFS (Loudness Units relative to Full Scale) — a perceptual measure of how loud audio actually sounds, rather than how high its peaks are — and sets a target of −23 LUFS integrated loudness for broadcast, with a true-peak ceiling of −1 dBTP.

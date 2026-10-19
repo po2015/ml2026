@@ -5,7 +5,7 @@ description: "Subtítulos que añaden identificación de hablantes y señales so
 date: 2026-10-04
 related:
   - ["Localización de vídeo", "/services/localization/video/"]
-  - ["Guía de localización de vídeo", "/news/video-localization-corporate-training-guide/"]
+  - ["Guía de localización de vídeo", "/insights/video-localization-corporate-training-guide/"]
 ---
 
 Los SDH —subtítulos para personas sordas o con discapacidad auditiva— van más allá del diálogo. Identifican a los hablantes, describen sonidos relevantes ([suena la alarma], [sube la música]) y marcan el tono cuando aporta significado. Los subtítulos normales asumen que el espectador oye; los SDH asumen que no.

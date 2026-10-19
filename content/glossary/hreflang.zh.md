@@ -4,7 +4,7 @@ definition: "告诉搜索引擎某个页面面向哪种语言和地区的 HTML �
 description: "告诉搜索引擎某个页面面向哪种语言和地区的 HTML 属性,让每位访客看到为其编写的版本。"
 date: 2026-10-04
 related:
-  - ["国际 SEO 指南", "/news/international-seo-guide-chinese-manufacturers/"]
+  - ["国际 SEO 指南", "/insights/international-seo-guide-chinese-manufacturers/"]
   - ["外贸建站", "/services/website-building/"]
 ---
 

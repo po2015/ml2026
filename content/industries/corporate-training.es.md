@@ -9,11 +9,11 @@ cases:
   - "/cases/courseware-localization/"
   - "/cases/ai-dubbing-industrial-videos/"
 articles:
-  - "/news/elearning-localization-global-audiences/"
-  - "/news/video-localization-corporate-training-guide/"
-  - "/news/ai-dubbing-corporate-training-cost-quality/"
-  - "/news/neural-tts-ai-voice-localization/"
-  - "/news/scorm-xapi-localization/"
+  - "/insights/elearning-localization-global-audiences/"
+  - "/insights/video-localization-corporate-training-guide/"
+  - "/insights/ai-dubbing-corporate-training-cost-quality/"
+  - "/insights/neural-tts-ai-voice-localization/"
+  - "/insights/scorm-xapi-localization/"
 ---
 
 Un programa de formación solo funciona si cada empleado lo completa de verdad —y la finalización se desploma cuando el curso se lee como una traducción. Las multinacionales que despliegan formación de cumplimiento, seguridad y producto a nivel global repiten el mismo patrón: el original en inglés funciona, las versiones localizadas rinden peor, y los equipos regionales empiezan a rehacerlo todo desde cero.

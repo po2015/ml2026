@@ -9,11 +9,11 @@ cases:
   - "/cases/courseware-localization/"
   - "/cases/ai-dubbing-industrial-videos/"
 articles:
-  - "/news/elearning-localization-global-audiences/"
-  - "/news/video-localization-corporate-training-guide/"
-  - "/news/ai-dubbing-corporate-training-cost-quality/"
-  - "/news/neural-tts-ai-voice-localization/"
-  - "/news/scorm-xapi-localization/"
+  - "/insights/elearning-localization-global-audiences/"
+  - "/insights/video-localization-corporate-training-guide/"
+  - "/insights/ai-dubbing-corporate-training-cost-quality/"
+  - "/insights/neural-tts-ai-voice-localization/"
+  - "/insights/scorm-xapi-localization/"
 ---
 
 培训项目只有在每位员工都真正完成时才有效——而当课程读起来像翻译时,完成率就会崩塌。在全球推广合规、安全和产品培训的跨国企业都会遇到同样的模式:英文原版表现良好,本地化版本表现不佳,区域培训团队开始从头重做。

@@ -5,7 +5,7 @@ description: "La fase de maquetación y composición que reintegra el texto trad
 date: 2026-10-04
 related:
   - ["Servicios de DTP", "/services/localization/dtp/"]
-  - ["Lista de verificación DTP", "/news/technical-manual-translation-dtp-checklist/"]
+  - ["Lista de verificación DTP", "/insights/technical-manual-translation-dtp-checklist/"]
 ---
 
 La autoedición —en localización, DTP multilingüe— es la fase en la que el texto traducido vuelve al documento diseñado. La traducción cambia el texto; el DTP reconstruye la maqueta a su alrededor para que el manual alemán, el folleto árabe y la ficha china parezcan del mismo diseñador.

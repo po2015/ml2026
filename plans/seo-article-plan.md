@@ -6,9 +6,9 @@
 
 ## 1. 背景与目标
 
-- 现状：`/news/` 已发布 19 篇英文文章（见附录 A），新选题一律避开这些主题。
+- 现状：`/insights/`（原 `/news/`，2026-10 迁移）已发布 19 篇英文文章（见附录 A），新选题一律避开这些主题。
 - 目标：到 2027 年 5 月底英文文章总量达到 125 篇，形成 8 个完整主题集群（topic cluster），覆盖全部 6 条服务线（建站、本地化、DTP、配音、视频、电子课程）的搜索需求。
-- 受众：正在评估本地化 / 建站供应商的 B2B 决策者（制造业、医药、企业培训行业），写作口吻遵循 `content/news/article-template.md` 的写作指南。
+- 受众：正在评估本地化 / 建站供应商的 B2B 决策者（制造业、医药、企业培训行业），写作口吻遵循 `content/insights/article-template.md` 的写作指南。
 
 ## 2. 选题集群
 
@@ -28,7 +28,7 @@
 
 ## 3. 写作与发布规范
 
-- **模板**：复制 `content/news/article-template.md`，文件名为 `content/news/<slug>.md`（表中 slug 即文件名）。
+- **模板**：复制 `content/insights/article-template.md`，文件名为 `content/insights/<slug>.md`（表中 slug 即文件名）。
 - **front matter**：`date` 与 `publishDate` 均填表中的完整时间（ISO 8601，`+08:00`）；`category` 只用 `tech` / `industry` / `company`（旧文里出现的 `marketing`、`localization` 不再使用）；作者按 Ken Lee → Jerry Hu → Jesse Chen → Benny Chow 轮换；`tags` 3–6 个，优先复用已有标签。
 - **正文**：900–1800 词；H2 用 sentence case；至少 1 个表格或列表；结尾 CTA 指向 `/contact/` 或对应服务页。
 - **标题**：含主关键词、60 字符以内（个别长尾题可放宽）。

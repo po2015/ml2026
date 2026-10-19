@@ -5,7 +5,7 @@ description: "El glosario multilingüe aprobado con tus marcas, términos de pro
 date: 2026-10-04
 related:
   - ["Servicios de localización", "/services/localization/"]
-  - ["Localización vs traducción", "/news/localization-vs-translation-differences/"]
+  - ["Localización vs traducción", "/insights/localization-vs-translation-differences/"]
 ---
 
 Una base terminológica es el vocabulario multilingüe aprobado de tu empresa: marcas, nombres de producto, referencias, términos técnicos y las palabras que nunca quieres traducir. A diferencia de un glosario en un documento, es una base de datos viva: cada entrada lleva el término aprobado por idioma, las variantes prohibidas, una definición y contexto de uso.

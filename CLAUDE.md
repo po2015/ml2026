@@ -10,7 +10,7 @@ Hugo static site for medialocalize.com (B2B AI website building + localization s
 
 - Dev server: `hugo server` (add `-D` to include drafts)
 - Production build: `hugo --gc --minify` (outputs to `public/`, which is gitignored — a stale local copy may exist but is never committed)
-- New content: `hugo new content/news/my-post.md` (archetype sets `draft = true`)
+- New content: `hugo new content/insights/my-post.md` (archetype sets `draft = true`)
 - Hugo version: extended **0.157.0** (pinned in `.github/workflows/hugo.yml`; match it locally)
 - Reference check: `python3 scripts/check-site-refs.py public` (after a build) — fails if any `src`/`href`/`srcset`/inline `url()` in the built HTML points at a missing file. Runs in CI after every build. Note Hugo never cleans `public/`, so `rm -rf public` first for a trustworthy local run.
 

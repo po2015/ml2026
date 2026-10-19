@@ -4,7 +4,7 @@ definition: "منصة البرمجيات التي تدير سير عمل الت�
 description: "منصة البرمجيات التي تدير سير عمل التوطين في مكان واحد — ذاكرة الترجمة وقواعد المصطلحات والإسناد وضبط الجودة."
 date: 2026-10-04
 related:
-  - ["ذاكرة الترجمة وDTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["ذاكرة الترجمة وDTP", "/insights/translation-memory-dtp-efficiency/"]
   - ["خدمات التوطين", "/services/localization/"]
 ---
 

@@ -4,7 +4,7 @@ definition: "سير عمل تُنتج فيه الترجمة الآلية مسو�
 description: "سير عمل تُنتج فيه الترجمة الآلية مسودة أولى ثم يراجعها لغويون محترفون حتى الجودة البشرية الكاملة — أسرع وأقل كلفة من الترجمة من الصفر."
 date: 2026-10-04
 related:
-  - ["الترجمة البشرية والآلية", "/news/human-vs-machine-translation-technical-content/"]
+  - ["الترجمة البشرية والآلية", "/insights/human-vs-machine-translation-technical-content/"]
   - ["خدمات التوطين", "/services/localization/"]
 ---
 

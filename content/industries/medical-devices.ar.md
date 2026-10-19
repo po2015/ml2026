@@ -8,11 +8,11 @@ services:
 cases:
   - "/cases/video-subtitling-medical-launch/"
 articles:
-  - "/news/technical-manual-translation-dtp-checklist/"
-  - "/news/human-vs-machine-translation-technical-content/"
-  - "/news/multilingual-dtp-typography-guide/"
-  - "/news/compliance-training-translation-accuracy/"
-  - "/news/multilingual-packaging-design-rules/"
+  - "/insights/technical-manual-translation-dtp-checklist/"
+  - "/insights/human-vs-machine-translation-technical-content/"
+  - "/insights/multilingual-dtp-typography-guide/"
+  - "/insights/compliance-training-translation-accuracy/"
+  - "/insights/multilingual-packaging-design-rules/"
 ---
 
 يعيش محتوى الأجهزة الطبية تحت قواعد لم يشعر بها معظم المورّدين قط. فتعليمات الاستخدام والملصقات والمواد التدريبية يجب أن تستخدم مصطلحات معتمدة من الجهات التنظيمية — في كل سوق وفي كل مراجعة — لأن جرعة أو مضاد استطباب مترجمًا خطأً ليس مشكلة جودة، بل إخفاق امتثال له أثر ورقي.

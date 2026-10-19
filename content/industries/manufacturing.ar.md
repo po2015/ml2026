@@ -11,13 +11,13 @@ cases:
   - "/cases/ai-dubbing-industrial-videos/"
   - "/cases/translation-dtp-partnership/"
 articles:
-  - "/news/why-chinese-exporters-need-english-website/"
-  - "/news/export-website-cost-b2b-manufacturers/"
-  - "/news/oem-product-catalog-website-guide/"
-  - "/news/international-seo-guide-chinese-manufacturers/"
-  - "/news/b2b-export-seo-keyword-research/"
-  - "/news/industrial-long-tail-keywords/"
-  - "/news/product-catalog-website-inquiry-structure/"
+  - "/insights/why-chinese-exporters-need-english-website/"
+  - "/insights/export-website-cost-b2b-manufacturers/"
+  - "/insights/oem-product-catalog-website-guide/"
+  - "/insights/international-seo-guide-chinese-manufacturers/"
+  - "/insights/b2b-export-seo-keyword-research/"
+  - "/insights/industrial-long-tail-keywords/"
+  - "/insights/product-catalog-website-inquiry-structure/"
 ---
 
 يصل معظم المصنّعين الصناعيين إلى المشترين العالميين عبر الموزّعين والمعارض التجارية — قنوات تكون فيها علاقة المشتري ملكًا لغيرهم. أما المصنّع الذي يملك موقعًا متعدد اللغات خاصًا به وكتالوجات مُوطَّنة وفيديوهات منتجات بلغة المشتري الأم فيغيّر هذه المعادلة: يجدك المشترون على Google، ويقيّمون مواصفاتك بلغتهم، ويرسلون طلب العرض إليك مباشرة.

@@ -5,7 +5,7 @@ description: "Subtitles that add speaker identification and non-speech sound cue
 date: 2026-10-04
 related:
   - ["Video localization", "/services/localization/video/"]
-  - ["Video localization guide", "/news/video-localization-corporate-training-guide/"]
+  - ["Video localization guide", "/insights/video-localization-corporate-training-guide/"]
 ---
 
 SDH — subtitles for the deaf and hard of hearing — go beyond dialogue. They identify speakers, describe meaningful sounds ([alarm sounds], [music swells]), and mark tone where it carries meaning. Regular subtitles assume the viewer can hear; SDH assumes they cannot.

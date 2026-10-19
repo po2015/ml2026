@@ -5,7 +5,7 @@ description: "用于指挥文字转语音引擎的标记语言:发音、停顿�
 date: 2026-10-04
 related:
   - ["AI 配音", "/services/localization/dubbing/"]
-  - ["神经语音合成", "/news/neural-tts-ai-voice-localization/"]
+  - ["神经语音合成", "/insights/neural-tts-ai-voice-localization/"]
 ---
 
 SSML(语音合成标记语言)是文字转语音的控制层。纯文本告诉 TTS 引擎说什么,SSML 告诉它怎么说——在哪里停顿、强调什么、语速多快,以及引擎本来会读错的词怎么发音。

@@ -5,7 +5,7 @@ description: "لغة الترميز المستخدمة لتوجيه محركات
 date: 2026-10-04
 related:
   - ["الدبلجة بالذكاء الاصطناعي", "/services/localization/dubbing/"]
-  - ["TTS العصبي", "/news/neural-tts-ai-voice-localization/"]
+  - ["TTS العصبي", "/insights/neural-tts-ai-voice-localization/"]
 ---
 
 SSML (لغة ترميز تخليق الكلام) هي طبقة التحكم في تحويل النص إلى كلام. النص العادي يخبر محرك TTS بما يقول؛ أما SSML فيخبره بالكيفية — أين يتوقف، وماذا يؤكد، وبأي سرعة يتحدث، وكيف ينطق الكلمات التي سينطقها خطأً لولا ذلك.

@@ -5,7 +5,7 @@ description: "The approved, multilingual glossary of your brand names, product t
 date: 2026-10-04
 related:
   - ["Localization services", "/services/localization/"]
-  - ["Localization vs translation", "/news/localization-vs-translation-differences/"]
+  - ["Localization vs translation", "/insights/localization-vs-translation-differences/"]
 ---
 
 A termbase is the approved, multilingual vocabulary of your business: brand names, product names, model numbers, technical terms, and the words you never want translated. Unlike a document glossary, a termbase is a living database — each entry carries the approved term per language, the forbidden variants, a definition, and usage context.

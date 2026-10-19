@@ -9,11 +9,11 @@ cases:
   - "/cases/courseware-localization/"
   - "/cases/ai-dubbing-industrial-videos/"
 articles:
-  - "/news/elearning-localization-global-audiences/"
-  - "/news/video-localization-corporate-training-guide/"
-  - "/news/ai-dubbing-corporate-training-cost-quality/"
-  - "/news/neural-tts-ai-voice-localization/"
-  - "/news/scorm-xapi-localization/"
+  - "/insights/elearning-localization-global-audiences/"
+  - "/insights/video-localization-corporate-training-guide/"
+  - "/insights/ai-dubbing-corporate-training-cost-quality/"
+  - "/insights/neural-tts-ai-voice-localization/"
+  - "/insights/scorm-xapi-localization/"
 ---
 
 لا ينجح برنامج التدريب إلا إذا أتمّه كل موظف فعلًا — وينهار الإتمام حين تُقرأ الدورة كترجمة. فالشركات متعددة الجنسيات التي تنشر تدريب الامتثال والسلامة والمنتجات عالميًا تواجه النمط نفسه: الأصل الإنجليزي يؤدي جيدًا، والنسخ المُوطَّنة تتخلف، وتبدأ فرق التعلم والتطوير الإقليمية بإعادة البناء من الصفر.

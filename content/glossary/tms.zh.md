@@ -4,7 +4,7 @@ definition: "在一处运行本地化工作流的软件平台——翻译记忆�
 description: "在一处运行本地化工作流的软件平台——翻译记忆、术语库、任务分配和 QA。"
 date: 2026-10-04
 related:
-  - ["翻译记忆与 DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["翻译记忆与 DTP", "/insights/translation-memory-dtp-efficiency/"]
   - ["本地化服务", "/services/localization/"]
 ---
 

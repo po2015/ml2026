@@ -5,7 +5,7 @@ description: "在系统之间交换可翻译内容的开放 XML 标准,端到端
 date: 2026-10-04
 related:
   - ["本地化服务", "/services/localization/"]
-  - ["翻译记忆与 DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["翻译记忆与 DTP", "/insights/translation-memory-dtp-efficiency/"]
 ---
 
 XLIFF(XML 本地化交换文件格式)是在系统之间传递可翻译文本的开放标准。CMS、设计工具或内容平台导出 XLIFF 文件,其中源文本被切分为分段,附上下文说明和格式占位符;译员在自己的工具中处理,完成的文件再导入回去——结构原封不动。

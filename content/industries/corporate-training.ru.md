@@ -9,11 +9,11 @@ cases:
   - "/cases/courseware-localization/"
   - "/cases/ai-dubbing-industrial-videos/"
 articles:
-  - "/news/elearning-localization-global-audiences/"
-  - "/news/video-localization-corporate-training-guide/"
-  - "/news/ai-dubbing-corporate-training-cost-quality/"
-  - "/news/neural-tts-ai-voice-localization/"
-  - "/news/scorm-xapi-localization/"
+  - "/insights/elearning-localization-global-audiences/"
+  - "/insights/video-localization-corporate-training-guide/"
+  - "/insights/ai-dubbing-corporate-training-cost-quality/"
+  - "/insights/neural-tts-ai-voice-localization/"
+  - "/insights/scorm-xapi-localization/"
 ---
 
 Учебная программа работает, только если каждый сотрудник действительно её проходит — а завершение рушится, когда курс читается как перевод. Международные компании, разворачивающие комплаенс-, безопасностное и продуктовое обучение по миру, встречают один и тот же паттерн: английский оригинал работает, локализованные версии отстают, и региональные команды начинают пересобирать всё с нуля.

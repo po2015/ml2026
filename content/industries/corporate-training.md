@@ -9,11 +9,11 @@ cases:
   - "/cases/courseware-localization/"
   - "/cases/ai-dubbing-industrial-videos/"
 articles:
-  - "/news/elearning-localization-global-audiences/"
-  - "/news/video-localization-corporate-training-guide/"
-  - "/news/ai-dubbing-corporate-training-cost-quality/"
-  - "/news/neural-tts-ai-voice-localization/"
-  - "/news/scorm-xapi-localization/"
+  - "/insights/elearning-localization-global-audiences/"
+  - "/insights/video-localization-corporate-training-guide/"
+  - "/insights/ai-dubbing-corporate-training-cost-quality/"
+  - "/insights/neural-tts-ai-voice-localization/"
+  - "/insights/scorm-xapi-localization/"
 ---
 
 A training program only works if every employee actually completes it — and completion collapses when the course reads like a translation. Multinationals rolling out compliance, safety, and product training globally face the same pattern: the English original performs, the localized versions underperform, and regional L&D teams start rebuilding from scratch.

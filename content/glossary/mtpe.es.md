@@ -4,7 +4,7 @@ definition: "Un flujo en el que la traducción automática genera un primer borr
 description: "Un flujo en el que la traducción automática genera un primer borrador y lingüistas profesionales lo revisan hasta alcanzar calidad plenamente humana: más rápido y barato que traducir desde cero."
 date: 2026-10-04
 related:
-  - ["Traducción humana vs automática", "/news/human-vs-machine-translation-technical-content/"]
+  - ["Traducción humana vs automática", "/insights/human-vs-machine-translation-technical-content/"]
   - ["Servicios de localización", "/services/localization/"]
 ---
 

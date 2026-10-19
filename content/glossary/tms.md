@@ -4,7 +4,7 @@ definition: "The software platform that runs localization workflows — translat
 description: "The software platform that runs localization workflows — translation memory, termbases, assignments, and QA — in one place."
 date: 2026-10-04
 related:
-  - ["Translation memory & DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["Translation memory & DTP", "/insights/translation-memory-dtp-efficiency/"]
   - ["Localization services", "/services/localization/"]
 ---
 

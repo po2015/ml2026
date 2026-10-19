@@ -8,11 +8,11 @@ services:
 cases:
   - "/cases/video-subtitling-medical-launch/"
 articles:
-  - "/news/technical-manual-translation-dtp-checklist/"
-  - "/news/human-vs-machine-translation-technical-content/"
-  - "/news/multilingual-dtp-typography-guide/"
-  - "/news/compliance-training-translation-accuracy/"
-  - "/news/multilingual-packaging-design-rules/"
+  - "/insights/technical-manual-translation-dtp-checklist/"
+  - "/insights/human-vs-machine-translation-technical-content/"
+  - "/insights/multilingual-dtp-typography-guide/"
+  - "/insights/compliance-training-translation-accuracy/"
+  - "/insights/multilingual-packaging-design-rules/"
 ---
 
 Контент медицинских изделий живёт по правилам, которых большинство поставщиков никогда не чувствовало. Инструкции по применению, этикетки и учебные материалы должны использовать утверждённую регуляторами терминологию — на каждом рынке и в каждой редакции, — потому что ошибочно переведённая дозировка или противопоказание — не проблема качества, а нарушение комплаенса с документальным следом.

@@ -5,7 +5,7 @@ description: "El estándar europeo de radiodifusión que mide el audio en LUFS y
 date: 2026-10-04
 related:
   - ["Doblaje con IA", "/services/localization/dubbing/"]
-  - ["Voz IA vs humana", "/news/ai-dubbing-vs-human-voice/"]
+  - ["Voz IA vs humana", "/insights/ai-dubbing-vs-human-voice/"]
 ---
 
 EBU R128 es el estándar de sonoridad de la Unión Europea de Radiodifusión, y la referencia adoptada por la mayoría de las plataformas. Mide el audio en LUFS (unidades de sonoridad relativas a plena escala) —una medida perceptual de lo alto que suena realmente el audio, no de sus picos— y fija un objetivo de −23 LUFS integrados para broadcast, con techo de −1 dBTP de pico verdadero.

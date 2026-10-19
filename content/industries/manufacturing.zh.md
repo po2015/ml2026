@@ -11,13 +11,13 @@ cases:
   - "/cases/ai-dubbing-industrial-videos/"
   - "/cases/translation-dtp-partnership/"
 articles:
-  - "/news/why-chinese-exporters-need-english-website/"
-  - "/news/export-website-cost-b2b-manufacturers/"
-  - "/news/oem-product-catalog-website-guide/"
-  - "/news/international-seo-guide-chinese-manufacturers/"
-  - "/news/b2b-export-seo-keyword-research/"
-  - "/news/industrial-long-tail-keywords/"
-  - "/news/product-catalog-website-inquiry-structure/"
+  - "/insights/why-chinese-exporters-need-english-website/"
+  - "/insights/export-website-cost-b2b-manufacturers/"
+  - "/insights/oem-product-catalog-website-guide/"
+  - "/insights/international-seo-guide-chinese-manufacturers/"
+  - "/insights/b2b-export-seo-keyword-research/"
+  - "/insights/industrial-long-tail-keywords/"
+  - "/insights/product-catalog-website-inquiry-structure/"
 ---
 
 大多数工业制造商通过经销商和展会接触全球买家——在这些渠道里,买家关系属于别人。拥有自己的多语言网站、本地化产品目录和母语产品视频的制造商会改变这个等式:买家在 Google 上找到你,用自己的语言评估参数,把询盘直接发给你。

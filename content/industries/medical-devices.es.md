@@ -8,11 +8,11 @@ services:
 cases:
   - "/cases/video-subtitling-medical-launch/"
 articles:
-  - "/news/technical-manual-translation-dtp-checklist/"
-  - "/news/human-vs-machine-translation-technical-content/"
-  - "/news/multilingual-dtp-typography-guide/"
-  - "/news/compliance-training-translation-accuracy/"
-  - "/news/multilingual-packaging-design-rules/"
+  - "/insights/technical-manual-translation-dtp-checklist/"
+  - "/insights/human-vs-machine-translation-technical-content/"
+  - "/insights/multilingual-dtp-typography-guide/"
+  - "/insights/compliance-training-translation-accuracy/"
+  - "/insights/multilingual-packaging-design-rules/"
 ---
 
 El contenido de dispositivos médicos vive bajo reglas que la mayoría de los proveedores nunca siente. Las instrucciones de uso, el etiquetado y los materiales de formación deben usar terminología aprobada por los reguladores —en cada mercado y en cada revisión— porque una dosis o contraindicación mal traducida no es un problema de calidad, es un fallo de cumplimiento con rastro documental.

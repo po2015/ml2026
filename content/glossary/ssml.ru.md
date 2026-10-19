@@ -5,7 +5,7 @@ description: "Язык разметки для управления движка
 date: 2026-10-04
 related:
   - ["ИИ-озвучка", "/services/localization/dubbing/"]
-  - ["Нейросетевой TTS", "/news/neural-tts-ai-voice-localization/"]
+  - ["Нейросетевой TTS", "/insights/neural-tts-ai-voice-localization/"]
 ---
 
 SSML (Speech Synthesis Markup Language) — слой управления синтезом речи. Обычный текст говорит движку TTS, что произносить; SSML говорит, как: где пауза, что подчеркнуть, с какой скоростью говорить и как произносить слова, которые движок иначе исковеркает.

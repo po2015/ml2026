@@ -5,7 +5,7 @@ description: "El lenguaje de marcado que dirige a los motores de texto a voz: pr
 date: 2026-10-04
 related:
   - ["Doblaje con IA", "/services/localization/dubbing/"]
-  - ["TTS neuronal", "/news/neural-tts-ai-voice-localization/"]
+  - ["TTS neuronal", "/insights/neural-tts-ai-voice-localization/"]
 ---
 
 SSML (Speech Synthesis Markup Language) es la capa de control del texto a voz. El texto plano dice al motor TTS qué decir; SSML le dice cómo: dónde pausar, qué enfatizar, a qué velocidad hablar y cómo pronunciar las palabras que de otro modo pronunciaría mal.

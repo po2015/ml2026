@@ -23,7 +23,7 @@
   </div>
 </section>
 
-{{- $articles := where (where .Site.RegularPages "Section" "news") "Params.author" $member.name -}}
+{{- $articles := where (where .Site.RegularPages "Section" "insights") "Params.author" $member.name -}}
 {{- $articles = sort $articles "Date" "desc" -}}
 <section class="section-light section-pad">
   <div class="container" style="max-width:800px;">

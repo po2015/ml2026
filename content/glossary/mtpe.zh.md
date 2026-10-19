@@ -4,7 +4,7 @@ definition: "机器翻译出初稿、专业译员修订至全人工质量的工�
 description: "机器翻译出初稿、专业译员修订至全人工质量的工作流——比从零翻译更快、更省。"
 date: 2026-10-04
 related:
-  - ["人工与机器翻译", "/news/human-vs-machine-translation-technical-content/"]
+  - ["人工与机器翻译", "/insights/human-vs-machine-translation-technical-content/"]
   - ["本地化服务", "/services/localization/"]
 ---
 

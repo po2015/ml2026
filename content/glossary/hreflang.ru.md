@@ -4,7 +4,7 @@ definition: "HTML-атрибут, который сообщает поисков
 description: "HTML-атрибут, который сообщает поисковым системам, на какой язык и регион рассчитана страница, чтобы каждый посетитель находил версию, написанную для него."
 date: 2026-10-04
 related:
-  - ["Гид по международному SEO", "/news/international-seo-guide-chinese-manufacturers/"]
+  - ["Гид по международному SEO", "/insights/international-seo-guide-chinese-manufacturers/"]
   - ["Создание сайтов", "/services/website-building/"]
 ---
 

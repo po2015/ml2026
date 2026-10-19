@@ -4,7 +4,7 @@ definition: "La plataforma de software que gestiona los flujos de localización 
 description: "La plataforma de software que gestiona los flujos de localización en un solo lugar: memorias de traducción, bases terminológicas, asignaciones y control de calidad."
 date: 2026-10-04
 related:
-  - ["Memoria de traducción y DTP", "/news/translation-memory-dtp-efficiency/"]
+  - ["Memoria de traducción y DTP", "/insights/translation-memory-dtp-efficiency/"]
   - ["Servicios de localización", "/services/localization/"]
 ---
 

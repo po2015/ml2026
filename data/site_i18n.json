@@ -42,7 +42,7 @@
         },
         {
           "label": "Insights",
-          "url": "/news/"
+          "url": "/insights/"
         },
         {
           "label": "About",
@@ -702,34 +702,6 @@
         "cta_body": "Let's build your global web presence together."
       }
     },
-    "news": {
-      "hero": {
-        "label": "Insights & News",
-        "title": "Localization Industry Insights & Global Web Trends",
-        "subtitle": "AI dubbing, multilingual DTP, e-learning localization, and export website best practices — written by the specialists who do the work."
-      },
-      "filters": [
-        [
-          "all",
-          "All"
-        ],
-        [
-          "tech",
-          "Tech Insights"
-        ],
-        [
-          "industry",
-          "Industry"
-        ],
-        [
-          "company",
-          "Company"
-        ]
-      ],
-      "empty_body": "Articles and insights will be published here soon.",
-      "cta_title": "Have a project in mind?",
-      "cta_body": "We respond to every inquiry within one business day."
-    },
     "taxonomy": {
       "browse_by": "Browse by",
       "tag": "Tag",
@@ -770,10 +742,6 @@
       "cases": {
         "title": "Case Studies — MediaLocalize",
         "description": "Real results from B2B website building and localization projects."
-      },
-      "news": {
-        "title": "Localization Industry Insights — MediaLocalize",
-        "description": "Expert articles on localization, AI dubbing, multilingual DTP, e-learning and export websites."
       },
       "privacy": {
         "title": "Privacy Policy",
@@ -1251,7 +1219,7 @@
         "faq": [
           {
             "q": "What is the difference between translation and localization?",
-            "a": "Translation converts words; localization adapts the whole experience — layout, images, formats, units, tone, and cultural references — so the result feels native. Every project we deliver is localized, not just translated. [Read the full comparison →](/news/localization-vs-translation-differences/)"
+            "a": "Translation converts words; localization adapts the whole experience — layout, images, formats, units, tone, and cultural references — so the result feels native. Every project we deliver is localized, not just translated. [Read the full comparison →](/insights/localization-vs-translation-differences/)"
           },
           {
             "q": "Which file formats do you work with?",
@@ -1597,6 +1565,10 @@
       "authors": {
         "title": "Our Authors",
         "description": "Meet the specialists behind MediaLocalize's insights on localization, AI dubbing, multilingual DTP, and export websites."
+      },
+      "insights": {
+        "title": "Localization Industry Insights — MediaLocalize",
+        "description": "Expert articles on localization, AI dubbing, multilingual DTP, e-learning and export websites."
       }
     },
     "glossary": {
@@ -1616,6 +1588,34 @@
     "authors": {
       "back": "All Authors",
       "articles_by": "Articles by %s"
+    },
+    "insights": {
+      "hero": {
+        "label": "Insights & News",
+        "title": "Localization Industry Insights & Global Web Trends",
+        "subtitle": "AI dubbing, multilingual DTP, e-learning localization, and export website best practices — written by the specialists who do the work."
+      },
+      "filters": [
+        [
+          "all",
+          "All"
+        ],
+        [
+          "tech",
+          "Tech Insights"
+        ],
+        [
+          "industry",
+          "Industry"
+        ],
+        [
+          "company",
+          "Company"
+        ]
+      ],
+      "empty_body": "Articles and insights will be published here soon.",
+      "cta_title": "Have a project in mind?",
+      "cta_body": "We respond to every inquiry within one business day."
     }
   },
   "zh": {
@@ -1661,7 +1661,7 @@
         },
         {
           "label": "洞察",
-          "url": "/news/"
+          "url": "/insights/"
         },
         {
           "label": "关于",
@@ -2321,34 +2321,6 @@
         "cta_body": "我们可以一起搭建你的全球内容与网站基础"
       }
     },
-    "news": {
-      "hero": {
-        "label": "洞察与文章",
-        "title": "本地化行业洞察与全球网站趋势",
-        "subtitle": "关于 AI 配音、多语言 DTP、课件本地化和外贸网站的实战经验，由真正做项目的人来写"
-      },
-      "filters": [
-        [
-          "all",
-          "全部"
-        ],
-        [
-          "tech",
-          "技术洞察"
-        ],
-        [
-          "industry",
-          "行业观察"
-        ],
-        [
-          "company",
-          "公司动态"
-        ]
-      ],
-      "empty_body": "文章将陆续发布",
-      "cta_title": "有项目想法",
-      "cta_body": "我们会认真回复每一条咨询，通常 1 个工作日内完成"
-    },
     "taxonomy": {
       "browse_by": "浏览",
       "tag": "标签",
@@ -2389,10 +2361,6 @@
       "cases": {
         "title": "案例 — MediaLocalize",
         "description": "真实外贸网站与本地化项目案例"
-      },
-      "news": {
-        "title": "本地化行业洞察 — MediaLocalize",
-        "description": "关于 AI 配音、DTP、课件本地化、外贸网站和国际 SEO 的实战文章"
       },
       "privacy": {
         "body": "## 隐私政策摘要\n我们只收集处理咨询和交付项目所必需的信息，例如姓名、邮箱、公司信息、项目资料和网站访问日志。数据用于回复咨询、提供服务、项目沟通、开票和安全维护。\n\n如需访问、更正或删除个人信息，请通过 ken.lee@medialocalize.com 联系我们。若中文说明与英文原文存在理解差异，以英文版本为准。",
@@ -2908,7 +2876,7 @@
         "faq": [
           {
             "q": "翻译和本地化有什么区别？",
-            "a": "翻译转换文字，本地化适配整体体验——版式、图片、格式、单位、语气和文化习惯——让成品读起来像原生内容。我们交付的每个项目都是本地化而非纯翻译。[阅读完整对比 →](/zh/news/localization-vs-translation-differences/)"
+            "a": "翻译转换文字，本地化适配整体体验——版式、图片、格式、单位、语气和文化习惯——让成品读起来像原生内容。我们交付的每个项目都是本地化而非纯翻译。[阅读完整对比 →](/zh/insights/localization-vs-translation-differences/)"
           },
           {
             "q": "支持哪些文件格式？",
@@ -3427,76 +3395,6 @@
         ],
         "body": "长期本地化合作的价值在于知识积累，术语库、项目经验和版式模板会让每一次更新更快、更稳"
       },
-      "news/ai-dubbing-vs-human-voice": {
-        "title": "AI 配音还是真人配音 什么时候该选哪一种",
-        "summary": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好",
-        "description": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好"
-      },
-      "news/translation-memory-dtp-efficiency": {
-        "title": "翻译记忆库如何缩短 DTP 周期",
-        "summary": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大",
-        "description": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大"
-      },
-      "news/why-chinese-exporters-need-english-website": {
-        "title": "没有英文官网，中国出口企业每天在失去什么",
-        "summary": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势",
-        "description": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"
-      },
-      "news/international-seo-guide-chinese-manufacturers": {
-        "title": "中国制造企业国际 SEO 实用指南",
-        "summary": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构",
-        "description": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构"
-      },
-      "news/localization-vs-translation-differences": {
-        "title": "本地化与翻译 决定内容是否有效的差别",
-        "summary": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任",
-        "description": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任"
-      },
-      "news/website-localization-guide-b2b-exporters": {
-        "title": "什么是网站本地化，为什么 B2B 出口商不能忽视",
-        "summary": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的",
-        "description": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
-      },
-      "news/oem-product-catalog-website-guide": {
-        "title": "如何建设能带来 OEM 询盘的产品目录网站",
-        "summary": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚",
-        "description": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚"
-      },
-      "news/neural-tts-ai-voice-localization": {
-        "title": "神经 TTS 与 AI 语音本地化的兴起",
-        "summary": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度",
-        "description": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
-      },
-      "news/human-vs-machine-translation-technical-content": {
-        "title": "技术内容该用人工翻译还是机器翻译",
-        "summary": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断",
-        "description": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断"
-      },
-      "news/export-website-speed-cdn-performance": {
-        "title": "为什么外贸网站在海外打开很慢，以及如何解决",
-        "summary": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案",
-        "description": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
-      },
-      "news/elearning-localization-global-audiences": {
-        "title": "面向全球学员的在线课程本地化",
-        "summary": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试",
-        "description": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
-      },
-      "news/video-localization-corporate-training-guide": {
-        "title": "企业培训视频本地化 字幕配音与屏幕文字",
-        "summary": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工",
-        "description": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工"
-      },
-      "news/multilingual-dtp-typography-guide": {
-        "title": "多语言 DTP 与排版指南",
-        "summary": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则",
-        "description": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则"
-      },
-      "news/cost-of-poor-localization-b2b-export": {
-        "title": "B2B 出口营销中低质量本地化的真实成本",
-        "summary": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升",
-        "description": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
-      },
       "cases/ai-dubbing-industrial-videos": {
         "title": "保密客户 — 工业产品视频 AI 配音",
         "domain": "保密 · 工业设备制造商",
@@ -3551,6 +3449,80 @@
       "authors": {
         "title": "我们的作者",
         "description": "认识 MediaLocalize 洞察文章背后的本地化、AI 配音、DTP 与外贸建站专家。"
+      },
+      "insights": {
+        "title": "本地化行业洞察 — MediaLocalize",
+        "description": "关于 AI 配音、DTP、课件本地化、外贸网站和国际 SEO 的实战文章"
+      },
+      "insights/ai-dubbing-vs-human-voice": {
+        "title": "AI 配音还是真人配音 什么时候该选哪一种",
+        "summary": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好",
+        "description": "AI 与真人配音各有适用场景，选择标准应该是内容类型、预算、交付周期和品牌要求，而不是简单偏好"
+      },
+      "insights/translation-memory-dtp-efficiency": {
+        "title": "翻译记忆库如何缩短 DTP 周期",
+        "summary": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大",
+        "description": "翻译记忆不仅节省翻译成本，对产品目录、手册和多语言排版的后续更新同样影响巨大"
+      },
+      "insights/why-chinese-exporters-need-english-website": {
+        "title": "没有英文官网，中国出口企业每天在失去什么",
+        "summary": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势",
+        "description": "对面向国际 B2B 买家的制造企业来说，没有英文官网不是中性状态，而是持续失去询盘的竞争劣势"
+      },
+      "insights/international-seo-guide-chinese-manufacturers": {
+        "title": "中国制造企业国际 SEO 实用指南",
+        "summary": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构",
+        "description": "让英文官网被海外买家在 Google 找到，需要不同于国内 SEO 的关键词、技术和内容结构"
+      },
+      "insights/localization-vs-translation-differences": {
+        "title": "本地化与翻译 决定内容是否有效的差别",
+        "summary": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任",
+        "description": "翻译转换文字，本地化让内容在目标市场自然可信，这个差别会直接影响 B2B 营销信任"
+      },
+      "insights/website-localization-guide-b2b-exporters": {
+        "title": "什么是网站本地化，为什么 B2B 出口商不能忽视",
+        "summary": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的",
+        "description": "网站本地化不是把中文翻成英文，而是让目标市场买家觉得这个网站就是为他们准备的"
+      },
+      "insights/oem-product-catalog-website-guide": {
+        "title": "如何建设能带来 OEM 询盘的产品目录网站",
+        "summary": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚",
+        "description": "OEM 买家评估供应商有自己的逻辑，网站必须把规格、证书、下载和询盘路径讲清楚"
+      },
+      "insights/neural-tts-ai-voice-localization": {
+        "title": "神经 TTS 与 AI 语音本地化的兴起",
+        "summary": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度",
+        "description": "从机械朗读到自然合成，神经 TTS 改变了多语言音频生产的成本和速度"
+      },
+      "insights/human-vs-machine-translation-technical-content": {
+        "title": "技术内容该用人工翻译还是机器翻译",
+        "summary": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断",
+        "description": "机器翻译进步很快，但技术内容仍需要术语、上下文和安全风险判断"
+      },
+      "insights/export-website-speed-cdn-performance": {
+        "title": "为什么外贸网站在海外打开很慢，以及如何解决",
+        "summary": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案",
+        "description": "中国服务器上的网站在海外可能慢到流失询盘，CDN 和静态部署通常是最直接的解决方案"
+      },
+      "insights/elearning-localization-global-audiences": {
+        "title": "面向全球学员的在线课程本地化",
+        "summary": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试",
+        "description": "课件本地化不只是翻旁白，还包括音频同步、SCORM、场景文化适配和 LMS 测试"
+      },
+      "insights/video-localization-corporate-training-guide": {
+        "title": "企业培训视频本地化 字幕配音与屏幕文字",
+        "summary": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工",
+        "description": "培训视频本地化涉及时间轴、画面、音频和发布格式，前期选对方案能避免大量返工"
+      },
+      "insights/multilingual-dtp-typography-guide": {
+        "title": "多语言 DTP 与排版指南",
+        "summary": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则",
+        "description": "翻译之后，文档还需要适配字体、行距、表格、RTL 和 CJK 断行规则"
+      },
+      "insights/cost-of-poor-localization-b2b-export": {
+        "title": "B2B 出口营销中低质量本地化的真实成本",
+        "summary": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升",
+        "description": "差的本地化不只是看起来不专业，它会让询盘消失、沟通变长、合规风险上升"
       }
     },
     "glossary": {
@@ -3570,6 +3542,34 @@
     "authors": {
       "back": "全部作者",
       "articles_by": "%s 的文章"
+    },
+    "insights": {
+      "hero": {
+        "label": "洞察与文章",
+        "title": "本地化行业洞察与全球网站趋势",
+        "subtitle": "关于 AI 配音、多语言 DTP、课件本地化和外贸网站的实战经验，由真正做项目的人来写"
+      },
+      "filters": [
+        [
+          "all",
+          "全部"
+        ],
+        [
+          "tech",
+          "技术洞察"
+        ],
+        [
+          "industry",
+          "行业观察"
+        ],
+        [
+          "company",
+          "公司动态"
+        ]
+      ],
+      "empty_body": "文章将陆续发布",
+      "cta_title": "有项目想法",
+      "cta_body": "我们会认真回复每一条咨询，通常 1 个工作日内完成"
     }
   },
   "es": {
@@ -3615,7 +3615,7 @@
         },
         {
           "label": "Ideas",
-          "url": "/news/"
+          "url": "/insights/"
         },
         {
           "label": "Equipo",
@@ -4277,34 +4277,6 @@
         "cta_body": "Podemos construir juntos tu presencia global."
       }
     },
-    "news": {
-      "hero": {
-        "label": "Ideas y noticias",
-        "title": "Localización y tendencias web globales",
-        "subtitle": "Doblaje con IA, DTP multilingüe, e-learning y sitios para exportación, contado desde la práctica."
-      },
-      "filters": [
-        [
-          "all",
-          "Todo"
-        ],
-        [
-          "tech",
-          "Tecnología"
-        ],
-        [
-          "industry",
-          "Industria"
-        ],
-        [
-          "company",
-          "Empresa"
-        ]
-      ],
-      "empty_body": "Publicaremos nuevos artículos pronto.",
-      "cta_title": "¿Tienes un proyecto en mente?",
-      "cta_body": "Respondemos cada consulta en un día hábil."
-    },
     "taxonomy": {
       "browse_by": "Explorar por",
       "tag": "Etiqueta",
@@ -4345,10 +4317,6 @@
       "cases": {
         "title": "Casos — MediaLocalize",
         "description": "Casos reales de sitios web B2B y localización."
-      },
-      "news": {
-        "title": "Ideas de localización — MediaLocalize",
-        "description": "Artículos sobre localización, DTP, doblaje con IA y sitios de exportación."
       },
       "privacy": {
         "body": "## Resumen de privacidad\nRecopilamos solo la información necesaria para responder consultas y entregar proyectos: nombre, email, empresa, archivos de trabajo y registros técnicos del sitio. Puedes solicitar acceso, corrección o eliminación escribiendo a ken.lee@medialocalize.com. En caso de diferencia, prevalece la versión inglesa.",
@@ -4864,7 +4832,7 @@
         "faq": [
           {
             "q": "¿Cuál es la diferencia entre traducción y localización?",
-            "a": "La traducción convierte palabras; la localización adapta toda la experiencia — maquetación, imágenes, formatos, unidades, tono y referencias culturales — para que el resultado parezca nativo. Todos nuestros proyectos se localizan, no solo se traducen. [Lee la comparación completa →](/es/news/localization-vs-translation-differences/)"
+            "a": "La traducción convierte palabras; la localización adapta toda la experiencia — maquetación, imágenes, formatos, unidades, tono y referencias culturales — para que el resultado parezca nativo. Todos nuestros proyectos se localizan, no solo se traducen. [Lee la comparación completa →](/es/insights/localization-vs-translation-differences/)"
           },
           {
             "q": "¿Con qué formatos de archivo trabajan?",
@@ -5383,76 +5351,6 @@
         ],
         "body": "La localización recurrente gana valor cuando la memoria, la terminología y el equipo se mantienen."
       },
-      "news/ai-dubbing-vs-human-voice": {
-        "title": "Doblaje con IA o voces humanas: cuándo conviene cada opción",
-        "summary": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos.",
-        "description": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."
-      },
-      "news/translation-memory-dtp-efficiency": {
-        "title": "Cómo la memoria de traducción reduce los tiempos de DTP",
-        "summary": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados.",
-        "description": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados."
-      },
-      "news/why-chinese-exporters-need-english-website": {
-        "title": "El coste silencioso de no tener un sitio web en inglés",
-        "summary": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana.",
-        "description": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."
-      },
-      "news/international-seo-guide-chinese-manufacturers": {
-        "title": "SEO internacional para fabricantes chinos: guía práctica",
-        "summary": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China.",
-        "description": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
-      },
-      "news/localization-vs-translation-differences": {
-        "title": "Localización y traducción: la diferencia que cambia el resultado",
-        "summary": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo.",
-        "description": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
-      },
-      "news/website-localization-guide-b2b-exporters": {
-        "title": "Qué es la localización web y por qué importa en B2B exportador",
-        "summary": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto.",
-        "description": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
-      },
-      "news/oem-product-catalog-website-guide": {
-        "title": "Cómo crear un catálogo web que genere consultas OEM",
-        "summary": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta.",
-        "description": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
-      },
-      "news/neural-tts-ai-voice-localization": {
-        "title": "Neural TTS y el auge de la voz con IA en localización",
-        "summary": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones.",
-        "description": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
-      },
-      "news/human-vs-machine-translation-technical-content": {
-        "title": "Traducción humana o automática para contenido técnico",
-        "summary": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano.",
-        "description": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
-      },
-      "news/export-website-speed-cdn-performance": {
-        "title": "Por qué tu sitio de exportación carga lento fuera de China",
-        "summary": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema.",
-        "description": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
-      },
-      "news/elearning-localization-global-audiences": {
-        "title": "Localización de e-learning para audiencias globales",
-        "summary": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS.",
-        "description": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
-      },
-      "news/video-localization-corporate-training-guide": {
-        "title": "Localización de video corporativo: subtítulos, doblaje y texto en pantalla",
-        "summary": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación.",
-        "description": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
-      },
-      "news/multilingual-dtp-typography-guide": {
-        "title": "Guía de DTP y tipografía multilingüe",
-        "summary": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas.",
-        "description": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas."
-      },
-      "news/cost-of-poor-localization-b2b-export": {
-        "title": "El coste real de una mala localización en marketing B2B",
-        "summary": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento.",
-        "description": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
-      },
       "cases/ai-dubbing-industrial-videos": {
         "title": "Cliente confidencial — Doblaje con IA para vídeos industriales",
         "domain": "Confidencial · Fabricante de equipos industriales",
@@ -5507,6 +5405,80 @@
       "authors": {
         "title": "Nuestros autores",
         "description": "Conoce a los especialistas detrás de los artículos de MediaLocalize sobre localización, doblaje con IA, DTP multilingüe y sitios web de exportación."
+      },
+      "insights": {
+        "title": "Ideas de localización — MediaLocalize",
+        "description": "Artículos sobre localización, DTP, doblaje con IA y sitios de exportación."
+      },
+      "insights/ai-dubbing-vs-human-voice": {
+        "title": "Doblaje con IA o voces humanas: cuándo conviene cada opción",
+        "summary": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos.",
+        "description": "La decisión depende del tipo de contenido, presupuesto, plazo y nivel de marca. No hay una respuesta única para todos los proyectos."
+      },
+      "insights/translation-memory-dtp-efficiency": {
+        "title": "Cómo la memoria de traducción reduce los tiempos de DTP",
+        "summary": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados.",
+        "description": "La memoria de traducción no solo baja costes lingüísticos; también acelera actualizaciones de catálogos, manuales y documentos maquetados."
+      },
+      "insights/why-chinese-exporters-need-english-website": {
+        "title": "El coste silencioso de no tener un sitio web en inglés",
+        "summary": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana.",
+        "description": "Para fabricantes que buscan compradores B2B internacionales, no tener un sitio en inglés significa perder consultas cualificadas cada semana."
+      },
+      "insights/international-seo-guide-chinese-manufacturers": {
+        "title": "SEO internacional para fabricantes chinos: guía práctica",
+        "summary": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China.",
+        "description": "Posicionar un sitio en Google exige palabras clave, estructura técnica y contenido distintos al SEO doméstico en China."
+      },
+      "insights/localization-vs-translation-differences": {
+        "title": "Localización y traducción: la diferencia que cambia el resultado",
+        "summary": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo.",
+        "description": "Traducir convierte palabras; localizar hace que el contenido genere confianza en el mercado objetivo."
+      },
+      "insights/website-localization-guide-b2b-exporters": {
+        "title": "Qué es la localización web y por qué importa en B2B exportador",
+        "summary": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto.",
+        "description": "Localizar un sitio no es pasar texto a otro idioma: es adaptar estructura, tono, pruebas de confianza y experiencia de contacto."
+      },
+      "insights/oem-product-catalog-website-guide": {
+        "title": "Cómo crear un catálogo web que genere consultas OEM",
+        "summary": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta.",
+        "description": "Los compradores OEM evalúan especificaciones, certificados, descargas y contacto técnico antes de enviar una consulta."
+      },
+      "insights/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS y el auge de la voz con IA en localización",
+        "summary": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones.",
+        "description": "La síntesis neural cambió el coste y la velocidad de producir audio multilingüe para formación y demostraciones."
+      },
+      "insights/human-vs-machine-translation-technical-content": {
+        "title": "Traducción humana o automática para contenido técnico",
+        "summary": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano.",
+        "description": "La traducción automática ayuda, pero la terminología, el contexto y el riesgo técnico siguen necesitando criterio humano."
+      },
+      "insights/export-website-speed-cdn-performance": {
+        "title": "Por qué tu sitio de exportación carga lento fuera de China",
+        "summary": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema.",
+        "description": "Un sitio rápido en Shanghái puede ser lento en Europa o América. CDN y despliegue estático suelen resolver el problema."
+      },
+      "insights/elearning-localization-global-audiences": {
+        "title": "Localización de e-learning para audiencias globales",
+        "summary": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS.",
+        "description": "Un curso localizado requiere texto, audio, sincronía, SCORM, escenarios culturales y pruebas en LMS."
+      },
+      "insights/video-localization-corporate-training-guide": {
+        "title": "Localización de video corporativo: subtítulos, doblaje y texto en pantalla",
+        "summary": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación.",
+        "description": "Elegir bien entre subtítulos, doblaje y adaptación visual evita retrabajos costosos en bibliotecas de formación."
+      },
+      "insights/multilingual-dtp-typography-guide": {
+        "title": "Guía de DTP y tipografía multilingüe",
+        "summary": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas.",
+        "description": "Después de traducir, el documento necesita fuentes, saltos de línea, tablas, RTL y reglas CJK bien resueltas."
+      },
+      "insights/cost-of-poor-localization-b2b-export": {
+        "title": "El coste real de una mala localización en marketing B2B",
+        "summary": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento.",
+        "description": "Una localización pobre no solo se ve mal: reduce consultas, alarga conversaciones y aumenta riesgos de cumplimiento."
       }
     },
     "glossary": {
@@ -5526,6 +5498,34 @@
     "authors": {
       "back": "Todos los autores",
       "articles_by": "Artículos de %s"
+    },
+    "insights": {
+      "hero": {
+        "label": "Ideas y noticias",
+        "title": "Localización y tendencias web globales",
+        "subtitle": "Doblaje con IA, DTP multilingüe, e-learning y sitios para exportación, contado desde la práctica."
+      },
+      "filters": [
+        [
+          "all",
+          "Todo"
+        ],
+        [
+          "tech",
+          "Tecnología"
+        ],
+        [
+          "industry",
+          "Industria"
+        ],
+        [
+          "company",
+          "Empresa"
+        ]
+      ],
+      "empty_body": "Publicaremos nuevos artículos pronto.",
+      "cta_title": "¿Tienes un proyecto en mente?",
+      "cta_body": "Respondemos cada consulta en un día hábil."
     }
   },
   "ru": {
@@ -5571,7 +5571,7 @@
         },
         {
           "label": "Статьи",
-          "url": "/news/"
+          "url": "/insights/"
         },
         {
           "label": "О нас",
@@ -6233,34 +6233,6 @@
         "cta_body": "Давайте построим вашу международную веб-платформу."
       }
     },
-    "news": {
-      "hero": {
-        "label": "Статьи",
-        "title": "Локализация и международные веб-тренды",
-        "subtitle": "AI-дубляж, многоязычный DTP, e-learning и экспортные сайты с точки зрения практиков."
-      },
-      "filters": [
-        [
-          "all",
-          "Все"
-        ],
-        [
-          "tech",
-          "Технологии"
-        ],
-        [
-          "industry",
-          "Индустрия"
-        ],
-        [
-          "company",
-          "Компания"
-        ]
-      ],
-      "empty_body": "Скоро здесь появятся новые материалы.",
-      "cta_title": "Есть проект?",
-      "cta_body": "Мы отвечаем на каждый запрос в течение рабочего дня."
-    },
     "taxonomy": {
       "browse_by": "Просмотр по",
       "tag": "Тег",
@@ -6301,10 +6273,6 @@
       "cases": {
         "title": "Кейсы — MediaLocalize",
         "description": "Реальные кейсы B2B-сайтов и локализации."
-      },
-      "news": {
-        "title": "Статьи о локализации — MediaLocalize",
-        "description": "Материалы о локализации, AI-дубляже, DTP и экспортных сайтах."
       },
       "privacy": {
         "body": "## Кратко о конфиденциальности\nМы собираем только данные, необходимые для ответа на запрос и выполнения проекта: имя, email, компанию, проектные файлы и технические журналы сайта. Для доступа, исправления или удаления данных пишите на ken.lee@medialocalize.com. При расхождениях действует английская версия.",
@@ -6820,7 +6788,7 @@
         "faq": [
           {
             "q": "Чем перевод отличается от локализации?",
-            "a": "Перевод преобразует слова; локализация адаптирует весь опыт — вёрстку, изображения, форматы, единицы, тон и культурные реалии, — чтобы результат выглядел нативным. Каждый наш проект локализуется, а не просто переводится. [Читать полное сравнение →](/ru/news/localization-vs-translation-differences/)"
+            "a": "Перевод преобразует слова; локализация адаптирует весь опыт — вёрстку, изображения, форматы, единицы, тон и культурные реалии, — чтобы результат выглядел нативным. Каждый наш проект локализуется, а не просто переводится. [Читать полное сравнение →](/ru/insights/localization-vs-translation-differences/)"
           },
           {
             "q": "С какими форматами файлов вы работаете?",
@@ -7339,76 +7307,6 @@
         ],
         "body": "Повторяющаяся локализация становится эффективнее, когда сохраняются память, терминология и команда."
       },
-      "news/ai-dubbing-vs-human-voice": {
-        "title": "AI-дубляж или дикторы: когда выбирать каждый вариант",
-        "summary": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет.",
-        "description": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет."
-      },
-      "news/translation-memory-dtp-efficiency": {
-        "title": "Как translation memory сокращает сроки DTP",
-        "summary": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов.",
-        "description": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов."
-      },
-      "news/why-chinese-exporters-need-english-website": {
-        "title": "Скрытая цена отсутствия англоязычного сайта",
-        "summary": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов.",
-        "description": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов."
-      },
-      "news/international-seo-guide-chinese-manufacturers": {
-        "title": "Международное SEO для китайских производителей",
-        "summary": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае.",
-        "description": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
-      },
-      "news/localization-vs-translation-differences": {
-        "title": "Локализация и перевод: разница, от которой зависит результат",
-        "summary": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке.",
-        "description": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке."
-      },
-      "news/website-localization-guide-b2b-exporters": {
-        "title": "Что такое локализация сайта и почему она важна для B2B-экспорта",
-        "summary": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу.",
-        "description": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу."
-      },
-      "news/oem-product-catalog-website-guide": {
-        "title": "Как создать каталог, который приносит OEM-запросы",
-        "summary": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма.",
-        "description": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма."
-      },
-      "news/neural-tts-ai-voice-localization": {
-        "title": "Neural TTS и рост AI-голоса в локализации",
-        "summary": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций.",
-        "description": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций."
-      },
-      "news/human-vs-machine-translation-technical-content": {
-        "title": "Человеческий или машинный перевод технического контента",
-        "summary": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы.",
-        "description": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы."
-      },
-      "news/export-website-speed-cdn-performance": {
-        "title": "Почему экспортный сайт медленно открывается за рубежом",
-        "summary": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему.",
-        "description": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему."
-      },
-      "news/elearning-localization-global-audiences": {
-        "title": "Локализация e-learning для международной аудитории",
-        "summary": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS.",
-        "description": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
-      },
-      "news/video-localization-corporate-training-guide": {
-        "title": "Локализация обучающего видео: субтитры, дубляж и экранный текст",
-        "summary": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок.",
-        "description": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок."
-      },
-      "news/multilingual-dtp-typography-guide": {
-        "title": "Многоязычная DTP-верстка и типографика",
-        "summary": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK.",
-        "description": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK."
-      },
-      "news/cost-of-poor-localization-b2b-export": {
-        "title": "Реальная стоимость плохой локализации в B2B-маркетинге",
-        "summary": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски.",
-        "description": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски."
-      },
       "cases/ai-dubbing-industrial-videos": {
         "title": "Конфиденциальный клиент — ИИ-озвучка видео об оборудовании",
         "domain": "Конфиденциально · Производитель промышленного оборудования",
@@ -7463,6 +7361,80 @@
       "authors": {
         "title": "Наши авторы",
         "description": "Специалисты, которые пишут для MediaLocalize о локализации, ИИ-озвучке, вёрстке DTP и экспортных сайтах."
+      },
+      "insights": {
+        "title": "Статьи о локализации — MediaLocalize",
+        "description": "Материалы о локализации, AI-дубляже, DTP и экспортных сайтах."
+      },
+      "insights/ai-dubbing-vs-human-voice": {
+        "title": "AI-дубляж или дикторы: когда выбирать каждый вариант",
+        "summary": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет.",
+        "description": "Выбор зависит от типа контента, бюджета, сроков и уровня бренда. Универсального ответа для всех проектов нет."
+      },
+      "insights/translation-memory-dtp-efficiency": {
+        "title": "Как translation memory сокращает сроки DTP",
+        "summary": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов.",
+        "description": "Память переводов снижает не только стоимость перевода, но и время обновления каталогов, инструкций и сверстанных документов."
+      },
+      "insights/why-chinese-exporters-need-english-website": {
+        "title": "Скрытая цена отсутствия англоязычного сайта",
+        "summary": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов.",
+        "description": "Для производителя, который ищет международных B2B-покупателей, отсутствие английского сайта означает потерю квалифицированных запросов."
+      },
+      "insights/international-seo-guide-chinese-manufacturers": {
+        "title": "Международное SEO для китайских производителей",
+        "summary": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае.",
+        "description": "Продвижение в Google требует другой семантики, структуры сайта и технической настройки, чем внутреннее SEO в Китае."
+      },
+      "insights/localization-vs-translation-differences": {
+        "title": "Локализация и перевод: разница, от которой зависит результат",
+        "summary": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке.",
+        "description": "Перевод переносит слова; локализация помогает контенту вызывать доверие на конкретном рынке."
+      },
+      "insights/website-localization-guide-b2b-exporters": {
+        "title": "Что такое локализация сайта и почему она важна для B2B-экспорта",
+        "summary": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу.",
+        "description": "Локализация сайта адаптирует структуру, тон, форматы, доказательства надежности и путь к запросу."
+      },
+      "insights/oem-product-catalog-website-guide": {
+        "title": "Как создать каталог, который приносит OEM-запросы",
+        "summary": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма.",
+        "description": "OEM-покупатели смотрят на спецификации, сертификаты, PDF-данные и технический контакт до первого письма."
+      },
+      "insights/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS и рост AI-голоса в локализации",
+        "summary": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций.",
+        "description": "Нейросинтез изменил стоимость и скорость многоязычного аудио для обучения и демонстраций."
+      },
+      "insights/human-vs-machine-translation-technical-content": {
+        "title": "Человеческий или машинный перевод технического контента",
+        "summary": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы.",
+        "description": "MT полезен, но терминология, контекст и технические риски требуют человеческой экспертизы."
+      },
+      "insights/export-website-speed-cdn-performance": {
+        "title": "Почему экспортный сайт медленно открывается за рубежом",
+        "summary": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему.",
+        "description": "Сайт, быстрый в Китае, может быть медленным в Европе или США. CDN и статический деплой часто решают проблему."
+      },
+      "insights/elearning-localization-global-audiences": {
+        "title": "Локализация e-learning для международной аудитории",
+        "summary": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS.",
+        "description": "Курс требует адаптации текста, аудио, синхронизации, SCORM, сценариев и тестирования в LMS."
+      },
+      "insights/video-localization-corporate-training-guide": {
+        "title": "Локализация обучающего видео: субтитры, дубляж и экранный текст",
+        "summary": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок.",
+        "description": "Правильный выбор между субтитрами, дубляжом и визуальной адаптацией снижает риск дорогих переделок."
+      },
+      "insights/multilingual-dtp-typography-guide": {
+        "title": "Многоязычная DTP-верстка и типографика",
+        "summary": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK.",
+        "description": "После перевода документ нужно адаптировать под шрифты, переносы, таблицы, RTL и правила CJK."
+      },
+      "insights/cost-of-poor-localization-b2b-export": {
+        "title": "Реальная стоимость плохой локализации в B2B-маркетинге",
+        "summary": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски.",
+        "description": "Плохая локализация не просто выглядит непрофессионально: она снижает заявки, удлиняет продажи и повышает риски."
       }
     },
     "glossary": {
@@ -7482,6 +7454,34 @@
     "authors": {
       "back": "Все авторы",
       "articles_by": "Статьи автора: %s"
+    },
+    "insights": {
+      "hero": {
+        "label": "Статьи",
+        "title": "Локализация и международные веб-тренды",
+        "subtitle": "AI-дубляж, многоязычный DTP, e-learning и экспортные сайты с точки зрения практиков."
+      },
+      "filters": [
+        [
+          "all",
+          "Все"
+        ],
+        [
+          "tech",
+          "Технологии"
+        ],
+        [
+          "industry",
+          "Индустрия"
+        ],
+        [
+          "company",
+          "Компания"
+        ]
+      ],
+      "empty_body": "Скоро здесь появятся новые материалы.",
+      "cta_title": "Есть проект?",
+      "cta_body": "Мы отвечаем на каждый запрос в течение рабочего дня."
     }
   },
   "ar": {
@@ -7527,7 +7527,7 @@
         },
         {
           "label": "رؤى",
-          "url": "/news/"
+          "url": "/insights/"
         },
         {
           "label": "من نحن",
@@ -8189,34 +8189,6 @@
         "cta_body": "لننشئ معا حضورك العالمي على الويب."
       }
     },
-    "news": {
-      "hero": {
-        "label": "رؤى وأخبار",
-        "title": "رؤى التوطين واتجاهات الويب العالمية",
-        "subtitle": "دبلجة AI، الإخراج المكتبي متعدد اللغات، التعليم الإلكتروني ومواقع التصدير من خبرة عملية."
-      },
-      "filters": [
-        [
-          "all",
-          "الكل"
-        ],
-        [
-          "tech",
-          "تقنية"
-        ],
-        [
-          "industry",
-          "السوق"
-        ],
-        [
-          "company",
-          "الشركة"
-        ]
-      ],
-      "empty_body": "ستنشر المقالات قريبا.",
-      "cta_title": "هل لديك مشروع؟",
-      "cta_body": "نرد على كل استفسار خلال يوم عمل واحد."
-    },
     "taxonomy": {
       "browse_by": "تصفح حسب",
       "tag": "وسم",
@@ -8257,10 +8229,6 @@
       "cases": {
         "title": "حالات — MediaLocalize",
         "description": "أعمال حقيقية في بناء مواقع B2B والتوطين."
-      },
-      "news": {
-        "title": "رؤى التوطين — MediaLocalize",
-        "description": "مقالات حول التوطين ودبلجة AI والإخراج المكتبي ومواقع التصدير."
       },
       "privacy": {
         "body": "## ملخص الخصوصية\nنجمع فقط البيانات اللازمة للرد على الطلبات وتنفيذ المشاريع، مثل الاسم والبريد والشركة وملفات العمل وسجلات الموقع التقنية. لطلب الوصول أو التصحيح أو الحذف راسل ken.lee@medialocalize.com. عند الاختلاف تسود النسخة الإنجليزية.",
@@ -8776,7 +8744,7 @@
         "faq": [
           {
             "q": "ما الفرق بين الترجمة والتوطين؟",
-            "a": "الترجمة تحوّل الكلمات؛ أما التوطين فيكيّف التجربة كاملة — التخطيط والصور والتنسيقات والوحدات والنبرة والمراجع الثقافية — ليبدو الناتج أصيلًا. كل مشروع نسلّمه مُوطَّن لا مجرد مترجم. [اقرأ المقارنة الكاملة ←](/ar/news/localization-vs-translation-differences/)"
+            "a": "الترجمة تحوّل الكلمات؛ أما التوطين فيكيّف التجربة كاملة — التخطيط والصور والتنسيقات والوحدات والنبرة والمراجع الثقافية — ليبدو الناتج أصيلًا. كل مشروع نسلّمه مُوطَّن لا مجرد مترجم. [اقرأ المقارنة الكاملة ←](/ar/insights/localization-vs-translation-differences/)"
           },
           {
             "q": "ما صيغ الملفات التي تعملون بها؟",
@@ -9295,76 +9263,6 @@
         ],
         "body": "تزداد قيمة التوطين المتكرر عندما تبقى الذاكرة والمصطلحات والفريق ثابتة."
       },
-      "news/ai-dubbing-vs-human-voice": {
-        "title": "دبلجة AI أم أصوات بشرية: متى تختار كل خيار",
-        "summary": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام.",
-        "description": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام."
-      },
-      "news/translation-memory-dtp-efficiency": {
-        "title": "كيف تختصر ذاكرة الترجمة زمن الإخراج المكتبي",
-        "summary": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة.",
-        "description": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."
-      },
-      "news/why-chinese-exporters-need-english-website": {
-        "title": "التكلفة الخفية لغياب موقع إنجليزي",
-        "summary": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة.",
-        "description": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة."
-      },
-      "news/international-seo-guide-chinese-manufacturers": {
-        "title": "SEO دولي للمصنعين الصينيين: دليل عملي",
-        "summary": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين.",
-        "description": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
-      },
-      "news/localization-vs-translation-differences": {
-        "title": "التوطين والترجمة: الفرق الذي يغير النتيجة",
-        "summary": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف.",
-        "description": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف."
-      },
-      "news/website-localization-guide-b2b-exporters": {
-        "title": "ما هو توطين المواقع ولماذا يهم مصدري B2B",
-        "summary": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط.",
-        "description": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."
-      },
-      "news/oem-product-catalog-website-guide": {
-        "title": "كيف تبني كتالوج منتجات يجلب طلبات OEM",
-        "summary": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب.",
-        "description": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."
-      },
-      "news/neural-tts-ai-voice-localization": {
-        "title": "Neural TTS وصعود الصوت بالذكاء الاصطناعي في التوطين",
-        "summary": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض.",
-        "description": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض."
-      },
-      "news/human-vs-machine-translation-technical-content": {
-        "title": "ترجمة بشرية أم آلية للمحتوى التقني",
-        "summary": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية.",
-        "description": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية."
-      },
-      "news/export-website-speed-cdn-performance": {
-        "title": "لماذا يفتح موقع التصدير ببطء للمشترين الدوليين",
-        "summary": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا.",
-        "description": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
-      },
-      "news/elearning-localization-global-audiences": {
-        "title": "توطين التعليم الإلكتروني لجمهور عالمي",
-        "summary": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS.",
-        "description": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
-      },
-      "news/video-localization-corporate-training-guide": {
-        "title": "توطين فيديو التدريب: ترجمة ودبلجة ونصوص على الشاشة",
-        "summary": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة.",
-        "description": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة."
-      },
-      "news/multilingual-dtp-typography-guide": {
-        "title": "دليل الإخراج المكتبي والطباعة متعددة اللغات",
-        "summary": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة.",
-        "description": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة."
-      },
-      "news/cost-of-poor-localization-b2b-export": {
-        "title": "التكلفة الحقيقية للتوطين الضعيف في تسويق B2B",
-        "summary": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر.",
-        "description": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
-      },
       "cases/ai-dubbing-industrial-videos": {
         "title": "عميل باسم سرّي — الدبلجة بالذكاء الاصطناعي لفيديوهات صناعية",
         "domain": "اسم سرّي · مصنع معدات صناعية",
@@ -9419,6 +9317,80 @@
       "authors": {
         "title": "كُتّابنا",
         "description": "تعرف على الخبراء الذين يكتبون مقالات MediaLocalize عن التوطين والدبلجة بالذكاء الاصطناعي وDTP ومواقع التصدير."
+      },
+      "insights": {
+        "title": "رؤى التوطين — MediaLocalize",
+        "description": "مقالات حول التوطين ودبلجة AI والإخراج المكتبي ومواقع التصدير."
+      },
+      "insights/ai-dubbing-vs-human-voice": {
+        "title": "دبلجة AI أم أصوات بشرية: متى تختار كل خيار",
+        "summary": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام.",
+        "description": "يعتمد القرار على نوع المحتوى والميزانية والموعد وقيمة العلامة، وليس على تفضيل عام."
+      },
+      "insights/translation-memory-dtp-efficiency": {
+        "title": "كيف تختصر ذاكرة الترجمة زمن الإخراج المكتبي",
+        "summary": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة.",
+        "description": "ذاكرة الترجمة لا تخفض تكلفة اللغة فقط، بل تسرع تحديث الكتالوجات والأدلة والملفات المصممة."
+      },
+      "insights/why-chinese-exporters-need-english-website": {
+        "title": "التكلفة الخفية لغياب موقع إنجليزي",
+        "summary": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة.",
+        "description": "للمصنعين الباحثين عن مشترين B2B دوليين، غياب الموقع الإنجليزي يعني ضياع طلبات مؤهلة."
+      },
+      "insights/international-seo-guide-chinese-manufacturers": {
+        "title": "SEO دولي للمصنعين الصينيين: دليل عملي",
+        "summary": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين.",
+        "description": "الظهور في Google يحتاج كلمات وبنية تقنية ومحتوى مختلفا عن تحسين محركات البحث المحلي في الصين."
+      },
+      "insights/localization-vs-translation-differences": {
+        "title": "التوطين والترجمة: الفرق الذي يغير النتيجة",
+        "summary": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف.",
+        "description": "الترجمة تنقل الكلمات، أما التوطين فيجعل المحتوى موثوقا وطبيعيا في السوق المستهدف."
+      },
+      "insights/website-localization-guide-b2b-exporters": {
+        "title": "ما هو توطين المواقع ولماذا يهم مصدري B2B",
+        "summary": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط.",
+        "description": "توطين الموقع يكيف البنية والنبرة والصيغ وإشارات الثقة ومسار التواصل، لا النص فقط."
+      },
+      "insights/oem-product-catalog-website-guide": {
+        "title": "كيف تبني كتالوج منتجات يجلب طلبات OEM",
+        "summary": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب.",
+        "description": "مشترو OEM يراجعون المواصفات والشهادات وملفات PDF ومسار التواصل التقني قبل إرسال الطلب."
+      },
+      "insights/neural-tts-ai-voice-localization": {
+        "title": "Neural TTS وصعود الصوت بالذكاء الاصطناعي في التوطين",
+        "summary": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض.",
+        "description": "التوليد الصوتي العصبي غيّر تكلفة وسرعة إنتاج الصوت متعدد اللغات للتدريب والعروض."
+      },
+      "insights/human-vs-machine-translation-technical-content": {
+        "title": "ترجمة بشرية أم آلية للمحتوى التقني",
+        "summary": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية.",
+        "description": "الترجمة الآلية مفيدة، لكن المصطلحات والسياق والمخاطر التقنية تحتاج خبرة بشرية."
+      },
+      "insights/export-website-speed-cdn-performance": {
+        "title": "لماذا يفتح موقع التصدير ببطء للمشترين الدوليين",
+        "summary": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا.",
+        "description": "قد يكون الموقع سريعا محليا وبطيئا في أوروبا أو أمريكا. CDN والنشر الثابت يعالجان ذلك غالبا."
+      },
+      "insights/elearning-localization-global-audiences": {
+        "title": "توطين التعليم الإلكتروني لجمهور عالمي",
+        "summary": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS.",
+        "description": "الدورة الموطنة تحتاج نصا وصوتا وتزامنا وSCORM وسيناريوهات مناسبة واختبارا على LMS."
+      },
+      "insights/video-localization-corporate-training-guide": {
+        "title": "توطين فيديو التدريب: ترجمة ودبلجة ونصوص على الشاشة",
+        "summary": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة.",
+        "description": "اختيار النهج الصحيح بين الترجمة والدبلجة والتكييف البصري يقلل إعادة العمل المكلفة."
+      },
+      "insights/multilingual-dtp-typography-guide": {
+        "title": "دليل الإخراج المكتبي والطباعة متعددة اللغات",
+        "summary": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة.",
+        "description": "بعد الترجمة يحتاج الملف إلى خطوط وفواصل وجداول واتجاه RTL وقواعد CJK صحيحة."
+      },
+      "insights/cost-of-poor-localization-b2b-export": {
+        "title": "التكلفة الحقيقية للتوطين الضعيف في تسويق B2B",
+        "summary": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر.",
+        "description": "التوطين الضعيف لا يبدو غير مهني فقط، بل يخفض الطلبات ويطيل المبيعات ويرفع المخاطر."
       }
     },
     "glossary": {
@@ -9438,6 +9410,34 @@
     "authors": {
       "back": "كل الكُتّاب",
       "articles_by": "مقالات %s"
+    },
+    "insights": {
+      "hero": {
+        "label": "رؤى وأخبار",
+        "title": "رؤى التوطين واتجاهات الويب العالمية",
+        "subtitle": "دبلجة AI، الإخراج المكتبي متعدد اللغات، التعليم الإلكتروني ومواقع التصدير من خبرة عملية."
+      },
+      "filters": [
+        [
+          "all",
+          "الكل"
+        ],
+        [
+          "tech",
+          "تقنية"
+        ],
+        [
+          "industry",
+          "السوق"
+        ],
+        [
+          "company",
+          "الشركة"
+        ]
+      ],
+      "empty_body": "ستنشر المقالات قريبا.",
+      "cta_title": "هل لديك مشروع؟",
+      "cta_body": "نرد على كل استفسار خلال يوم عمل واحد."
     }
   }
 }

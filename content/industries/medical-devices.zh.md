@@ -8,11 +8,11 @@ services:
 cases:
   - "/cases/video-subtitling-medical-launch/"
 articles:
-  - "/news/technical-manual-translation-dtp-checklist/"
-  - "/news/human-vs-machine-translation-technical-content/"
-  - "/news/multilingual-dtp-typography-guide/"
-  - "/news/compliance-training-translation-accuracy/"
-  - "/news/multilingual-packaging-design-rules/"
+  - "/insights/technical-manual-translation-dtp-checklist/"
+  - "/insights/human-vs-machine-translation-technical-content/"
+  - "/insights/multilingual-dtp-typography-guide/"
+  - "/insights/compliance-training-translation-accuracy/"
+  - "/insights/multilingual-packaging-design-rules/"
 ---
 
 医疗器械内容遵循大多数供应商从未感受过的规则。使用说明、标签和培训材料必须使用监管机构批准的术语——在每个市场、每次修订都是如此——因为译错的剂量或禁忌不是质量问题,而是会留下记录的合规事故。

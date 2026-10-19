@@ -5,7 +5,7 @@ description: "ترجمة مصاحبة تضيف إلى الحوار تحديد ا
 date: 2026-10-04
 related:
   - ["توطين الفيديو", "/services/localization/video/"]
-  - ["دليل توطين الفيديو", "/news/video-localization-corporate-training-guide/"]
+  - ["دليل توطين الفيديو", "/insights/video-localization-corporate-training-guide/"]
 ---
 
 ترجمة SDH — للصم وضعاف السمع — تتجاوز الحوار. فهي تحدد المتحدثين وتصف الأصوات ذات المعنى ([يرن المنبه]، [تتصاعد الموسيقى]) وتشير إلى النبرة حين تحمل معنى. الترجمة العادية تفترض أن المشاهد يسمع؛ أما SDH فتفترض أنه لا يسمع.

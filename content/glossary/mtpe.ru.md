@@ -4,7 +4,7 @@ definition: "Процесс, в котором машинный перевод �
 description: "Процесс, в котором машинный перевод создаёт черновик, а профессиональные лингвисты доводят его до полного человеческого качества — быстрее и дешевле перевода с нуля."
 date: 2026-10-04
 related:
-  - ["Человеческий и машинный перевод", "/news/human-vs-machine-translation-technical-content/"]
+  - ["Человеческий и машинный перевод", "/insights/human-vs-machine-translation-technical-content/"]
   - ["Услуги локализации", "/services/localization/"]
 ---
 
