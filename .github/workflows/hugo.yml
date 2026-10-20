@@ -6,8 +6,8 @@ on:
       - main
       - master
   schedule:
-    # Daily rebuild (Beijing 09:07) so scheduled news articles go live within a day
-    - cron: '7 1 * * *'
+    # Weekly rebuild (Monday 09:07 Beijing) so scheduled news articles go live within a week
+    - cron: '7 1 * * 1'
   workflow_dispatch:
 
 permissions:
